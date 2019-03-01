@@ -14,6 +14,8 @@
     font-size: 12pt;
 }
 
+
+
 /*================================ ScrollBars ================================*/
 
 #app-mount ::-webkit-scrollbar, #app-mount ::-webkit-scrollbar-track-piece 
@@ -149,11 +151,13 @@ span[class="searchAnswer-3Dz2-q da-searchAnswer"] > span > span,
 .theme-dark .searchResultChannelCategory-1l0lSn, /* SEARCH BAR MORE TEXT */
 .theme-dark .reactionCount-2ddRoS, /* REACTION COUNT */
 .theme-dark .searchResultChannelIcon-1DnTme,  /* SEARCH BAR MORE TEXT */
+.theme-dark .embedFieldValue-nELq2s, /* EMBED FIELD */
 .theme-dark .guildName-1Bc3Ta, /* RECENT MENTIONS SERVER NAME */
 .theme-dark .guildDetail-1nRKNE, /* SERVER INVITE ONLINE/MEMBERS */
 .theme-dark .option-96V44q.user-O3Czj0 .displayedNick-3xxvzU, /* SEARCH BAR MORE TEXT NICKNAMES */
 .theme-dark .option-96V44q .answer-1n6g43, /* SEARCH BAR POPOUT HISTORY USERNAME */
 .theme-dark .option-96V44q strong, /* SEARCH BAR MORE TEXT */
+ .theme-dark .embedFooterText-28V_Wb, /* EMBED FOOTER */
 .theme-dark .option-96V44q .nonText-3CRkO0 /* SEARCH BAR POPOUT HISTORY SECONDARY */
 {
     color: var(--color-mid);
@@ -219,6 +223,10 @@ div[class="nameCollapsed-34uFWo colorTransition-2-M2tg overflowEllipsis-2JOaZ6 d
 {
     z-index: 1;
     color: var(--color-alert);
+}
+.theme-dark .embedAuthorName-3mnTWj, .theme-dark .embedFieldName-NFrena, .theme-dark .embedTitle-3OXDkz /* EMBED AUTHOR */
+{
+    color: var(--color-low) !important;
 }
 
 DIV[class="itemDefault-3Jdr52 item-PXvHYJ notSelected-1N1G5p da-itemDefault da-item da-notSelected tabBarItem-1Cg-MI da-tabBarItem"] /* RECENT MENTIONS SERVER TABS */
@@ -787,15 +795,18 @@ div[class="messageGroupWrapperOffsetCorrection-phOU-k da-messageGroupWrapperOffs
     border-radius: 0;
     margin-left: 0;
 }
-.da-channels .content-20Aix8::before
+.da-channels .content-20Aix8::before /* THE CHANNEL */
 {
+    animation-name: pulsingBackground;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
     content: "";
     position: absolute;
     left: 0px;
     top: 3px;
     bottom: 3px;
     width: 0;
-    background-color: var(--color-low);
+    background: var(--color-low);
     transition: width 0.4s;
 }
 .theme-dark .menu-Sp6bN1 /* SERVER POPOUT MENU */
@@ -930,6 +941,10 @@ div[class="Select-option"] > div > div
 {
     transition: 0ms;
 }
+.theme-dark .iconForeground-3y9f0B /* CHANNEL HEADER ICONS */
+{
+    color: var(--color-low);
+}
 .wrapperHovered-28fu1D, /* CHANNEL HEADER HOVER */
 .wrapperHoveredCollapsed-1PADEo /* COLLAPSED CHANNEL HEADER */
 {
@@ -949,10 +964,11 @@ svg[name="QuestionMark"] > g /* TOP RIGHT QUESTION MARK */
 }
 .contentHoveredText-2D9B-x /* HOVERED CHANNEL BACKGROUND */
 {
-    box-shadow: 0  3px 0 0 var(--color-low),
-                0 -3px 0 0 var(--color-low);
+    animation-name: pulsingShadow;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
     background: transparent;
-    color: var(--color-low);
 }
 .content-9, /* CHANNEL */
 .nameDefaultVoice-3WUH7s, /* VOICE CHANNEL UNSELECTED */
@@ -1506,8 +1522,6 @@ svg[class="colorHoveredVoice-1kucsK icon-sxakjD da-colorHoveredVoice da-icon"] /
     color: var(--color-low) !important;
 }
 /* ===================================== MEMBERS ==================================== */
-
-/* PROVIDED BY https://github.com/ChaseIngebritson/YoRHa-Discord-Theme*/
 .da-membersWrap .da-members {
   background-color: transparent;
 }
@@ -1550,4 +1564,30 @@ svg[class="colorHoveredVoice-1kucsK icon-sxakjD da-colorHoveredVoice da-icon"] /
   width: 0;
   background-color: var(--color-low);
   transition: width 0.4s;
+}
+
+
+
+
+/* =============================== KEYFRAMES ================================= */
+@keyframes pulsingBackground /* FOR PULSATING A BACKGROUND */
+{
+    0%   {background-color: var(--color-low);}
+    30%  {background-color: var(--color-low);}
+    50%  {background-color: var(--color-mid);}
+    70%  {background-color: var(--color-low);}
+    100% {background-color: var(--color-low);}
+}
+@keyframes pulsingShadow /* FOR BOX SHADOW AROUND CHANNEL/MEMBER LINES */
+{
+0%   {box-shadow: 0  3px 0 0 var(--color-low),
+                  0 -3px 0 0 var(--color-low);}
+30%  {box-shadow: 0  3px 0 0 var(--color-low),
+                  0 -3px 0 0 var(--color-low);}
+50%  {box-shadow: 0  3px 0 0 var(--color-mid),
+                  0 -3px 0 0 var(--color-mid);}
+70%  {box-shadow: 0  3px 0 0 var(--color-low),
+                  0 -3px 0 0 var(--color-low);}
+100% {box-shadow: 0  3px 0 0 var(--color-low),
+                  0 -3px 0 0 var(--color-low);}
 }
