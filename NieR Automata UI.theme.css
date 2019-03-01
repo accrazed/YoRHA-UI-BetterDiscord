@@ -1506,3 +1506,48 @@ svg[class="colorHoveredVoice-1kucsK icon-sxakjD da-colorHoveredVoice da-icon"] /
     color: var(--color-low) !important;
 }
 /* ===================================== MEMBERS ==================================== */
+
+/* PROVIDED BY https://github.com/ChaseIngebritson/YoRHa-Discord-Theme*/
+.da-membersWrap .da-members {
+  background-color: transparent;
+}
+.da-membersWrap .da-members .member-3W1lQa {
+  position: relative;
+  margin-left: 0;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  border-radius: 0;
+  color: var(--color-low);
+}
+.da-membersWrap .da-members .member-3W1lQa svg .da-activityIconForeground {
+  fill: var(--color-low);
+}
+.da-membersWrap .da-members .member-3W1lQa:hover,
+.da-membersWrap .da-members .member-3W1lQa.popout-open {
+  border-color: var(--color-low);
+}
+.da-membersWrap .da-members .member-3W1lQa:hover .da-content,
+.da-membersWrap .da-members .member-3W1lQa.popout-open .da-content,
+.da-membersWrap .da-members .member-3W1lQa:hover .da-activityText,
+.da-membersWrap .da-members .member-3W1lQa.popout-open .da-activityText,
+.da-membersWrap .da-members .member-3W1lQa:hover svg .da-activityIconForeground,
+.da-membersWrap .da-members .member-3W1lQa.popout-open svg .da-activityIconForeground {
+  color: var(--color-high);
+  fill: var(--color-high);
+  background-color: transparent;
+  z-index: 2;
+}
+.da-membersWrap .da-members .member-3W1lQa:hover::before,
+.da-membersWrap .da-members .member-3W1lQa.popout-open::before {
+  width: 100%;
+}
+.da-membersWrap .da-members .member-3W1lQa::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 3px;
+  bottom: 3px;
+  width: 0;
+  background-color: var(--color-low);
+  transition: width 0.4s;
+}
