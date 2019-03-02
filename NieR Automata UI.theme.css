@@ -7,7 +7,10 @@
     font-family: var(--nier-font);
 }
 
-
+.wordmark-2iDDfm /* GET RID OF DISCORD WATERMARK */
+{
+    opacity: 0;
+}
 
 
     /*================================ Main Transparency ================================*/
@@ -113,6 +116,7 @@ div[class="hasSpoilers-1IRtQC da-hasSpoilers"] > div > button > div, /* UPLOAD C
 .theme-dark .defaultIndicator-2X8Auf, /* INSTALL LOCATION */
 .lookFilled-1Gx00P.colorGreen-29iAKY, /* USER PROFILE SEND MESSAGE */
 .theme-dark .dim-1l4L4y span:active, /* SEARCH BAR POPOUT SEARCH FOR KEY ACTIVE */
+.description-1kmW86, /* LIBRARY POPOUT GAME DESCRIPTION */
 .theme-dark .titleChecked-2wg0pd, /* CHECKED BOX TEXT */
 .theme-dark .select-2TCrqx .Select-option, /* AFK DEFAULT */
 .theme-dark .selectableItem-1MP3MQ:hover, /* AUDIT LOG POPOUT HOVER */
@@ -124,6 +128,7 @@ div[class="hasSpoilers-1IRtQC da-hasSpoilers"] > div > button > div, /* UPLOAD C
 .regionSelectName-2-2FWh, /* REGION SELECT NAME */
 .newMessagesBar-mujexs button, /* NEW MESSAGE */
 .theme-dark .desc-2Dttbk, /* SETTINGS MODERATION BOXES */
+.theme-dark .guildName-2hvnt_, /* INVITE LINK SERVER NAME */
 .theme-dark .select-2TCrqx .has-value.Select--single>.Select-control .Select-value .Select-value-label, /* AFK TIMEOUT */
 .theme-dark .notDetected-33MY4s .gameName-1RiWHm, .theme-light .notDetected-33MY4s .gameName-1RiWHm, /* USER PROFILE GAME ACTIVITY  NO GAME DETECTED*/
 .theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6, /* RESET CHANGES SETTINGS */
@@ -191,6 +196,7 @@ a, /* ALL LINKS */
 .avatarUploader-3XDtmn .sizeInfo-SKMPPw, /* AVATAR UPLOADER TEXT */
 .theme-light .helpText-h3r3wC, .theme-light .label-wQQoIq, /* CREATE SERVER POPOUT */
 .theme-dark .guildDetail-1nRKNE, /* SERVER INVITE ONLINE/MEMBERS */
+.theme-dark .publisher-2ZxPEd, /* GAME SELECTED GAME POPOUT PUBLISHER */
 .theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover, .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover, /* SERVER SETTINGS ITEM HOVER */
 .theme-dark #bd-settingspane-container .ui-switch-item .style-description, /* USER SETTING BD DESCRIPTION */
 .theme-dark .option-96V44q.user-O3Czj0 .displayedNick-3xxvzU, /* SEARCH BAR MORE TEXT NICKNAMES */
@@ -224,6 +230,7 @@ div[class="topSectionNormal-2-vo2m da-topSectionNormal"] > header > button:hover
 .theme-dark .bannedUser-1IalTM .username-1b3MVI, /* SERVER SETTINGS BANS */
 .theme-dark h3.title-3KTIjF, /* GAME LATEST NEWS */
 .theme-dark .label-13UUcd, .theme-light .label-13UUcd, /* GAME DETAILS LABELS */
+.theme-dark .gameName-1W6Ym-, /* GAME POPOUT GAME SELECTED NAME */
 .theme-dark .item-1Yvehc, /* CONTEXT MENU TEXT */
 .theme-dark .description-1RsfgZ, /* DESCRIPTION/COST SHOP */
 .theme-dark .content-3FEARf, /* GAME COPYRIGHT */
@@ -294,6 +301,7 @@ div[class="regionSelectName-2-2FWh da-regionSelectName"], /* SERVER REGION */
 .theme-dark .title-2a5mvx, /* DISCORD NITRO TEXT */
 .theme-dark .topPill-30KHOu .item-PXvHYJ, /* LIBRARY TOP GAME UNSELECTED */
 .theme-dark .option-96V44q .filter-3Y_im-, /* SEARCH BAR POPOUT HISTORY DATE */
+.theme-dark .playersHeader-3xUYAQ, /* GAME POPOUT RECENTLY PLAYED */
 .theme-dark .item-1GzJrl, /* SERVER POPOUT MENU TEXT */
 .theme-dark .icon-1IKq3C, .theme-dark .textCell-1aBIUP, /* LIBRARY GAMES ICONS/TEXT */
 .theme-dark .giftBlurb-4VKZWm, /* NITRO BUTTON */
@@ -467,6 +475,7 @@ div[class="messageGroupWrapperOffsetCorrection-phOU-k da-messageGroupWrapperOffs
     }
     .theme-dark .wrapper-35wsBm /* SERVER INVITE */
     {
+        box-shadow: 3px 3px 0 var(--color-mid);
         background: var(--color-low);
         border-radius: 0;
         border: none;
@@ -863,6 +872,7 @@ div[class="messageGroupWrapperOffsetCorrection-phOU-k da-messageGroupWrapperOffs
     }
     .theme-dark .attachment-33OFj0 /* ATTACHMENT FILE */
     {
+        box-shadow: 3px 3px 0 var(--color-mid);
         background-color: var(--color-high);
         border-radius: 0;
         border: none
@@ -2335,6 +2345,7 @@ svg[class="colorHoveredVoice-1kucsK icon-sxakjD da-colorHoveredVoice da-icon"] /
     box-shadow: 4px 4px 0 var(--color-mid);
     border-radius: 0;
 }
+.theme-dark .body-1SVoBw, /* LIBRARY GAME POPOUT CAROUSEL CONTAINER */
 .theme-dark .bodySection-jqkkIP, .theme-light .bodySection-jqkkIP /* STORE GAME BUY SECTION */
 {
     background: var(--color-high);
@@ -2365,6 +2376,7 @@ path[d="M4 11.526V6.553l5.684-1.25v6.138L4 11.526zM20.105 3v8.29l-9.473.142V5.09
     background: var(--color-low);
     box-shadow: 4px 4px 0 var(--color-mid);
 }
+.theme-dark .publisher-2ZxPEd, /* GAME SELECTED GAME POPOUT PUBLISHER */
 .bodySection-jqkkIP /* GAME PAGE BORDERS */
 {
     border: none;
@@ -2437,6 +2449,22 @@ div[class="body-vr4WiF da-body"] > div[style="position: relative;"] /* ACTIVITY 
     color: var(--color-high);
     border-radius: 0;
     box-shadow: 3px 3px 0 var(--color-mid);
+}
+.theme-dark .gamePreview-9weYR2 /* LIBRARY POPOUT GAME SELECTED */
+{
+    background: var(--color-high);
+    box-shadow: 5px 5px 0 var(--color-mid);
+    border-radius: 0;
+}
+.theme-dark .themedPagination-3v0Dnu .dot-2Q_mMZ /* LIBRARY POPOUT CAROUSEL DOTS */
+{
+    background-color: var(--color-low);
+}
+.arrow-vOpU7R /* LIBRARY POPOUT GAME SELECTED ARROWS */,
+polygon[points="13 20 11 20 11 8 5.5 13.5 4.08 12.08 12 4.16 19.92 12.08 18.5 13.5 13 8"]
+{
+    opacity: 1;
+    fill: var(--color-low);
 }
 .dock-10JPBX /* ACTIVITY QUICK LAUNCHER INNER */
 {
