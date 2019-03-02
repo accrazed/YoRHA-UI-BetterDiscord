@@ -192,6 +192,7 @@ a, /* ALL LINKS */
 .regionSelectModal-12e-57 .regionSelectModalFooter-20C5iA, /*  SERVER REGION DESCRIPTION */
 .theme-dark .avatarUploader-3XDtmn .removeButton-1hcZyG:hover, /* REMOVE SERVER ICON HOVER */
 .theme-dark .cancelButton-3hVEV6:hover, .downloadButton-23tKQp:hover, /* DOWNLOAD AND CANCEL BUTTON HOVER */
+.theme-dark .label-2zCFFs,/* GAME DISCORD STAFF PICK */
 .theme-dark .guildName-1Bc3Ta, /* RECENT MENTIONS SERVER NAME */
 .theme-dark .sku-epQEb_:hover .name-u2zgy7, .theme-light .sku-epQEb_:hover .name-u2zgy7, /* GAME DOWNLOADABLE CONTENT HOVER */
 .theme-dark .inputPrompt-1vnYnD, /* REDEEM CODES INPUT PROMPT */
@@ -325,6 +326,8 @@ div[class="regionSelectName-2-2FWh da-regionSelectName"], /* SERVER REGION */
 .theme-dark .activeBreadcrumb-2mAmuI, .theme-dark .breadcrumb-22XhB5:hover, /* HOME STORE BROWSE BREADCRUM */
 .theme-dark .defaultColor-1_ajX0, /* CHANNEL DESCRIPTFION CHANNEL NAME */
 .theme-dark .username-XRo90I, /* HOME ACTIVITY USERNAME */
+.theme-dark .notes-3hkVr0, .theme-light .label-2zCFFs, /* GAME DISCORD STAFF PICK */
+.theme-dark .publisher-2O_BF0, .theme-dark .publisherAnchor-2YhQtQ, .theme-dark .username-Ga9-tM,/* GAME DISCORD STAFF PICK */
 .theme-light .description-QF3836, /* CREATE SERVER POPOUT TEXT */
 .theme-dark .pagination-eQpqgk, /* SEARCH BAR PAGES */
 .theme-dark .headerText-2niCs_, /* HOME ACTIVITY HEADERS */
