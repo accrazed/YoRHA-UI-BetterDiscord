@@ -1,4 +1,4 @@
-#app-mount .markup-2BOw-j:not(code), /* MOST FONTS */
+.theme-dark .markup-2BOw-j,
 #app-mount .channels-Ie2l6A, /* CHANNELS FONT */
 .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI /* DATESTAMP FONT */
 {
@@ -7,34 +7,9 @@
     font-family: var(--nier-font);
 }
 
-#app-mount ::placeholder
-{
-    color:var(--color-high);
-    font-size: 12pt;
-}
 
 
 
-/*================================ ScrollBars ================================*/
-
-#app-mount ::-webkit-scrollbar, #app-mount ::-webkit-scrollbar-track-piece 
-{
-    visibility:hidden;
-    width:4px;
-    border-radius: 0;
-    color: var(--color-low);
-}
-#app-mount ::-webkit-scrollbar-thumb 
-{
-    border:none !important; 
-    background: var(--color-low);
-    border-radius: 0px;
-}
-#app-mount .membersWrap-2h-GB4 ::-webkit-scrollbar 
-{
-    width:8px;
-    background: var(--color-low);
-}
     /*================================ Main Transparency ================================*/
 #app-mount .layer-3QrUeG, #app-mount .layers-3iHuyZ, #app-mount .container-2lgZY8, #app-mount .typing-2GQL18,
 #app-mount .root-1BQpZw,#app-mount .membersWrap-2h-GB4 .members-1998pB, #app-mount .messagesWrapper-3lZDfY,
@@ -46,55 +21,62 @@
 #app-mount .tile-2OwFgW, #app-mount .emojiAliasInput-1y-NBz .emojiInput-1aLNse, #app-mount .pageWrapper-1PgVDX 
 {
     background: transparent
-}
-    /*================================ Brightness adjust ================================*/
-#app-mount .app-2rEoOp, #app-mount .titleBar-AC4pGV 
-{
-    background: rgba(0, 0, 0, 0)
-}   
+} /* THANK YOU Satoru#4997 FOR PROVIDING THIS TRANSPARENCY FROM  https://github.com/satoru8/ExampleTheme/blob/master/ExampleTheme.theme.css*/
 
-    /*================================ Removes Discord wordmark from top left ================================*/
-#app-mount .typeWindows-1za-n7 
-{
-    padding-top:4px;margin-top: 0
-}
-#app-mount .wordmark-2iDDfm
-{
-    display:none
-}  
+
+
+
+
 .theme-dark .headerCozyMeta-rdohGq /* CHANGES ROLE COLOR IN MESSAGE HEADERS TO --color-low */
 {
     color: var(--color-low) !important;
 }
-
-
-    /*================================ Lowers brightness on backdrop ================================*/
-#app-mount .backdrop-1wrmKB 
+div[class="backdrop-1wrmKB da-backdrop"] /* BACKDROP WHEN YOU LOOK AT CONTEXT MENU/IMAGE UPLOAD/ETC */
 {
     background:rgba(0, 0, 0, 0.2) !important
-}  
-
-body
-{
-    backface-visibility:hidden
-}/* Chat */
-
-
+} 
 #app-mount /* .timestampCozy-2hLAPV */ 
 {
     color: var(--color-low);
 }
 
-#app-mount .chat-3bRxxu .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:before, /* LINE BEFORE DATESTAMP */
-#app-mount .chat-3bRxxu .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:after, /* LINE AFTER DATESTAMP */
-#app-mount .chat-3bRxxu .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:after, 
-#app-mount .chat-3bRxxu .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:before,
-#app-mount .chat-3bRxxu .dividerEnabled-2TTlcf, 
-#app-mount .chat-3bRxxu .channelTextArea-rNsIhG {border-color:transparent}  /* Cleans up the lines around the chat */
 
-/* Code Blocks */ 
-#app-mount .chat-3bRxxu .markup-2BOw-j pre, 
-#app-mount .chat-3bRxxu .markup-2BOw-j code.inline {background: #00000066}
+
+
+/* ============================== SCROLLBARS ===============================  */
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece /* SCROLLBAR BACK */
+{
+    visibility: hidden;
+}
+.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar, 
+.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track, 
+.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece
+{
+    background-color: none !important;
+    border-color: none !important;
+}
+.scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scroller-2FKFPG::-webkit-scrollbar, 
+.scrollerThemed-2oenus.themeGhostHairlineChannels-3G0x9_ .scroller-2FKFPG::-webkit-scrollbar
+{
+    width: 4px;
+}
+.scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scroller-2FKFPG::-webkit-scrollbar-thumb, 
+.scrollerThemed-2oenus.themeGhostHairlineChannels-3G0x9_ .scroller-2FKFPG::-webkit-scrollbar-thumb,
+.scroller-2FKFPG::-webkit-scrollbar-thumb /* SCROLLBAR THUMB */
+{
+    width: 4px;
+    border: none;
+    border-radius: 0;
+    background-color: var(--color-low) !important;
+}
+
+.scroller-2FKFPG::-webkit-scrollbar /* MESSAGES SCROLLBAR */
+{
+    width: 4px;
+}
+
+
+
 
 
 /* HIGH TEXT */
@@ -122,6 +104,7 @@ a:hover > div > div > div[class="collapsedTitle-uWuaaU title-i-qCkH da-collapsed
 span[class="searchFilter-2ESiM3 da-searchFilter"] > span > span,
 .theme-dark .select-2TCrqx .Select-control .Select-placeholder, /* MENU SELECT PLACEHOLDER */
 span[class="searchAnswer-3Dz2-q da-searchAnswer"] > span > span,
+.icon-2aINcz, /* NEW UNREADS ARROW ICON */
 .side-8zPYf6 .itemSelected-1qLhcL, /* USER PROFILE NOTIFICATIONS */
 div[class="hasSpoilers-1IRtQC da-hasSpoilers"] > div > button > div, /* UPLOAD CONFIRM TEXT */
 .theme-dark .featureIcon-1f78KU, /* GAME PAGE FEATURES ICON */
@@ -192,7 +175,6 @@ a, /* ALL LINKS */
 .regionSelectModal-12e-57 .regionSelectModalFooter-20C5iA, /*  SERVER REGION DESCRIPTION */
 .theme-dark .avatarUploader-3XDtmn .removeButton-1hcZyG:hover, /* REMOVE SERVER ICON HOVER */
 .theme-dark .cancelButton-3hVEV6:hover, .downloadButton-23tKQp:hover, /* DOWNLOAD AND CANCEL BUTTON HOVER */
-.theme-dark .label-2zCFFs,/* GAME DISCORD STAFF PICK */
 .theme-dark .guildName-1Bc3Ta, /* RECENT MENTIONS SERVER NAME */
 .theme-dark .sku-epQEb_:hover .name-u2zgy7, .theme-light .sku-epQEb_:hover .name-u2zgy7, /* GAME DOWNLOADABLE CONTENT HOVER */
 .theme-dark .inputPrompt-1vnYnD, /* REDEEM CODES INPUT PROMPT */
@@ -247,7 +229,6 @@ div[class="topSectionNormal-2-vo2m da-topSectionNormal"] > header > button:hover
 .theme-dark .content-3FEARf, /* GAME COPYRIGHT */
 .theme-dark .inviteSettingsInviteRow-3p2O-N, /* SERVER SETTINGS INVITES */
 .lookOutlined-3sRXeN.colorWhite-rEQuAQ, /* SHOP */
-.theme-dark .operations-36ENbA, /* EDIT MESSAGES TEXT */
 .title-1rUb9I, /* PRIVATE MESSAGE TITLE */
 .theme-dark .member-1q7VfX .tag-1YGWN9, /* SERVER SETTINGS MEMBERS */
 .theme-dark .name-u2zgy7, .theme-light .name-u2zgy7, /* GAME DOWNLOADABLE CONTENT */
@@ -327,8 +308,6 @@ div[class="regionSelectName-2-2FWh da-regionSelectName"], /* SERVER REGION */
 .theme-dark .activeBreadcrumb-2mAmuI, .theme-dark .breadcrumb-22XhB5:hover, /* HOME STORE BROWSE BREADCRUM */
 .theme-dark .defaultColor-1_ajX0, /* CHANNEL DESCRIPTFION CHANNEL NAME */
 .theme-dark .username-XRo90I, /* HOME ACTIVITY USERNAME */
-.theme-dark .notes-3hkVr0, .theme-light .label-2zCFFs, /* GAME DISCORD STAFF PICK */
-.theme-dark .publisher-2O_BF0, .theme-dark .publisherAnchor-2YhQtQ, .theme-dark .username-Ga9-tM,/* GAME DISCORD STAFF PICK */
 .theme-light .description-QF3836, /* CREATE SERVER POPOUT TEXT */
 .theme-dark .pagination-eQpqgk, /* SEARCH BAR PAGES */
 .theme-dark .headerText-2niCs_, /* HOME ACTIVITY HEADERS */
@@ -570,6 +549,20 @@ div[class="messageGroupWrapperOffsetCorrection-phOU-k da-messageGroupWrapperOffs
         box-shadow: 3px 3px 0 var(--color-high);
         opacity: 0.9;
     }
+    .unreadBar-3YD_k9 /* CHANNEL UNREAD MESSAGE */
+    {
+        background: var(--color-alert);
+        border-radius: 0;
+        color: var(--color-high);
+        box-shadow: 3px 3px 0 var(--color-mid);
+    }
+    .unreadBar-3YD_k9:hover /* CHANNEL UNREAD MESSAGE */
+    {
+        background: var(--color-alert);
+        border-radius: 0;
+        color: var(--color-high);
+        box-shadow: 3px 3px 0 var(--color-mid);
+    }
     .newMessagesBar-mujexs:hover /* NEW MESSAGE HOVER */
     {
         background-color: var(--color-alert);
@@ -801,6 +794,11 @@ div[class="messageGroupWrapperOffsetCorrection-phOU-k da-messageGroupWrapperOffs
     .avatar-17mtNa /* MESSAGE AVATAR */
     {
         margin: 3px 26px 20px 0px;
+    }
+    .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:after, /* LINES IN DATE STAMP */
+    .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:before
+    {
+        border: none;
     }
     .wrapper-2F3Zv8, .image-33JSyf/* MESSAGE AVATAR */
     {
@@ -1618,6 +1616,24 @@ svg[class="colorHoveredVoice-1kucsK icon-sxakjD da-colorHoveredVoice da-icon"] /
     color: var(--color-mid);
     box-shadow: 1px 1px 0 var(--color-mid);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ======================TOOL TIPS======================== */
 
