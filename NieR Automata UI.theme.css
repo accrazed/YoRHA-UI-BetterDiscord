@@ -1,3 +1,22 @@
+#app-mount .markup-2BOw-j:not(code), /* MOST FONTS */
+#app-mount .channels-Ie2l6A, /* CHANNELS FONT */
+.theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI /* DATESTAMP FONT */
+{
+    color: var(--color-low);
+    font-size: 11pt;
+    font-family: var(--nier-font);
+}
+
+#app-mount ::placeholder
+{
+    color:var(--color-high);
+    font-size: 12pt;
+}
+
+
+
+/*================================ ScrollBars ================================*/
+
 #app-mount ::-webkit-scrollbar, #app-mount ::-webkit-scrollbar-track-piece 
 {
     visibility:hidden;
