@@ -139,6 +139,7 @@ span[class="searchAnswer-3Dz2-q da-searchAnswer"] > span > span,
 .theme-dark .notDetected-33MY4s .gameName-1RiWHm, .theme-light .notDetected-33MY4s .gameName-1RiWHm, /* USER PROFILE GAME ACTIVITY  NO GAME DETECTED*/
 .theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6, /* RESET CHANGES SETTINGS */
 .theme-dark .input-cIJ7To, /* SERVER SETTINGS NAME */
+.theme-dark .bda-slist .bda-header, /* USER SETTINGS PLUGIN HEADER */
 .newMessagesBar-mujexs button:last-child, /* NEW MESSAGE */
 .theme-dark .row-rrHHJU, /* USER POPOUT ADD ROLE SECTION ROLE HOVER */
 .theme-dark .container-VSDcQc .input-1ppKdn, /* USER POPOUT ADD ROLE FOOTER TEXT*/
@@ -146,6 +147,7 @@ span[class="searchAnswer-3Dz2-q da-searchAnswer"] > span > span,
 .theme-dark .reaction-1ELvT8.reactionMe-23mbRf .reactionCount-2ddRoS, /* REACTION COUNT SELECTED */
 .theme-dark .container-VSDcQc .headerText-3i6A8K, /* USER POPOUT ADD ROLE FOOTER TEXT*/
 .lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover, /* USER POPOUT PLAYING A GAME - BUTTON HOVER */
+.theme-dark .bda-slist .bda-description, /* USER SETTINGS PLUGIN DESCRIPTION */
 .nameHoveredCollapsed-2orEWB, /* CHANNEL HEADER COLLAPSED HOVERED */
 .connectedAccountName-f8AEe2, /* USER PROFILE CONNECTED ACCOUNT TEXT */
 .colorHoveredText-OZnAgu, /* CHANNEL ICON HOVERED */
@@ -166,6 +168,7 @@ span[class="searchAnswer-3Dz2-q da-searchAnswer"] > span > span,
 .theme-dark .searchOption-zQ-1l6 .answer-1n6g43, /* SEARCH BAR POPOUT SECONDARY */
 .theme-dark .searchResultChannelCategory-1l0lSn, /* SEARCH BAR MORE TEXT */
 .theme-dark .reactionCount-2ddRoS, /* REACTION COUNT */
+.bd-blue .bda-slist .bda-footer a, /* USER SETTINGS PLUGIN WEBSITE */
 .theme-dark .searchResultChannelIcon-1DnTme,  /* SEARCH BAR MORE TEXT */
 .theme-dark .container-2x5lvQ section a, /* RTC LINK */
 .theme-dark .embedFieldValue-nELq2s, /* EMBED FIELD */
@@ -187,6 +190,7 @@ span[class="searchAnswer-3Dz2-q da-searchAnswer"] > span > span,
 .theme-light .helpText-h3r3wC, .theme-light .label-wQQoIq, /* CREATE SERVER POPOUT */
 .theme-dark .guildDetail-1nRKNE, /* SERVER INVITE ONLINE/MEMBERS */
 .theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover, .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover, /* SERVER SETTINGS ITEM HOVER */
+.theme-dark #bd-settingspane-container .ui-switch-item .style-description, /* USER SETTING BD DESCRIPTION */
 .theme-dark .option-96V44q.user-O3Czj0 .displayedNick-3xxvzU, /* SEARCH BAR MORE TEXT NICKNAMES */
 .theme-dark .option-96V44q .answer-1n6g43, /* SEARCH BAR POPOUT HISTORY USERNAME */
 .theme-dark .option-96V44q strong, /* SEARCH BAR MORE TEXT */
@@ -233,6 +237,7 @@ div > div[class="titleChecked-2wg0pd title-3BE6m5 da-titleChecked da-title"], /*
 .theme-dark .h5-18_1nd,/* SERVER POPOUT NOTIFICATION SETTINGS HEADER TEXT */
 .theme-dark .title-31JmR4, /* SERVER POPOUT NOTIFICATION SETTINGS HEADER TEXT */
 .theme-dark .selectableItem-1MP3MQ, /* AUDIT LOG POPOUT */
+.theme-dark .content-8biNdB p, .theme-dark .content-8biNdB ul li, /* CHANGE LOGS TEXT */
 .theme-dark .select-2TCrqx .Select-option.is-focused, /* AFK TIMEOUT FOCUS */
 .theme-dark .avatarUploader-3XDtmn .removeButton-1hcZyG, /* REMOVE SERVER ICON */
 .selector-2IcQBU, /* MESSAGE TYPE BOX HEADER */
@@ -306,6 +311,8 @@ button[class="actionButton-3W1xZa da-actionButton button-38aScr da-button lookIn
 div[class="itemDefault-3Jdr52 item-PXvHYJ notSelected-1N1G5p da-itemDefault da-item da-notSelected tabBarItem-1Cg-MI da-tabBarItem"], /* MESSAGE POPOUT RECENT MENTIONS TEXT */
 .theme-dark .mentionFilter-1PQ6ey .label-12YslM, /* MESSAGE POPOUT RECENT MENTIONS TEXT */
 .theme-dark .mentionFilter-1PQ6ey .value-2k8Drt,/* MESSAGE POPOUT RECENT MENTIONS TEXT */
+.theme-dark #bd-settingspane-container h2.ui-form-title, /* USER SETTINGS BD TITLE */
+.theme-dark #bd-settingspane-container .ui-switch-item h3, /* USER SETTINGS BD HEADER */
 .nameDefault-2DI02H, /* CHANNEL HEADER TEXT*/
 .da-membersWrap .da-members .da-membersGroup,/* MEMBER HEADER */
 .da-membersWrap .da-members .da-activityText, /* MEMBER HEADER  */
@@ -335,6 +342,7 @@ div[class="nameCollapsed-34uFWo colorTransition-2-M2tg overflowEllipsis-2JOaZ6 d
     z-index: 1;
     color: var(--color-alert);
 }
+.theme-dark #bd-settings-sidebar .ui-tab-bar-item, /* BANDAGED BETTER DISCORD */
 .theme-dark .embedAuthorName-3mnTWj, .theme-dark .embedFieldName-NFrena, .theme-dark .embedTitle-3OXDkz /* EMBED AUTHOR */
 {
     color: var(--color-low) !important;
@@ -2086,13 +2094,37 @@ svg[class="colorHoveredVoice-1kucsK icon-sxakjD da-colorHoveredVoice da-icon"] /
         border-radius: 0;
         box-shadow: 4px 4px 0 var(--color-mid);
     }
+    .theme-dark .bda-slist li /* USER SETTINGS PLUGINS */
+    {
+        background: var(--color-low);
+        border: none;
+        border-radius: 0;
+        box-shadow: 4px 4px 0 var(--color-mid);
+    }
+    .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected
+    {
+        background: var(--color-mid);
+        border-radius: 0;
+    }
+    #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked /* BETTER DISCORD SWITCH ON */
+    {
+        background: var(--color-low);
+    }
+    #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch /* BETTER DISCORD SWITCH OFF */
+    {
+        background: var(--color-mid);
+    }
 
     .theme-dark .checkbox-1ix_J3 /* CHECK BOX UNCHECKED */
     {
         border-color: var(--color-mid);
         border-radius: 0;
     }
-
+    .bd-blue .bd-pfbtn /* CLEAR EMOTE CACHE */
+    {
+        background: var(--color-low);
+        color: var(--color-high);
+    }
     .themeDefault-24hCdX.valueChecked-m-4IJZ /* SWITCH ON */
     {
         background-color: var(--color-low);
