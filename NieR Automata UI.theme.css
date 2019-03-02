@@ -247,6 +247,7 @@ div[class="topSectionNormal-2-vo2m da-topSectionNormal"] > header > button:hover
 .theme-dark .content-3FEARf, /* GAME COPYRIGHT */
 .theme-dark .inviteSettingsInviteRow-3p2O-N, /* SERVER SETTINGS INVITES */
 .lookOutlined-3sRXeN.colorWhite-rEQuAQ, /* SHOP */
+.theme-dark .operations-36ENbA, /* EDIT MESSAGES TEXT */
 .title-1rUb9I, /* PRIVATE MESSAGE TITLE */
 .theme-dark .member-1q7VfX .tag-1YGWN9, /* SERVER SETTINGS MEMBERS */
 .theme-dark .name-u2zgy7, .theme-light .name-u2zgy7, /* GAME DOWNLOADABLE CONTENT */
@@ -1617,24 +1618,6 @@ svg[class="colorHoveredVoice-1kucsK icon-sxakjD da-colorHoveredVoice da-icon"] /
     color: var(--color-mid);
     box-shadow: 1px 1px 0 var(--color-mid);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ======================TOOL TIPS======================== */
 
