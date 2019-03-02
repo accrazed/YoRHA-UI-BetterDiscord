@@ -1,22 +1,3 @@
-#app-mount .markup-2BOw-j:not(code), /* MOST FONTS */
-#app-mount .channels-Ie2l6A, /* CHANNELS FONT */
-.theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI /* DATESTAMP FONT */
-{
-    color: var(--color-low);
-    font-size: 11pt;
-    font-family: var(--nier-font);
-}
-
-#app-mount ::placeholder
-{
-    color:var(--color-high);
-    font-size: 12pt;
-}
-
-
-
-/*================================ ScrollBars ================================*/
-
 #app-mount ::-webkit-scrollbar, #app-mount ::-webkit-scrollbar-track-piece 
 {
     visibility:hidden;
@@ -198,11 +179,13 @@ div > div[class="titleChecked-2wg0pd title-3BE6m5 da-titleChecked da-title"], /*
 .theme-dark .h5-18_1nd,/* SERVER POPOUT NOTIFICATION SETTINGS HEADER TEXT */
 .theme-dark .title-31JmR4, /* SERVER POPOUT NOTIFICATION SETTINGS HEADER TEXT */
 .theme-dark .avatarUploader-3XDtmn .removeButton-1hcZyG, /* REMOVE SERVER ICON */
+.selector-2IcQBU, /* MESSAGE TYPE BOX HEADER */
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .statusText-2F9zIF, /* HOME FRIENDS STAUS */
 .userInfoSectionHeader-CBvMDh, /* USER PROFILE NOTE HEADER */
 .theme-dark .header-13MUnb, /* PRIVATE MESSAGE QUICK SEARCH TEXT */
 .theme-dark .radioGroup-1GBvlr, /* UNCHECKED BOX */
 .header-3YT7-d h2, /* GIFT INVENTORY REDEEM CODE  */
+.theme-dark .content-Qb0rXO, /* MESSAGES TYPE BOX TEXT CHANNEL */
 .theme-dark .emptyStateHeader-1ADtcL, .theme-dark .header-2HrZI4, /* GIFT INVENTORY REDEEM CODE  */
 .headerCellContent-1pLtOr, /* LIBRARY GAME HEADERS/SORTS */
 .nameCellText-1mpqtF, /* LIBRARY GAME NAME */
@@ -217,7 +200,7 @@ div > div[class="titleChecked-2wg0pd title-3BE6m5 da-titleChecked da-title"], /*
 .theme-dark .icon-1IKq3C, .theme-dark .textCell-1aBIUP, /* LIBRARY GAMES ICONS/TEXT */
 .theme-dark .contentDefault-16dKSY, /* SERVER POPOUT MENU TEXT LIST */
 .theme-dark .filenameLinkWrapper-1-14c5 > .anchor-3Z-8Bb,/* ATTACHMENT FILE NAME */
-.theme-dark .defaultColor-1_ajX0, /* CHANNEL DESCRIPTION CHANNEL NAME */
+.theme-dark .defaultColor-1_ajX0, /* CHANNEL DESCRIPTFION CHANNEL NAME */
 .theme-dark .username-XRo90I, /* HOME ACTIVITY USERNAME */
 .theme-dark .pagination-eQpqgk, /* SEARCH BAR PAGES */
 .theme-dark .headerText-2niCs_, /* HOME ACTIVITY HEADERS */
@@ -254,6 +237,7 @@ div[class="itemDefault-3Jdr52 item-PXvHYJ notSelected-1N1G5p da-itemDefault da-i
 .da-membersWrap .da-members .da-activityText, /* MEMBER HEADER  */
 .friendsTable-133bsv .friendsRow-2yicud .discord-tag .username, /* HOME FRIENDS NAME */
 .theme-dark .userSettingsAccount-2eMFVR .viewBody-2Qz-jg, /* USER SETTINGS MY ACCOUNT NAMES */
+.theme-dark .contentTitle-2tG_sM, /* MESSAGES TYPE BOX HEADER */
 .iconDefault-3Gr8d2, /* CHANNEL HEADER ARROW */
 .theme-dark .search-2oPWTC .DraftEditor-root, /* SEARCHBAR TEXT */
 .accountDetails-3k9g4n .username, /* CHANNEL ACCOUNT USERNAME */
@@ -585,6 +569,11 @@ div[class="messageGroupWrapperOffsetCorrection-phOU-k da-messageGroupWrapperOffs
     {
         opacity: 1;
         background-color: var(--color-high);
+    }
+    .theme-dark .selectorSelected-1_M1WV /* MESSAGE TYPE BOX TEXT CHANNELS */
+    {
+        background-color: var(--color-mid);
+        border-radius: 0;
     }
     .hasMore-3e72_v button, /* LOAD MORE MESSAGES */
     .theme-dark .hasMore-3e72_v button /* LOAD MORE MESSAGES */
@@ -1739,7 +1728,8 @@ svg[class="colorHoveredVoice-1kucsK icon-sxakjD da-colorHoveredVoice da-icon"] /
     border-radius: 0;
     color: var(--color-low);
 }
-.da-membersWrap .da-members .member-3W1lQa svg .da-activityIconForeground 
+.da-membersWrap .da-members .member-3W1lQa svg .da-activityIconForeground,
+.theme-dark .iconForeground-1w5n7R /* TYPE BOX HASH TAG */
 {
     fill: var(--color-low);
 }
@@ -1826,7 +1816,17 @@ svg[class="colorHoveredVoice-1kucsK icon-sxakjD da-colorHoveredVoice da-icon"] /
         border-radius: 0;
         color: var(--color-low);
     }
-    
+    .mention-1f5kbO:hover, /* SERVER BAR MENTION HOVER */
+    .mention-1f5kbO /* SERVER BAR MENTION */
+    {
+        background: var(--color-alert);
+    }
+    .theme-dark .unreadMentionsBar-1VrBNe /* SERVER BAR MENTION */
+    {
+        color: var(--color-high);
+        box-shadow: 3px 3px 0 var(--color-low);
+        border-radius: 0;
+    }
     /* ================USER SETTINGS ======================  */
     .theme-dark .cardPrimary-1Hv-to /* USER MY ACCOUNT LABEL */
     {
