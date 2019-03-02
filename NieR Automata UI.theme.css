@@ -112,6 +112,7 @@ span[class="searchAnswer-3Dz2-q da-searchAnswer"] > span > span,
 div[class="hasSpoilers-1IRtQC da-hasSpoilers"] > div > button > div, /* UPLOAD CONFIRM TEXT */
 .theme-dark .featureIcon-1f78KU, /* GAME PAGE FEATURES ICON */
 .searchBar-2_Yu-C.searchBarLight-1NxoDG input, /* EMOJI SEARCHBAR TEXT */
+.details-38sfDr, .nameNormal-2lqVQK, .playTime-2uWd1Z, .state-Tt0LO3, .timestamp-VjAZmo, /* SPOTIFY SONG NAME */
 .theme-dark .item-1GzJrl:hover, /* SERVER POPOUT HOVER */
 .theme-dark .defaultIndicator-2X8Auf, /* INSTALL LOCATION */
 .lookFilled-1Gx00P.colorGreen-29iAKY, /* USER PROFILE SEND MESSAGE */
@@ -877,7 +878,6 @@ div[class="messageGroupWrapperOffsetCorrection-phOU-k da-messageGroupWrapperOffs
         border-radius: 0;
         border: none
     }
-    .anchor-3Z-8Bb, /* ALL LINKS ? */
     .theme-dark .topic-2QX7LI a, /* LINKS IN HEADER */
     .theme-dark .markup-2BOw-j a /* LINKS */
     {
@@ -1750,6 +1750,14 @@ svg[class="colorHoveredVoice-1kucsK icon-sxakjD da-colorHoveredVoice da-icon"] /
     {
         box-shadow: 4px 4px 0 0 var(--color-mid);
         border-radius: 0px;
+    }
+    button[class="button-1Pkqso da-button button-38aScr da-button lookOutlined-3sRXeN colorWhite-rEQuAQ buttonSize-2Pmk-w da-buttonSize fullWidth-1orjjo da-fullWidth grow-q77ONN da-grow"] /* USER POPOUT PLAY ON SPOTIFY */
+    {
+        background: var(--color-high) !important; 
+    }
+    button[class="button-1Pkqso da-button button-38aScr da-button lookOutlined-3sRXeN colorWhite-rEQuAQ buttonSize-2Pmk-w da-buttonSize fullWidth-1orjjo da-fullWidth grow-q77ONN da-grow"]:hover /* USER POPOUT PLAY ON SPOTIFY HOVER */
+    {
+        background: var(--color-mid) !important;
     }
     .theme-dark .headerNormal-T_seeN, /* USER POPOUT HEADER */
     .headerPlaying-j0WQBV, /* USER POPOUT HEADER PLAYING */
