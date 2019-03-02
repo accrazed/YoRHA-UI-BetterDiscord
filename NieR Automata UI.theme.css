@@ -180,10 +180,12 @@ div[class="hasSpoilers-1IRtQC da-hasSpoilers"] > div > button > div, /* UPLOAD C
 .bd-blue .bda-slist .bda-footer a, /* USER SETTINGS PLUGIN WEBSITE */
 .theme-dark .searchResultChannelIcon-1DnTme,  /* SEARCH BAR MORE TEXT */
 .theme-dark .container-2x5lvQ section a, /* RTC LINK */
+a, /* ALL LINKS */
 .theme-dark .smallHeader-2h-9-U, /* NEW RELEASE GAME */
 .theme-dark .embedFieldValue-nELq2s, /* EMBED FIELD */
 .theme-dark .container-2x5lvQ section strong, /* RTC HILIGHTED */
 .theme-dark .description-1W0DiL, /* HYPESQUAD TEXT */
+.theme-dark .memberInfo-1TAaKC, /* GAME OFFICIAL DISCORD SUBTEXT */
 .theme-dark .notDetected-33MY4s .lastPlayed-3bQ7Bo, .theme-light .notDetected-33MY4s .lastPlayed-3bQ7Bo, /* USER PROFILE GAME ACTIVITY */
 .theme-dark .openDescription-2XUOH3, /* GAME BOX DESCRIPTION */
 .theme-dark .collapsedTimestamp-2gjDIM, .theme-dark .openTimestamp-sTgPmn, /* GAME BOX TIMESTAMP */
@@ -191,6 +193,7 @@ div[class="hasSpoilers-1IRtQC da-hasSpoilers"] > div > button > div, /* UPLOAD C
 .theme-dark .avatarUploader-3XDtmn .removeButton-1hcZyG:hover, /* REMOVE SERVER ICON HOVER */
 .theme-dark .cancelButton-3hVEV6:hover, .downloadButton-23tKQp:hover, /* DOWNLOAD AND CANCEL BUTTON HOVER */
 .theme-dark .guildName-1Bc3Ta, /* RECENT MENTIONS SERVER NAME */
+.theme-dark .sku-epQEb_:hover .name-u2zgy7, .theme-light .sku-epQEb_:hover .name-u2zgy7, /* GAME DOWNLOADABLE CONTENT HOVER */
 .theme-dark .inputPrompt-1vnYnD, /* REDEEM CODES INPUT PROMPT */
 .theme-dark .description-1irSAr, /* DISCORD NITRO TEXT */
 .theme-dark .timestamp-1mruiI, /* AUDIT LOG TIME STAMP */
@@ -245,6 +248,7 @@ div[class="topSectionNormal-2-vo2m da-topSectionNormal"] > header > button:hover
 .lookOutlined-3sRXeN.colorWhite-rEQuAQ, /* SHOP */
 .title-1rUb9I, /* PRIVATE MESSAGE TITLE */
 .theme-dark .member-1q7VfX .tag-1YGWN9, /* SERVER SETTINGS MEMBERS */
+.theme-dark .name-u2zgy7, .theme-light .name-u2zgy7, /* GAME DOWNLOADABLE CONTENT */
 .theme-dark .title-i-qCkH, /* GAME BOX TEXT */
 .theme-dark .header-3HFF3R, .theme-dark .text-1Z3P6i, /* STORE GAME WHY YOU MIGHT LIKE TEXT */
 .theme-dark .nowPlayingAdd-1Kdmh_, .theme-light .nowPlayingAdd-1Kdmh_, /* USER PROFILE GAME ACTIVITY */
@@ -325,6 +329,7 @@ div[class="regionSelectName-2-2FWh da-regionSelectName"], /* SERVER REGION */
 .theme-dark .pagination-eQpqgk, /* SEARCH BAR PAGES */
 .theme-dark .headerText-2niCs_, /* HOME ACTIVITY HEADERS */
 .theme-dark .actionText-3EKWER, .theme-light .actionText-3EKWER, /* GAME BUY DLC */
+.headerPurchase-2z_nch.active-MpmWDn, /* GAME FREE INSTALL */
 .theme-dark .gameName-wzJptK, /* HOME ACTIVITY NOW PLAYING GAME NAME */
 .theme-dark .resultsGroup-r_nuzN .header-2N-gMV, /* SEARCH BAR POPOUT HEADERS */
 .theme-dark .listingPrice-2GiDSc, /* GAME LISTING PRICE */
@@ -336,6 +341,7 @@ div[class="regionSelectName-2-2FWh da-regionSelectName"], /* SERVER REGION */
 .theme-dark .searchOption-zQ-1l6 .filter-3Y_im-, /* SEARCH BAR POPOUT OPTION TEXT */
 .theme-dark .container-2x5lvQ header, /* RTC HEADER */
 .theme-dark .channelSeparator-1X1FuH .channelName-1QajIf, /* SEARCH BAR CHANNEL NAME */
+.theme-dark .name-3TBxUq, /* GAME OFFICIAL DISCORD HEADER */
 .theme-dark .footerMain-Z8i6ST, /* HOME STORE THANKS FOR BROWSING */
 .theme-dark .hljs, /* CODEBLOCK <code>*/
 .theme-dark .container-2x5lvQ section p, /* RTC BODY */
@@ -369,6 +375,7 @@ div[class="itemDefault-3Jdr52 item-PXvHYJ notSelected-1N1G5p da-itemDefault da-i
 .theme-dark .userSettingsAccount-2eMFVR .viewBody-2Qz-jg, /* USER SETTINGS MY ACCOUNT NAMES */
 .theme-dark .contentTitle-2tG_sM, /* MESSAGES TYPE BOX HEADER */
 .iconDefault-3Gr8d2, /* CHANNEL HEADER ARROW */
+.theme-dark .title-2xCQKy, .theme-light .title-2xCQKy, /* GAME  DOWNLOADABLE CONTENT */
 .theme-dark .search-2oPWTC .DraftEditor-root, /* SEARCHBAR TEXT */
 .accountDetails-3k9g4n .username, /* CHANNEL ACCOUNT USERNAME */
 .description-Gcecy9, /* GAME NOTIFICATION DLC  */
@@ -2394,6 +2401,19 @@ div[class="searchBox-3Y2Vi7 da-searchBox filterByTitle-1b4n21 da-filterByTitle"]
     background: var(--color-high);
     border-radius: 0;
     box-shadow: 3px 3px 0 var(--color-mid);
+}
+.theme-dark .content-35aVm0 /* GAME OFFICIAL SERVER */
+{
+    background: var(--color-high);
+    border-radius: 0;
+    box-shadow: 3px 3px 0 var(--color-mid);
+}
+.theme-dark .price-NUANu6, .theme-light .price-NUANu6 /* GAME DOWNLOADABLE CONTENT PRICE */
+{
+    background: var(--color-low);
+    box-shadow: 3px 3px 0 var(--color-mid);
+    border-radius: 0;
+    color: var(--color-high);
 }
 .searchBar-6Kv8R2, /* HOME HEADER LEFT */
 .theme-dark .headerBar-UHpsPw /* HOME HEADER */
