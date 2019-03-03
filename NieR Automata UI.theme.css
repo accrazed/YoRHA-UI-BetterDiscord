@@ -234,7 +234,6 @@ a, /* ALL LINKS */
 .theme-dark .option-96V44q strong, /* SEARCH BAR MORE TEXT */
 .theme-dark .originalAmount-3RtnBh, /* SHOP ORIGINAL AMOUNT */
 .requirement-2guSgu, /* SYSTEM REQUIREMENT SPECS */
-.theme-dark .spoilerText-3p6IlD.hidden-HHr2R9:hover, /* spoiler text */
 .theme-dark .introBlurb-3gFgTQ, /* HYPESQUAD TEXT */
 .theme-dark.metadata-3WGS0M, /* ATTACHMENT FILE DATA */
 .theme-dark .bannedUser-1IalTM .username-1b3MVI .discrim-oGb-FO, .theme-dark .bannedUserModal-3RJCOV .reason-YbfGC6, .theme-dark .bannedUserModal-3RJCOV .userDiscrim-1D2NlF /* SERVER SETTINGS BANS DISCRIMINATOR */
@@ -878,6 +877,15 @@ div[class="messageGroupWrapperOffsetCorrection-phOU-k da-messageGroupWrapperOffs
     .large-3ChYtB > div/* MESSAGE AVATAR */
     {
         border: 3px solid var(--color-low);
+    }
+    .theme-dark .spoilerText-3p6IlD.hidden-HHr2R9 /* spoiler text */
+    {
+        background: var(--color-low);
+        border-radius: 0
+    }
+    .theme-dark .spoilerText-3p6IlD.hidden-HHr2R9:hover /* SPOILER TEXT HOVER */
+    {
+        background: var(--color-mid);
     }
     div[class="image-33JSyf da-image large-3ChYtB da-large"] /* MESSAGE AVATAR */
     {
