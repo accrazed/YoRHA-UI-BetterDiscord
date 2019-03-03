@@ -208,6 +208,7 @@ a, /* ALL LINKS */
 .regionSelectModal-12e-57 .regionSelectModalFooter-20C5iA, /*  SERVER REGION DESCRIPTION */
 .theme-dark .avatarUploader-3XDtmn .removeButton-1hcZyG:hover, /* REMOVE SERVER ICON HOVER */
 .theme-dark .cancelButton-3hVEV6:hover, .downloadButton-23tKQp:hover, /* DOWNLOAD AND CANCEL BUTTON HOVER */
+.theme-dark .container-3-pyIM .content-2M3n_H a, /* MESSAGES PINNED MESSAGE ALERT */
 .theme-dark .guildName-1Bc3Ta, /* RECENT MENTIONS SERVER NAME */
 .theme-light .sampleLink-KPFu3I, /* LINKS OR SOMETHING IDKbig  */
 .theme-dark .embedFooterText-28V_Wb, /* EMBED FOOTER */
@@ -813,6 +814,7 @@ div[class="messageGroupWrapperOffsetCorrection-phOU-k da-messageGroupWrapperOffs
         border-radius: 0;
         border: none;
     }
+    
     .theme-dark .searchResultsWrap-2DKFzt, /* SEARCH RESULTS BACK */
     .theme-dark .channelSeparator-1X1FuH .channelName-1QajIf /* SEARCH RESULTS CHANNEL HEADER */
     {
@@ -2137,6 +2139,13 @@ path[d="M13.5 4.5l-9 9"] /* CHANNEL ARROW DOWN */
         border-radius: 0;
         border: none;
         box-shadow: 3px 3px 0 var(--color-mid);
+    }
+    .theme-dark .message-2qRu38 /* PINNED MESAGE PROMPT */
+    {
+        background-color: var(--color-high);
+        border-radius: 0;
+        border: 2px solid var(--color-low);
+        box-shadow: none;
     }
     .searchBar-2_Yu-C .searchBarInner-1_Tg2R, /* PRIVATE MESSAGE QUICK SEARCH */
     .theme-dark .quickswitcher-3JagVE /* PRIVATE MESSAGE QUICK SEARCH */
