@@ -646,6 +646,10 @@ div[class="messageGroupWrapperOffsetCorrection-phOU-k da-messageGroupWrapperOffs
         text-shadow: none;
         color: var(--color-high);
     }
+    .theme-dark .unreadMentionsBar-1VrBNe >  svg > polygon /* NEW MESSAGE IN SERVER BAR ARROW */
+    {
+        fill: var(--color-high) !important;
+    }
     .theme-dark .messageGroupBlocked-3wrQQX.revealed-1_RKsf /* BLOCKED MESSAGE OPEN CONTAINER */
     {
         background: var(--color-high);
