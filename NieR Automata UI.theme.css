@@ -149,6 +149,7 @@ div[class="hasSpoilers-1IRtQC da-hasSpoilers"] > div > button > div, /* UPLOAD C
 .theme-dark .selectableItem-1MP3MQ:hover, /* AUDIT LOG POPOUT HOVER */
 .theme-dark .auditLog-3jNbM6 strong, /* AUDIT LOG EMOJI NAME */
 .theme-dark .userHook-3AdCBF, /* AUDIT LOG NAME */
+.noticeStreamerMode-2TSQpg, /* STREAMER MODE HEADER */
 .theme-dark .descChecked-XkfPsU, /* CHECKED BOX SUBTEXT */
 .theme-dark .description-2Ifi6N strong, .theme-dark .username-2gp_Xw, /* STORE GAME HOVER TEXT HEADER */
 .theme-dark .description-2Ifi6N,/* STORE GAME HOVER TEXT HEADER */
@@ -1155,6 +1156,24 @@ div[class="messageGroupWrapperOffsetCorrection-phOU-k da-messageGroupWrapperOffs
 
 
 /*                                     ====================CHANNELS==================== */
+.noticeStreamerMode-2TSQpg /* STREAMER MODE LABEL */
+{
+   background-color: var(--color-low);
+   border-radius: 0;
+}
+.theme-dark .button-1MICoQ, .theme-light .button-1MICoQ /* STREAMER MODE BUTTON */
+{
+    color: var(--color-low);
+    background: var(--color-high);
+    border: none;
+    border-radius: 0;
+    box-shadow: 3px 3px 0 var(--color-mid);
+}
+.theme-dark .button-1MICoQ:hover, .theme-light .button-1MICoQ:hover /* STREAMER MODE HOVER */
+{
+    background: var(--color-mid);
+    color: var(--color-high);
+}
 .hasDropdown-2invhV .header-2o-2hj:hover /* SERVER HEADER HOVER */
 {
     border-radius: 0 !important;
