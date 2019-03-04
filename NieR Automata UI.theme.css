@@ -216,6 +216,7 @@ a, /* ALL LINKS */
 .theme-dark .inputPrompt-1vnYnD, /* REDEEM CODES INPUT PROMPT */
 .theme-dark .description-1irSAr, /* DISCORD NITRO TEXT */
 .theme-dark .timestamp-1mruiI, /* AUDIT LOG TIME STAMP */
+.mobileIndicator-3gyhuE, /* MOBILE INDICATOR */
 .theme-dark .timestamp-1E3uAL, /* START CALL TIMESTAMP */
 .theme-light .inputLabel-vJ2Z0B, /* JOIN SERVER INPUT LABEL */
 .theme-dark .discriminator-1Kma2g, /* HOME ACTIVITY NOW PLAYING DISCRIMINATOR */
@@ -295,6 +296,7 @@ div[class="topSectionNormal-2-vo2m da-topSectionNormal"] > header > button:hover
 .theme-dark .gameName-1RiWHm, /* USER PROFILE game activity */
 .theme-dark .quickSelectPopoutOption-opKBx9:hover > div > div, /* PRIVATE CALL CHANGE REGION TEXT */
 .theme-dark .friendsTable-133bsv .friendTableAddWrapper-nHHZtK h2, /* HOME FRIENDS ADD FIRNED TEXT */
+.theme-dark .container-3-pyIM .content-2M3n_H a, /* PRIVATE MESSAGE CALL LOG NAME */ 
 div > div[class="titleChecked-2wg0pd title-3BE6m5 da-titleChecked da-title"], /* NOTIFICATION SETTINGS SELECTED */
 .content-2M3n_H, /* CALL STARTED TEXT */
 .theme-dark .spoilerText-3p6IlD.hidden-HHr2R9, /* SPOILER TEXT */
@@ -325,6 +327,7 @@ div[class="regionSelectName-2-2FWh da-regionSelectName"], /* SERVER REGION */
 .iconMuted-1HVBGH, .nameMuted-1MCOt4, /* MUTED CATEGORY */
 .headerCellContent-1pLtOr, /* LIBRARY GAME HEADERS/SORTS */
 .theme-dark #bd-settings-sidebar .ui-tab-bar-header, /* BETTER DISCORD HEADER */
+.theme-dark .embedDescription-1Cuq9a, /* EMBED DESCRIPTION */
 .nameCellText-1mpqtF, /* LIBRARY GAME NAME */
 .theme-dark .usageInfo-2WQAwr, /* GAME LIBRARY DRIVE */
 .jumpToPresentBar-9P20AM button, /* JUMP TO PRESENT TEXT */
@@ -933,10 +936,6 @@ div[class="messageGroupWrapperOffsetCorrection-phOU-k da-messageGroupWrapperOffs
     .theme-dark .reaction-1ELvT8.reactionMe-23mbRf /* REACTIONS CONTAINER SELECTED */
     {
         background: var(--color-low);
-    }
-    .theme-dark .embedDescription-1Cuq9a /* EMBED DESCRIPTION */
-    {
-        color: var(--color-mid);
     }
     div[class="embedContentInner-FBnk7v da-embedContentInner markup-2BOw-j da-markup"] /* EMBED CONTENT */
     {
@@ -1775,25 +1774,6 @@ path[d="M13.5 4.5l-9 9"] /* CHANNEL ARROW DOWN */
     color: var(--color-mid);
     box-shadow: 1px 1px 0 var(--color-mid);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ======================TOOL TIPS======================== */
 
 .tooltip-1OS-Ti.black-2bmmnj,
@@ -2381,6 +2361,7 @@ path[d="M13.5 4.5l-9 9"] /* CHANNEL ARROW DOWN */
     {
         background-color: var(--color-low) !important;
     }
+    .theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse
     /* ================USER SETTINGS ======================  */
     .theme-dark .cardPrimary-1Hv-to /* USER MY ACCOUNT LABEL */
     {
@@ -2395,6 +2376,10 @@ path[d="M13.5 4.5l-9 9"] /* CHANNEL ARROW DOWN */
         border: none;
         border-radius: 0;
         box-shadow: 4px 4px 0 var(--color-mid);
+    }
+    .theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse /* EMOJI INPUT BACKGROUND */
+    {
+        background-color: var(--color-mid);
     }
     .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected
     {
