@@ -137,6 +137,7 @@ span[class="searchAnswer-3Dz2-q da-searchAnswer"] > span > span,
 .side-8zPYf6 .itemSelected-1qLhcL, /* USER PROFILE NOTIFICATIONS */
 div[class="hasSpoilers-1IRtQC da-hasSpoilers"] > div > button > div, /* UPLOAD CONFIRM TEXT */
 .theme-dark .featureIcon-1f78KU, /* GAME PAGE FEATURES ICON */
+div[class="vertical-V37hAW flex-1O1GKY directionColumn-35P_nr da-vertical da-flex da-directionColumn"] > div > div > div > button > div[class="contents-18-Yxp da-contents"],
 .searchBar-2_Yu-C.searchBarLight-1NxoDG input, /* EMOJI SEARCHBAR TEXT */
 .details-38sfDr, .nameNormal-2lqVQK, .playTime-2uWd1Z, .state-Tt0LO3, .timestamp-VjAZmo, /* SPOTIFY SONG NAME */
 .theme-dark .item-1GzJrl:hover, /* SERVER POPOUT HOVER */
@@ -168,6 +169,8 @@ div[class="hasSpoilers-1IRtQC da-hasSpoilers"] > div > button > div, /* UPLOAD C
 .newMessagesBar-mujexs button:last-child, /* NEW MESSAGE */
 .theme-dark .row-rrHHJU, /* USER POPOUT ADD ROLE SECTION ROLE HOVER */
 .theme-dark .container-VSDcQc .input-1ppKdn, /* USER POPOUT ADD ROLE FOOTER TEXT*/
+.theme-dark .note-3kmerW textarea::placeholder, /* USER POPOUT ADD NOTE PLACEHOLDER */
+.theme-dark .quickMessage-1yeL4E::placeholder, /* USER POPOUT QUICK MESSAGE PLACEHOLDER */
 .theme-dark .input-2VB9rf, /* PRIVATE MESSAGE QUICK SEARCH INPUT BAR */
 .theme-dark .reaction-1ELvT8.reactionMe-23mbRf .reactionCount-2ddRoS, /* REACTION COUNT SELECTED */
 .theme-dark .container-VSDcQc .headerText-3i6A8K, /* USER POPOUT ADD ROLE FOOTER TEXT*/
@@ -273,6 +276,7 @@ div[class="topSectionNormal-2-vo2m da-topSectionNormal"] > header > button:hover
 .lookOutlined-3sRXeN.colorWhite-rEQuAQ, /* SHOP */
 .title-1rUb9I, /* PRIVATE MESSAGE TITLE */
 .theme-dark .member-1q7VfX .tag-1YGWN9, /* SERVER SETTINGS MEMBERS */
+.theme-dark .container-3-pyIM .content-2M3n_H a, /* PRIVATE MESSAGE CALL LOG NAME */ 
 .theme-dark .name-u2zgy7, .theme-light .name-u2zgy7, /* GAME DOWNLOADABLE CONTENT */
 .theme-dark .title-i-qCkH, /* GAME BOX TEXT */
 .theme-dark .header-3HFF3R, .theme-dark .text-1Z3P6i, /* STORE GAME WHY YOU MIGHT LIKE TEXT */
