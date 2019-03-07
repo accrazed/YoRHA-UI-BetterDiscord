@@ -149,6 +149,7 @@ div[class="vertical-V37hAW flex-1O1GKY directionColumn-35P_nr da-vertical da-fle
 .theme-dark .select-2TCrqx .Select-option, /* AFK DEFAULT */
 .theme-dark .selectableItem-1MP3MQ:hover, /* AUDIT LOG POPOUT HOVER */
 .theme-dark .auditLog-3jNbM6 strong, /* AUDIT LOG EMOJI NAME */
+.searchBar-2_Yu-C.searchBarLight-1NxoDG input::placeholder, /* EMOJI PLACEHOLDER TEXT */
 .theme-dark .userHook-3AdCBF, /* AUDIT LOG NAME */
 .noticeStreamerMode-2TSQpg, /* STREAMER MODE HEADER */
 .theme-dark .descChecked-XkfPsU, /* CHECKED BOX SUBTEXT */
@@ -178,6 +179,7 @@ div[class="vertical-V37hAW flex-1O1GKY directionColumn-35P_nr da-vertical da-fle
 .theme-dark .bda-slist .bda-description, /* USER SETTINGS PLUGIN DESCRIPTION */
 .nameHoveredCollapsed-2orEWB, /* CHANNEL HEADER COLLAPSED HOVERED */
 .connectedAccountName-f8AEe2, /* USER PROFILE CONNECTED ACCOUNT TEXT */
+.theme-dark .homeIcon-1FoKUJ, /* HOME ICON */ 
 .colorHoveredText-OZnAgu, /* CHANNEL ICON HOVERED */
 .noticeRegion-1YviSH > div > div > div > button > div, /* SERVER SAVE CHANGES */
 .emojiPicker-3m1S-j .category-2U57w6 /* EMOJI PICKER HEADER */
@@ -199,6 +201,7 @@ div[class="vertical-V37hAW flex-1O1GKY directionColumn-35P_nr da-vertical da-fle
 .bd-blue .bda-slist .bda-footer a, /* USER SETTINGS PLUGIN WEBSITE */
 .theme-dark .searchResultChannelIcon-1DnTme,  /* SEARCH BAR MORE TEXT */
 .theme-dark .container-2x5lvQ section a, /* RTC LINK */
+.operations-36ENbA>a, /* EDIT MESSAGE FOOTER LINKS */
 a, /* ALL LINKS */
 .theme-dark .smallHeader-2h-9-U, /* NEW RELEASE GAME */
 .theme-dark .embedFieldValue-nELq2s, /* EMBED FIELD */
@@ -268,6 +271,7 @@ div[class="topSectionNormal-2-vo2m da-topSectionNormal"] > header > button:hover
 .theme-dark .text-GwUZgS, .theme-dark .title-2BxgL2, /* CHANNEL INVITES */
 .theme-dark .bannedUser-1IalTM .username-1b3MVI, /* SERVER SETTINGS BANS */
 .theme-dark h3.title-3KTIjF, /* GAME LATEST NEWS */
+.theme-dark .operations-36ENbA, /* EDIT MESSAGE FOOTER TEXT */
 .theme-dark .label-13UUcd, .theme-light .label-13UUcd, /* GAME DETAILS LABELS */
 .theme-dark .gameName-1W6Ym-, /* GAME POPOUT GAME SELECTED NAME */
 .theme-dark .item-1Yvehc, /* CONTEXT MENU TEXT */
@@ -278,7 +282,7 @@ div[class="topSectionNormal-2-vo2m da-topSectionNormal"] > header > button:hover
 .lookOutlined-3sRXeN.colorWhite-rEQuAQ, /* SHOP */
 .title-1rUb9I, /* PRIVATE MESSAGE TITLE */
 .theme-dark .member-1q7VfX .tag-1YGWN9, /* SERVER SETTINGS MEMBERS */
-.theme-dark .container-3-pyIM .content-2M3n_H a, /* PRIVATE MESSAGE CALL LOG NAME */ 
+.theme-dark .container-3-pyIM .content-2M3n_H a, /* PRIVATE MESSAGE CALL LOG NAME */
 .theme-dark .name-u2zgy7, .theme-light .name-u2zgy7, /* GAME DOWNLOADABLE CONTENT */
 .theme-dark .title-i-qCkH, /* GAME BOX TEXT */
 .theme-dark .header-3HFF3R, .theme-dark .text-1Z3P6i, /* STORE GAME WHY YOU MIGHT LIKE TEXT */
@@ -453,8 +457,8 @@ div[class="nameCollapsed-34uFWo colorTransition-2-M2tg overflowEllipsis-2JOaZ6 d
     color: var(--color-mid);
 }
 
-
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item, /* BANDAGED BETTER DISCORD */
+.embedProvider-3k5pfl, /* EMBED PROVIDER */
 .theme-dark .embedAuthorName-3mnTWj, .theme-dark .embedFieldName-NFrena, .theme-dark .embedTitle-3OXDkz /* EMBED AUTHOR */
 {
     color: var(--color-low) !important;
@@ -884,10 +888,10 @@ div[class="messageGroupWrapperOffsetCorrection-phOU-k da-messageGroupWrapperOffs
     {
         border-radius: var(--avatar-image-radius);
     }
-    .large-3ChYtB > div/* MESSAGE AVATAR */
+    .image-33JSyf/* MESSAGE AVATAR */
     {
-        /* border: 3px solid var(--color-low);  using border instead, but breaks certain plugins like status everywhere*/
-        box-shadow: 0 0 0 3px var(--color-low);
+        /* border: 3px solid var(--color-low); */
+        box-shadow: 0 0 0 3px var(--color-low) !important;
     }
     .theme-dark .spoilerText-3p6IlD.hidden-HHr2R9 /* spoiler text */
     {
@@ -907,6 +911,7 @@ div[class="messageGroupWrapperOffsetCorrection-phOU-k da-messageGroupWrapperOffs
     {
         margin-top: 2px;
         margin-left: -20px;
+        margin-right: 45px;
     }
     div[class="embedContentInner-FBnk7v markup-2BOw-j da-embedContentInner da-markup"] /* TEXT IN EMBED */
     {
@@ -1102,10 +1107,7 @@ div[class="messageGroupWrapperOffsetCorrection-phOU-k da-messageGroupWrapperOffs
     }
     .searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R /* EMOJI SEARCHBAR */
     {
-        background-color: var(--color-mid);
-    }
-    .searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R:focus > input /* EMOJI SEARCHBAR */
-    {
+        border-radius: 0;
         background-color: var(--color-low);
     }
     .theme-dark .channelTextArea-rNsIhG /* TYPE BOX BORDER */
@@ -2035,6 +2037,7 @@ path[d="M13.5 4.5l-9 9"] /* CHANNEL ARROW DOWN */
         border: 2px solid var(--color-low);
         box-shadow: none;
     }
+    .theme-dark .footer-1kmXd4, /* PINNED MESSAGES FOOTER */
     .theme-dark .jumpButton-3DTcS_/* PINNED MESSAGES JUMP BUTTON */
     {
     background-color: transparent;
@@ -2273,7 +2276,11 @@ path[d="M13.5 4.5l-9 9"] /* CHANNEL ARROW DOWN */
     {
         background-color: var(--color-low) !important;
     }
-
+    div[class="guild-1EfMGQ da-guild unread-qLkInr da-unread"] > div > div > a > div, /* GUILD ICONS UNREAD UNSELECTED */
+    div[class="guild-1EfMGQ da-guild"] > div > div > a > div /* GUILD ICONS UNREAD */
+    {
+        filter: sepia(75%);
+    }
     /* ================USER SETTINGS ======================  */
     .theme-dark .cardPrimary-1Hv-to /* USER MY ACCOUNT LABEL */
     {
