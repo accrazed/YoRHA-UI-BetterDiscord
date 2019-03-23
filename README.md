@@ -7,4 +7,4 @@ ONLY WORKS WITH DARK THEME/COZY, AND MAY BREAK IF YOU HAVE SOME APPEARANCE-CHANG
 
 THANKS TO GOmonkeymanGO FOR LETTING ME USE SOME OF HIS CODE ON HIS NIER UI THEME, https://github.com/ChaseIngebritson/YoRHa-Discord-Theme
 
-![Image of Theme Preview](https://github.com/AccraZed/YoRHA-UI-BetterDiscord/blob/master/Preview/Preview%201.jpg)
+![Image of Theme Preview](https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/Previews/Preview%201.jpg)
