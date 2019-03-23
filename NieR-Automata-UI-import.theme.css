@@ -7,17 +7,17 @@
 
 /*================================ Main Wallpaper ================================*/
 #app-mount 
-{
-    background:url('https://i.ibb.co/7NzPSCg/Nie-R-UI-lens-effect.png') center/cover no-repeat
+{ 
+    background:url('https://i.ibb.co/7NzPSCg/Nie-R-UI-lens-effect.png') center/cover no-repeat;
     /* 
     https://i.ibb.co/qyq2Mvw/R4HPUxC.png border
     https://i.ibb.co/98f2jx9/R4HPUxC.png borderless
     https://i.ibb.co/7NzPSCg/Nie-R-UI-lens-effect.png with Lens
     */
 }
-/*================================ Fonts/Text ================================*/
-:root
+:root /* GLOBAL VARIABLES */
 {
+    --brightness: 1; /* DARKNESS */
     --color-high: rgb(218,212,187);
     --color-low: rgb(87,84,74);
     --color-mid: rgb(151, 147, 129);

@@ -1,3 +1,7 @@
+#app-mount
+{
+    filter: brightness(var(--brightness));
+}
 .theme-dark .markup-2BOw-j,
 #app-mount .channels-Ie2l6A, /* CHANNELS FONT */
 .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI /* DATESTAMP FONT */
@@ -1178,7 +1182,12 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     {
         background-color: var(--color-mid);
     }
-
+    .DevilBro-settings .DevilBro-settings-inner /* CHANGE THEME SETTINGS THING */
+    {
+        background-color: var(--color-high);
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
     .emojiButtonNormal-TdumYh > div /* EMOJI */
     {
         background: transparent !important;
