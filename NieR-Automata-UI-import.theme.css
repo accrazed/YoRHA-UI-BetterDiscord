@@ -17,7 +17,6 @@
 }
 :root /* GLOBAL VARIABLES */
 {
-    --brightness: 1; /* DARKNESS */
     --color-high: rgb(218,212,187);
     --color-low: rgb(87,84,74);
     --color-mid: rgb(151, 147, 129);

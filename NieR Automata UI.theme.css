@@ -1,7 +1,3 @@
-#app-mount
-{
-    filter: brightness(var(--brightness));
-}
 .theme-dark .markup-2BOw-j,
 #app-mount .channels-Ie2l6A, /* CHANNELS FONT */
 .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI /* DATESTAMP FONT */
