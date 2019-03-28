@@ -1,3 +1,28 @@
+#app-mount:before { /* theatre effect */
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(78,75,66, 0.2),  transparent 30%, transparent 80%, rgba(78,75,66,0.4)),
+                radial-gradient(transparent 50%, rgba(78,75,66,0.4));
+    user-select: none;
+    pointer-events: none;
+}
+#app-mount:after { /* lattice effect */
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://i.ibb.co/Fq9Jt09/Nie-R-Lattice.png');
+    z-index: 9999;
+    opacity: 0.03;
+    user-select: none;
+    pointer-events: none;
+}
+
 .theme-dark .markup-2BOw-j,
 #app-mount .channels-Ie2l6A, /* CHANNELS FONT */
 .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI /* DATESTAMP FONT */
@@ -6,7 +31,6 @@
     font-size: 11pt;
     font-family: var(--nier-font);
 }
-
 .wordmark-2iDDfm /* GET RID OF DISCORD WATERMARK */
 {
     opacity: 0;
@@ -215,6 +239,7 @@ div[class="vertical-V37hAW flex-1O1GKY directionColumn-35P_nr da-vertical da-fle
 .theme-dark .searchResultChannelCategory-1l0lSn, /* SEARCH BAR MORE TEXT */
 .theme-dark .reactionCount-2ddRoS, /* REACTION COUNT */
 .anchor-3Z-8Bb, /* INVITE TO SERVER ANCHOR TEXT LINK */
+.theme-dark .auditLog-3jNbM6, /* AUDIT LOG TEXT */
 .bda-slist .bda-footer a, /* USER SETTINGS PLUGIN WEBSITE */
 .theme-dark .notes-3hkVr0, .theme-light .label-2zCFFs, /* NITRO STORE REVIEW TEXT */
 .theme-dark .searchResultChannelIcon-1DnTme,  /* SEARCH BAR MORE TEXT */
@@ -273,6 +298,7 @@ a, /* ALL LINKS */
 .theme-dark .searchHeader-1l-wpR .tab-2Ixsn0, /* SEARCH BAR SEARCH RESULTS TAB TEXT */
 .theme-dark .introBlurb-3gFgTQ, /* HYPESQUAD TEXT */
 .theme-dark.metadata-3WGS0M, /* ATTACHMENT FILE DATA */
+.maxLength-39QFBo, /* KICK USER TYPEBOX MAX LIMIT */
 .theme-dark .bannedUser-1IalTM .username-1b3MVI .discrim-oGb-FO, .theme-dark .bannedUserModal-3RJCOV .reason-YbfGC6, .theme-dark .bannedUserModal-3RJCOV .userDiscrim-1D2NlF /* SERVER SETTINGS BANS DISCRIMINATOR */
 .theme-dark .lastPlayed-3bQ7Bo, .theme-dark .overlayStatusText-L2IACa, /* USER PROFILE GAME ACTIVITY SUBTEXT */
 .theme-dark .emptyStateSubtext-2njjqg, /* GIFT EMPTY SUBTEXT */
@@ -529,6 +555,11 @@ a, /* ALL LINKS */
 {
     color: var(--color-high) !important;
 }
+.downloadLink-1ywL9o /* OPEN ORIGINAL IMAGE TEXT */
+{
+    color: var(--color-alert) !important;
+    opacity: 1;
+}
 .cooldownWrapper-3joyFc /* SLOW MODE INFO TEXT ON BOTTOM */
 {
     color: var(--color-low) !important
@@ -651,7 +682,7 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     }
     .theme-dark .markup-2BOw-j pre /* CODEBLOCK LEFT SIDE BORDER */
     {
-        box-shadow: 5px 5px var(--color-mid);
+        box-shadow: 3px 3px var(--color-mid);
         border:none;
         border-left: 12px solid;
         margin-left: -2px;
@@ -960,9 +991,11 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     {
         margin: 3px 26px 20px 0px;
     }
+    .theme-dark .divider-1pnAR2, /* AUDIT LOGS DIVIDER */
     .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:after, /* LINES IN DATE STAMP */
     .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:before
     {
+        visibility: hidden;
         border: none;
     }
     .wrapper-2F3Zv8, .image-33JSyf/* MESSAGE AVATAR */
@@ -1178,7 +1211,7 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     {
         background-color: var(--color-mid);
     }
-    .DevilBro-settings .DevilBro-settings-inner /* CHANGE THEME SETTINGS THING */
+    .DevilBro-settings .DevilBro-settings-inner
     {
         background-color: var(--color-high);
         padding-top: 15px;
@@ -2316,9 +2349,21 @@ path[d="M10.6666667,6 C10.6666667,6.79333333 10.44,7.53333333 10.0666667,8.18666
     {
         border-radius: 0;
     }
+    .cardWarning-2yPNAa /* CHANGE SOMEONES NICKNAME CARD */
+    {
+        background-color: var(--color-alert);
+        border: none;
+        border-radius: 0;
+    }
     .guildNick-3uAm3i /* USER PROFILE LIST NICKNAME TEXT */
     {
         color: var(--color-mid);
+    }
+    .theme-dark .changeDetails-bk98pu, /* AUDIT LOGS LOGS EXPANDED CONTENT */
+    .theme-dark .headerExpanded-CUEwZ5, /* AUDIT LOGS LOGS EXPANDED */
+    .theme-dark .headerClickable-2IVFo9, .theme-dark .headerDefault-1wrJcN /* AUDIT LOG LOGS */
+    {
+        background-color: var(--color-low);
     }
     .connectedAccount-36nQx7 /* USER PROFILE CONNECTED ACCOUNT */
     {
