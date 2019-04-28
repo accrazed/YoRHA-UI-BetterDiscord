@@ -180,6 +180,7 @@ a:hover > div > div > .collapsedTitle-uWuaaU, /* GAME NEWS BOX HOVER */
 .theme-dark .featureIcon-1f78KU, /* GAME PAGE FEATURES ICON */
 div[class="vertical-V37hAW flex-1O1GKY directionColumn-35P_nr da-vertical da-flex da-directionColumn"] > div > div > div > button > div[class="contents-18-Yxp da-contents"],
 .searchBar-2_Yu-C.searchBarLight-1NxoDG input, /* EMOJI SEARCHBAR TEXT */
+.darkTheme-3uETC4 .input-1Rv96N::placeholder, /* HOME FRIENDS FIND CONVERSATION */
 .theme-dark .listDefault-2y5Z9D .clickable-23RaYz.selected-3TGCSZ .username-lm8y6T, /* VOICE CHANNEL NAME SELECTED */
 .details-38sfDr, .nameNormal-2lqVQK, .playTime-2uWd1Z, .state-Tt0LO3, .timestamp-VjAZmo, /* SPOTIFY SONG NAME */
 .theme-dark .jumpButton-Ia2hRJ:hover, /* SEARCH RESULTS JUMP BUTTON HOVER */
@@ -355,6 +356,8 @@ a, /* ALL LINKS */
 .theme-dark .bannedUser-1IalTM .username-1b3MVI, /* SERVER SETTINGS BANS */
 .listenAlongIcon-2WbU7U, /* LISTEN ALONG ICON */
 .theme-dark .topic-TCb_qw, /* CHANNEL TITLE NAME */
+.theme-dark .input-3Xdcic, /* SEARCH BAR TEXT */
+.theme-dark .input-3Xdcic::placeholder, /* SEARCH BAR TEXT */
 .theme-dark .optionNormal-12VR9V, /* HOME NITRO SORT TEXT */
 .theme-dark .base-1x0h_U, /* ACTIVITY FEED CARD TITLE TEXT */
 .theme-dark .coloredText-1kAd0O, /* ACTIVITY FEED COLORED CARD TITLE TEXT */
@@ -413,6 +416,7 @@ a, /* ALL LINKS */
 .theme-dark .friendsTable-133bsv .friendTableAddWrapper-nHHZtK h2, /* HOME FRIENDS ADD FIRNED TEXT */
 .theme-dark .container-3-pyIM .content-2M3n_H a, /* PRIVATE MESSAGE CALL LOG NAME */ 
 .content-2M3n_H, /* CALL STARTED TEXT */
+.theme-dark .input-2A_zIr, /* GROUP CHAT TITLE TEXT */
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .instructions-2Du9gG, /* DRAG AND DROP DESCRIPTION TEXT */
 .theme-dark .spoilerText-3p6IlD.hidden-HHr2R9, /* SPOILER TEXT */
 .theme-dark .verdict-1JnQka, /* GAME CRITIC TEXT */
@@ -657,7 +661,7 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     {
         visibility: hidden;
     }
-    .theme-dark .title-3qD0b-, /* RIGHT HEADER */ /* TITLES */
+    .theme-dark .title-3qD0b-, .title-29uC1r, /* RIGHT HEADER */ /* TITLES */
     .theme-dark .channelName-3stJzi, /* CHANNEL NAME */
     .theme-dark .iconForeground-3y9f0B, .theme-dark .title-1aVOXw, /* PRIVATE MESSAGE HEADERS */
     .header-2o-2hj /* LEFT HEADER */
@@ -837,7 +841,12 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
         height: 48px !important;
         background-color: var(--color-alert);
     }
+    span[style="opacity: 1; height: 40px; transform: translate3d(0px, 0px, 0px);"]
+    {
+        background-color: var(--color-low) !important;
+        transition: background-color 2s;
 
+    }
     .da-numberBadge, /* GUILD BAR NOTIFICATION / NUMBER BADGE */
     .wrapper-232cHJ /* NEW MESSAGE CHANNEL PING */
     {
@@ -865,7 +874,7 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
         background-color: var(--color-alert);
         color: var(--color-high);
     }
-    .theme-dark .search-2oPWTC .searchBar-3dMhjb /* SEARCH BAR */
+    .theme-dark .search-2oPWTC .searchBar-3dMhjb, .theme-dark .container-cMG81i /* SEARCH BAR */
     {
         background: rgba(218,212,187, 0.3);
         border: none;
@@ -1482,6 +1491,12 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
 {
     fill: none;
 }
+.theme-dark .input-2A_zIr:focus, .theme-dark .outer-o9SjPm:hover .input-2A_zIr /* GROUP CHAT TITLE TEXT */
+{
+    box-shadow: none;
+    background-color: transparent;
+}
+
 .privateChannels-1nO12o header /* PRIVATE CHANNEL HEADER */
 {
     background: var(--color-high);
@@ -1567,6 +1582,12 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
 .theme-dark .quickSelectPopoutOption-opKBx9:hover /* PRIVATE CALL REGION HOVER */
 {
     background: var(--color-high);
+}
+.theme-dark .incomingCallInner-2VmFiR /* PRIVATE CALL RING POPOUT */
+{
+    background: var(--color-high);
+    box-shadow: 5px 5px 0 var(--color-mid);
+    border-radius: 0;
 }
 .wrapper-29NfPK.fullScreen-3DKbL8 .actions-2vadYq .center-1Vp33r,  /* SCREENSHARE BUTTONS */
 .wrapper-29NfPK.fullScreen-3DKbL8 .actions-2vadYq .side-kO0bwV, 
@@ -2402,6 +2423,7 @@ path[d="M10.6666667,6 C10.6666667,6.79333333 10.44,7.53333333 10.0666667,8.18666
     {
         background: var(--color-high);
     }
+    .darkTheme-3uETC4.container-2XeR5Z, /* HOME FRIENDS FIND CONVERSATION */
     .theme-dark .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, /* HOME FRIENDS SELECTED TAB */
     .theme-dark .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover, /* HOME FRIENDS SELECTED TAB */
     .buttonInvertedPurple-WtBglX, /* USER POPOUT STREAMING ADD FRIEND */
