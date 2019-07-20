@@ -1,3 +1,4 @@
+
 #app-mount:before { /* theatre effect */
     content: "";
     position: absolute;
@@ -2544,6 +2545,17 @@ path[d="M10.6666667,6 C10.6666667,6.79333333 10.44,7.53333333 10.0666667,8.18666
     {
         background: var(--color-low);
     }
+    .theme-dark .emptyPlayers-dx3qig, .theme-dark .players-1zg2l8, /* RICHPRESENCE */
+    .theme-dark .news-2KwXHF /* RICHPRESENCE */
+    {
+        background-image: none !important;
+        background: transparent;
+    }
+    .header-fqGmwY, /* PRESSING GAME ON RICHPRESENCE HEADER */
+    .theme-dark .footer-3J5oP4 /* PRESSING GAME ON RICHPRESENCE FOOTER*/
+    {
+        background: var(--color-high);
+    }
     .lookInverted-2D7oAl.colorGreen-29iAKY /* USER PROFILE FRIEND BUTTON SPOTIFY*/
     {
         background: var(--color-low);
@@ -2806,10 +2818,14 @@ path[d="M10.6666667,6 C10.6666667,6.79333333 10.44,7.53333333 10.0666667,8.18666
 }
 /* ===================================== MEMBERS ==================================== */
 /* THANKS TO GOMONKEYMANGO FOR LETTING ME USE THIS CODE */
+.theme-dark .member-3W1lQa.popout-open, .theme-dark 
+.member-3W1lQa.popout-open:hover,
+.theme-dark .member-3W1lQa:hover,
 .da-membersWrap .da-members 
 {
     background-color: transparent;
 }
+
 .da-membersWrap .da-members .member-3W1lQa 
 {
     position: relative;
@@ -2818,6 +2834,12 @@ path[d="M10.6666667,6 C10.6666667,6.79333333 10.44,7.53333333 10.0666667,8.18666
     border-bottom: 1px solid transparent;
     border-radius: 0;
     color: var(--color-low);
+}
+.da-membersWrap .da-members .member-3W1lQa:hover .memberContent-1MK6T5 .nameTag-m8r81H .username-2b1r56, 
+.da-membersWrap .da-members .member-3W1lQa.popout-open .memberContent-1MK6T5 .nameTag-m8r81H .username-2b1r56
+{
+    z-index: 1;
+    color: var(--color-high) !important;
 }
 .da-membersWrap .da-members .member-3W1lQa svg .da-activityIconForeground,
 .theme-dark .iconForeground-1w5n7R /* TYPE BOX HASH TAG */
