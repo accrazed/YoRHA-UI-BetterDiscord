@@ -1,4 +1,3 @@
-
 #app-mount:before { /* theatre effect */
     content: "";
     position: absolute;
@@ -2216,6 +2215,30 @@ path[d="M10.6666667,6 C10.6666667,6.79333333 10.44,7.53333333 10.0666667,8.18666
 .theme-dark .selected-nT-gM3:before /* GUILD SELECTED */
 {
     background: var(--color-low);
+}
+.theme-dark .droppingInto-3PsLh2 .expandedFolderBackgorund-2sPsd-,
+.theme-dark .droppingInto-3PsLh2 .folder-21wGz3 .expanded-F1XDEF,
+.theme-dark .expandedFolderBackground-2sPsd-.collapsed-1GMuSb, .theme-light .expandedFolderBackground-2sPsd-.collapsed-1GMuSb,
+.theme-dark .expandedFolderBackground-2sPsd-.selected-2vZ0oV, .theme-light .expandedFolderBackground-2sPsd-.selected-2vZ0oV /* FOLDER TAB HOVER */
+{
+    background: var(--color-low) !important;
+}
+.folderIconWrapper-226oVY, .da-folderIconWrapper,
+.theme-dark .folder-21wGz3, .theme-light .folder-21wGz3 /* FOLDER TAB BACKGROUND */
+{
+    background: transparent !important;
+}
+svg[name="Folder"] /* FOLDER ICON */
+{
+    color: var(--color-high) !important;
+}
+.theme-dark .folder-21wGz3.mouseHover-bMC8x3, .theme-light .folder-21wGz3.mouseHover-bMC8x3, /* FOLDER BACKGROUND EXPANDED HOVER */
+.theme-dark .expandedFolderBackground-2sPsd-, .theme-light .expandedFolderBackground-2sPsd- /* FOLDER BACKGROUND EXPANDED */
+{
+    background-color: var(--color-low);
+    border-radius: 0;
+    bottom: 0px;
+    box-shadow: 3px 3px 0 var(--color-high);
 }
 .total-3tKGEB:after, /* VOICE CHANNEL MAX MEMBERS SLANT */
 .total-3tKGEB, /* VOICE CHANNEL MAX MEMBERS RIGHT */
