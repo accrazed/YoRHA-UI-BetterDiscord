@@ -447,6 +447,7 @@ a, /* ALL LINKS */
 .theme-dark .description-11DmNu, .theme-dark .descriptionUsername-J_75O8, /* MESSAGE MENTION SOMEONE POPOUT DESCRIPTION TEXT */
 .theme-dark .checkBoxLabel-4PWfpk, .theme-dark .footerText-2a7NxZ, .theme-dark .subText-bCySlS, /* INVITE TO SERVER SUB TEXT/FOOTER TEXT */
 .selector-2IcQBU, /* MESSAGE TYPE BOX HEADER */
+.lookLink-9FtZy-.colorWhite-rEQuAQ, /* CANCEL UPLOAD */
 .theme-dark .friendsOnline-2JkivW, /* SERVER BAR FRIENDS ONLINE */
 #pubslayer .ui-tab-bar-header, #pubslayer h2.ui-form-title, .bd-server-description-container, .bd-server-card .bd-server-tags,
 .theme-dark .subtitle-2iWJ5y, /* CTRL SHFT T POPOUT */
@@ -1844,12 +1845,16 @@ path[d="M14 8C14 7.44772 13.5523 7 13 7H9.76001L10.3657 3.58738C10.4201 3.28107 
     border-radius: 0;
     box-shadow: 3px 3px 0 var(--color-low);
 }
-.theme-dark .checked-3_4uQ9, /* LOW SECURITY SERVER SETTINGS */
-.checked-3_4uQ9
+svg[name="Checkmark"] > g > polyline/* CHECKBOX CHECKMARK */
 {
+    stroke: var(--color-low);
+}
+.theme-dark .checked-3_4uQ9, /* LOW SECURITY SERVER SETTINGS */
+.checked-3_4uQ9 svg[name="Checkmark"] > g > polyline/* CHECKBOX CHECKMARK  CHECKED*/
+{
+    stroke: var(--color-high);
     border-color: var(--color-high);
-    background: var(--color-high);
-    box-shadow: 3px 3px 0 var(--color-low);
+    background: var(--color-low);
 }
 .theme-dark .input-cIJ7To:focus /* DELETE SERVER TEXT INPUT HOVER */
 { 
@@ -1876,10 +1881,7 @@ path[d="M14 8C14 7.44772 13.5523 7 13 7H9.76001L10.3657 3.58738C10.4201 3.28107 
     background-color: var(--color-low) !important;
     box-shadow: 3px 3px 0 var(--color-mid);
 }
-svg[name="Checkmark"] > g > polyline/* CHECKBOX CHECKMARK */
-{
-    stroke: var(--color-low);
-}
+
 path[d="M4,0 L4,3 L0,3 L0,0 L4,0 Z M12,4 L12,7 L8,7 L8,4 L12,4 Z M8,9 L12,9 L12,12 L8,12 L8,9.33333333 L8,9 Z M7,7 L3,7 L3,10 L7,10 L7,12 L3,12 L1,12 L1,4 L3,4 L3,5 L7,5 L7,7 Z"] /* NOTIFICATIONS CHANNEL ICON */
 {
     fill: var(--color-mid);
@@ -2237,7 +2239,6 @@ svg[name="Folder"] /* FOLDER ICON */
 {
     background-color: var(--color-low);
     border-radius: 0;
-    bottom: 0px;
     box-shadow: 3px 3px 0 var(--color-high);
 }
 .total-3tKGEB:after, /* VOICE CHANNEL MAX MEMBERS SLANT */
