@@ -340,7 +340,6 @@ a, /* ALL LINKS */
 .theme-dark .select-1Pkeg4, /* HOME STORE BROWSE SORT */
 .theme-dark .colorMuted-HdFt4q, /* ACTIVITY FEED CARD SUBTEXT */
 .subTitle-3TUjmF, /* INVITED TO JOIN SUBTITLE */
-.theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm, /* HOME FRIENDS DISCRIMINATOR */
 .theme-dark .embedFooterText-28V_Wb, /* EMBED FOOTER */
 .theme-dark .option-96V44q .nonText-3CRkO0 /* SEARCH BAR POPOUT HISTORY SECONDARY */
 {
@@ -358,6 +357,7 @@ a, /* ALL LINKS */
 .theme-dark .text-GwUZgS, .theme-dark .title-2BxgL2, /* CHANNEL INVITES */
 .theme-dark .bannedUser-1IalTM .username-1b3MVI, /* SERVER SETTINGS BANS */
 .listenAlongIcon-2WbU7U, /* LISTEN ALONG ICON */
+.theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm, /* HOME FRIENDS DISCRIMINATOR */
 .theme-dark .topic-TCb_qw, /* CHANNEL TITLE NAME */
 .theme-dark .input-3Xdcic, /* SEARCH BAR TEXT */
 .theme-dark .header-1Kydsy, /* GIFTED NITRO TITLE */
@@ -2234,11 +2234,11 @@ svg[name="Folder"] /* FOLDER ICON */
 {
     color: var(--color-high) !important;
 }
+.theme-dark .expandedFolderBackground-2sPsd-.hover-2ji_A7, .theme-dark .folder-21wGz3.hover-2ji_A7, .theme-light .expandedFolderBackground-2sPsd-.hover-2ji_A7, .theme-light .folder-21wGz3.hover-2ji_A7,
 .theme-dark .folder-21wGz3.mouseHover-bMC8x3, .theme-light .folder-21wGz3.mouseHover-bMC8x3, /* FOLDER BACKGROUND EXPANDED HOVER */
 .theme-dark .expandedFolderBackground-2sPsd-, .theme-light .expandedFolderBackground-2sPsd- /* FOLDER BACKGROUND EXPANDED */
 {
     background-color: var(--color-low);
-    border-radius: 0;
     box-shadow: 3px 3px 0 var(--color-high);
 }
 .total-3tKGEB:after, /* VOICE CHANNEL MAX MEMBERS SLANT */
