@@ -59,7 +59,7 @@ strong {font-family: Arial, Helvetica, sans-serif}
 .theme-dark .separator-1N1EBC, /* ACTIVITY FEED NOW PLAYING SEPERATOR */
 .theme-dark .headerBar-UHpsPw,
 .theme-dark .applicationStore-1pNvnv,
-.contentConnectedVoice-qL-YrL:active, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active /* CLICKING ON VOICE CHANNEL */
+.contentConnectedVoice-qL-YrL:active, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active, /* CLICKING ON VOICE CHANNEL */
 .theme-dark .gameLibrary-TTDw4Y,
 .theme-dark .container-2Thooq, .theme-light .container-2Thooq,
 .theme-dark .root-1BQpZw,
@@ -93,7 +93,7 @@ strong {font-family: Arial, Helvetica, sans-serif}
 .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ,
 .app-2rEoOp
 {
-    background: transparent;
+    background: transparent !important;
 } /* THANK YOU ACCRAZED FOR PROVIDING THIS TRANSPARENCY */
 /* no problem :) */
 
