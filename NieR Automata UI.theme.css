@@ -1,3 +1,5 @@
+*, ::placeholder, body, button, input, select, textarea{font-family:'sce-ps3_rodin_latinregular';}
+
 /*================================ Main Wallpaper ================================*/
 #app-mount 
 { 
@@ -1546,7 +1548,9 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
 {
     padding-top: 2px;
 }
-.da-channels .content-3at_AU/* ALL CHANNELS */
+
+.content-3at_AU,
+.content-3at_AU/* ALL CHANNELS */
 {
     border-radius: 0;
     margin-left: 0;
@@ -1624,12 +1628,12 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
 {
     transform: none;
 }
-.da-channels .content-3at_AU::before,
+.content-3at_AU::before,
 .theme-dark .wrapper-1ucjTd:hover .content-3at_AU::before,
 .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU::before, 
 .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU::before,
 .contentSelectedVoice-1WDIBM::before, /* VOICE CHANNEL LIMBO  */
-.da-channels .content-20Aix8::before /* THE CHANNEL */
+.content-20Aix8::before /* THE CHANNEL */
 {
     animation-name: pulsingBackground;
     animation-duration: 1.5s;
@@ -1792,6 +1796,7 @@ path[d="M14 8C14 7.44772 13.5523 7 13 7H9.76001L10.3657 3.58738C10.4201 3.28107 
     animation-iteration-count: infinite; */
     box-shadow: 0  3px 0 0 var(--color-low),
                 0 -3px 0 0 var(--color-low);
+    border-radius: 0;
     background-color: transparent;
 }
 .contentHoveredText-2D9B-x /* HOVERED CHANNEL BACKGROUND */
