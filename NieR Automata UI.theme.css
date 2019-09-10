@@ -1,3 +1,4 @@
+
 *, ::placeholder, body, button, input, select, textarea{font-family:'sce-ps3_rodin_latinregular';}
 
 /*================================ Main Wallpaper ================================*/
@@ -9,7 +10,8 @@
     https://i.ibb.co/98f2jx9/R4HPUxC.png borderless
     https://i.ibb.co/7NzPSCg/Nie-R-UI-lens-effect.png with Lens
     */
-}
+
+
 #app-mount:before { /* theatre effect */
     content: "";
     position: absolute;
@@ -3686,4 +3688,9 @@ path[d="M12 16c1.1045695 0 2 .8954305 2 2s-.8954305 2-2 2-2-.8954305-2-2 .895430
     background: var(--color-high); 
 }
 
+.theme-dark.platform-web .textArea-2Spzkt, .theme-dark.platform-win .textArea-2Spzkt
+{
+    font-size: 11pt;
+    font-weight: 100 !important;
+}
 
