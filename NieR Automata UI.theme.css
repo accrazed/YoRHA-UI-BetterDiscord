@@ -86,7 +86,8 @@ strong {font-family: Arial, Helvetica, sans-serif}
 .theme-dark .messageG,
 .theme-dark .tile-2OwFgW,
 .theme-dark .contentRegion-3nDuYy,
-.theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ
+.theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ,
+.app-2rEoOp
 {
     background: transparent;
 } /* THANK YOU ACCRAZED FOR PROVIDING THIS TRANSPARENCY */
@@ -653,58 +654,8 @@ a, /* ALL LINKS */
 {
     border-color: var(--color-low);
 }
-/*====================BETTER DISCORD .THEME DARK CHANGES====================*/
-.theme-dark
-{
-    --header-primary: disabled !important;
-    --header-secondary: disabled !important;
-    --text-normal: disabled !important;
-    --text-muted: disabled !important;
-    --text-link: disabled !important;
-    --channels-default: disabled !important;
-    --interactive-normal: disabled !important;
-    --interactive-hover: disabled !important;
-    --interactive-active: disabled !important;
-    --interactive-muted: disabled !important;
-    --background-primary: disabled !important;
-    --background-secondary: disabled !important;
-    --background-tertiary: disabled !important;
-    --background-accent: disabled !important;
-    --background-floating: disabled !important;
-    --background-modifier-hover: disabled !important;
-    --background-modifier-active: disabled !important;
-    --background-modifier-selected: disabled !important;
-    --background-modifier-accent: disabled !important;
-    --elevation-low: disabled !important;
-    --elevation-high: disabled !important;
-    --guild-header-text-shadow: disabled !important;
-    --channeltextarea-background: disabled !important;
-    --activity-card-background: disabled !important;
-    --deprecated-panel-background: disabled !important;
-    --deprecated-card-bg: disabled !important;
-    --deprecated-card-editable-bg: disabled !important;
-    --deprecated-store-bg: disabled !important;
-    --deprecated-quickswitcher-input-background: disabled !important;
-    --deprecated-quickswitcher-input-placeholder: disabled !important;
-    --deprecated-text-input-bg: disabled !important;
-    --deprecated-text-input-border: disabled !important;
-    --deprecated-text-input-border-hover: disabled !important;
-    --deprecated-text-input-border-disabled: disabled !important;
-    --deprecated-text-input-prefix: disabled !important;
-}
-#app-mount, .app-2rEoOp, body {
-    background-color: transparent
-}
-#app-mount .panels-j1Uci_ {
-    background-color:transparent
-}
-#app-mount .childWrapper-anI2G9 {
-    background-color: transparent
-}
-#app-mount .container-PNkimc,
-#app-mount .privateChannels-1nO12o {
-    background-color: rgba(0,0,0, 0)
-}
+
+
 /*====================HEADER====================*/
 
 svg[name="TitleBarClose"] > polygon, /* CLOSE BUTTON */
