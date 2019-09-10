@@ -656,41 +656,41 @@ a, /* ALL LINKS */
 /*====================BETTER DISCORD .THEME DARK CHANGES====================*/
 .theme-dark
 {
-    --header-primary: disabled;
-    --header-secondary: disabled;
-    --text-normal: disabled;
-    --text-muted: disabled;
-    --text-link: disabled;
-    --channels-default: disabled;
-    --interactive-normal: disabled;
-    --interactive-hover: disabled;
-    --interactive-active: disabled;
-    --interactive-muted: disabled;
-    --background-primary: disabled;
-    --background-secondary: disabled;
-    --background-tertiary: disabled;
-    --background-accent: disabled;
-    --background-floating: disabled;
-    --background-modifier-hover: disabled;
-    --background-modifier-active: disabled;
-    --background-modifier-selected: disabled;
-    --background-modifier-accent: disabled;
-    --elevation-low: disabled;
-    --elevation-high: disabled;
-    --guild-header-text-shadow: disabled;
-    --channeltextarea-background: disabled;
-    --activity-card-background: disabled;
-    --deprecated-panel-background: disabled;
-    --deprecated-card-bg: disabled;
-    --deprecated-card-editable-bg: disabled;
-    --deprecated-store-bg: disabled;
-    --deprecated-quickswitcher-input-background: disabled;
-    --deprecated-quickswitcher-input-placeholder: disabled;
-    --deprecated-text-input-bg: disabled;
-    --deprecated-text-input-border: disabled;
-    --deprecated-text-input-border-hover: disabled;
-    --deprecated-text-input-border-disabled: disabled;
-    --deprecated-text-input-prefix: disabled;
+    --header-primary: disabled !important;
+    --header-secondary: disabled !important;
+    --text-normal: disabled !important;
+    --text-muted: disabled !important;
+    --text-link: disabled !important;
+    --channels-default: disabled !important;
+    --interactive-normal: disabled !important;
+    --interactive-hover: disabled !important;
+    --interactive-active: disabled !important;
+    --interactive-muted: disabled !important;
+    --background-primary: disabled !important;
+    --background-secondary: disabled !important;
+    --background-tertiary: disabled !important;
+    --background-accent: disabled !important;
+    --background-floating: disabled !important;
+    --background-modifier-hover: disabled !important;
+    --background-modifier-active: disabled !important;
+    --background-modifier-selected: disabled !important;
+    --background-modifier-accent: disabled !important;
+    --elevation-low: disabled !important;
+    --elevation-high: disabled !important;
+    --guild-header-text-shadow: disabled !important;
+    --channeltextarea-background: disabled !important;
+    --activity-card-background: disabled !important;
+    --deprecated-panel-background: disabled !important;
+    --deprecated-card-bg: disabled !important;
+    --deprecated-card-editable-bg: disabled !important;
+    --deprecated-store-bg: disabled !important;
+    --deprecated-quickswitcher-input-background: disabled !important;
+    --deprecated-quickswitcher-input-placeholder: disabled !important;
+    --deprecated-text-input-bg: disabled !important;
+    --deprecated-text-input-border: disabled !important;
+    --deprecated-text-input-border-hover: disabled !important;
+    --deprecated-text-input-border-disabled: disabled !important;
+    --deprecated-text-input-prefix: disabled !important;
 }
 /*====================HEADER====================*/
 
