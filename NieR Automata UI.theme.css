@@ -8,7 +8,6 @@
     https://i.ibb.co/7NzPSCg/Nie-R-UI-lens-effect.png with Lens
     */
 }
-
 #app-mount:before { /* theatre effect */
     content: "";
     position: absolute;
@@ -654,7 +653,45 @@ a, /* ALL LINKS */
 {
     border-color: var(--color-low);
 }
-
+/*====================BETTER DISCORD .THEME DARK CHANGES====================*/
+.theme-dark
+{
+    --header-primary: disabled;
+    --header-secondary: disabled;
+    --text-normal: disabled;
+    --text-muted: disabled;
+    --text-link: disabled;
+    --channels-default: disabled;
+    --interactive-normal: disabled;
+    --interactive-hover: disabled;
+    --interactive-active: disabled;
+    --interactive-muted: disabled;
+    --background-primary: disabled;
+    --background-secondary: disabled;
+    --background-tertiary: disabled;
+    --background-accent: disabled;
+    --background-floating: disabled;
+    --background-modifier-hover: disabled;
+    --background-modifier-active: disabled;
+    --background-modifier-selected: disabled;
+    --background-modifier-accent: disabled;
+    --elevation-low: disabled;
+    --elevation-high: disabled;
+    --guild-header-text-shadow: disabled;
+    --channeltextarea-background: disabled;
+    --activity-card-background: disabled;
+    --deprecated-panel-background: disabled;
+    --deprecated-card-bg: disabled;
+    --deprecated-card-editable-bg: disabled;
+    --deprecated-store-bg: disabled;
+    --deprecated-quickswitcher-input-background: disabled;
+    --deprecated-quickswitcher-input-placeholder: disabled;
+    --deprecated-text-input-bg: disabled;
+    --deprecated-text-input-border: disabled;
+    --deprecated-text-input-border-hover: disabled;
+    --deprecated-text-input-border-disabled: disabled;
+    --deprecated-text-input-prefix: disabled;
+}
 /*====================HEADER====================*/
 
 svg[name="TitleBarClose"] > polygon, /* CLOSE BUTTON */
@@ -2328,15 +2365,19 @@ svg[name="Folder"] /* FOLDER ICON */
         border-radius: 0;
         box-shadow: 3px 3px 0 var(--color-mid);
     }
+    .layer-v9HyYc,
     .theme-dark.contextMenu-HLZMGh /* CONTEXT MENU POPOUT */
     {
+
         background: var(--color-high);
         box-shadow: 3px 3px 0 var(--color-mid);
         border-radius: 0;
     }
+    .contextMenu-HLZMGh,
     .theme-dark .itemGroup-1tL0uz /* CONTEXT MENU CONTAINERS */
     {
         border: hidden;
+        padding: 0;
     }
     .theme-dark .button-s03oPN
     {
