@@ -1,6 +1,3 @@
-
-*, ::placeholder, body, button, input, select, textarea{font-family:'sce-ps3_rodin_latinregular';}
-
 /*================================ Main Wallpaper ================================*/
 #app-mount 
 { 
@@ -11,7 +8,6 @@
     https://i.ibb.co/7NzPSCg/Nie-R-UI-lens-effect.png with Lens
     */
 }
-
 #app-mount:before { /* theatre effect */
     content: "";
     position: absolute;
