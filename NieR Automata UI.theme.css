@@ -656,41 +656,54 @@ a, /* ALL LINKS */
 /*====================BETTER DISCORD .THEME DARK CHANGES====================*/
 .theme-dark
 {
-    --header-primary: transparent !important;
-    --header-secondary: transparent !important;
-    --text-normal: transparent !important;
-    --text-muted: transparent !important;
-    --text-link: transparent !important;
-    --channels-default: transparent !important;
-    --interactive-normal: transparent !important;
-    --interactive-hover: transparent !important;
-    --interactive-active: transparent !important;
-    --interactive-muted: transparent !important;
-    --background-primary: transparent !important;
-    --background-secondary: transparent !important;
-    --background-tertiary: transparent !important;
-    --background-accent: transparent !important;
-    --background-floating: transparent !important;
-    --background-modifier-hover: transparent !important;
-    --background-modifier-active: transparent !important;
-    --background-modifier-selected: transparent !important;
-    --background-modifier-accent: transparent !important;
-    --elevation-low: transparent !important;
-    --elevation-high: transparent !important;
-    --guild-header-text-shadow: transparent !important;
-    --channeltextarea-background: transparent !important;
-    --activity-card-background: transparent !important;
-    --deprecated-panel-background: transparent !important;
-    --deprecated-card-bg: transparent !important;
-    --deprecated-card-editable-bg: transparent !important;
-    --deprecated-store-bg: transparent !important;
-    --deprecated-quickswitcher-input-background: transparent !important;
-    --deprecated-quickswitcher-input-placeholder: transparent !important;
-    --deprecated-text-input-bg: transparent !important;
-    --deprecated-text-input-border: transparent !important;
-    --deprecated-text-input-border-hover: transparent !important;
-    --deprecated-text-input-border-disabled: transparent !important;
-    --deprecated-text-input-prefix: transparent !important;
+    --header-primary: disabled !important;
+    --header-secondary: disabled !important;
+    --text-normal: disabled !important;
+    --text-muted: disabled !important;
+    --text-link: disabled !important;
+    --channels-default: disabled !important;
+    --interactive-normal: disabled !important;
+    --interactive-hover: disabled !important;
+    --interactive-active: disabled !important;
+    --interactive-muted: disabled !important;
+    --background-primary: disabled !important;
+    --background-secondary: disabled !important;
+    --background-tertiary: disabled !important;
+    --background-accent: disabled !important;
+    --background-floating: disabled !important;
+    --background-modifier-hover: disabled !important;
+    --background-modifier-active: disabled !important;
+    --background-modifier-selected: disabled !important;
+    --background-modifier-accent: disabled !important;
+    --elevation-low: disabled !important;
+    --elevation-high: disabled !important;
+    --guild-header-text-shadow: disabled !important;
+    --channeltextarea-background: disabled !important;
+    --activity-card-background: disabled !important;
+    --deprecated-panel-background: disabled !important;
+    --deprecated-card-bg: disabled !important;
+    --deprecated-card-editable-bg: disabled !important;
+    --deprecated-store-bg: disabled !important;
+    --deprecated-quickswitcher-input-background: disabled !important;
+    --deprecated-quickswitcher-input-placeholder: disabled !important;
+    --deprecated-text-input-bg: disabled !important;
+    --deprecated-text-input-border: disabled !important;
+    --deprecated-text-input-border-hover: disabled !important;
+    --deprecated-text-input-border-disabled: disabled !important;
+    --deprecated-text-input-prefix: disabled !important;
+}
+#app-mount, .app-2rEoOp, body {
+    background-color: transparent
+}
+#app-mount .panels-j1Uci_ {
+    background-color:transparent
+}
+#app-mount .childWrapper-anI2G9 {
+    background-color: transparent
+}
+#app-mount .container-PNkimc,
+#app-mount .privateChannels-1nO12o {
+    background-color: rgba(0,0,0, 0)
 }
 /*====================HEADER====================*/
 
