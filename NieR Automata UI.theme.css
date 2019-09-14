@@ -8,7 +8,6 @@
     https://i.ibb.co/7NzPSCg/Nie-R-UI-lens-effect.png with Lens
     */
 }
-
 #app-mount:before { /* theatre effect */
     content: "";
     position: absolute;
@@ -42,6 +41,13 @@ a /* links */
 {
     cursor: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Text_Select_v2.cur'), default;
 }
+.disabled
+{
+    cursor: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Unavailable_v2.cur'), default;    
+}
+
+
+
 ::placeholder, body, button, input, select, textarea{font-family: var(--nier-font), Arial, Helvetica, sans-serif;}
 strong {font-family: Arial, Helvetica, sans-serif}
 .theme-dark .markup-2BOw-j,
@@ -349,6 +355,7 @@ a, /* ALL LINKS */
 .theme-dark .topPill-30KHOu .item-PXvHYJ:hover, /* LIBRARY TOP GAME */
 .theme-dark .h5-18_1nd,/* SERVER POPOUT NOTIFICATION SETTINGS HEADER TEXT */
 .theme-dark .rowBody-10yI-R, /* GAME LIBRARY INSTALL LOCATION */
+.friendsTable-133bsv .friendsRow-2yicud .discordTag-1Hozyw .discriminator-1Ro5o1,
 .theme-dark .info-1Emy1X, .theme-light .info-1Emy1X, /* GAME DETAILS DESCRIPTIONS */
 .theme-dark .announcingNitro-3Ptg6m:hover, /* NITRO GAMES HOVER */
 .theme-dark .playTime-1laRtO, /* HOME ACTIVITY WHAT'S NEW PLAY TIME */
@@ -522,6 +529,7 @@ a, /* ALL LINKS */
 .theme-dark .categoryHeader-1D7Tqy, .theme-dark .premiumApplicationsHeader-Zmkm5e, /* HOME NITRO HEADERS TEXT */
 .theme-dark .bannedUserModal-3RJCOV .reasonHeader-2etdjy, /* BANNED USER BAN REASON */
 .regionSelectModal-12e-57 .regionSelectModalHeader-21khC1, /* SERVER REGION HEADER */
+.friendsTable-133bsv .friendsRow-2yicud .discordTag-1Hozyw .username-1r0gCl,
 .theme-dark .friendsTable-133bsv .friendTableAddDescription-19D3dl, /* HOME FRIENDS ADD FRIEND SUBTEXT */
 .theme-dark .friendsTable-133bsv .friendTableAddWrapper-nHHZtK .friendTableAddHeader-m9bzFr .connectAccounts-1orH6X h3, /* HOME FRIENDS ADD FRIEND SUBTEXT */
 .privateChannels-1nO12o header, /* PRIVATE CHANNEL */
