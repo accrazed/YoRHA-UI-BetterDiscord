@@ -8,6 +8,7 @@
     https://i.ibb.co/7NzPSCg/Nie-R-UI-lens-effect.png with Lens
     */
 }
+
 #app-mount:before { /* theatre effect */
     content: "";
     position: absolute;
@@ -31,6 +32,15 @@
     opacity: 0.03;
     user-select: none;
     pointer-events: none;
+}
+/* ===============CURSORS================== */
+a /* links */
+{
+    cursor: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Link_Select_v2.cur'), default;
+}
+.da-markup
+{
+    cursor: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Text_Select_v2.cur'), default;
 }
 ::placeholder, body, button, input, select, textarea{font-family: var(--nier-font), Arial, Helvetica, sans-serif;}
 strong {font-family: Arial, Helvetica, sans-serif}
@@ -2365,6 +2375,13 @@ svg[name="Folder"] /* FOLDER ICON */
         background: var(--color-high);
         box-shadow: 3px 3px 0 var(--color-mid);
         border-radius: 0;
+    }
+    .contextMenu-HLZMGh
+    {
+        left: 0 !important;
+        top: 0 !important;
+        border-radius: 0;
+        box-shadow: none;
     }
     .contextMenu-HLZMGh,
     .theme-dark .itemGroup-1tL0uz /* CONTEXT MENU CONTAINERS */
