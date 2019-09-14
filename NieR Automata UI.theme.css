@@ -8,7 +8,6 @@
     https://i.ibb.co/7NzPSCg/Nie-R-UI-lens-effect.png with Lens
     */
 }
-
 #app-mount:before { /* theatre effect */
     content: "";
     position: absolute;
@@ -3454,6 +3453,11 @@ path[d="M4 11.526V6.553l5.684-1.25v6.138L4 11.526zM20.105 3v8.29l-9.473.142V5.09
 .theme-dark .headerBar-UHpsPw /* HOME HEADER */
 {
     box-shadow: none;
+}
+.childWrapper-anI2G9, /* HOME ICON */
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 /* HOME ICON HOVER */
+{
+    background-color: transparent
 }
 .body-vr4WiF > div[style="position: relative;"] /* ACTIVITY QUICK LAUNCHER */
 {
