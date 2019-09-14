@@ -8,6 +8,7 @@
     https://i.ibb.co/7NzPSCg/Nie-R-UI-lens-effect.png with Lens
     */
 }
+
 #app-mount:before { /* theatre effect */
     content: "";
     position: absolute;
@@ -191,6 +192,7 @@ a:hover > div > div > .collapsedTitle-uWuaaU, /* GAME NEWS BOX HOVER */
 .searchAnswer-3Dz2-q  > span > span,
 .icon-2aINcz, /* NEW UNREADS ARROW ICON */
 .side-8zPYf6 .itemSelected-1qLhcL, /* USER PROFILE NOTIFICATIONS */
+.da-privateChannels .da-systemPad .selected-aXhQR6 .name-uJV0GL,/* PM GENERAL */
 .hasSpoilers-1IRtQC .da-hasSpoilers > div > button > div, /* UPLOAD CONFIRM TEXT */
 .theme-dark .featureIcon-1f78KU, /* GAME PAGE FEATURES ICON */
 div[class="vertical-V37hAW flex-1O1GKY directionColumn-35P_nr da-vertical da-flex da-directionColumn"] > div > div > div > button > div[class="contents-18-Yxp da-contents"],
@@ -305,6 +307,7 @@ a, /* ALL LINKS */
 .theme-dark .container-2x5lvQ section strong, /* RTC HILIGHTED */
 .theme-dark .description-1W0DiL, /* HYPESQUAD TEXT */
 .theme-dark .progressCellText-3avmMz, /* DOWNLOADING GAME SUBTEXT */
+.topSectionNormal-2-vo2m .discriminator-xUhQkU, /* USER POPOUT DISCRIMINATOR */
 .theme-dark .memberInfo-1TAaKC, /* GAME OFFICIAL DISCORD SUBTEXT */
 .theme-dark .selectorText-9iPrCS, /* SCREENSHARE OPTIONS UNSELECTED */
 .content-8biNdB a, /* CHANNEL DESCRIPTION LINKS */
@@ -457,6 +460,7 @@ a, /* ALL LINKS */
 .theme-dark .input-2A_zIr, /* GROUP CHAT TITLE TEXT */
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .instructions-2Du9gG, /* DRAG AND DROP DESCRIPTION TEXT */
 .theme-dark .spoilerText-3p6IlD.hidden-HHr2R9, /* SPOILER TEXT */
+.topSectionNormal-2-vo2m .username-3gJmXY, /* USER POPOUT NAME */
 .theme-dark .header-1fmANI, /* INSTALL GAME HEADER */
 .theme-dark .blurb-143skT, .theme-dark .storeTerms-3G4Jo7, .theme-dark .subtext-2QfZHv, /* INSTALL GAME SUBTEXT */
 .theme-dark .checkboxLabel-1zn0UC, .theme-light .checkboxLabel-1zn0UC, /* INSTALL GAME AGREE TO ToS */
@@ -1569,7 +1573,6 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
 .channel-2QD9_O  /* PRIVATE CHANNELS GENERAL */
 {
     margin: 7px 0;
-    max-width: 00%;
 }
 .linkButtonIcon-Mlm5d6
 {
@@ -1658,8 +1661,8 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
 .da-privateChannels .da-channel.da-selected::before 
 {
   width: 100%;
-}
-*/
+} */
+
 .content-3at_AU:active /* CLICKING ON CHANNEL */
 {
     transform: none;
@@ -2941,7 +2944,6 @@ svg[name="Folder"] /* FOLDER ICON */
     background-color: transparent;
     z-index: 2;
 }
-.da-privateChannels .da-systemPad .channel-2QD9_O::before, /* PM GENERAL */
 .da-membersWrap .da-members .member-3W1lQa::before 
 {
     content: "";
@@ -2955,6 +2957,18 @@ svg[name="Folder"] /* FOLDER ICON */
     animation-iteration-count: infinite;
     transition: width 0.4s;
 }
+.da-privateChannels .da-systemPad .selected-aXhQR6 /* PM GENERAL */
+{
+    animation-name: pulsingBackground;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    transition: width 0.4s;
+    width: 100%;
+    padding-left: 10px;
+    margin-left: 0;
+    border-radius: 0
+}
+.da-privateChannels .da-systemPad .selected-aXhQR6::before,
 .da-membersWrap .da-members .selected-aXhQR6::before,
 .da-membersWrap .da-members .member-3W1lQa:hover::before,
 .da-membersWrap .da-members .member-3W1lQa.popout-open::before 
