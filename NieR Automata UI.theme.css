@@ -33,19 +33,25 @@
     pointer-events: none;
 }
 /* ===============CURSORS================== */
-a /* links */
+
+#app-mount, .da-chat .da-title /* DEFAULT */
 {
-    cursor: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Link_Select_v2.cur'), default;
-}
-.da-markup
-{
-    cursor: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Text_Select_v2.cur'), default;
-}
-.disabled
-{
-    cursor: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Unavailable_v2.cur'), default;    
+    cursor: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Normal_Select_v2.cur'), default !important;
 }
 
+textarea, input, .da-markup /* TEXT */
+{
+    cursor: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Text_Select_v2.cur'), default !important;
+}
+.disabled, .modeLocked-SZJhTy /* DISABLED PLACES */
+{
+    cursor: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Unavailable_v2.cur'), default !important;    
+}
+a, .da-textHover, .da-expandable, [role="button"], [role="button"] header, [type="checkbox"], label, .da-button, .item-26Dhrx, 
+.clickable-1JJAn8:hover .layout-2DM8Md, .clickable-3Ya1ho, .da-item, .da-interactive, .friendsTable-133bsv .friendsRow-2yicud /* POINTER */
+{
+    cursor: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Link_Select_v2.cur'), default !important;
+}
 
 
 ::placeholder, body, button, input, select, textarea{font-family: var(--nier-font), Arial, Helvetica, sans-serif;}
