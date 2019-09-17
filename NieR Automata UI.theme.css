@@ -265,7 +265,9 @@ div[class="vertical-V37hAW flex-1O1GKY directionColumn-35P_nr da-vertical da-fle
 .da-membersWrap .da-members .member-3W1lQa:hover .activity-E-0FeD,
 .selected-aXhQR6.container-2Pjhx- .text-zpzAjW,
 .selected-aXhQR6.container-2Pjhx- path,
+.reaction-1ELvT8:hover .da-reactionCount,
 .clickable-1JJAn8.container-2Pjhx-:hover .text-zpzAjW,
+.clickable-11uBi-:hover, .selected-BYpGTS, /* RIGHT CLICK ADD REACTION HOVER */
 .clickable-1JJAn8.container-2Pjhx-:hover, /* PRIVATE MESSAGE HOVER */
 .newMessagesBar-mujexs button:last-child, /* NEW MESSAGE */
 .durationTimeWrapper-OugPFt, /* SOUND FILE TIME STAMP TEXT */
@@ -382,6 +384,7 @@ a, /* ALL LINKS */
 .theme-dark .introBlurb-3gFgTQ, /* HYPESQUAD TEXT */
 .theme-dark.metadata-3WGS0M, /* ATTACHMENT FILE DATA */
 .maxLength-39QFBo, /* KICK USER TYPEBOX MAX LIMIT */
+.discriminator-uTZ08z, .channelName-13-Sm9, /* SERVER SETTINGS DISCRIMINATOR */
 .theme-dark .bannedUser-1IalTM .username-1b3MVI .discrim-oGb-FO, .theme-dark .bannedUserModal-3RJCOV .reason-YbfGC6, .theme-dark .bannedUserModal-3RJCOV .userDiscrim-1D2NlF /* SERVER SETTINGS BANS DISCRIMINATOR */
 .theme-dark .lastPlayed-3bQ7Bo, .theme-dark .overlayStatusText-L2IACa, /* USER PROFILE GAME ACTIVITY SUBTEXT */
 .theme-dark .emptyStateSubtext-2njjqg, /* GIFT EMPTY SUBTEXT */
@@ -435,6 +438,7 @@ a, /* ALL LINKS */
 .title-1rUb9I, /* PRIVATE MESSAGE TITLE */
 .theme-dark .contentUnread-3gTHvA, /* QUICK NAVIGATE LAST CHANNEL NAME */
 .theme-dark .member-1q7VfX .tag-1YGWN9, /* SERVER SETTINGS MEMBERS */
+.itemBase-tz5SeC, /* RIGHT CLICK ADD REACTION */
 .theme-dark .container-3-pyIM .content-2M3n_H a, /* PRIVATE MESSAGE CALL LOG NAME */
 .button-14-BFJ,
 .title-eS5yk3,
@@ -480,6 +484,7 @@ a, /* ALL LINKS */
 .theme-dark .container-3-pyIM .content-2M3n_H a, /* PRIVATE MESSAGE CALL LOG NAME */ 
 .content-2M3n_H, /* CALL STARTED TEXT */
 .theme-dark .input-2A_zIr, /* GROUP CHAT TITLE TEXT */
+.user-3x-NP9, /* SERVER SETTINGS BANS NAME */
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .instructions-2Du9gG, /* DRAG AND DROP DESCRIPTION TEXT */
 .theme-dark .spoilerText-3p6IlD.hidden-HHr2R9, /* SPOILER TEXT */
 .topSectionNormal-2-vo2m .username-3gJmXY, /* USER POPOUT NAME */
@@ -1160,14 +1165,14 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     }
     .theme-dark .wrapper-3WhCwL /* TEXT CHANNEL REFERENCE */
     {
-        background: var(--color-high);
-        color: var(--color-low);
+        background: var(--color-low);
+        color: var(--color-high);
         border-radius: 5px;
     }
     .theme-dark .wrapperHover-1GktnT:hover /* TEXT CHANNEL REFERENCE HOVER */
     {
-        background-color: var(--color-low);
-        color: var(--color-high);
+        background-color: var(--color-high);
+        color: var(--color-low);
     }
     .hasMore-3e72_v button, /* LOAD MORE MESSAGES */
     .theme-dark .hasMore-3e72_v button /* LOAD MORE MESSAGES */
@@ -1242,10 +1247,12 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
         border-radius: 0;
         box-shadow: 3px 3px 0 var(--color-mid);
     }
+    .reaction-1ELvT8:hover,
     .theme-dark .reaction-1ELvT8.reactionMe-23mbRf /* REACTIONS CONTAINER SELECTED */
     {
         background: var(--color-low);
     }
+    
     path[d="M12,5 L12,1 L7,6 L12,11 L12,7 C15.31,7 18,9.69 18,13 C18,16.31 15.31,19 12,19 C8.69,19 6,16.31 6,13 L4,13 C4,17.42 7.58,21 12,21 C16.42,21 20,17.42 20,13 C20,8.58 16.42,5 12,5 L12,5 Z"], /* REPLAY SYMBOL MUSIC EMBED */
     path[d="M0,14 L4,14 L4,0 L0,0 L0,14 L0,14 Z M8,0 L8,14 L12,14 L12,0 L8,0 L8,0 Z"] /* PAUSE SYMBOL MUSIC EMBED*/
     {
@@ -1338,7 +1345,12 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
         background-image: none;
         background-color: transparent;
     }
-    .reactionBtn-2na4rd, /* REACTION */
+    .clickable-11uBi-:hover /* ADD REACTION HOVER */
+    {
+        background: var(--color-low);
+        border-radius: 0;
+    }
+    .reactionBtn-2na4rd, .selected-BYpGTS, /* REACTION */
     .button-3Jq0g9 /* RIGHT BUTTON */
     {
         margin-left: 2px;
