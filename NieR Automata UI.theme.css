@@ -1163,6 +1163,13 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
         background-color: var(--color-mid);
         border-radius: 0;
     }
+    .messages-3amgkR,
+    .sidebar-2K8pFh,
+    .scroller-2TZvBN,
+    .scroller-1JbKMe
+    {
+        background: transparent;
+    }
     .theme-dark .wrapper-3WhCwL /* TEXT CHANNEL REFERENCE */
     {
         background: var(--color-low);
