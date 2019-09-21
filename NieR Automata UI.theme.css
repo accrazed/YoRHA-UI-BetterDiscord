@@ -1170,6 +1170,10 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     {
         background: transparent;
     }
+    .content-3at_AU:active
+    {
+        contain: none
+    }
     .theme-dark .wrapper-3WhCwL /* TEXT CHANNEL REFERENCE */
     {
         background: var(--color-low);
