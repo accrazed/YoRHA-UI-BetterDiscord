@@ -919,12 +919,18 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     {
         display: none;
     }
-    .item-2hkk8m /* GUILD BAR NOTIFICATION BLIP */
+    .bd-unread .da-pill, /* GUILD BAR NOTIFICATION BLIP */
+    .bd-unread .da-pill span /* GUILD BAR NOTIFICATION BLIP */
     {
         border-radius: 0;
-        width: 12px !important;
+        width: 8px !important;
         height: 48px !important;
         background-color: var(--color-alert);
+    }
+    .bd-selected .da-pill,
+    .bd-selected .da-pill span /* GUILD BAR BLIPS */
+    {
+        background-color: var(--color-low);
     }
     span[style="opacity: 1; height: 40px; transform: translate3d(0px, 0px, 0px);"]
     {
