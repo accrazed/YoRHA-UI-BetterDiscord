@@ -919,6 +919,7 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     {
         display: none;
     }
+    .da-pill span[style="opacity: 1; height: 40px; transform: none;"],
     .bd-unread .da-pill, /* GUILD BAR NOTIFICATION BLIP */
     .bd-unread .da-pill span /* GUILD BAR NOTIFICATION BLIP */
     {
@@ -927,6 +928,7 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
         height: 48px !important;
         background-color: var(--color-alert);
     }
+    .da-pill span[style="opacity: 1; height: 40px; transform: none;"],
     .bd-selected .da-pill,
     .bd-selected .da-pill span /* GUILD BAR BLIPS */
     {
@@ -1820,6 +1822,7 @@ path[d="M14 8C14 7.44772 13.5523 7 13 7H9.76001L10.3657 3.58738C10.4201 3.28107 
 {
     background: none;
 }
+.friendsTable-133bsv .friendsTableBody-1ZhKif, /* FRIEND TABLE BACKGROUND */
 .videoBackgroundWrapper-2dCt49, /* SCREENSHARE BACKGROUND WRAPPER */
 .theme-dark .video-1FfuMD.noChat-3nt48u .videoTop-eOkSPq, .theme-dark .video-1FfuMD.normal-1jW0uq .videoTop-eOkSPq, /* SCREENSHARE HEADER */
 .video-1kutKI, /* SCREENSHARE VIDEO BACKGROUND */
