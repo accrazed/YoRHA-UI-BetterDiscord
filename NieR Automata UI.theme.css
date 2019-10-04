@@ -7,7 +7,7 @@
     https://i.ibb.co/98f2jx9/R4HPUxC.png borderless
     https://i.ibb.co/7NzPSCg/Nie-R-UI-lens-effect.png with Lens
     */
-}
+}=
 #app-mount:before { /* theatre effect */
     content: "";
     position: absolute;
@@ -1258,6 +1258,17 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     {
         background: var(--color-low);
     }
+    .contentRegionScroller-26nc1e,
+    .sidebarRegionScroller-3MXcoP,
+    .scroller-305q3I
+    {
+        background: transparent;
+    }im still kinda weirded by mentioning it but izz is normal about it which i greatly appreciate her for
+    .theme-dark .sidebar-1-SQro
+    {
+        background: var(--color-high);
+    }
+    .theme-dark .container-1If-HZ, .theme-dark .reactors-Blmlhw,
     .css-181m2lf-menu,  /* ADD GAME POPOUT */
     .theme-dark .addGamePopout-2RY8Ju, /* ADD GAME POPOUT */
     .theme-dark .reaction-1ELvT8 /* REACTIONS CONTAINER */
