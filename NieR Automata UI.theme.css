@@ -7,7 +7,7 @@
     https://i.ibb.co/98f2jx9/R4HPUxC.png borderless
     https://i.ibb.co/7NzPSCg/Nie-R-UI-lens-effect.png with Lens
     */
-}=
+}
 #app-mount:before { /* theatre effect */
     content: "";
     position: absolute;
@@ -237,6 +237,7 @@ div[class="vertical-V37hAW flex-1O1GKY directionColumn-35P_nr da-vertical da-fle
 .theme-dark .titleChecked-2wg0pd, /* CHECKED BOX TEXT */
 .theme-dark .select-2TCrqx .Select-option, /* AFK DEFAULT */
 .theme-dark .selectableItem-1MP3MQ:hover, /* AUDIT LOG POPOUT HOVER */
+.selected-aXhQR6 .activity-3mKQ-i,
 .theme-dark .auditLog-3jNbM6 strong, /* AUDIT LOG EMOJI NAME */
 .searchBar-2_Yu-C.searchBarLight-1NxoDG input::placeholder, /* EMOJI PLACEHOLDER TEXT */
 .theme-dark .userHook-3AdCBF, /* AUDIT LOG NAME */
@@ -262,7 +263,7 @@ div[class="vertical-V37hAW flex-1O1GKY directionColumn-35P_nr da-vertical da-fle
 .theme-dark .bda-slist .bda-header, /* USER SETTINGS PLUGIN HEADER */
 .theme-dark .tagline-2iew42, /* SHOP FULL COLOR GAME */
 .theme-dark .description-3rB3Rp, /* SHOP FULL COLO TEXT */
-.da-membersWrap .da-members .member-3W1lQa:hover .activity-E-0FeD,
+.da-membersWrap .da-members .member-3-YXUe:hover .activity-E-0FeD,
 .selected-aXhQR6.container-2Pjhx- .text-zpzAjW,
 .selected-aXhQR6.container-2Pjhx- path,
 .reaction-1ELvT8:hover .da-reactionCount,
@@ -514,6 +515,7 @@ a, /* ALL LINKS */
 .theme-dark .friend-2PO6ke, /* CTRL SHFT T POPOUT NAMES */
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .statusText-2F9zIF, /* HOME FRIENDS STAUS */
 .userInfoSectionHeader-CBvMDh, /* USER PROFILE NOTE HEADER */
+.activity-3mKQ-i,
 .theme-dark .header-13MUnb, /* PRIVATE MESSAGE QUICK SEARCH TEXT */
 .theme-dark .inviteRowName-1tVaxu, /* INVITE FRIEND TO CHANNEL - NAME */
 .theme-dark .radioGroup-1GBvlr, /* UNCHECKED BOX */
@@ -687,7 +689,8 @@ a, /* ALL LINKS */
 .selectorNitroText-3ZFWAe, /* SCREENSHARE OPTIONS UNABLE TO SELECT */
 .da-wrapper > .h5-18_1nd, /* INVITED TO JOIN SERVER */
 .lookFilled-1Gx00P .contents-18-Yxp, /* DARK BUTTON HIGH TEXT */
-.da-membersWrap .da-members .member-3W1lQa:hover span,
+.da-membersWrap .da-members .member-3-YXUe:hover span,
+.da-membersWrap .da-members .member-3-YXUe:hover .da-activity,
 .da-messageGroupWrapperOffsetCorrection > div > div > div > div > div > a /* PINNED MESSAGES TEXT */
 {
     color: var(--color-high) !important;
@@ -2970,16 +2973,16 @@ svg[name="Folder"] /* FOLDER ICON */
 /* THANKS TO GOMONKEYMANGO FOR LETTING ME USE THIS CODE */
 .da-privateChannels .da-systemPad .selected-aXhQR6,
 .da-privateChannels .da-systemPad .channel-2QD9_O:hover,
-.theme-dark .member-3W1lQa.popout-open, 
-.theme-dark .member-3W1lQa.popout-open:hover,
-.theme-dark .member-3W1lQa:hover,
+.theme-dark .member-3-YXUe.popout-open, 
+.theme-dark .member-3-YXUe.popout-open:hover,
+.theme-dark .member-3-YXUe:hover,
 .da-membersWrap .da-members .selected-aXhQR6,
 .da-membersWrap .da-members 
 {
     background-color: transparent;
 }
 .layout-2DM8Md,
-.da-membersWrap .da-members .member-3W1lQa 
+.da-membersWrap .da-members .member-3-YXUe 
 {
     position: relative;
     margin-left: 0;
@@ -2988,37 +2991,37 @@ svg[name="Folder"] /* FOLDER ICON */
     border-radius: 0;
     color: var(--color-low);
 }
-.da-membersWrap .da-members .member-3W1lQa:hover .memberContent-1MK6T5 .nameTag-m8r81H .username-2b1r56, 
-.da-membersWrap .da-members .member-3W1lQa.popout-open .memberContent-1MK6T5 .nameTag-m8r81H .username-2b1r56
+.da-membersWrap .da-members .member-3-YXUe:hover .memberContent-1MK6T5 .nameTag-m8r81H .username-2b1r56, 
+.da-membersWrap .da-members .member-3-YXUe.popout-open .memberContent-1MK6T5 .nameTag-m8r81H .username-2b1r56
 {
     z-index: 1;
     color: var(--color-high) !important;
 }
-.da-membersWrap .da-members .member-3W1lQa svg .da-activityIconForeground,
+.da-membersWrap .da-members .member-3-YXUe svg .da-activityIconForeground,
 .theme-dark .iconForeground-1w5n7R /* TYPE BOX HASH TAG */
 {
     fill: var(--color-low);
 }
 .da-membersWrap .da-members .selected-aXhQR6,
-.da-membersWrap .da-members .member-3W1lQa:hover,
-.da-membersWrap .da-members .member-3W1lQa.popout-open 
+.da-membersWrap .da-members .member-3-YXUe:hover,
+.da-membersWrap .da-members .member-3-YXUe.popout-open 
 {
     border-color: var(--color-low);
 }
 .da-membersWrap .da-members .selected-aXhQR6 .da-content,
-.da-membersWrap .da-members .member-3W1lQa:hover .da-content,
-.da-membersWrap .da-members .member-3W1lQa.popout-open .da-content,
-.da-membersWrap .da-members .member-3W1lQa:hover .da-activityText,
-.da-membersWrap .da-members .member-3W1lQa.popout-open .da-activityText,
-.da-membersWrap .da-members .member-3W1lQa:hover svg .da-activityIconForeground,
-.da-membersWrap .da-members .member-3W1lQa.popout-open svg .da-activityIconForeground 
+.da-membersWrap .da-members .member-3-YXUe:hover .da-content,
+.da-membersWrap .da-members .member-3-YXUe.popout-open .da-content,
+.da-membersWrap .da-members .member-3-YXUe:hover .da-activityText,
+.da-membersWrap .da-members .member-3-YXUe.popout-open .da-activityText,
+.da-membersWrap .da-members .member-3-YXUe:hover svg .da-activityIconForeground,
+.da-membersWrap .da-members .member-3-YXUe.popout-open svg .da-activityIconForeground 
 {
     color: var(--color-high);
     fill: var(--color-high);
     background-color: transparent;
     z-index: 2;
 }
-.da-membersWrap .da-members .member-3W1lQa::before 
+.da-membersWrap .da-members .member-3-YXUe::before 
 {
     content: "";
     position: absolute;
@@ -3044,8 +3047,8 @@ svg[name="Folder"] /* FOLDER ICON */
 }
 .da-privateChannels .da-systemPad .selected-aXhQR6::before,
 .da-membersWrap .da-members .selected-aXhQR6::before,
-.da-membersWrap .da-members .member-3W1lQa:hover::before,
-.da-membersWrap .da-members .member-3W1lQa.popout-open::before 
+.da-membersWrap .da-members .member-3-YXUe:hover::before,
+.da-membersWrap .da-members .member-3-YXUe.popout-open::before 
 {
     width: 100%;
 }
