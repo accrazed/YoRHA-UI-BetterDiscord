@@ -1261,12 +1261,13 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     {
         background: var(--color-low);
     }
+    .bg-h5JY_x,
     .contentRegionScroller-26nc1e,
     .sidebarRegionScroller-3MXcoP,
     .scroller-305q3I
     {
         background: transparent;
-    }im still kinda weirded by mentioning it but izz is normal about it which i greatly appreciate her for
+    }
     .theme-dark .sidebar-1-SQro
     {
         background: var(--color-high);
