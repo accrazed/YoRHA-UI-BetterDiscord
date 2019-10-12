@@ -1261,7 +1261,7 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     {
         background: var(--color-low);
     }
-    .bg-h5JY_x
+    .bg-h5JY_x, .da-bg
     {
         position: relative;
         visibility: hidden;
