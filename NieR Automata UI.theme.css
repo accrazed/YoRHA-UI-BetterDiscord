@@ -1263,6 +1263,8 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     }
     .bg-h5JY_x
     {
+        position: relative;
+        visibility: hidden;
         background-color: transparent !important;
     }
     .contentRegionScroller-26nc1e,
