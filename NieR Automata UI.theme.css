@@ -414,6 +414,7 @@ a, /* ALL LINKS */
 .theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm, /* HOME FRIENDS DISCRIMINATOR */
 .theme-dark .topic-TCb_qw, /* CHANNEL TITLE NAME */
 .theme-dark .input-3Xdcic, /* SEARCH BAR TEXT */
+.misc-1CT3G7, /* CTRL K SERVER NAME TEXT */
 .theme-dark .header-1Kydsy, /* GIFTED NITRO TITLE */
 .theme-dark .input-3Xdcic::placeholder, /* SEARCH BAR TEXT */
 .theme-dark .optionNormal-12VR9V, /* HOME NITRO SORT TEXT */
@@ -2822,6 +2823,7 @@ svg[name="Folder"] /* FOLDER ICON */
         background: var(--color-low);
         border-radius: 0;
     }
+    .scroller-zPkAnE, /* CTRL K BACKGROUND */
     .theme-dark .footer-1kmXd4, /* PINNED MESSAGES FOOTER */
     .theme-dark .jumpButton-3DTcS_/* PINNED MESSAGES JUMP BUTTON */
     {
