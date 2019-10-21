@@ -384,6 +384,7 @@ a, /* ALL LINKS */
 .theme-dark .searchHeader-1l-wpR .tab-2Ixsn0, /* SEARCH BAR SEARCH RESULTS TAB TEXT */
 .theme-dark .introBlurb-3gFgTQ, /* HYPESQUAD TEXT */
 .theme-dark.metadata-3WGS0M, /* ATTACHMENT FILE DATA */
+.description-yMw5z0, .blurb-1H7VPv, .guildMoreFeatures-svfRvH,/* HOME NITRO SUBTEXT */
 .maxLength-39QFBo, /* KICK USER TYPEBOX MAX LIMIT */
 .discriminator-uTZ08z, .channelName-13-Sm9, /* SERVER SETTINGS DISCRIMINATOR */
 .theme-dark .bannedUser-1IalTM .username-1b3MVI .discrim-oGb-FO, .theme-dark .bannedUserModal-3RJCOV .reason-YbfGC6, .theme-dark .bannedUserModal-3RJCOV .userDiscrim-1D2NlF /* SERVER SETTINGS BANS DISCRIMINATOR */
@@ -460,6 +461,7 @@ a, /* ALL LINKS */
 .theme-dark .noMatches-2myGbP, .theme-dark .noMatchesDescription-1jZ4Wi, /* HOME NITRO NO MATCHES FOUND */
 .theme-dark .emptyNote-3nZbCz, .theme-dark .emptyTitle-3Jm6Ve, /* GAME SEARCH NO MATCHES */
 .regionSelect-3lf4eE button, /* SERVER REGION CREATE SERVER */
+.theme-dark .subtitle-UfhpvR, .theme-dark .subtitleRepositioned-11uB9-, .title-3IUNJ6, /* HOME NITRO SUBTEXT */
 .emptyText-6tYmO5, /* NO MUTUAL FRIENDS TEXT */
 .theme-dark .reactionCount-2ddRoS, /* REACTION COUNT */
 .audioMetadata-3zOuGv .metadataIcon-2FyCKU, /* MUSIC DOWNLOAD ICON */
@@ -1270,6 +1272,7 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     }
     .contentRegionScroller-26nc1e,
     .sidebarRegionScroller-3MXcoP,
+    .theme-dark .messagesPopout-24nkyi,
     .scroller-305q3I
     {
         background: transparent;
@@ -3505,10 +3508,11 @@ path[d="M4 11.526V6.553l5.684-1.25v6.138L4 11.526zM20.105 3v8.29l-9.473.142V5.09
 {
     background: var(--color-mid);
 }
+.scroller-9moviB, .scroller-1IIF0A,
 .theme-dark .topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL), /* LIBRARY TOP UNSELECETD HOVER */
 .theme-dark .header-1RC2Wb:hover
 {
-    background: none;
+    background: transparent;
 }
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6, /* WATCH STREAM BUTTON */
 .headerButtonColor-G7_f-V /* header button */
