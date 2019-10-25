@@ -442,6 +442,7 @@ a, /* ALL LINKS */
 .theme-dark .contentUnread-3gTHvA, /* QUICK NAVIGATE LAST CHANNEL NAME */
 .theme-dark .member-1q7VfX .tag-1YGWN9, /* SERVER SETTINGS MEMBERS */
 .itemBase-tz5SeC, /* RIGHT CLICK ADD REACTION */
+.headerText-2uyvpY, /* CUSTOM STATUS */
 .theme-dark .container-3-pyIM .content-2M3n_H a, /* PRIVATE MESSAGE CALL LOG NAME */
 .button-14-BFJ,
 .title-eS5yk3,
@@ -2707,6 +2708,17 @@ svg[name="Folder"] /* FOLDER ICON */
     .theme-dark .root-SR8cQa .note-QfFU8y textarea:focus /* USER PROFILE NOTE FOCUS */
     {
         background: var(--color-low);
+    }
+    .theme-dark .root-1gCeng /* CUSTOM STATUS */
+    {
+        background: var(--color-high);
+        border-radius: 0;
+        box-shadow: 3px 3px 0 var(--color-mid);
+    }
+    .theme-dark .lookFilled-1h1y05.select-1Pkeg4:focus, .selectClosed-2un0PJ
+    {
+        border-color: none;
+        border-radius: 0;
     }
     .theme-dark .emptyPlayers-dx3qig, .theme-dark .players-1zg2l8, /* RICHPRESENCE */
     .theme-dark .news-2KwXHF /* RICHPRESENCE */
