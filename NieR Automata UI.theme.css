@@ -1310,6 +1310,8 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     }
     .embed-IeVjo6 /* EMBED CONTAINER */
     {
+        background: var(--color-high);
+        border-radius: 0;
         box-shadow: 4px 4px 0 var(--color-mid);
     }
     .theme-dark .embedInner-1-fpTo /* EMBED */
