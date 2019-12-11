@@ -1013,6 +1013,11 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     {
         background: var(--color-low);
     }
+    .scrollableContainer-38zsVD /* TYPE BOX BOTTOM */
+    {
+        border-radius: 0;
+        background-color: var(--color-high);
+    }
     .option-96V44q /* SEARCH BAR POPOUT OPTIONS */
     {
         border-radius: 0;
@@ -1021,6 +1026,7 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     {
         visibility: hidden;
     }
+    .attachWrapper-1_D-pj,
     .theme-dark .queryContainer-RKFJW- /* SEARCH BAR POPOUT SEARCH FOR */
     {
         border: none;
@@ -1414,12 +1420,23 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     {
         visibility: visible
     }
+    .theme-dark .channelTextArea-rNsIhG /* type box margin */
+    {
+        margin-top: 0;
+    }
     .theme-dark .inner-zqa7da, /* TYPE BOX CONTAINER */
     .innerNoAutocomplete-1WpcVO
     {
         background-color: var(--color-high);
         border-radius: 0px;
         box-shadow: 3px 3px 0 var(--color-mid);
+    }
+    .theme-dark .da-uploadModal .inner-zqa7da
+    {
+        background-color: var(--color-low);
+    }
+    .slateTextArea-1bp44y {
+        caret-color: var(--color-mid);
     }
     .theme-dark .attachButtonDivider-3Glu60 /* TYPE BOX DIVIDER */
     {
