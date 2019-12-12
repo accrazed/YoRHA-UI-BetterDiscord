@@ -242,6 +242,7 @@ div[class="vertical-V37hAW flex-1O1GKY directionColumn-35P_nr da-vertical da-fle
 .searchBar-2_Yu-C.searchBarLight-1NxoDG input::placeholder, /* EMOJI PLACEHOLDER TEXT */
 .theme-dark .userHook-3AdCBF, /* AUDIT LOG NAME */
 .noticeStreamerMode-2TSQpg, /* STREAMER MODE HEADER */
+.da-selected .subtext-1RtU34,
 .selectorTextSelected-3m1dO_, /* SCREENSHARE OPTIONS SELECTED */
 .theme-dark .descChecked-XkfPsU, /* CHECKED BOX SUBTEXT */
 .theme-dark .description-2Ifi6N strong, .theme-dark .username-2gp_Xw, /* STORE GAME HOVER TEXT HEADER */
@@ -321,6 +322,7 @@ button:hover .listenAlongIcon-2WbU7U, /* USER POPOUT LISTEN ALONG ICON HOVER */
 .operations-36ENbA>a, /* EDIT MESSAGE FOOTER LINKS */
 .searchBar-6Kv8R2 .searchBarComponent-32dTOx input::placeholder, /* FIND OR START A CONVERSATION TEXT */
 .theme-dark .container-OI6I9q, /* SCREENSHARE TAB UNSELECTED */
+.clickable-3rdHwn .icon-22AiRD:hover,
 .theme-dark .tile-2QWaFv, /* SCREENSHARE SCREEN LABEL TEXT */
 .theme-dark .playTime-2SuPqW, /* HOME ACTIVITY USER PLAYTIME */
 .theme-dark .size-1Arx_I, /* FILE UPLOADING SIZE */
@@ -330,6 +332,7 @@ a, /* ALL LINKS */
 .theme-dark .card-3Qj_Yx a, /* TERMS OF SERVICE LINK TEXT */
 .theme-dark .container-2x5lvQ section strong, /* RTC HILIGHTED */
 .theme-dark .description-1W0DiL, /* HYPESQUAD TEXT */
+.fakeLink-11RWCQ, /* TYPEBOX LINK TEXT */
 .theme-dark .progressCellText-3avmMz, /* DOWNLOADING GAME SUBTEXT */
 .topSectionNormal-2-vo2m .discriminator-xUhQkU, /* USER POPOUT DISCRIMINATOR */
 .theme-dark .memberInfo-1TAaKC, /* GAME OFFICIAL DISCORD SUBTEXT */
@@ -559,6 +562,7 @@ a, /* ALL LINKS */
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day-name, /* SEARCH BAR CALENDAR DAY */
 .theme-dark .viewAllGames-3LNpt1, /* SHOP VIEW ALL GAMES */
 .theme-dark .queryContainer-RKFJW- strong, /* SEARCH BAR POPOUT SEARCH FOR TEXT */
+.subtext-1RtU34,
 .theme-dark .quickSelect-3BxO0K, /* AUDIT LOG TOP */
 .css-12o7ek3-option, /* DROPDOWN OPTION SELECTED*/
 .css-1aymab5-option, /* DROPDOWN OPTION DEFAULT */
@@ -567,8 +571,10 @@ a, /* ALL LINKS */
 .theme-dark .title-2a5mvx, /* DISCORD NITRO TEXT */
 .theme-dark .mobileIndicator-329Gd6, /* MOBILE INDICATOR MEMBERS BAR*/
 .theme-dark .wrapper-39oAo3, /* BLOCKED USER YOU CANNOT SEND MESSAGES */
+.header-zu8eWb:hover,
 .theme-dark .topPill-30KHOu .item-PXvHYJ, /* LIBRARY TOP GAME UNSELECTED */
 .icon-2dCXDL, .text-zpzAjW,
+.clickable-3rdHwn .icon-22AiRD,
 .theme-dark .option-96V44q .filter-3Y_im-, /* SEARCH BAR POPOUT HISTORY DATE */
 .theme-dark .playersHeader-3xUYAQ, /* GAME POPOUT RECENTLY PLAYED */
 .theme-dark .item-1GzJrl, /* SERVER POPOUT MENU TEXT */
@@ -1213,6 +1219,7 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
         background-color: var(--color-high);
         color: var(--color-low);
     }
+    .searchBar-6Kv8R2 .searchBarComponent-32dTOx,/* FIND OR START A CONVERSATION */
     .hasMore-3e72_v button, /* LOAD MORE MESSAGES */
     .theme-dark .hasMore-3e72_v button /* LOAD MORE MESSAGES */
     {
@@ -1692,10 +1699,13 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
 {
     color: var(--color-low);
 }
-.channel-2QD9_O:hover path, /* HOME TAB HOVER ICON */
 .selected-1HYmZZ path /* HOME TAB SELECT ICON */
 {
     fill: var(--color-high);
+}
+.channel-2QD9_O:hover path /* HOME TAB HOVER ICON */
+{
+    fill: var(--color-mid);
 }
 .linkButtonIcon-Mlm5d6 > g > path:nth-child(2),
 .channel-2QD9_O:hover path:nth-child(2)
