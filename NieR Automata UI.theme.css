@@ -317,6 +317,7 @@ button:hover .listenAlongIcon-2WbU7U, /* USER POPOUT LISTEN ALONG ICON HOVER */
 .theme-dark .notes-3hkVr0, .theme-light .label-2zCFFs, /* NITRO STORE REVIEW TEXT */
 .theme-dark .searchResultChannelIcon-1DnTme,  /* SEARCH BAR MORE TEXT */
 .placeholder-P6ptfj,
+.reactionBtn-2na4rd:hover .icon-3tPbgH,
 .theme-dark .container-2x5lvQ section a, /* RTC LINK */
 .theme-dark .publisher-2O_BF0, .theme-dark .publisherAnchor-2YhQtQ, .theme-dark .username-Ga9-tM, /* HOME NITRO STORE REVIEW LINK */
 .operations-36ENbA>a, /* EDIT MESSAGE FOOTER LINKS */
@@ -564,6 +565,7 @@ a, /* ALL LINKS */
 .theme-dark .queryContainer-RKFJW- strong, /* SEARCH BAR POPOUT SEARCH FOR TEXT */
 .subtext-1RtU34,
 .theme-dark .quickSelect-3BxO0K, /* AUDIT LOG TOP */
+.reactionBtn-2na4rd .icon-3tPbgH,
 .css-12o7ek3-option, /* DROPDOWN OPTION SELECTED*/
 .css-1aymab5-option, /* DROPDOWN OPTION DEFAULT */
 .css-1gnr91b-option, /* DROPDOWN OPTION HOVERED */
@@ -1371,6 +1373,11 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     .mediaBarInteraction-37i2O4:hover .mediaBarGrabber-1FqnbN /* SOUND FILE GRABBER SCROLLER */
     {
         background-color: var(--color-high);
+    }
+    .after_inlineCode-hpuJ_w, .before_inlineCode-2iuk6G, .inlineCode-jPZHTD
+    {
+        background-color: var(--color-low);
+        color: var(--color-high);
     }
     .progressBar-3u8FBM /* FILE UPLOAD PROGRESS BAR */
     {
