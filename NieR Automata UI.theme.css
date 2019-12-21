@@ -110,6 +110,7 @@ strong {font-family: Arial, Helvetica, sans-serif}
 .container-PNkimc,
 .selected-aXhQR6 .layout-2DM8Md,
 .theme-dark .messageG,
+.scrollableContainer-2NUZem,
 .theme-dark .tile-2OwFgW,
 .theme-dark .contentRegion-3nDuYy,
 .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ,
@@ -239,6 +240,7 @@ div[class="vertical-V37hAW flex-1O1GKY directionColumn-35P_nr da-vertical da-fle
 .theme-dark .selectableItem-1MP3MQ:hover, /* AUDIT LOG POPOUT HOVER */
 .selected-aXhQR6 .activity-3mKQ-i,
 .theme-dark .auditLog-3jNbM6 strong, /* AUDIT LOG EMOJI NAME */
+.theme-dark .markup-2BOw-j .inlineCode-2ngu6Y,
 .searchBar-2_Yu-C.searchBarLight-1NxoDG input::placeholder, /* EMOJI PLACEHOLDER TEXT */
 .theme-dark .userHook-3AdCBF, /* AUDIT LOG NAME */
 .noticeStreamerMode-2TSQpg, /* STREAMER MODE HEADER */
@@ -492,6 +494,7 @@ a, /* ALL LINKS */
 .theme-dark .transparent-2ZlE3R .title-29uC1r:not(.titleMuted-LYRtm8), .theme-light .transparent-2ZlE3R .title-29uC1r:not(.titleMuted-LYRtm8), /* PRIVATE MESSAGE HEADER NAME */
 .theme-dark .icon-3BcwQu, .theme-dark .username-lm8y6T, /* VOICE CALL NAME AND ICONS */
 .theme-dark .gameName-1RiWHm, /* USER PROFILE game activity */
+.codeBlockText-9TnoxQ, .codeLine-14BKbG,
 .theme-dark .filename-3eBB_v, /* UPLOADING IMAGE FILE NAME */
 .theme-dark .quickSelectPopoutOption-opKBx9:hover > div > div, /* PRIVATE CALL CHANGE REGION TEXT */
 .theme-dark .friendsTable-133bsv .friendTableAddWrapper-nHHZtK h2, /* HOME FRIENDS ADD FIRNED TEXT */
@@ -1431,6 +1434,10 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
         margin-right: 2px;
         opacity: 1;
     }
+    .after_inlineCode-1KfVgj, .before_inlineCode-1G9rTK, .inlineCode-2ngu6Y
+    {
+        background: var(--color-low);
+    }
     #app-mount .markup-2BOw-j:not(code):hover > div > .buttonContainer-KtQ8wc /* MESSAGE REACTION */
     {
         visibility: visible
@@ -1450,8 +1457,30 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     {
         background-color: var(--color-low);
     }
-    .slateTextArea-1bp44y {
+    .attachWrapper-2TRKBi
+    {
+        border-right: none;
+    }
+    .attachButtonPlus-jWVFah
+    {
+        fill: var(--color-low);
+    }
+    .attachButton-2WznTc:hover .attachButtonPlus-jWVFah
+    {
+        fill: var(--color-mid);
+    }
+    .da-textArea div div::placeholder
+    {
+        color: var(--color-low);
+    }
+    .placeholder-37qJjk, .slateTextArea-1Mkdgw .hljs-comment, .slateTextArea-1Mkdgw .hljs-quote
+    {
+        color: var(--color-mid);
+    }
+    .slateTextArea-1bp44y, .da-textArea div div
+    {
         caret-color: var(--color-mid);
+        margin-left: 16px;
     }
     .theme-dark .attachButtonDivider-3Glu60 /* TYPE BOX DIVIDER */
     {
@@ -1601,12 +1630,17 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
         border-radius: 0;
         background-color: var(--color-low);
     }
+    .theme-dark .channelTextArea-rNsIhG
+    {
+        background: var(--color-high);;
+    }
     .theme-dark .channelTextArea-rNsIhG /* TYPE BOX BORDER */
     {
         box-shadow: -3px 0 0 var(--color-low),
                     -9px 0 0 var(--color-high),
                     -21px 0 0 var(--color-low),
-                    -18px 3px 0 var(--color-mid);
+                    -18px 3px 0 var(--color-mid),
+                    3px 3px 0 var(--color-mid);
         border-top: 0px;
         margin-left: 15px;
         padding-top: 0px;
