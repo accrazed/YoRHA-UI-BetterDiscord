@@ -599,6 +599,7 @@ a, /* ALL LINKS */
 .theme-dark .activeBreadcrumb-2mAmuI, .theme-dark .breadcrumb-22XhB5:hover, /* HOME STORE BROWSE BREADCRUM */
 .theme-dark .defaultColor-1_ajX0, /* CHANNEL DESCRIPTFION CHANNEL NAME */
 .theme-dark .username-XRo90I, /* HOME ACTIVITY USERNAME */
+.lookOutlined-3sRXeN.colorRed-1TFJan, /* REMOVE 2FA, Remove SMS Authentication */
 .theme-light .description-QF3836, /* CREATE SERVER POPOUT TEXT */
 .theme-dark .pagination-eQpqgk, /* SEARCH BAR PAGES */
 .theme-dark .headerText-2niCs_, /* HOME ACTIVITY HEADERS */
@@ -1411,7 +1412,11 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     .theme-dark .topic-2QX7LI a, /* LINKS IN HEADER */
     .theme-dark .markup-2BOw-j a /* LINKS */
     {
-        color: rgba(87,84,74,0.65) !important;
+        color: rgba(87,84,74,0.65);
+    }
+    .da-messagesPopout .markup-2BOw-j a /* LINKS IN PINNED */
+    {
+        color: var(--color-mid);
     }
     .contentCozy-3XX413 /* MESSAGE CONTAINER */
     {
@@ -3913,3 +3918,4 @@ path[d="M12 16c1.1045695 0 2 .8954305 2 2s-.8954305 2-2 2-2-.8954305-2-2 .895430
     font-size: 11pt;
     font-weight: 100 !important;
 }
+d
