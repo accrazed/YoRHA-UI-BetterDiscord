@@ -217,6 +217,7 @@ a:hover > div > div > .collapsedTitle-uWuaaU, /* GAME NEWS BOX HOVER */
 .da-privateChannels .da-systemPad .selected-aXhQR6 .name-uJV0GL,/* PM GENERAL */
 .hasSpoilers-1IRtQC .da-hasSpoilers > div > button > div, /* UPLOAD CONFIRM TEXT */
 .theme-dark .featureIcon-1f78KU, /* GAME PAGE FEATURES ICON */
+.itemBase-1Qj4z6.da-itemHighlighted, /* APPEAR AS ONLINE | IDLE | DO NOT DISTURB | OFFLINE */
 div[class="vertical-V37hAW flex-1O1GKY directionColumn-35P_nr da-vertical da-flex da-directionColumn"] > div > div > div > button > div[class="contents-18-Yxp da-contents"],
 .searchBar-2_Yu-C.searchBarLight-1NxoDG input, /* EMOJI SEARCHBAR TEXT */
 .darkTheme-3uETC4 .input-1Rv96N::placeholder, /* HOME FRIENDS FIND CONVERSATION */
@@ -241,6 +242,8 @@ div[class="vertical-V37hAW flex-1O1GKY directionColumn-35P_nr da-vertical da-fle
 .selected-aXhQR6 .activity-3mKQ-i,
 .theme-dark .auditLog-3jNbM6 strong, /* AUDIT LOG EMOJI NAME */
 .theme-dark .markup-2BOw-j .inlineCode-2ngu6Y,
+.itemBase-1Qj4z6:hover, /* APPEAR AS ONLINE | IDLE | DO NOT DISTURB | OFFLINE hover*/
+.statusItem-2uzPIV:hover .helper-2c73HK,
 .searchBar-2_Yu-C.searchBarLight-1NxoDG input::placeholder, /* EMOJI PLACEHOLDER TEXT */
 .theme-dark .userHook-3AdCBF, /* AUDIT LOG NAME */
 .noticeStreamerMode-2TSQpg, /* STREAMER MODE HEADER */
@@ -525,6 +528,7 @@ a, /* ALL LINKS */
 .theme-dark .checkBoxLabel-4PWfpk, .theme-dark .footerText-2a7NxZ, .theme-dark .subText-bCySlS, /* INVITE TO SERVER SUB TEXT/FOOTER TEXT */
 .selector-2IcQBU, /* MESSAGE TYPE BOX HEADER */
 .lookLink-9FtZy-.colorWhite-rEQuAQ, /* CANCEL UPLOAD */
+.helper-2c73HK,
 .theme-dark .friendsOnline-2JkivW, /* SERVER BAR FRIENDS ONLINE */
 #pubslayer .ui-tab-bar-header, #pubslayer h2.ui-form-title, .bd-server-description-container, .bd-server-card .bd-server-tags,
 .theme-dark .subtitle-2iWJ5y, /* CTRL SHFT T POPOUT */
@@ -597,6 +601,7 @@ a, /* ALL LINKS */
 .theme-dark .keybind-KpFkfr, /* ESCAPE ESC TEXT */
 .theme-dark .filenameLinkWrapper-1-14c5 > .anchor-3Z-8Bb,/* ATTACHMENT FILE NAME */
 .theme-dark .activeBreadcrumb-2mAmuI, .theme-dark .breadcrumb-22XhB5:hover, /* HOME STORE BROWSE BREADCRUM */
+.itemBase-1Qj4z6, /* APPEAR AS ONLINE | IDLE | DO NOT DISTURB | OFFLINE */
 .theme-dark .defaultColor-1_ajX0, /* CHANNEL DESCRIPTFION CHANNEL NAME */
 .theme-dark .username-XRo90I, /* HOME ACTIVITY USERNAME */
 .lookOutlined-3sRXeN.colorRed-1TFJan, /* REMOVE 2FA, Remove SMS Authentication */
@@ -2138,6 +2143,8 @@ path[d="M4,0 L4,3 L0,3 L0,0 L4,0 Z M12,4 L12,7 L8,7 L8,4 L12,4 Z M8,9 L12,9 L12,
     border-radius: 0;
     box-shadow: 3px 3px 0 var(--color-mid);
 }
+.itemBase-1Qj4z6.da-itemHighlighted, /* APPEAR AS ONLINE | IDLE | DO NOT DISTURB | OFFLINE */
+.statusItem-2uzPIV:hover, /* SET STATUS BUTTONS HOVER */
 .theme-dark .override-2YgiXd:hover /* NOTIFICATION OVERRIDE HOVER */
 {
     background-color: var(--color-low);
@@ -3918,4 +3925,3 @@ path[d="M12 16c1.1045695 0 2 .8954305 2 2s-.8954305 2-2 2-2-.8954305-2-2 .895430
     font-size: 11pt;
     font-weight: 100 !important;
 }
-d
