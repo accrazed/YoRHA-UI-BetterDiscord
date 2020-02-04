@@ -216,6 +216,7 @@ a:hover > div > div > .collapsedTitle-uWuaaU, /* GAME NEWS BOX HOVER */
 .icon-2aINcz, /* NEW UNREADS ARROW ICON */
 .side-8zPYf6 .itemSelected-1qLhcL, /* USER PROFILE NOTIFICATIONS */
 .da-privateChannels .da-systemPad .selected-aXhQR6 .name-uJV0GL,/* PM GENERAL */
+.reactionMe-wv5HKu .reactionCount-2mvXRV, .reactionMe-wv5HKu:hover .reactionCount-2mvXRV,
 .hasSpoilers-1IRtQC .da-hasSpoilers > div > button > div, /* UPLOAD CONFIRM TEXT */
 .theme-dark .featureIcon-1f78KU, /* GAME PAGE FEATURES ICON */
 .itemBase-1Qj4z6.da-itemHighlighted, /* APPEAR AS ONLINE | IDLE | DO NOT DISTURB | OFFLINE */
@@ -286,6 +287,7 @@ button:hover .listenAlongIcon-2WbU7U, /* USER POPOUT LISTEN ALONG ICON HOVER */
 .theme-dark .activityProfile-2bJRaP .content-3JfFJh, /* USER POPOUT LIVE ON TWITCH DESCRIPTION */
 .nameSelectedVoice-1qSph5, /* VOICE LIMBO TEXT */
 .clickable-1JJAn8.container-2Pjhx-:active, .selected-aXhQR6.container-2Pjhx-,
+.isUnread-3Ef-o9 .content-1o0f9g,
 .theme-dark .partyMemberOverflow-1tfvpb, /* HOME ACTIVITY USERS OVERFLOW */
 .theme-dark .quickMessage-1yeL4E::placeholder, /* USER POPOUT QUICK MESSAGE PLACEHOLDER */
 .theme-dark .input-2VB9rf, /* PRIVATE MESSAGE QUICK SEARCH INPUT BAR */
@@ -1441,10 +1443,6 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     {
         margin: 0 !important;
     }
-    .modal-3c3bKg 
-    {
-        z-index: 99999
-    }
     .embed-IeVjo6 /* EMBED CONTAINER */
     {
         background: var(--color-high);
@@ -1603,6 +1601,12 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     .placeholder-37qJjk, .slateTextArea-1Mkdgw .hljs-comment, .slateTextArea-1Mkdgw .hljs-quote
     {
         color: var(--color-mid);
+    }
+    .reaction-1hd86g.reactionMe-wv5HKu 
+    {
+        background: var(--color-low);
+        border-radius: 0;
+        box-shadow: 3px 3px 0 var(--color-mid);
     }
     .slateTextArea-1bp44y, .da-textArea div div
     {
