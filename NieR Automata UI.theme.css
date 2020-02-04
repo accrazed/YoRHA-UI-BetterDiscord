@@ -1287,6 +1287,17 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     {
         margin: 3px 26px 20px 0px;
     }
+    .content-1o0f9g
+    {
+        background: var(--color-alert);
+        color: var(--color-high);
+        border-radius: 0;
+        box-shadow: 1px 1px 0 var(--color-mid);
+    }
+    .divider-JfaTT5
+    {
+        border-color: var(--color-alert);
+    }
     .theme-dark .divider-1pnAR2, /* AUDIT LOGS DIVIDER */
     .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:after, /* LINES IN DATE STAMP */
     .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:before
