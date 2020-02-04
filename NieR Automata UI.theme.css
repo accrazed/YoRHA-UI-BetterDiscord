@@ -424,6 +424,7 @@ a, /* ALL LINKS */
 .theme-dark .discriminator-3-Lf_x, .theme-light .discriminator-3-Lf_x, /* BOTTOM LEFT DISCRIMINATOR USER */
 .theme-dark .blurb-1iBKJy, /* GAME BLURB */
 .theme-dark .content-1zhNsr, /* ESRB RATING TEXT */
+.theme-dark .mentioned-xhSam7 .mention.interactive:hover, .theme-light .mentioned-xhSam7 .mention.interactive:hover,
 .theme-dark .text-GwUZgS, .theme-dark .title-2BxgL2, /* CHANNEL INVITES */
 .theme-dark .bannedUser-1IalTM .username-1b3MVI, /* SERVER SETTINGS BANS */
 .listenAlongIcon-2WbU7U, /* LISTEN ALONG ICON */
@@ -1421,7 +1422,16 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     {
         background: var(--color-low);
     }
-    
+    .mentioned-xhSam7:before
+    {
+        background-color: var(--color-alert);
+    }
+    .mentioned-xhSam7,
+    .message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z, .mouse-mode .mentioned-xhSam7:hover,
+    .message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z, .mouse-mode .mentioned-xhSam7
+    {
+        background-color: rgba(205, 102, 77, 0.75);
+    }
     path[d="M12,5 L12,1 L7,6 L12,11 L12,7 C15.31,7 18,9.69 18,13 C18,16.31 15.31,19 12,19 C8.69,19 6,16.31 6,13 L4,13 C4,17.42 7.58,21 12,21 C16.42,21 20,17.42 20,13 C20,8.58 16.42,5 12,5 L12,5 Z"], /* REPLAY SYMBOL MUSIC EMBED */
     path[d="M0,14 L4,14 L4,0 L0,0 L0,14 L0,14 Z M8,0 L8,14 L12,14 L12,0 L8,0 L8,0 Z"] /* PAUSE SYMBOL MUSIC EMBED*/
     {
@@ -1597,7 +1607,7 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     .slateTextArea-1bp44y, .da-textArea div div
     {
         caret-color: var(--color-mid);
-        margin-left: 16px;
+        margin-left: 0px;
     }
     .theme-dark .attachButtonDivider-3Glu60 /* TYPE BOX DIVIDER */
     {
