@@ -508,6 +508,7 @@ a, /* ALL LINKS */
 .theme-dark .container-3-pyIM .content-2M3n_H a, /* PRIVATE MESSAGE CALL LOG NAME */ 
 .content-2M3n_H, /* CALL STARTED TEXT */
 .theme-dark .input-2A_zIr, /* GROUP CHAT TITLE TEXT */
+.timestampCozy-1HNQR2,
 .user-3x-NP9, /* SERVER SETTINGS BANS NAME */
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .instructions-2Du9gG, /* DRAG AND DROP DESCRIPTION TEXT */
 .theme-dark .spoilerText-3p6IlD.hidden-HHr2R9, /* SPOILER TEXT */
@@ -698,6 +699,8 @@ a, /* ALL LINKS */
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item, /* BANDAGED BETTER DISCORD */
 .theme-dark .memberListHeader-3bta_4, /* ACTIVITY RECENTLY PLAYED POPOUT HEADER */
 .theme-dark .memberListHeader-Qq9531,
+.username-1A8OIy, 
+
 .embedProvider-3k5pfl, /* EMBED PROVIDER */
 .theme-dark .embedAuthorName-3mnTWj, .theme-dark .embedFieldName-NFrena, .theme-dark .embedTitle-3OXDkz /* EMBED AUTHOR */
 {
@@ -904,8 +907,10 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
         padding-bottom: 5px;
         box-shadow: 3px 3px var(--color-mid);
     }
+    .headerCozy-2H1QuU,
     .theme-dark .headerCozyMeta-rdohGq /* MESSAGE HEADER */
     {
+        display: inline-block;
         padding: 4px 5px 4px 6px;
         background: var(--color-high);
         margin-left: 13px;
@@ -921,6 +926,10 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     {
         background: var(--color-mid);
         border-radius: 0;
+    }
+    .avatar-1BDn8e
+    {
+        margin-left: -76px;
     }
     .wrapper-3D2qGf,
     .peopleListItem-2nzedh:hover,
@@ -1303,10 +1312,48 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     {
         background: var(--color-mid);
     }
-    #app-mount .markup-2BOw-j:not(code):not(.slateTextArea-1bp44y) /* MESSAGE CONTENT */
+    .isUnread-3Ef-o9
+    {
+        border-color: var(--color-alert);
+    }
+    .unreadPillCap-3_K2q2 .unreadPillCapStroke-7rkHbg 
+    {
+        fill: var(--color-alert);
+        color: var(--color-alert);
+    }
+
+    .unreadPill-2HyYtt
+    {
+        background-color: var(--color-alert);
+        color: var(--color-high);
+    }
+    .timestampCozyAlt-1Hs08c
+    {
+        top: 5px;
+        font-size: 8pt;
+        color: var(--color-low);
+    }
+    .button-1ZiXG9 
+    {
+        color: var(--color-high);
+    }
+    .button-1ZiXG9:hover
+    {
+        background-color: var(--color-high);
+        color: var(--color-low);
+    }
+
+    .wrapper-2aW0bm:hover,
+    .wrapper-2aW0bm 
+    {
+        background-color: var(--color-low);
+        box-shadow: 3px 3px 0 var(--color-mid);
+        border-radius: 0%;
+    }
+    #app-mount .markup-2BOw-j:not(code):not(.da-slateTextArea) /* MESSAGE CONTENT */
     {
         margin-top: 2px;
-        margin-left: -20px;
+        margin-left: -10px;
         margin-right: 45px;
     }
     .theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:after, .theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:before
@@ -1487,6 +1534,15 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     #app-mount .markup-2BOw-j:not(code):hover > div > .buttonContainer-KtQ8wc /* MESSAGE REACTION */
     {
         visibility: visible
+    }
+    .form-2fGMdU::before 
+    {
+        visibility: hidden;
+    }
+    .channelTextArea-2VhZ6z,
+    .scrollableContainer-2NUZem 
+    {
+        border-radius: 0;
     }
     .theme-dark .channelTextArea-rNsIhG /* type box margin */
     {
