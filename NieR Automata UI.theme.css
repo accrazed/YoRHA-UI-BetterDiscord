@@ -910,7 +910,19 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
         padding-bottom: 5px;
         box-shadow: 3px 3px var(--color-mid);
     }
-    .cozy-3raOZG .header-23xsNx,
+    .cozy-3raOZG .header-23xsNx
+    {
+        display: inline-block !important;
+        padding: 4px 5px 4px 6px !important;
+        background: var(--color-high) !important;
+        margin-left: 13px;
+        box-shadow: 
+            2px   2px 0 var(--color-mid),
+            -3px  0   0 var(--color-low),
+            -9px  0   0 var(--color-high),
+            -21px 0   0 var(--color-low),
+            -18px 2px 0 var(--color-mid);
+    }
     .headerCozy-2H1QuU,
     .theme-dark .headerCozyMeta-rdohGq /* MESSAGE HEADER */
     {
