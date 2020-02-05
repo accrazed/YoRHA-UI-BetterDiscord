@@ -915,8 +915,8 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     .theme-dark .headerCozyMeta-rdohGq /* MESSAGE HEADER */
     {
         display: inline-block !important;
-        padding: 4px 5px 4px 6px;
-        background: var(--color-high);
+        padding: 4px 5px 4px 6px !important;
+        background: var(--color-high) !important;
         margin-left: 13px;
         box-shadow: 
             2px   2px 0 var(--color-mid),
