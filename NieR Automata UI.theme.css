@@ -69,7 +69,6 @@ strong {font-family: Arial, Helvetica, sans-serif}
     opacity: 0;
 }
 
-
 /* TRANSPARENCY  */
 .positionedContainer-l-ZqRq
 {
@@ -725,6 +724,7 @@ a, /* ALL LINKS */
 .titleChecked-2wg0pd, /* TEXT BY CHECKED OPTION */
 .message-c9-HCF, /* UNSAVED CHANGES */
 .plugin-settings h2,
+.theme-dark .messagesPopoutWrap-1MQ1bW .messageGroupWrapper-o-Zw7G .messageGroupCozy-2iY6cT .markupRtl-3M0hmN.markup-2BOw-j,
 .selectorNitroText-3ZFWAe, /* SCREENSHARE OPTIONS UNABLE TO SELECT */
 .theme-dark .da-channelTextAreaUpload .markup-2BOw-j,
 .da-wrapper > .h5-18_1nd, /* INVITED TO JOIN SERVER */
