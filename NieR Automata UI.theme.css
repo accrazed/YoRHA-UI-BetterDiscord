@@ -515,6 +515,7 @@ a, /* ALL LINKS */
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .instructions-2Du9gG, /* DRAG AND DROP DESCRIPTION TEXT */
 .theme-dark .spoilerText-3p6IlD.hidden-HHr2R9, /* SPOILER TEXT */
 .topSectionNormal-2-vo2m .username-3gJmXY, /* USER POPOUT NAME */
+.theme-dark .member-1q7VfX .name-8yzEIY,
 .theme-dark .header-1fmANI, /* INSTALL GAME HEADER */
 .theme-dark .blurb-143skT, .theme-dark .storeTerms-3G4Jo7, .theme-dark .subtext-2QfZHv, /* INSTALL GAME SUBTEXT */
 .theme-dark .checkboxLabel-1zn0UC, .theme-light .checkboxLabel-1zn0UC, /* INSTALL GAME AGREE TO ToS */
@@ -527,6 +528,7 @@ a, /* ALL LINKS */
 .theme-dark .subsectionHeader-1SVMaW, /* DISCORD NITRO TEXT */
 .theme-dark .header-Hg_qNF, /* INVITE TO JOIN GROUP */
 .theme-dark .selectableItem-1MP3MQ, /* AUDIT LOG POPOUT */
+.overflowRolesPopoutHeaderText-1SW-y3,
 .theme-dark .content-8biNdB p, .theme-dark .content-8biNdB ul li, /* CHANGE LOGS TEXT */
 .theme-dark .select-2TCrqx .Select-option.is-focused, /* AFK TIMEOUT FOCUS */
 .theme-dark .avatarUploader-3XDtmn .removeButton-1hcZyG, /* REMOVE SERVER ICON */
@@ -752,6 +754,7 @@ a, /* ALL LINKS */
 
 /*====================HEADER====================*/
 
+svg[name="Flag"] path,
 svg[name="TitleBarClose"] > polygon, /* CLOSE BUTTON */
 svg[name="TitleBarMinimize"] > rect /* MINIMIZE BUTTON */
 {
@@ -1364,6 +1367,15 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     .button-1ZiXG9 
     {
         color: var(--color-high);
+    }
+    .theme-dark .overflowRolesPopout-140n9i, .theme-dark .overflowRolesPopoutArrow-2O66oH
+    {
+        background-color: var(--color-high);
+        box-shadow: none;
+    }
+    .overflowRolesPopout-140n9i
+    {
+        border-radius: 0;
     }
     .button-1ZiXG9:hover
     {
