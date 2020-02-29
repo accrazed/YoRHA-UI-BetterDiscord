@@ -214,6 +214,7 @@ a:hover > div > div > .collapsedTitle-uWuaaU, /* GAME NEWS BOX HOVER */
 .searchAnswer-3Dz2-q  > span > span,
 .icon-2aINcz, /* NEW UNREADS ARROW ICON */
 .side-8zPYf6 .itemSelected-1qLhcL, /* USER PROFILE NOTIFICATIONS */
+.childWrapper-anI2G9,
 .da-privateChannels .da-systemPad .selected-aXhQR6 .name-uJV0GL,/* PM GENERAL */
 .reactionMe-wv5HKu .reactionCount-2mvXRV, .reactionMe-wv5HKu:hover .reactionCount-2mvXRV,
 .hasSpoilers-1IRtQC .da-hasSpoilers > div > button > div, /* UPLOAD CONFIRM TEXT */
@@ -283,6 +284,7 @@ button:hover .listenAlongIcon-2WbU7U, /* USER POPOUT LISTEN ALONG ICON HOVER */
 .theme-dark .row-rrHHJU, /* USER POPOUT ADD ROLE SECTION ROLE HOVER */
 .theme-dark .container-VSDcQc .input-1ppKdn, /* USER POPOUT ADD ROLE FOOTER TEXT*/
 .theme-dark .note-3kmerW textarea::placeholder, /* USER POPOUT ADD NOTE PLACEHOLDER */
+.connectedAccountOpenIcon-2cNbq5,
 .theme-dark .activityProfile-2bJRaP .content-3JfFJh, /* USER POPOUT LIVE ON TWITCH DESCRIPTION */
 .nameSelectedVoice-1qSph5, /* VOICE LIMBO TEXT */
 .clickable-1JJAn8.container-2Pjhx-:active, .selected-aXhQR6.container-2Pjhx-,
@@ -325,6 +327,7 @@ button:hover .listenAlongIcon-2WbU7U, /* USER POPOUT LISTEN ALONG ICON HOVER */
 .theme-dark .notes-3hkVr0, .theme-light .label-2zCFFs, /* NITRO STORE REVIEW TEXT */
 .theme-dark .searchResultChannelIcon-1DnTme,  /* SEARCH BAR MORE TEXT */
 .placeholder-P6ptfj,
+.connectedAccountOpenIcon-2cNbq5:hover,
 .reactionBtn-2na4rd:hover .icon-3tPbgH,
 .theme-dark .container-2x5lvQ section a, /* RTC LINK */
 .theme-dark .publisher-2O_BF0, .theme-dark .publisherAnchor-2YhQtQ, .theme-dark .username-Ga9-tM, /* HOME NITRO STORE REVIEW LINK */
@@ -371,6 +374,7 @@ a, /* ALL LINKS */
 .channelNameByline-R73-tU, /* NOTIFICATION SETTINGS CHANNEL NAME DESCRIPTION */
 .theme-dark .timestamp-1E3uAL, /* START CALL TIMESTAMP */
 .theme-light .inputLabel-vJ2Z0B, /* JOIN SERVER INPUT LABEL */
+.wrapper-1BJsBx:hover .childWrapper-anI2G9,
 .theme-dark .primary-jw0I4K, /* USER POPOUT TOOLTIP */
 .theme-dark .discriminator-1Kma2g, /* HOME ACTIVITY NOW PLAYING DISCRIMINATOR */
 .description-Gcecy9 .link-249fAx, .description-Gcecy9 a, /* LINK TO GAME */
@@ -514,6 +518,7 @@ a, /* ALL LINKS */
 .user-3x-NP9, /* SERVER SETTINGS BANS NAME */
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .instructions-2Du9gG, /* DRAG AND DROP DESCRIPTION TEXT */
 .theme-dark .spoilerText-3p6IlD.hidden-HHr2R9, /* SPOILER TEXT */
+.metadata-3WGS0M,
 .topSectionNormal-2-vo2m .username-3gJmXY, /* USER POPOUT NAME */
 .theme-dark .member-1q7VfX .name-8yzEIY,
 .theme-dark .header-1fmANI, /* INSTALL GAME HEADER */
@@ -522,6 +527,7 @@ a, /* ALL LINKS */
 .theme-dark .verdict-1JnQka, /* GAME CRITIC TEXT */
 .theme-dark .friendsTable-133bsv .friendsTableHeader-32yE7d .friendsColumn-eVHFqJ, /* HOME FRIENDS HEADER/SORT */
 .theme-dark .subtitle-UfhpvR, /* DISCORD NITRO TEXT */
+.container-2Pjhx- .muted-3mU76i,
 .theme-dark .themed-OHr7kt.item-PXvHYJ, /* USER SETTINGS OPTIONS */
 .theme-dark .row-rrHHJU, .theme-dark .row-rrHHJU span, /* USER POPOUT ADD ROLE  */
 .theme-dark .name-GG2Mcs, .theme-dark .partyStatus-6AjDud, /* INVITE TO GAME */
@@ -550,6 +556,7 @@ a, /* ALL LINKS */
 .theme-dark .radioGroup-1GBvlr, /* UNCHECKED BOX */
 .container-2Pjhx-,
 .theme-dark .pageWrapper-1PgVDX, /* GAME COMMUNITY BROWSER HEADER TEXT */
+.cozy-3raOZG .timestamp-3ZCmNB,
 .theme-dark .colorStandard-2KCXvj span, /* USER SETTINGS ACTIVITY FEED STATUS */
 .codeLine-3qsZPQ, /* CODE DEFAULT TYPE TEXT TYPING */
 .searchBar-2_Yu-C input, /* INVITE FRIENDS TO CHANNEL SEARCH TEXT */
@@ -559,6 +566,7 @@ a, /* ALL LINKS */
 .theme-dark .attachPopoutRowText-1tIocA,/* ATTACH INVITE TO SPECTATE TEXT */
 .theme-dark .members-2BNiuX, /* PRIVATE GROUP CALL POPUP TEXT */
 .white-2qwKC7, /* IMAGE UPLOAD MARK AS SPOILER */
+.edited-3sfAzf,
 .theme-dark .channelNameChange-1wTsWB strong, 
 .theme-dark .emptyStateHeader-1ADtcL, .theme-dark .header-2HrZI4, /* GIFT INVENTORY REDEEM CODE  */
 .iconMuted-1HVBGH, .nameMuted-1MCOt4, /* MUTED CATEGORY */
@@ -946,10 +954,6 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     {
         background: var(--color-mid);
         border-radius: 0;
-    }
-    .avatar-1BDn8e
-    {
-        margin-left: -76px;
     }
     .wrapper-3D2qGf,
     .peopleListItem-2nzedh:hover,
@@ -1393,7 +1397,6 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     #app-mount .markup-2BOw-j:not(code):not(.da-slateTextArea) /* MESSAGE CONTENT */
     {
         margin-top: 2px;
-        margin-left: -10px;
         margin-right: 45px;
     }
     .theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:after, .theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:before
@@ -1724,6 +1727,7 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     {
         opacity: 1;
     }
+    .blockquoteDivider-2hH8H6,
     .bda-dark .emojiPicker-3m1S-j .category-2U57w6 /* EMOJI CHOOSER HEADER BACKGROUND */
     {
         background: var(--color-low);
@@ -2318,6 +2322,10 @@ path[d="M4,0 L4,3 L0,3 L0,0 L4,0 Z M12,4 L12,7 L8,7 L8,4 L12,4 Z M8,9 L12,9 L12,
 {
     fill: var(--color-high);
 }
+svg[name="PlusAlt"] polygon
+{
+    fill: var(--color-low);
+}
 svg[name="QuestionMark"] > g /* TOP RIGHT QUESTION MARK */
 {
     fill: var(--color-low);
@@ -2356,6 +2364,10 @@ path[d="M5.88657 21C5.57547 21 5.3399 20.7189 5.39427 20.4126L6.00001 17H2.59511
 .contentMutedText-2y6aPQ > div > svg
 {
     opacity: 0.7;
+}
+.markup-2BOw-j code
+{
+    border: none;
 }
 .colorSelectedVoice-Xcb_9R 
 {
