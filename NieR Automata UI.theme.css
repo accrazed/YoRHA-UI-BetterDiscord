@@ -1,7 +1,7 @@
 /*================================ Main Wallpaper ================================*/
 #app-mount 
 { 
-    background:url('https://i.ibb.co/q1FT2Qz/Nie-R-UI-Clean.png') center/cover no-repeat !important;
+    background:url('https://i.ibb.co/yQM8Jhd/Nie-R-Background-low.png') center/cover no-repeat !important;
     /* 
     https://i.ibb.co/qyq2Mvw/R4HPUxC.png border
     https://i.ibb.co/98f2jx9/R4HPUxC.png borderless
@@ -92,10 +92,10 @@ strong {font-family: Arial, Helvetica, sans-serif}
 .theme-dark .standardSidebarView-3F1I7i,
 .theme-dark .activityFeed-28jde9,
 .theme-dark .activityFeed-1C0EmJ, /* activity feed */
+.wrapper-KXM2i0,
 .contextMenu-HLZMGh,
 .theme-dark .gameLibrary-TTDw4Y,
 .theme-dark .pageWrapper-1PgVDX,
-.wrapper-KXM2i0,
 .theme-dark .wrapper-1Rf91z,
 .clickable-1JJAn8:hover .layout-2DM8Md,
 .theme-dark .applicationStore-1pNvnvm,
@@ -103,12 +103,14 @@ strong {font-family: Arial, Helvetica, sans-serif}
 .theme-dark .sidebarRegion-VFTUkN,
 .theme-dark .guildsWrapper-5TJh6A,
 .theme-dark .typing-2GQL18,
+.wrapper-2qzCYF,
 .theme-dark .messagesWrapper-3lZDfY,
 .theme-dark .separator-XqIyoz,
 .theme-dark .title-3qD0b-,
 .theme-dark .tile-2OwFgW:hover,
 .theme-dark .container-1r6BKw,
 .container-PNkimc,
+.gradientContainer-10lXLB,
 .selected-aXhQR6 .layout-2DM8Md,
 .theme-dark .messageG,
 .scrollableContainer-2NUZem,
@@ -477,6 +479,7 @@ a, /* ALL LINKS */
 .subtext-3CDbHg,
 .theme-dark .name-u2zgy7, .theme-light .name-u2zgy7, /* GAME DOWNLOADABLE CONTENT */
 .audioMetadata-3zOuGv .metadataSize-2UOOLK, /* SONG EMBED FILE SIZE */
+code .hljs-comment,
 .theme-dark .title-i-qCkH, /* GAME BOX TEXT */
 .theme-dark .colorStandard-2KCXvj, /* USER SETTINGS ACTIVITY FEED NAME */
 .theme-dark .contentUnread-3gTHvA .note-S--UP5, .theme-dark .contentDefault-16dKSY .note-S--UP5, /* QUICK NAVIGATE TEXT CHANNELS */
@@ -549,6 +552,7 @@ a, /* ALL LINKS */
 #pubslayer .ui-tab-bar-header, #pubslayer h2.ui-form-title, .bd-server-description-container, .bd-server-card .bd-server-tags,
 .theme-dark .subtitle-2iWJ5y, /* CTRL SHFT T POPOUT */
 .theme-dark .friend-2PO6ke, /* CTRL SHFT T POPOUT NAMES */
+.compact-T3H92H .timestamp-3ZCmNB, .cozy-3raOZG .timestamp-3ZCmNB.alt-1uNpEt,
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .statusText-2F9zIF, /* HOME FRIENDS STAUS */
 .userInfoSectionHeader-CBvMDh, /* USER PROFILE NOTE HEADER */
 .activity-3mKQ-i,
@@ -1553,7 +1557,7 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     .theme-dark .topic-2QX7LI a, /* LINKS IN HEADER */
     .theme-dark .markup-2BOw-j a /* LINKS */
     {
-        color: rgba(87,84,74,0.65);
+        color: rgba(205, 102, 77,0.65);
     }
     .da-messagesPopout .markup-2BOw-j a /* LINKS IN PINNED */
     {
@@ -2217,6 +2221,23 @@ svg[name="Checkmark"] > g > polyline/* CHECKBOX CHECKMARK */
     stroke: var(--color-high);
     border-color: var(--color-high);
     background: var(--color-low);
+}
+.controlButton-2MhVEL.leaveButton-2YnTyt,
+.controlButton-2MhVEL.leaveButton-2YnTyt:hover
+{
+    background: var(--color-alert);
+}
+.centerButton-3CaNcJ:hover
+{
+    background: var(--color-mid);
+}
+.centerButton-3CaNcJ
+{
+    background: var(--color-low);
+}
+.content-yTz4x3:before
+{
+    visibility: hidden;
 }
 .theme-dark .input-cIJ7To:focus /* DELETE SERVER TEXT INPUT HOVER */
 { 
