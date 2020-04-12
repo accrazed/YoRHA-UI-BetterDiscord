@@ -205,6 +205,7 @@ a:hover > div > div > .collapsedTitle-uWuaaU, /* GAME NEWS BOX HOVER */
 .theme-dark .outer-2IVh5n.interactive-1BeKSi:hover .base-1x0h_U, /* ACTIVITY FEED CARD TITLE TEXT HOVER */
 .theme-dark .outer-2IVh5n.interactive-1BeKSi:hover .colorStandard-2KCXvj, /* ACTIVITY FEED NAME HOVER */ 
 .theme-dark .enabled-5QKLzu:hover .colorStandard-2KCXvj, /* ACTIVITY NOW PLAYING POPOUT BUTTON HOVER */
+.input-1Rv96N,
 .theme-dark .input-1UhAnY, /* USER SETTINGS KEYBIND KEYBIND CURRENT TEXT */
 .text-AOoUen, /* USER POPOUT LISTENING TO SPOTIFY TIME STAMP */
 .nameHovered-1gxhWH, /* CHANNEL HEADER HOVERED */
@@ -391,6 +392,7 @@ a, /* ALL LINKS */
 .theme-dark .announcingNitro-3Ptg6m:hover, /* NITRO GAMES HOVER */
 .theme-dark .playTime-1laRtO, /* HOME ACTIVITY WHAT'S NEW PLAY TIME */
 .avatarUploader-3XDtmn .sizeInfo-SKMPPw, /* AVATAR UPLOADER TEXT */
+.da-description,
 .theme-light .helpText-h3r3wC, .theme-light .label-wQQoIq, /* CREATE SERVER POPOUT */
 .theme-dark .guildDetail-1nRKNE, /* SERVER INVITE ONLINE/MEMBERS */
 .theme-dark .textLink-3aPthL, .theme-dark .message-group .textLink-3aPthL, /* SPOTIFY LISTEN ALONG ARTIST NAME */
@@ -490,6 +492,7 @@ code .hljs-comment,
 .theme-dark .noMatches-2myGbP, .theme-dark .noMatchesDescription-1jZ4Wi, /* HOME NITRO NO MATCHES FOUND */
 .theme-dark .emptyNote-3nZbCz, .theme-dark .emptyTitle-3Jm6Ve, /* GAME SEARCH NO MATCHES */
 .regionSelect-3lf4eE button, /* SERVER REGION CREATE SERVER */
+.header-1IGyt4,
 .theme-dark .subtitle-UfhpvR, .theme-dark .subtitleRepositioned-11uB9-, .title-3IUNJ6, /* HOME NITRO SUBTEXT */
 .emptyText-6tYmO5, /* NO MUTUAL FRIENDS TEXT */
 .theme-dark .reactionCount-2ddRoS, /* REACTION COUNT */
@@ -2021,6 +2024,23 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
 .content-20Aix8.contentHoveredVoice-3p_NEO::before 
 {
   width: 100%;
+}
+.emojiPicker-3m1S-j .categories-1feg4n,
+.infoBar-U6oBFk
+{
+    background: var(--color-high);
+}
+.emojiPicker-3m1S-j .categories-1feg4n .da-item svg
+{
+    color: var(--color-low);
+}
+.emojiPicker-3m1S-j .categories-1feg4n .da-item:hover svg
+{
+    color: var(--color-mid);
+}
+.emojiPicker-3m1S-j .header-1nkwgG
+{
+    box-shadow: none;
 }
 .contentSelectedVoice-1WDIBM:active /* VOICE CHANNEL SELECTED */
 {
