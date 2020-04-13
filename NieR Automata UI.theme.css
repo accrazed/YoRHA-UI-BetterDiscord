@@ -2527,6 +2527,18 @@ path[d="M11.383 3.07904C11.009 2.92504 10.579 3.01004 10.293 3.29604L6 8.00204H3
     background-color: var(--color-mid);
     border-radius: 0;
 }
+.avatar-1BDn8e /* messages avatar */
+{
+    border-radius: 0;
+    box-shadow: 3px 3px 0 var(--color-mid);
+}
+.full-motion .avatar-1BDn8e.clickable-1bVtEA:hover /* messages avatar hover */
+{
+    box-shadow: 3px 3px 0 var(--color-alert);
+    filter: 0 1px 0 rgba(4,4,5,0.2),
+            0 1.5px 0 rgba(6,6,7,0.05),
+            0 2px 0 rgba(4,4,5,0.05);
+}
 .grabber-3mFHz2 /* CHANNEL SETTINGS GRABBER  */
 {
     background-color: var(--color-high);
