@@ -2151,7 +2151,7 @@ path[d="M14 8C14 7.44772 13.5523 7 13 7H9.76001L10.3657 3.58738C10.4201 3.28107 
     /* animation-name: pulsingShadow;
     animation-duration: 8s;
     animation-iteration-count: infinite; */
-    box-shadow: 0  1px 0 0 var(--color-low),
+    box-shadow: 0 1px 0 0 var(--color-low),
                 0 -1px 0 0 var(--color-low) !important;
     border-radius: 0;
     background-color: transparent;
@@ -4085,16 +4085,16 @@ path[d="M12 16c1.1045695 0 2 .8954305 2 2s-.8954305 2-2 2-2-.8954305-2-2 .895430
 }
 @keyframes pulsingShadow /* FOR BOX SHADOW AROUND CHANNEL/MEMBER LINES */
 {    
-0%   {box-shadow: 0  3px 0 0 var(--color-low),
-                  0 -3px 0 0 var(--color-low);}
-40%  {box-shadow: 0  3px 0 0 var(--color-low),
-                  0 -3px 0 0 var(--color-low);}
-50%  {box-shadow: 0  3px 0 0 var(--color-mid),
-                  0 -3px 0 0 var(--color-mid);}
-60%  {box-shadow: 0  3px 0 0 var(--color-low),
-                  0 -3px 0 0 var(--color-low);}
-100% {box-shadow: 0  3px 0 0 var(--color-low),
-                  0 -3px 0 0 var(--color-low);}
+0%   {box-shadow: 0  1px 0 0 var(--color-low),
+                  0 -1px 0 0 var(--color-low);}
+40%  {box-shadow: 0  1px 0 0 var(--color-low),
+                  0 -1px 0 0 var(--color-low);}
+50%  {box-shadow: 0  1px 0 0 var(--color-mid),
+                  0 -1px 0 0 var(--color-mid);}
+60%  {box-shadow: 0  1px 0 0 var(--color-low),
+                  0 -1px 0 0 var(--color-low);}
+100% {box-shadow: 0  1px 0 0 var(--color-low),
+                  0 -1px 0 0 var(--color-low);}
 }
 @keyframes pulsingBorder /* FOR PULSATING A BACKGROUND */
 {
