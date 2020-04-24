@@ -3504,7 +3504,7 @@ svg[name="Folder"] /* FOLDER ICON */
     }
     .da-scroller > div > .da-listItem .da-blobContainer
     {
-        box-shadow: 3px 3px 0 var(--color-high) !important;
+        box-shadow: 3px 3px 0 var(--color-high);
     }
     .homeIcon-tEMBK1 /* HOME BUTTON BACKGROUND */
     {    
