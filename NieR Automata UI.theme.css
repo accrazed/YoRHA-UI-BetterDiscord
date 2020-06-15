@@ -1,3 +1,18 @@
+//META{"name":"NieR: Automata UI FULL","description":"Glory to Mankind. THANKS TO GOmonkeymanGO FOR LETTING ME USE SOME OF THEIR CODE","author":"Accrazed","version":"1.0","website":"https://github.com/AccraZed/YoRHA-UI-BetterDiscord"}*//{}
+
+@import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css'); /* gets rid of cucks who try to steal my theme and make money via ads */
+@import url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/font/stylesheet.css');
+::placeholder, body, button, input, select, textarea{font-family:'sce-ps3_rodin_latinregular';}
+
+:root /* GLOBAL VARIABLES */
+{
+    --color-high: rgb(218,212,187);
+    --color-low: rgb(87, 84, 74);
+    --color-mid: rgb(151, 147, 129);
+    --color-alert: rgb(205, 102, 77); /* #cd664d */
+    --nier-font: sce-ps3_rodin_latinregular;
+    --avatar-image-radius: 50%;
+}
 /*================================ Main Wallpaper ================================*/
 #app-mount 
 { 
@@ -932,6 +947,11 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
         background: var(--color-low);
         border-radius: 0;
         border: none;
+    }
+    .styleFixed-sX-yHV
+    {
+        background: var(--color-high);
+        box-shadow: none;
     }
     .theme-dark .contentWrapper-3WC1ID /* SERVER INVITE INVITED TO JOIN */
     {
@@ -1995,7 +2015,7 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
 }
 .channel-2QD9_O  /* PRIVATE CHANNELS GENERAL */
 {
-    margin: 7px 0;
+    margin: 3px 0;
 }
 .linkButtonIcon-Mlm5d6
 {
@@ -3419,6 +3439,8 @@ svg[name="Folder"] /* FOLDER ICON */
 }
 .container-2Pjhx-
 {
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
     border-radius: 0;
 }
 .channel-2QD9_O.da-selected,
