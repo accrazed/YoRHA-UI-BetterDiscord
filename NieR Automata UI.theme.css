@@ -633,6 +633,7 @@ code .hljs-comment,
 .theme-dark .playersHeader-3xUYAQ, /* GAME POPOUT RECENTLY PLAYED */
 .theme-dark .item-1GzJrl, /* SERVER POPOUT MENU TEXT */
 .theme-dark .icon-1IKq3C, .theme-dark .textCell-1aBIUP, /* LIBRARY GAMES ICONS/TEXT */
+.da-searchHeader,
 .theme-dark .giftBlurb-4VKZWm, /* NITRO BUTTON */
 .theme-dark .price-3dKlQv, /* NITRO TEXT */
 .da-toolbar > button > div > svg,
@@ -661,6 +662,7 @@ code .hljs-comment,
 .theme-dark .emptyStateHeader-3CJtAy, /* GAME LIBRARY NO GAMES FOUND TITLE */
 .theme-dark .gameName-wzJptK, /* HOME ACTIVITY NOW PLAYING GAME NAME */
 .theme-dark .resultsGroup-r_nuzN .header-2N-gMV, /* SEARCH BAR POPOUT HEADERS */
+.da-channelNameHeader.da-base,
 .theme-dark .listingPrice-2GiDSc, /* GAME LISTING PRICE */
 .theme-dark .markup-2BOw-j pre, /* CODEBLOCK LEFT SIDE BORDER */
 .theme-dark .header-2RyJ0Y, /* SERVER SIDE BAR HEADER */
@@ -2480,9 +2482,9 @@ path[d="M4,0 L4,3 L0,3 L0,0 L4,0 Z M12,4 L12,7 L8,7 L8,4 L12,4 Z M8,9 L12,9 L12,
 {
     opacity: 1;
 }
-.addButtonIcon-3u-3Hu > polygon
+.da-addButtonIcon > polygon
 {
-    fill: var(--color-high);
+    fill: var(--color-low);
 }
 svg[name="PlusAlt"] polygon
 {
