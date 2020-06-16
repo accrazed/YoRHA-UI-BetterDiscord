@@ -1,18 +1,3 @@
-//META{"name":"NieR: Automata UI FULL","description":"Glory to Mankind. THANKS TO GOmonkeymanGO FOR LETTING ME USE SOME OF THEIR CODE","author":"Accrazed","version":"1.0","website":"https://github.com/AccraZed/YoRHA-UI-BetterDiscord"}*//{}
-
-@import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css'); /* gets rid of cucks who try to steal my theme and make money via ads */
-@import url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/font/stylesheet.css');
-::placeholder, body, button, input, select, textarea{font-family:'sce-ps3_rodin_latinregular';}
-
-:root /* GLOBAL VARIABLES */
-{
-    --color-high: rgb(218,212,187);
-    --color-low: rgb(87, 84, 74);
-    --color-mid: rgb(151, 147, 129);
-    --color-alert: rgb(205, 102, 77); /* #cd664d */
-    --nier-font: sce-ps3_rodin_latinregular;
-    --avatar-image-radius: 50%;
-}
 /*================================ Main Wallpaper ================================*/
 #app-mount 
 { 
@@ -49,17 +34,17 @@
 }
 /* ===============CURSORS================== */
 
-#app-mount, .da-chat .da-title, .titleBar-AC4pGV /* DEFAULT */
+#app-mount, .da-chat .da-title, .titleBar-AC4pGV,  .da-selected .da-wrapper /* DEFAULT */
 {
     cursor: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Normal_Select_v2.cur'), default !important;
 }
 
-textarea, input, .da-markup /* TEXT */
+textarea, input, .da-markup, .da-timestamp /* TEXT */
 {
     cursor: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Text_Select_v2.cur'), default !important;
 }
 a, .da-textHover, .da-expandable, [role="button"], [role="button"] header, [type="checkbox"], label, .da-button, .item-26Dhrx, 
-.clickable-1JJAn8:hover .layout-2DM8Md, .clickable-3Ya1ho, .da-item, .da-interactive, .friendsTable-133bsv .friendsRow-2yicud,
+.clickable-1JJAn8:hover .layout-2DM8Md, .da-iconItem div svg, .actionIcon-2Hi9ZG, .da-containerDefault .da-wrapper, .clickable-3Ya1ho, .da-item, .da-interactive, .friendsTable-133bsv .friendsRow-2yicud,
 .da-winButton /* POINTER */
 {
     cursor: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Link_Select_v2.cur'), default !important;
@@ -230,6 +215,7 @@ a:hover > div > div > .collapsedTitle-uWuaaU, /* GAME NEWS BOX HOVER */
 .theme-dark .input-1UhAnY, /* USER SETTINGS KEYBIND KEYBIND CURRENT TEXT */
 .text-AOoUen, /* USER POPOUT LISTENING TO SPOTIFY TIME STAMP */
 .nameHovered-1gxhWH, /* CHANNEL HEADER HOVERED */
+.activityHeader-1PExlk, .customStatusText-39gdCI,
 .theme-dark .option-96V44q.selected-rZcOL- > span, /* SEARCH BAR HOVER TEXT */
 .theme-dark .popoutContainer-3WC9HR:hover .applicationPlayers-1v5gOy, /* ACTIVITY RECENTLY PLAYED USER TEXT COLOR */
 .theme-dark .categoryText-2-8pri, /* GIF SEARCHER CATEGORY TEXT */
@@ -308,6 +294,7 @@ div[class="vertical-V37hAW flex-1O1GKY directionColumn-35P_nr da-vertical da-fle
 .clickable-11uBi-:hover, .selected-BYpGTS, /* RIGHT CLICK ADD REACTION HOVER */
 .clickable-1JJAn8.container-2Pjhx-:hover, /* PRIVATE MESSAGE HOVER */
 .newMessagesBar-mujexs button:last-child, /* NEW MESSAGE */
+.topSectionNormal-2-vo2m .activityHeader-1PExlk, .topSectionNormal-2-vo2m .customStatusText-39gdCI,
 .durationTimeWrapper-OugPFt, /* SOUND FILE TIME STAMP TEXT */
 button:hover .listenAlongIcon-2WbU7U, /* USER POPOUT LISTEN ALONG ICON HOVER */
 .theme-dark .row-rrHHJU, /* USER POPOUT ADD ROLE SECTION ROLE HOVER */
@@ -401,6 +388,7 @@ a, /* ALL LINKS */
 .theme-dark .description-1irSAr, /* DISCORD NITRO TEXT */
 .theme-dark .timestamp-1mruiI, /* AUDIT LOG TIME STAMP */
 .mobileIndicator-3gyhuE, /* MOBILE INDICATOR */
+.winButtonMinMax-PBQ2gm:hover,
 .channelNameByline-R73-tU, /* NOTIFICATION SETTINGS CHANNEL NAME DESCRIPTION */
 .theme-dark .timestamp-1E3uAL, /* START CALL TIMESTAMP */
 .theme-light .inputLabel-vJ2Z0B, /* JOIN SERVER INPUT LABEL */
@@ -471,7 +459,7 @@ a, /* ALL LINKS */
 .theme-dark .header-1Kydsy, /* GIFTED NITRO TITLE */
 .theme-dark .input-3Xdcic::placeholder, /* SEARCH BAR TEXT */
 .theme-dark .optionNormal-12VR9V, /* HOME NITRO SORT TEXT */
-.theme-dark .base-1x0h_U, /* ACTIVITY FEED CARD TITLE TEXT */
+.theme-dark .da-title .base-1x0h_U, /* ACTIVITY FEED CARD TITLE TEXT */
 .theme-dark .coloredText-1kAd0O, /* ACTIVITY FEED COLORED CARD TITLE TEXT */
 .theme-dark h3.title-3KTIjF, /* GAME LATEST NEWS */
 .theme-dark .operations-36ENbA, /* EDIT MESSAGE FOOTER TEXT */
@@ -572,6 +560,7 @@ code .hljs-comment,
 .hover-28QbSq:hover .icon-KgGMGo,
 .theme-dark .selectableItem-1MP3MQ, /* AUDIT LOG POPOUT */
 .overflowRolesPopoutHeaderText-1SW-y3,
+.winButton-iRh8-Z,
 .theme-dark .content-8biNdB p, .theme-dark .content-8biNdB ul li, /* CHANGE LOGS TEXT */
 .theme-dark .select-2TCrqx .Select-option.is-focused, /* AFK TIMEOUT FOCUS */
 .theme-dark .avatarUploader-3XDtmn .removeButton-1hcZyG, /* REMOVE SERVER ICON */
@@ -899,6 +888,11 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     {
         color: var(--color-low);
     }
+    .theme-dark .outer-1AjyKL.active-1xchHY, .theme-dark .outer-1AjyKL.interactive-3B9GmY:hover
+    {
+        background-color: var(--color-mid);
+    }
+
     .theme-dark .hljs, /* CODEBLOCK <code>*/
     .theme-dark .markup-2BOw-j pre /* CODEBLOCK: ONE LAYER UP <pre> */
     {
@@ -1156,6 +1150,7 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     {
         background: var(--color-low);
     }
+    .top-28JiJ- .themed-OHr7kt.item-PXvHYJ:hover,
     .theme-dark .searchHeader-1l-wpR .tab-2Ixsn0:hover /* SEARCH BAR TABS HOVER */
     {
         border-bottom-color: var(--color-mid)
@@ -1163,6 +1158,10 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     .tab-2Ixsn0, .totalResults-gxvzgw /* SEARCH BAR SEARCH RESULTS */
     {
         opacity: 1;
+    }
+    .profileBadgeHypeSquadOnlineHouse3-1YbjMX 
+    {
+        color: var(--color-low) !important;
     }
     .theme-dark .container-3ayLPN /* SEARCH BAR POPOUT CONTAINER */
     {
@@ -1858,6 +1857,7 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     {
         border-bottom: 0;
     }
+    .top-28JiJ- .selected-3s45Ha.themed-OHr7kt.item-PXvHYJ, .top-28JiJ- .themed-OHr7kt.item-PXvHYJ:active,
     .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S /* EMOJI SEARCH SELECTED TAB */
     {
         border-bottom-color: var(--color-low);
@@ -3804,7 +3804,7 @@ svg[name="Folder"] /* FOLDER ICON */
 {
     fill: var(--color-high);
 }
-.theme-dark .base-1x0h_U /* HOME HEADER BREADCRUMBS */
+.theme-dark .da-title .base-1x0h_U /* HOME HEADER BREADCRUMBS */
 {
     padding-left: 10px;
 }
