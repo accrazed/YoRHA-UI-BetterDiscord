@@ -1220,6 +1220,17 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     {
         margin: 10px 0 10px 5px;
     }
+    .messages-3G3erD
+    {
+        border: 2px solid var(--color-low);
+        border-radius: 0;
+        box-shadow: 3px 3px 0 var(--color-mid);
+        background: var(--color-high);
+    }
+    .container-enaOkj, .da-tutorial
+    {
+        background: var(--color-high);
+    }
     .theme-dark .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA, /* SEARCH BAR HIGLIGHTED MESSAGE */
     .theme-dark .searchResult-3pzFAB .hit-NLlWXA /* SEARCH BAR HILIGHTED MESSAGE */
     {
