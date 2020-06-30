@@ -110,6 +110,7 @@ strong {font-family: Arial, Helvetica, sans-serif}
 .theme-dark .sidebarRegion-VFTUkN,
 .theme-dark .guildsWrapper-5TJh6A,
 .theme-dark .typing-2GQL18,
+.members-1998pB, .members-1998pB>div,
 .wrapper-2qzCYF,
 .theme-dark .messagesWrapper-3lZDfY,
 .theme-dark .separator-XqIyoz,
@@ -674,6 +675,7 @@ code .hljs-comment,
 .theme-dark .emptyPlaceholder-1zh-Eu .body-bvcIjN,/* EMPTY PLACEHOLDER */
 .theme-dark .searchOption-zQ-1l6 .filter-3Y_im-, /* SEARCH BAR POPOUT OPTION TEXT */
 .theme-dark .container-2x5lvQ header, /* RTC HEADER */
+.da-focusLock .da-body *,
 .theme-dark .channelSeparator-1X1FuH .channelName-1QajIf, /* SEARCH BAR CHANNEL NAME */
 .theme-dark .name-3TBxUq, /* GAME OFFICIAL DISCORD HEADER */
 .theme-dark .footerMain-Z8i6ST, /* HOME STORE THANKS FOR BROWSING */
@@ -1427,6 +1429,12 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */
     {
         background-color: var(--color-high);
         color: var(--color-low);
+    }
+    .footer-1lnhms
+    {
+        background: var(--color-high);
+        border: 2px solid var(--color-low);
+        border-radius: 0;
     }
     .searchBar-6Kv8R2 .searchBarComponent-32dTOx,/* FIND OR START A CONVERSATION */
     .hasMore-3e72_v button, /* LOAD MORE MESSAGES */
@@ -2867,10 +2875,10 @@ svg[name="Folder"] /* FOLDER ICON */
         box-shadow: 3px 3px 0 var(--color-mid);
     }
     .styleFlexible-wGDiIL,
-    .layer-v9HyYc,
+    .theme-dark .tooltipGrey-1hnvTt, .theme-light .tooltipGrey-1hnvTt,
     .theme-dark.contextMenu-HLZMGh /* CONTEXT MENU POPOUT */
     {
-
+        color: var(--color-low);
         background: var(--color-high);
         box-shadow: 3px 3px 0 var(--color-mid);
         border-radius: 0;
