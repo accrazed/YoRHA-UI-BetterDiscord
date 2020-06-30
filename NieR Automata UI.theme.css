@@ -1,18 +1,3 @@
-//META{"name":"NieR: Automata UI FULL","description":"Glory to Mankind. THANKS TO GOmonkeymanGO FOR LETTING ME USE SOME OF THEIR CODE","author":"Accrazed","version":"1.0","website":"https://github.com/AccraZed/YoRHA-UI-BetterDiscord"}*//{}
-
-@import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css'); /* gets rid of cucks who try to steal my theme and make money via ads */
-@import url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/font/stylesheet.css');
-::placeholder, body, button, input, select, textarea{font-family:'sce-ps3_rodin_latinregular';}
-
-:root /* GLOBAL VARIABLES */
-{
-    --color-high: rgb(218,212,187);
-    --color-low: rgb(87, 84, 74);
-    --color-mid: rgb(151, 147, 129);
-    --color-alert: rgb(205, 102, 77); /* #cd664d */
-    --nier-font: sce-ps3_rodin_latinregular;
-    --avatar-image-radius: 50%;
-}
 /*================================ Main Wallpaper ================================*/
 #app-mount 
 { 
@@ -577,7 +562,7 @@ code .hljs-comment,
 .hover-28QbSq:hover .icon-KgGMGo,
 .theme-dark .selectableItem-1MP3MQ, /* AUDIT LOG POPOUT */
 .overflowRolesPopoutHeaderText-1SW-y3,
-.winButton-iRh8-Z,
+.winButton-iRh8-Z, .activityText-yGKsKm,
 .theme-dark .content-8biNdB p, .theme-dark .content-8biNdB ul li, /* CHANGE LOGS TEXT */
 .theme-dark .select-2TCrqx .Select-option.is-focused, /* AFK TIMEOUT FOCUS */
 .theme-dark .avatarUploader-3XDtmn .removeButton-1hcZyG, /* REMOVE SERVER ICON */
