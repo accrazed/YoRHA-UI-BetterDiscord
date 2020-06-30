@@ -697,6 +697,7 @@ code .hljs-comment,
 .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI, /* DATESTAMP */
 .theme-dark .timestampCozy-2hLAPV, /* TIMESTAMP */
 .theme-dark .username-_4ZSMR, /* MESSAGE HEADER NO ROLE */
+.activityText-yGKsKm, 
 .theme-dark .header-ykumBX .title-3pkaKd, /* MESSAGE POPOUT RECENT MENTIONS TEXT */
 .theme-dark .mentionFilter-1PQ6ey .label-12YslM, /* MESSAGE POPOUT RECENT MENTIONS TEXT */
 .theme-dark .mentionFilter-1PQ6ey .value-2k8Drt,/* MESSAGE POPOUT RECENT MENTIONS TEXT */
@@ -788,6 +789,7 @@ code .hljs-comment,
     color: var(--color-alert) !important;
     opacity: 1;
 }
+.activityUserPopout-2yItg2, .activity-11LB_k,
 .cooldownWrapper-3joyFc /* SLOW MODE INFO TEXT ON BOTTOM */
 {
     color: var(--color-low) !important
