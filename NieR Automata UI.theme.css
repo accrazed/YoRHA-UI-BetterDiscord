@@ -155,18 +155,21 @@ div[class="backdrop-1wrmKB da-backdrop"] /* BACKDROP WHEN YOU LOOK AT CONTEXT ME
 {
     visibility: hidden;
 }
+.auto-Ge5KZx::-webkit-scrollbar-track,
 .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar, 
 .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track, 
 .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece
 {
-    background-color: none !important;
-    border-color: none !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
 }
+.auto-Ge5KZx::-webkit-scrollbar,
 .scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scroller-2FKFPG::-webkit-scrollbar, 
 .scrollerThemed-2oenus.themeGhostHairlineChannels-3G0x9_ .scroller-2FKFPG::-webkit-scrollbar
 {
     width: 4px;
 }
+.auto-Ge5KZx::-webkit-scrollbar-thumb,
 .scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scroller-2FKFPG::-webkit-scrollbar-thumb, 
 .scrollerThemed-2oenus.themeGhostHairlineChannels-3G0x9_ .scroller-2FKFPG::-webkit-scrollbar-thumb,
 .scroller-2FKFPG::-webkit-scrollbar-thumb /* SCROLLBAR THUMB */
