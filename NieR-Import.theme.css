@@ -52,12 +52,7 @@ a, .da-textHover, .da-expandable, [role="button"], [role="button"] header, [type
         default !important;
 }
 
-::placeholder,
-body,
-button,
-input,
-select,
-textarea {
+::placeholder, body, button, input, select, textarea {
     font-family: var(--nier-font), Arial, Helvetica, sans-serif;
 }
 strong {
