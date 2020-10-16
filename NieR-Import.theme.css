@@ -3105,11 +3105,6 @@ div[style="background-color: rgba(32, 34, 37, 0.9);"] {
 .da-scroller > div > .da-listItem .da-blobContainer {
     box-shadow: 3px 3px 0 var(--color-high);
 }
-.homeIcon-tEMBK1 /* HOME BUTTON BACKGROUND */ {
-    /* background: url("https://i.imgur.com/09fncQw.png"); HIGH COLOR ICON */
-    background: url(https://i.imgur.com/3xonYy0.png) center/contain no-repeat;
-    height: 57px;
-}
 .theme-dark .button-OhfaWu, .theme-light .button-OhfaWu, /* HOME BUTTON EXTRA SHIT */
     .homeButton-2Cw51C, /* HOME BUTTON INITIALIZE */
     .homeIcon-tEMBK1 > path /* HOME BUTTON DEFAULT ICON */ {
