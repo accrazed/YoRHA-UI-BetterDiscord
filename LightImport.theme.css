@@ -1,0 +1,10 @@
+/* Main Wallpaper */
+#app-mount {
+    background: url("https://i.ibb.co/q1FT2Qz/Nie-R-UI-Clean.png") center/cover no-repeat;
+}
+
+/* HOME BUTTON BACKGROUND */
+.homeIcon-tEMBK1 {
+    background: url(https://i.imgur.com/3xonYy0.png) center/contain no-repeat;
+    height: 57px;
+}

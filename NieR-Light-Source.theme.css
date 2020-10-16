@@ -1,0 +1,38 @@
+/**
+ * @name NieR: Automata UI Light
+ * @version 1.0
+ * @description Glory to Mankind. || 
+ * Thanks to JulioDRai for letting me use their cursors! 
+ * ~https://www.deviantart.com/juliodrai || 
+ * Thanks to GOmonkeymanGO for letting me use some of their code 
+ * ~https://github.com/ChaseIngebritson/YoRHa-Discord-Theme || 
+ * @website https://github.com/AccraZed/YoRHA-UI-BetterDiscord
+ * @author Accrazed#2710
+ * @invite X4nBPCa
+ * @patreon https://www.patreon.com/accrazed
+ * @authorId 153562159161278473
+ *
+ *  :::.       .,-:::::   .,-::::: :::::::..    :::.     :::::::::.,:::::::::::::-.  
+ *  ;;`;;    ,;;;'````' ,;;;'````' ;;;;``;;;;   ;;`;;    '`````;;;;;;;'''' ;;,   `';,
+ * ,[[ '[[,  [[[        [[[         [[[,/[[['  ,[[ '[[,      .n[[' [[cccc  `[[     [[
+ * c$$$cc$$$c $$$        $$$         $$$$$$c   c$$$cc$$$c   ,$$P"   $$""""   $$,    $$
+ * 888   888,`88bo,__,o,`88bo,__,o, 888b "88bo,888   888,,888bo,_  888oo,__ 888_,o8P'
+ * YMM   ""`   "YUMMMMMP" "YUMMMMMP"MMMM   "W" YMM   ""`  `""*UMM  """"YUMMMMMMMP"`  
+ */
+
+@import url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/font/stylesheet.css"); /* Font */
+@import url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/NieR-Import.theme.css"); /* Main File */
+@import url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/LightImport.theme.css"); /* Light Part of Theme */
+@import url("https://anti-betterdocs.github.io/BlockBetterDocs/code.css"); /* gets rid of cucks who try to steal my theme and make money via ads */
+
+/* GLOBAL VARIABLES */
+:root {
+    --color-high: rgb(218, 212, 187);
+    --color-low: rgb(87, 84, 74);
+    --color-mid: rgb(151, 147, 129);
+    --color-alert: rgb(205, 102, 77);
+    --color-high-trans: rgba(218, 212, 187, 0.8);
+    --color-low-trans: rgba(87, 84, 74, 0.6);
+    --color-alert-trans: rgba(205, 102, 77, 0.7);
+    --nier-font: sce-ps3_rodin_latinregular;
+}
