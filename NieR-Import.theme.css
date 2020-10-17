@@ -866,6 +866,12 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */ {
     border-bottom: 2px solid var(--color-alert);
     color: var(--color-alert);
 }
+.da-emojiSection,
+.popoutContainer-1MXdqN {
+    background: var(--color-high);
+    border-radius: 0;
+    border: 1px solid var(--color-low);
+}
 .theme-dark .topic-2QX7LI, /* CHANNEL TOPIC */
      .channelName-3stJzi {
     color: var(--color-low);
@@ -1633,7 +1639,6 @@ polygon[points="0 0 0 14 11 7"] {
 .slateTextArea-1Mkdgw .hljs-quote {
     color: var(--color-mid);
 }
-
 .reaction-1hd86g.reactionMe-wv5HKu {
     background: var(--color-low);
     border-radius: 0;
