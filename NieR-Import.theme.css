@@ -1,3 +1,49 @@
+/**
+ * @name NieR: Automata UI Light FULL
+ * @version auto
+ * @description Glory to Mankind. || 
+ * Thanks to JulioDRai for letting me use their cursors! 
+ * ~https://www.deviantart.com/juliodrai || 
+ * Thanks to GOmonkeymanGO for letting me use some of their code 
+ * ~https://github.com/ChaseIngebritson/YoRHa-Discord-Theme || 
+ * @website https://github.com/AccraZed/YoRHA-UI-BetterDiscord
+ * @author Accrazed#2710
+ * @invite X4nBPCa
+ * @patreon https://www.patreon.com/accrazed
+ * @authorId 153562159161278473
+ *
+ *  :::.       .,-:::::   .,-::::: :::::::..    :::.     :::::::::.,:::::::::::::-.  
+ *  ;;`;;    ,;;;'````' ,;;;'````' ;;;;``;;;;   ;;`;;    '`````;;;;;;;'''' ;;,   `';,
+ * ,[[ '[[,  [[[        [[[         [[[,/[[['  ,[[ '[[,      .n[[' [[cccc  `[[     [[
+ * c$$$cc$$$c $$$        $$$         $$$$$$c   c$$$cc$$$c   ,$$P"   $$""""   $$,    $$
+ * 888   888,`88bo,__,o,`88bo,__,o, 888b "88bo,888   888,,888bo,_  888oo,__ 888_,o8P'
+ * YMM   ""`   "YUMMMMMP" "YUMMMMMP"MMMM   "W" YMM   ""`  `""*UMM  """"YUMMMMMMMP"`  
+ */
+
+@import url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/font/stylesheet.css"); /* Font */
+@import url("https://anti-betterdocs.github.io/BlockBetterDocs/code.css"); /* gets rid of cucks who try to steal my theme and make money via ads */
+
+/* GLOBAL VARIABLES */
+:root {
+    --color-high: rgb(218, 212, 187);
+    --color-low: rgb(87, 84, 74);
+    --color-mid: rgb(151, 147, 129);
+    --color-alert: rgb(205, 102, 77);
+    --color-high-trans: rgba(218, 212, 187, 0.8);
+    --color-low-trans: rgba(87, 84, 74, 0.6);
+    --color-alert-trans: rgba(205, 102, 77, 0.7);
+    --nier-font: sce-ps3_rodin_latinregular;
+}
+/* Main Wallpaper */
+#app-mount {
+    background: url("https://i.ibb.co/q1FT2Qz/Nie-R-UI-Clean.png") center/cover no-repeat;
+}
+
+/* HOME BUTTON BACKGROUND */
+.homeIcon-tEMBK1 {
+    background: url(https://i.imgur.com/3xonYy0.png) center/contain no-repeat;
+    height: 57px;
+}
 #app-mount:before {
     /* theatre effect */
     content: "";
@@ -250,6 +296,9 @@ div[class="backdrop-1wrmKB da-backdrop"] /* BACKDROP WHEN YOU LOOK AT CONTEXT ME
  .discriminator-22Okc1,
  .theme-dark .auditLog-3jNbM6 strong, /* AUDIT LOG EMOJI NAME */
  .theme-dark .markup-2BOw-j .inlineCode-2ngu6Y,
+ .da-base.da-selected .da-content,
+ .da-base.da-selected .da-content .da-descriptionUsername,
+ .da-base.da-selected .da-content .da-descriptionDiscriminator,
  .itemBase-1Qj4z6:hover, /* APPEAR AS ONLINE | IDLE | DO NOT DISTURB | OFFLINE hover*/
  .statusItem-2uzPIV:hover .helper-2c73HK,
  .da-messagesPopout .markup-2BOw-j,
@@ -482,6 +531,7 @@ div[class="backdrop-1wrmKB da-backdrop"] /* BACKDROP WHEN YOU LOOK AT CONTEXT ME
  .customStatus-1bh2V9, /* CUSTOM STATUS POPOUT */
  .theme-dark .container-3-pyIM .content-2M3n_H a, /* PRIVATE MESSAGE CALL LOG NAME */
  .button-14-BFJ,
+ .headerNormal-T_seeN .headerTag-2pZJzA,
  .title-eS5yk3,
  .container-2ax-kl,
  .activity-E-0FeD,
@@ -1676,6 +1726,10 @@ polygon[points="0 0 0 14 11 7"] {
     box-shadow: 3px 0 0 var(--color-mid);
     border-radius: 0;
 }
+.da-base.da-selected {
+    background: var(--color-low);
+    border-radius: 0;
+}
 .theme-dark .result-3w1ZcL:hover /* GIF CHOOSER HOVER */ {
     box-shadow: none;
 }
@@ -1898,68 +1952,6 @@ rect[mask="url(#svg-mask-status-dnd)"] {
     box-shadow: none;
     background-color: transparent;
 }
-/* .container-2Pjhx-, 
- .layout-2DM8Md
- {
-     border-radius: 0;
- }
- .privateChannels-1nO12o header 
- {
-     background: var(--color-high);
-     box-shadow: 3px 3px 0 var(--color-mid);
-     opacity: 1
- }
- .channel-2QD9_O.selected-1HYmZZ .name-2WpE7M, 
- .channel-2QD9_O.selected-1HYmZZ .nameWrapper-10v56U, 
- .channel-2QD9_O:hover .name-2WpE7M, 
- .channel-2QD9_O:hover .nameWrapper-10v56U 
- {
-     color: var(--color-high);
-     z-index: 10;
- }
- .clickable-1JJAn8.container-2Pjhx-:active a, .selected-aXhQR6.container-2Pjhx- a,
- .channel-2QD9_O:hover  a, 
- .channel-2QD9_O.selected-1HYmZZ a
- {
-     animation-name: pulsingBackground;
-     animation-duration: 1.5s;
-     animation-iteration-count: infinite;
-     transition: width 0.4s;
-     width: 100%;
-     padding-left: 10px;
-     margin-left: 0;
- }
- .channel-2QD9_O:hover > div::before, 
- .channel-2QD9_O.selected-1HYmZZ  > div::before
- {
-     width: 100%
- }
- 
- .channel-2QD9_O a::before 
-     margin-left: 5px;
-     border: none;
-     border-radius: 0;
- } 
- .channel-2QD9_O a::before 
- {
-     animation-name: pulsingBackground;
-     animation-duration: 1.5s;
-     animation-iteration-count: infinite;
-     content: "";
-     position: absolute;
-     left: 0px;
-     top: 2px;
-     bottom: 2px;
-     width: 0;
-     background: var(--color-low);
-     transition: width 0.4s;
- }
- .da-privateChannels .da-channel:hover::before,
- .da-privateChannels .da-channel.da-selected::before 
- {
-   width: 100%;
- } */
-
 .content-3at_AU:active /* CLICKING ON CHANNEL */ {
     transform: none;
 }
