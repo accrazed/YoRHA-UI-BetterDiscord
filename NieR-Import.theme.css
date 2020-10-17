@@ -84,7 +84,8 @@
  .theme-dark .headerBar-UHpsPw,
  .theme-dark .applicationStore-1pNvnv,
  .contentConnectedVoice-qL-YrL:active, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active, /* CLICKING ON VOICE CHANNEL */
- .theme-dark .gameLibrary-TTDw4Y,
+ .theme-dark .gameLibrary-TTDw4Y, 
+ .connectionHeader-2MDqhu,
  .theme-dark .container-2Thooq, .theme-light .container-2Thooq,
  .theme-dark .root-1BQpZw,
  .channels-Ie2l6A,
@@ -93,6 +94,7 @@
  .searchResult-2N9RV4:after,
  .container-2lgZY8,
  .selected-aXhQR6 .layout-2DM8Md,
+ .bd-search,
  .channelHeader-3Gd2xq,
  .theme-dark .container-3gCOGc,
  .privateChannels-1nO12o,
@@ -118,6 +120,8 @@
  .wrapper-2qzCYF,
  .theme-dark .messagesWrapper-3lZDfY,
  .theme-dark .separator-XqIyoz,
+ .wrapper-2Gsate,
+ .da-inspector,
  .theme-dark .title-3qD0b-,
  .theme-dark .tile-2OwFgW:hover,
  .theme-dark .container-1r6BKw,
@@ -216,6 +220,7 @@
  .side-8zPYf6 .itemSelected-1qLhcL, /* USER PROFILE NOTIFICATIONS */
  .childWrapper-anI2G9,
  .da-privateChannels .da-systemPad .selected-aXhQR6 .name-uJV0GL,/* PM GENERAL */
+ .header-19cWci,
  .reactionMe-wv5HKu .reactionCount-2mvXRV, .reactionMe-wv5HKu:hover .reactionCount-2mvXRV,
  .hasSpoilers-1IRtQC .da-hasSpoilers > div > button > div, /* UPLOAD CONFIRM TEXT */
  .theme-dark .featureIcon-1f78KU, /* GAME PAGE FEATURES ICON */
@@ -329,6 +334,7 @@
  .anchor-3Z-8Bb, /* INVITE TO SERVER ANCHOR TEXT LINK */
  .theme-dark .auditLog-3jNbM6, /* AUDIT LOG TEXT */
  .bda-slist .bda-footer a, /* USER SETTINGS PLUGIN WEBSITE */
+ .medium-2-DE5M .input-1Rv96N::placeholder,
  .theme-dark .notes-3hkVr0, .theme-light .label-2zCFFs, /* NITRO STORE REVIEW TEXT */
  .theme-dark .searchResultChannelIcon-1DnTme,  /* SEARCH BAR MORE TEXT */
  .placeholder-P6ptfj,
@@ -451,6 +457,7 @@
  .theme-dark .operations-36ENbA, /* EDIT MESSAGE FOOTER TEXT */
  .theme-dark .label-13UUcd, .theme-light .label-13UUcd, /* GAME DETAILS LABELS */
  .theme-dark .gameName-1W6Ym-, /* GAME POPOUT GAME SELECTED NAME */
+ .bd-select-wrapper, .bd-select,
  .localBotMessage-1cGMdw, /* SELF BOT TEXT */
  .timestamp-JB3BQ5, /* HOME ACTIVITY CAROUSEL TIMESTAMP */
  .theme-dark .item-1Yvehc, /* CONTEXT MENU TEXT */
@@ -481,6 +488,7 @@
  .wrapper-CU3qI5.muted-1NRuDm:hover .icon-WnO6o2, .wrapper-CU3qI5.muted-1NRuDm:hover .name-IbjUBS, .wrapper-CU3qI5:hover .icon-WnO6o2, .wrapper-CU3qI5:hover .name-IbjUBS,
  .subtext-3CDbHg,
  .theme-dark .name-u2zgy7, .theme-light .name-u2zgy7, /* GAME DOWNLOADABLE CONTENT */
+ .subEnabledTitle-2ElRo_,
  .audioMetadata-3zOuGv .metadataSize-2UOOLK, /* SONG EMBED FILE SIZE */
  code .hljs-comment,
  .theme-dark .title-i-qCkH, /* GAME BOX TEXT */
@@ -489,7 +497,7 @@
  .theme-dark .icon-30q1Or, /* QUICK NAVIGATE ICON COLOR */
  .theme-dark .header-3HFF3R, .theme-dark .text-1Z3P6i, /* STORE GAME WHY YOU MIGHT LIKE TEXT */
  .theme-dark .nowPlayingAdd-1Kdmh_, .theme-light .nowPlayingAdd-1Kdmh_, /* USER PROFILE GAME ACTIVITY */
- .colorDefault-2K3EoJ,
+ .colorDefault-2K3EoJ, .connectionDelete-2Odoln,
  .theme-dark .fontScaleLarge-3xtq7i, .theme-dark .fontScaleSmall-368quy, /* CHAT FONT SCALING */
  .theme-dark .noMatches-2myGbP, .theme-dark .noMatchesDescription-1jZ4Wi, /* HOME NITRO NO MATCHES FOUND */
  .theme-dark .emptyNote-3nZbCz, .theme-dark .emptyTitle-3Jm6Ve, /* GAME SEARCH NO MATCHES */
@@ -504,6 +512,7 @@
  .audioMetadata-3zOuGv .metadataIcon-2FyCKU:hover, /* MUSIC DOWNLOAD ICON HOVER */
  .theme-dark .browseTitle-wA9SMk, /* BROWSE NITRO GAMES */
  .theme-dark .premiumApplicationsHeader-Zmkm5e, /* GAME INCLUDED WITH NITRO */
+ .marketingRefreshTitle-3pOyQb,
  .theme-dark .sectionHeader-127c3L, /* DISCORD NITRO */
  .theme-dark h1.title-3KTIjF, .theme-dark h2.title-3KTIjF, /* GAME TITLE */
  .theme-light .title-2Dc-Cb, /* CREATE SERVER HEADER */
@@ -511,6 +520,7 @@
  .theme-dark .filterAndSort-gLX1Ym, .theme-dark .hideGames-zMTyGl, /*  HOME STORE BROWSE */
  .theme-dark .allGamesContainer-wD_QKF, .theme-dark .caret-2TZe3E, /* GAME SEARCH NO RESULTS VIEW ALL */
  .name-2WpE7M, /* PRIVATE MESSAGE HEADER */
+ .marketingRefreshSubtitle-3jft-o, .marketingRefreshTier1Logo-sY6Lgd, .marketingRefreshSectionTier1-dRwS-6,
  .theme-dark h4.title-3KTIjF, .theme-dark h5.title-3KTIjF, .theme-dark h6.title-3KTIjF, /* SYSTEM REQUIREMENETS LABELS */
  .theme-dark .requirementKey-14DT2D, /* SYSTEM REQUIREMENTS SUB LABELS */
  .theme-dark .emojiAliasPlaceholder-3H_iZA, /* SERVER EMOJI NAMES */
@@ -713,6 +723,7 @@
      color: var(--color-low);
  }
  /* ALERT TEXT */
+ .bd-addon-list a,
  .isFailed-19WM0A, .isFailed-19WM0A .hljs, .isFailed-19WM0A a, .isFailed-19WM0A code.inline, .theme-dark .isFailed-19WM0A, .theme-light .isFailed-19WM0A, /* FAILED TO SEND TEXT */
  .theme-dark .yellow-2DRjXu .title-3zfWaO, .theme-light .yellow-2DRjXu .title-3zfWaO, /* YELLOW TEXT */
  .theme-dark .announcingNitro-3Ptg6m, /* NITRO GAMES HOVER */
@@ -783,6 +794,7 @@
      border-color: var(--color-low);
  }
  svg[name="Flag"] path,
+ .bd-select-arrow,
  svg[name="TitleBarClose"] > polygon, /* CLOSE BUTTON */
  svg[name="TitleBarMinimize"] > rect /* MINIMIZE BUTTON */ {
      fill: var(--color-low);
@@ -849,11 +861,38 @@
      width: 16px;
      height: 16px;
  }
+ .tab-2j5AEF.selected-2LAck8, .tab-2j5AEF:hover
+ {
+     border-bottom: 2px solid var(--color-alert);
+     color: var(--color-alert);
+ }
  .theme-dark .topic-2QX7LI, /* CHANNEL TOPIC */
      .channelName-3stJzi {
      color: var(--color-low);
      padding: 10px;
      padding-left: 0;
+ }
+ .channelName-1JRO3C
+ {
+     background: none;
+     color: var(--color-low);
+ }
+ .da-emojiItemSelected
+ {
+     background: var(--color-low) !important;
+ }
+ .da-searchResultMessage, .da-hit
+ {
+     background: var(--color-high) !important;
+     border: 1px solid var(--color-low) !important;
+     border-radius: 0 !important;
+     box-shadow: 0 0 10px 6px var(--color-low) !important;
+ }
+ .searchResult-9tQ1uo:after{
+     background: linear-gradient(180deg, transparent, var(--color-low));
+ }
+ .searchResult-9tQ1uo:before{
+     background: linear-gradient(0deg, transparent, var(--color-low));
  }
  .welcomeMessage-3_Mcht .h1-1IDj26, /* SERVER WELCOME MESSAGE */
      .itemContainer-WiE19S > p {
@@ -896,6 +935,13 @@
      border-radius: 0;
      box-shadow: 3px 3px 0 var(--color-mid);
  }
+ .bd-search-wrapper,
+ .bd-select .bd-select-option:hover, .bd-select .bd-select-option.selected
+ {
+     color: var(--color-high);
+     background-color: var(--color-low);
+     border: none;
+ }
  .theme-dark .messageGroupBlocked-3wrQQX:hover, /* BLOCKED MESSAGE CONTAINER */
      .aka-1mqp34, /* PRIVATE MESSAGE HEADER AKA */
      .theme-dark .messageGroupBlocked-3wrQQX, /* BLOCKED MESSAGE CONTAINER */
@@ -909,6 +955,7 @@
      background: var(--color-high);
      box-shadow: none;
  }
+ .bd-select .bd-select-options,
  .theme-dark .contentWrapper-3WC1ID /* SERVER INVITE INVITED TO JOIN */ {
      background: var(--color-high);
      border-radius: 0;
@@ -1160,6 +1207,7 @@
  }
  .theme-dark .searchHeader-1l-wpR /* SEARCH BAR HEADER */ {
      box-shadow: none;
+     border-radius: 0;
      background-color: var(--color-low);
      box-shadow: 3px 3px 0 var(--color-mid);
  }
@@ -1171,6 +1219,15 @@
      background: var(--color-high);
      border-radius: 0;
      border: none;
+     box-shadow: 3px 3px 0 var(--color-mid);
+ }
+ .connection-1fbD7X,
+ .banner-WELp4M,
+ .theme-dark .feature-2w65J5
+ {
+     background: var(--color-high);
+     border: 1px solid var(--color-low);
+     border-radius: 0;
      box-shadow: 3px 3px 0 var(--color-mid);
  }
  .toolbar-2bjZV7:before {
@@ -1676,7 +1733,26 @@
  .emojiPicker-3m1S-j .scroller-3vODG7 /* ALIGN SHIT */ {
      margin-right: 8px;
  }
- 
+ .da-live
+ {
+     background-color: var(--color-alert) !important;
+ }
+ rect[mask="url(#svg-mask-status-dnd)"]
+ {
+     fill: var(--color-alert);
+ }
+ .wrapper-1-Fsb8
+ {
+     background: var(--color-low);
+     color: var(--color-high);
+ }
+ .da-emojiPicker
+ {
+     background: var(--color-high);
+     border: 1px solid var(--color-low);
+     border-radius: 0;
+     box-shadow: 3px 3px 0 solid var(--color-mid);
+ }
  .bda-dark #bda-qem /* BETTER DISCORD EMOJI TABS */ {
      border-radius: 0;
      border-bottom: 0 !important;
@@ -1774,6 +1850,13 @@
      padding-top: 2px;
  }
  
+ .theme-dark .bd-addon-list .bd-addon-card
+ {
+     background-color: var(--color-low);
+     box-shadow: 3px 3px 0 var(--color-mid);
+     border-radius: 0;
+     border: none;
+ }
  .content-3at_AU,
  .content-3at_AU/* ALL CHANNELS */ {
      border-radius: 0;
