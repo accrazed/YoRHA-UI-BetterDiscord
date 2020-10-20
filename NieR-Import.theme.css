@@ -3696,6 +3696,7 @@ path[d="M12 16c1.1045695 0 2 .8954305 2 2s-.8954305 2-2 2-2-.8954305-2-2 .895430
     }
     20% {
         background-color: var(--color-low);
+        opacity: 100%;
     }
     50% {
         background-color: var(--color-mid);
@@ -3703,6 +3704,7 @@ path[d="M12 16c1.1045695 0 2 .8954305 2 2s-.8954305 2-2 2-2-.8954305-2-2 .895430
     }
     80% {
         background-color: var(--color-low);
+        opacity: 100%;
     }
     100% {
         background-color: var(--color-low);
@@ -3725,7 +3727,7 @@ path[d="M12 16c1.1045695 0 2 .8954305 2 2s-.8954305 2-2 2-2-.8954305-2-2 .895430
         box-shadow: 0 1px 0 0 var(--color-low), 0 -1px 0 0 var(--color-low);
     }
 }
-@keyframes pulsingBorder /* FOR PULSATING A BACKGROUND */ {
+@keyframes pulsingBorder /* FOR PULSATING A BORDER  */ {
     0% {
         border-color: var(--color-low);
     }
