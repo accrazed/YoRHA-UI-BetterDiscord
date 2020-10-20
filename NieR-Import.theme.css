@@ -3698,7 +3698,8 @@ path[d="M12 16c1.1045695 0 2 .8954305 2 2s-.8954305 2-2 2-2-.8954305-2-2 .895430
         background-color: var(--color-low);
     }
     50% {
-        background-color: var(--color-low-trans);
+        background-color: var(--color-mid);
+        opacity: 80%;
     }
     80% {
         background-color: var(--color-low);
