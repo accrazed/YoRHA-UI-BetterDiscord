@@ -359,6 +359,7 @@ div[class="backdrop-1wrmKB da-backdrop"] /* BACKDROP WHEN YOU LOOK AT CONTEXT ME
  .theme-dark .container-2x5lvQ section strong, /* RTC HILIGHTED */
  .theme-dark .description-1W0DiL, /* HYPESQUAD TEXT */
  .fakeLink-11RWCQ, /* TYPEBOX LINK TEXT */
+ .navButton-2gQCx-:hover,
  .theme-dark .progressCellText-3avmMz, /* DOWNLOADING GAME SUBTEXT */
  .topSectionNormal-2-vo2m .discriminator-xUhQkU, /* USER POPOUT DISCRIMINATOR */
  .theme-dark .memberInfo-1TAaKC, /* GAME OFFICIAL DISCORD SUBTEXT */
@@ -489,15 +490,15 @@ div[class="backdrop-1wrmKB da-backdrop"] /* BACKDROP WHEN YOU LOOK AT CONTEXT ME
  .headerNormal-T_seeN .headerTag-2pZJzA,
  .title-eS5yk3,
  .container-2ax-kl,
- .activity-E-0FeD,
  .wrapper-CU3qI5.muted-1NRuDm:hover .icon-WnO6o2, .wrapper-CU3qI5.muted-1NRuDm:hover .name-IbjUBS, .wrapper-CU3qI5:hover .icon-WnO6o2, .wrapper-CU3qI5:hover .name-IbjUBS,
  .subtext-3CDbHg,
  .theme-dark .name-u2zgy7, .theme-light .name-u2zgy7, /* GAME DOWNLOADABLE CONTENT */
  .subEnabledTitle-2ElRo_,
  .audioMetadata-3zOuGv .metadataSize-2UOOLK, /* SONG EMBED FILE SIZE */
  code .hljs-comment,
+ .activity-E-0FeD,
+ .navButton-2gQCx-,
  .theme-dark .title-i-qCkH, /* GAME BOX TEXT */
- .theme-dark .colorStandard-2KCXvj, /* USER SETTINGS ACTIVITY FEED NAME */
  .theme-dark .contentUnread-3gTHvA .note-S--UP5, .theme-dark .contentDefault-16dKSY .note-S--UP5, /* QUICK NAVIGATE TEXT CHANNELS */
  .theme-dark .icon-30q1Or, /* QUICK NAVIGATE ICON COLOR */
  .theme-dark .header-3HFF3R, .theme-dark .text-1Z3P6i, /* STORE GAME WHY YOU MIGHT LIKE TEXT */
@@ -520,6 +521,7 @@ div[class="backdrop-1wrmKB da-backdrop"] /* BACKDROP WHEN YOU LOOK AT CONTEXT ME
  .marketingRefreshTitle-3pOyQb,
  .theme-dark .sectionHeader-127c3L, /* DISCORD NITRO */
  .theme-dark h1.title-3KTIjF, .theme-dark h2.title-3KTIjF, /* GAME TITLE */
+ .textArea-12jD-V,
  .theme-light .title-2Dc-Cb, /* CREATE SERVER HEADER */
  .theme-dark .hiddenMessage-1iiFV5, .theme-dark .inputDefault-A2ud2y, /* USER PROFILE WIDGET TEXT */
  .theme-dark .filterAndSort-gLX1Ym, .theme-dark .hideGames-zMTyGl, /*  HOME STORE BROWSE */
@@ -746,8 +748,6 @@ div[class="backdrop-1wrmKB da-backdrop"] /* BACKDROP WHEN YOU LOOK AT CONTEXT ME
  .theme-dark .memberListHeader-3bta_4, /* ACTIVITY RECENTLY PLAYED POPOUT HEADER */
  .theme-dark .memberListHeader-Qq9531,
  .username-1A8OIy, 
- 
- .da-textArea,
  .embedProvider-3k5pfl, /* EMBED PROVIDER */
  .theme-dark .embedAuthorName-3mnTWj, .theme-dark .embedFieldName-NFrena, .theme-dark .embedTitle-3OXDkz /* EMBED AUTHOR */ {
     color: var(--color-low) !important;
@@ -938,6 +938,7 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */ {
     background: var(--color-mid);
     color: var(--color-high);
 }
+.contentWrapper-SvZHNd,
 .messageContainer-gbhlwo {
     background: var(--color-high);
     border: 1px solid var(--color-low);
@@ -1299,6 +1300,12 @@ svg[name="Close"] > g > .fill {
 }
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:after /* CALENDAR PICKED DATE FOOTER COLOR */ {
     background-color: var(--color-alert);
+}
+.navButtonActive-1MkytQ.navButtonActive-1MkytQ {
+    color: var(--color-high);
+}
+.navButtonActive-1MkytQ {
+    background-color: var(--color-low);
 }
 .theme-dark .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z:hover /* CALENDAR TOOLTIP HOVER */ {
     background-color: var(--color-mid);
@@ -3728,7 +3735,7 @@ path[d="M12 16c1.1045695 0 2 .8954305 2 2s-.8954305 2-2 2-2-.8954305-2-2 .895430
         box-shadow: 0 1px 0 0 var(--color-low), 0 -1px 0 0 var(--color-low);
     }
 }
-@keyframes pulsingBorder /* FOR PULSATING A BORDER  */ {
+@keyframes pulsingBorder /* FOR PULSATING A BACKGROUND */ {
     0% {
         border-color: var(--color-low);
     }
