@@ -1,3 +1,49 @@
+/**
+ * @name NieR: Automata UI Light FULL
+ * @version auto
+ * @description Glory to Mankind. || 
+ * Thanks to JulioDRai for letting me use their cursors! 
+ * ~https://www.deviantart.com/juliodrai || 
+ * Thanks to GOmonkeymanGO for letting me use some of their code 
+ * ~https://github.com/ChaseIngebritson/YoRHa-Discord-Theme || 
+ * @website https://github.com/AccraZed/YoRHA-UI-BetterDiscord
+ * @author Accrazed#2710
+ * @invite X4nBPCa
+ * @patreon https://www.patreon.com/accrazed
+ * @authorId 153562159161278473
+ *
+ *  :::.       .,-:::::   .,-::::: :::::::..    :::.     :::::::::.,:::::::::::::-.  
+ *  ;;`;;    ,;;;'````' ,;;;'````' ;;;;``;;;;   ;;`;;    '`````;;;;;;;'''' ;;,   `';,
+ * ,[[ '[[,  [[[        [[[         [[[,/[[['  ,[[ '[[,      .n[[' [[cccc  `[[     [[
+ * c$$$cc$$$c $$$        $$$         $$$$$$c   c$$$cc$$$c   ,$$P"   $$""""   $$,    $$
+ * 888   888,`88bo,__,o,`88bo,__,o, 888b "88bo,888   888,,888bo,_  888oo,__ 888_,o8P'
+ * YMM   ""`   "YUMMMMMP" "YUMMMMMP"MMMM   "W" YMM   ""`  `""*UMM  """"YUMMMMMMMP"`  
+ */
+
+@import url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/font/stylesheet.css"); /* Font */
+@import url("https://anti-betterdocs.github.io/BlockBetterDocs/code.css"); /* gets rid of cucks who try to steal my theme and make money via ads */
+
+/* GLOBAL VARIABLES */
+:root {
+    --color-high: rgb(218, 212, 187);
+    --color-low: rgb(87, 84, 74);
+    --color-mid: rgb(151, 147, 129);
+    --color-alert: rgb(205, 102, 77);
+    --color-high-trans: rgba(218, 212, 187, 0.8);
+    --color-low-trans: rgba(87, 84, 74, 0.6);
+    --color-alert-trans: rgba(205, 102, 77, 0.7);
+    --nier-font: sce-ps3_rodin_latinregular;
+}
+/* Main Wallpaper */
+#app-mount {
+    background: url("https://i.ibb.co/q1FT2Qz/Nie-R-UI-Clean.png") center/cover no-repeat;
+}
+
+/* HOME BUTTON BACKGROUND */
+.homeIcon-tEMBK1 {
+    background: url(https://i.imgur.com/3xonYy0.png) center/contain no-repeat;
+    height: 57px;
+}
 #app-mount:before {
     /* theatre effect */
     content: "";
@@ -748,6 +794,7 @@ div[class="backdrop-1wrmKB da-backdrop"] /* BACKDROP WHEN YOU LOOK AT CONTEXT ME
  .theme-dark .memberListHeader-3bta_4, /* ACTIVITY RECENTLY PLAYED POPOUT HEADER */
  .theme-dark .memberListHeader-Qq9531,
  .username-1A8OIy, 
+ 
  .embedProvider-3k5pfl, /* EMBED PROVIDER */
  .theme-dark .embedAuthorName-3mnTWj, .theme-dark .embedFieldName-NFrena, .theme-dark .embedTitle-3OXDkz /* EMBED AUTHOR */ {
     color: var(--color-low) !important;
@@ -841,7 +888,7 @@ svg[name="TitleBarMaximize"] > rect /* MAXIMIZE BUTTON */ {
  .header-2o-2hj /* LEFT HEADER */ {
     box-shadow: none;
     color: var(--color-low);
-    text-shadow: 3px 4px 0 rgba(0, 0, 0, 0.25);
+    text-shadow: 3px 4px 0 rgba(128, 128, 128, 0.7);
     letter-spacing: 1px;
 }
 .da-tabBarItem[style="border-color: rgb(255, 255, 255); color: rgb(255, 255, 255);"] /* TAB SELECTED */ {
