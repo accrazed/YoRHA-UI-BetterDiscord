@@ -1,0 +1,59 @@
+:root
+{
+    --header-primary: var(--color-low);
+    --header-secondary: var(--color-low);
+    --text-normal: var(--color-low);
+    --channels-default: var(--color-low);
+    --interactive-normal: var(--color-low);
+    --interactive-hover: var(--color-low);
+    --interactive-active: var(--color-low);
+
+    --text-link: var(--color-alert);
+
+    --text-muted: var(--color-low);
+    --interactive-muted: var(--color-mid);
+    --background-primary: var(--color-high);
+    --background-secondary: var(--color-high);
+    --background-secondary-alt: var(--color-high);
+    --background-tertiary: var(--color-high-trans);
+    --background-accent: #4f545c;
+    --background-floating: var(--color-high);
+    --background-mobile-primary: #36393f;
+    --background-mobile-secondary: #2f3136;
+    --background-modifier-hover: var(--color-mid);
+    --background-modifier-active: rgba(79, 84, 92, 0.24);
+    --background-modifier-selected: rgba(79, 84, 92, 0.32);
+    --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
+    --background-mentioned: var(--color-alert-trans);
+    --background-mentioned-hover: var(--color-alert-trans);
+    --background-message-hover: rgba(4, 4, 5, 0.07);
+    --background-help-warning: rgba(250, 166, 26, 0.1);
+    --background-help-info: rgba(0, 176, 244, 0.1);
+    --scrollbar-thin-thumb: var(--color-low);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: var(--color-low);
+    --scrollbar-auto-track: transparent;
+    --scrollbar-auto-scrollbar-color-thumb: var(--color-low);
+    --scrollbar-auto-scrollbar-color-track: transparent;
+    --elevation-stroke: 0 0 0 1px rgba(4, 4, 5, 0.15);
+    --elevation-low: 0 1px 0 rgba(4, 4, 5, 0.2), 0 1.5px 0 rgba(6, 6, 7, 0.05),
+        0 2px 0 rgba(4, 4, 5, 0.05);
+    --elevation-medium: 0 4px 4px rgba(0, 0, 0, 0.16);
+    --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
+    --logo-primary: var(--color-low);
+    --focus-primary: var(--color-alert);
+    --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+    --channeltextarea-background: var(--color-high);
+    --activity-card-background: #202225;
+    --textbox-markdown-syntax: #8e9297;
+    --deprecated-card-bg: var(--color-high);
+    --deprecated-card-editable-bg: rgba(32, 34, 37, 0.3);
+    --deprecated-store-bg: #36393f;
+    --deprecated-quickswitcher-input-background: #72767d;
+    --deprecated-quickswitcher-input-placeholder: hsla(0, 0%, 100%, 0.3);
+    --deprecated-text-input-bg: rgba(0, 0, 0, 0.1);
+    --deprecated-text-input-border: rgba(0, 0, 0, 0.3);
+    --deprecated-text-input-border-hover: #040405;
+    --deprecated-text-input-border-disabled: #202225;
+    --deprecated-text-input-prefix: #dcddde;
+}
