@@ -1,0 +1,20 @@
+// Transparencies
+.app-2rEoOp,
+.bg-h5JY_x {
+    background-color: transparent;
+}
+.wordmarkWindows-1v0lYD {
+    color: transparent;
+}
+
+// Close/Minimize/Maximize buttons
+.winButtonClose-1HsbF-:hover {
+    transition: background-color 0.2s, color 0.2s ease;
+    color: $high;
+    background: $alert;
+}
+.winButtonMinMax-PBQ2gm:hover {
+    transition: background-color 0.2s, color 0.2s ease;
+    color: $high;
+    background: $low;
+}

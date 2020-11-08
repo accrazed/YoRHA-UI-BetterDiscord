@@ -1,0 +1,64 @@
+// Transparencies
+.scroller-1IIF0A,
+.scroller-9moviB,
+.applicationStore-1pNvnv,
+.nowPlayingColumn-2sl4cE,
+.theme-dark .inset-3sAvek,
+.theme-dark .container-1D34oG {
+    background-color: transparent;
+}
+.peopleListItem-2nzedh.active-rhSpJJ,
+.peopleListItem-2nzedh:hover {
+    @include boxify($high, $mid, 3px);
+}
+// Low color
+.theme-dark .text-GwUZgS,
+.theme-dark .title-2BxgL2 {
+    color: $low;
+}
+// "Active Now" tags, (misc. cards too)
+.theme-dark .feature-2w65J5,
+.banner-WELp4M,
+.wrapper-3D2qGf {
+    @include boxify($high, $mid, 4px);
+
+    .inset-3sAvek {
+        border: 1px solid $mid;
+        border-radius: 0;
+    }
+    .partyMemberOverflow-lXnzvu {
+        color: $high;
+        background: $low;
+    }
+
+    &:hover {
+        background-color: $low !important;
+
+        .partyMemberOverflow-lXnzvu {
+            color: $low;
+            background: $high;
+        }
+        .base-1x0h_U,
+        .colorHeaderSecondary-3Sp3Ft,
+        .colorStandard-2KCXvj {
+            color: $high;
+        }
+    }
+}
+// No pending requests image
+.theme-dark .emptyWumpus-12J3jI,
+.image-1GzsFd {
+    @include remask("https://svgur.com/i/RGT.svg", $low);
+    width: 403px !important;
+    height: 353px !important;
+}
+
+.actionButton-uPB8Fs:hover {
+    transition: background-color 0.2s ease-in-out;
+    background-color: $low;
+
+    .icon-35-fSh {
+        transition: color 0.1s ease-in-out;
+        color: $high;
+    }
+}

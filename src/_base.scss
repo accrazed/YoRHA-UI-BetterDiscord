@@ -1,4 +1,21 @@
-// @import 'root_config';
-@import 'chat/import';
-@import 'popouts/import';
-@import 'font/font';
+@mixin boxify($color, $drop-color, $drop) {
+    background: $color;
+    border-radius: 0;
+    box-shadow: $drop $drop 0 $drop-color;
+}
+@mixin remask($url, $color) {
+    mask: url($url);
+    background: $color !important;
+}
+
+@import "root_config";
+@import "chat/import";
+@import "popouts/import";
+@import "font/font";
+@import "overlay/overlay";
+@import "app/app";
+@import "app/shapes";
+@import "channels/import";
+@import "home/import";
+@import "voice-video/import";
+@import "guilds/import";

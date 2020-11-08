@@ -1,1 +1,16 @@
-@import "https://accrazed.github.io/YoRHA-UI-BetterDiscord/font/stylesheet.css";
+@import url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/font/stylesheet.css");
+
+::placeholder,
+body,
+button,
+input,
+select,
+textarea {
+    font-family: var(--nier-font), Arial, Helvetica, sans-serif;
+}
+strong {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.markup-2BOw-j {
+    font-size: 11pt;
+}

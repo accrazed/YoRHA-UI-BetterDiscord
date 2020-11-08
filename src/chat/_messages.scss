@@ -1,4 +1,34 @@
-.markup-2BOw-j
-{
-    color: ;
+// Transparencies
+.theme-dark .form-2fGMdU:before,
+.chat-3bRxxu {
+    background: transparent;
+}
+
+// Scrollbar
+.auto-Ge5KZx::-webkit-scrollbar,
+.auto-Ge5KZx::-webkit-scrollbar-thumb,
+.auto-Ge5KZx::-webkit-scrollbar-track {
+    border-radius: 0;
+    width: 6px;
+}
+
+// Username label
+.header-23xsNx {
+    border-radius: 0;
+    display: inline-block !important;
+    padding: 4px 5px 4px 6px;
+    background: var(--color-high);
+    margin-left: 13px;
+    box-shadow: 2px 2px 0 $mid, -3px 0 0 $low, -9px 0 0 $high, -21px 0 0 $low, -18px 2px 0 $mid;
+}
+
+// Username color
+.username-1A8OIy.clickable-1bVtEA {
+    color: $low !important;
+}
+
+// Quotes
+.blockquoteContainer-U5TVEi .blockquoteDivider-2hH8H6 {
+    border-radius: 0;
+    background-color: $low;
 }

@@ -20,9 +20,7 @@
  * YMM   ""`   "YUMMMMMP" "YUMMMMMP"MMMM   "W" YMM   ""`  `""*UMM  """"YUMMMMMMMP"`  
  */
 
- 
 @import url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/font/stylesheet.css"); /* Font */
-@import url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/LightImport.theme.css"); /* Light Part of Theme */
 
 /* GLOBAL VARIABLES */
 :root {
@@ -36,4 +34,14 @@
     --nier-font: sce-ps3_rodin_latinregular;
 }
 
+$high: var(--color-high);
+$low: var(--color-low);
+$mid: var(--color-mid);
+$alert: var(--color-alert);
+$high-trans: var(--color-high-trans);
+$low-trans: var(--color-low-trans);
+$alert-trans: var(--color-alert-trans);
+$font: var(--nier-font);
+
 @import "base"; /* Main File */
+@import "light"; // light part

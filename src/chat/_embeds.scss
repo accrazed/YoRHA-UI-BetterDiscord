@@ -1,0 +1,12 @@
+// Embed card
+.embedFull-2tM8--,
+.cozy-3raOZG .messageContent-2qWWxC pre {
+    @include boxify($high, $mid, 4px);
+
+    code {
+        border-radius: 0;
+        margin-left: 13px;
+        margin-bottom: 4px;
+        box-shadow: -3px 0 0 $low, -9px 0 0 $high, -21px 0 0 $low, -18px 4px 0 $mid;
+    }
+}
