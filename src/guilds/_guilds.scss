@@ -1,5 +1,57 @@
 // Transparencies
 .wrapper-1Rf91z,
+.theme-dark .pageWrapper-1PgVDX,
 .scroller-2TZvBN {
     background-color: transparent;
+}
+.guildSeparator-3s64Iy {
+    height: 0;
+}
+.listItem-2P_4kh .svg-1X37T1 foreignObject {
+    mask: none;
+}
+
+// Folder
+.expandedFolderBackground-2sPsd- {
+    @include boxify($high, $mid, 3px);
+}
+.scroller-2TZvBN > div[aria-label="Servers"] > .listItem-2P_4kh foreignObject {
+    @include boxify($high, $mid, 3px);
+}
+.folderIconWrapper-226oVY {
+    border-radius: 0;
+}
+// Servers with no icons
+.acronym-2mOFsV {
+    color: $low !important;
+}
+// Unread messages
+.item-2hkk8m {
+    background-color: $alert;
+    border-radius: 0;
+    height: 48px !important;
+}
+// Unread blip out of screen
+.mention-1f5kbO {
+    @include boxify($alert, $low, 3px);
+}
+// Notification blip
+.numberBadge-2s8kKX {
+    background-color: $alert !important;
+    color: $high !important;
+    border-radius: 0;
+}
+// Server browser and add server button
+.circleIconButton-jET_ig {
+    color: $alert;
+
+    &.selected-ugP_am {
+        background-color: $alert;
+        color: $high;
+    }
+}
+// Discover screen
+.theme-dark .card-3DjzTQ,
+.theme-dark .iconMask-3b8GzQ {
+    @include boxify($high, $mid, 5px);
 }

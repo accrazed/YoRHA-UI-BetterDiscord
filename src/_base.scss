@@ -7,6 +7,36 @@
     mask: url($url);
     background: $color !important;
 }
+@mixin buttonify($base-bg, $base-text, $hover-bg, $hover-text) {
+    border-radius: 0;
+    background-color: $base-bg;
+    color: $base-text;
+
+    &:hover, &:active {
+        background-color: $hover-bg;
+        color: $hover-text;
+    }
+}
+@keyframes pulsingBackground {
+    0% {
+        background-color: $low;
+    }
+    20% {
+        background-color: $low;
+        opacity: 100%;
+    }
+    50% {
+        background-color: $low-trans;
+        opacity: 75%;
+    }
+    80% {
+        background-color: $low;
+        opacity: 100%;
+    }
+    100% {
+        background-color: $low;
+    }
+}
 
 @import "root_config";
 @import "chat/import";
@@ -19,3 +49,4 @@
 @import "home/import";
 @import "voice-video/import";
 @import "guilds/import";
+@import "prompts/prompts";

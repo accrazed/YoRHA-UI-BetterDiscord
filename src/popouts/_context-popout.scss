@@ -1,0 +1,10 @@
+.theme-dark .tooltipBlack-PPG47z {
+    @include boxify($high, $mid, 3px);
+}
+.theme-dark .tooltip-2QfLtc,
+.theme-dark .listItemTooltip-CDcY8J {
+    color: $low;
+}
+.theme-dark .tooltipBlack-PPG47z .tooltipPointer-3ZfirK {
+    border: none;
+}

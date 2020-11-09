@@ -1,0 +1,22 @@
+// Backdrop
+.backdropWithLayer-3_uhz4 {
+    opacity: 0.4 !important;
+}
+// Transparencies
+.theme-dark .footer-2gL1pp {
+    background-color: transparent;
+    box-shadow: none;
+}
+// Set a custom status
+.theme-dark .root-1gCeng {
+    @include boxify($high, $mid, 3px);
+}
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+    @include buttonify($alert, $high, $low, $high);
+}
+.art-347BZj {
+    background-image: none;
+}
+.header-3C6qT5 {
+    padding-top: 0;
+}

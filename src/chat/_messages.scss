@@ -32,3 +32,17 @@
     border-radius: 0;
     background-color: $low;
 }
+
+// Mentions
+.theme-dark .mentioned-xhSam7 .mention.interactive:hover {
+    color: $high;
+}
+.wrapper-3WhCwL {
+    background: $alert-trans;
+    color: $high;
+
+    &:hover {
+        color: $alert;
+        background: $high;
+    }
+}
