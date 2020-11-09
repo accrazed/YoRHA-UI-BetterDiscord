@@ -1,6 +1,6 @@
 :root {
-    --header-primary: var(--color-low);
-    --header-secondary: var(--color-low);
+    --header-primary: var(--color-low) !important;
+    --header-secondary: var(--color-low) !important;
     --text-normal: var(--color-low);
     --channels-default: var(--color-low);
     --interactive-normal: var(--color-low);

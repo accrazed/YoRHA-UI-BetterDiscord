@@ -1,11 +1,60 @@
+// Right-clicking things menu
 .menu-3sdvDG,
 .theme-dark .tooltipBlack-PPG47z {
-    @include boxify($high, $mid, 3px);
+    @include boxify($low, $mid, 3px);
+    .scroller-3BxosC {
+        padding: 0;
+    }
+    .colorDefault-2K3EoJ {
+        @include buttonify($low, $high, $high, $low);
+        color: $high;
+    }
+}
+.item-1tOPte {
+    border-radius: 0;
+    margin: 0;
+}
+// Red text in context menu
+.colorDanger-2qLCe1,
+.colorDanger-2qLCe1 .checkbox-3s5GYZ,
+.colorDanger-2qLCe1 .radioSelection-1HmrQS {
+    color: $alert;
+}
+.clickCTA-2B6Kbs {
+    color: $mid;
 }
 .theme-dark .tooltip-2QfLtc,
 .theme-dark .listItemTooltip-CDcY8J {
-    color: $low;
+    color: $high;
 }
+.separator-2I32lJ,
 .theme-dark .tooltipBlack-PPG47z .tooltipPointer-3ZfirK {
     border: none;
+}
+// Add role
+.theme-dark .autocompleteShadow-iiGWFU {
+    border: 1px solid $low;
+    @include boxify($high, $mid, 3px);
+}
+.theme-dark .autocompleteArrow-Zxoy9H,
+.theme-dark .header-2bNvm4 {
+    background-color: transparent;
+    box-shadow: none;
+}
+.theme-dark .empty-3hoe1g .noResultsHeader-pqW4H-,
+.theme-dark .empty-3hoe1g p,
+.theme-dark .container-VSDcQc .input-1ppKdn {
+    color: $low;
+
+    &::placeholder {
+        color: $mid;
+    }
+}
+.row-rrHHJU.selected-1pIgLL .rowInner-1vvRiF {
+    background-color: $low;
+    border-radius: 0;
+
+    span {
+        color: $high !important;
+    }
 }

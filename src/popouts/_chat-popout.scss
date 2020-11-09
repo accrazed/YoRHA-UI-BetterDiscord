@@ -1,0 +1,25 @@
+.popoutContainer-1MXdqN // Clicking an emote
+{
+    @include boxify($high, $mid, 3px);
+}
+.full-motion .wrapper-2aW0bm:hover,
+.wrapper-2aW0bm // Options when hovering over message
+{
+    @include boxify($high, $mid, 3px);
+
+    .button-1ZiXG9 {
+        @include buttonify($high, $low, $low, $high);
+    }
+}
+// Pinned Messages
+.messagesPopoutWrap-1MQ1bW {
+    @include boxify($high, $mid, 3px);
+}
+.username-1A8OIy {
+    color: $low !important;
+}
+// Selected tab in header
+.theme-dark .header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa {
+    background-color: $alert;
+    color: $high;
+}

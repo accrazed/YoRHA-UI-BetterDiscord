@@ -6,7 +6,6 @@
 .wordmarkWindows-1v0lYD {
     color: transparent;
 }
-
 // Close/Minimize/Maximize buttons
 .winButtonClose-1HsbF-:hover {
     transition: background-color 0.2s, color 0.2s ease;
@@ -25,6 +24,10 @@
     border: 2px solid $low;
     color: $low;
 
+    &:hover {
+        border-color: $mid;
+    }
+    &.focused-1mmYsC,
     &:focus {
         border-color: $alert;
     }
@@ -35,10 +38,12 @@
 // Buttons
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6,
 .lookFilled-1Gx00P.colorPrimary-3b3xI6,
+.lookInverted-2D7oAl.colorBrand-3pXr91,
 .lookFilled-1Gx00P.colorGrey-2DXtkV,
 .lookFilled-1Gx00P.colorBrand-3pXr91 {
     @include buttonify($low, $high, $mid, $high);
 }
+.lookFilled-1Gx00P.colorGreen-29iAKY,
 .lookFilled-1Gx00P.colorRed-1TFJan,
 .lookOutlined-3sRXeN.colorRed-1TFJan {
     @include buttonify($alert, $high, $low, $high);

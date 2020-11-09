@@ -5,7 +5,8 @@
     background-color: transparent;
     color: transparent;
 }
-.tutorialContainer-1v44GL .wrapper-25eVIn, .svg-1X37T1  {
+.tutorialContainer-1v44GL .wrapper-25eVIn,
+.tutorialContainer-1v44GL .svg-1X37T1 {
     height: 57px;
     width: 48px;
 }
@@ -27,15 +28,18 @@
 .iconSize-2tmqqh {
     @include remask("https://discord.com/assets/c30220448097b064286a8759a9b6c4af.svg", $alert);
 }
-.iconWrapper-2OrFZ1[aria-label="Pinned Messages"]:hover .icon-22AiRD path {
-    transition: fill 0.2s ease-in-out;
-    fill: $alert;
-}
 foreignObject[mask="url(#svg-mask-status-dnd)"] .status-1AY8sU {
     background-color: $alert !important;
 }
+.iconBadge-qZ4Ksk {
+    background-color: $alert;
+}
 .strikethrough-1n4ekb {
     color: $alert;
+}
+// Plus sign
+.theme-dark .actionButton-VzECiy {
+    color: $low;
 }
 // Do not disturb
 .pointerEvents-2zdfdO[mask="url(#svg-mask-status-dnd)"] {
@@ -46,3 +50,4 @@ path[d="M14 8C14 7.44772 13.5523 7 13 7H9.76001L10.3657 3.58738C10.4201 3.28107 
     + path[d="M21.025 5V4C21.025 2.88 20.05 2 19 2C17.95 2 17 2.88 17 4V5C16.4477 5 16 5.44772 16 6V9C16 9.55228 16.4477 10 17 10H19H21C21.5523 10 22 9.55228 22 9V5.975C22 5.43652 21.5635 5 21.025 5ZM20 5H18V4C18 3.42857 18.4667 3 19 3C19.5333 3 20 3.42857 20 4V5Z"] {
     transform: translateX(-108%) translateY(0%) scale(2);
 }
+

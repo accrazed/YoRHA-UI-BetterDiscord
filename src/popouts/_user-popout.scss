@@ -1,9 +1,13 @@
 // Transparencies
+.tabBarContainer-1s1u-z {
+    border: none;
+}
 .separator-2I32lJ {
     margin: 0;
 }
 .theme-dark .headerNormal-T_seeN,
 .theme-dark .body-3iLsc4,
+.topSectionPlaying-1J5E4n,
 .headerSpotify-zpWxgT,
 .headerPlaying-j0WQBV,
 .theme-dark .footer-1fjuF6 {
@@ -33,20 +37,24 @@
 .activityName-1IaRLn {
     color: $high;
 }
-.colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O),
-.colorDefault-2K3EoJ.focused-3afm-j,
-.activity-11LB_k {
-    background: $low;
-}
+.additionalActionsIcon-1FoUlE,
+.discriminator-xUhQkU,
+.username-3gJmXY,
 .headerName-fajvi9,
 .headerTag-2pZJzA,
 .headerTagUsernameNoNickname-2_H881 {
     color: $low;
 }
-// Color picker
-// Clicking on a user
-.theme-dark .colorPickerCustom-2CWBn2,
-.userPopout-3XzG_A {
+.headerFill-adLl4x,
+.colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O),
+.colorDefault-2K3EoJ.focused-3afm-j,
+.activity-11LB_k {
+    background: $low;
+}
+.root-SR8cQa, // User menu popout
+.theme-dark .colorPickerCustom-2CWBn2, // Color picker
+.userPopout-3XzG_A  // Clicking on a user
+{
     @include boxify($high, $mid, 5px);
     border-color: $low;
 }

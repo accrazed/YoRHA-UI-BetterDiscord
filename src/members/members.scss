@@ -1,0 +1,58 @@
+// Transparencies
+.clickable-1JJAn8:hover .layout-2DM8Md,
+.members-1998pB,
+.members-1998pB > div {
+    background: transparent;
+}
+// Member hover/select animations
+.container-2Pjhx- {
+    transition: color .2s;
+    max-width: none;
+    border-radius: 0;
+    height: 44px;
+    margin: 5px 0 5px 0;
+
+    // Animation
+    .layout-2DM8Md {
+        background-color: transparent;
+        height: 36px;
+        margin: 3px 0 0 0;
+        border-radius: 0;
+    }
+    .layout-2DM8Md:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 2px;
+        bottom: 2px;
+        transition: width 0.4s;
+        animation-name: pulsingBackground;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        width: 0%;
+    }
+    // Selected channel
+    &.selected-aXhQR6,
+    &:hover {
+        color: $high !important;
+        box-shadow: 0 1px $low, 0 -1px $low;
+
+        .name-uJV0GL span,
+        .activity-2Gy-9S,
+        .muted-3mU76i {
+            color: $high !important;
+        }
+        .layout-2DM8Md:before {
+            width: 100%;
+        }
+        .linkButtonIcon-Mlm5d6,
+        .content-3QAtGj {
+            z-index: 1;
+        }
+    }
+}
+// Bot tag
+.botTagRegular-2HEhHi {
+    background-color: $alert;
+    color: $high;
+}

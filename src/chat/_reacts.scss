@@ -1,0 +1,21 @@
+// Reacts
+.reaction-1hd86g {
+    border: 1px solid $low;
+    border-radius: 0;
+    background-color: transparent;
+    .reactionCount-2mvXRV {
+        color: $low;
+    }
+    &:hover {
+        @include boxify($mid, $mid, 2px);
+        .reactionCount-2mvXRV {
+            color: $high;
+        }
+    }
+}
+.reaction-1hd86g.reactionMe-wv5HKu {
+    @include boxify($low, $mid, 2px);
+    .reactionCount-2mvXRV {
+        color: $high;
+    }
+}

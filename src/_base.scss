@@ -45,10 +45,10 @@
 @import "popouts/import";
 @import "font/font";
 @import "overlay/overlay";
-@import "app/app";
-@import "app/shapes";
+@import "app/import";
 @import "channels/import";
 @import "home/import";
 @import "voice-video/import";
 @import "guilds/import";
 @import "prompts/prompts";
+@import "members/members";

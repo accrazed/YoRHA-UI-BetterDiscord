@@ -1,4 +1,5 @@
 // Backdrop
+.backdrop-1wrmKB,
 .backdropWithLayer-3_uhz4 {
     opacity: 0.4 !important;
 }
@@ -16,4 +17,22 @@
 }
 .header-3C6qT5 {
     padding-top: 0;
+}
+// Login screen
+.theme-dark.authBox-hW6HRx {
+    @include boxify($high, $mid, 6px);
+
+    &,
+    .colorHeaderPrimary-26Jzh-,
+    .colorHeaderSecondary-3Sp3Ft,
+    .h5-18_1nd {
+        color: $low;
+    }
+    .lookLink-9FtZy-.colorBrand-3pXr91 {
+        color: $alert;
+    }
+    .qrCodeContainer-3sXarj,
+    .qrCodeOverlay-qgtlTP {
+        border: 1px solid $low;
+    }
 }
