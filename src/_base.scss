@@ -9,6 +9,7 @@
 }
 @mixin buttonify($base-bg, $base-text, $hover-bg, $hover-text) {
     border-radius: 0;
+    border-color: transparent;
     background-color: $base-bg;
     color: $base-text;
 
@@ -17,6 +18,7 @@
         color: $hover-text;
     }
 }
+
 @keyframes pulsingBackground {
     0% {
         background-color: $low;

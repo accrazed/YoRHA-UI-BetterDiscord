@@ -43,8 +43,10 @@
 .headerTagUsernameNoNickname-2_H881 {
     color: $low;
 }
+// Color picker
 // Clicking on a user
+.theme-dark .colorPickerCustom-2CWBn2,
 .userPopout-3XzG_A {
     @include boxify($high, $mid, 5px);
+    border-color: $low;
 }
-// Set status

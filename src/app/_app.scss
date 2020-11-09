@@ -18,3 +18,52 @@
     color: $high;
     background: $low;
 }
+// Input text
+.input-cIJ7To {
+    background-color: $high;
+    border-radius: 0;
+    border: 2px solid $low;
+    color: $low;
+
+    &:focus {
+        border-color: $alert;
+    }
+    &::placeholder {
+        color: $mid;
+    }
+}
+// Buttons
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6,
+.lookFilled-1Gx00P.colorPrimary-3b3xI6,
+.lookFilled-1Gx00P.colorGrey-2DXtkV,
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+    @include buttonify($low, $high, $mid, $high);
+}
+.lookFilled-1Gx00P.colorRed-1TFJan,
+.lookOutlined-3sRXeN.colorRed-1TFJan {
+    @include buttonify($alert, $high, $low, $high);
+}
+// Toggle switch
+.container-3auIfb[style="opacity: 1; background-color: rgb(114, 118, 125);"] {
+    background: $mid !important;
+
+    path {
+        fill: $mid;
+    }
+}
+.container-3auIfb[style="opacity: 1; background-color: rgb(67, 181, 129);"] {
+    background: $low !important;
+
+    path {
+        fill: $low;
+    }
+}
+// Checkbox
+.cardPrimaryEditable-3KtE4g {
+    @include boxify($high, $low, 3px);
+    border: 1px solid $low;
+
+    &[style="background-color:"] {
+        background: $low;
+    }
+}
