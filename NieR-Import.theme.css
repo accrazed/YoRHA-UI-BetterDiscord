@@ -553,13 +553,13 @@ path[d="M14 8C14 7.44772 13.5523 7 13 7H9.76001L10.3657 3.58738C10.4201 3.28107 
 }
 
 .embedFull-2tM8--,
-.cozy-3raOZG .messageContent-2qWWxC pre {
+.messageContent-2qWWxC pre {
   background: var(--color-high);
   border-radius: 0;
   box-shadow: 4px 4px 0 var(--color-mid);
 }
 .embedFull-2tM8-- code,
-.cozy-3raOZG .messageContent-2qWWxC pre code {
+.messageContent-2qWWxC pre code {
   border-radius: 0;
   margin-left: 13px;
   margin-bottom: 4px;
