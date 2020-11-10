@@ -1,12 +1,21 @@
 // Transparencies
 .unread-3zKkbm,
+.panels-j1Uci_,
 .wrapper-1ucjTd:hover .content-3at_AU,
 .modeSelected-1zApJ_ .content-3at_AU,
 .modeSelected-1zApJ_:hover .content-3at_AU,
 .container-PNkimc {
     background: transparent;
 }
-
+// Unread messages notification
+.unread-1xRYoj {
+    color: $high;
+    @include boxify($alert, $mid, 3px);
+}
+// User info
+.button-14-BFJ {
+    @include buttonify(transparent, $low, $low, $high);
+}
 // Channel hover/select animations
 .wrapper-1ucjTd {
     height: 32px;

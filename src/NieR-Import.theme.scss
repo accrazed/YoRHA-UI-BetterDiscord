@@ -1,0 +1,10 @@
+ $high: var(--color-high);
+ $low: var(--color-low);
+ $mid: var(--color-mid);
+ $alert: var(--color-alert);
+ $high-trans: var(--color-high-trans);
+ $low-trans: var(--color-low-trans);
+ $alert-trans: var(--color-alert-trans);
+ $font: var(--nier-font);
+ 
+ @import "base"; // Main file

@@ -3,6 +3,9 @@
 .chat-3bRxxu {
     background: transparent;
 }
+.mentioned-xhSam7:before {
+    width: 0;
+}
 .divider-JfaTT5 {
     border: none;
 }
@@ -13,7 +16,6 @@
     border-radius: 0;
     width: 6px;
 }
-
 // Username label
 .header-23xsNx {
     border-radius: 0;
@@ -23,7 +25,6 @@
     margin-left: 13px;
     box-shadow: 2px 2px 0 $mid, -3px 0 0 $low, -9px 0 0 $high, -21px 0 0 $low, -18px 2px 0 $mid;
 }
-
 // Profile Picture
 .full-motion .avatar-1BDn8e.clickable-1bVtEA {
     @include boxify($high, $mid, 3px);
@@ -37,8 +38,8 @@
 .username-1A8OIy.clickable-1bVtEA {
     color: $low !important;
 }
-
 // Date stamp
+.isUnread-3Ef-o9 .content-1o0f9g,
 .unreadPill-2HyYtt,
 .content-1o0f9g {
     border-radius: 0;
@@ -49,7 +50,6 @@
     color: $alert;
     fill: $alert;
 }
-
 // Quotes
 .blockquoteContainer-U5TVEi .blockquoteDivider-2hH8H6 {
     border-radius: 0;
@@ -61,9 +61,7 @@
     margin: auto;
     width: 403px !important;
     height: 353px !important;
-    
 }
-
 // Mentions
 .theme-dark .mentioned-xhSam7 .mention.interactive:hover {
     color: $high;
@@ -76,4 +74,19 @@
         color: $alert;
         background: $high;
     }
+}
+// Edit Message
+.scrollableContainer-2NUZem {
+    @include boxify($high, $mid, 3px);
+}
+.theme-dark .operations-36ENbA {
+    color: $low;
+    & > a {
+        color: $alert;
+    }
+}
+.codeBlockSyntax-2i-tMA,
+.syntaxAfter-hcA4AH,
+.syntaxBefore-1YQ9lW {
+    color: $alert;
 }

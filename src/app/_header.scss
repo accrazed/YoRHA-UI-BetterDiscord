@@ -17,9 +17,25 @@
     padding-right: 3px;
     margin: 0;
 }
-
 // AKA badge
 .akaBadge-1M-1Gw {
     background: $alert;
     color: $high;
+}
+// Channel icon
+.title-3qD0b- .children-19S4PO {
+    .iconWrapper-2OrFZ1 {
+        margin: 0 5px;
+    }
+    .icon-22AiRD {
+        margin: 6px 0px;
+        width: 16px;
+        height: 16px;
+        color: $high;
+        background: $low;
+    }
+    path:first-child {
+    background-color: $low;
+    fill: $low;
+    }
 }

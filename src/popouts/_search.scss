@@ -1,0 +1,98 @@
+// Transparencies
+.searchResult-9tQ1uo:before,
+.searchResult-9tQ1uo:after,
+.channelName-1JRO3C,
+.searchResultsWrap-3-pOjs,
+.theme-dark .option-96V44q:after {
+    background: transparent;
+}
+.searchHeader-2XoQg7,
+.searchResultMessage-1fxgXh.hit-1fVM9e {
+    box-shadow: none;
+}
+// Search Box
+.searchBar-3dMhjb {
+    border-radius: 0;
+    background: $high-trans;
+}
+// Search options popout
+.theme-dark {
+    // In-text labels
+    .searchAnswer-3Dz2-q,
+    .searchFilter-2ESiM3 {
+        color: $high;
+        background-color: $low;
+    }
+    .elevationBorderHigh-2WYJ09,
+    .container-3ayLPN {
+        @include boxify($high, $mid, 4px);
+    }
+    .queryContainer-RKFJW- {
+        color: $low;
+        strong {
+            color: $low;
+        }
+        &.focused-2bY0OD {
+            color: $high;
+            background-color: $low;
+            strong {
+                color: $high;
+            }
+        }
+        border: none;
+    }
+    .resultsGroup-r_nuzN {
+        .header-2N-gMV,
+        .searchClearHistory-2cSSMO,
+        .searchLearnMore-3SQUAj a {
+            color: $low;
+        }
+        .plusIcon-v0BTrL {
+            color: $high;
+        }
+        &::before {
+            border: none;
+        }
+    }
+    .option-96V44q {
+        margin: 0;
+
+        &.user-O3Czj0 .displayUsername-Qekxml,
+        &.user-O3Czj0 .displayedNick-3xxvzU,
+        .searchResultChannelCategory-1l0lSn,
+        .searchResultChannelIcon-1DnTme,
+        strong,
+        .nonText-3CRkO0,
+        .filter-3Y_im-,
+        .answer-1n6g43 {
+            color: $low;
+        }
+
+        &.selected-rZcOL- {
+            background: $low;
+            border-radius: 0;
+            
+            &::after {
+                background: transparent;
+            }
+            &.user-O3Czj0 .displayUsername-Qekxml,
+            &.user-O3Czj0 .displayedNick-3xxvzU,
+            strong,
+            .nonText-3CRkO0,
+            .filter-3Y_im-,
+            .answer-1n6g43 {
+                color: $high;
+            }
+            .searchResultChannelCategory-1l0lSn,
+            .searchResultChannelIcon-1DnTme {
+                color: $high;
+            }
+        }
+    }
+}
+// Search results
+.searchResult-9tQ1uo.expanded-w_LCGl,
+.searchResultMessage-1fxgXh.hit-1fVM9e {
+    border: 1px solid $low;
+    border-radius: 0;
+}

@@ -43,6 +43,7 @@
 .lookFilled-1Gx00P.colorBrand-3pXr91 {
     @include buttonify($low, $high, $mid, $high);
 }
+.jumpButton-JkYoYK,
 .lookFilled-1Gx00P.colorGreen-29iAKY,
 .lookFilled-1Gx00P.colorRed-1TFJan,
 .lookOutlined-3sRXeN.colorRed-1TFJan {
@@ -62,6 +63,15 @@
     path {
         fill: $low;
     }
+}
+.bd-switch {
+    background-color: $mid;
+    &::after {
+        background-color: $high;
+    }
+}
+.bd-switch-checked {
+    background-color: $low;
 }
 // Checkbox
 .cardPrimaryEditable-3KtE4g {

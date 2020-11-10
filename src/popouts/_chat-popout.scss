@@ -1,3 +1,11 @@
+// Transparencies
+.wrapper-2Gsate {
+    background: transparent;
+}
+.header-ykumBX,
+.header-8ilj5e {
+    box-shadow: none;
+}
 .popoutContainer-1MXdqN // Clicking an emote
 {
     @include boxify($high, $mid, 3px);
@@ -22,4 +30,13 @@
 .theme-dark .header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa {
     background-color: $alert;
     color: $high;
+}
+// Pick emoji
+.emojiPicker-3PwZFl {
+    border: 1px solid $low;
+    @include boxify($high, $mid, 4px);
+}
+.emojiItem-14v6tW.emojiItemSelected-1aLkfV {
+    background: $low;
+    border-radius: 0;
 }

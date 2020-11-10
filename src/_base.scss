@@ -14,8 +14,8 @@
     color: $base-text;
 
     &:hover, &:active {
-        background-color: $hover-bg;
-        color: $hover-text;
+        background-color: $hover-bg !important;
+        color: $hover-text !important;
     }
 }
 
@@ -41,14 +41,15 @@
 }
 
 @import "root_config";
-@import "chat/import";
-@import "popouts/import";
-@import "font/font";
-@import "overlay/overlay";
 @import "app/import";
 @import "channels/import";
-@import "home/import";
-@import "voice-video/import";
+@import "chat/import";
+@import "font/font";
 @import "guilds/import";
-@import "prompts/prompts";
+@import "home/import";
 @import "members/members";
+@import "overlay/overlay";
+@import "popouts/import";
+@import "prompts/prompts";
+@import "settings/settings";
+@import "voice-video/import";
