@@ -1,0 +1,84 @@
+// Transparencies
+.gradientContainer-10lXLB,
+.wrapper-2qzCYF {
+    background-image: none;
+    background-color: transparent;
+}
+.tile-2naSqK {
+    @include boxify($high, $low-trans, 5px);
+}
+.container-1giJp5 {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+// Voice and Video
+.colorable-1bkp8v {
+    &.white-3GPOIp {
+        background: $high;
+        color: $low;
+
+        &:hover {
+            background: $mid;
+        }
+        .centerIcon-2G6o-T {
+            color: $low;
+        }
+    }
+    &.primaryDark-3mSFDl {
+        background: $low;
+        color: $high;
+
+        &:hover {
+            background: $mid;
+        }
+        .centerIcon-2G6o-T {
+            color: $high;
+        }
+    }
+    &.red-33-Lnk,
+    &.red-33-Lnk:hover {
+        background: $alert;
+
+        .centerIcon-2G6o-T {
+            color: $high;
+        }
+    }
+}
+.icon-22AiRD:hover,
+.controlIcon-35oS15:hover {
+    color: $high;
+}
+.playingText-3KIkt6,
+.controlIcon-35oS15,
+.icon-22AiRD,
+.name-3YKhmS,
+.title-29uC1r {
+    color: $low;
+}
+.overlayTitle-8IcS01 {
+    border-radius: 0;
+    background: $low-trans;
+    color: $high;
+}
+.border-3dQmSY.speaking-WDn8Wm,
+.avatarSpeaking-3MqCHL {
+    box-shadow: inset 0 0 0 2px $alert;
+}
+.slash-33-IMF,
+.colorDefault-2K3EoJ .checkbox-3s5GYZ,
+.colorDefault-2K3EoJ .radioSelection-1HmrQS {
+    color: $alert;
+}
+.liveLarge-3zs2Zq {
+    border-radius: 0;
+    background: $alert !important;
+    color: $high;
+}
+// Context hover
+.theme-dark .tooltipGrey-1hnvTt {
+    color: $low;
+    @include boxify($high, $mid, 3px);
+    .tooltipPointer-3ZfirK {
+        border: none;
+    }
+}

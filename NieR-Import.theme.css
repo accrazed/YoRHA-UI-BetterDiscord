@@ -1217,6 +1217,7 @@ strong {
 }
 
 .layer-3QrUeG,
+.scroller-305q3I,
 .contentRegion-3nDuYy,
 .sidebarRegionScroller-3MXcoP,
 .contentRegionScroller-26nc1e,
@@ -1240,6 +1241,10 @@ strong {
 }
 .theme-dark .closeButton-1tv5uR path {
   fill: var(--color-low);
+}
+
+.draggable-1EOU8o {
+  padding: 1px 0;
 }
 
 .side-8zPYf6 .item-PXvHYJ {
@@ -1321,7 +1326,92 @@ strong {
   fill: var(--color-alert) !important;
 }
 
+.gradientContainer-10lXLB,
+.wrapper-2qzCYF {
+  background-image: none;
+  background-color: transparent;
+}
+
+.tile-2naSqK {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 5px 5px 0 var(--color-low-trans);
+}
+
 .container-1giJp5 {
   border-bottom: none;
   padding-bottom: 0;
+}
+
+.colorable-1bkp8v.white-3GPOIp {
+  background: var(--color-high);
+  color: var(--color-low);
+}
+.colorable-1bkp8v.white-3GPOIp:hover {
+  background: var(--color-mid);
+}
+.colorable-1bkp8v.white-3GPOIp .centerIcon-2G6o-T {
+  color: var(--color-low);
+}
+.colorable-1bkp8v.primaryDark-3mSFDl {
+  background: var(--color-low);
+  color: var(--color-high);
+}
+.colorable-1bkp8v.primaryDark-3mSFDl:hover {
+  background: var(--color-mid);
+}
+.colorable-1bkp8v.primaryDark-3mSFDl .centerIcon-2G6o-T {
+  color: var(--color-high);
+}
+.colorable-1bkp8v.red-33-Lnk, .colorable-1bkp8v.red-33-Lnk:hover {
+  background: var(--color-alert);
+}
+.colorable-1bkp8v.red-33-Lnk .centerIcon-2G6o-T, .colorable-1bkp8v.red-33-Lnk:hover .centerIcon-2G6o-T {
+  color: var(--color-high);
+}
+
+.icon-22AiRD:hover,
+.controlIcon-35oS15:hover {
+  color: var(--color-high);
+}
+
+.playingText-3KIkt6,
+.controlIcon-35oS15,
+.icon-22AiRD,
+.name-3YKhmS,
+.title-29uC1r {
+  color: var(--color-low);
+}
+
+.overlayTitle-8IcS01 {
+  border-radius: 0;
+  background: var(--color-low-trans);
+  color: var(--color-high);
+}
+
+.border-3dQmSY.speaking-WDn8Wm,
+.avatarSpeaking-3MqCHL {
+  box-shadow: inset 0 0 0 2px var(--color-alert);
+}
+
+.slash-33-IMF,
+.colorDefault-2K3EoJ .checkbox-3s5GYZ,
+.colorDefault-2K3EoJ .radioSelection-1HmrQS {
+  color: var(--color-alert);
+}
+
+.liveLarge-3zs2Zq {
+  border-radius: 0;
+  background: var(--color-alert) !important;
+  color: var(--color-high);
+}
+
+.theme-dark .tooltipGrey-1hnvTt {
+  color: var(--color-low);
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+.theme-dark .tooltipGrey-1hnvTt .tooltipPointer-3ZfirK {
+  border: none;
 }
