@@ -1159,6 +1159,7 @@ strong {
   opacity: 0.4 !important;
 }
 
+.theme-dark .footer-3mqk7D,
 .theme-dark .footer-2gL1pp {
   background-color: transparent;
   box-shadow: none;
@@ -1176,6 +1177,24 @@ strong {
 
 .header-3C6qT5 {
   padding-top: 0;
+}
+
+.theme-dark .uploadModal-2ifh8j {
+  background: var(--color-mid);
+  border-radius: 0;
+  box-shadow: 3px 3px 0 var(--color-low);
+}
+
+.theme-dark .checkbox-1ix_J3 {
+  border: 2px solid var(--color-high);
+  border-radius: 0;
+}
+.theme-dark .checkbox-1ix_J3.checked-3_4uQ9 {
+  border: 2px solid var(--color-low) !important;
+  background-color: var(--color-high);
+}
+.theme-dark .checkbox-1ix_J3.checked-3_4uQ9 path {
+  fill: var(--color-low) !important;
 }
 
 .theme-dark.authBox-hW6HRx {

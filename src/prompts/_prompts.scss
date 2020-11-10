@@ -4,6 +4,7 @@
     opacity: 0.4 !important;
 }
 // Transparencies
+.theme-dark .footer-3mqk7D,
 .theme-dark .footer-2gL1pp {
     background-color: transparent;
     box-shadow: none;
@@ -17,6 +18,23 @@
 }
 .header-3C6qT5 {
     padding-top: 0;
+}
+// Upload Image
+.theme-dark .uploadModal-2ifh8j {
+    @include boxify($mid, $low, 3px);
+}
+.theme-dark .checkbox-1ix_J3 {
+    border: 2px solid $high;
+    border-radius: 0;
+
+    &.checked-3_4uQ9 {
+        border: 2px solid $low !important;
+        background-color: $high;
+
+        path {
+            fill: $low !important;
+        }
+    }
 }
 // Login screen
 .theme-dark.authBox-hW6HRx {
