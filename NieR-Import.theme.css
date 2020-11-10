@@ -1465,6 +1465,12 @@ strong {
   color: var(--color-alert);
 }
 
+.theme-dark .modal-yWgWj- {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 4px 4px 0 var(--color-mid);
+}
+
 .layer-3QrUeG,
 .scroller-305q3I,
 .contentRegion-3nDuYy,

@@ -89,3 +89,7 @@
         color: $alert;
     }
 }
+// Notification settings
+.theme-dark .modal-yWgWj- {
+    @include boxify($high, $mid, 4px);
+}
