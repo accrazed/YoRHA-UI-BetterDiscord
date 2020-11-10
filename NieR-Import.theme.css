@@ -417,7 +417,7 @@ path[d="M14 8C14 7.44772 13.5523 7 13 7H9.76001L10.3657 3.58738C10.4201 3.28107 
 }
 
 .divider-JfaTT5 {
-  border: none;
+  border-color: var(--color-alert);
 }
 
 .auto-Ge5KZx::-webkit-scrollbar,
@@ -898,7 +898,7 @@ strong {
 
 .full-motion .wrapper-2aW0bm:hover,
 .wrapper-2aW0bm {
-  background: var(--color-high);
+  background: var(--color-low);
   border-radius: 0;
   box-shadow: 3px 3px 0 var(--color-mid);
 }
@@ -906,14 +906,14 @@ strong {
 .wrapper-2aW0bm .button-1ZiXG9 {
   border-radius: 0;
   border-color: transparent;
-  background-color: var(--color-high);
-  color: var(--color-low);
+  background-color: var(--color-low);
+  color: var(--color-high);
 }
 .full-motion .wrapper-2aW0bm:hover .button-1ZiXG9:hover, .full-motion .wrapper-2aW0bm:hover .button-1ZiXG9:active,
 .wrapper-2aW0bm .button-1ZiXG9:hover,
 .wrapper-2aW0bm .button-1ZiXG9:active {
-  background-color: var(--color-low) !important;
-  color: var(--color-high) !important;
+  background-color: var(--color-high) !important;
+  color: var(--color-low) !important;
 }
 
 .messagesPopoutWrap-1MQ1bW {
