@@ -1,0 +1,27 @@
+// Overlay Visualizer
+.wrapper-3jrx9n {
+    background-color: $high;
+    border-radius: 0;
+    border-color: $alert;
+}
+.option-n0icdO {
+    @include boxify($low, $mid, 2px);
+    &:hover {
+        box-shadow: 2px 2px 0 $mid;
+        background: $low;
+    }
+    &.selected-mKYnfr {
+        background: $alert;
+    }
+}
+.wrapper-3jrx9n.disabledSelected-2Kf0yZ {
+    border-color: $alert;
+}
+.disabled-3I9jyo {
+    color: $mid;
+
+    &.selected-mKYnfr,
+    &:hover {
+        color: $alert;
+    }
+}

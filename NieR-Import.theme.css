@@ -115,9 +115,11 @@
 
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6,
 .lookInverted-2D7oAl.colorBrand-3pXr91,
+.lookOutlined-3sRXeN.colorBrand-3pXr91,
 .lookFilled-1Gx00P.colorPrimary-3b3xI6,
 .lookFilled-1Gx00P.colorGrey-2DXtkV,
-.lookFilled-1Gx00P.colorBrand-3pXr91 {
+.lookFilled-1Gx00P.colorBrand-3pXr91,
+.lookFilled-1Gx00P.colorBrand-3pXr91:disabled {
   border-radius: 0;
   border-color: transparent;
   background-color: var(--color-low);
@@ -126,12 +128,16 @@
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover, .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:active,
 .lookInverted-2D7oAl.colorBrand-3pXr91:hover,
 .lookInverted-2D7oAl.colorBrand-3pXr91:active,
+.lookOutlined-3sRXeN.colorBrand-3pXr91:hover,
+.lookOutlined-3sRXeN.colorBrand-3pXr91:active,
 .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover,
 .lookFilled-1Gx00P.colorPrimary-3b3xI6:active,
 .lookFilled-1Gx00P.colorGrey-2DXtkV:hover,
 .lookFilled-1Gx00P.colorGrey-2DXtkV:active,
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover,
-.lookFilled-1Gx00P.colorBrand-3pXr91:active {
+.lookFilled-1Gx00P.colorBrand-3pXr91:active,
+.lookFilled-1Gx00P.colorBrand-3pXr91:disabled:hover,
+.lookFilled-1Gx00P.colorBrand-3pXr91:disabled:active {
   background-color: var(--color-mid) !important;
   color: var(--color-high) !important;
 }
@@ -189,6 +195,46 @@
 }
 .cardPrimaryEditable-3KtE4g[style="background-color:"] {
   background: var(--color-low);
+}
+
+[style*="border-color: rgb(114, 137, 218);"] {
+  border-color: var(--color-low) !important;
+}
+
+[style*="background-color: rgb(114, 137, 218);"] {
+  background-color: var(--color-alert) !important;
+}
+
+.css-1kj8ui-container div {
+  border-radius: 0;
+}
+.css-1kj8ui-container .css-6fzn47-control {
+  border: 2px solid var(--color-alert);
+  background-color: var(--color-high);
+}
+.css-1kj8ui-container .css-17e1tep-control,
+.css-1kj8ui-container .css-gvi9bl-control {
+  border: 2px solid var(--color-low);
+  background-color: var(--color-high);
+}
+.css-1kj8ui-container .css-o3gndj-placeholder,
+.css-1kj8ui-container .css-1yz4bi9-option,
+.css-1kj8ui-container .css-ku6vh5-indicatorContainer,
+.css-1kj8ui-container .css-4h5swf-singleValue {
+  color: var(--color-low);
+}
+.css-1kj8ui-container .css-3vaxre-menu {
+  border: 2px solid var(--color-low);
+  background-color: var(--color-high);
+  box-shadow: none;
+}
+.css-1kj8ui-container .css-rzbxvl-option {
+  background-color: var(--color-low);
+  color: var(--color-high);
+}
+.css-1kj8ui-container .css-1ba14n5-option {
+  background-color: var(--color-alert);
+  color: var(--color-high);
 }
 
 .barFill-23-gu- {
@@ -293,6 +339,22 @@ foreignObject[mask="url(#svg-mask-status-dnd)"] .status-1AY8sU {
   color: var(--color-alert);
 }
 
+.theme-dark .overlayToggleIconOn-3UNmty .fill-1ugeBG,
+.overlayToggleIconOff-1kT42w .fill-1ugeBG,
+[fill*="#F04747"],
+[fill*="#7289da"] {
+  fill: var(--color-alert) !important;
+}
+
+[fill*="#ffffff"] {
+  fill: var(--color-high);
+}
+
+.theme-dark .avatarUploaderIndicator-2G-aIZ {
+  background-color: var(--color-mid);
+  border: 2px solid var(--color-low);
+}
+
 .theme-dark .actionButton-VzECiy {
   color: var(--color-low);
 }
@@ -325,12 +387,15 @@ input {
 a,
 button,
 .folder-21wGz3,
+.item-3eFBNF,
 .css-gvi9bl-control,
 .css-rzbxvl-option,
 .css-1ba14n5-option,
 .css-ku6vh5-indicatorContainer,
 .avatar-1BDn8e,
 .fileInput-23-d-3,
+.container-3auIfb,
+.input-rwLH4i,
 .profileBadge-2niAfJ,
 .item-1tOPte,
 .container-3baos1 .avatar-SmRMf2,
@@ -356,6 +421,8 @@ label,
 }
 
 .disabled,
+.disabled-BrLY9Y,
+.disabled-2HSEFa,
 .modeLocked-SZJhTy,
 .modeLocked-SZJhTy .mainContent-ENyL1r {
   cursor: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Unavailable_v2.cur"), default !important;
@@ -1070,11 +1137,13 @@ strong {
   box-shadow: none;
 }
 
+.theme-dark .addGamePopout-2RY8Ju .cancelButton-10XRsm,
 .theme-dark .empty-3hoe1g .noResultsHeader-pqW4H-,
 .theme-dark .empty-3hoe1g p,
 .theme-dark .container-VSDcQc .input-1ppKdn {
   color: var(--color-low);
 }
+.theme-dark .addGamePopout-2RY8Ju .cancelButton-10XRsm::placeholder,
 .theme-dark .empty-3hoe1g .noResultsHeader-pqW4H-::placeholder,
 .theme-dark .empty-3hoe1g p::placeholder,
 .theme-dark .container-VSDcQc .input-1ppKdn::placeholder {
@@ -1318,17 +1387,52 @@ strong {
   border: 1px solid var(--color-low);
 }
 
+.bd-modal-wrapper .bd-modal-inner {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 5px 5px 0 var(--color-mid);
+  border: none;
+}
+.bd-modal-wrapper .header {
+  color: var(--color-high);
+  background-color: var(--color-low);
+}
+.bd-modal-wrapper .footer-2gL1pp,
+.bd-modal-wrapper .bd-modal-body {
+  color: var(--color-low);
+  background-color: transparent;
+}
+.bd-modal-wrapper .tab-bar-container {
+  background-color: transparent;
+  box-shadow: none;
+}
+.bd-modal-wrapper .tab-bar-container .tab-bar-item {
+  color: var(--color-low);
+}
+.bd-modal-wrapper .tab-bar-container .tab-bar-item.selected {
+  border-color: var(--color-low);
+}
+.bd-modal-wrapper .error,
+.bd-modal-wrapper .table-header {
+  color: var(--color-low);
+  border-color: var(--color-low);
+}
+.bd-modal-wrapper .error-link {
+  color: var(--color-alert);
+}
+
 .layer-3QrUeG,
 .scroller-305q3I,
 .contentRegion-3nDuYy,
 .sidebarRegionScroller-3MXcoP,
+.side-8zPYf6 .separator-gCa7yv,
 .contentRegionScroller-26nc1e,
 .standardSidebarView-3F1I7i {
   background-color: transparent;
 }
 
-.side-8zPYf6 .separator-gCa7yv {
-  background-color: transparent;
+.theme-dark .item-3eFBNF {
+  box-shadow: none;
 }
 
 .theme-dark .markValue-2DwdXI,
@@ -1344,6 +1448,270 @@ strong {
 }
 .theme-dark .closeButton-1tv5uR path {
   fill: var(--color-low);
+}
+
+.card-3Qj_Yx {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 4px 4px 0 var(--color-mid);
+}
+
+.bd-button {
+  border-radius: 0;
+  border-color: transparent;
+  background-color: var(--color-low);
+  color: var(--color-high);
+}
+.bd-button:hover, .bd-button:active {
+  background-color: var(--color-mid) !important;
+  color: var(--color-high) !important;
+}
+.bd-button.bd-button-danger {
+  background-color: var(--color-alert);
+}
+
+.bd-addon-views .bd-view-button.selected {
+  background-color: var(--color-alert);
+}
+
+.bd-addon-list .bd-addon-card {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 4px 4px 0 var(--color-mid);
+}
+
+.bd-addon-header svg {
+  fill: var(--color-low);
+}
+
+.socialLinks-3jqNFy svg path {
+  fill: var(--color-low) !important;
+}
+.socialLinks-3jqNFy svg:hover path {
+  fill: var(--color-alert) !important;
+}
+
+.theme-dark .payment-xT17Mq,
+.theme-dark .paginator-166-09 {
+  background: transparent;
+}
+.theme-dark .divider-3WKGWk,
+.theme-dark .paymentHeader-3QlZQi,
+.theme-dark .bottomDivider-1K9Gao {
+  border: none;
+}
+.theme-dark .pageIndicator-1gAbyA,
+.theme-dark .activeBreadcrumb-p6aw-F,
+.theme-dark .breadcrumbWrapper-WmDjgG,
+.theme-dark .giftIcon-3DRGI6,
+.theme-dark .summaryInfo-2QFKUg,
+.theme-dark .sectionHeader-1068cF,
+.theme-dark .descriptionWrapper-1YBY_J,
+.theme-dark .description-HxwDO4 {
+  color: var(--color-low);
+}
+.theme-dark .pageIndicator-1gAbyA {
+  border-bottom: 2px solid var(--color-low);
+  border-top: 2px solid var(--color-low);
+}
+.theme-dark .pageButtonNext-V2kUq0,
+.theme-dark .pageButtonPrev-1Y-47D {
+  border-radius: 0;
+  border: 2px solid var(--color-low);
+  border-color: var(--color-low);
+}
+.theme-dark .defaultIndicator-G3c16x {
+  background-color: var(--color-alert);
+  border-radius: 0;
+  color: var(--color-high);
+}
+.theme-dark .paymentPane-3bwJ6A {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 4px 4px 0 var(--color-mid);
+  color: var(--color-low);
+}
+.theme-dark .expandedInfo-3kfShd {
+  background: var(--color-low);
+  border-radius: 0;
+  box-shadow: 4px 4px 0 var(--color-mid);
+}
+.theme-dark .expandedInfo-3kfShd .paymentText-2vaF7U,
+.theme-dark .expandedInfo-3kfShd .paymentHeader-3QlZQi {
+  color: var(--color-high);
+}
+.theme-dark .paymentHeader-3QlZQi {
+  margin-top: 0;
+  padding-top: 10px;
+}
+.theme-dark .hoverablePayment-Yc6mK7 .giftIcon-3DRGI6,
+.theme-dark .hoverablePayment-Yc6mK7 .summaryInfo-2QFKUg {
+  color: var(--color-low);
+}
+.theme-dark .hoverablePayment-Yc6mK7:hover {
+  background-color: var(--color-low);
+}
+.theme-dark .hoverablePayment-Yc6mK7:hover .giftIcon-3DRGI6,
+.theme-dark .hoverablePayment-Yc6mK7:hover .summaryInfo-2QFKUg {
+  color: var(--color-high);
+}
+
+.theme-dark .content-s2SEQO ol,
+.theme-dark .content-s2SEQO p,
+.theme-dark .content-s2SEQO ul li {
+  color: var(--color-low);
+}
+.theme-dark .date-1k6kG2 {
+  color: var(--color-mid);
+}
+.theme-dark .socialLink-3n2n25 {
+  color: var(--color-low);
+}
+
+.accountList-33MS45,
+.connection-1fbD7X {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 4px 4px 0 var(--color-mid);
+}
+
+.theme-dark .inner-2Y6JuD:hover {
+  background-color: var(--color-low);
+  border-radius: 0;
+}
+
+.theme-dark .nowPlaying-284llR,
+.theme-dark .notDetected-33MY4s {
+  background: var(--color-low);
+  border-radius: 0;
+  box-shadow: 4px 4px 0 var(--color-mid);
+}
+.theme-dark .nowPlaying-284llR .overlayStatusText-L2IACa,
+.theme-dark .nowPlaying-284llR .gameName-1RiWHm,
+.theme-dark .nowPlaying-284llR .lastPlayed-3bQ7Bo,
+.theme-dark .notDetected-33MY4s .overlayStatusText-L2IACa,
+.theme-dark .notDetected-33MY4s .gameName-1RiWHm,
+.theme-dark .notDetected-33MY4s .lastPlayed-3bQ7Bo {
+  color: var(--color-high);
+}
+.theme-dark .game-1ipmAa {
+  box-shadow: none;
+}
+.theme-dark .css-hsd1lu-singleValue,
+.theme-dark .nowPlayingAdd-1Kdmh_,
+.theme-dark .gameName-1RiWHm,
+.theme-dark .lastPlayed-3bQ7Bo {
+  color: var(--color-low);
+}
+.theme-dark .card-FDVird:before {
+  background: transparent;
+  border: none;
+}
+.theme-dark .card-FDVird:hover:before {
+  border: none;
+  background: var(--color-low);
+  border-radius: 0;
+  box-shadow: 4px 4px 0 var(--color-mid);
+}
+.theme-dark .card-FDVird:hover .overlayStatusText-L2IACa {
+  color: var(--color-high);
+}
+.theme-dark .card-FDVird:hover .gameNameInput-385LoS:focus,
+.theme-dark .card-FDVird:hover .gameNameInput-385LoS:hover {
+  border-radius: 0;
+  background: var(--color-high);
+  color: var(--color-low);
+}
+.theme-dark .card-FDVird:hover .css-hsd1lu-singleValue,
+.theme-dark .card-FDVird:hover .input-1UhAnY,
+.theme-dark .card-FDVird:hover .description-3_Ncsb,
+.theme-dark .card-FDVird:hover .labelDescriptor-1PqHgD,
+.theme-dark .card-FDVird:hover .h5-18_1nd,
+.theme-dark .card-FDVird:hover .gameName-1RiWHm,
+.theme-dark .card-FDVird:hover .lastPlayed-3bQ7Bo {
+  color: var(--color-high);
+}
+
+.ghostPill-2-KUPM {
+  border-radius: 0;
+  background-color: var(--color-alert);
+  color: var(--color-high);
+}
+
+.item-3eFBNF .checkbox-1ix_J3 {
+  border-color: var(--color-low);
+}
+.item-3eFBNF:hover {
+  background-color: var(--color-low);
+}
+.item-3eFBNF.selected-2DeaDa {
+  background-color: var(--color-alert);
+}
+.item-3eFBNF:hover .checkbox-1ix_J3, .item-3eFBNF.selected-2DeaDa .checkbox-1ix_J3 {
+  border-color: var(--color-high);
+}
+.item-3eFBNF:hover .description-3_Ncsb,
+.item-3eFBNF:hover .labelDescriptor-1PqHgD,
+.item-3eFBNF:hover .labelText-2kBs7x, .item-3eFBNF.selected-2DeaDa .description-3_Ncsb,
+.item-3eFBNF.selected-2DeaDa .labelDescriptor-1PqHgD,
+.item-3eFBNF.selected-2DeaDa .labelText-2kBs7x {
+  color: var(--color-high);
+}
+
+.background-1QDuV2 {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 6px 6px 0 var(--color-mid);
+}
+
+.userSettingsSecurity-3IYeMF .isEnabled-24g9qA,
+.theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6 {
+  color: var(--color-low);
+}
+
+.wrapper-3jrx9n {
+  background-color: var(--color-high);
+  border-radius: 0;
+  border-color: var(--color-alert);
+}
+
+.option-n0icdO {
+  background: var(--color-low);
+  border-radius: 0;
+  box-shadow: 2px 2px 0 var(--color-mid);
+}
+.option-n0icdO:hover {
+  box-shadow: 2px 2px 0 var(--color-mid);
+  background: var(--color-low);
+}
+.option-n0icdO.selected-mKYnfr {
+  background: var(--color-alert);
+}
+
+.wrapper-3jrx9n.disabledSelected-2Kf0yZ {
+  border-color: var(--color-alert);
+}
+
+.disabled-3I9jyo {
+  color: var(--color-mid);
+}
+.disabled-3I9jyo.selected-mKYnfr, .disabled-3I9jyo:hover {
+  color: var(--color-alert);
+}
+
+.cardPrimary-1Hv-to {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 4px 4px 0 var(--color-mid);
+}
+
+.css-118dehu-control,
+.container-1nZlH6,
+.lookGhost-2Fn_0-.colorGrey-2DXtkV {
+  color: var(--color-high);
+  border-radius: 0;
+  border: 1px solid var(--color-mid);
+  background-color: transparent;
 }
 
 .draggable-1EOU8o {
@@ -1383,58 +1751,12 @@ strong {
   color: var(--color-alert) !important;
 }
 
-.background-1QDuV2 {
-  background: var(--color-high);
-  border-radius: 0;
-  box-shadow: 6px 6px 0 var(--color-mid);
-}
-
-.userSettingsSecurity-3IYeMF .isEnabled-24g9qA,
-.theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6 {
-  color: var(--color-low);
-}
-
 .theme-dark .passthroughSelected-1Eq0Kl {
   background: var(--color-low);
 }
 .theme-dark .item-3T2z1R {
   border: 1px solid var(--color-low);
   border-radius: 0;
-}
-
-.bd-button {
-  border-radius: 0;
-  border-color: transparent;
-  background-color: var(--color-low);
-  color: var(--color-high);
-}
-.bd-button:hover, .bd-button:active {
-  background-color: var(--color-mid) !important;
-  color: var(--color-high) !important;
-}
-.bd-button.bd-button-danger {
-  background-color: var(--color-alert);
-}
-
-.bd-addon-views .bd-view-button.selected {
-  background-color: var(--color-alert);
-}
-
-.bd-addon-list .bd-addon-card {
-  background: var(--color-high);
-  border-radius: 0;
-  box-shadow: 4px 4px 0 var(--color-mid);
-}
-
-.bd-addon-header svg {
-  fill: var(--color-low);
-}
-
-.socialLinks-3jqNFy svg path {
-  fill: var(--color-low) !important;
-}
-.socialLinks-3jqNFy svg:hover path {
-  fill: var(--color-alert) !important;
 }
 
 .gradientContainer-10lXLB,

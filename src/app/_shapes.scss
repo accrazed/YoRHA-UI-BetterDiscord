@@ -38,6 +38,22 @@ foreignObject[mask="url(#svg-mask-status-dnd)"] .status-1AY8sU {
 .strikethrough-1n4ekb {
     color: $alert;
 }
+// Alert Fills / Blurple
+.theme-dark .overlayToggleIconOn-3UNmty .fill-1ugeBG,
+.overlayToggleIconOff-1kT42w .fill-1ugeBG,
+[fill*="#F04747"],
+[fill*="#7289da"] {
+    fill: $alert !important;
+}
+// Light fills
+[fill*="#ffffff"] {
+    fill: $high;
+}
+// Avatar upload
+.theme-dark .avatarUploaderIndicator-2G-aIZ {
+    background-color: $mid;
+    border: 2px solid $low;
+}
 // Plus sign
 .theme-dark .actionButton-VzECiy {
     color: $low;

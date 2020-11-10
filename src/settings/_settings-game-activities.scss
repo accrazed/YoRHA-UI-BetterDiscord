@@ -1,0 +1,50 @@
+// Game Activity / Keybinds card
+.theme-dark {
+    .nowPlaying-284llR,
+    .notDetected-33MY4s {
+        @include boxify($low, $mid, 4px);
+
+        .overlayStatusText-L2IACa,
+        .gameName-1RiWHm,
+        .lastPlayed-3bQ7Bo {
+            color: $high;
+        }
+    }
+    .game-1ipmAa {
+        box-shadow: none;
+    }
+    .css-hsd1lu-singleValue,
+    .nowPlayingAdd-1Kdmh_,
+    .gameName-1RiWHm,
+    .lastPlayed-3bQ7Bo {
+        color: $low;
+    }
+    .card-FDVird:before {
+        background: transparent;
+        border: none;
+    }
+    .card-FDVird:hover {
+        &:before {
+            border: none;
+            @include boxify($low, $mid, 4px);
+        }
+        .overlayStatusText-L2IACa {
+            color: $high;
+        }
+        .gameNameInput-385LoS:focus,
+        .gameNameInput-385LoS:hover {
+            border-radius: 0;
+            background: $high;
+            color: $low;
+        }
+        .css-hsd1lu-singleValue,
+        .input-1UhAnY,
+        .description-3_Ncsb,
+        .labelDescriptor-1PqHgD,
+        .h5-18_1nd,
+        .gameName-1RiWHm,
+        .lastPlayed-3bQ7Bo {
+            color: $high;
+        }
+    }
+}

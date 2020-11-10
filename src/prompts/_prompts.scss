@@ -54,3 +54,38 @@
         border: 1px solid $low;
     }
 }
+// Addon Errors
+.bd-modal-wrapper {
+    .bd-modal-inner {
+        @include boxify($high, $mid, 5px);
+        border: none;
+    }
+    .header {
+        color: $high;
+        background-color: $low;
+    }
+    .footer-2gL1pp,
+    .bd-modal-body {
+        color: $low;
+        background-color: transparent;
+    }
+    .tab-bar-container {
+        background-color: transparent;
+        box-shadow: none;
+        .tab-bar-item {
+            color: $low;
+
+            &.selected {
+                border-color: $low;
+            }
+        }
+    }
+    .error,
+    .table-header {
+        color: $low;
+        border-color: $low;
+    }
+    .error-link {
+        color: $alert;
+    }
+}

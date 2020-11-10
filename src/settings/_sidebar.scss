@@ -1,0 +1,53 @@
+// Side bar
+.draggable-1EOU8o {
+    padding: 1px 0;
+}
+.side-8zPYf6 .item-PXvHYJ {
+    transition: color 0.2s;
+    border-radius: 0;
+    margin: 2px 0;
+
+    // Animation
+    .themed-OHr7kt.selected-3s45Ha,
+    &:hover.themed-OHr7kt,
+    & {
+        background-color: transparent !important;
+        height: 32px;
+    }
+    &:before {
+        z-index: -1;
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 2px;
+        bottom: 2px;
+        transition: width 0.4s;
+        animation-name: pulsingBackground;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        width: 0%;
+    }
+    // Selected channel
+    &.selected-3s45Ha,
+    &:hover {
+        color: $high;
+        box-shadow: 0 1px $low, 0 -1px $low;
+        &:before {
+            width: 100%;
+        }
+    }
+    &[style="color: rgb(240, 71, 71); background-color: rgba(240, 71, 71, 0.1);"],
+    &[style="color: rgb(240, 71, 71);"] {
+        color: $alert !important;
+    }
+}
+// Role Permissions
+.theme-dark {
+    .passthroughSelected-1Eq0Kl {
+        background: $low;
+    }
+    .item-3T2z1R {
+        border: 1px solid $low;
+        border-radius: 0;
+    }
+}

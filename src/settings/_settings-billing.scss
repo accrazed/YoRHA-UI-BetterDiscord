@@ -1,0 +1,65 @@
+.theme-dark {
+    .payment-xT17Mq,
+    .paginator-166-09 {
+        background: transparent;
+    }
+    .divider-3WKGWk,
+    .paymentHeader-3QlZQi,
+    .bottomDivider-1K9Gao {
+        border: none;
+    }
+    .pageIndicator-1gAbyA,
+    .activeBreadcrumb-p6aw-F,
+    .breadcrumbWrapper-WmDjgG,
+    .giftIcon-3DRGI6,
+    .summaryInfo-2QFKUg,
+    .sectionHeader-1068cF,
+    .descriptionWrapper-1YBY_J,
+    .description-HxwDO4 {
+        color: $low;
+    }
+    .pageIndicator-1gAbyA {
+        border-bottom: 2px solid $low ;
+        border-top: 2px solid $low ;
+    }
+    .pageButtonNext-V2kUq0, 
+    .pageButtonPrev-1Y-47D {
+        border-radius: 0;
+        border: 2px solid $low;
+        border-color: $low;
+    }
+    .defaultIndicator-G3c16x {
+        background-color: $alert;
+        border-radius: 0;
+        color: $high;
+    }
+    .paymentPane-3bwJ6A {
+        @include boxify($high, $mid, 4px);
+        color: $low;
+    }
+    .expandedInfo-3kfShd {
+        @include boxify($low, $mid, 4px);
+        
+        .paymentText-2vaF7U,
+        .paymentHeader-3QlZQi {
+            color: $high;
+        }
+    }
+    .paymentHeader-3QlZQi {
+        margin-top: 0;
+        padding-top: 10px;
+    }
+    .hoverablePayment-Yc6mK7 {
+        .giftIcon-3DRGI6,
+        .summaryInfo-2QFKUg {
+            color: $low;
+        }
+        &:hover {
+            background-color: $low;
+            .giftIcon-3DRGI6,
+            .summaryInfo-2QFKUg {
+                color: $high;
+            }
+        }
+    }
+}

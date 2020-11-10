@@ -1,0 +1,23 @@
+// Language
+.item-3eFBNF {
+    .checkbox-1ix_J3 {
+        border-color: $low;
+    }
+    &:hover {
+        background-color: $low;
+    }
+    &.selected-2DeaDa {
+        background-color: $alert;
+    }
+    &:hover,
+    &.selected-2DeaDa {
+        .checkbox-1ix_J3 {
+            border-color: $high;
+        }
+        .description-3_Ncsb,
+        .labelDescriptor-1PqHgD,
+        .labelText-2kBs7x {
+            color: $high;
+        }
+    }
+}

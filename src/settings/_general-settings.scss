@@ -1,0 +1,30 @@
+// Transparencies
+.layer-3QrUeG,
+.scroller-305q3I,
+.contentRegion-3nDuYy,
+.sidebarRegionScroller-3MXcoP,
+.side-8zPYf6 .separator-gCa7yv,
+.contentRegionScroller-26nc1e,
+.standardSidebarView-3F1I7i {
+    background-color: transparent;
+}
+.theme-dark .item-3eFBNF {
+    box-shadow: none;
+}
+// X button
+.theme-dark {
+    .markValue-2DwdXI,
+    .keybind-KpFkfr {
+        color: $low;
+    }
+    .closeButton-1tv5uR {
+        transition: background-color 0.2s;
+        border-color: $low;
+        &:hover {
+            background-color: $alert-trans;
+        }
+        path {
+            fill: $low;
+        }
+    }
+}

@@ -38,9 +38,11 @@
 // Buttons
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6,
 .lookInverted-2D7oAl.colorBrand-3pXr91,
+.lookOutlined-3sRXeN.colorBrand-3pXr91,
 .lookFilled-1Gx00P.colorPrimary-3b3xI6,
 .lookFilled-1Gx00P.colorGrey-2DXtkV,
-.lookFilled-1Gx00P.colorBrand-3pXr91 {
+.lookFilled-1Gx00P.colorBrand-3pXr91,
+.lookFilled-1Gx00P.colorBrand-3pXr91:disabled {
     @include buttonify($low, $high, $mid, $high);
 }
 .jumpButton-JkYoYK,
@@ -80,6 +82,46 @@
 
     &[style="background-color:"] {
         background: $low;
+    }
+}
+[style*="border-color: rgb(114, 137, 218);"] {
+    border-color: $low !important;
+}
+[style*="background-color: rgb(114, 137, 218);"] {
+    background-color: $alert !important;
+}
+// Drop-down
+.css-1kj8ui-container {
+    div {
+        border-radius: 0;
+    }
+    .css-6fzn47-control  {
+        border: 2px solid $alert;
+        background-color: $high;
+    }
+    .css-17e1tep-control,
+    .css-gvi9bl-control {
+        border: 2px solid $low;
+        background-color: $high;
+    }
+    .css-o3gndj-placeholder,
+    .css-1yz4bi9-option,
+    .css-ku6vh5-indicatorContainer,
+    .css-4h5swf-singleValue {
+        color: $low;
+    }
+    .css-3vaxre-menu {
+        border: 2px solid $low;
+        background-color: $high;
+        box-shadow: none;
+    }
+    .css-rzbxvl-option {
+        background-color: $low;
+        color: $high;
+    }
+    .css-1ba14n5-option {
+        background-color: $alert;
+        color: $high;
     }
 }
 // Pulley bar

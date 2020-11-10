@@ -1,0 +1,13 @@
+// Streamer Mode
+.cardPrimary-1Hv-to {
+    @include boxify($high, $mid, 4px);
+}
+
+.css-118dehu-control,
+.container-1nZlH6,
+.lookGhost-2Fn_0-.colorGrey-2DXtkV {
+    color: $high;
+    border-radius: 0;
+    border: 1px solid $mid;
+    background-color: transparent;
+}
