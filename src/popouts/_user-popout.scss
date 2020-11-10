@@ -29,14 +29,22 @@
         color: $low;
     }
 }
+[style*="border-color: rgb(255, 255, 255);"] {
+    border-color: $alert !important;
+}
+[style*="color: rgb(255, 255, 255);"] {
+    color: $high !important;
+}
+.activityHeader-1PExlk,
+.customStatusText-39gdCI,
 .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O),
 .colorDefault-2K3EoJ.focused-3afm-j,
-.customStatus-1bh2V9,
 .nameNormal-2lqVQK,
 .nameWrap-3Z4G_9,
 .activityName-1IaRLn {
     color: $high;
 }
+.customStatus-1bh2V9,
 .additionalActionsIcon-1FoUlE,
 .discriminator-xUhQkU,
 .username-3gJmXY,

@@ -305,6 +305,61 @@ path[d="M14 8C14 7.44772 13.5523 7 13 7H9.76001L10.3657 3.58738C10.4201 3.28107 
   transform: translateX(-108%) translateY(0%) scale(2);
 }
 
+#app-mount,
+.title-3sZWYQ,
+.modeDefault-3a2Ph1,
+.container-1r6BKw,
+.titleBar-AC4pGV {
+  cursor: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Normal_Select_v2.cur"), default !important;
+}
+
+.timestamp-3ZCmNB.latin24CompactTimeStamp-2V7XIQ,
+.searchBar-3dMhjb,
+.contents-2mQqc9,
+textarea,
+.textAreaSlate-1ZzRVj div div,
+input {
+  cursor: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Text_Select_v2.cur"), default !important;
+}
+
+a,
+button,
+.folder-21wGz3,
+.css-gvi9bl-control,
+.css-rzbxvl-option,
+.css-1ba14n5-option,
+.css-ku6vh5-indicatorContainer,
+.avatar-1BDn8e,
+.fileInput-23-d-3,
+.profileBadge-2niAfJ,
+.item-1tOPte,
+.container-3baos1 .avatar-SmRMf2,
+.wrapper-25eVIn,
+.result-oB0z--,
+.labelClickable-11AuB8,
+.buttonWrapper-1ZmCpA,
+[role=button],
+[role=button] header,
+[type=checkbox],
+label,
+.item-26Dhrx,
+.additionalActionsIcon-1FoUlE,
+.clickable-1JJAn8:hover .layout-2DM8Md,
+.actionIcon-2Hi9ZG,
+.clickable-3Ya1ho,
+.friendsTable-133bsv .friendsRow-2yicud {
+  cursor: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Link_Select_v2.cur"), default !important;
+}
+
+.grabber-3mFHz2 {
+  cursor: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Horizontal_Resize_v2.cur"), default !important;
+}
+
+.disabled,
+.modeLocked-SZJhTy {
+  cursor: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Unavailable_v2.cur"), default !important;
+}
+
 .unread-3zKkbm,
 .panels-j1Uci_,
 .wrapper-1ucjTd:hover .content-3at_AU,
@@ -1057,15 +1112,25 @@ strong {
   color: var(--color-low);
 }
 
+[style*="border-color: rgb(255, 255, 255);"] {
+  border-color: var(--color-alert) !important;
+}
+
+[style*="color: rgb(255, 255, 255);"] {
+  color: var(--color-high) !important;
+}
+
+.activityHeader-1PExlk,
+.customStatusText-39gdCI,
 .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O),
 .colorDefault-2K3EoJ.focused-3afm-j,
-.customStatus-1bh2V9,
 .nameNormal-2lqVQK,
 .nameWrap-3Z4G_9,
 .activityName-1IaRLn {
   color: var(--color-high);
 }
 
+.customStatus-1bh2V9,
 .additionalActionsIcon-1FoUlE,
 .discriminator-xUhQkU,
 .username-3gJmXY,
@@ -1364,6 +1429,7 @@ strong {
 }
 
 .gradientContainer-10lXLB,
+.wrapper-2qzCYF.minimum-28Z35l,
 .wrapper-2qzCYF {
   background-image: none;
   background-color: transparent;
