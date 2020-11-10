@@ -75,6 +75,14 @@
         background: $high;
     }
 }
+// You're viewing older messages
+.jumpToPresentBar-G1R9s6 {
+    background-color: $alert;
+    border-radius: 0;
+    button {
+        color: $high;
+    }
+}
 // Edit Message
 .scrollableContainer-2NUZem {
     @include boxify($high, $mid, 3px);

@@ -40,3 +40,39 @@
     background: $low;
     border-radius: 0;
 }
+// Autocomplete in chatbox
+.theme-dark {
+    .contentTitle-2tG_sM strong,
+    .content-Qb0rXO {
+        color: $low;
+    }
+    .divider-23swzi {
+        background-color: $low;
+    }
+    .autocomplete-1vrmpx {
+        @include boxify($high, $mid, 4px);
+
+        .descriptionDiscriminator-3vUOCc {
+            color: $mid;
+        }
+        .description-11DmNu,
+        .descriptionUsername-J_75O8,
+        .contentTitle-2tG_sM {
+            color: $low;
+        }
+    }
+    .selected-1Tbx07 {
+        background-color: $low;
+        border-radius: 0;
+        .colorStandard-2KCXvj,
+        .content-Qb0rXO,
+        .description-11DmNu,
+        .descriptionUsername-J_75O8,
+        .contentTitle-2tG_sM {
+            color: $high;
+        }
+    }
+}
+.autocompleteRow-2OthDa {
+    padding: 0;
+}
