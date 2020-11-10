@@ -37,8 +37,8 @@
 }
 // Buttons
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6,
-.lookFilled-1Gx00P.colorPrimary-3b3xI6,
 .lookInverted-2D7oAl.colorBrand-3pXr91,
+.lookFilled-1Gx00P.colorPrimary-3b3xI6,
 .lookFilled-1Gx00P.colorGrey-2DXtkV,
 .lookFilled-1Gx00P.colorBrand-3pXr91 {
     @include buttonify($low, $high, $mid, $high);
