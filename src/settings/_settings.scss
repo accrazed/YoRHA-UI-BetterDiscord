@@ -12,6 +12,7 @@
 }
 // X button
 .theme-dark {
+    .markValue-2DwdXI,
     .keybind-KpFkfr {
         color: $low;
     }
@@ -77,6 +78,16 @@
 .theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6 {
     color: $low;
 }
+// Role Permissions
+.theme-dark {
+    .passthroughSelected-1Eq0Kl {
+        background: $low;
+    }
+    .item-3T2z1R {
+        border: 1px solid $low;
+        border-radius: 0;
+    }
+}
 // BD buttons
 .bd-button {
     @include buttonify($low, $high, $mid, $high);
@@ -88,7 +99,6 @@
 .bd-addon-views .bd-view-button.selected {
     background-color: $alert;
 }
-
 // Theme / Plugin Cards
 .bd-addon-list .bd-addon-card {
     @include boxify($high, $mid, 4px);

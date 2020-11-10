@@ -191,6 +191,21 @@
   background: var(--color-low);
 }
 
+.barFill-23-gu- {
+  background: var(--color-alert);
+}
+
+.theme-dark .bar-2Qqk5Z {
+  background: var(--color-low);
+}
+
+.grabber-3mFHz2 {
+  background: var(--color-high);
+  border: 1px solid var(--color-low);
+  border-radius: 0;
+  box-shadow: none;
+}
+
 .divider-3FBTu8,
 .theme-dark .children-19S4PO:after,
 .container-1r6BKw.themed-ANHk51 {
@@ -1229,6 +1244,7 @@ strong {
   background-color: transparent;
 }
 
+.theme-dark .markValue-2DwdXI,
 .theme-dark .keybind-KpFkfr {
   color: var(--color-low);
 }
@@ -1289,6 +1305,14 @@ strong {
 .userSettingsSecurity-3IYeMF .isEnabled-24g9qA,
 .theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6 {
   color: var(--color-low);
+}
+
+.theme-dark .passthroughSelected-1Eq0Kl {
+  background: var(--color-low);
+}
+.theme-dark .item-3T2z1R {
+  border: 1px solid var(--color-low);
+  border-radius: 0;
 }
 
 .bd-button {
