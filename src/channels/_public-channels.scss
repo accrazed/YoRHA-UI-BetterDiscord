@@ -30,6 +30,16 @@
             color: $low;
         }
     }
+    // Locked Channels
+    &.modeLocked-SZJhTy {
+        opacity: 50%;
+
+        .icon-1_QxNX,
+        .name-3_Dsmg {
+            color: $low;
+        }
+        cursor: disabled;
+    }
     // Square icon
     .icon-1_QxNX {
         transition: color 0.2s, background-color 0.2s;

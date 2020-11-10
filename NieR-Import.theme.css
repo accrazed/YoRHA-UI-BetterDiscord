@@ -356,7 +356,8 @@ label,
 }
 
 .disabled,
-.modeLocked-SZJhTy {
+.modeLocked-SZJhTy,
+.modeLocked-SZJhTy .mainContent-ENyL1r {
   cursor: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Unavailable_v2.cur"), default !important;
 }
 
@@ -396,6 +397,14 @@ label,
 }
 .wrapper-1ucjTd.modeMuted-3osy7j .icon-1_QxNX,
 .wrapper-1ucjTd.modeMuted-3osy7j .name-3_Dsmg {
+  color: var(--color-low);
+}
+.wrapper-1ucjTd.modeLocked-SZJhTy {
+  opacity: 50%;
+  cursor: disabled;
+}
+.wrapper-1ucjTd.modeLocked-SZJhTy .icon-1_QxNX,
+.wrapper-1ucjTd.modeLocked-SZJhTy .name-3_Dsmg {
   color: var(--color-low);
 }
 .wrapper-1ucjTd .icon-1_QxNX {
