@@ -21,7 +21,11 @@
 }
 // Upload Image
 .theme-dark .uploadModal-2ifh8j {
-    @include boxify($mid, $low, 3px);
+    @include boxify($high, $mid, 6px);
+    .scrollableContainer-2NUZem {
+        box-shadow: none;
+        border: 3px solid $low;
+    }
 }
 .theme-dark .checkbox-1ix_J3 {
     border: 2px solid $high;
