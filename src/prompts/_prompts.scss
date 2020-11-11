@@ -19,6 +19,19 @@
 .header-3C6qT5 {
     padding-top: 0;
 }
+// Create a server
+.h5-18_1nd,
+.footer-2gL1pp,
+.uploadIcon-2IFzZU,
+.colorMuted-HdFt4q,
+.colorHeaderPrimary-26Jzh-,
+.colorHeaderSecondary-3Sp3Ft {
+    color: $low;
+}
+.colorStandard-2KCXvj,
+.anchor-3Z-8Bb {
+    color: $alert;
+}
 // Upload Image
 .theme-dark .uploadModal-2ifh8j {
     @include boxify($high, $mid, 6px);

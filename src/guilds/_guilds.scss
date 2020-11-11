@@ -31,6 +31,10 @@
     border-radius: 0;
     height: 48px !important;
 }
+// Streaming icon
+.iconBadge-2wi9r4 {
+    background-color: $low;
+}
 // Unread blip out of screen
 .mention-1f5kbO {
     @include boxify($alert, $low, 3px);
@@ -55,3 +59,4 @@
 .theme-dark .iconMask-3b8GzQ {
     @include boxify($high, $mid, 5px);
 }
+
