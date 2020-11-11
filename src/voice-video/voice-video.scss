@@ -45,6 +45,7 @@
         }
     }
 }
+.base-PmTxvP,
 .icon-22AiRD:hover,
 .controlIcon-35oS15:hover {
     color: $high;
@@ -81,5 +82,69 @@
     @include boxify($high, $mid, 3px);
     .tooltipPointer-3ZfirK {
         border: none;
+    }
+}
+// Member hover/select animations
+.draggable-1KoBzC {
+    height: 29px;
+    margin: 1px 0 1px 0;
+
+    .clickable-23RaYz {
+        height: 28px;
+        .icons-3q-_6z svg,
+        .avatarSmall-2CW6I1,
+        .username-lm8y6T,
+        .icons-3q-_6z {
+            z-index: 1;
+            transition: color 0.2s;
+        }
+        border-radius: 0;
+
+        // Animation
+        .content-3xS9Lh {
+            height: 28px;
+            background-color: transparent !important;
+            border-radius: 0;
+        }
+        .content-3xS9Lh:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 1px;
+            bottom: 1px;
+            transition: width 0.3s;
+            animation-name: pulsingBackground;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+            width: 0%;
+        }
+        // Selected channel
+        &.selected-3TGCSZ .content-3xS9Lh,
+        &:hover .content-3xS9Lh {
+            box-shadow: 0 1px $low, 0 -1px $low;
+
+            .icons-3q-_6z svg,
+            .avatarSmall-2CW6I1,
+            .username-lm8y6T,
+            .icons-3q-_6z {
+                color: $high;
+                z-index: 1;
+            }
+            &:before {
+                width: 100%;
+            }
+        }
+    }
+}
+// Voice chat stream preview
+.theme-dark .streamPreview-2-WUWT {
+    @include boxify($high, $mid, 3px);
+}
+.theme-dark .activityStreamPreview-3r3GiX {
+    .activityName-1IaRLn,
+    .content-3JfFJh,
+    .details-38sfDr,
+    .name-29ETJS {
+        color: $low;
     }
 }
