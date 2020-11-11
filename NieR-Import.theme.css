@@ -955,6 +955,16 @@ strong {
   width: 403px !important;
   height: 353px !important;
 }
+.theme-dark .emptyWumpus-12J3jI + div .text-GwUZgS,
+.image-1GzsFd + div .text-GwUZgS {
+  visibility: hidden;
+  justify-content: center;
+}
+.theme-dark .emptyWumpus-12J3jI + div .text-GwUZgS::before,
+.image-1GzsFd + div .text-GwUZgS::before {
+  visibility: visible;
+  content: "Nothing to see here, friend! *rolls away*";
+}
 
 .actionButton-uPB8Fs:hover {
   transition: background-color 0.2s ease-in-out;
