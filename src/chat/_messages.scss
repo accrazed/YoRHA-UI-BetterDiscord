@@ -75,14 +75,18 @@
         background: $high;
     }
 }
-// You're viewing older messages
+// You're viewing older messages /// X+ new messages since
+.newMessagesBar-265mhP,
 .jumpToPresentBar-G1R9s6 {
+    box-shadow: none;
     background-color: $alert;
     border-radius: 0;
     button {
         color: $high;
     }
 }
+
+
 // Edit Message
 .scrollableContainer-2NUZem {
     @include boxify($high, $mid, 3px);
