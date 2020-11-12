@@ -150,6 +150,7 @@
 }
 
 .jumpButton-JkYoYK,
+.button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp,
 .lookFilled-1Gx00P.colorGreen-29iAKY,
 .lookFilled-1Gx00P.colorRed-1TFJan,
 .lookOutlined-3sRXeN.colorRed-1TFJan {
@@ -159,6 +160,8 @@
   color: var(--color-high);
 }
 .jumpButton-JkYoYK:hover, .jumpButton-JkYoYK:active,
+.button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp:hover,
+.button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp:active,
 .lookFilled-1Gx00P.colorGreen-29iAKY:hover,
 .lookFilled-1Gx00P.colorGreen-29iAKY:active,
 .lookFilled-1Gx00P.colorRed-1TFJan:hover,
@@ -339,6 +342,7 @@ foreignObject[mask="url(#svg-mask-status-dnd)"] .status-1AY8sU {
   background-color: var(--color-alert) !important;
 }
 
+.iconBadge-2wi9r4.participating-NBGDkr,
 .iconBadge-qZ4Ksk {
   background-color: var(--color-alert);
 }
@@ -432,18 +436,22 @@ label,
 .innerDisabled-1YTFPN,
 .disabled-BrLY9Y,
 .disabled-2HSEFa,
-.modeLocked-SZJhTy,
-.modeLocked-SZJhTy .mainContent-ENyL1r {
+.modeLocked-25wLHj,
+.modeLocked-25wLHj .mainContent-u_9PKf {
   cursor: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Unavailable_v2.cur"), default !important;
 }
 
-.unread-3zKkbm,
+.unread-2lAfLh,
 .panels-j1Uci_,
-.wrapper-1ucjTd:hover .content-3at_AU,
-.modeSelected-1zApJ_ .content-3at_AU,
-.modeSelected-1zApJ_:hover .content-3at_AU,
-.container-PNkimc {
+.wrapper-2jXpOf:hover .content-1x5b-n,
+.modeSelected-346R90 .content-1x5b-n,
+.modeSelected-346R90:hover .content-1x5b-n,
+.container-3w7J-x {
   background: transparent;
+}
+
+.header-2V-4Sw {
+  box-shadow: none;
 }
 
 .unread-1xRYoj {
@@ -465,48 +473,48 @@ label,
   color: var(--color-high) !important;
 }
 
-.wrapper-1ucjTd {
+.wrapper-2jXpOf {
   height: 32px;
   margin: 4px 0 4px 0;
 }
-.wrapper-1ucjTd.modeMuted-3osy7j {
+.wrapper-2jXpOf.modeMuted-onO3r- {
   opacity: 50%;
 }
-.wrapper-1ucjTd.modeMuted-3osy7j .icon-1_QxNX,
-.wrapper-1ucjTd.modeMuted-3osy7j .name-3_Dsmg {
+.wrapper-2jXpOf.modeMuted-onO3r- .icon-1DeIlz,
+.wrapper-2jXpOf.modeMuted-onO3r- .name-23GUGE {
   color: var(--color-low);
 }
-.wrapper-1ucjTd.modeLocked-SZJhTy {
+.wrapper-2jXpOf.modeLocked-25wLHj {
   opacity: 50%;
   cursor: disabled;
 }
-.wrapper-1ucjTd.modeLocked-SZJhTy .icon-1_QxNX,
-.wrapper-1ucjTd.modeLocked-SZJhTy .name-3_Dsmg {
+.wrapper-2jXpOf.modeLocked-25wLHj .icon-1DeIlz,
+.wrapper-2jXpOf.modeLocked-25wLHj .name-23GUGE {
   color: var(--color-low);
 }
-.wrapper-1ucjTd .icon-1_QxNX {
+.wrapper-2jXpOf .icon-1DeIlz {
   transition: color 0.2s, background-color 0.2s;
   height: 12px;
   width: 12px;
   z-index: 1;
   background-color: var(--color-low);
 }
-.wrapper-1ucjTd .icon-1_QxNX path[d="M15 12C15 12.0007 15 12.0013 15 12.002C15 12.553 14.551 13.002 14 13.002V15.002C15.654 15.002 17 13.657 17 12.002C17 12.0013 17 12.0007 17 12H15ZM19 12C19 12.0007 19 12.0013 19 12.002C19 14.759 16.757 17.002 14 17.002V19.002C17.86 19.002 21 15.863 21 12.002C21 12.0013 21 12.0007 21 12H19ZM10.293 3.29604C10.579 3.01004 11.009 2.92504 11.383 3.07904C11.757 3.23204 12 3.59904 12 4.00204V20.002C12 20.407 11.757 20.772 11.383 20.927C11.009 21.082 10.579 20.996 10.293 20.71L6 16.002H3C2.45 16.002 2 15.552 2 15.002V9.00204C2 8.45304 2.45 8.00204 3 8.00204H6L10.293 3.29604Z"],
-.wrapper-1ucjTd .icon-1_QxNX path[d="M21.025 5V4C21.025 2.88 20.05 2 19 2C17.95 2 17 2.88 17 4V5C16.4477 5 16 5.44772 16 6V9C16 9.55228 16.4477 10 17 10H19H21C21.5523 10 22 9.55228 22 9V5.975C22 5.43652 21.5635 5 21.025 5ZM20 5H18V4C18 3.42857 18.4667 3 19 3C19.5333 3 20 3.42857 20 4V5Z"],
-.wrapper-1ucjTd .icon-1_QxNX path[d="M11.383 3.07904C11.009 2.92504 10.579 3.01004 10.293 3.29604L6 8.00204H3C2.45 8.00204 2 8.45304 2 9.00204V15.002C2 15.552 2.45 16.002 3 16.002H6L10.293 20.71C10.579 20.996 11.009 21.082 11.383 20.927C11.757 20.772 12 20.407 12 20.002V4.00204C12 3.59904 11.757 3.23204 11.383 3.07904ZM14 5.00195V7.00195C16.757 7.00195 19 9.24595 19 12.002C19 14.759 16.757 17.002 14 17.002V19.002C17.86 19.002 21 15.863 21 12.002C21 8.14295 17.86 5.00195 14 5.00195ZM14 9.00195C15.654 9.00195 17 10.349 17 12.002C17 13.657 15.654 15.002 14 15.002V13.002C14.551 13.002 15 12.553 15 12.002C15 11.451 14.551 11.002 14 11.002V9.00195Z"] {
+.wrapper-2jXpOf .icon-1DeIlz path[d="M15 12C15 12.0007 15 12.0013 15 12.002C15 12.553 14.551 13.002 14 13.002V15.002C15.654 15.002 17 13.657 17 12.002C17 12.0013 17 12.0007 17 12H15ZM19 12C19 12.0007 19 12.0013 19 12.002C19 14.759 16.757 17.002 14 17.002V19.002C17.86 19.002 21 15.863 21 12.002C21 12.0013 21 12.0007 21 12H19ZM10.293 3.29604C10.579 3.01004 11.009 2.92504 11.383 3.07904C11.757 3.23204 12 3.59904 12 4.00204V20.002C12 20.407 11.757 20.772 11.383 20.927C11.009 21.082 10.579 20.996 10.293 20.71L6 16.002H3C2.45 16.002 2 15.552 2 15.002V9.00204C2 8.45304 2.45 8.00204 3 8.00204H6L10.293 3.29604Z"],
+.wrapper-2jXpOf .icon-1DeIlz path[d="M21.025 5V4C21.025 2.88 20.05 2 19 2C17.95 2 17 2.88 17 4V5C16.4477 5 16 5.44772 16 6V9C16 9.55228 16.4477 10 17 10H19H21C21.5523 10 22 9.55228 22 9V5.975C22 5.43652 21.5635 5 21.025 5ZM20 5H18V4C18 3.42857 18.4667 3 19 3C19.5333 3 20 3.42857 20 4V5Z"],
+.wrapper-2jXpOf .icon-1DeIlz path[d="M11.383 3.07904C11.009 2.92504 10.579 3.01004 10.293 3.29604L6 8.00204H3C2.45 8.00204 2 8.45304 2 9.00204V15.002C2 15.552 2.45 16.002 3 16.002H6L10.293 20.71C10.579 20.996 11.009 21.082 11.383 20.927C11.757 20.772 12 20.407 12 20.002V4.00204C12 3.59904 11.757 3.23204 11.383 3.07904ZM14 5.00195V7.00195C16.757 7.00195 19 9.24595 19 12.002C19 14.759 16.757 17.002 14 17.002V19.002C17.86 19.002 21 15.863 21 12.002C21 8.14295 17.86 5.00195 14 5.00195ZM14 9.00195C15.654 9.00195 17 10.349 17 12.002C17 13.657 15.654 15.002 14 15.002V13.002C14.551 13.002 15 12.553 15 12.002C15 11.451 14.551 11.002 14 11.002V9.00195Z"] {
   fill: var(--color-high);
 }
-.wrapper-1ucjTd .content-3at_AU {
+.wrapper-2jXpOf .content-1x5b-n {
   height: 28px;
   margin-left: 0;
   border-radius: 0;
   top: 2px;
 }
-.wrapper-1ucjTd .name-3_Dsmg,
-.wrapper-1ucjTd .actionIcon-2Hi9ZG {
+.wrapper-2jXpOf .name-23GUGE,
+.wrapper-2jXpOf .actionIcon-PgcMM2 {
   transition: color 0.2s;
 }
-.wrapper-1ucjTd .mainContent-ENyL1r:before {
+.wrapper-2jXpOf .mainContent-u_9PKf:before {
   transition: width 0.4s;
   position: absolute;
   animation-name: pulsingBackground;
@@ -514,58 +522,58 @@ label,
   animation-iteration-count: infinite;
   width: 0%;
 }
-.wrapper-1ucjTd.modeConnected-2IEL4z, .wrapper-1ucjTd.modeSelected-1zApJ_, .wrapper-1ucjTd:hover {
+.wrapper-2jXpOf.modeConnected-3IsKId, .wrapper-2jXpOf.modeSelected-346R90, .wrapper-2jXpOf:hover {
   box-shadow: 0 1px var(--color-low), 0 -1px var(--color-low);
 }
-.wrapper-1ucjTd.modeConnected-2IEL4z .mainContent-ENyL1r:before, .wrapper-1ucjTd.modeSelected-1zApJ_ .mainContent-ENyL1r:before, .wrapper-1ucjTd:hover .mainContent-ENyL1r:before {
+.wrapper-2jXpOf.modeConnected-3IsKId .mainContent-u_9PKf:before, .wrapper-2jXpOf.modeSelected-346R90 .mainContent-u_9PKf:before, .wrapper-2jXpOf:hover .mainContent-u_9PKf:before {
   width: 100%;
 }
-.wrapper-1ucjTd.modeConnected-2IEL4z .icon-1_QxNX, .wrapper-1ucjTd.modeSelected-1zApJ_ .icon-1_QxNX, .wrapper-1ucjTd:hover .icon-1_QxNX {
+.wrapper-2jXpOf.modeConnected-3IsKId .icon-1DeIlz, .wrapper-2jXpOf.modeSelected-346R90 .icon-1DeIlz, .wrapper-2jXpOf:hover .icon-1DeIlz {
   color: var(--color-high);
   background-color: var(--color-high);
 }
-.wrapper-1ucjTd.modeConnected-2IEL4z .icon-1_QxNX path[d="M21.025 5V4C21.025 2.88 20.05 2 19 2C17.95 2 17 2.88 17 4V5C16.4477 5 16 5.44772 16 6V9C16 9.55228 16.4477 10 17 10H19H21C21.5523 10 22 9.55228 22 9V5.975C22 5.43652 21.5635 5 21.025 5ZM20 5H18V4C18 3.42857 18.4667 3 19 3C19.5333 3 20 3.42857 20 4V5Z"],
-.wrapper-1ucjTd.modeConnected-2IEL4z .icon-1_QxNX path[d="M15 12C15 12.0007 15 12.0013 15 12.002C15 12.553 14.551 13.002 14 13.002V15.002C15.654 15.002 17 13.657 17 12.002C17 12.0013 17 12.0007 17 12H15ZM19 12C19 12.0007 19 12.0013 19 12.002C19 14.759 16.757 17.002 14 17.002V19.002C17.86 19.002 21 15.863 21 12.002C21 12.0013 21 12.0007 21 12H19ZM10.293 3.29604C10.579 3.01004 11.009 2.92504 11.383 3.07904C11.757 3.23204 12 3.59904 12 4.00204V20.002C12 20.407 11.757 20.772 11.383 20.927C11.009 21.082 10.579 20.996 10.293 20.71L6 16.002H3C2.45 16.002 2 15.552 2 15.002V9.00204C2 8.45304 2.45 8.00204 3 8.00204H6L10.293 3.29604Z"],
-.wrapper-1ucjTd.modeConnected-2IEL4z .icon-1_QxNX path[d="M11.383 3.07904C11.009 2.92504 10.579 3.01004 10.293 3.29604L6 8.00204H3C2.45 8.00204 2 8.45304 2 9.00204V15.002C2 15.552 2.45 16.002 3 16.002H6L10.293 20.71C10.579 20.996 11.009 21.082 11.383 20.927C11.757 20.772 12 20.407 12 20.002V4.00204C12 3.59904 11.757 3.23204 11.383 3.07904ZM14 5.00195V7.00195C16.757 7.00195 19 9.24595 19 12.002C19 14.759 16.757 17.002 14 17.002V19.002C17.86 19.002 21 15.863 21 12.002C21 8.14295 17.86 5.00195 14 5.00195ZM14 9.00195C15.654 9.00195 17 10.349 17 12.002C17 13.657 15.654 15.002 14 15.002V13.002C14.551 13.002 15 12.553 15 12.002C15 11.451 14.551 11.002 14 11.002V9.00195Z"], .wrapper-1ucjTd.modeSelected-1zApJ_ .icon-1_QxNX path[d="M21.025 5V4C21.025 2.88 20.05 2 19 2C17.95 2 17 2.88 17 4V5C16.4477 5 16 5.44772 16 6V9C16 9.55228 16.4477 10 17 10H19H21C21.5523 10 22 9.55228 22 9V5.975C22 5.43652 21.5635 5 21.025 5ZM20 5H18V4C18 3.42857 18.4667 3 19 3C19.5333 3 20 3.42857 20 4V5Z"],
-.wrapper-1ucjTd.modeSelected-1zApJ_ .icon-1_QxNX path[d="M15 12C15 12.0007 15 12.0013 15 12.002C15 12.553 14.551 13.002 14 13.002V15.002C15.654 15.002 17 13.657 17 12.002C17 12.0013 17 12.0007 17 12H15ZM19 12C19 12.0007 19 12.0013 19 12.002C19 14.759 16.757 17.002 14 17.002V19.002C17.86 19.002 21 15.863 21 12.002C21 12.0013 21 12.0007 21 12H19ZM10.293 3.29604C10.579 3.01004 11.009 2.92504 11.383 3.07904C11.757 3.23204 12 3.59904 12 4.00204V20.002C12 20.407 11.757 20.772 11.383 20.927C11.009 21.082 10.579 20.996 10.293 20.71L6 16.002H3C2.45 16.002 2 15.552 2 15.002V9.00204C2 8.45304 2.45 8.00204 3 8.00204H6L10.293 3.29604Z"],
-.wrapper-1ucjTd.modeSelected-1zApJ_ .icon-1_QxNX path[d="M11.383 3.07904C11.009 2.92504 10.579 3.01004 10.293 3.29604L6 8.00204H3C2.45 8.00204 2 8.45304 2 9.00204V15.002C2 15.552 2.45 16.002 3 16.002H6L10.293 20.71C10.579 20.996 11.009 21.082 11.383 20.927C11.757 20.772 12 20.407 12 20.002V4.00204C12 3.59904 11.757 3.23204 11.383 3.07904ZM14 5.00195V7.00195C16.757 7.00195 19 9.24595 19 12.002C19 14.759 16.757 17.002 14 17.002V19.002C17.86 19.002 21 15.863 21 12.002C21 8.14295 17.86 5.00195 14 5.00195ZM14 9.00195C15.654 9.00195 17 10.349 17 12.002C17 13.657 15.654 15.002 14 15.002V13.002C14.551 13.002 15 12.553 15 12.002C15 11.451 14.551 11.002 14 11.002V9.00195Z"], .wrapper-1ucjTd:hover .icon-1_QxNX path[d="M21.025 5V4C21.025 2.88 20.05 2 19 2C17.95 2 17 2.88 17 4V5C16.4477 5 16 5.44772 16 6V9C16 9.55228 16.4477 10 17 10H19H21C21.5523 10 22 9.55228 22 9V5.975C22 5.43652 21.5635 5 21.025 5ZM20 5H18V4C18 3.42857 18.4667 3 19 3C19.5333 3 20 3.42857 20 4V5Z"],
-.wrapper-1ucjTd:hover .icon-1_QxNX path[d="M15 12C15 12.0007 15 12.0013 15 12.002C15 12.553 14.551 13.002 14 13.002V15.002C15.654 15.002 17 13.657 17 12.002C17 12.0013 17 12.0007 17 12H15ZM19 12C19 12.0007 19 12.0013 19 12.002C19 14.759 16.757 17.002 14 17.002V19.002C17.86 19.002 21 15.863 21 12.002C21 12.0013 21 12.0007 21 12H19ZM10.293 3.29604C10.579 3.01004 11.009 2.92504 11.383 3.07904C11.757 3.23204 12 3.59904 12 4.00204V20.002C12 20.407 11.757 20.772 11.383 20.927C11.009 21.082 10.579 20.996 10.293 20.71L6 16.002H3C2.45 16.002 2 15.552 2 15.002V9.00204C2 8.45304 2.45 8.00204 3 8.00204H6L10.293 3.29604Z"],
-.wrapper-1ucjTd:hover .icon-1_QxNX path[d="M11.383 3.07904C11.009 2.92504 10.579 3.01004 10.293 3.29604L6 8.00204H3C2.45 8.00204 2 8.45304 2 9.00204V15.002C2 15.552 2.45 16.002 3 16.002H6L10.293 20.71C10.579 20.996 11.009 21.082 11.383 20.927C11.757 20.772 12 20.407 12 20.002V4.00204C12 3.59904 11.757 3.23204 11.383 3.07904ZM14 5.00195V7.00195C16.757 7.00195 19 9.24595 19 12.002C19 14.759 16.757 17.002 14 17.002V19.002C17.86 19.002 21 15.863 21 12.002C21 8.14295 17.86 5.00195 14 5.00195ZM14 9.00195C15.654 9.00195 17 10.349 17 12.002C17 13.657 15.654 15.002 14 15.002V13.002C14.551 13.002 15 12.553 15 12.002C15 11.451 14.551 11.002 14 11.002V9.00195Z"] {
+.wrapper-2jXpOf.modeConnected-3IsKId .icon-1DeIlz path[d="M21.025 5V4C21.025 2.88 20.05 2 19 2C17.95 2 17 2.88 17 4V5C16.4477 5 16 5.44772 16 6V9C16 9.55228 16.4477 10 17 10H19H21C21.5523 10 22 9.55228 22 9V5.975C22 5.43652 21.5635 5 21.025 5ZM20 5H18V4C18 3.42857 18.4667 3 19 3C19.5333 3 20 3.42857 20 4V5Z"],
+.wrapper-2jXpOf.modeConnected-3IsKId .icon-1DeIlz path[d="M15 12C15 12.0007 15 12.0013 15 12.002C15 12.553 14.551 13.002 14 13.002V15.002C15.654 15.002 17 13.657 17 12.002C17 12.0013 17 12.0007 17 12H15ZM19 12C19 12.0007 19 12.0013 19 12.002C19 14.759 16.757 17.002 14 17.002V19.002C17.86 19.002 21 15.863 21 12.002C21 12.0013 21 12.0007 21 12H19ZM10.293 3.29604C10.579 3.01004 11.009 2.92504 11.383 3.07904C11.757 3.23204 12 3.59904 12 4.00204V20.002C12 20.407 11.757 20.772 11.383 20.927C11.009 21.082 10.579 20.996 10.293 20.71L6 16.002H3C2.45 16.002 2 15.552 2 15.002V9.00204C2 8.45304 2.45 8.00204 3 8.00204H6L10.293 3.29604Z"],
+.wrapper-2jXpOf.modeConnected-3IsKId .icon-1DeIlz path[d="M11.383 3.07904C11.009 2.92504 10.579 3.01004 10.293 3.29604L6 8.00204H3C2.45 8.00204 2 8.45304 2 9.00204V15.002C2 15.552 2.45 16.002 3 16.002H6L10.293 20.71C10.579 20.996 11.009 21.082 11.383 20.927C11.757 20.772 12 20.407 12 20.002V4.00204C12 3.59904 11.757 3.23204 11.383 3.07904ZM14 5.00195V7.00195C16.757 7.00195 19 9.24595 19 12.002C19 14.759 16.757 17.002 14 17.002V19.002C17.86 19.002 21 15.863 21 12.002C21 8.14295 17.86 5.00195 14 5.00195ZM14 9.00195C15.654 9.00195 17 10.349 17 12.002C17 13.657 15.654 15.002 14 15.002V13.002C14.551 13.002 15 12.553 15 12.002C15 11.451 14.551 11.002 14 11.002V9.00195Z"], .wrapper-2jXpOf.modeSelected-346R90 .icon-1DeIlz path[d="M21.025 5V4C21.025 2.88 20.05 2 19 2C17.95 2 17 2.88 17 4V5C16.4477 5 16 5.44772 16 6V9C16 9.55228 16.4477 10 17 10H19H21C21.5523 10 22 9.55228 22 9V5.975C22 5.43652 21.5635 5 21.025 5ZM20 5H18V4C18 3.42857 18.4667 3 19 3C19.5333 3 20 3.42857 20 4V5Z"],
+.wrapper-2jXpOf.modeSelected-346R90 .icon-1DeIlz path[d="M15 12C15 12.0007 15 12.0013 15 12.002C15 12.553 14.551 13.002 14 13.002V15.002C15.654 15.002 17 13.657 17 12.002C17 12.0013 17 12.0007 17 12H15ZM19 12C19 12.0007 19 12.0013 19 12.002C19 14.759 16.757 17.002 14 17.002V19.002C17.86 19.002 21 15.863 21 12.002C21 12.0013 21 12.0007 21 12H19ZM10.293 3.29604C10.579 3.01004 11.009 2.92504 11.383 3.07904C11.757 3.23204 12 3.59904 12 4.00204V20.002C12 20.407 11.757 20.772 11.383 20.927C11.009 21.082 10.579 20.996 10.293 20.71L6 16.002H3C2.45 16.002 2 15.552 2 15.002V9.00204C2 8.45304 2.45 8.00204 3 8.00204H6L10.293 3.29604Z"],
+.wrapper-2jXpOf.modeSelected-346R90 .icon-1DeIlz path[d="M11.383 3.07904C11.009 2.92504 10.579 3.01004 10.293 3.29604L6 8.00204H3C2.45 8.00204 2 8.45304 2 9.00204V15.002C2 15.552 2.45 16.002 3 16.002H6L10.293 20.71C10.579 20.996 11.009 21.082 11.383 20.927C11.757 20.772 12 20.407 12 20.002V4.00204C12 3.59904 11.757 3.23204 11.383 3.07904ZM14 5.00195V7.00195C16.757 7.00195 19 9.24595 19 12.002C19 14.759 16.757 17.002 14 17.002V19.002C17.86 19.002 21 15.863 21 12.002C21 8.14295 17.86 5.00195 14 5.00195ZM14 9.00195C15.654 9.00195 17 10.349 17 12.002C17 13.657 15.654 15.002 14 15.002V13.002C14.551 13.002 15 12.553 15 12.002C15 11.451 14.551 11.002 14 11.002V9.00195Z"], .wrapper-2jXpOf:hover .icon-1DeIlz path[d="M21.025 5V4C21.025 2.88 20.05 2 19 2C17.95 2 17 2.88 17 4V5C16.4477 5 16 5.44772 16 6V9C16 9.55228 16.4477 10 17 10H19H21C21.5523 10 22 9.55228 22 9V5.975C22 5.43652 21.5635 5 21.025 5ZM20 5H18V4C18 3.42857 18.4667 3 19 3C19.5333 3 20 3.42857 20 4V5Z"],
+.wrapper-2jXpOf:hover .icon-1DeIlz path[d="M15 12C15 12.0007 15 12.0013 15 12.002C15 12.553 14.551 13.002 14 13.002V15.002C15.654 15.002 17 13.657 17 12.002C17 12.0013 17 12.0007 17 12H15ZM19 12C19 12.0007 19 12.0013 19 12.002C19 14.759 16.757 17.002 14 17.002V19.002C17.86 19.002 21 15.863 21 12.002C21 12.0013 21 12.0007 21 12H19ZM10.293 3.29604C10.579 3.01004 11.009 2.92504 11.383 3.07904C11.757 3.23204 12 3.59904 12 4.00204V20.002C12 20.407 11.757 20.772 11.383 20.927C11.009 21.082 10.579 20.996 10.293 20.71L6 16.002H3C2.45 16.002 2 15.552 2 15.002V9.00204C2 8.45304 2.45 8.00204 3 8.00204H6L10.293 3.29604Z"],
+.wrapper-2jXpOf:hover .icon-1DeIlz path[d="M11.383 3.07904C11.009 2.92504 10.579 3.01004 10.293 3.29604L6 8.00204H3C2.45 8.00204 2 8.45304 2 9.00204V15.002C2 15.552 2.45 16.002 3 16.002H6L10.293 20.71C10.579 20.996 11.009 21.082 11.383 20.927C11.757 20.772 12 20.407 12 20.002V4.00204C12 3.59904 11.757 3.23204 11.383 3.07904ZM14 5.00195V7.00195C16.757 7.00195 19 9.24595 19 12.002C19 14.759 16.757 17.002 14 17.002V19.002C17.86 19.002 21 15.863 21 12.002C21 8.14295 17.86 5.00195 14 5.00195ZM14 9.00195C15.654 9.00195 17 10.349 17 12.002C17 13.657 15.654 15.002 14 15.002V13.002C14.551 13.002 15 12.553 15 12.002C15 11.451 14.551 11.002 14 11.002V9.00195Z"] {
   fill: var(--color-low);
 }
-.wrapper-1ucjTd.modeConnected-2IEL4z .actionIcon-2Hi9ZG,
-.wrapper-1ucjTd.modeConnected-2IEL4z .name-3_Dsmg, .wrapper-1ucjTd.modeSelected-1zApJ_ .actionIcon-2Hi9ZG,
-.wrapper-1ucjTd.modeSelected-1zApJ_ .name-3_Dsmg, .wrapper-1ucjTd:hover .actionIcon-2Hi9ZG,
-.wrapper-1ucjTd:hover .name-3_Dsmg {
+.wrapper-2jXpOf.modeConnected-3IsKId .actionIcon-PgcMM2,
+.wrapper-2jXpOf.modeConnected-3IsKId .name-23GUGE, .wrapper-2jXpOf.modeSelected-346R90 .actionIcon-PgcMM2,
+.wrapper-2jXpOf.modeSelected-346R90 .name-23GUGE, .wrapper-2jXpOf:hover .actionIcon-PgcMM2,
+.wrapper-2jXpOf:hover .name-23GUGE {
   z-index: 1;
   color: var(--color-high);
 }
-.wrapper-1ucjTd.modeConnected-2IEL4z .wrapper-pZmgj4 span:-child, .wrapper-1ucjTd.modeSelected-1zApJ_ .wrapper-pZmgj4 span:-child, .wrapper-1ucjTd:hover .wrapper-pZmgj4 span:-child {
+.wrapper-2jXpOf.modeConnected-3IsKId .wrapper-2tAnRe, .wrapper-2jXpOf.modeSelected-346R90 .wrapper-2tAnRe, .wrapper-2jXpOf:hover .wrapper-2tAnRe {
   z-index: 1;
 }
-.wrapper-1ucjTd.modeUnread-1zpFdA .icon-1_QxNX {
+.wrapper-2jXpOf.modeUnread-1qO3K1 .icon-1DeIlz {
   color: var(--color-alert);
   background-color: var(--color-alert);
 }
-.wrapper-1ucjTd.modeUnread-1zpFdA .name-3_Dsmg {
+.wrapper-2jXpOf.modeUnread-1qO3K1 .name-23GUGE {
   color: var(--color-alert);
 }
 
-.wrapper-pZmgj4 {
+.wrapper-2tAnRe {
   border-radius: 0;
   border: 1px solid var(--color-mid);
   height: 18px;
 }
-.wrapper-pZmgj4 .users-i_3-kL {
+.wrapper-2tAnRe .users-3kndPl {
   padding-left: 4px;
   z-index: 1;
 }
-.wrapper-pZmgj4 .total-3tKGEB {
+.wrapper-2tAnRe .total-i6us2n {
   background-color: var(--color-alert);
   color: var(--color-high);
   z-index: 2;
 }
-.wrapper-pZmgj4 .total-3tKGEB::after {
+.wrapper-2tAnRe .total-i6us2n::after {
   border-right-color: var(--color-alert);
 }
 
@@ -1292,10 +1300,6 @@ strong {
   border-color: var(--color-alert) !important;
 }
 
-[style*="color: rgb(255, 255, 255);"] {
-  color: var(--color-high) !important;
-}
-
 .activityHeader-1PExlk,
 .customStatusText-39gdCI,
 .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O),
@@ -1907,6 +1911,9 @@ strong {
 .colorable-1bkp8v.white-3GPOIp:hover {
   background: var(--color-mid);
 }
+.colorable-1bkp8v.white-3GPOIp.active-1QRrIS {
+  background: var(--color-high);
+}
 .colorable-1bkp8v.white-3GPOIp .centerIcon-2G6o-T {
   color: var(--color-low);
 }
@@ -1930,7 +1937,7 @@ strong {
 .base-PmTxvP,
 .icon-22AiRD:hover,
 .controlIcon-35oS15:hover {
-  color: var(--color-high);
+  color: var(--color-mid);
 }
 
 .playingText-3KIkt6,
@@ -1974,27 +1981,27 @@ strong {
   border: none;
 }
 
-.draggable-1KoBzC {
+.draggable-2E_4tJ {
   height: 29px;
   margin: 1px 0 1px 0;
 }
-.draggable-1KoBzC .clickable-23RaYz {
+.draggable-2E_4tJ .clickable-1lCRLF {
   height: 28px;
   border-radius: 0;
 }
-.draggable-1KoBzC .clickable-23RaYz .icons-3q-_6z svg,
-.draggable-1KoBzC .clickable-23RaYz .avatarSmall-2CW6I1,
-.draggable-1KoBzC .clickable-23RaYz .username-lm8y6T,
-.draggable-1KoBzC .clickable-23RaYz .icons-3q-_6z {
+.draggable-2E_4tJ .clickable-1lCRLF .icons-1dXQdz svg,
+.draggable-2E_4tJ .clickable-1lCRLF .avatarSmall-1PJoGO,
+.draggable-2E_4tJ .clickable-1lCRLF .username-3KYl0N,
+.draggable-2E_4tJ .clickable-1lCRLF .icons-1dXQdz {
   z-index: 1;
   transition: color 0.2s;
 }
-.draggable-1KoBzC .clickable-23RaYz .content-3xS9Lh {
+.draggable-2E_4tJ .clickable-1lCRLF .content-1Wq3SX {
   height: 28px;
   background-color: transparent !important;
   border-radius: 0;
 }
-.draggable-1KoBzC .clickable-23RaYz .content-3xS9Lh:before {
+.draggable-2E_4tJ .clickable-1lCRLF .content-1Wq3SX:before {
   content: "";
   position: absolute;
   left: 0;
@@ -2006,20 +2013,20 @@ strong {
   animation-iteration-count: infinite;
   width: 0%;
 }
-.draggable-1KoBzC .clickable-23RaYz.selected-3TGCSZ .content-3xS9Lh, .draggable-1KoBzC .clickable-23RaYz:hover .content-3xS9Lh {
+.draggable-2E_4tJ .clickable-1lCRLF.selected-3t3Csj .content-1Wq3SX, .draggable-2E_4tJ .clickable-1lCRLF:hover .content-1Wq3SX {
   box-shadow: 0 1px var(--color-low), 0 -1px var(--color-low);
 }
-.draggable-1KoBzC .clickable-23RaYz.selected-3TGCSZ .content-3xS9Lh .icons-3q-_6z svg,
-.draggable-1KoBzC .clickable-23RaYz.selected-3TGCSZ .content-3xS9Lh .avatarSmall-2CW6I1,
-.draggable-1KoBzC .clickable-23RaYz.selected-3TGCSZ .content-3xS9Lh .username-lm8y6T,
-.draggable-1KoBzC .clickable-23RaYz.selected-3TGCSZ .content-3xS9Lh .icons-3q-_6z, .draggable-1KoBzC .clickable-23RaYz:hover .content-3xS9Lh .icons-3q-_6z svg,
-.draggable-1KoBzC .clickable-23RaYz:hover .content-3xS9Lh .avatarSmall-2CW6I1,
-.draggable-1KoBzC .clickable-23RaYz:hover .content-3xS9Lh .username-lm8y6T,
-.draggable-1KoBzC .clickable-23RaYz:hover .content-3xS9Lh .icons-3q-_6z {
+.draggable-2E_4tJ .clickable-1lCRLF.selected-3t3Csj .content-1Wq3SX .icons-1dXQdz svg,
+.draggable-2E_4tJ .clickable-1lCRLF.selected-3t3Csj .content-1Wq3SX .avatarSmall-1PJoGO,
+.draggable-2E_4tJ .clickable-1lCRLF.selected-3t3Csj .content-1Wq3SX .username-3KYl0N,
+.draggable-2E_4tJ .clickable-1lCRLF.selected-3t3Csj .content-1Wq3SX .icons-1dXQdz, .draggable-2E_4tJ .clickable-1lCRLF:hover .content-1Wq3SX .icons-1dXQdz svg,
+.draggable-2E_4tJ .clickable-1lCRLF:hover .content-1Wq3SX .avatarSmall-1PJoGO,
+.draggable-2E_4tJ .clickable-1lCRLF:hover .content-1Wq3SX .username-3KYl0N,
+.draggable-2E_4tJ .clickable-1lCRLF:hover .content-1Wq3SX .icons-1dXQdz {
   color: var(--color-high);
   z-index: 1;
 }
-.draggable-1KoBzC .clickable-23RaYz.selected-3TGCSZ .content-3xS9Lh:before, .draggable-1KoBzC .clickable-23RaYz:hover .content-3xS9Lh:before {
+.draggable-2E_4tJ .clickable-1lCRLF.selected-3t3Csj .content-1Wq3SX:before, .draggable-2E_4tJ .clickable-1lCRLF:hover .content-1Wq3SX:before {
   width: 100%;
 }
 

@@ -1,11 +1,14 @@
 // Transparencies
-.unread-3zKkbm,
+.unread-2lAfLh,
 .panels-j1Uci_,
-.wrapper-1ucjTd:hover .content-3at_AU,
-.modeSelected-1zApJ_ .content-3at_AU,
-.modeSelected-1zApJ_:hover .content-3at_AU,
-.container-PNkimc {
+.wrapper-2jXpOf:hover .content-1x5b-n,
+.modeSelected-346R90 .content-1x5b-n,
+.modeSelected-346R90:hover .content-1x5b-n,
+.container-3w7J-x {
     background: transparent;
+}
+.header-2V-4Sw {
+    box-shadow: none;
 }
 // Unread messages notification
 .unread-1xRYoj {
@@ -17,31 +20,31 @@
     @include buttonify(transparent, $low, $low, $high);
 }
 // Channel hover/select animations
-.wrapper-1ucjTd {
+.wrapper-2jXpOf {
     height: 32px;
     margin: 4px 0 4px 0;
 
     // Muted Channels
-    &.modeMuted-3osy7j {
+    &.modeMuted-onO3r- {
         opacity: 50%;
 
-        .icon-1_QxNX,
-        .name-3_Dsmg {
+        .icon-1DeIlz,
+        .name-23GUGE {
             color: $low;
         }
     }
     // Locked Channels
-    &.modeLocked-SZJhTy {
+    &.modeLocked-25wLHj {
         opacity: 50%;
 
-        .icon-1_QxNX,
-        .name-3_Dsmg {
+        .icon-1DeIlz,
+        .name-23GUGE {
             color: $low;
         }
         cursor: disabled;
     }
     // Square icon
-    .icon-1_QxNX {
+    .icon-1DeIlz {
         transition: color 0.2s, background-color 0.2s;
         height: 12px;
         width: 12px;
@@ -55,17 +58,17 @@
         }
     }
     // Animation
-    .content-3at_AU {
+    .content-1x5b-n {
         height: 28px;
         margin-left: 0;
         border-radius: 0;
         top: 2px;
     }
-    .name-3_Dsmg,
-    .actionIcon-2Hi9ZG {
+    .name-23GUGE,
+    .actionIcon-PgcMM2 {
         transition: color 0.2s;
     }
-    .mainContent-ENyL1r:before {
+    .mainContent-u_9PKf:before {
         transition: width 0.4s;
         position: absolute;
         animation-name: pulsingBackground;
@@ -74,15 +77,15 @@
         width: 0%;
     }
     // Selected channel
-    &.modeConnected-2IEL4z,
-    &.modeSelected-1zApJ_,
+    &.modeConnected-3IsKId,
+    &.modeSelected-346R90,
     &:hover {
         box-shadow: 0 1px $low, 0 -1px $low;
 
-        .mainContent-ENyL1r:before {
+        .mainContent-u_9PKf:before {
             width: 100%;
         }
-        .icon-1_QxNX {
+        .icon-1DeIlz {
             color: $high;
             background-color: $high;
             // Voice channels/Locked channels
@@ -92,40 +95,41 @@
                 fill: $low;
             }
         }
-        .actionIcon-2Hi9ZG,
-        .name-3_Dsmg {
+        .actionIcon-PgcMM2,
+        .name-23GUGE {
             z-index: 1;
             color: $high;
         }
-        .wrapper-pZmgj4 span:-child {
+        .wrapper-2tAnRe {
             z-index: 1;
         }
     }
     // Unread channels
-    &.modeUnread-1zpFdA {
-        .icon-1_QxNX {
+    &.modeUnread-1qO3K1 {
+        .icon-1DeIlz {
             color: $alert;
             background-color: $alert;
         }
-        .name-3_Dsmg {
+        .name-23GUGE {
             color: $alert;
         }
     }
 }
-.wrapper-pZmgj4 {
+// Voice channel limits
+.wrapper-2tAnRe {
     border-radius: 0;
     border: 1px solid $mid;
     height: 18px;
-    .users-i_3-kL {
+    .users-3kndPl {
         padding-left: 4px;
         z-index: 1;
     }
-    .total-3tKGEB {
+    .total-i6us2n {
         background-color: $alert;
         color: $high;
         z-index: 2;
     }
-    .total-3tKGEB::after {
+    .total-i6us2n::after {
         border-right-color: $alert;
     }
 }

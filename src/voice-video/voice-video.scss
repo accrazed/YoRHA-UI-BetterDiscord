@@ -13,6 +13,7 @@
     padding-bottom: 0;
 }
 // Voice and Video
+
 .colorable-1bkp8v {
     &.white-3GPOIp {
         background: $high;
@@ -20,6 +21,9 @@
 
         &:hover {
             background: $mid;
+        }
+        &.active-1QRrIS {
+            background: $high;
         }
         .centerIcon-2G6o-T {
             color: $low;
@@ -48,7 +52,7 @@
 .base-PmTxvP,
 .icon-22AiRD:hover,
 .controlIcon-35oS15:hover {
-    color: $high;
+    color: $mid;
 }
 .playingText-3KIkt6,
 .controlIcon-35oS15,
@@ -85,28 +89,28 @@
     }
 }
 // Member hover/select animations
-.draggable-1KoBzC {
+.draggable-2E_4tJ {
     height: 29px;
     margin: 1px 0 1px 0;
 
-    .clickable-23RaYz {
+    .clickable-1lCRLF {
         height: 28px;
-        .icons-3q-_6z svg,
-        .avatarSmall-2CW6I1,
-        .username-lm8y6T,
-        .icons-3q-_6z {
+        .icons-1dXQdz svg,
+        .avatarSmall-1PJoGO,
+        .username-3KYl0N,
+        .icons-1dXQdz {
             z-index: 1;
             transition: color 0.2s;
         }
         border-radius: 0;
 
         // Animation
-        .content-3xS9Lh {
+        .content-1Wq3SX {
             height: 28px;
             background-color: transparent !important;
             border-radius: 0;
         }
-        .content-3xS9Lh:before {
+        .content-1Wq3SX:before {
             content: "";
             position: absolute;
             left: 0;
@@ -119,14 +123,14 @@
             width: 0%;
         }
         // Selected channel
-        &.selected-3TGCSZ .content-3xS9Lh,
-        &:hover .content-3xS9Lh {
+        &.selected-3t3Csj .content-1Wq3SX,
+        &:hover .content-1Wq3SX {
             box-shadow: 0 1px $low, 0 -1px $low;
 
-            .icons-3q-_6z svg,
-            .avatarSmall-2CW6I1,
-            .username-lm8y6T,
-            .icons-3q-_6z {
+            .icons-1dXQdz svg,
+            .avatarSmall-1PJoGO,
+            .username-3KYl0N,
+            .icons-1dXQdz {
                 color: $high;
                 z-index: 1;
             }
