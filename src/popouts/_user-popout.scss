@@ -8,6 +8,7 @@
 .theme-dark .headerNormal-T_seeN,
 .theme-dark .body-3iLsc4,
 .topSectionPlaying-1J5E4n,
+.topSectionSpotify-1lI0-P,
 .headerSpotify-zpWxgT,
 .headerPlaying-j0WQBV,
 .theme-dark .footer-1fjuF6 {
@@ -32,11 +33,15 @@
 [style*="border-color: rgb(255, 255, 255);"] {
     border-color: $alert !important;
 }
+.top-28JiJ- .item-PXvHYJ {
+    color: $mid !important;
+}
 .activityHeader-1PExlk,
 .customStatusText-39gdCI,
 .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O),
 .colorDefault-2K3EoJ.focused-3afm-j,
 .nameNormal-2lqVQK,
+.text-AOoUen,
 .nameWrap-3Z4G_9,
 .activityName-1IaRLn {
     color: $high;
@@ -50,11 +55,15 @@
 .headerTagUsernameNoNickname-2_H881 {
     color: $low;
 }
+.bar-3urHkF,
 .headerFill-adLl4x,
 .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O),
 .colorDefault-2K3EoJ.focused-3afm-j,
 .activity-11LB_k {
     background: $low;
+}
+.barInner-3NDaY_ {
+    background: $high;
 }
 .root-SR8cQa, // User menu popout
 .theme-dark .colorPickerCustom-2CWBn2, // Color picker

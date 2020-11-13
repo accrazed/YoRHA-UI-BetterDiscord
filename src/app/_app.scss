@@ -46,6 +46,7 @@
 // Buttons
 .theme-dark .watchButton-2SbJEo,
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6,
+.lookInverted-2D7oAl.colorGreen-29iAKY,
 .lookInverted-2D7oAl.colorBrand-3pXr91,
 .container-UC8Ug1,
 .lookOutlined-3sRXeN.colorBrand-3pXr91,
@@ -61,6 +62,9 @@
 .lookFilled-1Gx00P.colorRed-1TFJan,
 .lookOutlined-3sRXeN.colorRed-1TFJan {
     @include buttonify($alert, $high, $low, $high);
+}
+.lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+    @include buttonify($alert, $high, $high, $low);
 }
 // Toggle switch
 .container-3auIfb[style="opacity: 1; background-color: rgb(114, 118, 125);"] {

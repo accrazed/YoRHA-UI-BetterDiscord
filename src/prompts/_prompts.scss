@@ -70,6 +70,38 @@
         border: 1px solid $low;
     }
 }
+// CTRL K
+.quickswitcher-3JagVE {
+    @include boxify($high, $mid, 5px);
+    .input-2VB9rf {
+        color: $high;
+        background: $low;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .icon-30q1Or {
+        height: 13px;
+        width: 13px;
+        background-color: $low;
+    }
+    .resultFocused-3aIoYe {
+        background: $low;
+        border-radius: 0;
+
+        .note-S--UP5,
+        .misc-1CT3G7,
+        .contentUnread-3gTHvA,
+        .contentDefault-16dKSY {
+            color: $high;
+        }
+        .icon-30q1Or {
+            background-color: $high;
+            path {
+                fill: $high;
+            }
+        }
+    }
+}
 // Addon Errors
 .bd-modal-wrapper {
     .bd-modal-inner {
