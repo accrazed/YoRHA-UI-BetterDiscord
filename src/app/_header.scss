@@ -4,10 +4,19 @@
 .container-1r6BKw.themed-ANHk51 {
     background: transparent;
 }
+.platform-win .sidebar-2K8pFh {
+    border-radius: 0;
+}
 .header-2o-2hj,
 .content-yTz4x3:before,
 .searchBar-6Kv8R2 {
     box-shadow: none;
+}
+// Server name
+.clickable-25tGDB .header-2V-4Sw:hover,
+.selected-31Nl7x .header-2V-4Sw {
+    background-color: $low;
+    color: $high;
 }
 // Top header
 .name-3YKhmS,
@@ -35,7 +44,7 @@
         background: $low;
     }
     path:first-child {
-    background-color: $low;
-    fill: $low;
+        background-color: $low;
+        fill: $low;
     }
 }

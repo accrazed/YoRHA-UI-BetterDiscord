@@ -18,6 +18,13 @@
     background: $low;
 }
 // Input text
+.emojiRowText-2j4TNM {
+    color: $mid;
+}
+.theme-dark .emojiAliasPlaceholder-3H_iZA {
+    color: $low;
+}
+.theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse,
 .input-cIJ7To {
     background-color: $high;
     border-radius: 0;
@@ -34,6 +41,7 @@
     &::placeholder {
         color: $mid;
     }
+
 }
 // Buttons
 .theme-dark .watchButton-2SbJEo,
