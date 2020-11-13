@@ -14,3 +14,6 @@ THANKS TO GOmonkeymanGO FOR LETTING ME USE SOME OF HIS CODE ON HIS NIER UI THEME
 ![Image of Theme Preview](https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/Previews/preview3.png)
 ![Image of Theme Preview](https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/Previews/preview1.png)
 ![Image of Theme Preview](https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/Previews/preview2.png)
+
+Dark Mode
+![Image of Theme Preview](https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/Previews/dark-1.png)
