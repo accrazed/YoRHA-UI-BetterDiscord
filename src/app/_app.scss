@@ -49,6 +49,7 @@
 .lookInverted-2D7oAl.colorGreen-29iAKY,
 .lookInverted-2D7oAl.colorBrand-3pXr91,
 .container-UC8Ug1,
+.lookOutlined-3sRXeN.colorGreen-29iAKY,
 .lookOutlined-3sRXeN.colorBrand-3pXr91,
 .lookFilled-1Gx00P.colorPrimary-3b3xI6,
 .lookFilled-1Gx00P.colorGrey-2DXtkV,
@@ -56,6 +57,7 @@
 .lookFilled-1Gx00P.colorBrand-3pXr91:disabled {
     @include buttonify($low, $high, $mid, $high);
 }
+
 .jumpButton-JkYoYK,
 .button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp,
 .lookFilled-1Gx00P.colorGreen-29iAKY,

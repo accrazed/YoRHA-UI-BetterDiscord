@@ -4,6 +4,7 @@
     opacity: 0.4 !important;
 }
 // Transparencies
+.theme-dark .separator-2-RRj_,
 .theme-dark .footer-3mqk7D,
 .theme-dark .footer-2gL1pp {
     background-color: transparent;
@@ -98,6 +99,27 @@
             background-color: $high;
             path {
                 fill: $high;
+            }
+        }
+    }
+}
+// Invite Friends to Server
+.theme-dark {
+    .lookLink-9FtZy-.colorGrey-2DXtkV,
+    .footerText-2a7NxZ {
+        color: $low;
+    }
+    .inviteRow-2L02ae {
+        border-radius: 0;
+        .inviteRowName-1tVaxu {
+            color: $low;
+        }
+    
+        &:hover {
+            background: $low;
+            .lookLink-9FtZy-.colorGrey-2DXtkV,
+            .inviteRowName-1tVaxu {
+                color: $high;
             }
         }
     }
