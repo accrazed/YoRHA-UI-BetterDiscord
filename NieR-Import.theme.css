@@ -713,6 +713,19 @@ label,
   background: var(--color-high);
 }
 
+.colorBrand-2tjs5J {
+  color: var(--color-alert);
+}
+
+.repliedMessage-VokQwo:before {
+  border-radius: 0;
+}
+
+.replyBadge-r1su3o {
+  border-radius: 0;
+  border: 1px solid var(--color-low);
+}
+
 .newMessagesBar-265mhP,
 .jumpToPresentBar-G1R9s6 {
   box-shadow: none;
