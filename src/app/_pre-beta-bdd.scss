@@ -5,6 +5,9 @@
         &header {
             color: $low;
         }
+        &separator {
+            background-color: transparent;
+        }
     }
 
     // Main Pane
@@ -61,4 +64,7 @@
             }
         }
     }
+}
+.bd-modal-wrapper .tab-bar-container .tab-bar-item {
+    color: $low !important;
 }
