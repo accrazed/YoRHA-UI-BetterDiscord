@@ -5,6 +5,7 @@
 .separator-2I32lJ {
     margin: 0;
 }
+.headerStreaming-2FjmGz,
 .headerXbox-3G-4PF,
 .theme-dark .headerNormal-T_seeN,
 .theme-dark .body-3iLsc4,
@@ -65,6 +66,12 @@
 }
 .barInner-3NDaY_ {
     background: $high;
+}
+// Rich Embed Game Icon
+.gameIcon-gg34Dz,
+.assetsLargeImage-eYwpTX {
+    border-radius: 0;
+    border: 1px solid $high;
 }
 .root-SR8cQa, // User menu popout
 .theme-dark .colorPickerCustom-2CWBn2, // Color picker

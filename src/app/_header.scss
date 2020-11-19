@@ -26,10 +26,15 @@
     padding-right: 3px;
     margin: 0;
 }
-// AKA badge
-.akaBadge-1M-1Gw {
+.colorStreamerMode-2SJAUN, // Streamer mode Notif
+.akaBadge-1M-1Gw // AKA badge
+{
+    box-shadow: none;
     background: $alert;
     color: $high;
+}
+.notice-3bPHh- {
+    border-radius: 0;
 }
 // Channel icon
 .title-3qD0b- .children-19S4PO {

@@ -126,6 +126,7 @@
   color: var(--color-mid);
 }
 
+.theme-dark .button-2DhvE9,
 .theme-dark .watchButton-2SbJEo,
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6,
 .lookInverted-2D7oAl.colorGreen-29iAKY,
@@ -142,7 +143,9 @@
   background-color: var(--color-low);
   color: var(--color-high);
 }
-.theme-dark .watchButton-2SbJEo:hover, .theme-dark .watchButton-2SbJEo:active,
+.theme-dark .button-2DhvE9:hover, .theme-dark .button-2DhvE9:active,
+.theme-dark .watchButton-2SbJEo:hover,
+.theme-dark .watchButton-2SbJEo:active,
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover,
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:active,
 .lookInverted-2D7oAl.colorGreen-29iAKY:hover,
@@ -324,9 +327,15 @@
   margin: 0;
 }
 
+.colorStreamerMode-2SJAUN,
 .akaBadge-1M-1Gw {
+  box-shadow: none;
   background: var(--color-alert);
   color: var(--color-high);
+}
+
+.notice-3bPHh- {
+  border-radius: 0;
 }
 
 .title-3qD0b- .children-19S4PO .iconWrapper-2OrFZ1 {
@@ -1331,6 +1340,7 @@ strong {
   margin: 0;
 }
 
+.headerStreaming-2FjmGz,
 .headerXbox-3G-4PF,
 .theme-dark .headerNormal-T_seeN,
 .theme-dark .body-3iLsc4,
@@ -1396,6 +1406,12 @@ strong {
 
 .barInner-3NDaY_ {
   background: var(--color-high);
+}
+
+.gameIcon-gg34Dz,
+.assetsLargeImage-eYwpTX {
+  border-radius: 0;
+  border: 1px solid var(--color-high);
 }
 
 .root-SR8cQa,
