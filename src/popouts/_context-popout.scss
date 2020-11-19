@@ -1,4 +1,22 @@
 // Right-clicking things menu
+.theme-dark .quickSelectPopout-X1hvgV {
+    @include boxify($low, $mid, 3px);
+
+    .quickSelectPopoutOption-opKBx9 {
+        @include buttonify($low, $high, $high, $low);
+
+        .regionSelectName-c5qL8O {
+            color: $high;
+        }
+        &:hover .regionSelectName-c5qL8O {
+            color: $low;
+        }
+        .check-2by_h9 {
+            @include remask('https://discord.com/assets/6acb20d5e709b34b6a7f36ec13648666.svg', $alert);
+            mask-repeat: no-repeat;
+        }
+    }
+}
 .menu-3sdvDG,
 .theme-dark .tooltipBlack-PPG47z {
     @include boxify($low, $mid, 3px);

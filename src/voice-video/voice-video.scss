@@ -13,7 +13,6 @@
     padding-bottom: 0;
 }
 // Voice and Video
-
 .colorable-1bkp8v {
     &.white-3GPOIp {
         background: $high;
@@ -50,22 +49,32 @@
     }
 }
 .base-PmTxvP,
+.clickable-3rdHwn .icon-22AiRD:hover,
 .icon-22AiRD:hover,
 .controlIcon-35oS15:hover {
     color: $mid;
 }
+.quickSelect-3BxO0K,
+.quickSelectLabel-2r3iJ_,
 .playingText-3KIkt6,
 .controlIcon-35oS15,
+.clickable-3rdHwn .icon-22AiRD,
 .icon-22AiRD,
 .name-3YKhmS,
 .title-29uC1r {
     color: $low;
+}
+.status-254fhp {
+    color: $low;
+    background: $high-trans;
+    border-radius: 0;
 }
 .overlayTitle-8IcS01 {
     border-radius: 0;
     background: $low-trans;
     color: $high;
 }
+.status-254fhp,
 .border-3dQmSY.speaking-WDn8Wm,
 .avatarSpeaking-3MqCHL {
     box-shadow: inset 0 0 0 2px $alert;
@@ -79,6 +88,11 @@
     border-radius: 0;
     background: $alert !important;
     color: $high;
+}
+// Select Region arrow in videocall
+.theme-dark .quickSelectArrow-1QublR {
+    @include remask('https://discord.com/assets/f58cf3b8fc79e9d671ab649ab37651a9.svg', $low);
+    mask-repeat: no-repeat;
 }
 // Context hover
 .theme-dark .tooltipGrey-1hnvTt {

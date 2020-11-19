@@ -1,9 +1,9 @@
 // Embed card
 .embedFull-2tM8--,
- .messageContent-2qWWxC pre {
+.messageContent-2qWWxC pre {
     @include boxify($high, $mid, 4px);
 
-    code {
+    & > code {
         border-radius: 0;
         margin-left: 13px;
         margin-bottom: 4px;
@@ -16,7 +16,7 @@
     border-radius: 0;
     box-shadow: -3px 0 0 var(--color-low), -9px 0 0 var(--color-high), -21px 0 0 var(--color-low),
         -18px 3px 0 var(--color-mid), 3px 3px 0 var(--color-mid);
-    
+
     .metadata-3WGS0M {
         color: $low;
     }

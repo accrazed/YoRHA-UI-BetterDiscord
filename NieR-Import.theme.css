@@ -811,8 +811,8 @@ label,
   border-radius: 0;
   box-shadow: 4px 4px 0 var(--color-mid);
 }
-.embedFull-2tM8-- code,
-.messageContent-2qWWxC pre code {
+.embedFull-2tM8-- > code,
+.messageContent-2qWWxC pre > code {
   border-radius: 0;
   margin-left: 13px;
   margin-bottom: 4px;
@@ -1245,6 +1245,36 @@ strong {
 
 .autocompleteRow-2OthDa {
   padding: 0;
+}
+
+.theme-dark .quickSelectPopout-X1hvgV {
+  background: var(--color-low);
+  border-radius: 0;
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+.theme-dark .quickSelectPopout-X1hvgV .quickSelectPopoutOption-opKBx9 {
+  border-radius: 0;
+  border-color: transparent;
+  background-color: var(--color-low);
+  color: var(--color-high);
+}
+.theme-dark .quickSelectPopout-X1hvgV .quickSelectPopoutOption-opKBx9:hover, .theme-dark .quickSelectPopout-X1hvgV .quickSelectPopoutOption-opKBx9:active {
+  border-color: transparent !important;
+  background-color: var(--color-high) !important;
+  color: var(--color-low) !important;
+}
+.theme-dark .quickSelectPopout-X1hvgV .quickSelectPopoutOption-opKBx9 .regionSelectName-c5qL8O {
+  color: var(--color-high);
+}
+.theme-dark .quickSelectPopout-X1hvgV .quickSelectPopoutOption-opKBx9:hover .regionSelectName-c5qL8O {
+  color: var(--color-low);
+}
+.theme-dark .quickSelectPopout-X1hvgV .quickSelectPopoutOption-opKBx9 .check-2by_h9 {
+  -webkit-mask: url("https://discord.com/assets/6acb20d5e709b34b6a7f36ec13648666.svg");
+          mask: url("https://discord.com/assets/6acb20d5e709b34b6a7f36ec13648666.svg");
+  background: var(--color-alert) !important;
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
 }
 
 .menu-3sdvDG,
@@ -2073,17 +2103,27 @@ strong {
 }
 
 .base-PmTxvP,
+.clickable-3rdHwn .icon-22AiRD:hover,
 .icon-22AiRD:hover,
 .controlIcon-35oS15:hover {
   color: var(--color-mid);
 }
 
+.quickSelect-3BxO0K,
+.quickSelectLabel-2r3iJ_,
 .playingText-3KIkt6,
 .controlIcon-35oS15,
+.clickable-3rdHwn .icon-22AiRD,
 .icon-22AiRD,
 .name-3YKhmS,
 .title-29uC1r {
   color: var(--color-low);
+}
+
+.status-254fhp {
+  color: var(--color-low);
+  background: var(--color-high-trans);
+  border-radius: 0;
 }
 
 .overlayTitle-8IcS01 {
@@ -2092,6 +2132,7 @@ strong {
   color: var(--color-high);
 }
 
+.status-254fhp,
 .border-3dQmSY.speaking-WDn8Wm,
 .avatarSpeaking-3MqCHL {
   box-shadow: inset 0 0 0 2px var(--color-alert);
@@ -2107,6 +2148,14 @@ strong {
   border-radius: 0;
   background: var(--color-alert) !important;
   color: var(--color-high);
+}
+
+.theme-dark .quickSelectArrow-1QublR {
+  -webkit-mask: url("https://discord.com/assets/f58cf3b8fc79e9d671ab649ab37651a9.svg");
+          mask: url("https://discord.com/assets/f58cf3b8fc79e9d671ab649ab37651a9.svg");
+  background: var(--color-low) !important;
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
 }
 
 .theme-dark .tooltipGrey-1hnvTt {
