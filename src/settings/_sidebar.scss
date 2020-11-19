@@ -2,6 +2,7 @@
 .draggable-1EOU8o {
     padding: 1px 0;
 }
+.theme-dark #bd-settings-sidebar .ui-tab-bar-item, // PRE-BETA BBD: WILL BE DEPRECIATED SOON
 .side-8zPYf6 .item-PXvHYJ {
     transition: color 0.2s;
     border-radius: 0;
@@ -28,6 +29,7 @@
         width: 0%;
     }
     // Selected channel
+    &.selected, // PRE-BETA BBD: WILL BE DEPRECIATED SOON
     &.selected-3s45Ha,
     &:hover {
         color: $high;
