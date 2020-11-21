@@ -95,19 +95,22 @@
     background-color: $low;
 }
 // Checkbox
-.cardPrimaryEditable-3KtE4g {
-    @include boxify($high, $low, 3px);
-    border: 1px solid $low;
+.item-26Dhrx {
+    transition: color .2s, background-color .2s;
+    @include boxify($high, $mid, 3px);
+    @include buttonify($high, $low, $low, $high);
 
-    &[style="background-color:"] {
-        background: $low;
+    &[aria-checked=true] {
+        background: $alert;
+        color: $high;
+
+        .radioIconForeground-XwlXQN {
+            color: $high;
+        }
     }
-}
-[style*="border-color: rgb(114, 137, 218);"] {
-    border-color: $low !important;
-}
-[style*="background-color: rgb(114, 137, 218);"] {
-    background-color: $alert !important;
+    .radioBar-bMNUI- {
+        border-radius: 0;
+    }
 }
 // Drop-down
 .css-1kj8ui-container {

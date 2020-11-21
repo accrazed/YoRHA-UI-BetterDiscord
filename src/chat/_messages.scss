@@ -80,6 +80,10 @@
     color: $alert;
 }
 .repliedMessage-VokQwo:before {
+    border-left: var(--spine-width) solid $low;
+    border-bottom: 0 solid $low;
+    border-right: 0 solid $low;
+    border-top: var(--spine-width) solid $low;
     border-radius: 0;
 }
 .replyBadge-r1su3o {
@@ -111,13 +115,12 @@
 .syntaxBefore-1YQ9lW {
     color: $alert;
 }
-.timestamp-3ZCmNB.latin24CompactTimeStamp-2V7XIQ {
-    width: 64px;
-    margin-left: -11px;
-}
-.compact-2zYMSo .iconContainer-3GkGRf {
-    margin-left: 7px;
-}
+// Timestamps
 .compact-T3H92H .headerText-3Uvj1Y {
     border-right: 2px dashed $alert;
+}
+.compact-T3H92H .timestamp-3ZCmNB,
+.cozy-3raOZG .timestamp-3ZCmNB.alt-1uNpEt {
+    margin-right: 0;
+    width: auto;
 }
