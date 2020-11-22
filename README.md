@@ -1,4 +1,4 @@
-# YoRHA-UI-BetterDiscord
+# YoRHa-UI-BetterDiscord
 Better Discord theme based around NieR: Automata's Menu UI
 
 DOWNLOAD RELEASES HERE https://github.com/AccraZed/YoRHA-UI-BetterDiscord/releases
