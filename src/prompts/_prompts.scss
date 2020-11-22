@@ -40,6 +40,18 @@
         border: 3px solid $low;
     }
 }
+// Drag and drop upload
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc 
+{
+    .inner-3nWsbo .instructions-2Du9gG,
+    .inner-3nWsbo {
+        border: none;
+        color: $low;
+    }
+    .bgScale-1otPtc {
+        @include boxify($high, $mid, 4px);
+    }
+}
 .theme-dark .checkbox-1ix_J3 {
     border: 2px solid $high;
     border-radius: 0;

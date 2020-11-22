@@ -1688,6 +1688,17 @@ strong {
   border: 3px solid var(--color-low);
 }
 
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .instructions-2Du9gG,
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo {
+  border: none;
+  color: var(--color-low);
+}
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 4px 4px 0 var(--color-mid);
+}
+
 .theme-dark .checkbox-1ix_J3 {
   border: 2px solid var(--color-high);
   border-radius: 0;
