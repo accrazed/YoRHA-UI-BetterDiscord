@@ -56,8 +56,8 @@
     background-color: $low;
 }
 .emptyChannelIcon-cc932w {
-    background-image: url("https://svgur.com/i/RGT.svg");
-    @include remask("https://svgur.com/i/RGT.svg", $mid);
+    background-image: url('https://svgur.com/i/RGT.svg');
+    @include remask('https://svgur.com/i/RGT.svg', $mid);
     margin: auto;
     width: 403px !important;
     height: 353px !important;
@@ -76,6 +76,24 @@
     }
 }
 // Replies
+.mouse-mode.full-motion  .replying-1x3H0T {
+    &,
+    &:hover {
+        background-color: $alert-trans;
+    }
+    &:before {
+        background-color: $alert;
+    }
+}
+.backgroundFlash-24qWLN {
+    transition: background-color 0.1s;
+    background-color: $alert-trans !important;
+}
+[style="background-color: rgba(114, 137, 218, 0);"] {
+    background-color: transparent !important;
+    transition: background-color 0.5s;
+
+}
 .colorBrand-2tjs5J {
     color: $alert;
 }
