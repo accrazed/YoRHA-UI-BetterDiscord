@@ -21,10 +21,11 @@
 }
 // Channel hover/select animations
 .wrapper-2jXpOf {
-    height: 32px;
-    margin: 4px 0 4px 0;
+    height: 30px;
+    margin-bottom: 4px;
 
-    // Muted Channels
+    // Muted and Locked channels
+    &.modeLocked-25wLHj,
     &.modeMuted-onO3r- {
         opacity: 50%;
 
@@ -35,12 +36,6 @@
     }
     // Locked Channels
     &.modeLocked-25wLHj {
-        opacity: 50%;
-
-        .icon-1DeIlz,
-        .name-23GUGE {
-            color: $low;
-        }
         cursor: disabled;
     }
     // Square icon
@@ -61,9 +56,9 @@
     // Animation
     .content-1x5b-n {
         height: 28px;
+        top: 1px;
         margin-left: 0;
         border-radius: 0;
-        top: 2px;
     }
     .name-23GUGE,
     .actionIcon-PgcMM2 {
@@ -138,3 +133,4 @@
 .base-PmTxvP {
     border-radius: 0;
 }
+// Strange jitter glitch fix
