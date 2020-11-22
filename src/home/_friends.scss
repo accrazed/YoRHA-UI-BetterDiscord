@@ -12,7 +12,6 @@
     @include boxify($high, $mid, 3px);
 }
 // Low color
-
 .theme-dark .text-GwUZgS,
 .theme-dark .title-2BxgL2 {
     color: $low;
@@ -63,7 +62,10 @@
         }
     }
 }
-
+// Close button hover
+.children-gzQq2t {
+    z-index: 1;
+}
 .actionButton-uPB8Fs:hover {
     transition: background-color 0.2s ease-in-out;
     background-color: $low;
