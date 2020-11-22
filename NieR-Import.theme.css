@@ -619,23 +619,19 @@ path[d="M14 8C14 7.44772 13.5523 7 13 7H9.76001L10.3657 3.58738C10.4201 3.28107 
 }
 
 .wrapper-2jXpOf {
-  height: 32px;
-  margin: 4px 0 4px 0;
+  height: 30px;
+  margin-bottom: 4px;
 }
-.wrapper-2jXpOf.modeMuted-onO3r- {
+.wrapper-2jXpOf.modeLocked-25wLHj, .wrapper-2jXpOf.modeMuted-onO3r- {
   opacity: 50%;
 }
-.wrapper-2jXpOf.modeMuted-onO3r- .icon-1DeIlz,
+.wrapper-2jXpOf.modeLocked-25wLHj .icon-1DeIlz,
+.wrapper-2jXpOf.modeLocked-25wLHj .name-23GUGE, .wrapper-2jXpOf.modeMuted-onO3r- .icon-1DeIlz,
 .wrapper-2jXpOf.modeMuted-onO3r- .name-23GUGE {
   color: var(--color-low);
 }
 .wrapper-2jXpOf.modeLocked-25wLHj {
-  opacity: 50%;
   cursor: disabled;
-}
-.wrapper-2jXpOf.modeLocked-25wLHj .icon-1DeIlz,
-.wrapper-2jXpOf.modeLocked-25wLHj .name-23GUGE {
-  color: var(--color-low);
 }
 .wrapper-2jXpOf .icon-1DeIlz {
   transition: color 0.2s, background-color 0.2s;
@@ -652,9 +648,9 @@ path[d="M14 8C14 7.44772 13.5523 7 13 7H9.76001L10.3657 3.58738C10.4201 3.28107 
 }
 .wrapper-2jXpOf .content-1x5b-n {
   height: 28px;
+  top: 1px;
   margin-left: 0;
   border-radius: 0;
-  top: 2px;
 }
 .wrapper-2jXpOf .name-23GUGE,
 .wrapper-2jXpOf .actionIcon-PgcMM2 {
@@ -1135,6 +1131,10 @@ strong {
 .image-1GzsFd + div .text-GwUZgS::before {
   visibility: visible;
   content: "Nothing to see here, friend! *rolls away*";
+}
+
+.children-gzQq2t {
+  z-index: 1;
 }
 
 .actionButton-uPB8Fs:hover {
