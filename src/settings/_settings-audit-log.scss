@@ -1,0 +1,27 @@
+.theme-dark {
+    .auditLog-3jNbM6 {
+        color: $mid;
+        border: none;
+
+        &:hover .expandForeground-1nZ4VR {
+            stroke: $mid;
+        }
+        .expandForeground-1nZ4VR {
+            stroke: $low;
+        }
+        .icon-RTGJu3 {
+            background-color: $low;
+            border-radius: 25%;
+        }
+        div {
+            color: $mid;
+        }
+        strong,
+        span {
+            color: $low;
+        }
+        & > div {
+            @include boxify($high, $mid, 4px);
+        }
+    }
+}

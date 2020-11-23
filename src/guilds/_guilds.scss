@@ -10,7 +10,6 @@
 .listItem-2P_4kh .svg-1X37T1 foreignObject {
     mask: none;
 }
-
 // Folder
 .expandedFolderBackground-2sPsd- {
     @include boxify($high, $mid, 3px);
@@ -25,11 +24,16 @@
 .acronym-2mOFsV {
     color: $low !important;
 }
-// Unread messages
+// Selected / Unread Guild
 .item-2hkk8m {
-    background-color: $alert;
+    transition: background-color .2s;
+    background-color: $low;
     border-radius: 0;
     height: 48px !important;
+}
+// Unread Guild 
+.item-2hkk8m[style="opacity: 1; height: 8px; transform: none;"] {
+    background-color: $alert;
 }
 // Streaming icon
 .iconBadge-2wi9r4 {

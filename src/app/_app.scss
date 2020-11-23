@@ -60,6 +60,7 @@
     @include buttonify($low, $high, $mid, $high);
 }
 #bd-settingspane-container .bd-pfbtn, // PRE-BETA BBD: WILL BE DEPRECIATED SOON
+.theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6,
 .jumpButton-JkYoYK,
 .button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp,
 .lookFilled-1Gx00P.colorGreen-29iAKY,
@@ -140,6 +141,11 @@
     .css-rzbxvl-option {
         background-color: $low;
         color: $high;
+
+        .colorStandard-2KCXvj,
+        .subtitle-2yP_Eh {
+            color: $high;
+        }
     }
     .css-1ba14n5-option {
         background-color: $alert;

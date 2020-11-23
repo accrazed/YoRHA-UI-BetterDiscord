@@ -1,0 +1,10 @@
+// Unsaved changes alert
+.theme-dark .elevationHigh-1PneE4 {
+    background-color: $high !important;
+    @include boxify($high, $mid, 3px);
+
+    .contents-18-Yxp span,
+    .message-c9-HCF {
+        color: $low !important;
+    }
+}

@@ -29,13 +29,17 @@
         width: 0%;
     }
     // Selected channel
+    &[style*="color: rgb(255, 255, 255);"],
     &.selected, // PRE-BETA BBD: WILL BE DEPRECIATED SOON
     &.selected-3s45Ha,
     &:hover {
-        color: $high;
+        color: $high !important;
         box-shadow: 0 1px $low, 0 -1px $low;
         &:before {
             width: 100%;
+        }
+        path {
+            fill: $high;
         }
     }
     &[style="color: rgb(240, 71, 71); background-color: rgba(240, 71, 71, 0.1);"],
