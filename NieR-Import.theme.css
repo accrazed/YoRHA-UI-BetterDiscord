@@ -954,6 +954,20 @@ path[d="M14 8C14 7.44772 13.5523 7 13 7H9.76001L10.3657 3.58738C10.4201 3.28107 
   border-radius: 0;
 }
 
+.theme-dark .invite-18yqGF {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 3px 3px 0 var(--color-mid);
+  border: none;
+}
+.theme-dark .invite-18yqGF .header-Hg_qNF,
+.theme-dark .invite-18yqGF .partyStatus-6AjDud {
+  color: var(--color-low);
+}
+.theme-dark .invite-18yqGF .textLink-3aPthL {
+  color: var(--color-alert);
+}
+
 .reaction-1hd86g {
   border: 1px solid var(--color-low);
   border-radius: 0;

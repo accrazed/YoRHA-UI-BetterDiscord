@@ -29,3 +29,16 @@
 .video-8eMOth {
     border-radius: 0;
 }
+// Spotify Listen-Along
+.theme-dark .invite-18yqGF {
+    @include boxify($high, $mid, 3px);
+    border: none;
+    
+    .header-Hg_qNF,
+    .partyStatus-6AjDud {
+        color: $low;
+    }
+    .textLink-3aPthL {
+        color: $alert;
+    }
+}
