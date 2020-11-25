@@ -41,8 +41,7 @@
     }
 }
 // Drag and drop upload
-.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc 
-{
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc {
     .inner-3nWsbo .instructions-2Du9gG,
     .inner-3nWsbo {
         border: none;
@@ -126,7 +125,7 @@
         .inviteRowName-1tVaxu {
             color: $low;
         }
-    
+
         &:hover {
             background: $low;
             .lookLink-9FtZy-.colorGrey-2DXtkV,
@@ -174,4 +173,27 @@
 // Notification settings
 .theme-dark .modal-yWgWj- {
     @include boxify($high, $mid, 4px);
+}
+// Reactions
+.theme-dark {
+    .reactors-Blmlhw,
+    .scroller-1-nKid {
+        background: transparent;
+    }
+    .reactorDefault-1IUqMZ {
+        box-shadow: none;
+    }
+    .remove-3V-yj8,
+    .discriminator-byOsvi {
+        color: $low;
+    }
+    .reactionSelected-1pqISm,
+    .reactionDefault-GBA58K:hover {
+        background: $low;
+        border-radius: 0;
+        
+        .colorStandard-2KCXvj {
+            color: $high;
+        }
+    }
 }
