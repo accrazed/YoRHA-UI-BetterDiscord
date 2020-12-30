@@ -53,6 +53,10 @@ foreignObject[mask='url(#svg-mask-status-dnd)'] .status-1AY8sU {
 [style*='color: rgb(114, 137, 218);'] {
     color: $alert !important;
 }
+// Dark Fills / Blurple
+[style*='background-color: rgb(114, 137, 218);'] {
+    background-color: $low !important;
+}
 // Avatar upload
 .theme-dark .avatarUploaderIndicator-2G-aIZ {
     background-color: $mid;
