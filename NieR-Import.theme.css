@@ -1059,6 +1059,7 @@ strong {
 }
 
 .item-2hkk8m {
+  width: 11px;
   transition: background-color 0.2s;
   background-color: var(--color-low);
   border-radius: 0;
