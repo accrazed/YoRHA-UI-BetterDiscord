@@ -1306,6 +1306,7 @@ strong {
   border: none;
 }
 .message-2qnXI6 .role-2irmRk .roleCircle-3xAZ1j {
+  border: 1px solid var(--color-low);
   border-radius: 0;
   margin: 0;
 }
