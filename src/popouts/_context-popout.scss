@@ -12,13 +12,29 @@
             color: $low;
         }
         .check-2by_h9 {
-            @include remask('https://discord.com/assets/6acb20d5e709b34b6a7f36ec13648666.svg', $alert);
+            @include remask(
+                'https://discord.com/assets/6acb20d5e709b34b6a7f36ec13648666.svg',
+                $alert
+            );
             mask-repeat: no-repeat;
         }
     }
 }
+// Context hover
+.theme-dark .tooltipGrey-1hnvTt {
+    color: $low;
+    @include boxify($high, $mid, 3px);
+    .tooltipPointer-3ZfirK {
+        border: none;
+    }
+}
+
 .menu-3sdvDG,
-.theme-dark .tooltipBlack-PPG47z {
+.theme-dark .tooltip-2QfLtc,
+.theme-dark .listItemTooltip-CDcY8J {
+    .tooltipPointer-3ZfirK {
+        border: none;
+    }
     @include boxify($low, $mid, 3px);
     .scroller-3BxosC {
         padding: 0;

@@ -94,14 +94,6 @@
     @include remask('https://discord.com/assets/f58cf3b8fc79e9d671ab649ab37651a9.svg', $low);
     mask-repeat: no-repeat;
 }
-// Context hover
-.theme-dark .tooltipGrey-1hnvTt {
-    color: $low;
-    @include boxify($high, $mid, 3px);
-    .tooltipPointer-3ZfirK {
-        border: none;
-    }
-}
 // Member hover/select animations
 .draggable-2E_4tJ {
     height: 29px;

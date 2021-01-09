@@ -1438,18 +1438,36 @@ strong {
           mask-repeat: no-repeat;
 }
 
+.theme-dark .tooltipGrey-1hnvTt {
+  color: var(--color-low);
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+.theme-dark .tooltipGrey-1hnvTt .tooltipPointer-3ZfirK {
+  border: none;
+}
+
 .menu-3sdvDG,
-.theme-dark .tooltipBlack-PPG47z {
+.theme-dark .tooltip-2QfLtc,
+.theme-dark .listItemTooltip-CDcY8J {
   background: var(--color-low);
   border-radius: 0;
   box-shadow: 3px 3px 0 var(--color-mid);
 }
+.menu-3sdvDG .tooltipPointer-3ZfirK,
+.theme-dark .tooltip-2QfLtc .tooltipPointer-3ZfirK,
+.theme-dark .listItemTooltip-CDcY8J .tooltipPointer-3ZfirK {
+  border: none;
+}
 .menu-3sdvDG .scroller-3BxosC,
-.theme-dark .tooltipBlack-PPG47z .scroller-3BxosC {
+.theme-dark .tooltip-2QfLtc .scroller-3BxosC,
+.theme-dark .listItemTooltip-CDcY8J .scroller-3BxosC {
   padding: 0;
 }
 .menu-3sdvDG .colorDefault-2K3EoJ,
-.theme-dark .tooltipBlack-PPG47z .colorDefault-2K3EoJ {
+.theme-dark .tooltip-2QfLtc .colorDefault-2K3EoJ,
+.theme-dark .listItemTooltip-CDcY8J .colorDefault-2K3EoJ {
   border-radius: 0;
   border-color: transparent;
   background-color: var(--color-low);
@@ -1457,8 +1475,10 @@ strong {
   color: var(--color-high);
 }
 .menu-3sdvDG .colorDefault-2K3EoJ:hover, .menu-3sdvDG .colorDefault-2K3EoJ:active,
-.theme-dark .tooltipBlack-PPG47z .colorDefault-2K3EoJ:hover,
-.theme-dark .tooltipBlack-PPG47z .colorDefault-2K3EoJ:active {
+.theme-dark .tooltip-2QfLtc .colorDefault-2K3EoJ:hover,
+.theme-dark .tooltip-2QfLtc .colorDefault-2K3EoJ:active,
+.theme-dark .listItemTooltip-CDcY8J .colorDefault-2K3EoJ:hover,
+.theme-dark .listItemTooltip-CDcY8J .colorDefault-2K3EoJ:active {
   border-color: transparent !important;
   background-color: var(--color-high) !important;
   color: var(--color-low) !important;
@@ -2424,16 +2444,6 @@ strong {
   background: var(--color-low) !important;
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
-}
-
-.theme-dark .tooltipGrey-1hnvTt {
-  color: var(--color-low);
-  background: var(--color-high);
-  border-radius: 0;
-  box-shadow: 3px 3px 0 var(--color-mid);
-}
-.theme-dark .tooltipGrey-1hnvTt .tooltipPointer-3ZfirK {
-  border: none;
 }
 
 .draggable-2E_4tJ {
