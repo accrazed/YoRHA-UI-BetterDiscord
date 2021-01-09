@@ -1483,6 +1483,11 @@ strong {
   background-color: var(--color-high) !important;
   color: var(--color-low) !important;
 }
+.menu-3sdvDG .guildNameText-74xXQn,
+.theme-dark .tooltip-2QfLtc .guildNameText-74xXQn,
+.theme-dark .listItemTooltip-CDcY8J .guildNameText-74xXQn {
+  color: var(--color-high);
+}
 
 .item-1tOPte {
   border-radius: 0;
