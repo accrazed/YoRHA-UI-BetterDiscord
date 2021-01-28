@@ -402,11 +402,12 @@ label,
   color: var(--color-high);
 }
 
-.name-3YKhmS,
+.name-1jkAdW,
 .title-29uC1r {
   letter-spacing: 1px;
   text-shadow: 3px 4px 0 var(--color-mid);
   padding-right: 3px;
+  padding-bottom: 3px;
   margin: 0;
 }
 
@@ -423,6 +424,7 @@ label,
 
 .title-3qD0b- .children-19S4PO .iconWrapper-2OrFZ1 {
   margin: 0 5px;
+  margin-bottom: 4px;
 }
 .title-3qD0b- .children-19S4PO .icon-22AiRD {
   margin: 6px 0px;
@@ -1396,6 +1398,7 @@ strong {
   background-color: var(--color-low);
   border-radius: 0;
 }
+.theme-dark .selected-1Tbx07 .colorInteractiveActive-3Ip9Eu,
 .theme-dark .selected-1Tbx07 .colorStandard-2KCXvj,
 .theme-dark .selected-1Tbx07 .content-Qb0rXO,
 .theme-dark .selected-1Tbx07 .description-11DmNu,
