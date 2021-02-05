@@ -1,9 +1,19 @@
-/* Main Wallpaper */
 #app-mount {
-    background: url("https://i.ibb.co/q1FT2Qz/Nie-R-UI-Clean.png") center/cover no-repeat;
+  background: url("https://i.ibb.co/q1FT2Qz/Nie-R-UI-Clean.png") center/cover no-repeat;
 }
 
-/* HOME BUTTON BACKGROUND */
-.homeIcon-tEMBK1 {
-    background: url(https://i.imgur.com/3xonYy0.png) center/contain no-repeat;
+.tutorialContainer-1v44GL .svg-1X37T1 {
+  background: url(https://i.imgur.com/3xonYy0.png) center/contain no-repeat;
+}
+
+#app-mount:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(78, 75, 66, 0.2), transparent 30%, transparent 80%, rgba(78, 75, 66, 0.4)), radial-gradient(transparent 50%, rgba(78, 75, 66, 0.4));
+  -webkit-user-select: none;
+          user-select: none;
+  pointer-events: none;
 }

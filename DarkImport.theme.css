@@ -1,9 +1,22 @@
 /* Main Wallpaper */
-#app-mount {
-    background: url("https://i.ibb.co/yQM8Jhd/Nie-R-Background-low.png") center/cover no-repeat;
+#app-mount 
+  background: url("https://i.ibb.co/yQM8Jhd/Nie-R-Background-low.png") center/cover no-repeat;
 }
 
 /* HOME BUTTON BACKGROUND */
 .homeIcon-tEMBK1 {
-    background: url(https://i.imgur.com/09fncQw.png) center/contain no-repeat;
+  background: url(https://i.imgur.com/09fncQw.png) center/contain no-repeat;
+}
+
+#app-mount:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(218, 212, 187, 0.05), transparent 30%, transparent 80%, rgba(218, 212, 187, 0.05)), radial-gradient(transparent 50%, rgba(218, 212, 187, 0.1));
+  -webkit-user-select: none;
+          user-select: none;
+  pointer-events: none;
+}eat;
 }
