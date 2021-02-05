@@ -1,5 +1,5 @@
 /* Main Wallpaper */
-#app-mount 
+#app-mount {
   background: url("https://i.ibb.co/yQM8Jhd/Nie-R-Background-low.png") center/cover no-repeat;
 }
 
@@ -18,5 +18,4 @@
   -webkit-user-select: none;
           user-select: none;
   pointer-events: none;
-}eat;
 }
