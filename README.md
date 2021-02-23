@@ -1,7 +1,7 @@
 # YoRHa-UI-BetterDiscord
 Better Discord theme based around NieR: Automata's Menu UI
 
-DOWNLOAD RELEASES HERE https://github.com/AccraZed/YoRHA-UI-BetterDiscord/releases
+Available in light and dark mode!
 
 Theme also works in both compact and cozy mode! c:
 
