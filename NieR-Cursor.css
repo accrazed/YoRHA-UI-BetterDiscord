@@ -1,0 +1,61 @@
+#app-mount,
+.title-3sZWYQ,
+.modeDefault-3a2Ph1,
+.container-1r6BKw,
+.titleBar-AC4pGV {
+  cursor: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Normal_Select_v2.cur"), default !important;
+}
+
+.timestamp-3ZCmNB.latin24CompactTimeStamp-2V7XIQ,
+.searchBar-3dMhjb,
+.contents-2mQqc9,
+textarea,
+.textAreaSlate-1ZzRVj div div,
+input {
+  cursor: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Text_Select_v2.cur"), default !important;
+}
+
+a,
+button,
+.folder-21wGz3,
+.item-3eFBNF,
+.css-gvi9bl-control,
+.css-rzbxvl-option,
+.css-1ba14n5-option,
+.css-ku6vh5-indicatorContainer,
+.avatar-1BDn8e,
+.fileInput-23-d-3,
+.container-3auIfb,
+.input-rwLH4i,
+.profileBadge-2niAfJ,
+.item-1tOPte,
+.container-3baos1 .avatar-SmRMf2,
+.wrapper-25eVIn,
+.result-oB0z--,
+.labelClickable-11AuB8,
+.buttonWrapper-1ZmCpA,
+[role=button],
+[role=button] header,
+[type=checkbox],
+label,
+.item-26Dhrx,
+.additionalActionsIcon-1FoUlE,
+.clickable-1JJAn8:hover .layout-2DM8Md,
+.actionIcon-PgcMM2,
+.clickable-3Ya1ho,
+.friendsTable-133bsv .friendsRow-2yicud {
+  cursor: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Link_Select_v2.cur"), default !important;
+}
+
+.grabber-3mFHz2 {
+  cursor: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Horizontal_Resize_v2.cur"), default !important;
+}
+
+.disabled,
+.innerDisabled-1YTFPN,
+.disabled-BrLY9Y,
+.disabled-2HSEFa,
+.modeLocked-25wLHj,
+.modeLocked-25wLHj .mainContent-u_9PKf {
+  cursor: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/Pointers/Hack_Unavailable_v2.cur"), default !important;
+}
