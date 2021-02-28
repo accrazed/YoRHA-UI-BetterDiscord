@@ -1255,6 +1255,17 @@ strong {
   width: 100%;
 }
 
+.styledGuildsAsChannels-DNHtg_ .wrapper-1Rf91z .expandedFolderBackground-2sPsd- {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+
+.textScroller-dc9_kz,
+.selected-bZ3Lue .textScroller-dc9_kz {
+  color: var(--color-low) !important;
+}
+
 .wrapper-2Gsate {
   background: transparent;
 }
