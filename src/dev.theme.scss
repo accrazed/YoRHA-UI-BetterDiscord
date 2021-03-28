@@ -25,12 +25,12 @@
 
 /* GLOBAL VARIABLES */
 :root {
-    --color-low: rgb(87, 84, 74);  
-    --color-high: rgb(218, 212, 187);
+    --color-high: rgb(87, 84, 74);  
+    --color-low: rgb(218, 212, 187);
     --color-mid: rgb(151, 147, 129);
     --color-alert: rgb(205, 102, 77);
-    --color-low-trans: rgba(87, 84, 74, 0.6);
-    --color-high-trans: rgba(218, 212, 187, 0.8);
+    --color-high-trans: rgba(87, 84, 74, 0.6);
+    --color-low-trans: rgba(218, 212, 187, 0.8);
     --color-alert-trans: rgba(205, 102, 77, 0.7);
     --nier-font: sce-ps3_rodin_latinregular;
 }
@@ -44,4 +44,4 @@ $alert-trans: var(--color-alert-trans);
 $font: var(--nier-font);
 
 @import 'base'; // Main file
-@import 'light'; // color part
+@import 'dark'; // color part
