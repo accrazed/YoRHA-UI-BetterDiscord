@@ -459,13 +459,13 @@
 }
 
 .homeIcon-tEMBK1,
-.tutorialContainer-1v44GL .wrapper-25eVIn,
-.tutorialContainer-1v44GL .svg-1X37T1 {
+.tutorialContainer-2sGCg9 .wrapper-25eVIn,
+.tutorialContainer-2sGCg9 .svg-1X37T1 {
   height: 57px;
   width: 48px;
 }
 
-.tutorialContainer-1v44GL .svg-1X37T1 {
+.tutorialContainer-2sGCg9 .svg-1X37T1 {
   animation-name: y-spin;
   animation-duration: 4s;
   animation-timing-function: ease-in-out;
@@ -968,22 +968,26 @@ strong {
   font-size: 11pt;
 }
 
-.wrapper-1Rf91z,
-.theme-dark .pageWrapper-1PgVDX,
-.scroller-2TZvBN {
+.wrapper-3NnKdC,
+.scroller-1Bvpku {
   background-color: transparent;
 }
 
-.guildSeparator-3s64Iy {
+.guildSeparator-33mFX6 {
   height: 0;
 }
 
-.listItem-2P_4kh .svg-1X37T1 foreignObject {
+.listItem-GuPuDH .svg-1X37T1 foreignObject {
   -webkit-mask: none;
           mask: none;
 }
 
-.expandedFolderBackground-2sPsd- {
+.homeIcon-FuNwkv {
+  width: 48px;
+  height: 56px;
+}
+
+.expandedFolderBackground-1cujaW {
   background: var(--color-high);
   border-radius: 0;
   box-shadow: 3px 3px 0 var(--color-mid);
@@ -1254,7 +1258,7 @@ strong {
   width: 100%;
 }
 
-.styledGuildsAsChannels-DNHtg_ .wrapper-1Rf91z .expandedFolderBackground-2sPsd- {
+.styledGuildsAsChannels-DNHtg_ .wrapper-1Rf91z .expandedFolderBackground-1cujaW {
   background: var(--color-high);
   border-radius: 0;
   box-shadow: 3px 3px 0 var(--color-mid);
@@ -1451,7 +1455,6 @@ strong {
   margin: 0;
 }
 
-.colorDanger-2qLCe1,
 .colorDanger-2qLCe1 .checkbox-3s5GYZ,
 .colorDanger-2qLCe1 .radioSelection-1HmrQS {
   color: var(--color-alert) !important;
@@ -1461,6 +1464,7 @@ strong {
   color: var(--color-mid);
 }
 
+.guildNameText-3Zwx4p,
 .theme-dark .tooltip-2QfLtc,
 .theme-dark .listItemTooltip-CDcY8J {
   color: var(--color-high);
@@ -1477,13 +1481,11 @@ strong {
   border-radius: 0;
   box-shadow: 3px 3px 0 var(--color-mid);
 }
-
 .theme-dark .autocompleteArrow-Zxoy9H,
 .theme-dark .header-2bNvm4 {
   background-color: transparent;
   box-shadow: none;
 }
-
 .theme-dark .addGamePopout-2RY8Ju .cancelButton-10XRsm,
 .theme-dark .empty-3hoe1g .noResultsHeader-pqW4H-,
 .theme-dark .empty-3hoe1g p,

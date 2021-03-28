@@ -28,7 +28,6 @@
         border: none;
     }
 }
-
 .menu-3sdvDG,
 .theme-dark .tooltip-2QfLtc,
 .theme-dark .listItemTooltip-CDcY8J {
@@ -52,14 +51,16 @@
     margin: 0;
 }
 // Red text in context menu
-.colorDanger-2qLCe1,
-.colorDanger-2qLCe1 .checkbox-3s5GYZ,
-.colorDanger-2qLCe1 .radioSelection-1HmrQS {
-    color: $alert !important;
+.colorDanger-2qLCe1 {
+    .checkbox-3s5GYZ,
+    .radioSelection-1HmrQS {
+        color: $alert !important;
+    }
 }
 .clickCTA-2B6Kbs {
     color: $mid;
 }
+.guildNameText-3Zwx4p,
 .theme-dark .tooltip-2QfLtc,
 .theme-dark .listItemTooltip-CDcY8J {
     color: $high;
@@ -68,24 +69,27 @@
 .theme-dark .tooltipBlack-PPG47z .tooltipPointer-3ZfirK {
     border: none;
 }
-// Add role
-.theme-dark .autocompleteShadow-iiGWFU {
-    border: 1px solid $low;
-    @include boxify($high, $mid, 3px);
-}
-.theme-dark .autocompleteArrow-Zxoy9H,
-.theme-dark .header-2bNvm4 {
-    background-color: transparent;
-    box-shadow: none;
-}
-.theme-dark .addGamePopout-2RY8Ju .cancelButton-10XRsm,
-.theme-dark .empty-3hoe1g .noResultsHeader-pqW4H-,
-.theme-dark .empty-3hoe1g p,
-.theme-dark .container-VSDcQc .input-1ppKdn {
-    color: $low;
 
-    &::placeholder {
-        color: $mid;
+.theme-dark {
+    // Add role
+    .autocompleteShadow-iiGWFU {
+        border: 1px solid $low;
+        @include boxify($high, $mid, 3px);
+    }
+    .autocompleteArrow-Zxoy9H,
+    .header-2bNvm4 {
+        background-color: transparent;
+        box-shadow: none;
+    }
+    .addGamePopout-2RY8Ju .cancelButton-10XRsm,
+    .empty-3hoe1g .noResultsHeader-pqW4H-,
+    .empty-3hoe1g p,
+    .container-VSDcQc .input-1ppKdn {
+        color: $low;
+
+        &::placeholder {
+            color: $mid;
+        }
     }
 }
 .row-rrHHJU.selected-1pIgLL .rowInner-1vvRiF {
