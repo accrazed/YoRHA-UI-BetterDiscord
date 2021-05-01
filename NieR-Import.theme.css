@@ -229,15 +229,20 @@
   fill: var(--color-low);
 }
 
-.bd-switch {
+.bd-switch-body {
+  --switch-color: $mid;
   background-color: var(--color-mid);
 }
-.bd-switch::after {
-  background-color: var(--color-high);
+.bd-switch-body .bd-switch-slider .bd-switch-handle {
+  fill: var(--color-high);
 }
 
-.bd-switch-checked {
+.bd-switch-checked .bd-switch-body {
   background-color: var(--color-low);
+}
+
+.bd-switch input:checked + .bd-switch-body {
+  --switch-color: $high ;
 }
 
 .item-26Dhrx {
@@ -758,7 +763,7 @@ path[d="M14 8C14 7.44772 13.5523 7 13 7H9.76001L10.3657 3.58738C10.4201 3.28107 
 }
 
 .theme-dark .mentioned-xhSam7 .mention.interactive:hover {
-  color: var(--color-high);
+  color: var(--color-low);
 }
 
 .wrapper-3WhCwL {

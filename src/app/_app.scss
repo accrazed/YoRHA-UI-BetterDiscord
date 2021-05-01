@@ -86,14 +86,18 @@
         fill: $low;
     }
 }
-.bd-switch {
+.bd-switch-body {
+    --switch-color: $mid;
     background-color: $mid;
-    &::after {
-        background-color: $high;
+    .bd-switch-slider .bd-switch-handle {
+        fill: $high;
     }
 }
-.bd-switch-checked {
+.bd-switch-checked .bd-switch-body {
     background-color: $low;
+}
+.bd-switch input:checked+.bd-switch-body {
+    --switch-color: $high
 }
 // Checkbox
 .item-26Dhrx {

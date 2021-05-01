@@ -63,8 +63,10 @@
     height: 353px !important;
 }
 // Mentions
-.theme-dark .mentioned-xhSam7 .mention.interactive:hover {
-    color: $high;
+.theme-dark .mentioned-xhSam7 {
+    .mention.interactive:hover {
+        color: $low;
+    }
 }
 .wrapper-3WhCwL {
     background: $alert-trans;
@@ -76,7 +78,7 @@
     }
 }
 // Replies
-.mouse-mode.full-motion  .replying-1x3H0T {
+.mouse-mode.full-motion .replying-1x3H0T {
     &,
     &:hover {
         background-color: $alert-trans;
@@ -89,10 +91,9 @@
     transition: background-color 0.1s;
     background-color: $alert-trans !important;
 }
-[style="background-color: rgba(114, 137, 218, 0);"] {
+[style='background-color: rgba(114, 137, 218, 0);'] {
     background-color: transparent !important;
     transition: background-color 0.5s;
-
 }
 .colorBrand-2tjs5J {
     color: $alert;
