@@ -17,3 +17,8 @@
           user-select: none;
   pointer-events: none;
 }
+
+.theme-dark .mentioned-xhSam7 a {
+  background-color: var(--color-low-trans);
+  border-radius: 0.25em;
+}
