@@ -1156,6 +1156,10 @@ strong {
   color: var(--color-high);
 }
 
+.tabBody-3YRQ8W:before {
+  display: none;
+}
+
 .scroller-2XE8rp {
   background: transparent;
 }
@@ -1616,9 +1620,10 @@ strong {
   box-shadow: none;
 }
 
-.searchBar-3dMhjb {
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+  background-color: var(--color-high-trans);
   border-radius: 0;
-  background: var(--color-high-trans);
+  text-align: center;
 }
 
 .theme-dark .searchAnswer-3Dz2-q,
