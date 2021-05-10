@@ -13,6 +13,7 @@
 // Search Box
 .searchBar-3dMhjb,
 .searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+    border: 1px solid $low;
     background-color: $high-trans;
     border-radius: 0;
     text-align: center;
@@ -73,7 +74,7 @@
         &.selected-rZcOL- {
             background: $low;
             border-radius: 0;
-            
+
             &::after {
                 background: transparent;
             }

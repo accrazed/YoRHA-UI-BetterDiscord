@@ -1622,6 +1622,7 @@ strong {
 
 .searchBar-3dMhjb,
 .searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+  border: 1px solid var(--color-low);
   background-color: var(--color-high-trans);
   border-radius: 0;
   text-align: center;
@@ -2161,6 +2162,16 @@ strong {
   border-radius: 0;
   background-color: var(--color-alert);
   color: var(--color-high);
+}
+
+.warning-3C2pOH .icon-1jlFSw {
+  color: var(--color-alert);
+}
+
+.warning-3C2pOH {
+  border-color: var(--color-alert);
+  border-radius: 0;
+  background-color: transparent;
 }
 
 .item-3eFBNF .checkbox-1ix_J3 {
