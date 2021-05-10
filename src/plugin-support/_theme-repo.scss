@@ -1,0 +1,12 @@
+.theme-dark .card-x5zW6z {
+    @include boxify($high, $mid, 3px);
+
+    .footer-C1KpS6 button {
+        transition: all 0.1s;
+        background-color: $low !important;
+        @include buttonify($low, $high, $alert, $high);
+    }
+}
+.slider-TkfMQL path {
+    fill: $low;
+}
