@@ -63,18 +63,20 @@
     height: 353px !important;
 }
 // Mentions
-.theme-dark .mentioned-xhSam7 {
-    .mention.interactive:hover {
-        color: $low;
+.theme-dark {
+    .mentioned-xhSam7 {
+        .mention.interactive:hover {
+            color: $low;
+        }
     }
-}
-.wrapper-3WhCwL {
-    background: $alert-trans;
-    color: $high;
+    .wrapper-3WhCwL {
+        background: $alert-trans;
+        color: $high;
 
-    &:hover {
-        color: $alert;
-        background: $high;
+        &:hover {
+            color: $alert;
+            background: $high;
+        }
     }
 }
 // Replies

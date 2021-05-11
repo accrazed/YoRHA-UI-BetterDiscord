@@ -765,12 +765,11 @@ path[d="M14 8C14 7.44772 13.5523 7 13 7H9.76001L10.3657 3.58738C10.4201 3.28107 
 .theme-dark .mentioned-xhSam7 .mention.interactive:hover {
   color: var(--color-low);
 }
-
-.wrapper-3WhCwL {
+.theme-dark .wrapper-3WhCwL {
   background: var(--color-alert-trans);
   color: var(--color-high);
 }
-.wrapper-3WhCwL:hover {
+.theme-dark .wrapper-3WhCwL:hover {
   color: var(--color-alert);
   background: var(--color-high);
 }
