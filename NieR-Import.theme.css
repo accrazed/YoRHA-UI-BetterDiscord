@@ -1060,6 +1060,17 @@ strong {
   box-shadow: 5px 5px 0 var(--color-mid);
 }
 
+.theme-dark .contentWrapper-3WC1ID {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 5px 5px 0 var(--color-mid);
+}
+.theme-dark .contentWrapper-3WC1ID .lookLink-9FtZy-.colorBrand-3pXr91 {
+  color: var(--color-alert);
+  -webkit-text-decoration-color: var(--color-alert);
+          text-decoration-color: var(--color-alert);
+}
+
 .scroller-1JbKMe,
 .sidebar-2K8pFh,
 .privateChannels-1nO12o {

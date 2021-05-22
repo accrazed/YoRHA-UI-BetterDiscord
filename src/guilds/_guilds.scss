@@ -72,3 +72,11 @@
 .theme-dark .iconMask-3b8GzQ {
     @include boxify($high, $mid, 5px);
 }
+.theme-dark .contentWrapper-3WC1ID {
+    @include boxify($high, $mid, 5px);
+
+    .lookLink-9FtZy-.colorBrand-3pXr91 {
+        color: $alert;
+        text-decoration-color: $alert;
+    }
+}
