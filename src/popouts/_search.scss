@@ -2,6 +2,7 @@
 .searchResult-9tQ1uo:before,
 .searchResult-9tQ1uo:after,
 .channelName-1JRO3C,
+.searchHeader-2XoQg7,
 .searchResultsWrap-3-pOjs,
 .theme-dark .option-96V44q:after {
     background: transparent;
@@ -18,6 +19,18 @@
     border-radius: 0;
     text-align: center;
 }
+// Upper Tabs in search results
+.theme-dark .tab-2j5AEF {
+    &:hover {
+        color: $high;
+        background-color: $low;
+    }
+    &.selected-2LAck8 {
+        color: $high;
+        background-color: $alert;
+    }
+}
+
 // Search options popout
 .theme-dark {
     // In-text labels
@@ -94,6 +107,9 @@
     }
 }
 // Search results
+.searchResult-9tQ1uo {
+    @include boxify($high, $mid, 5px);
+}
 .searchResult-9tQ1uo.expanded-w_LCGl,
 .searchResultMessage-1fxgXh.hit-1fVM9e {
     border: 1px solid $low;

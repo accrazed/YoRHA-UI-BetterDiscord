@@ -6,7 +6,7 @@
 }
 // Member hover/select animations
 .container-2Pjhx- {
-    transition: color .2s;
+    transition: color 0.2s;
     max-width: none;
     border-radius: 0;
     height: 44px;
@@ -20,7 +20,7 @@
         border-radius: 0;
     }
     .layout-2DM8Md:before {
-        content: "";
+        content: '';
         position: absolute;
         left: 0;
         top: 2px;
@@ -51,6 +51,17 @@
         }
     }
 }
+// Avatar
+// TODO: Get it in a working squared out state? Maybe the status can border around the entire profile picture?
+// .status-1eOIMS,
+// .svg-2V3M55 foreignObject {
+//     border: 1px solid $low;
+//     mask: none;
+// }
+// .pointerEvents-2zdfdO {
+//     position: absolute;
+//     mask: none;
+// }
 // Bot tag
 .botTagRegular-2HEhHi {
     background-color: $alert;
