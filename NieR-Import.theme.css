@@ -1575,13 +1575,21 @@ strong {
   background: transparent;
 }
 
+.theme-dark .headerTextNormal-2mGWX3 .headerText-1HLrL7,
+.theme-dark .headerTextNormal-2mGWX3 .content-3JfFJh,
+.theme-dark .headerTextNormal-2mGWX3 .details-38sfDr,
+.theme-dark .headerTextNormal-2mGWX3 .name-29ETJS,
+.theme-dark .playTime-2uWd1Z .headerText-1HLrL7,
+.theme-dark .playTime-2uWd1Z .content-3JfFJh,
+.theme-dark .playTime-2uWd1Z .details-38sfDr,
+.theme-dark .playTime-2uWd1Z .name-29ETJS,
+.theme-dark .activityProfile-2bJRaP .headerText-1HLrL7,
 .theme-dark .activityProfile-2bJRaP .content-3JfFJh,
 .theme-dark .activityProfile-2bJRaP .details-38sfDr,
-.theme-dark .activityProfile-2bJRaP .headerText-1HLrL7,
 .theme-dark .activityProfile-2bJRaP .name-29ETJS,
+.theme-dark .activityUserPopout-2yItg2 .headerText-1HLrL7,
 .theme-dark .activityUserPopout-2yItg2 .content-3JfFJh,
 .theme-dark .activityUserPopout-2yItg2 .details-38sfDr,
-.theme-dark .activityUserPopout-2yItg2 .headerText-1HLrL7,
 .theme-dark .activityUserPopout-2yItg2 .name-29ETJS {
   color: var(--color-high);
 }
@@ -1598,6 +1606,7 @@ strong {
   color: var(--color-mid) !important;
 }
 
+.theme-dark .newPopoutActivityStyles .activityName-1IaRLn,
 .activityHeader-1PExlk,
 .customStatusText-39gdCI,
 .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O),
@@ -1629,6 +1638,11 @@ strong {
 
 .barInner-3NDaY_ {
   background: var(--color-high);
+}
+
+.activity-fViXj7 {
+  padding: 16px;
+  background-color: var(--color-low);
 }
 
 .gameIcon-gg34Dz,
