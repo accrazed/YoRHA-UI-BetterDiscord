@@ -543,6 +543,24 @@ path[d="M14 8C14 7.44772 13.5523 7 13 7H9.76001L10.3657 3.58738C10.4201 3.28107 
   transform: translateX(-108%) translateY(0%) scale(2);
 }
 
+#bd-pub-button {
+  border-radius: 0;
+  border-color: transparent;
+  background-color: var(--color-low);
+  color: var(--color-high);
+  box-shadow: 3px 3px 0 var(--color-high);
+}
+#bd-pub-button:hover, #bd-pub-button:active {
+  border-color: transparent !important;
+  background-color: var(--color-alert) !important;
+  color: var(--color-high) !important;
+}
+
+#bd-pub-li {
+  margin: 0;
+  padding: 5px 0;
+}
+
 .unread-2lAfLh,
 .panels-j1Uci_,
 .wrapper-2jXpOf:hover .content-1x5b-n,

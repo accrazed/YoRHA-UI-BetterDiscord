@@ -1,0 +1,8 @@
+#bd-pub-button {
+    @include buttonify($low, $high, $alert, $high);
+    box-shadow: 3px 3px 0 $high;
+}
+#bd-pub-li {
+    margin: 0;
+    padding: 5px 0;
+}
