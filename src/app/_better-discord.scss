@@ -6,3 +6,7 @@
     margin: 0;
     padding: 5px 0;
 }
+.bd-server-card,
+.bd-server-card:hover {
+    @include boxify($high, $mid, 5px);
+}

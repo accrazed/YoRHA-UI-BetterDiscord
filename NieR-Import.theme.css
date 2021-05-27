@@ -561,6 +561,13 @@ path[d="M14 8C14 7.44772 13.5523 7 13 7H9.76001L10.3657 3.58738C10.4201 3.28107 
   padding: 5px 0;
 }
 
+.bd-server-card,
+.bd-server-card:hover {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 5px 5px 0 var(--color-mid);
+}
+
 .unread-2lAfLh,
 .panels-j1Uci_,
 .wrapper-2jXpOf:hover .content-1x5b-n,
@@ -1002,6 +1009,7 @@ strong {
 }
 
 .listItem-GuPuDH .svg-1X37T1 foreignObject {
+  box-shadow: 3px 3px 0 var(--color-mid);
   -webkit-mask: none;
           mask: none;
 }
