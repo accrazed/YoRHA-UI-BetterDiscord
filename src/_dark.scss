@@ -1,6 +1,7 @@
 // Wallpaper
 #app-mount {
-    background: url("https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/wallpapers/NieR-LOW-1440.png") center/cover no-repeat;
+    background: url('https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/wallpapers/NieR-LOW-1440.png')
+        center/cover no-repeat;
 }
 // Home icon
 .homeIcon-FuNwkv {
@@ -8,13 +9,13 @@
 }
 // Theatre effect
 #app-mount:before {
-    content: "";
+    content: '';
     position: absolute;
     left: 0;
     width: 100%;
     height: 100%;
     background: linear-gradient(
-            to right, 
+            to right,
             rgba(218, 212, 187, 0.05),
             transparent 30%,
             transparent 80%,

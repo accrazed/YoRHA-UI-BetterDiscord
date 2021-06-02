@@ -2032,6 +2032,14 @@ strong {
   fill: var(--color-low);
 }
 
+.h1-1qdNzo,
+.h2-2gWE-o {
+  letter-spacing: 1px;
+  text-shadow: 2px 4px 0 var(--color-mid);
+  padding-right: 3px;
+  padding-bottom: 3px;
+}
+
 .theme-dark .auditLog-3jNbM6 {
   color: var(--color-mid);
   border: none;
@@ -2361,6 +2369,13 @@ strong {
 
 .draggable-1EOU8o {
   padding: 1px 0;
+}
+
+.side-8zPYf6 .header-2RyJ0Y {
+  letter-spacing: 1px;
+  text-shadow: 1px 3px 0 var(--color-mid);
+  padding-right: 3px;
+  padding-bottom: 3px;
 }
 
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item,
