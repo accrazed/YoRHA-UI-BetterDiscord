@@ -21,10 +21,7 @@
 // Top header
 .name-1jkAdW,
 .title-29uC1r {
-    letter-spacing: 1px;
-    text-shadow: 3px 4px 0 $mid;
-    padding-right: 3px;
-    padding-bottom: 3px;
+    @include titlify(3px, 4px);
     margin: 0;
 }
 .colorStreamerMode-2SJAUN, // Streamer mode Notif
@@ -55,7 +52,7 @@
         fill: $low;
     }
 }
-// Home 
+// Home
 .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover,
 .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
     border-radius: 0;

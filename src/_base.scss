@@ -20,7 +20,12 @@
         color: $hover-text !important;
     }
 }
-
+@mixin titlify($left-offset, $up-offset) {
+    letter-spacing: 1px;
+    text-shadow: $left-offset $up-offset 0 $mid;
+    padding-right: 3px;
+    padding-bottom: 3px;
+}
 @keyframes pulsingBackground {
     0% {
         background-color: $low;
