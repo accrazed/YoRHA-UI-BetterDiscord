@@ -41,7 +41,6 @@
     &::placeholder {
         color: $mid;
     }
-
 }
 // Buttons
 .bd-modal-wrapper .footer button, // PRE-BETA BBD: WILL BE DEPRECIATED SOON
@@ -72,14 +71,14 @@
     @include buttonify($alert, $high, $high, $low);
 }
 // Toggle switch
-.container-3auIfb[style="opacity: 1; background-color: rgb(114, 118, 125);"] {
+.container-3auIfb[style='opacity: 1; background-color: rgb(114, 118, 125);'] {
     background: $mid !important;
 
     path {
         fill: $mid;
     }
 }
-.container-3auIfb[style="opacity: 1; background-color: rgb(67, 181, 129);"] {
+.container-3auIfb[style='opacity: 1; background-color: rgb(67, 181, 129);'] {
     background: $low !important;
 
     path {
@@ -96,16 +95,16 @@
 .bd-switch-checked .bd-switch-body {
     background-color: $low;
 }
-.bd-switch input:checked+.bd-switch-body {
-    --switch-color: $high
+.bd-switch input:checked + .bd-switch-body {
+    --switch-color: $high;
 }
 // Checkbox
 .item-26Dhrx {
-    transition: color .2s, background-color .2s;
+    transition: color 0.2s, background-color 0.2s;
     @include boxify($high, $mid, 3px);
     @include buttonify($high, $low, $low, $high);
 
-    &[aria-checked=true] {
+    &[aria-checked='true'] {
         background: $alert;
         color: $high;
 
@@ -122,7 +121,7 @@
     div {
         border-radius: 0;
     }
-    .css-6fzn47-control  {
+    .css-6fzn47-control {
         border: 2px solid $alert;
         background-color: $high;
     }
