@@ -1349,7 +1349,7 @@ strong {
   --rs-width: 2px;
   --rs-avatar-shape: 0;
   --rs-online-color: #43b581;
-  --rs-idle-color: #faa61a;
+  --rs-idle-color: #c9a25f;
   --rs-dnd-color: var(--color-alert);
   --rs-offline-color: #636b75;
   --rs-streaming-color: #643da7;
