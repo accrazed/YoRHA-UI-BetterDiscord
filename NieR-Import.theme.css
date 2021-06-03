@@ -1,3 +1,4 @@
+@import url("https://gibbu.github.io/BetterDiscord-Themes/RadialStatus/base.css");
 @keyframes pulsingBackground {
   0% {
     background-color: var(--color-low);
@@ -244,7 +245,7 @@
 }
 
 .bd-switch input:checked + .bd-switch-body {
-  --switch-color: $high ;
+  --switch-color: $high;
 }
 
 .item-26Dhrx {
@@ -1340,6 +1341,21 @@ strong {
 
 .slider-TkfMQL path {
   fill: var(--color-low);
+}
+
+:root {
+  --rs-small-spacing: 0px;
+  --rs-large-spacing: 0px;
+  --rs-width: 2px;
+  --rs-avatar-shape: 0;
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: var(--color-alert);
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-invisible-color: #747f8d;
+  --rs-phone-visible: block;
+  --rs-phone-color: var(--rs-online-color);
 }
 
 .wrapper-2Gsate {
