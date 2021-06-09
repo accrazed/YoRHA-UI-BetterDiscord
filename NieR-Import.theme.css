@@ -92,6 +92,7 @@
   color: var(--color-high);
   background: var(--color-alert);
 }
+
 .winButtonMinMax-PBQ2gm:hover {
   transition: background-color 0.2s, color 0.2s ease;
   color: var(--color-high);
