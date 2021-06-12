@@ -21,6 +21,7 @@
 }
 // Upper Tabs in search results
 .theme-dark .tab-2j5AEF {
+    transition: all 0.1s;
     &:hover {
         color: $high;
         background-color: $low;
@@ -109,6 +110,9 @@
 // Search results
 .searchResult-9tQ1uo {
     @include boxify($high, $mid, 5px);
+}
+.tab-2j5AEF {
+    border-radius: 0;
 }
 .searchResult-9tQ1uo.expanded-w_LCGl,
 .searchResultMessage-1fxgXh.hit-1fVM9e {

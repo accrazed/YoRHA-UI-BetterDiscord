@@ -1744,6 +1744,9 @@ strong {
   text-align: center;
 }
 
+.theme-dark .tab-2j5AEF {
+  transition: all 0.1s;
+}
 .theme-dark .tab-2j5AEF:hover {
   color: var(--color-high);
   background-color: var(--color-low);
@@ -1824,6 +1827,10 @@ strong {
   background: var(--color-high);
   border-radius: 0;
   box-shadow: 5px 5px 0 var(--color-mid);
+}
+
+.tab-2j5AEF {
+  border-radius: 0;
 }
 
 .searchResult-9tQ1uo.expanded-w_LCGl,
