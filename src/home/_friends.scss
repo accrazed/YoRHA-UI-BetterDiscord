@@ -3,6 +3,7 @@
 .scroller-9moviB,
 .applicationStore-1pNvnv,
 .nowPlayingColumn-2sl4cE,
+.container-lRFx4q,
 .theme-dark .inset-3sAvek,
 .theme-dark .container-1D34oG {
     background-color: transparent;
@@ -20,6 +21,7 @@
 .theme-dark .feature-2w65J5,
 .banner-WELp4M,
 .wrapper-3D2qGf {
+    transition: all 0.1s;
     @include boxify($high, $mid, 4px);
 
     .inset-3sAvek {
@@ -30,7 +32,9 @@
         color: $high;
         background: $low;
     }
-
+    .section-2gLsgF {
+        border-radius: 0;
+    }
     &:hover {
         background-color: $low !important;
 
@@ -43,7 +47,14 @@
         .colorStandard-2KCXvj {
             color: $high;
         }
+        .section-2gLsgF div {
+            color: $low;
+        }
     }
+}
+// 'Active Now' Header
+.header-2SF4Nh {
+    @include titlify(2px, 4px);
 }
 // No pending requests image
 .theme-dark .emptyWumpus-12J3jI,
@@ -58,7 +69,7 @@
 
         &::before {
             visibility: visible;
-            content: 'Nothing to see here, friend! *rolls away*';
+            content: "Nothing to see here, friend! *rolls away*";
         }
     }
 }

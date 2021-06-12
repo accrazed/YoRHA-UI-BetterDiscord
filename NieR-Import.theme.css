@@ -1107,6 +1107,7 @@ strong {
 .scroller-9moviB,
 .applicationStore-1pNvnv,
 .nowPlayingColumn-2sl4cE,
+.container-lRFx4q,
 .theme-dark .inset-3sAvek,
 .theme-dark .container-1D34oG {
   background-color: transparent;
@@ -1127,6 +1128,7 @@ strong {
 .theme-dark .feature-2w65J5,
 .banner-WELp4M,
 .wrapper-3D2qGf {
+  transition: all 0.1s;
   background: var(--color-high);
   border-radius: 0;
   box-shadow: 4px 4px 0 var(--color-mid);
@@ -1142,6 +1144,11 @@ strong {
 .wrapper-3D2qGf .partyMemberOverflow-lXnzvu {
   color: var(--color-high);
   background: var(--color-low);
+}
+.theme-dark .feature-2w65J5 .section-2gLsgF,
+.banner-WELp4M .section-2gLsgF,
+.wrapper-3D2qGf .section-2gLsgF {
+  border-radius: 0;
 }
 .theme-dark .feature-2w65J5:hover,
 .banner-WELp4M:hover,
@@ -1164,6 +1171,18 @@ strong {
 .wrapper-3D2qGf:hover .colorHeaderSecondary-3Sp3Ft,
 .wrapper-3D2qGf:hover .colorStandard-2KCXvj {
   color: var(--color-high);
+}
+.theme-dark .feature-2w65J5:hover .section-2gLsgF div,
+.banner-WELp4M:hover .section-2gLsgF div,
+.wrapper-3D2qGf:hover .section-2gLsgF div {
+  color: var(--color-low);
+}
+
+.header-2SF4Nh {
+  letter-spacing: 1px;
+  text-shadow: 2px 4px 0 var(--color-mid);
+  padding-right: 3px;
+  padding-bottom: 3px;
 }
 
 .theme-dark .emptyWumpus-12J3jI,
