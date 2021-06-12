@@ -17,24 +17,8 @@
     background: transparent;
 }
 // Colors
-.theme-dark {
-    .headerTextNormal-2mGWX3,
-    .playTime-2uWd1Z,
-    .activityProfile-2bJRaP,
-    .activityUserPopout-2yItg2 {
-        .headerText-1HLrL7,
-        .content-3JfFJh,
-        .details-38sfDr,
-        .name-29ETJS {
-            color: $high;
-        }
-    }
-    .body-3iLsc4,
-    .footer-1fjuF6 {
-        color: $low;
-    }
-}
-[style*='border-color: rgb(255, 255, 255);'] {
+
+[style*="border-color: rgb(255, 255, 255);"] {
     border-color: $alert !important;
 }
 .top-28JiJ- .item-PXvHYJ {
@@ -71,9 +55,16 @@
     background: $high;
 }
 // Playing a game
-.activity-3v9l4T {
+.theme-dark .activity-3v9l4T {
+    order: 10;
     padding: 16px;
     background-color: $low;
+
+    .nameWrap-3Z4G_9,
+    .content-3JfFJh,
+    .headerText-1HLrL7 {
+        color: $high;
+    }
 }
 // Rich Embed Game Icon
 .gameIcon-gg34Dz,
@@ -87,4 +78,76 @@
 {
     @include boxify($high, $mid, 5px);
     border-color: $low;
+}
+.headerNormal-1mX3KY {
+    display: flex;
+    flex-direction: column;
+}
+.popoutBanner-19WKGg {
+    position: relative;
+    order: 0;
+}
+// Header
+.headerTop-2cWpdB {
+    position: static;
+    order: 1;
+    padding: 8px;
+
+    background-color: $low;
+
+    .customStatus-oN4ZZY,
+    .nickname-2gQ76l,
+    .headerTagUsernameBase-24SRnT,
+    .headerTagUsernameNoNickname-1ZLDYY,
+    .discrimBase-1QwWzY {
+        color: $high;
+    }
+
+    .profileBadges-3cJaE1 {
+        margin: auto;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        transform: translateY(175%);
+    }
+
+    .headerText-15Q25Z {
+        padding-bottom: 4px;
+    }
+    // TODO: BETA, MAY CHANGE
+    .aboutMeSection---MkQa {
+        padding: 8px;
+    }
+}
+// Avatar
+.avatarWrapper-3r9PdD {
+    margin: 15px auto;
+    display: flex;
+    position: relative;
+    justify-self: center;
+    align-content: center;
+    order: 2;
+
+    top: 0;
+    left: 0;
+
+    width: 90%;
+    height: 120px;
+
+    background-color: $mid;
+    border-radius: 0;
+}
+.avatar-37jOim {
+    margin: auto;
+    border-width: 1px;
+    background-color: $high;
+}
+// Avatar hint
+.avatarWrapperNormal-26WQIb,
+.avatarWrapperNormal-26WQIb:hover {
+    .avatarHint-2A3RNb {
+        top: 20px;
+        left: 95px;
+        margin: auto;
+    }
 }
