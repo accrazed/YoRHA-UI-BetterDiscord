@@ -70,20 +70,18 @@
 .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
     @include buttonify($alert, $high, $high, $low);
 }
-// Toggle switch
-.container-3auIfb[style='opacity: 1; background-color: rgb(114, 118, 125);'] {
-    background: $mid !important;
-
-    path {
-        fill: $mid;
-    }
+// Slider / Toggle switch
+.container-3auIfb {
+    background-color: $low !important;
+    border-radius: 0;
 }
-.container-3auIfb[style='opacity: 1; background-color: rgb(67, 181, 129);'] {
-    background: $low !important;
-
-    path {
-        fill: $low;
-    }
+.input-rwLH4i {
+    border-radius: 0;
+}
+.slider-TkfMQL rect {
+    fill: $high;
+    rx: 0;
+    ry: 4;
 }
 .bd-switch-body {
     --switch-color: $mid;
@@ -104,7 +102,7 @@
     @include boxify($high, $mid, 3px);
     @include buttonify($high, $low, $low, $high);
 
-    &[aria-checked='true'] {
+    &[aria-checked="true"] {
         background: $alert;
         color: $high;
 

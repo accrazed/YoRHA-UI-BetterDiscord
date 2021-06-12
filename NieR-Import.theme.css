@@ -218,18 +218,19 @@
   color: var(--color-low) !important;
 }
 
-.container-3auIfb[style="opacity: 1; background-color: rgb(114, 118, 125);"] {
-  background: var(--color-mid) !important;
-}
-.container-3auIfb[style="opacity: 1; background-color: rgb(114, 118, 125);"] path {
-  fill: var(--color-mid);
+.container-3auIfb {
+  background-color: var(--color-low) !important;
+  border-radius: 0;
 }
 
-.container-3auIfb[style="opacity: 1; background-color: rgb(67, 181, 129);"] {
-  background: var(--color-low) !important;
+.input-rwLH4i {
+  border-radius: 0;
 }
-.container-3auIfb[style="opacity: 1; background-color: rgb(67, 181, 129);"] path {
-  fill: var(--color-low);
+
+.slider-TkfMQL rect {
+  fill: var(--color-high);
+  rx: 0;
+  ry: 4;
 }
 
 .bd-switch-body {
