@@ -47,17 +47,17 @@
     }
 }
 
-@import 'root_config';
-@import 'app/import';
-@import 'channels/import';
-@import 'chat/import';
-@import 'font/font';
-@import 'guilds/import';
-@import 'home/import';
-@import 'members/members';
-@import 'overlay/overlay';
-@import 'plugin-support/import.scss';
-@import 'popouts/import';
-@import 'prompts/prompts';
-@import 'settings/import';
-@import 'voice-video/import';
+@import "root_config";
+@import "app/import";
+@import "channels/import";
+@import "chat/import";
+@import "font/font";
+@import "guilds/import";
+@import "home/import";
+@import "members/members";
+@import "overlay/overlay";
+@import "plugin-support/import.scss";
+@import "popouts/import";
+@import "prompts/prompts";
+@import "settings/import";
+@import "voice-video/import";
