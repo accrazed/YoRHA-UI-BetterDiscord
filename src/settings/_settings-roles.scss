@@ -1,3 +1,11 @@
+// Transparencies
+.stickyHeaderElevated-I6QUOA,
+.titleContainer-2CXtJo {
+    background-color: transparent;
+}
+.titleElevated-c_kdi7 {
+    box-shadow: none;
+}
 // Unsaved changes alert
 .theme-dark .elevationHigh-1PneE4 {
     background-color: $high !important;
@@ -7,4 +15,57 @@
     .message-c9-HCF {
         color: $low !important;
     }
+}
+
+// Default Permissions
+.container-_phMUq {
+    @include boxify($high, $mid, 3px);
+}
+
+// Search Roles
+.container-cMG81i {
+    border-radius: 0;
+    border: 1px solid $low;
+}
+
+// Role List - Hover
+.roleRow-30TwGe:hover:not(.roleRowDisableHover-1HiqqT) {
+    @include boxify($high, $mid, 3px);
+
+    .circleButton-3RB01i:hover {
+        background-color: $low;
+
+        &.secondary-dIudih {
+            color: $high;
+        }
+    }
+}
+
+// Edit Role
+.header-2mZ9Ov {
+    margin-top: 48px;
+    padding: 16px 8px;
+    @include boxify($high, $mid, 4px);
+}
+.cozy-3raOZG .timestamp-3ZCmNB {
+    color: $low;
+}
+.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV {
+    background-color: $low;
+    color: $high;
+}
+.top-28JiJ- .brand-1Zl8en {
+    &.item-PXvHYJ:active,
+    &.selected-3s45Ha.item-PXvHYJ {
+        border-bottom-color: $alert;
+    }
+    &.item-PXvHYJ:hover {
+        border-bottom-color: $mid;
+    }
+}
+.warning-3C2pOH {
+    color: $low;
+}
+.theme-dark .tooltip-2QfLtc .colorStandard-2KCXvj {
+    color: $high;
 }
