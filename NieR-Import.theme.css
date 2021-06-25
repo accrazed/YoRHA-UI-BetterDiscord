@@ -1644,6 +1644,10 @@ strong {
   color: var(--color-mid) !important;
 }
 
+.base-1x0h_U,
+.headerTagUsernameBase-1NqrY5,
+.headerTagUsernameNoNickname-2-Y5Ct,
+.discrimBase-24vY8o,
 .theme-dark .newPopoutActivityStyles .activityName-1IaRLn,
 .theme-dark .newPopoutActivityStyles .nameNormal-2lqVQK,
 .activityHeader-1PExlk,
@@ -1704,7 +1708,7 @@ strong {
   border-color: var(--color-low);
 }
 
-.headerNormal-1mX3KY {
+.headerNormal-3KXFBt {
   display: flex;
   flex-direction: column;
 }
@@ -1714,30 +1718,30 @@ strong {
   order: 0;
 }
 
-.headerTop-2cWpdB {
+.headerTop-3vNv-a {
   position: static;
   order: 1;
   padding: 8px;
   background-color: var(--color-low);
 }
-.headerTop-2cWpdB .customStatus-oN4ZZY,
-.headerTop-2cWpdB .nickname-2gQ76l,
-.headerTop-2cWpdB .headerTagUsernameBase-24SRnT,
-.headerTop-2cWpdB .headerTagUsernameNoNickname-1ZLDYY,
-.headerTop-2cWpdB .discrimBase-1QwWzY {
+.headerTop-3vNv-a .customStatus-oN4ZZY,
+.headerTop-3vNv-a .nickname-2gQ76l,
+.headerTop-3vNv-a .headerTagUsernameBase-24SRnT,
+.headerTop-3vNv-a .headerTagUsernameNoNickname-1ZLDYY,
+.headerTop-3vNv-a .discrimBase-1QwWzY {
   color: var(--color-high);
 }
-.headerTop-2cWpdB .profileBadges-3cJaE1 {
+.headerTop-3vNv-a .profileBadges-3cJaE1 {
   margin: auto;
   z-index: 1;
   top: 0;
   right: 0;
   transform: translateY(150%);
 }
-.headerTop-2cWpdB .headerText-15Q25Z {
+.headerTop-3vNv-a .headerText-15Q25Z {
   padding-bottom: 4px;
 }
-.headerTop-2cWpdB .aboutMeSection---MkQa {
+.headerTop-3vNv-a .aboutMeSection---MkQa {
   padding: 8px;
 }
 
@@ -1767,6 +1771,14 @@ strong {
   top: 20px;
   left: 95px;
   margin: auto;
+}
+
+.body-3HBlXn {
+  order: 3;
+}
+
+.footer-3UKYOU {
+  order: 4;
 }
 
 .searchResult-9tQ1uo:before,

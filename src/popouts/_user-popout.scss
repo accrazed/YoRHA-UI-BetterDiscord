@@ -24,6 +24,10 @@
 .top-28JiJ- .item-PXvHYJ {
     color: $mid !important;
 }
+.base-1x0h_U,
+.headerTagUsernameBase-1NqrY5,
+.headerTagUsernameNoNickname-2-Y5Ct,
+.discrimBase-24vY8o,
 .theme-dark .newPopoutActivityStyles .activityName-1IaRLn,
 .theme-dark .newPopoutActivityStyles .nameNormal-2lqVQK,
 .activityHeader-1PExlk,
@@ -79,7 +83,7 @@
     @include boxify($high, $mid, 5px);
     border-color: $low;
 }
-.headerNormal-1mX3KY {
+.headerNormal-3KXFBt {
     display: flex;
     flex-direction: column;
 }
@@ -88,7 +92,7 @@
     order: 0;
 }
 // Header
-.headerTop-2cWpdB {
+.headerTop-3vNv-a {
     position: static;
     order: 1;
     padding: 8px;
@@ -150,4 +154,10 @@
         left: 95px;
         margin: auto;
     }
+}
+.body-3HBlXn {
+    order: 3;
+}
+.footer-3UKYOU {
+    order: 4;
 }
