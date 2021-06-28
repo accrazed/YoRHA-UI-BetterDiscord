@@ -1,0 +1,28 @@
+.profileBannerPreview-3_l0Wd {
+    display: flex;
+    flex-direction: column;
+    @include boxify($high, $mid, 3px);
+
+    // Avatar
+    .avatarUploaderPremium-2K8j_T {
+        margin: 15px auto;
+        display: flex;
+        position: relative;
+        justify-self: center;
+        align-content: center;
+
+        top: 0;
+        left: 0;
+
+        width: 90%;
+        height: 120px;
+
+        background-color: $mid;
+        border-radius: 0;
+    }
+    .avatarUploaderInner-Oiob_P {
+        margin: auto;
+        border-width: 1px;
+        background-color: $high;
+    }
+}

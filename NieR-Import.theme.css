@@ -2541,6 +2541,32 @@ strong {
   background-color: transparent;
 }
 
+.profileBannerPreview-3_l0Wd {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+.profileBannerPreview-3_l0Wd .avatarUploaderPremium-2K8j_T {
+  margin: 15px auto;
+  display: flex;
+  position: relative;
+  justify-self: center;
+  align-content: center;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 120px;
+  background-color: var(--color-mid);
+  border-radius: 0;
+}
+.profileBannerPreview-3_l0Wd .avatarUploaderInner-Oiob_P {
+  margin: auto;
+  border-width: 1px;
+  background-color: var(--color-high);
+}
+
 .draggable-1EOU8o {
   padding: 1px 0;
 }
