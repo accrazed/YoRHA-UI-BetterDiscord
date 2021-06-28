@@ -79,3 +79,21 @@
 .autocompleteRow-2OthDa {
     padding: 0;
 }
+// Delete message
+.theme-dark .focusLock-Ns3yie {
+    // Header
+    .base-1x0h_U {
+        color: $low;
+    }
+    // Message Preview
+    .message-2qRu38 {
+        border-radius: 0;
+        border: 1px solid $low;
+        background-color: $high;
+        box-shadow: none;
+    }
+    // Pro tip
+    .pro-1T8RK7 {
+        color: $alert !important;
+    }
+}

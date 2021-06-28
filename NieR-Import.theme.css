@@ -1478,6 +1478,19 @@ strong {
   padding: 0;
 }
 
+.theme-dark .focusLock-Ns3yie .base-1x0h_U {
+  color: var(--color-low);
+}
+.theme-dark .focusLock-Ns3yie .message-2qRu38 {
+  border-radius: 0;
+  border: 1px solid var(--color-low);
+  background-color: var(--color-high);
+  box-shadow: none;
+}
+.theme-dark .focusLock-Ns3yie .pro-1T8RK7 {
+  color: var(--color-alert) !important;
+}
+
 .theme-dark .quickSelectPopout-X1hvgV {
   background: var(--color-low);
   border-radius: 0;
