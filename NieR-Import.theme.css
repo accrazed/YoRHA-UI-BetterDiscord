@@ -958,9 +958,11 @@ path[d="M14 8C14 7.44772 13.5523 7 13 7H9.76001L10.3657 3.58738C10.4201 3.28107 
 }
 
 .reaction-1hd86g {
-  border: 1px solid var(--color-low);
   border-radius: 0;
   background-color: transparent;
+}
+.reaction-1hd86g.reactionMe-wv5HKu {
+  border: 1px solid var(--color-low);
 }
 .reaction-1hd86g .reactionCount-2mvXRV {
   color: var(--color-low);
@@ -1721,6 +1723,10 @@ strong {
   border-color: var(--color-low);
 }
 
+.theme-dark .newPopoutActivityStyles .activityName-1IaRLn {
+  color: var(--color-low);
+}
+
 .headerNormal-3KXFBt {
   display: flex;
   flex-direction: column;
@@ -1792,6 +1798,13 @@ strong {
 
 .footer-3UKYOU {
   order: 4;
+}
+
+.bar-3urHkF {
+  border: 1px solid var(--color-mid);
+}
+.bar-3urHkF .barInner-3NDaY_ {
+  background-color: var(--color-alert);
 }
 
 .searchResult-9tQ1uo:before,

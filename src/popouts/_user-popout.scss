@@ -83,6 +83,9 @@
     @include boxify($high, $mid, 5px);
     border-color: $low;
 }
+.theme-dark .newPopoutActivityStyles .activityName-1IaRLn {
+    color: $low;
+}
 .headerNormal-3KXFBt {
     display: flex;
     flex-direction: column;
@@ -159,4 +162,11 @@
 }
 .footer-3UKYOU {
     order: 4;
+}
+// Spotify
+.bar-3urHkF {
+    border: 1px solid $mid;
+    .barInner-3NDaY_ {
+        background-color: $alert;
+    }
 }
