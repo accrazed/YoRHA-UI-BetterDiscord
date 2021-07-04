@@ -1,0 +1,41 @@
+// Private Channel Card
+.settingCard-3w2mVL {
+    @include boxify($high, $mid, 3px);
+}
+// Allow / Passthrough / Deny
+.group-1WdBVp {
+    border-radius: 0;
+    border: 2px solid $low;
+    width: 97px;
+
+    .deny-3nAuT6 {
+        svg {
+            color: $alert;
+        }
+        &:hover {
+            border-radius: 0;
+        }
+        &.selected-2YhbGh {
+            background-color: $alert;
+            border-radius: 0;
+            svg {
+                color: $high;
+            }
+        }
+    }
+
+    .passthrough-1c2ewQ {
+        &.selected-2YhbGh {
+            background-color: $low;
+            color: $high;
+        }
+    }
+
+    .allow-1PzSY3 {
+        border-radius: 0;
+
+        &.selected-2YhbGh {
+            color: $high;
+        }
+    }
+}

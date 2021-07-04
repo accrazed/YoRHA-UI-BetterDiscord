@@ -2477,6 +2477,41 @@ strong {
   color: var(--color-alert);
 }
 
+.settingCard-3w2mVL {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+
+.group-1WdBVp {
+  border-radius: 0;
+  border: 2px solid var(--color-low);
+  width: 97px;
+}
+.group-1WdBVp .deny-3nAuT6 svg {
+  color: var(--color-alert);
+}
+.group-1WdBVp .deny-3nAuT6:hover {
+  border-radius: 0;
+}
+.group-1WdBVp .deny-3nAuT6.selected-2YhbGh {
+  background-color: var(--color-alert);
+  border-radius: 0;
+}
+.group-1WdBVp .deny-3nAuT6.selected-2YhbGh svg {
+  color: var(--color-high);
+}
+.group-1WdBVp .passthrough-1c2ewQ.selected-2YhbGh {
+  background-color: var(--color-low);
+  color: var(--color-high);
+}
+.group-1WdBVp .allow-1PzSY3 {
+  border-radius: 0;
+}
+.group-1WdBVp .allow-1PzSY3.selected-2YhbGh {
+  color: var(--color-high);
+}
+
 .stickyHeaderElevated-I6QUOA,
 .titleContainer-2CXtJo {
   background-color: transparent;
