@@ -922,6 +922,12 @@ path[d="M14 8C14 7.44772 13.5523 7 13 7H9.76001L10.3657 3.58738C10.4201 3.28107 
   border-radius: 0;
   box-shadow: 3px 3px 0 var(--color-mid);
 }
+.wrapper-35wsBm .inviteDestination-1fAcY7 {
+  color: var(--color-low);
+}
+.wrapper-35wsBm .iconActiveLarge-2nzn9z {
+  border-radius: 0;
+}
 
 .attachment-33OFj0 {
   margin-left: 13px;
@@ -1961,6 +1967,14 @@ strong {
 
 .anchor-3Z-8Bb {
   color: var(--color-alert);
+}
+
+.container-2Yth53 .title-2_aCTw {
+  color: var(--color-low);
+}
+
+.iconActiveLarger-1L4Joi {
+  border-radius: 0;
 }
 
 .theme-dark .uploadModal-2ifh8j {

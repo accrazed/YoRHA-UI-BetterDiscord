@@ -32,6 +32,15 @@
 .anchor-3Z-8Bb {
     color: $alert;
 }
+// You've been invited to join a server
+.container-2Yth53 {
+    .title-2_aCTw {
+        color: $low;
+    }
+}
+.iconActiveLarger-1L4Joi {
+    border-radius: 0;
+}
 // Upload Image
 .theme-dark .uploadModal-2ifh8j {
     @include boxify($high, $mid, 6px);
@@ -191,7 +200,7 @@
     .reactionDefault-GBA58K:hover {
         background: $low;
         border-radius: 0;
-        
+
         .colorStandard-2KCXvj {
             color: $high;
         }
