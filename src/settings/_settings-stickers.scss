@@ -1,0 +1,18 @@
+.theme-dark {
+    .tier-2pEkRl {
+        @include boxify($high, $mid, 3px);
+
+        .tierHeaderUnlocked-3lTDnP,
+        .tierIconLocked-3jQkNk,
+        .tierBody-3aUxuc,
+        .tierHeaderLocked-3S508x {
+            color: $low;
+            background-color: transparent;
+        }
+    }
+
+    .subscriberCount-11AZJ2,
+    .subscriberCount-11AZJ2 strong {
+        color: $low;
+    }
+}

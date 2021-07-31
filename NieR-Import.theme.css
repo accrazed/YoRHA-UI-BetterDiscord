@@ -2714,6 +2714,23 @@ strong {
   color: var(--color-high);
 }
 
+.theme-dark .tier-2pEkRl {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+.theme-dark .tier-2pEkRl .tierHeaderUnlocked-3lTDnP,
+.theme-dark .tier-2pEkRl .tierIconLocked-3jQkNk,
+.theme-dark .tier-2pEkRl .tierBody-3aUxuc,
+.theme-dark .tier-2pEkRl .tierHeaderLocked-3S508x {
+  color: var(--color-low);
+  background-color: transparent;
+}
+.theme-dark .subscriberCount-11AZJ2,
+.theme-dark .subscriberCount-11AZJ2 strong {
+  color: var(--color-low);
+}
+
 .cardPrimary-1Hv-to {
   background: var(--color-high);
   border-radius: 0;
