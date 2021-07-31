@@ -1594,6 +1594,21 @@ strong {
   color: var(--color-low);
 }
 
+.theme-dark .contentWarningPopout-n5JsIs {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+.theme-dark .contentWarningPopout-n5JsIs .footer-3N9rgh {
+  background-color: transparent;
+}
+.theme-dark .contentWarningPopout-n5JsIs .buttonHint-OwCvKC,
+.theme-dark .contentWarningPopout-n5JsIs .buttonHint-OwCvKC strong,
+.theme-dark .contentWarningPopout-n5JsIs .header-2NYWtG,
+.theme-dark .contentWarningPopout-n5JsIs .body-3PNusm {
+  color: var(--color-low);
+}
+
 .theme-dark .quickSelectPopout-X1hvgV {
   background: var(--color-low);
   border-radius: 0;

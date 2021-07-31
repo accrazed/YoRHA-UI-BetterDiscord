@@ -118,3 +118,19 @@
         color: $low;
     }
 }
+
+// Ping everyone warning
+.theme-dark .contentWarningPopout-n5JsIs {
+    @include boxify($high, $mid, 3px);
+
+    .footer-3N9rgh {
+        background-color: transparent;
+    }
+
+    .buttonHint-OwCvKC,
+    .buttonHint-OwCvKC strong,
+    .header-2NYWtG,
+    .body-3PNusm {
+        color: $low;
+    }
+}
