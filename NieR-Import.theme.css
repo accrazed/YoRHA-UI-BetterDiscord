@@ -1513,6 +1513,13 @@ strong {
   color: var(--color-alert) !important;
 }
 
+.colorDefault-2K3EoJ .subtext-13Lvrj {
+  color: var(--color-mid);
+}
+.colorDefault-2K3EoJ:hover .subtext-13Lvrj {
+  color: var(--color-low);
+}
+
 .theme-dark .quickSelectPopout-X1hvgV {
   background: var(--color-low);
   border-radius: 0;

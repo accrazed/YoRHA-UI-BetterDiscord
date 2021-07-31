@@ -109,3 +109,12 @@
         color: $alert !important;
     }
 }
+// Upload a File / Create Thread popout
+.colorDefault-2K3EoJ {
+    .subtext-13Lvrj {
+        color: $mid;
+    }
+    &:hover .subtext-13Lvrj {
+        color: $low;
+    }
+}
