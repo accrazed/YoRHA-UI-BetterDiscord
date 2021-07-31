@@ -1385,6 +1385,10 @@ strong {
   --rs-phone-color: var(--rs-online-color);
 }
 
+.date-YN6TCS {
+  color: var(--color-high) !important;
+}
+
 .wrapper-2Gsate {
   background: transparent;
 }
