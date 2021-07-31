@@ -1,0 +1,55 @@
+// Message in chat that someone's opened a thread
+.hasThread-2k82W0 {
+    // Elbow
+    &.cozy-3raOZG:after {
+        border-left: 2px solid $low;
+        border-bottom: 2px solid $low;
+        border-bottom-left-radius: 0;
+    }
+    // Thread box,
+    .container-3hZ-gs {
+        @include boxify($high, $mid, 3px);
+    }
+}
+
+// Thread Sidebar
+.chat-15Vmww:before {
+    visibility: hidden;
+}
+.iconWrapper-L3hQuc {
+    background-color: $low;
+    .icon-3kbkI0 {
+        color: $high;
+
+        path:first-child {
+            visibility: hidden;
+        }
+    }
+}
+.iconContainer-3GkGRf .icon-1zIRB4 path:first-child {
+    visibility: hidden;
+}
+
+*[aria-label="Threads"],
+*[aria-label="Thread"] {
+    .icon-22AiRD path:first-child {
+        visibility: hidden;
+    }
+}
+.threadIcon-3XJhLD path:first-child {
+    visibility: hidden;
+}
+.threadSidebar-1o3BTy {
+    @include boxify($high, $mid, 3px);
+}
+
+.container-3JKcAb .containerDefault--pIXnN {
+    left: 40px;
+}
+.spine--Wla_O {
+    color: $low;
+}
+// Thread popout
+.browser-2NpbWS {
+    @include boxify($high, $mid, 3px);
+}
