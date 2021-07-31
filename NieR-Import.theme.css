@@ -970,6 +970,7 @@ path[d="M5.43309 21C5.35842 21 5.30189 20.9325 5.31494 20.859L5.99991 17H2.14274
 .reaction-1hd86g {
   border-radius: 0;
   background-color: transparent;
+  border: 1px solid var(--color-low);
 }
 .reaction-1hd86g.reactionMe-wv5HKu {
   border: 1px solid var(--color-low);
