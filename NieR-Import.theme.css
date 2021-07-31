@@ -1486,9 +1486,6 @@ strong {
   padding: 0;
 }
 
-.theme-dark .focusLock-Ns3yie .base-1x0h_U {
-  color: var(--color-low);
-}
 .theme-dark .focusLock-Ns3yie .message-2qRu38 {
   border-radius: 0;
   border: 1px solid var(--color-low);
@@ -1665,7 +1662,7 @@ strong {
   color: var(--color-mid) !important;
 }
 
-.base-1x0h_U,
+.nickname-3M3Jfa,
 .headerTagUsernameBase-1NqrY5,
 .headerTagUsernameNoNickname-2-Y5Ct,
 .discrimBase-24vY8o,
@@ -2412,6 +2409,10 @@ strong {
 }
 .theme-dark .card-FDVird:hover .actionButton-VzECiy {
   border-color: var(--color-high);
+}
+
+.theme-dark .rolePills-32B_DQ {
+  color: var(--color-low);
 }
 
 .ghostPill-2-KUPM {
