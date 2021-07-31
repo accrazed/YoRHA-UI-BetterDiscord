@@ -1436,7 +1436,7 @@ strong {
   color: var(--color-high);
 }
 
-.emojiPicker-3PwZFl {
+.contentWrapper-SvZHNd {
   border: 1px solid var(--color-low);
   background: var(--color-high);
   border-radius: 0;
@@ -1446,6 +1446,23 @@ strong {
 .emojiItem-14v6tW.emojiItemSelected-1aLkfV {
   background: var(--color-low);
   border-radius: 0;
+}
+
+.theme-dark .backButton-JyKGC1 {
+  color: var(--color-low);
+}
+.theme-dark .backButton-JyKGC1:hover {
+  color: var(--color-mid);
+}
+
+.navButtonActive-1MkytQ {
+  background-color: var(--color-low);
+  color: var(--color-high);
+  border-radius: 0;
+}
+
+.stickerInspected-2EM4w- .inspectedIndicator-59EII8 {
+  background-color: var(--color-low);
 }
 
 .theme-dark .contentTitle-2tG_sM strong,

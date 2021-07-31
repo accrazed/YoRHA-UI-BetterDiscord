@@ -32,13 +32,29 @@
     color: $high;
 }
 // Pick emoji
-.emojiPicker-3PwZFl {
+.contentWrapper-SvZHNd {
     border: 1px solid $low;
     @include boxify($high, $mid, 4px);
 }
 .emojiItem-14v6tW.emojiItemSelected-1aLkfV {
     background: $low;
     border-radius: 0;
+}
+.theme-dark .backButton-JyKGC1 {
+    color: $low;
+
+    &:hover {
+        color: $mid;
+    }
+}
+.navButtonActive-1MkytQ {
+    background-color: $low;
+    color: $high;
+    border-radius: 0;
+}
+// Pick Sticker
+.stickerInspected-2EM4w- .inspectedIndicator-59EII8 {
+    background-color: $low;
 }
 // Autocomplete in chatbox
 .theme-dark {
