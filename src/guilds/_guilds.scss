@@ -21,7 +21,7 @@
 .expandedFolderBackground-1cujaW {
     @include boxify($high, $mid, 3px);
 }
-.scroller-2TZvBN > div[aria-label='Servers'] > .listItem-2P_4kh foreignObject {
+.scroller-2TZvBN > div[aria-label="Servers"] > .listItem-2P_4kh foreignObject {
     @include boxify($high, $mid, 3px);
 }
 
@@ -41,7 +41,7 @@
     height: 48px !important;
 }
 // Unread Guild
-.item-2hkk8m[style='opacity: 1; height: 8px; transform: none;'] {
+.item-2hkk8m[style="opacity: 1; height: 8px; transform: none;"] {
     background-color: $alert;
 }
 // Streaming icon
@@ -79,4 +79,10 @@
         color: $alert;
         text-decoration-color: $alert;
     }
+}
+
+.wrapper-39oAo3, // You must complete a few more steps before you can talk
+.container-2Uhd6d // You can't talk in here yet
+{
+    @include boxify($high, $mid, 3px);
 }

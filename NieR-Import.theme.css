@@ -1105,6 +1105,13 @@ strong {
           text-decoration-color: var(--color-alert);
 }
 
+.wrapper-39oAo3,
+.container-2Uhd6d {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+
 .scroller-1JbKMe,
 .sidebar-2K8pFh,
 .privateChannels-1nO12o {
