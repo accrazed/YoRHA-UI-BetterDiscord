@@ -1,6 +1,7 @@
 // Wallpaper
 #app-mount {
-    background: url('https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/wallpapers/NieR-HIGH-1440.png') center/cover no-repeat;
+    background: url("https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/wallpapers/NieR-HIGH-1440.png")
+        center/cover no-repeat;
 }
 // Home icon
 .homeIcon-FuNwkv {
@@ -8,7 +9,7 @@
 }
 // Theatre effect
 #app-mount:before {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     width: 100%;
@@ -28,4 +29,9 @@
 .theme-dark .mentioned-xhSam7 a {
     background-color: var(--color-high-trans);
     border-radius: 0.25em;
+}
+// Highlighting text
+::selection {
+    background-color: $alert;
+    color: $high;
 }

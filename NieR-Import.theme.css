@@ -1063,11 +1063,6 @@ textarea {
   font-family: var(--nier-font), Arial, Helvetica, sans-serif;
 }
 
-::selection {
-  background-color: var(--color-alert);
-  color: var(--color-high);
-}
-
 strong {
   font-family: Arial, Helvetica, sans-serif;
 }
