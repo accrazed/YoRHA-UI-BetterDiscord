@@ -20,16 +20,18 @@
         border-radius: 0;
     }
     .layout-2DM8Md:before {
-        content: '';
+        content: "";
         position: absolute;
         left: 0;
         top: 2px;
         bottom: 2px;
-        transition: width 0.4s;
+        transition: transform 0.4s;
         animation-name: pulsingBackground;
         animation-duration: 1.5s;
         animation-iteration-count: infinite;
-        width: 0%;
+        transform: scaleX(0);
+        transform-origin: left;
+        width: 100%;
     }
     // Selected channel
     &.selected-aXhQR6,
@@ -43,7 +45,7 @@
             color: $high !important;
         }
         .layout-2DM8Md:before {
-            width: 100%;
+            transform: scaleX(1);
         }
         .linkButtonIcon-Mlm5d6,
         .content-3QAtGj {

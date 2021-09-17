@@ -21,16 +21,18 @@
     }
     &:before {
         z-index: -1;
-        content: '';
+        content: "";
         position: absolute;
         left: 0;
         top: 2px;
         bottom: 2px;
-        transition: width 0.4s;
+        transition: transform 0.4s;
         animation-name: pulsingBackground;
         animation-duration: 1.5s;
         animation-iteration-count: infinite;
-        width: 0%;
+        transform: scaleX(0);
+        transform-origin: left;
+        width: 100%;
     }
     // Selected channel
     &[style*="color: rgb(255, 255, 255);"],
@@ -40,14 +42,14 @@
         color: $high !important;
         box-shadow: 0 1px $low, 0 -1px $low;
         &:before {
-            width: 100%;
+            transform: scaleX(1);
         }
         path {
             fill: $high;
         }
     }
-    &[style='color: rgb(240, 71, 71); background-color: rgba(240, 71, 71, 0.1);'],
-    &[style='color: rgb(240, 71, 71);'] {
+    &[style="color: rgb(240, 71, 71); background-color: rgba(240, 71, 71, 0.1);"],
+    &[style="color: rgb(240, 71, 71);"] {
         color: $alert !important;
     }
 }

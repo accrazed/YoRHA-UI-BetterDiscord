@@ -91,7 +91,7 @@
 }
 // Select Region arrow in videocall
 .theme-dark .quickSelectArrow-1QublR {
-    @include remask('https://discord.com/assets/f58cf3b8fc79e9d671ab649ab37651a9.svg', $low);
+    @include remask("https://discord.com/assets/f58cf3b8fc79e9d671ab649ab37651a9.svg", $low);
     mask-repeat: no-repeat;
 }
 // Member hover/select animations
@@ -122,11 +122,13 @@
             left: 0;
             top: 1px;
             bottom: 1px;
-            transition: width 0.3s;
+            transition: transform 0.3s;
             animation-name: pulsingBackground;
             animation-duration: 1.5s;
             animation-iteration-count: infinite;
-            width: 0%;
+            transform: scaleX(0);
+            transform-origin: left;
+            width: 100%;
         }
         // Selected channel
         &.selected-3t3Csj .content-1Wq3SX,
@@ -141,7 +143,7 @@
                 z-index: 1;
             }
             &:before {
-                width: 100%;
+                transform: scaleX(1);
             }
         }
     }
