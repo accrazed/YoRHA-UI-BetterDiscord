@@ -11,27 +11,27 @@
     border-radius: 0;
     height: 44px;
     margin: 5px 0 5px 0;
+    position: relative;
 
     // Animation
     .layout-2DM8Md {
         background-color: transparent !important;
-        height: 36px;
-        margin: 3px 0 0 0;
         border-radius: 0;
-    }
-    .layout-2DM8Md:before {
-        content: "";
-        position: absolute;
-        left: 0;
-        top: 2px;
-        bottom: 2px;
-        transition: transform 0.4s;
-        animation-name: pulsingBackground;
-        animation-duration: 1.5s;
-        animation-iteration-count: infinite;
-        transform: scaleX(0);
-        transform-origin: left;
-        width: 100%;
+
+        &:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 2px;
+            bottom: 2px;
+            transition: transform 0.4s;
+            animation-name: pulsingBackground;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+            transform: scaleX(0);
+            transform-origin: left;
+            width: 100%;
+        }
     }
     // Selected channel
     &.selected-aXhQR6,
@@ -50,6 +50,12 @@
         .linkButtonIcon-Mlm5d6,
         .content-3QAtGj {
             z-index: 1;
+        }
+        .avatar-3uk_u9 {
+            z-index: 1;
+            path {
+                fill: $high;
+            }
         }
     }
 }
