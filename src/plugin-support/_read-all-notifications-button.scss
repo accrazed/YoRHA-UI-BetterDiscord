@@ -1,0 +1,7 @@
+// https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/ReadAllNotificationsButton
+
+.button-Jt-tIg {
+    @include boxify($high, $mid, 2px);
+    color: $low;
+    padding: 0 10%;
+}

@@ -1426,9 +1426,8 @@ strong {
   box-shadow: 3px 3px 0 var(--color-mid);
 }
 
-.textScroller-dc9_kz,
-.selected-bZ3Lue .textScroller-dc9_kz {
-  color: var(--color-low) !important;
+.name-z5133D {
+  color: var(--color-low);
 }
 
 .theme-dark .card-x5zW6z {
@@ -1469,8 +1468,24 @@ strong {
   --rs-phone-color: var(--rs-online-color);
 }
 
-.date-YN6TCS {
-  color: var(--color-high) !important;
+.headerText-1vVs-U .date-YN6TCS {
+  color: var(--color-high);
+}
+
+.creationDate-CJwdKT {
+  color: var(--color-low);
+}
+
+.button-Jt-tIg {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 2px 2px 0 var(--color-mid);
+  color: var(--color-low);
+  padding: 0 10%;
+}
+
+.click-to-chat-btn svg {
+  color: var(--color-low) !important;
 }
 
 .wrapper-2Gsate {
