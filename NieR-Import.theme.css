@@ -1366,16 +1366,12 @@ strong {
 .container-2Pjhx-.selected-aXhQR6 .layout-2DM8Md:before, .container-2Pjhx-:hover .layout-2DM8Md:before {
   transform: scaleX(1);
 }
+.container-2Pjhx-.selected-aXhQR6 .avatar-3uk_u9,
 .container-2Pjhx-.selected-aXhQR6 .linkButtonIcon-Mlm5d6,
-.container-2Pjhx-.selected-aXhQR6 .content-3QAtGj, .container-2Pjhx-:hover .linkButtonIcon-Mlm5d6,
+.container-2Pjhx-.selected-aXhQR6 .content-3QAtGj, .container-2Pjhx-:hover .avatar-3uk_u9,
+.container-2Pjhx-:hover .linkButtonIcon-Mlm5d6,
 .container-2Pjhx-:hover .content-3QAtGj {
   z-index: 1;
-}
-.container-2Pjhx-.selected-aXhQR6 .avatar-3uk_u9, .container-2Pjhx-:hover .avatar-3uk_u9 {
-  z-index: 1;
-}
-.container-2Pjhx-.selected-aXhQR6 .avatar-3uk_u9 path, .container-2Pjhx-:hover .avatar-3uk_u9 path {
-  fill: var(--color-high);
 }
 
 .botTagRegular-2HEhHi {
