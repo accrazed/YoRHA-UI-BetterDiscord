@@ -1078,7 +1078,7 @@ strong {
   background-color: transparent;
 }
 
-.guildSeparator-33mFX6 {
+.guildSeparator-EOYZLM {
   height: 0;
 }
 
@@ -2966,8 +2966,11 @@ strong {
 .base-PmTxvP,
 .liveLarge-3zs2Zq {
   border-radius: 0;
-  background: var(--color-alert) !important;
   color: var(--color-high);
+}
+
+.iconBadge-1N56q1 {
+  background-color: var(--color-low);
 }
 
 .theme-dark .quickSelectArrow-1QublR {
