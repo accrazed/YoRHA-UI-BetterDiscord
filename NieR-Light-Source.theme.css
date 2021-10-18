@@ -1,6 +1,6 @@
 /**
  * @name NieR: Automata UI Light
- * @version auto
+ * @version 1.4
  * @description Glory to Mankind. || 
  * Thanks to JulioDRai for letting me use their cursors! 
  * ~https://www.deviantart.com/juliodrai || 
@@ -12,7 +12,7 @@
  * @patreon https://www.patreon.com/accrazed
  * @authorId 153562159161278473
  */
- /*
+/*
  *  :::.       .,-:::::   .,-::::: :::::::..    :::.     :::::::::.,:::::::::::::-.  
  *  ;;`;;    ,;;;'````' ,;;;'````' ;;;;``;;;;   ;;`;;    '`````;;;;;;;'''' ;;,   `';,
  * ,[[ '[[,  [[[        [[[         [[[,/[[['  ,[[ '[[,      .n[[' [[cccc  `[[     [[
@@ -21,10 +21,10 @@
  * YMM   ""`   "YUMMMMMP" "YUMMMMMP"MMMM   "W" YMM   ""`  `""*UMM  """"YUMMMMMMMP"`  
  */
 
-@import url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/font/stylesheet.css"); /* Font */
-@import url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/NieR-Cursor.css"); /* Cursor */
-@import url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/NieR-Import.theme.css"); /* Main File */
-@import url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/LightImport.theme.css"); /* Light Part of Theme */
+@import url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/font/stylesheet.css'); /* Font */
+@import url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/NieR-Cursor.css'); /* Cursor */
+@import url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/NieR-Import.theme.css'); /* Main File */
+@import url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/LightImport.theme.css'); /* Light Part of Theme */
 
 /* GLOBAL VARIABLES */
 :root {
