@@ -1351,6 +1351,7 @@ strong {
   transform: scaleX(0);
   transform-origin: left;
   width: 100%;
+  box-shadow: 0 0 2px var(--color-low);
 }
 .container-2Pjhx-.selected-aXhQR6, .container-2Pjhx-:hover {
   color: var(--color-high) !important;
