@@ -3,13 +3,14 @@
 .scroller-1Bvpku {
     background-color: transparent;
 }
-.guildSeparator-EOYZLM {
+.guildSeparator-nWMCrR {
     height: 0;
 }
 .listItem-GuPuDH .svg-1X37T1 foreignObject {
     mask: none;
 }
-.homeIcon-FuNwkv {
+.homeIcon-FuNwkv, // deprecated
+.homeIcon-AaowEC {
     width: 48px;
     height: 56px;
 }
@@ -17,8 +18,11 @@
 .wrapper-25eVIn > svg > mask {
     display: none;
 }
+.wrapperSimple-19ogV2 {
+    border-radius: 0;
+}
 // Folder
-.expandedFolderBackground-1cujaW {
+.expandedFolderBackground-3ZDF05 {
     @include boxify($high, $mid, 3px);
 }
 .scroller-2TZvBN > div[aria-label="Servers"] > .listItem-2P_4kh foreignObject {

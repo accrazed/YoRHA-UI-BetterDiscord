@@ -5,17 +5,20 @@
     background-color: transparent;
     color: transparent;
 }
-.homeIcon-tEMBK1,
-.tutorialContainer-2sGCg9 .wrapper-25eVIn,
-.tutorialContainer-2sGCg9 .svg-1X37T1 {
-    height: 57px;
-    width: 48px;
-}
-.tutorialContainer-2sGCg9 .svg-1X37T1 {
-    animation-name: y-spin;
-    animation-duration: 4s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
+.tutorialContainer-2sGCg9, // TODO delete - deprecated
+.tutorialContainer-11ICd5 {
+    .wrapper-25eVIn,
+    .svg-1X37T1 {
+        height: 57px;
+        width: 48px;
+    }
+
+    .svg-1X37T1 {
+        animation-name: y-spin;
+        animation-duration: 4s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+    }
 }
 @keyframes y-spin {
     0% {
