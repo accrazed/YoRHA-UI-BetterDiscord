@@ -16,16 +16,17 @@
 .chat-15Vmww:before {
     visibility: hidden;
 }
+
 .iconWrapper-L3hQuc {
     background-color: $low;
     .icon-3kbkI0 {
         color: $high;
-
         path:first-child {
             visibility: hidden;
         }
     }
 }
+
 .iconContainer-3GkGRf .icon-1zIRB4 path:first-child {
     visibility: hidden;
 }
@@ -36,9 +37,11 @@
         visibility: hidden;
     }
 }
+
 .threadIcon-3XJhLD path:first-child {
     visibility: hidden;
 }
+
 .threadSidebar-1o3BTy {
     @include boxify($high, $mid, 3px);
 }
@@ -46,9 +49,11 @@
 .container-3JKcAb .containerDefault--pIXnN {
     left: 40px;
 }
+
 .spine--Wla_O {
     color: $low;
 }
+
 // Thread popout
 .browser-2NpbWS {
     @include boxify($high, $mid, 3px);

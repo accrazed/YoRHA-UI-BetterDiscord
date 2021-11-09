@@ -1183,9 +1183,17 @@ strong {
   box-shadow: 3px 3px 0 var(--color-mid);
 }
 
+.selectedOptionItem-3v62YZ,
+.pageContainer-1x6lGh,
 .theme-dark .pageWrapper-1PgVDX,
 .joinServerOption-3ClG5j {
   background-color: transparent;
+}
+
+.card-Rhm0MB {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 3px 3px 0 var(--color-mid);
 }
 
 .scroller-1JbKMe,
@@ -1805,7 +1813,12 @@ strong {
 }
 
 .top-28JiJ- .item-PXvHYJ {
-  color: var(--color-mid) !important;
+  color: var(--color-mid);
+}
+
+.top-28JiJ- .selected-3s45Ha.item-PXvHYJ,
+.top-28JiJ- .selected-3s45Ha.item-PXvHYJ:hover {
+  color: var(--color-low);
 }
 
 .nickname-3M3Jfa,
