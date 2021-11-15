@@ -5,7 +5,6 @@
     background-color: transparent;
     color: transparent;
 }
-.tutorialContainer-2sGCg9, // TODO delete - deprecated
 .tutorialContainer-11ICd5 {
     .wrapper-25eVIn,
     .svg-1X37T1 {
@@ -30,7 +29,10 @@
 }
 // Icons
 .iconSize-2tmqqh {
-    @include remask("https://discord.com/assets/c30220448097b064286a8759a9b6c4af.svg", $alert);
+    @include remask(
+        "https://discord.com/assets/c30220448097b064286a8759a9b6c4af.svg",
+        $alert
+    );
 }
 foreignObject[mask="url(#svg-mask-status-dnd)"] .status-1AY8sU {
     background-color: $alert !important;

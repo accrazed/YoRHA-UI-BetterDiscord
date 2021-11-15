@@ -2,7 +2,7 @@
 .container-2wlB3z,
 .clickable-1JJAn8:hover .layout-2DM8Md,
 .members-1998pB,
-.members-1998pB>div {
+.members-1998pB > div {
     background: transparent;
 }
 
@@ -19,7 +19,7 @@
         background-color: transparent !important;
         border-radius: 0;
         &:before {
-            content: '';
+            content: "";
             position: absolute;
             left: 0;
             top: 2px;
@@ -55,18 +55,6 @@
     }
 }
 
-// Avatar
-// TODO: Get it in a working squared out state? Maybe the status can border around the entire profile picture?
-// .status-1eOIMS,
-// .svg-2V3M55 foreignObject {
-//     border: 1px solid $low;
-//     mask: none;
-// }
-// .pointerEvents-2zdfdO {
-//     position: absolute;
-//     mask: none;
-// }
-// Bot tag
 .botTagRegular-2HEhHi {
     background-color: $alert;
     color: $high;

@@ -1,12 +1,12 @@
 // Wallpaper
 #app-mount {
-    background: url("https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/wallpapers/NieR-LOW-1440.png")
+    background: url("https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/src/wallpapers/dark-theme-1440.png")
         center/cover no-repeat;
 }
 // Home icon
-.homeIcon-FuNwkv, // TODO - delete - deprecated
 .homeIcon-AaowEC {
-    background: url(https://i.imgur.com/09fncQw.png) center/contain no-repeat;
+    background: url("https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/icons/home_dark-theme.png")
+        center/contain no-repeat;
 }
 // Theatre effect
 #app-mount:before {
