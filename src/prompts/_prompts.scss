@@ -1,70 +1,70 @@
 // Backdrop
-.backdrop-1wrmKB,
+.backdrop-2ByYRN,
 .backdropWithLayer-3_uhz4 {
     opacity: 0.4 !important;
 }
 // Transparencies
-.theme-dark .separator-2-RRj_,
-.theme-dark .footer-3mqk7D,
-.theme-dark .footer-2gL1pp {
+.theme-dark .separator-2lLxgC,
+.theme-dark .footer-VCsJQY,
+.theme-dark .footer-31IekZ {
     background-color: transparent;
     box-shadow: none;
 }
 // Set a custom status
-.theme-dark .root-1gCeng {
+.theme-dark .root-g14mjS {
     @include boxify($high, $mid, 3px);
 }
-.art-347BZj {
+.art-2p0nYa {
     background-image: none;
 }
-.header-3C6qT5 {
+.header-2zHCAk {
     padding-top: 0;
 }
 // Create a server
-.h5-18_1nd,
-.footer-2gL1pp,
-.uploadIcon-2IFzZU,
-.colorMuted-HdFt4q,
-.colorHeaderPrimary-26Jzh-,
-.colorHeaderSecondary-3Sp3Ft {
+.h5-2RwDNl,
+.footer-31IekZ,
+.uploadIcon-2wV7s_,
+.colorMuted-20987_,
+.colorHeaderPrimary-jN_yGr,
+.colorHeaderSecondary-g5teka {
     color: $low;
 }
-.anchor-3Z-8Bb {
+.anchor-1MIwyf {
     color: $alert;
 }
 // You've been invited to join a server
-.container-2Yth53 {
-    .title-2_aCTw {
+.container-1Gt1iQ {
+    .title-10kb1R {
         color: $low;
     }
 }
-.iconActiveLarger-1L4Joi {
+.iconActiveLarger-2EZc1b {
     border-radius: 0;
 }
 // Upload Image
-.theme-dark .uploadModal-2ifh8j {
+.theme-dark .uploadModal-2ie9O_ {
     @include boxify($high, $mid, 6px);
-    .scrollableContainer-2NUZem {
+    .scrollableContainer-15eg7h {
         box-shadow: none;
         border: 3px solid $low;
     }
 }
 // Drag and drop upload
-.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc {
-    .inner-3nWsbo .instructions-2Du9gG,
-    .inner-3nWsbo {
+.uploadModalIn-2w48Zf .uploadDropModal-13Kd20 {
+    .inner-rBP-MS .instructions-272j2A,
+    .inner-rBP-MS {
         border: none;
         color: $low;
     }
-    .bgScale-1otPtc {
+    .bgScale-1iWuPF {
         @include boxify($high, $mid, 4px);
     }
 }
-.theme-dark .checkbox-1ix_J3 {
+.theme-dark .checkbox-f1HnKB {
     border: 2px solid $low;
     border-radius: 0;
 
-    &.checked-3_4uQ9 {
+    &.checked-1pZh2h {
         border: 2px solid $low !important;
         background-color: $high;
 
@@ -74,33 +74,33 @@
     }
 }
 // Login screen
-.theme-dark.authBox-hW6HRx {
+.theme-dark.authBox-1HR6Ha {
     @include boxify($high, $mid, 6px);
 
     &,
-    .colorHeaderPrimary-26Jzh-,
-    .colorHeaderSecondary-3Sp3Ft,
-    .h5-18_1nd {
+    .colorHeaderPrimary-jN_yGr,
+    .colorHeaderSecondary-g5teka,
+    .h5-2RwDNl {
         color: $low;
     }
     .lookLink-9FtZy-.colorBrand-3pXr91 {
         color: $alert;
     }
-    .qrCodeContainer-3sXarj,
-    .qrCodeOverlay-qgtlTP {
+    .qrCodeContainer-1qlybH,
+    .qrCodeOverlay-2bLtKl {
         border: 1px solid $low;
     }
 }
 // CTRL K
-.quickswitcher-3JagVE {
+.quickswitcher-pKcM9U {
     @include boxify($high, $mid, 5px);
-    .input-2VB9rf {
+    .input-3r5zZY {
         color: $high;
         background: $low;
         border-radius: 0;
         box-shadow: none;
     }
-    .icon-30q1Or {
+    .icon-12xJtb {
         height: 13px;
         width: 13px;
         background-color: $low;
@@ -109,13 +109,13 @@
         background: $low;
         border-radius: 0;
 
-        .note-S--UP5,
-        .misc-1CT3G7,
-        .contentUnread-3gTHvA,
-        .contentDefault-16dKSY {
+        .note-OhIxFa,
+        .misc-XwBATi,
+        .contentUnread-1_MVDK,
+        .contentDefault-17ewQQ {
             color: $high;
         }
-        .icon-30q1Or {
+        .icon-12xJtb {
             background-color: $high;
             path {
                 fill: $high;
@@ -126,19 +126,19 @@
 // Invite Friends to Server
 .theme-dark {
     .lookLink-9FtZy-.colorGrey-2DXtkV,
-    .footerText-2a7NxZ {
+    .footerText-2QLGHU {
         color: $low;
     }
-    .inviteRow-2L02ae {
+    .inviteRow-3vmB7i {
         border-radius: 0;
-        .inviteRowName-1tVaxu {
+        .inviteRowName-3H4s_c {
             color: $low;
         }
 
         &:hover {
             background: $low;
             .lookLink-9FtZy-.colorGrey-2DXtkV,
-            .inviteRowName-1tVaxu {
+            .inviteRowName-3H4s_c {
                 color: $high;
             }
         }
@@ -154,7 +154,7 @@
         color: $high;
         background-color: $low;
     }
-    .footer-2gL1pp,
+    .footer-31IekZ,
     .bd-modal-body {
         color: $low;
         background-color: transparent;
@@ -180,28 +180,28 @@
     }
 }
 // Notification settings
-.theme-dark .modal-yWgWj- {
+.theme-dark .modal-2RrUKJ {
     @include boxify($high, $mid, 4px);
 }
 // Reactions
 .theme-dark {
-    .reactors-Blmlhw,
-    .scroller-1-nKid {
+    .reactors-1VXca7,
+    .scroller-2GkvCq {
         background: transparent;
     }
-    .reactorDefault-1IUqMZ {
+    .reactorDefault-3GSyaV {
         box-shadow: none;
     }
-    .remove-3V-yj8,
-    .discriminator-byOsvi {
+    .remove-19AQn_,
+    .discriminator-1DCM-o {
         color: $low;
     }
-    .reactionSelected-1pqISm,
-    .reactionDefault-GBA58K:hover {
+    .reactionSelected-1aMb2K,
+    .reactionDefault-1Sjj1f:hover {
         background: $low;
         border-radius: 0;
 
-        .colorStandard-2KCXvj {
+        .colorStandard-21JIj7 {
             color: $high;
         }
     }

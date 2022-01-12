@@ -1,18 +1,18 @@
 .theme-dark {
-    .tier-2pEkRl {
+    .tier-3CS7-p {
         @include boxify($high, $mid, 3px);
 
-        .tierHeaderUnlocked-3lTDnP,
-        .tierIconLocked-3jQkNk,
-        .tierBody-3aUxuc,
-        .tierHeaderLocked-3S508x {
+        .tierHeaderUnlocked-1OpOLf,
+        .tierIconLocked-RGSkSl,
+        .tierBody-1d3UiS,
+        .tierHeaderLocked-30MLlO {
             color: $low;
             background-color: transparent;
         }
     }
 
-    .subscriberCount-11AZJ2,
-    .subscriberCount-11AZJ2 strong {
+    .subscriberCount-3iRh_w,
+    .subscriberCount-3iRh_w strong {
         color: $low;
     }
 }

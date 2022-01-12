@@ -1,136 +1,136 @@
 // Transparencies
-.wrapper-2Gsate {
+.wrapper-22rqw6 {
     background: transparent;
 }
-.header-ykumBX,
-.header-8ilj5e {
+.header-1w9Q93,
+.header-11eigE {
     box-shadow: none;
 }
-.popoutContainer-1MXdqN // Clicking an emote
+.popoutContainer-2wbmiM // Clicking an emote
 {
     @include boxify($high, $mid, 3px);
 }
-.full-motion .wrapper-2aW0bm:hover,
-.wrapper-2aW0bm // Options when hovering over message
+.full-motion .wrapper-2vIMkT:hover,
+.wrapper-2vIMkT // Options when hovering over message
 {
     @include boxify($low, $mid, 3px);
 
-    .button-1ZiXG9 {
+    .button-3bklZh {
         @include buttonify($low, $high, $high, $low);
     }
 }
 // Pinned Messages
-.messagesPopoutWrap-1MQ1bW {
+.messagesPopoutWrap-3zryHW {
     @include boxify($high, $mid, 3px);
 }
-.username-1A8OIy {
+.username-h_Y3Us {
     color: $low !important;
 }
 // Selected tab in header
-.theme-dark .header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa {
+.theme-dark .header-145e10 .tabBar-1qdMr5 .tab-TRrPC8.active-1grPyy {
     background-color: $alert;
     color: $high;
 }
 // Pick emoji
-.contentWrapper-SvZHNd {
+.contentWrapper-3vHNP2 {
     border: 1px solid $low;
     @include boxify($high, $mid, 4px);
 }
-.emojiItem-14v6tW.emojiItemSelected-1aLkfV {
+.emojiItem-277VFM.emojiItemSelected-2Lg50V {
     background: $low;
     border-radius: 0;
 }
-.theme-dark .backButton-JyKGC1 {
+.theme-dark .backButton-3D5utk {
     color: $low;
 
     &:hover {
         color: $mid;
     }
 }
-.navButtonActive-1MkytQ {
+.navButtonActive-1EqC5l {
     background-color: $low;
     color: $high;
     border-radius: 0;
 }
 // Pick Sticker
-.stickerInspected-2EM4w- .inspectedIndicator-59EII8 {
+.stickerInspected-mwnU6w .inspectedIndicator-27zwNZ {
     background-color: $low;
 }
 // Autocomplete in chatbox
 .theme-dark {
-    .contentTitle-2tG_sM strong,
+    .contentTitle-3CylD3 strong,
     .content-Qb0rXO {
         color: $low;
     }
-    .divider-23swzi {
+    .divider-1bJsnZ {
         background-color: $low;
     }
-    .autocomplete-1vrmpx {
+    .autocomplete-3NRXG8 {
         @include boxify($high, $mid, 4px);
 
-        .descriptionDiscriminator-3vUOCc {
+        .descriptionDiscriminator-tCKMLV {
             color: $mid;
         }
         .description-11DmNu,
         .descriptionUsername-J_75O8,
-        .contentTitle-2tG_sM {
+        .contentTitle-3CylD3 {
             color: $low;
         }
     }
-    .selected-1Tbx07 {
+    .selected-3H3-RC {
         background-color: $low;
         border-radius: 0;
 
-        .colorInteractiveNormal-PB7JN3,
-        .colorInteractiveActive-3Ip9Eu,
-        .colorStandard-2KCXvj,
+        .colorInteractiveNormal-36ZhyZ,
+        .colorInteractiveActive-30E9n8,
+        .colorStandard-21JIj7,
         .content-Qb0rXO,
         .description-11DmNu,
         .descriptionUsername-J_75O8,
-        .contentTitle-2tG_sM {
+        .contentTitle-3CylD3 {
             color: $high;
         }
     }
 }
-.autocompleteRow-2OthDa {
+.autocompleteRow-14iwvH {
     padding: 0;
 }
 // Delete message
-.theme-dark .focusLock-Ns3yie {
+.theme-dark .focusLock-2tveLW {
     // Message Preview
-    .message-2qRu38 {
+    .message-G6O-Wv {
         border-radius: 0;
         border: 1px solid $low;
         background-color: $high;
         box-shadow: none;
     }
     // Pro tip
-    .pro-1T8RK7 {
+    .pro-3GwLMX {
         color: $alert !important;
     }
 }
 // Upload a File / Create Thread popout
-.colorDefault-2K3EoJ {
-    .subtext-13Lvrj {
+.colorDefault-CDqZdO {
+    .subtext-2GlkbE {
         color: $mid;
     }
-    &:hover .subtext-13Lvrj {
+    &:hover .subtext-2GlkbE {
         color: $low;
     }
 }
 
 // Ping everyone warning
-.theme-dark .contentWarningPopout-n5JsIs {
+.theme-dark .contentWarningPopout-WKdbDG {
     @include boxify($high, $mid, 3px);
 
-    .footer-3N9rgh {
+    .footer-2aeMle {
         background-color: transparent;
     }
 
-    .buttonHint-OwCvKC,
-    .buttonHint-OwCvKC strong,
-    .header-2NYWtG,
-    .body-3PNusm {
+    .buttonHint-3RmBN4,
+    .buttonHint-3RmBN4 strong,
+    .header-DRA95Q,
+    .body-2rDNbs {
         color: $low;
     }
 }

@@ -1,13 +1,13 @@
 // Transparencies
-.container-2wlB3z,
-.clickable-1JJAn8:hover .layout-2DM8Md,
-.members-1998pB,
-.members-1998pB > div {
+.container-2o3qEW,
+.clickable-28SzVr:hover .layout-1qmrhw,
+.members-3WRCEx,
+.members-3WRCEx > div {
     background: transparent;
 }
 
 // Member hover/select animations
-.container-2Pjhx- {
+.container-1oeRFJ {
     transition: color 0.2s;
     max-width: none;
     border-radius: 0;
@@ -15,7 +15,7 @@
     margin: 5px 0 5px 0;
     position: relative;
     // Animation
-    .layout-2DM8Md {
+    .layout-1qmrhw {
         background-color: transparent !important;
         border-radius: 0;
         &:before {
@@ -35,27 +35,27 @@
         }
     }
     // Selected channel
-    &.selected-aXhQR6,
+    &.selected-1-Z6gm,
     &:hover {
         color: $high !important;
         box-shadow: 0 1px $low, 0 -1px $low;
-        .name-uJV0GL span,
-        .activity-2Gy-9S,
-        .muted-3mU76i {
+        .name-3Vmqxm span,
+        .activity-2EQDZv,
+        .muted-14PyqW {
             color: $high !important;
         }
-        .layout-2DM8Md:before {
+        .layout-1qmrhw:before {
             transform: scaleX(1);
         }
-        .avatar-3uk_u9,
-        .linkButtonIcon-Mlm5d6,
-        .content-3QAtGj {
+        .avatar-6qzftW,
+        .linkButtonIcon-7rsZcu,
+        .content-1U25dZ {
             z-index: 1;
         }
     }
 }
 
-.botTagRegular-2HEhHi {
+.botTagRegular-kpctgU {
     background-color: $alert;
     color: $high;
 }

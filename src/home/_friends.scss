@@ -1,69 +1,69 @@
 // Transparencies
-.scroller-1IIF0A,
-.scroller-9moviB,
-.applicationStore-1pNvnv,
-.nowPlayingColumn-2sl4cE,
-.container-lRFx4q,
-.theme-dark .inset-3sAvek,
-.theme-dark .container-1D34oG {
+.scroller-2XLwLg,
+.scroller-29cQFV,
+.applicationStore-2nk7Lo,
+.nowPlayingColumn-1eCBCN,
+.container-1oAagU,
+.theme-dark .inset-SbsSFp,
+.theme-dark .container-2cd8Mz {
     background-color: transparent;
 }
-.peopleListItem-2nzedh.active-rhSpJJ,
-.peopleListItem-2nzedh:hover {
+.peopleListItem-u6dGxF.active-2UF8Zh,
+.peopleListItem-u6dGxF:hover {
     @include boxify($high, $mid, 3px);
 }
 // Low color
-.theme-dark .text-GwUZgS,
-.theme-dark .title-2BxgL2 {
+.theme-dark .text-27cdrj,
+.theme-dark .title-2CL_z0 {
     color: $low;
 }
 // "Active Now" tags, (misc. cards too)
-.theme-dark .feature-2w65J5,
+.theme-dark .feature-2IUcBI,
 .banner-WELp4M,
-.wrapper-3D2qGf {
+.wrapper-2RrXDg {
     transition: all 0.1s;
     @include boxify($high, $mid, 4px);
 
-    .inset-3sAvek {
+    .inset-SbsSFp {
         border: 1px solid $mid;
         border-radius: 0;
     }
-    .partyMemberOverflow-lXnzvu {
+    .partyMemberOverflow-3G1oZz {
         color: $high;
         background: $low;
     }
-    .section-2gLsgF {
+    .section-3G9aLW {
         border-radius: 0;
     }
     &:hover {
         background-color: $low !important;
 
-        .partyMemberOverflow-lXnzvu {
+        .partyMemberOverflow-3G1oZz {
             color: $low;
             background: $high;
         }
-        .base-1x0h_U,
-        .colorHeaderSecondary-3Sp3Ft,
-        .colorStandard-2KCXvj {
+        .base-21yXnu,
+        .colorHeaderSecondary-g5teka,
+        .colorStandard-21JIj7 {
             color: $high;
         }
-        .section-2gLsgF div {
+        .section-3G9aLW div {
             color: $low;
         }
     }
 }
 // 'Active Now' Header
-.header-2SF4Nh {
+.header-Imy05m {
     @include titlify(2px, 4px);
 }
 // No pending requests image
-.theme-dark .emptyWumpus-12J3jI,
-.image-1GzsFd {
+.theme-dark .emptyWumpus-11kRB0,
+.image-20MDYu {
     @include remask("https://svgur.com/i/RGT.svg", $low);
     width: 403px !important;
     height: 353px !important;
 
-    & + div .text-GwUZgS {
+    & + div .text-27cdrj {
         visibility: hidden;
         justify-content: center;
 
@@ -74,19 +74,19 @@
     }
 }
 // Close button hover
-.children-gzQq2t {
+.children-283-lq {
     z-index: 1;
 }
-.actionButton-uPB8Fs:hover {
+.actionButton-3-B2x-:hover {
     transition: background-color 0.2s ease-in-out;
     background-color: $low;
 
-    .icon-35-fSh {
+    .icon-1WVg4I {
         transition: color 0.1s ease-in-out;
         color: $high;
     }
 }
 // Header divider
-.tabBody-3YRQ8W:before {
+.tabBody-2dgbAs:before {
     display: none;
 }

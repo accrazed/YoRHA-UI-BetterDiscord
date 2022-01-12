@@ -1,6 +1,6 @@
 // Embed card
-.embedFull-2tM8--,
-.messageContent-2qWWxC pre {
+.embedFull-1HGV2S,
+.messageContent-2t3eCI pre {
     @include boxify($high, $mid, 4px);
 
     & > code {
@@ -11,45 +11,45 @@
     }
 }
 // Server invite
-.wrapper-35wsBm {
+.wrapper-1HIH0j {
     @include boxify($high, $mid, 3px);
 
-    .inviteDestination-1fAcY7 {
+    .inviteDestination-1rM5rX {
         color: $low;
     }
-    .iconActiveLarge-2nzn9z {
+    .iconActiveLarge-ac-EDu {
         border-radius: 0;
     }
 }
 // File attachments
-.attachment-33OFj0 {
+.attachment-1PZZB2 {
     margin-left: 13px;
     border-radius: 0;
     box-shadow: -3px 0 0 var(--color-low), -9px 0 0 var(--color-high), -21px 0 0 var(--color-low),
         -18px 3px 0 var(--color-mid), 3px 3px 0 var(--color-mid);
 
-    .metadata-3WGS0M {
+    .metadata-1E7Z4i {
         color: $low;
     }
 }
 // Images and Videos
-.imageWrapper-2p5ogY:not(.embedImage-2W1cML) {
+.imageWrapper-oMkQl4:not(.embedImage-2Ynqkh) {
     @include boxify($high, $mid, 4px);
 }
-.wrapper-2TxpI8,
-.video-8eMOth {
+.wrapper-1FP9YQ,
+.video-2HW4jD {
     border-radius: 0;
 }
 // Spotify Listen-Along
-.theme-dark .invite-18yqGF {
+.theme-dark .invite-3uuHYQ {
     @include boxify($high, $mid, 3px);
     border: none;
 
-    .header-Hg_qNF,
-    .partyStatus-6AjDud {
+    .header-1Fx4D1,
+    .partyStatus-2-VcyG {
         color: $low;
     }
-    .textLink-3aPthL {
+    .textLink-_PElWP {
         color: $alert;
     }
 }

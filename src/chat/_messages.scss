@@ -1,23 +1,23 @@
 // Transparencies
-.theme-dark .form-2fGMdU:before,
-.chat-3bRxxu {
+.theme-dark .form-3gdLxP:before,
+.chat-2ZfjoI {
     background: transparent;
 }
-.mentioned-xhSam7:before {
+.mentioned-Tre-dv:before {
     width: 0;
 }
-.divider-JfaTT5 {
+.divider-2rZFJK {
     border-color: $alert;
 }
 // Scrollbar
-.auto-Ge5KZx::-webkit-scrollbar,
-.auto-Ge5KZx::-webkit-scrollbar-thumb,
-.auto-Ge5KZx::-webkit-scrollbar-track {
+.auto-2K3UW5::-webkit-scrollbar,
+.auto-2K3UW5::-webkit-scrollbar-thumb,
+.auto-2K3UW5::-webkit-scrollbar-track {
     border-radius: 0;
     width: 6px;
 }
 // Username label
-.cozyMessage-3V1Y8y .header-23xsNx {
+.cozyMessage-1DWF9U .header-2jRmjb {
     border-radius: 0;
     display: inline-block !important;
     padding: 4px 5px 4px 6px;
@@ -26,7 +26,7 @@
     box-shadow: 2px 2px 0 $mid, -3px 0 0 $low, -9px 0 0 $high, -21px 0 0 $low, -18px 2px 0 $mid;
 }
 // Profile Picture
-.full-motion .avatar-1BDn8e.clickable-1bVtEA {
+.full-motion .avatar-2e8lTP.clickable-31pE3P {
     @include boxify($high, $mid, 3px);
 
     &:hover {
@@ -35,27 +35,27 @@
     }
 }
 // Username color
-.username-1A8OIy.clickable-1bVtEA {
+.username-h_Y3Us.clickable-31pE3P {
     color: $low !important;
 }
 // Date stamp
-.isUnread-3Ef-o9 .content-1o0f9g,
-.unreadPill-2HyYtt,
-.content-1o0f9g {
+.isUnread-3Lojb- .content-3spvdd,
+.unreadPill-3nEWYM,
+.content-3spvdd {
     border-radius: 0;
     background-color: $alert;
     color: $high;
 }
-.unreadPillCapStroke-7rkHbg {
+.unreadPillCapStroke-1nE1Q8 {
     color: $alert;
     fill: $alert;
 }
 // Quotes
-.blockquoteContainer-U5TVEi .blockquoteDivider-2hH8H6 {
+.blockquoteContainer-3VtvI1 .blockquoteDivider-363utW {
     border-radius: 0;
     background-color: $low;
 }
-.emptyChannelIcon-cc932w {
+.emptyChannelIcon-1YdEz2 {
     background-image: url('https://svgur.com/i/RGT.svg');
     @include remask('https://svgur.com/i/RGT.svg', $mid);
     margin: auto;
@@ -64,12 +64,12 @@
 }
 // Mentions
 .theme-dark {
-    .mentioned-xhSam7 {
+    .mentioned-Tre-dv {
         .mention.interactive:hover {
             color: $low;
         }
     }
-    .wrapper-3WhCwL {
+    .wrapper-1ZcZW- {
         background: $alert-trans;
         color: $high;
 
@@ -80,7 +80,7 @@
     }
 }
 // Replies
-.mouse-mode.full-motion .replying-1x3H0T {
+.mouse-mode.full-motion .replying-eZ7p5z {
     &,
     &:hover {
         background-color: $alert-trans;
@@ -89,7 +89,7 @@
         background-color: $alert;
     }
 }
-.backgroundFlash-24qWLN {
+.backgroundFlash-1X5jVs {
     transition: background-color 0.1s;
     background-color: $alert-trans !important;
 }
@@ -97,23 +97,23 @@
     background-color: transparent !important;
     transition: background-color 0.5s;
 }
-.colorBrand-2tjs5J {
+.colorBrand-21Le_q {
     color: $alert;
 }
-.repliedMessage-VokQwo:before {
+.repliedMessage-3Z6XBG:before {
     border-left: var(--spine-width) solid $low;
     border-bottom: 0 solid $low;
     border-right: 0 solid $low;
     border-top: var(--spine-width) solid $low;
     border-radius: 0;
 }
-.replyBadge-r1su3o {
+.replyBadge-LMm_Ic {
     border-radius: 0;
     border: 1px solid $low;
 }
 // You're viewing older messages /// X+ new messages since
-.newMessagesBar-265mhP,
-.jumpToPresentBar-G1R9s6 {
+.newMessagesBar-1hF-9G,
+.jumpToPresentBar-1cEnH0 {
     box-shadow: none;
     background-color: $alert;
     border-radius: 0;
@@ -122,26 +122,26 @@
     }
 }
 // Edit Message
-.scrollableContainer-2NUZem {
+.scrollableContainer-15eg7h {
     @include boxify($high, $mid, 3px);
 }
-.theme-dark .operations-36ENbA {
+.theme-dark .operations-3q3u6E {
     color: $low;
     & > a {
         color: $alert;
     }
 }
-.codeBlockSyntax-2i-tMA,
-.syntaxAfter-hcA4AH,
-.syntaxBefore-1YQ9lW {
+.codeBlockSyntax-2MZ-Qy,
+.syntaxAfter-OxiKEl,
+.syntaxBefore-3pDAmR {
     color: $alert;
 }
 // Timestamps
-.compact-T3H92H .headerText-3Uvj1Y {
+.compact-2Nkcau .headerText-2z4IhQ {
     border-right: 2px dashed $alert;
 }
-.compact-T3H92H .timestamp-3ZCmNB,
-.cozy-3raOZG .timestamp-3ZCmNB.alt-1uNpEt {
+.compact-2Nkcau .timestamp-p1Df1m,
+.cozy-VmLDNB .timestamp-p1Df1m.alt-1dvXnH {
     margin-right: 0;
     width: auto;
 }

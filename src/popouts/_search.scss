@@ -1,19 +1,19 @@
 // Transparencies
-.searchResult-9tQ1uo:before,
-.searchResult-9tQ1uo:after,
-.channelName-1JRO3C,
-.searchHeader-2XoQg7,
-.searchResultsWrap-3-pOjs,
-.theme-dark .option-96V44q:after {
+.searchResult-O9NDji:before,
+.searchResult-O9NDji:after,
+.channelName-3w2Y3c,
+.searchHeader-1r_ZSh,
+.searchResultsWrap-5RVOkx,
+.theme-dark .option-2KkUJO:after {
     background: transparent;
 }
-.searchHeader-2XoQg7,
+.searchHeader-1r_ZSh,
 .searchResultMessage-1fxgXh.hit-1fVM9e {
     box-shadow: none;
 }
 // Search Box
-.searchBar-3dMhjb,
-.searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+.searchBar-zdmu7v,
+.searchBar-3TnChZ .searchBarComponent-3N7dCG {
     border: 1px solid $low;
     background-color: $high-trans;
     border-radius: 0;
@@ -35,21 +35,21 @@
 // Search options popout
 .theme-dark {
     // In-text labels
-    .searchAnswer-3Dz2-q,
-    .searchFilter-2ESiM3 {
+    .searchAnswer-23w-CH,
+    .searchFilter-2UfsDk {
         color: $high;
         background-color: $low;
     }
-    .elevationBorderHigh-2WYJ09,
-    .container-3ayLPN {
+    .elevationBorderHigh-3drnJX,
+    .container-2McqkF {
         @include boxify($high, $mid, 4px);
     }
-    .queryContainer-RKFJW- {
+    .queryContainer-ZunrLZ {
         color: $low;
         strong {
             color: $low;
         }
-        &.focused-2bY0OD {
+        &.focused-2FU0YH {
             color: $high;
             background-color: $low;
             strong {
@@ -58,30 +58,30 @@
         }
         border: none;
     }
-    .resultsGroup-r_nuzN {
-        .header-2N-gMV,
-        .searchClearHistory-2cSSMO,
-        .searchLearnMore-3SQUAj a {
+    .resultsGroup-1BPR25 {
+        .header-3A13BX,
+        .searchClearHistory-2Be-92,
+        .searchLearnMore-7__o_n a {
             color: $low;
         }
-        .plusIcon-v0BTrL {
+        .plusIcon-2V7coV {
             color: $high;
         }
         &::before {
             border: none;
         }
     }
-    .option-96V44q {
+    .option-2KkUJO {
         margin: 0;
 
-        &.user-O3Czj0 .displayUsername-Qekxml,
-        &.user-O3Czj0 .displayedNick-3xxvzU,
-        .searchResultChannelCategory-1l0lSn,
-        .searchResultChannelIcon-1DnTme,
+        &.user-23VtPS .displayUsername-14aOpK,
+        &.user-23VtPS .displayedNick-2dDbfG,
+        .searchResultChannelCategory-3cL8uG,
+        .searchResultChannelIcon-1Il1Qo,
         strong,
-        .nonText-3CRkO0,
-        .filter-3Y_im-,
-        .answer-1n6g43 {
+        .nonText-3_4gtu,
+        .filter-5YbOzJ,
+        .answer-2fBfuP {
             color: $low;
         }
 
@@ -92,29 +92,29 @@
             &::after {
                 background: transparent;
             }
-            &.user-O3Czj0 .displayUsername-Qekxml,
-            &.user-O3Czj0 .displayedNick-3xxvzU,
+            &.user-23VtPS .displayUsername-14aOpK,
+            &.user-23VtPS .displayedNick-2dDbfG,
             strong,
-            .nonText-3CRkO0,
-            .filter-3Y_im-,
-            .answer-1n6g43 {
+            .nonText-3_4gtu,
+            .filter-5YbOzJ,
+            .answer-2fBfuP {
                 color: $high;
             }
-            .searchResultChannelCategory-1l0lSn,
-            .searchResultChannelIcon-1DnTme {
+            .searchResultChannelCategory-3cL8uG,
+            .searchResultChannelIcon-1Il1Qo {
                 color: $high;
             }
         }
     }
 }
 // Search results
-.searchResult-9tQ1uo {
+.searchResult-O9NDji {
     @include boxify($high, $mid, 5px);
 }
 .tab-2j5AEF {
     border-radius: 0;
 }
-.searchResult-9tQ1uo.expanded-w_LCGl,
+.searchResult-O9NDji.expanded-w_LCGl,
 .searchResultMessage-1fxgXh.hit-1fVM9e {
     border: 1px solid $low;
     border-radius: 0;

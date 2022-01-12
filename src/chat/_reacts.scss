@@ -1,24 +1,24 @@
 // Reacts
-.reaction-1hd86g {
-    &.reactionMe-wv5HKu {
+.reaction-2A2y9y {
+    &.reactionMe-3I9gFK {
         border: 1px solid $low;
     }
     border-radius: 0;
     background-color: transparent;
     border: 1px solid $low;
-    .reactionCount-2mvXRV {
+    .reactionCount-1zkLcN {
         color: $low;
     }
     &:hover {
         @include boxify($mid, $mid, 2px);
-        .reactionCount-2mvXRV {
+        .reactionCount-1zkLcN {
             color: $high;
         }
     }
 }
-.reaction-1hd86g.reactionMe-wv5HKu {
+.reaction-2A2y9y.reactionMe-3I9gFK {
     @include boxify($low, $mid, 2px);
-    .reactionCount-2mvXRV {
+    .reactionCount-1zkLcN {
         color: $high;
     }
 }

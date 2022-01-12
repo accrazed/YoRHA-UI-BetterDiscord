@@ -3,7 +3,7 @@
     border: none;
 }
 
-.separator-2I32lJ {
+.separator-1So4YB {
     margin: 0;
 }
 
@@ -24,29 +24,29 @@
     border-color: $alert !important;
 }
 
-.top-28JiJ- .item-PXvHYJ {
+.top-K_jibn .item-3XjbnG {
     color: $mid;
 }
 
-.top-28JiJ- {
-    .selected-3s45Ha.item-PXvHYJ,
-    .selected-3s45Ha.item-PXvHYJ:hover {
+.top-K_jibn {
+    .selected-g-kMVV.item-3XjbnG,
+    .selected-g-kMVV.item-3XjbnG:hover {
         color: $low;
     }
 }
 
-.nickname-3M3Jfa,
-.headerTagUsernameBase-1NqrY5,
-.headerTagUsernameNoNickname-2-Y5Ct,
-.discrimBase-24vY8o,
-.theme-dark .newPopoutActivityStyles .activityName-1IaRLn,
+.nickname-t08Mck,
+.headerTagUsernameBase-XYisdh,
+.headerTagUsernameNoNickname-1TjuLc,
+.discrimBase-1VOoau,
+.theme-dark .newPopoutActivityStyles .activityName-3YXl6e,
 .activityHeader-1PExlk,
 .customStatusText-39gdCI,
-.colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O),
-.colorDefault-2K3EoJ.focused-3afm-j,
-.text-AOoUen,
-.nameWrap-3Z4G_9,
-.activityName-1IaRLn {
+.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_),
+.colorDefault-CDqZdO.focused-3qFvc8,
+.text-31kWmP,
+.nameWrap-3TyM52,
+.activityName-3YXl6e {
     color: $high;
 }
 
@@ -60,15 +60,15 @@
     color: $low;
 }
 
-.bar-3urHkF,
+.bar-1GpknY,
 .headerFill-adLl4x,
-.colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O),
-.colorDefault-2K3EoJ.focused-3afm-j,
+.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_),
+.colorDefault-CDqZdO.focused-3qFvc8,
 .activity-3v9l4T {
     background: $low;
 }
 
-.barInner-3NDaY_ {
+.barInner-3dHef4 {
     background: $high;
 }
 
@@ -77,49 +77,49 @@
     order: 10;
     padding: 16px;
     background-color: $low;
-    .nameWrap-3Z4G_9,
-    .content-3JfFJh,
-    .headerText-1HLrL7 {
+    .nameWrap-3TyM52,
+    .content-tXPNDw,
+    .headerText-3g1XK9 {
         color: $high;
     }
 }
 
 // Rich Embed Game Icon
-.gameIcon-gg34Dz,
-.assetsLargeImage-eYwpTX {
+.gameIcon-1mDo1J,
+.assetsLargeImage-8U5dlz {
     border-radius: 0;
     border: 1px solid $high;
 }
 
 .root-SR8cQa, // User menu popout
-.theme-dark .colorPickerCustom-2CWBn2, // Color picker
-.userPopout-xaxa6l // Clicking on a user
+.theme-dark .colorPickerCustom-1swUKF, // Color picker
+.userPopout-2j1gM4 // Clicking on a user
 {
     @include boxify($high, $mid, 5px);
     border-color: $low;
 }
 
-.theme-dark .newPopoutActivityStyles .activityName-1IaRLn {
+.theme-dark .newPopoutActivityStyles .activityName-3YXl6e {
     color: $low;
 }
 
-.headerNormal-3KXFBt {
+.headerNormal-3Zn_yu {
     display: flex;
     flex-direction: column;
 }
 
-.popoutBanner-19WKGg {
+.popoutBanner-3cqRD9 {
     position: relative;
     order: 0;
 }
 
 // Header
-.headerTop-3vNv-a {
+.headerTop-3GPUSF {
     position: static;
     order: 1;
     padding: 8px;
     background-color: $low;
-    .customStatus-oN4ZZY,
+    .customStatus-3XAoF9,
     .nickname-2gQ76l,
     .headerTagUsernameBase-24SRnT,
     .headerTagUsernameNoNickname-1ZLDYY,
@@ -142,7 +142,7 @@
 }
 
 // Avatar
-.avatarWrapper-3r9PdD {
+.avatarWrapper-eenWra {
     margin: 15px auto;
     display: flex;
     position: relative;
@@ -157,34 +157,34 @@
     border-radius: 0;
 }
 
-.avatar-37jOim {
+.avatar-2Vndt_ {
     margin: auto;
     border-width: 1px;
     background-color: $high;
 }
 
 // Avatar hint
-.avatarWrapperNormal-26WQIb,
-.avatarWrapperNormal-26WQIb:hover {
-    .avatarHint-2A3RNb {
+.avatarWrapperNormal-ahVUaC,
+.avatarWrapperNormal-ahVUaC:hover {
+    .avatarHint-k7pYop {
         top: 20px;
         left: 95px;
         margin: auto;
     }
 }
 
-.body-3HBlXn {
+.body-2wLx-E {
     order: 3;
 }
 
-.footer-3UKYOU {
+.footer-3naVBw {
     order: 4;
 }
 
 // Spotify
-.bar-3urHkF {
+.bar-1GpknY {
     border: 1px solid $mid;
-    .barInner-3NDaY_ {
+    .barInner-3dHef4 {
         background-color: $alert;
     }
 }

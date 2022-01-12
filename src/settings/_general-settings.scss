@@ -1,14 +1,14 @@
 // Transparencies
-.layer-3QrUeG,
-.scroller-305q3I,
-.contentRegion-3nDuYy,
-.sidebarRegionScroller-3MXcoP,
-.side-8zPYf6 .separator-gCa7yv,
-.contentRegionScroller-26nc1e,
-.standardSidebarView-3F1I7i {
+.layer-86YKbF,
+.scroller-3_YDR2,
+.contentRegion-3HkfJJ,
+.sidebarRegionScroller-FXiQOh,
+.side-2ur1Qk .separator-2wx7h6,
+.contentRegionScroller-2_GT_N,
+.standardSidebarView-E9Pc3j {
     background-color: transparent;
 }
-.theme-dark .row-2okwlC,
+.theme-dark .row-1Tg75B,
 .theme-dark .item-3eFBNF {
     box-shadow: none;
 }
@@ -17,11 +17,11 @@
 }
 // X button
 .theme-dark {
-    .markValue-2DwdXI,
-    .keybind-KpFkfr {
+    .markValue-2U_-UG,
+    .keybind-13vtq8 {
         color: $low;
     }
-    .closeButton-1tv5uR {
+    .closeButton-PCZcma {
         transition: background-color 0.2s;
         border-color: $low;
         &:hover {
@@ -33,10 +33,10 @@
     }
 }
 // Headers
-.h1-1qdNzo,
-.h2-2gWE-o {
+.h1-34Txb0,
+.h2-1EaYVL {
     @include titlify(2px, 4px);
 }
-.h5-18_1nd {
+.h5-2RwDNl {
     @include titlify(2px, 2px);
 }

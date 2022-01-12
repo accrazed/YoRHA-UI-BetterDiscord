@@ -1,18 +1,18 @@
 // Transparencies
-.app-2rEoOp,
-.bg-h5JY_x {
+.app-2CXKsg,
+.bg-1QIAus {
     background-color: transparent;
 }
-.wordmarkWindows-1v0lYD {
+.wordmarkWindows-2dq6rw {
     color: transparent;
 }
 // Close/Minimize/Maximize buttons
-.winButtonClose-1HsbF-:hover {
+.winButtonClose-3Q8ZH5:hover {
     transition: background-color 0.2s, color 0.2s ease;
     color: $high;
     background: $alert;
 }
-.winButtonMinMax-PBQ2gm:hover {
+.winButtonMinMax-3RsPUg:hover {
     transition: background-color 0.2s, color 0.2s ease;
     color: $high;
     background: $low;
@@ -25,7 +25,7 @@
     color: $low;
 }
 .theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse,
-.input-cIJ7To {
+.input-2g-os5 {
     background-color: $high;
     border-radius: 0;
     border: 2px solid $low;
@@ -34,7 +34,7 @@
     &:hover {
         border-color: $mid;
     }
-    &.focused-1mmYsC,
+    &.focused-1AtTHC,
     &:focus {
         border-color: $alert;
     }
@@ -44,12 +44,12 @@
 }
 // Buttons
 .bd-modal-wrapper .footer button, // PRE-BETA BBD: WILL BE DEPRECIATED SOON
-.theme-dark .button-2DhvE9,
-.theme-dark .watchButton-2SbJEo,
+.theme-dark .button-1iHNQ2,
+.theme-dark .watchButton-2v6cPT,
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6,
 .lookInverted-2D7oAl.colorGreen-29iAKY,
 .lookInverted-2D7oAl.colorBrand-3pXr91,
-.container-UC8Ug1,
+.container-x8Y1ix,
 .lookOutlined-3sRXeN.colorGreen-29iAKY,
 .lookOutlined-3sRXeN.colorBrand-3pXr91,
 .lookFilled-1Gx00P.colorPrimary-3b3xI6,
@@ -61,7 +61,7 @@
 #bd-settingspane-container .bd-pfbtn, // PRE-BETA BBD: WILL BE DEPRECIATED SOON
 .theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6,
 .jumpButton-JkYoYK,
-.button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp,
+.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx,
 .lookFilled-1Gx00P.colorGreen-29iAKY,
 .lookFilled-1Gx00P.colorRed-1TFJan,
 .lookOutlined-3sRXeN.colorRed-1TFJan {
@@ -71,14 +71,14 @@
     @include buttonify($alert, $high, $high, $low);
 }
 // Slider / Toggle switch
-.container-3auIfb {
+.container-2nx-BQ {
     background-color: $low !important;
     border-radius: 0;
 }
-.input-rwLH4i {
+.input-2XRLou {
     border-radius: 0;
 }
-.slider-TkfMQL rect {
+.slider-32CRPX rect {
     fill: $high;
     rx: 0;
     ry: 4;
@@ -97,7 +97,7 @@
     --switch-color: $high;
 }
 // Checkbox
-.item-26Dhrx {
+.item-2idW98 {
     transition: color 0.2s, background-color 0.2s;
     @include boxify($high, $mid, 3px);
     @include buttonify($high, $low, $low, $high);
@@ -106,11 +106,11 @@
         background: $alert;
         color: $high;
 
-        .radioIconForeground-XwlXQN {
+        .radioIconForeground-2BMavi {
             color: $high;
         }
     }
-    .radioBar-bMNUI- {
+    .radioBar-3w9XY- {
         border-radius: 0;
     }
 }
@@ -143,8 +143,8 @@
         background-color: $low;
         color: $high;
 
-        .colorStandard-2KCXvj,
-        .subtitle-2yP_Eh {
+        .colorStandard-21JIj7,
+        .subtitle-2SfoOV {
             color: $high;
         }
     }
@@ -154,13 +154,13 @@
     }
 }
 // Pulley bar
-.barFill-23-gu- {
+.barFill-2Bh7CX {
     background: $alert;
 }
-.theme-dark .bar-2Qqk5Z {
+.theme-dark .bar-1Bhnl9 {
     background: $low;
 }
-.grabber-3mFHz2 {
+.grabber-2GQyvM {
     background: $high;
     border: 1px solid $low;
     border-radius: 0;

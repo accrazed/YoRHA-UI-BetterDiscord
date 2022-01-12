@@ -1,18 +1,18 @@
 // Discord Logo
-.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
-.wrapper-1BJsBx:hover .childWrapper-anI2G9,
-.childWrapper-anI2G9 {
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
+.wrapper-3kah-n:hover .childWrapper-1j_1ub,
+.childWrapper-1j_1ub {
     background-color: transparent;
     color: transparent;
 }
-.tutorialContainer-11ICd5 {
-    .wrapper-25eVIn,
-    .svg-1X37T1 {
+.tutorialContainer-1pL9QS {
+    .wrapper-28eC3z,
+    .svg-2zuE5p {
         height: 57px;
         width: 48px;
     }
 
-    .svg-1X37T1 {
+    .svg-2zuE5p {
         animation-name: y-spin;
         animation-duration: 4s;
         animation-timing-function: ease-in-out;
@@ -28,25 +28,25 @@
     }
 }
 // Icons
-.iconSize-2tmqqh {
+.iconSize-Ai8Wtu {
     @include remask(
         "https://discord.com/assets/c30220448097b064286a8759a9b6c4af.svg",
         $alert
     );
 }
-foreignObject[mask="url(#svg-mask-status-dnd)"] .status-1AY8sU {
+foreignObject[mask="url(#svg-mask-status-dnd)"] .status-2DiCMd {
     background-color: $alert !important;
 }
 .iconBadge-2wi9r4.participating-NBGDkr,
-.iconBadge-qZ4Ksk {
+.iconBadge-3Mmg92 {
     background-color: $alert;
 }
-.strikethrough-1n4ekb {
+.strikethrough-2Kl6HF {
     color: $alert;
 }
 // Alert Fills / Blurple
-.theme-dark .overlayToggleIconOn-3UNmty .fill-1ugeBG,
-.overlayToggleIconOff-1kT42w .fill-1ugeBG,
+.theme-dark .overlayToggleIconOn-3_-nGm .fill-MYciTJ,
+.overlayToggleIconOff-3hGOmN .fill-MYciTJ,
 [fill*="#F04747"],
 [fill*="#7289da"] {
     fill: $alert !important;
@@ -67,11 +67,11 @@ foreignObject[mask="url(#svg-mask-status-dnd)"] .status-1AY8sU {
     border: 2px solid $low;
 }
 // Plus sign
-.theme-dark .actionButton-VzECiy {
+.theme-dark .actionButton-1YKTU0 {
     color: $low;
 }
 // Do not disturb
-.pointerEvents-2zdfdO[mask="url(#svg-mask-status-dnd)"] {
+.pointerEvents-9SZWKj[mask="url(#svg-mask-status-dnd)"] {
     fill: $alert;
 }
 // Lock icon Alert icon, and thread icon
