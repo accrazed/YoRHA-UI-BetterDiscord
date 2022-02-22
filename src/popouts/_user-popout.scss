@@ -20,7 +20,7 @@
 }
 
 // Colors
-[style*='border-color: rgb(255, 255, 255);'] {
+[style*="border-color: rgb(255, 255, 255);"] {
     border-color: $alert !important;
 }
 
@@ -148,6 +148,7 @@
     position: relative;
     justify-self: center;
     align-content: center;
+    justify-content: center;
     order: 2;
     top: 0;
     left: 0;
@@ -158,6 +159,9 @@
 }
 
 .avatar-2Vndt_ {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
     margin: auto;
     border-width: 1px;
     background-color: $high;
