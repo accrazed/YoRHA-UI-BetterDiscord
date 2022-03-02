@@ -23,7 +23,7 @@
     user-select: none;
     pointer-events: none;
 }
-.theme-dark .mentioned-Tre-dv a {
+.theme-dark .mentioned-Tre-dv a.anchor-1MIwyf {
     background-color: var(--color-low-trans);
     border-radius: 0.25em;
 }

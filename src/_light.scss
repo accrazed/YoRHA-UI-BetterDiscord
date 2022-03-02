@@ -29,9 +29,8 @@
     pointer-events: none;
 }
 
-// Extra changes
-.theme-dark .mentioned-Tre-dv a {
-    background-color: var(--color-high-trans);
+.theme-dark .mentioned-Tre-dv a.anchor-1MIwyf {
+    background-color: $high-trans;
     border-radius: 0.25em;
 }
 

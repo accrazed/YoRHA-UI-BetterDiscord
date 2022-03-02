@@ -26,11 +26,12 @@
     user-select: none;
     pointer-events: none;
 }
-// Extra changes
-.theme-dark .mentioned-Tre-dv a {
-    background-color: var(--color-low-trans);
+
+.theme-dark .mentioned-Tre-dv a.anchor-1MIwyf {
+    background-color: $low-trans;
     border-radius: 0.25em;
 }
+
 // Highlighting text
 ::selection {
     background-color: $alert-trans;
