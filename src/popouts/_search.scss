@@ -1,10 +1,12 @@
 // Transparencies
 .searchResult-O9NDji:before,
 .searchResult-O9NDji:after,
+.option-ayUoaq:after,
+.option-ayUoaq:hover:after,
 .channelName-3w2Y3c,
 .searchHeader-1r_ZSh,
 .searchResultsWrap-5RVOkx,
-.theme-dark .option-2KkUJO:after {
+.theme-dark .option-ayUoaq:after {
     background: transparent;
 }
 .searchHeader-1r_ZSh,
@@ -71,7 +73,7 @@
             border: none;
         }
     }
-    .option-2KkUJO {
+    .option-ayUoaq {
         margin: 0;
 
         &.user-23VtPS .displayUsername-14aOpK,
