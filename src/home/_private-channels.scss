@@ -1,7 +1,50 @@
 // Transparencies
 .scroller-WSmht3,
 .sidebar-1tnWFu,
-.privateChannels-oVe7HL {
+.privateChannels-oVe7HL,
+.interactiveSelected-29CP8y,
+.interactive-iyXY_x,
+.interactive-iyXY_x:hover {
     background: transparent;
 }
-// Find or start a conversation
+
+// Member hover/select animations
+.interactive-1vLZ_I {
+    transition: color 0.2s;
+    border-radius: 0;
+    margin: 1px 0 1px 0;
+    position: relative;
+
+    // Animation
+    .layout-1LjVue {
+        background-color: transparent !important;
+        &:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 2px;
+            bottom: 2px;
+            transition: transform 0.4s;
+            animation-name: pulsingBackground;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+            transform: scaleX(0);
+            transform-origin: left;
+            width: 100%;
+            box-shadow: 0 0 2px $low;
+        }
+    }
+
+    // Selected channel
+    &:hover,
+    &.interactiveSelected-29CP8y {
+        color: $high;
+        box-shadow: 0 1px $low, 0 -1px $low;
+        .layout-1LjVue:before {
+            transform: scaleX(1);
+        }
+        .content-66wMin {
+            z-index: 1;
+        }
+    }
+}
