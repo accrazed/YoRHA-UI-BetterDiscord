@@ -38,13 +38,16 @@
     // Selected channel
     &:hover,
     &.interactiveSelected-29CP8y {
-        color: $high;
         box-shadow: 0 1px $low, 0 -1px $low;
+        color: $high;
         .layout-1LjVue:before {
             transform: scaleX(1);
         }
+        .avatar-1HDIsL, // Home icons like friends, Library, nitro
+        .closeButton-mupH76, // Close DM button on DM list when hovering
         .content-66wMin {
             z-index: 1;
         }
+        
     }
 }
