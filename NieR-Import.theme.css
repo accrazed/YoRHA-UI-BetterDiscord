@@ -1690,6 +1690,16 @@ strong {
   color: var(--color-low);
 }
 
+.theme-dark .date-2tmzZM,
+.theme-dark .socialLink-1qjJIk {
+  color: var(--color-low);
+}
+.theme-dark .content-FDHp32 ol,
+.theme-dark .content-FDHp32 p,
+.theme-dark .content-FDHp32 ul li {
+  color: var(--color-low);
+}
+
 .theme-dark .quickSelectPopout-2F0PXw {
   background: var(--color-low);
   border-radius: 0;
