@@ -24,9 +24,9 @@
 .h5-2RwDNl,
 .footer-31IekZ,
 .uploadIcon-2wV7s_,
-.colorMuted-20987_,
-.colorHeaderPrimary-jN_yGr,
-.colorHeaderSecondary-g5teka {
+.colorMuted-1jNaVo,
+.colorHeaderPrimary-3kwW7L,
+.colorHeaderSecondary-2mxIhA {
     color: $low;
 }
 .anchor-1MIwyf {
@@ -78,8 +78,8 @@
     @include boxify($high, $mid, 6px);
 
     &,
-    .colorHeaderPrimary-jN_yGr,
-    .colorHeaderSecondary-g5teka,
+    .colorHeaderPrimary-3kwW7L,
+    .colorHeaderSecondary-2mxIhA,
     .h5-2RwDNl {
         color: $low;
     }
@@ -201,7 +201,7 @@
         background: $low;
         border-radius: 0;
 
-        .colorStandard-21JIj7 {
+        .colorStandard-1Xxp1s {
             color: $high;
         }
     }

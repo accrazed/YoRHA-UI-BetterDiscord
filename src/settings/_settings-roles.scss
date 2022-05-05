@@ -29,10 +29,10 @@
 }
 
 // Role List - Hover
-.roleRow-3LoHQ6:hover:not(.roleRowDisableHover-2TXfy-) {
+.roleRow-230vCm:hover:not(.roleRowDisableHover-3En0vy) {
     @include boxify($high, $mid, 3px);
 
-    .circleButton-33AIyY:hover {
+    .circleButton-2Yr5A1:hover {
         background-color: $low;
 
         &.secondary-2bzKEX {
@@ -66,6 +66,6 @@
 .warning-RBGtx2 {
     color: $low;
 }
-.theme-dark .tooltip-14MtrL .colorStandard-21JIj7 {
+.theme-dark .tooltip-14MtrL .colorStandard-1Xxp1s {
     color: $high;
 }

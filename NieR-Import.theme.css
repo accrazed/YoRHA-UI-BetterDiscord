@@ -301,7 +301,7 @@
   background-color: var(--color-low);
   color: var(--color-high);
 }
-.css-1kj8ui-container .css-rzbxvl-option .colorStandard-21JIj7,
+.css-1kj8ui-container .css-rzbxvl-option .colorStandard-1Xxp1s,
 .css-1kj8ui-container .css-rzbxvl-option .subtitle-2SfoOV {
   color: var(--color-high);
 }
@@ -824,7 +824,7 @@ path[d="M5.43309 21C5.35842 21 5.30189 20.9325 5.31494 20.859L5.99991 17H2.14274
   transition: background-color 0.5s;
 }
 
-.colorBrand-21Le_q {
+.colorBrand-3Xb6JG {
   color: var(--color-alert);
 }
 
@@ -1300,15 +1300,15 @@ strong {
   color: var(--color-low);
   background: var(--color-high);
 }
-.theme-dark .feature-2IUcBI:hover .base-21yXnu,
-.theme-dark .feature-2IUcBI:hover .colorHeaderSecondary-g5teka,
-.theme-dark .feature-2IUcBI:hover .colorStandard-21JIj7,
-.banner-WELp4M:hover .base-21yXnu,
-.banner-WELp4M:hover .colorHeaderSecondary-g5teka,
-.banner-WELp4M:hover .colorStandard-21JIj7,
-.wrapper-2RrXDg:hover .base-21yXnu,
-.wrapper-2RrXDg:hover .colorHeaderSecondary-g5teka,
-.wrapper-2RrXDg:hover .colorStandard-21JIj7 {
+.theme-dark .feature-2IUcBI:hover .base-ZDDK0g,
+.theme-dark .feature-2IUcBI:hover .colorHeaderSecondary-2mxIhA,
+.theme-dark .feature-2IUcBI:hover .colorStandard-1Xxp1s,
+.banner-WELp4M:hover .base-ZDDK0g,
+.banner-WELp4M:hover .colorHeaderSecondary-2mxIhA,
+.banner-WELp4M:hover .colorStandard-1Xxp1s,
+.wrapper-2RrXDg:hover .base-ZDDK0g,
+.wrapper-2RrXDg:hover .colorHeaderSecondary-2mxIhA,
+.wrapper-2RrXDg:hover .colorStandard-1Xxp1s {
   color: var(--color-high);
 }
 .theme-dark .feature-2IUcBI:hover .section-3G9aLW div,
@@ -1644,9 +1644,9 @@ strong {
   background-color: var(--color-low);
   border-radius: 0;
 }
-.theme-dark .selected-3H3-RC .colorInteractiveNormal-36ZhyZ,
-.theme-dark .selected-3H3-RC .colorInteractiveActive-30E9n8,
-.theme-dark .selected-3H3-RC .colorStandard-21JIj7,
+.theme-dark .selected-3H3-RC .colorInteractiveNormal-7xC_cy,
+.theme-dark .selected-3H3-RC .colorInteractiveActive-1W8YKn,
+.theme-dark .selected-3H3-RC .colorStandard-1Xxp1s,
 .theme-dark .selected-3H3-RC .content-Qb0rXO,
 .theme-dark .selected-3H3-RC .description-11DmNu,
 .theme-dark .selected-3H3-RC .descriptionUsername-J_75O8,
@@ -2170,9 +2170,9 @@ strong {
 .h5-2RwDNl,
 .footer-31IekZ,
 .uploadIcon-2wV7s_,
-.colorMuted-20987_,
-.colorHeaderPrimary-jN_yGr,
-.colorHeaderSecondary-g5teka {
+.colorMuted-1jNaVo,
+.colorHeaderPrimary-3kwW7L,
+.colorHeaderSecondary-2mxIhA {
   color: var(--color-low);
 }
 
@@ -2227,8 +2227,8 @@ strong {
   box-shadow: 6px 6px 0 var(--color-mid);
 }
 .theme-dark.authBox-1HR6Ha,
-.theme-dark.authBox-1HR6Ha .colorHeaderPrimary-jN_yGr,
-.theme-dark.authBox-1HR6Ha .colorHeaderSecondary-g5teka,
+.theme-dark.authBox-1HR6Ha .colorHeaderPrimary-3kwW7L,
+.theme-dark.authBox-1HR6Ha .colorHeaderSecondary-2mxIhA,
 .theme-dark.authBox-1HR6Ha .h5-2RwDNl {
   color: var(--color-low);
 }
@@ -2347,8 +2347,8 @@ strong {
   background: var(--color-low);
   border-radius: 0;
 }
-.theme-dark .reactionSelected-1aMb2K .colorStandard-21JIj7,
-.theme-dark .reactionDefault-1Sjj1f:hover .colorStandard-21JIj7 {
+.theme-dark .reactionSelected-1aMb2K .colorStandard-1Xxp1s,
+.theme-dark .reactionDefault-1Sjj1f:hover .colorStandard-1Xxp1s {
   color: var(--color-high);
 }
 
@@ -2772,15 +2772,15 @@ strong {
   border: 1px solid var(--color-low);
 }
 
-.roleRow-3LoHQ6:hover:not(.roleRowDisableHover-2TXfy-) {
+.roleRow-230vCm:hover:not(.roleRowDisableHover-3En0vy) {
   background: var(--color-high);
   border-radius: 0;
   box-shadow: 3px 3px 0 var(--color-mid);
 }
-.roleRow-3LoHQ6:hover:not(.roleRowDisableHover-2TXfy-) .circleButton-33AIyY:hover {
+.roleRow-230vCm:hover:not(.roleRowDisableHover-3En0vy) .circleButton-2Yr5A1:hover {
   background-color: var(--color-low);
 }
-.roleRow-3LoHQ6:hover:not(.roleRowDisableHover-2TXfy-) .circleButton-33AIyY:hover.secondary-2bzKEX {
+.roleRow-230vCm:hover:not(.roleRowDisableHover-3En0vy) .circleButton-2Yr5A1:hover.secondary-2bzKEX {
   color: var(--color-high);
 }
 
@@ -2812,7 +2812,7 @@ strong {
   color: var(--color-low);
 }
 
-.theme-dark .tooltip-14MtrL .colorStandard-21JIj7 {
+.theme-dark .tooltip-14MtrL .colorStandard-1Xxp1s {
   color: var(--color-high);
 }
 
