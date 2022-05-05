@@ -1624,7 +1624,7 @@ strong {
 .theme-dark .content-Qb0rXO {
   color: var(--color-low);
 }
-.theme-dark .divider-1bJsnZ {
+.theme-dark .divider-1bJsnZ::after {
   background-color: var(--color-low);
 }
 .theme-dark .autocomplete-3NRXG8 {
@@ -1652,6 +1652,10 @@ strong {
 .theme-dark .selected-3H3-RC .descriptionUsername-J_75O8,
 .theme-dark .selected-3H3-RC .contentTitle-3CylD3 {
   color: var(--color-high);
+}
+.theme-dark .selected-3H3-RC .text-xs-normal-3SiVjE,
+.theme-dark .selected-3H3-RC .text-md-normal-304U3g {
+  color: var(--color-high) !important;
 }
 
 .autocompleteRow-14iwvH {
