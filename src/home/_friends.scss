@@ -59,7 +59,7 @@
 // No pending requests image
 .theme-dark .emptyWumpus-11kRB0,
 .image-20MDYu {
-    @include remask("https://svgur.com/i/RGT.svg", $low);
+    @include remask('https://svgur.com/i/RGT.svg', $low);
     width: 403px !important;
     height: 353px !important;
 
@@ -69,7 +69,7 @@
 
         &::before {
             visibility: visible;
-            content: "Nothing to see here, friend! *rolls away*";
+            content: 'Nothing to see here, friend! *rolls away*';
         }
     }
 }

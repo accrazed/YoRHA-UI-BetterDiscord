@@ -19,7 +19,7 @@
     .layout-1LjVue {
         background-color: transparent !important;
         &:before {
-            content: "";
+            content: '';
             position: absolute;
             left: 0;
             top: 2px;
@@ -48,6 +48,5 @@
         .content-66wMin {
             z-index: 1;
         }
-        
     }
 }

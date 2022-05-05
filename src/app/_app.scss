@@ -102,7 +102,7 @@
     @include boxify($high, $mid, 3px);
     @include buttonify($high, $low, $low, $high);
 
-    &[aria-checked="true"] {
+    &[aria-checked='true'] {
         background: $alert;
         color: $high;
 

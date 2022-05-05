@@ -57,8 +57,8 @@
     background-color: $low;
 }
 .emptyChannelIcon-1YdEz2 {
-    background-image: url("https://svgur.com/i/RGT.svg");
-    @include remask("https://svgur.com/i/RGT.svg", $mid);
+    background-image: url('https://svgur.com/i/RGT.svg');
+    @include remask('https://svgur.com/i/RGT.svg', $mid);
     margin: auto;
     width: 403px !important;
     height: 353px !important;
@@ -95,7 +95,7 @@
     transition: background-color 0.1s;
     background-color: $alert-trans !important;
 }
-[style="background-color: rgba(114, 137, 218, 0);"] {
+[style='background-color: rgba(114, 137, 218, 0);'] {
     background-color: transparent !important;
     transition: background-color 0.5s;
 }

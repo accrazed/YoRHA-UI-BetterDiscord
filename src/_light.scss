@@ -1,18 +1,18 @@
 // Wallpaper
 #app-mount {
-    background: url("https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/wallpapers/light-theme-1440.png")
+    background: url('https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/wallpapers/light-theme-1440.png')
         center/cover no-repeat;
 }
 
 // Home icon
 .homeIcon-r0w4ny {
-    background: url("https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/icons/home_light-theme.png")
+    background: url('https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/icons/home_light-theme.png')
         center/contain no-repeat;
 }
 
 // Theatre effect
 #app-mount:before {
-    content: "";
+    content: '';
     position: absolute;
     left: 0;
     width: 100%;

@@ -21,7 +21,7 @@
  * YMM   ""`   "YUMMMMMP" "YUMMMMMP"MMMM   "W" YMM   ""`  `""*UMM  """"YUMMMMMMMP"`  
  */
 
-@import url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/font/stylesheet.css"); /* Font */
+@import url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/font/stylesheet.css'); /* Font */
 
 /* GLOBAL VARIABLES */
 // :root {
@@ -55,5 +55,5 @@ $low-trans: var(--color-low-trans);
 $alert-trans: var(--color-alert-trans);
 $font: var(--nier-font);
 
-@import "base"; // Main file
-@import "light"; // color part
+@import 'base'; // Main file
+@import 'light'; // color part

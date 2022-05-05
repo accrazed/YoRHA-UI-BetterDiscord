@@ -20,10 +20,10 @@
         color: $low;
     }
     .pageIndicator-cOEPV8 {
-        border-bottom: 2px solid $low ;
-        border-top: 2px solid $low ;
+        border-bottom: 2px solid $low;
+        border-top: 2px solid $low;
     }
-    .pageButtonNext-2_bbdk, 
+    .pageButtonNext-2_bbdk,
     .pageButtonPrev-3q9rh8 {
         border-radius: 0;
         border: 2px solid $low;
@@ -41,7 +41,7 @@
     }
     .expandedInfo-1W31i3 {
         @include boxify($low, $mid, 4px);
-        
+
         .paymentText-BPrx01,
         .paymentHeader-2o7Phd {
             color: $high;

@@ -21,7 +21,7 @@
     }
     &:before {
         z-index: -1;
-        content: "";
+        content: '';
         position: absolute;
         left: 0;
         top: 2px;
@@ -48,8 +48,8 @@
             fill: $high;
         }
     }
-    &[style="color: rgb(240, 71, 71); background-color: rgba(240, 71, 71, 0.1);"],
-    &[style="color: rgb(240, 71, 71);"] {
+    &[style='color: rgb(240, 71, 71); background-color: rgba(240, 71, 71, 0.1);'],
+    &[style='color: rgb(240, 71, 71);'] {
         color: $alert !important;
     }
 }

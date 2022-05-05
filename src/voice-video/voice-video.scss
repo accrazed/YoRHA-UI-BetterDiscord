@@ -94,7 +94,10 @@
 }
 // Select Region arrow in videocall
 .theme-dark .quickSelectArrow-1dOOHb {
-    @include remask("https://discord.com/assets/f58cf3b8fc79e9d671ab649ab37651a9.svg", $low);
+    @include remask(
+        'https://discord.com/assets/f58cf3b8fc79e9d671ab649ab37651a9.svg',
+        $low
+    );
     mask-repeat: no-repeat;
 }
 // Member hover/select animations
@@ -120,7 +123,7 @@
             border-radius: 0;
         }
         .content-1Tgc42:before {
-            content: "";
+            content: '';
             position: absolute;
             left: 0;
             top: 1px;
