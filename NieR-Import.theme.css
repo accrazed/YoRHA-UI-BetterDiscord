@@ -1230,16 +1230,17 @@ strong {
   width: 100%;
   box-shadow: 0 0 2px var(--color-low);
 }
-.interactive-1vLZ_I .highlighted-Q8Nll-, .interactive-1vLZ_I:hover, .interactive-1vLZ_I.interactiveSelected-29CP8y {
+.interactive-1vLZ_I:hover, .interactive-1vLZ_I.interactiveSelected-29CP8y {
   box-shadow: 0 1px var(--color-low), 0 -1px var(--color-low);
   color: var(--color-high);
 }
-.interactive-1vLZ_I .highlighted-Q8Nll- .layout-1LjVue:before, .interactive-1vLZ_I:hover .layout-1LjVue:before, .interactive-1vLZ_I.interactiveSelected-29CP8y .layout-1LjVue:before {
+.interactive-1vLZ_I:hover .layout-1LjVue:before, .interactive-1vLZ_I.interactiveSelected-29CP8y .layout-1LjVue:before {
   transform: scaleX(1);
 }
-.interactive-1vLZ_I .highlighted-Q8Nll- .avatar-1HDIsL,
-.interactive-1vLZ_I .highlighted-Q8Nll- .closeButton-mupH76,
-.interactive-1vLZ_I .highlighted-Q8Nll- .content-66wMin, .interactive-1vLZ_I:hover .avatar-1HDIsL,
+.interactive-1vLZ_I:hover .highlighted-Q8Nll-, .interactive-1vLZ_I.interactiveSelected-29CP8y .highlighted-Q8Nll- {
+  color: var(--color-high);
+}
+.interactive-1vLZ_I:hover .avatar-1HDIsL,
 .interactive-1vLZ_I:hover .closeButton-mupH76,
 .interactive-1vLZ_I:hover .content-66wMin, .interactive-1vLZ_I.interactiveSelected-29CP8y .avatar-1HDIsL,
 .interactive-1vLZ_I.interactiveSelected-29CP8y .closeButton-mupH76,

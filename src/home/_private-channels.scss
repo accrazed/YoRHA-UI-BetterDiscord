@@ -36,13 +36,15 @@
     }
 
     // Selected channel
-    .highlighted-Q8Nll-,
     &:hover,
     &.interactiveSelected-29CP8y {
         box-shadow: 0 1px $low, 0 -1px $low;
         color: $high;
         .layout-1LjVue:before {
             transform: scaleX(1);
+        }
+        .highlighted-Q8Nll- {
+            color: $high;
         }
         .avatar-1HDIsL, // Home icons like friends, Library, nitro
         .closeButton-mupH76, // Close DM button on DM list when hovering
