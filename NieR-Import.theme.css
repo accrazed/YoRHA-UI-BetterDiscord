@@ -976,8 +976,14 @@ path[d="M5.43309 21C5.35842 21 5.30189 20.9325 5.31494 20.859L5.99991 17H2.14274
   background-color: transparent;
   border: 1px solid var(--color-low);
 }
-.reaction-3vwAF2.reactionMe-3I9gFK {
+.reaction-3vwAF2.reactionMe-1PwQAc {
   border: 1px solid var(--color-low);
+  background: var(--color-low);
+  border-radius: 0;
+  box-shadow: 2px 2px 0 var(--color-mid);
+}
+.reaction-3vwAF2.reactionMe-1PwQAc .reactionCount-26U4As {
+  color: var(--color-high);
 }
 .reaction-3vwAF2 .reactionCount-26U4As {
   color: var(--color-low);
@@ -988,15 +994,6 @@ path[d="M5.43309 21C5.35842 21 5.30189 20.9325 5.31494 20.859L5.99991 17H2.14274
   box-shadow: 2px 2px 0 var(--color-mid);
 }
 .reaction-3vwAF2:hover .reactionCount-26U4As {
-  color: var(--color-high);
-}
-
-.reaction-3vwAF2.reactionMe-3I9gFK {
-  background: var(--color-low);
-  border-radius: 0;
-  box-shadow: 2px 2px 0 var(--color-mid);
-}
-.reaction-3vwAF2.reactionMe-3I9gFK .reactionCount-26U4As {
   color: var(--color-high);
 }
 
