@@ -49,8 +49,13 @@
     background-color: $alert;
 }
 // Streaming icon
-.iconBadge-2wi9r4 {
+.iconBadge-32fMme {
     background-color: $low;
+
+    // Also participating
+    &.participating-2Z81oO {
+        background-color: $alert;
+    }
 }
 // Unread blip out of screen
 .mention-3XBnnZ {

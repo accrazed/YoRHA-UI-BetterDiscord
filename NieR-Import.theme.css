@@ -1132,8 +1132,11 @@ strong {
   background-color: var(--color-alert);
 }
 
-.iconBadge-2wi9r4 {
+.iconBadge-32fMme {
   background-color: var(--color-low);
+}
+.iconBadge-32fMme.participating-2Z81oO {
+  background-color: var(--color-alert);
 }
 
 .mention-3XBnnZ {
