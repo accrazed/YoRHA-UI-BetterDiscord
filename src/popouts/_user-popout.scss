@@ -116,7 +116,6 @@
 // Header
 .headerTop-3GPUSF {
     position: static;
-    order: 1;
     padding: 8px;
     background-color: $low;
     .customStatus-3XAoF9,
@@ -140,7 +139,9 @@
         padding: 8px;
     }
 }
-
+.headerWrapper-3iTlIT {
+    order: 1;
+}
 // Avatar
 .avatarWrapper-eenWra {
     margin: 15px auto;

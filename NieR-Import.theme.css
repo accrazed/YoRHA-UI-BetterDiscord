@@ -1990,7 +1990,6 @@ strong {
 
 .headerTop-3GPUSF {
   position: static;
-  order: 1;
   padding: 8px;
   background-color: var(--color-low);
 }
@@ -2013,6 +2012,10 @@ strong {
 }
 .headerTop-3GPUSF .aboutMeSection---MkQa {
   padding: 8px;
+}
+
+.headerWrapper-3iTlIT {
+  order: 1;
 }
 
 .avatarWrapper-eenWra {
