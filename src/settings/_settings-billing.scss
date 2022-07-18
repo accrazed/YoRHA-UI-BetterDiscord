@@ -9,12 +9,14 @@
     .bottomDivider-ZmTm-j {
         border: none;
     }
+    .externalRowHeader-LT6-4N,
     .pageIndicator-cOEPV8,
     .activeBreadcrumb-2xVic0,
     .breadcrumbWrapper-3rpYiO,
     .giftIcon-U9wStf,
     .summaryInfo-3hcuop,
     .sectionHeader-1tIM9Z,
+    .subText-1gefwV,
     .descriptionWrapper-eOmU90,
     .description-1pzois {
         color: $low;
@@ -63,5 +65,8 @@
                 color: $high;
             }
         }
+    }
+    .lookFilled-yCfaCM.colorBrand-I6CyqQ {
+        @include buttonify($alert, $high, $high, $low);
     }
 }

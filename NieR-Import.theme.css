@@ -2527,12 +2527,14 @@ strong {
 .theme-dark .bottomDivider-ZmTm-j {
   border: none;
 }
+.theme-dark .externalRowHeader-LT6-4N,
 .theme-dark .pageIndicator-cOEPV8,
 .theme-dark .activeBreadcrumb-2xVic0,
 .theme-dark .breadcrumbWrapper-3rpYiO,
 .theme-dark .giftIcon-U9wStf,
 .theme-dark .summaryInfo-3hcuop,
 .theme-dark .sectionHeader-1tIM9Z,
+.theme-dark .subText-1gefwV,
 .theme-dark .descriptionWrapper-eOmU90,
 .theme-dark .description-1pzois {
   color: var(--color-low);
@@ -2583,6 +2585,17 @@ strong {
 .theme-dark .hoverablePayment-lE1s4t:hover .summaryInfo-3hcuop {
   color: var(--color-high);
 }
+.theme-dark .lookFilled-yCfaCM.colorBrand-I6CyqQ {
+  border-radius: 0;
+  border-color: transparent;
+  background-color: var(--color-alert);
+  color: var(--color-high);
+}
+.theme-dark .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover, .theme-dark .lookFilled-yCfaCM.colorBrand-I6CyqQ:active {
+  border-color: transparent !important;
+  background-color: var(--color-high) !important;
+  color: var(--color-low) !important;
+}
 
 .theme-dark .content-s2SEQO ol,
 .theme-dark .content-s2SEQO p,
@@ -2596,8 +2609,8 @@ strong {
   color: var(--color-low);
 }
 
-.accountList-305sx3,
-.connection-107AGH {
+.accountList-Wii_T5,
+.connection-YOVI9j {
   background: var(--color-high);
   border-radius: 0;
   box-shadow: 4px 4px 0 var(--color-mid);
