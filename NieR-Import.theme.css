@@ -1197,6 +1197,27 @@ strong {
   box-shadow: 3px 3px 0 var(--color-mid);
 }
 
+.theme-dark .background-fkKrXt {
+  background: transparent;
+}
+
+.containerCard-2kwJKN,
+.containerCard-2kwJKN:hover,
+.container-2Hi7Km,
+.card-3x20HF {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+
+.channelList-24jKfX {
+  padding: 5px 0;
+}
+
+.feedItemHeader-txJq98 {
+  border-bottom: none;
+}
+
 .scroller-WSmht3,
 .sidebar-1tnWFu,
 .privateChannels-oVe7HL,
