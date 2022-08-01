@@ -14,6 +14,12 @@
 .theme-dark .root-g14mjS {
     @include boxify($high, $mid, 3px);
 }
+// custom status dropdown selected
+.lookFilled-1GseHa.select-1Ia3hD {
+    border-radius: 0;
+    border: 2px solid $low;
+    background-color: $high;
+}
 .art-2p0nYa {
     background-image: none;
 }

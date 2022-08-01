@@ -2202,6 +2202,12 @@ strong {
   box-shadow: 3px 3px 0 var(--color-mid);
 }
 
+.lookFilled-1GseHa.select-1Ia3hD {
+  border-radius: 0;
+  border: 2px solid var(--color-low);
+  background-color: var(--color-high);
+}
+
 .art-2p0nYa {
   background-image: none;
 }
