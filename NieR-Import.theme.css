@@ -2197,6 +2197,10 @@ strong {
 }
 
 .theme-dark .root-g14mjS {
+  box-shadow: none;
+}
+
+.theme-dark .modalRoot-1uudbL {
   background: var(--color-high);
   border-radius: 0;
   box-shadow: 3px 3px 0 var(--color-mid);
@@ -2245,6 +2249,10 @@ strong {
 .theme-dark .uploadModal-2ie9O_ .scrollableContainer-15eg7h {
   box-shadow: none;
   border: 3px solid var(--color-low);
+}
+
+.arrowContainer-2wpC4q {
+  background-color: var(--color-alert);
 }
 
 .uploadModalIn-2w48Zf .uploadDropModal-13Kd20 .inner-rBP-MS .instructions-272j2A,

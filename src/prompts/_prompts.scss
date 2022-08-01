@@ -12,6 +12,9 @@
 }
 // Set a custom status
 .theme-dark .root-g14mjS {
+    box-shadow: none;
+}
+.theme-dark .modalRoot-1uudbL {
     @include boxify($high, $mid, 3px);
 }
 // custom status dropdown selected
@@ -54,6 +57,10 @@
         box-shadow: none;
         border: 3px solid $low;
     }
+}
+// Image popout carousel
+.arrowContainer-2wpC4q {
+    background-color: $alert;
 }
 // Drag and drop upload
 .uploadModalIn-2w48Zf .uploadDropModal-13Kd20 {
