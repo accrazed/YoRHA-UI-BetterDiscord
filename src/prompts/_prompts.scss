@@ -10,10 +10,6 @@
     background-color: transparent;
     box-shadow: none;
 }
-// Set a custom status
-.theme-dark .root-g14mjS {
-    box-shadow: none;
-}
 .theme-dark .modalRoot-1uudbL {
     @include boxify($high, $mid, 3px);
 }
@@ -218,4 +214,11 @@
             color: $high;
         }
     }
+}
+// "Hold Up" - external site prompt
+.theme-dark .root-g14mjS {
+    @include boxify($high, $low, 3px);
+}
+.lookFilled-yCfaCM.colorPrimary-2AuQVo {
+    @include buttonify($low, $high, $mid, $high);
 }
