@@ -1882,10 +1882,44 @@ strong {
   border: none;
 }
 
+.divider-1wtgZ3 {
+  display: none;
+}
+
 .separator-1So4YB {
   margin: 0;
 }
 
+.theme-dark .activityProfile-1712BN .activityName-3YXl6e,
+.theme-dark .activityProfile-1712BN .content-tXPNDw,
+.theme-dark .activityProfile-1712BN .details-2-ciHo,
+.theme-dark .activityProfile-1712BN .name-1-Q7l2,
+.theme-dark .activityProfile-1712BN .nameNormal-2fPMD2,
+.theme-dark .activityProfile-1712BN .nameWrap-3TyM52,
+.theme-dark .activityUserPopout-2MzGCj .activityName-3YXl6e,
+.theme-dark .activityUserPopout-2MzGCj .content-tXPNDw,
+.theme-dark .activityUserPopout-2MzGCj .details-2-ciHo,
+.theme-dark .activityUserPopout-2MzGCj .name-1-Q7l2,
+.theme-dark .activityUserPopout-2MzGCj .nameNormal-2fPMD2,
+.theme-dark .activityUserPopout-2MzGCj .nameWrap-3TyM52,
+.theme-dark .activityUserPopoutV2-3eKqzY .activityName-3YXl6e,
+.theme-dark .activityUserPopoutV2-3eKqzY .content-tXPNDw,
+.theme-dark .activityUserPopoutV2-3eKqzY .details-2-ciHo,
+.theme-dark .activityUserPopoutV2-3eKqzY .name-1-Q7l2,
+.theme-dark .activityUserPopoutV2-3eKqzY .nameNormal-2fPMD2,
+.theme-dark .activityUserPopoutV2-3eKqzY .nameWrap-3TyM52 {
+  color: var(--color-low);
+}
+
+.customStatus-3XAoF9 {
+  color: var(--color-low);
+}
+
+.textarea-_59yqs:focus {
+  background-color: transparent;
+}
+
+.bodyInnerWrapper-2bQs1k,
 .headerStreaming-2FjmGz,
 .headerXbox-3G-4PF,
 .theme-dark .headerNormal-T_seeN,
@@ -2050,12 +2084,31 @@ strong {
   margin: auto;
 }
 
+.theme-dark .activityProfile-1712BN .headerText-3g1XK9,
+.theme-dark .activityUserPopout-2MzGCj .headerText-3g1XK9,
+.defaultColor-24IHKz {
+  color: var(--color-low);
+}
+
+.eyebrow-Ejf06y {
+  color: var(--color-low) !important;
+}
+
 .body-2wLx-E {
   order: 3;
 }
 
 .footer-3naVBw {
+  background-color: transparent;
   order: 4;
+}
+
+.theme-dark .role-2TIOKu {
+  background: var(--color-low);
+  color: var(--color-high);
+}
+.theme-dark .role-2TIOKu .actionButton-1YKTU0 {
+  color: var(--color-high);
 }
 
 .bar-1GpknY {
@@ -2126,45 +2179,71 @@ strong {
 .theme-dark .queryContainer-ZunrLZ.focused-2FU0YH strong {
   color: var(--color-high);
 }
-.theme-dark .resultsGroup-1BPR25 .header-3A13BX,
-.theme-dark .resultsGroup-1BPR25 .searchClearHistory-2Be-92,
-.theme-dark .resultsGroup-1BPR25 .searchLearnMore-7__o_n a {
+.theme-dark .resultsGroup-cfY57t .header-1BR0Ro,
+.theme-dark .resultsGroup-cfY57t .searchClearHistory-3nIKUO,
+.theme-dark .resultsGroup-cfY57t .searchLearnMore-1gNL3A a {
   color: var(--color-low);
 }
-.theme-dark .resultsGroup-1BPR25 .plusIcon-2V7coV {
+.theme-dark .resultsGroup-cfY57t .plusIcon-2V7coV {
   color: var(--color-high);
 }
-.theme-dark .resultsGroup-1BPR25::before {
+.theme-dark .resultsGroup-cfY57t::before {
   border: none;
 }
-.theme-dark .option-ayUoaq {
+.theme-dark .option-ayUoaq[aria-selected=true] {
+  background: var(--color-low);
+}
+.theme-dark .option-ayUoaq[aria-selected=true] strong {
+  color: var(--color-high);
+}
+.theme-dark .option-ayUoaq,
+.theme-dark .searchOption-3u1gRt {
   margin: 0;
 }
 .theme-dark .option-ayUoaq.user-23VtPS .displayUsername-14aOpK, .theme-dark .option-ayUoaq.user-23VtPS .displayedNick-2dDbfG,
 .theme-dark .option-ayUoaq .searchResultChannelCategory-3cL8uG,
 .theme-dark .option-ayUoaq .searchResultChannelIcon-1Il1Qo,
 .theme-dark .option-ayUoaq strong,
-.theme-dark .option-ayUoaq .nonText-3_4gtu,
-.theme-dark .option-ayUoaq .filter-5YbOzJ,
-.theme-dark .option-ayUoaq .answer-2fBfuP {
+.theme-dark .option-ayUoaq .nonText-28q_Ot,
+.theme-dark .option-ayUoaq .filter-2QaH9y,
+.theme-dark .option-ayUoaq .answer-14OVbQ,
+.theme-dark .searchOption-3u1gRt.user-23VtPS .displayUsername-14aOpK,
+.theme-dark .searchOption-3u1gRt.user-23VtPS .displayedNick-2dDbfG,
+.theme-dark .searchOption-3u1gRt .searchResultChannelCategory-3cL8uG,
+.theme-dark .searchOption-3u1gRt .searchResultChannelIcon-1Il1Qo,
+.theme-dark .searchOption-3u1gRt strong,
+.theme-dark .searchOption-3u1gRt .nonText-28q_Ot,
+.theme-dark .searchOption-3u1gRt .filter-2QaH9y,
+.theme-dark .searchOption-3u1gRt .answer-14OVbQ {
   color: var(--color-low);
 }
-.theme-dark .option-ayUoaq.selected-rZcOL- {
+.theme-dark .option-ayUoaq:hover,
+.theme-dark .searchOption-3u1gRt:hover {
   background: var(--color-low);
   border-radius: 0;
 }
-.theme-dark .option-ayUoaq.selected-rZcOL-::after {
+.theme-dark .option-ayUoaq:hover::after,
+.theme-dark .searchOption-3u1gRt:hover::after {
   background: transparent;
 }
-.theme-dark .option-ayUoaq.selected-rZcOL-.user-23VtPS .displayUsername-14aOpK, .theme-dark .option-ayUoaq.selected-rZcOL-.user-23VtPS .displayedNick-2dDbfG,
-.theme-dark .option-ayUoaq.selected-rZcOL- strong,
-.theme-dark .option-ayUoaq.selected-rZcOL- .nonText-3_4gtu,
-.theme-dark .option-ayUoaq.selected-rZcOL- .filter-5YbOzJ,
-.theme-dark .option-ayUoaq.selected-rZcOL- .answer-2fBfuP {
+.theme-dark .option-ayUoaq:hover .plusIcon-1RVszG, .theme-dark .option-ayUoaq:hover.user-23VtPS .displayUsername-14aOpK, .theme-dark .option-ayUoaq:hover.user-23VtPS .displayedNick-2dDbfG,
+.theme-dark .option-ayUoaq:hover strong,
+.theme-dark .option-ayUoaq:hover .nonText-28q_Ot,
+.theme-dark .option-ayUoaq:hover .filter-2QaH9y,
+.theme-dark .option-ayUoaq:hover .answer-14OVbQ,
+.theme-dark .searchOption-3u1gRt:hover .plusIcon-1RVszG,
+.theme-dark .searchOption-3u1gRt:hover.user-23VtPS .displayUsername-14aOpK,
+.theme-dark .searchOption-3u1gRt:hover.user-23VtPS .displayedNick-2dDbfG,
+.theme-dark .searchOption-3u1gRt:hover strong,
+.theme-dark .searchOption-3u1gRt:hover .nonText-28q_Ot,
+.theme-dark .searchOption-3u1gRt:hover .filter-2QaH9y,
+.theme-dark .searchOption-3u1gRt:hover .answer-14OVbQ {
   color: var(--color-high);
 }
-.theme-dark .option-ayUoaq.selected-rZcOL- .searchResultChannelCategory-3cL8uG,
-.theme-dark .option-ayUoaq.selected-rZcOL- .searchResultChannelIcon-1Il1Qo {
+.theme-dark .option-ayUoaq:hover .searchResultChannelCategory-3cL8uG,
+.theme-dark .option-ayUoaq:hover .searchResultChannelIcon-1Il1Qo,
+.theme-dark .searchOption-3u1gRt:hover .searchResultChannelCategory-3cL8uG,
+.theme-dark .searchOption-3u1gRt:hover .searchResultChannelIcon-1Il1Qo {
   color: var(--color-high);
 }
 
@@ -2182,6 +2261,43 @@ strong {
 .searchResultMessage-1fxgXh.hit-1fVM9e {
   border: 1px solid var(--color-low);
   border-radius: 0;
+}
+
+.theme-dark .calendarPicker-sDhzdi .react-datepicker,
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__current-month,
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__header,
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__day,
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__day--disabled,
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__day--outside-month,
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled,
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled:hover {
+  border: none;
+  color: var(--color-low);
+  background-color: transparent;
+}
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected:after {
+  background-color: var(--color-alert);
+}
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__day-name {
+  color: var(--color-low);
+}
+
+.datePicker-3iA7_k .datePickerHint-Ir4715 {
+  border: none;
+}
+.datePicker-3iA7_k .datePickerHint-Ir4715 .hint-xfbpCV {
+  color: var(--color-low);
+}
+.datePicker-3iA7_k .datePickerHint-Ir4715 .hintValue-V9hd8l {
+  background-color: var(--color-low);
+  color: var(--color-high);
+}
+
+.react-datepicker__month-read-view--down-arrow,
+.react-datepicker__month-year-read-view--down-arrow,
+.react-datepicker__navigation-icon:before,
+.react-datepicker__year-read-view--down-arrow {
+  color: var(--color-low);
 }
 
 .backdrop-2ByYRN,

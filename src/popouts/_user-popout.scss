@@ -3,10 +3,36 @@
     border: none;
 }
 
+.divider-1wtgZ3 {
+    display: none;
+}
 .separator-1So4YB {
     margin: 0;
 }
 
+.theme-dark {
+    .activityProfile-1712BN,
+    .activityUserPopout-2MzGCj,
+    .activityUserPopoutV2-3eKqzY {
+        .activityName-3YXl6e,
+        .content-tXPNDw,
+        .details-2-ciHo,
+        .name-1-Q7l2,
+        .nameNormal-2fPMD2,
+        .nameWrap-3TyM52 {
+            color: $low;
+        }
+    }
+}
+.customStatus-3XAoF9 {
+    color: $low;
+}
+
+// add role focus
+.textarea-_59yqs:focus {
+    background-color: transparent;
+}
+.bodyInnerWrapper-2bQs1k,
 .headerStreaming-2FjmGz,
 .headerXbox-3G-4PF,
 .theme-dark .headerNormal-T_seeN,
@@ -177,15 +203,32 @@
         margin: auto;
     }
 }
-
+// Body of profile
+.theme-dark .activityProfile-1712BN .headerText-3g1XK9,
+.theme-dark .activityUserPopout-2MzGCj .headerText-3g1XK9,
+.defaultColor-24IHKz {
+    color: $low;
+}
+.eyebrow-Ejf06y {
+    color: $low !important;
+}
 .body-2wLx-E {
     order: 3;
 }
 
 .footer-3naVBw {
+    background-color: transparent;
     order: 4;
 }
 
+// roles
+.theme-dark .role-2TIOKu {
+    background: $low;
+    color: $high;
+    .actionButton-1YKTU0 {
+        color: $high;
+    }
+}
 // Spotify
 .bar-1GpknY {
     border: 1px solid $mid;
