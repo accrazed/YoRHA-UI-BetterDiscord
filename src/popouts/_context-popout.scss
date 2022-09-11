@@ -57,6 +57,26 @@
         color: $alert !important;
     }
 }
+// User status button
+.withTagAsButton-OsgQ9L,
+.withTagless-10ooWt {
+    @include buttonify(transparent, $low, $low, $high);
+
+    &:hover {
+        .title-338goq,
+        .subtext-2HDqJ7 {
+            color: $high;
+        }
+    }
+} // User status popout
+.profileGroup-1yKk23 {
+    margin: 0%;
+}
+.profileBody-3QbfPe {
+    padding: 8px;
+    background-color: $high;
+}
+
 .clickCTA-1bk0UN {
     color: $mid;
 }
@@ -69,7 +89,6 @@
 .theme-dark .tooltipBlack-vMYxvw .tooltipPointer-3L49xb {
     border: none;
 }
-
 .theme-dark {
     // Add role
     .autocompleteShadow-2nfsSy {
