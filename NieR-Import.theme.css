@@ -2400,6 +2400,19 @@ strong {
   color: var(--color-low);
 }
 
+.messageGroupWrapper-1jf_7C {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+.messageGroupWrapper-1jf_7C .markup-eYLPri {
+  color: var(--color-low);
+}
+
+.messageGroupWrapper-1jf_7C {
+  border: 1px solid var(--color-low);
+}
+
 .backdrop-2ByYRN,
 .backdropWithLayer-3_uhz4 {
   opacity: 0.4 !important;
