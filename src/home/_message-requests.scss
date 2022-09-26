@@ -1,0 +1,14 @@
+.chatTarget-3H6mpC,
+.container-3XgAHv {
+    border-radius: 0;
+}
+.chat-3t9F_n:before {
+    display: none;
+}
+// accept / ignore buttons
+.theme-dark .lookLink-15mFoz.colorTransparent-13Bvvi {
+    @include buttonify($low, $high, $mid, $high);
+}
+.lookFilled-yCfaCM.colorRed-rQXKgM {
+    @include buttonify($alert, $high, $mid, $high);
+}
