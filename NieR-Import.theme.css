@@ -1448,6 +1448,29 @@ strong {
   color: var(--color-high) !important;
 }
 
+.messageRequestItem-1_NNAR {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+.messageRequestItem-1_NNAR:hover {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 3px 3px 0 var(--color-mid);
+  background-color: var(--color-high-trans);
+}
+.messageRequestItem-1_NNAR .actionButton-3GQIiT {
+  border-radius: 0;
+  border-color: transparent;
+  background-color: var(--color-low);
+  color: var(--color-high);
+}
+.messageRequestItem-1_NNAR .actionButton-3GQIiT:hover, .messageRequestItem-1_NNAR .actionButton-3GQIiT:active {
+  border-color: transparent !important;
+  background-color: var(--color-high) !important;
+  color: var(--color-low) !important;
+}
+
 .container-2o3qEW,
 .clickable-28SzVr:hover .layout-1qmrhw,
 .members-3WRCEx,
