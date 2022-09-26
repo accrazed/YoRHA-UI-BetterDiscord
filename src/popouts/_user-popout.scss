@@ -9,7 +9,6 @@
 .separator-1So4YB {
     margin: 0;
 }
-
 .theme-dark {
     .heading-lg-medium-3gUJeM {
         color: $high;
@@ -167,6 +166,13 @@
         padding: 8px;
     }
 }
+// profile mask on banner
+.bannerSVGWrapper-qc0szY {
+    foreignObject {
+        mask: none !important;
+    }
+}
+
 .headerWrapper-3iTlIT {
     order: 1;
 }
@@ -187,13 +193,12 @@
     border-radius: 0;
 }
 
-.avatar-2Vndt_ {
+.headerWrapper-3iTlIT .wrapper-1VLyxH {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
     margin: auto;
     border-width: 1px;
-    background-color: $high;
 }
 
 // Avatar hint

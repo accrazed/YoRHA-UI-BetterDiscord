@@ -2194,6 +2194,11 @@ strong {
   padding: 8px;
 }
 
+.bannerSVGWrapper-qc0szY foreignObject {
+  -webkit-mask: none !important;
+          mask: none !important;
+}
+
 .headerWrapper-3iTlIT {
   order: 1;
 }
@@ -2214,13 +2219,12 @@ strong {
   border-radius: 0;
 }
 
-.avatar-2Vndt_ {
+.headerWrapper-3iTlIT .wrapper-1VLyxH {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
   margin: auto;
   border-width: 1px;
-  background-color: var(--color-high);
 }
 
 .avatarWrapperNormal-ahVUaC .avatarHint-k7pYop,
