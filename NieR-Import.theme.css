@@ -1060,6 +1060,64 @@ path[d="M5.43309 21C5.35842 21 5.30189 20.9325 5.31494 20.859L5.99991 17H2.14274
   box-shadow: 3px 3px 0 var(--color-mid);
 }
 
+.theme-dark .container-3wLKDe {
+  background-color: transparent;
+}
+
+.mainCard-3KBsBI {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+.mainCard-3KBsBI:hover {
+  background: var(--color-high-trans);
+  border-radius: 0;
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+.mainCard-3KBsBI .newBadge-1LcB6t {
+  background-color: var(--color-alert) !important;
+}
+
+.pill-3pRQlO {
+  border-radius: 0;
+  border: 1px solid var(--color-low);
+}
+
+.tagsButton-4pwOKH .tagsButtonInner-2pvSm1 {
+  color: var(--color-alert);
+}
+
+.container-2O1UgZ {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+.container-2O1UgZ .text-md-semibold-3xVVGu {
+  color: var(--color-low) !important;
+}
+.container-2O1UgZ .container-2oNtJn {
+  background-color: transparent;
+  border-radius: 1px solid var(--color-low);
+  color: var(--color-low);
+}
+.container-2O1UgZ .container-2oNtJn .icon-3CDcPB {
+  color: var(--color-low);
+}
+.container-2O1UgZ .container-2oNtJn input {
+  color: var(--color-low);
+}
+.container-2O1UgZ .container-2oNtJn input::placeholder {
+  color: var(--color-mid);
+}
+.container-2O1UgZ .text-md-medium-2avxhQ,
+.container-2O1UgZ .text-md-normal-304U3g {
+  color: var(--color-low) !important;
+}
+
+.chat-25x62K:before {
+  display: none;
+}
+
 ::placeholder,
 body,
 button,
