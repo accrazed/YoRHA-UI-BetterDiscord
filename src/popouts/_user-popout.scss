@@ -243,3 +243,53 @@
         background-color: $alert;
     }
 }
+
+///////////////////////////////////////////////////
+
+.userProfileInnerThemedNonPremium-1gT-zY {
+    @include boxify($high, $mid, 3px);
+    background: $high;
+}
+
+.overlayBackground-1KgwVi,
+.userProfileInner-3F03PX:before {
+    background: transparent;
+}
+.divider-1tWBgZ {
+    display: none;
+}
+.connectedAccountOpenIcon-3i81Tz:hover {
+    color: $mid;
+}
+.roundedBanner-TdlJGa {
+    border-radius: 0;
+}
+
+.overlayBackground-1KgwVi {
+    background: $high;
+    border-radius: 0%;
+    border: 2px solid $low;
+}
+
+.buttonColor-XIRMbp {
+    @include buttonify($low, $high, $alert, $high);
+}
+.theme-dark .heading-lg-medium-3gUJeM,
+.userTagUsernameBase-3Nfr5j,
+.connectedAccountOpenIcon-3i81Tz,
+.theme-dark .activityUserPopoutV2-3eKqzY .headerText-3g1XK9,
+.username-28Thtk,
+.discriminator-3_S3CG,
+.discordIcon-JXet1k,
+.themed-1LCNAV .textLeft-1Noen0,
+.themed-1LCNAV .textRight-2IW704,
+.customStatus-3Bvsdb,
+.discrimBase-KriZSj,
+.userTagUsernameNoNickname-2e_xaO {
+    color: $low;
+}
+.text-md-bold-22PzaZ,
+.text-md-semibold-3xVVGu,
+.customStatusText-3ca2B1 {
+    color: $low !important;
+}

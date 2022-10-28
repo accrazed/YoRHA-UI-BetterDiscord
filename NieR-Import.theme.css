@@ -2269,6 +2269,69 @@ strong {
   background-color: var(--color-alert);
 }
 
+.userProfileInnerThemedNonPremium-1gT-zY {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 3px 3px 0 var(--color-mid);
+  background: var(--color-high);
+}
+
+.overlayBackground-1KgwVi,
+.userProfileInner-3F03PX:before {
+  background: transparent;
+}
+
+.divider-1tWBgZ {
+  display: none;
+}
+
+.connectedAccountOpenIcon-3i81Tz:hover {
+  color: var(--color-mid);
+}
+
+.roundedBanner-TdlJGa {
+  border-radius: 0;
+}
+
+.overlayBackground-1KgwVi {
+  background: var(--color-high);
+  border-radius: 0%;
+  border: 2px solid var(--color-low);
+}
+
+.buttonColor-XIRMbp {
+  border-radius: 0;
+  border-color: transparent;
+  background-color: var(--color-low);
+  color: var(--color-high);
+}
+.buttonColor-XIRMbp:hover, .buttonColor-XIRMbp:active {
+  border-color: transparent !important;
+  background-color: var(--color-alert) !important;
+  color: var(--color-high) !important;
+}
+
+.theme-dark .heading-lg-medium-3gUJeM,
+.userTagUsernameBase-3Nfr5j,
+.connectedAccountOpenIcon-3i81Tz,
+.theme-dark .activityUserPopoutV2-3eKqzY .headerText-3g1XK9,
+.username-28Thtk,
+.discriminator-3_S3CG,
+.discordIcon-JXet1k,
+.themed-1LCNAV .textLeft-1Noen0,
+.themed-1LCNAV .textRight-2IW704,
+.customStatus-3Bvsdb,
+.discrimBase-KriZSj,
+.userTagUsernameNoNickname-2e_xaO {
+  color: var(--color-low);
+}
+
+.text-md-bold-22PzaZ,
+.text-md-semibold-3xVVGu,
+.customStatusText-3ca2B1 {
+  color: var(--color-low) !important;
+}
+
 .searchResult-O9NDji:before,
 .searchResult-O9NDji:after,
 .option-ayUoaq:after,
