@@ -2467,15 +2467,15 @@ strong {
 .theme-dark .searchOption-3u1gRt {
   margin: 0;
 }
-.theme-dark .option-ayUoaq.user-23VtPS .displayUsername-14aOpK, .theme-dark .option-ayUoaq.user-23VtPS .displayedNick-2dDbfG,
+.theme-dark .option-ayUoaq.user-1dKxvu .displayUsername-UTer, .theme-dark .option-ayUoaq.user-1dKxvu .displayedNick-1atSpT,
 .theme-dark .option-ayUoaq .searchResultChannelCategory-3cL8uG,
 .theme-dark .option-ayUoaq .searchResultChannelIcon-1Il1Qo,
 .theme-dark .option-ayUoaq strong,
 .theme-dark .option-ayUoaq .nonText-28q_Ot,
 .theme-dark .option-ayUoaq .filter-2QaH9y,
 .theme-dark .option-ayUoaq .answer-14OVbQ,
-.theme-dark .searchOption-3u1gRt.user-23VtPS .displayUsername-14aOpK,
-.theme-dark .searchOption-3u1gRt.user-23VtPS .displayedNick-2dDbfG,
+.theme-dark .searchOption-3u1gRt.user-1dKxvu .displayUsername-UTer,
+.theme-dark .searchOption-3u1gRt.user-1dKxvu .displayedNick-1atSpT,
 .theme-dark .searchOption-3u1gRt .searchResultChannelCategory-3cL8uG,
 .theme-dark .searchOption-3u1gRt .searchResultChannelIcon-1Il1Qo,
 .theme-dark .searchOption-3u1gRt strong,
@@ -2493,14 +2493,14 @@ strong {
 .theme-dark .searchOption-3u1gRt:hover::after {
   background: transparent;
 }
-.theme-dark .option-ayUoaq:hover .plusIcon-1RVszG, .theme-dark .option-ayUoaq:hover.user-23VtPS .displayUsername-14aOpK, .theme-dark .option-ayUoaq:hover.user-23VtPS .displayedNick-2dDbfG,
+.theme-dark .option-ayUoaq:hover .plusIcon-1RVszG, .theme-dark .option-ayUoaq:hover.user-1dKxvu .displayUsername-UTer, .theme-dark .option-ayUoaq:hover.user-1dKxvu .displayedNick-1atSpT,
 .theme-dark .option-ayUoaq:hover strong,
 .theme-dark .option-ayUoaq:hover .nonText-28q_Ot,
 .theme-dark .option-ayUoaq:hover .filter-2QaH9y,
 .theme-dark .option-ayUoaq:hover .answer-14OVbQ,
 .theme-dark .searchOption-3u1gRt:hover .plusIcon-1RVszG,
-.theme-dark .searchOption-3u1gRt:hover.user-23VtPS .displayUsername-14aOpK,
-.theme-dark .searchOption-3u1gRt:hover.user-23VtPS .displayedNick-2dDbfG,
+.theme-dark .searchOption-3u1gRt:hover.user-1dKxvu .displayUsername-UTer,
+.theme-dark .searchOption-3u1gRt:hover.user-1dKxvu .displayedNick-1atSpT,
 .theme-dark .searchOption-3u1gRt:hover strong,
 .theme-dark .searchOption-3u1gRt:hover .nonText-28q_Ot,
 .theme-dark .searchOption-3u1gRt:hover .filter-2QaH9y,
@@ -3425,6 +3425,10 @@ strong {
   margin: auto;
   border-width: 1px;
   background-color: var(--color-high);
+}
+
+.theme-dark .lookLink-15mFoz.colorPrimary-2AuQVo {
+  color: var(--color-alert);
 }
 
 .draggable-1EOU8o {

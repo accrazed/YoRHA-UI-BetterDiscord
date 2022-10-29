@@ -26,3 +26,8 @@
         background-color: $high;
     }
 }
+
+// remove avatar/banner links
+.theme-dark .lookLink-15mFoz.colorPrimary-2AuQVo {
+    color: $alert;
+}
