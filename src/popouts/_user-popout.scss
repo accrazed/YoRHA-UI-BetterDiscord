@@ -10,9 +10,6 @@
     margin: 0;
 }
 .theme-dark {
-    .heading-lg-medium-3gUJeM {
-        color: $high;
-    }
     .activityUserPopout-2MzGCj,
     .activityUserPopoutV2-3eKqzY {
         .activityName-3YXl6e,
@@ -261,8 +258,17 @@
 .connectedAccountOpenIcon-3i81Tz:hover {
     color: $mid;
 }
+
+.userProfileOuter-1K_BYU {
+    @include boxify($high, $mid, 3px);
+}
 .roundedBanner-TdlJGa {
     border-radius: 0;
+}
+
+.userProfileOuterThemed-3EfHmv.userPopoutOuter-3AVBmJ,
+.userProfileOuterThemed-3EfHmv.userProfileOuter-1K_BYU {
+    padding: 0;
 }
 
 .overlayBackground-1KgwVi {
@@ -274,7 +280,41 @@
 .buttonColor-XIRMbp {
     @include buttonify($low, $high, $alert, $high);
 }
-.theme-dark .heading-lg-medium-3gUJeM,
+
+.theme-dark {
+    .activityProfile-1712BN,
+    .activityProfileV2-1N7pee,
+    .activityUserPopout-2MzGCj,
+    .activityUserPopoutV2-3eKqzY {
+        .activityName-3YXl6e,
+        .content-tXPNDw,
+        .details-2-ciHo,
+        .name-1-Q7l2,
+        .nameNormal-2fPMD2,
+        .nameWrap-3TyM52 {
+            color: $low;
+        }
+    }
+}
+
+.top-K_jibn .themed-2-lozF.item-3XjbnG:hover,
+.brand-3g5E0C.item-3XjbnG:hover,
+.themed-2-lozF.item-3XjbnG:hover {
+    color: $mid;
+    border-bottom-color: $mid;
+}
+
+.top-K_jibn .selected-g-kMVV.themed-2-lozF.item-3XjbnG,
+.top-K_jibn .themed-2-lozF.item-3XjbnG:active {
+    border-bottom-color: $low;
+}
+
+.guildNick-HT7Pgu {
+    color: $mid;
+}
+
+.listRow-Y5zoF8,
+.heading-lg-medium-3gUJeM,
 .userTagUsernameBase-3Nfr5j,
 .connectedAccountOpenIcon-3i81Tz,
 .theme-dark .activityUserPopoutV2-3eKqzY .headerText-3g1XK9,
@@ -288,6 +328,8 @@
 .userTagUsernameNoNickname-2e_xaO {
     color: $low;
 }
+
+.heading-sm-medium-7K3WMh,
 .text-md-bold-22PzaZ,
 .text-md-semibold-3xVVGu,
 .customStatusText-3ca2B1 {
