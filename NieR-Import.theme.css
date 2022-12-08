@@ -474,7 +474,7 @@
   color: transparent;
 }
 
-.tutorialContainer-1pL9QS .wrapper-28eC3z,
+.tutorialContainer-1pL9QS .wrapper-3kah-n,
 .tutorialContainer-1pL9QS .svg-2zuE5p {
   height: 57px;
   width: 48px;
@@ -484,6 +484,9 @@
   animation-duration: 4s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
+}
+.tutorialContainer-1pL9QS .svg-2zuE5p foreignobject svg * {
+  fill: none !important;
 }
 
 @keyframes y-spin {
@@ -1236,8 +1239,7 @@ strong {
 }
 .theme-dark .contentWrapper-3oy4Xo .lookLink-9FtZy-.colorBrand-3pXr91 {
   color: var(--color-alert);
-  -webkit-text-decoration-color: var(--color-alert);
-          text-decoration-color: var(--color-alert);
+  text-decoration-color: var(--color-alert);
 }
 
 .wrapper-2SplAX,

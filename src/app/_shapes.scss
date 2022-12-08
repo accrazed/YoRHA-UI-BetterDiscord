@@ -6,7 +6,7 @@
     color: transparent;
 }
 .tutorialContainer-1pL9QS {
-    .wrapper-28eC3z,
+    .wrapper-3kah-n,
     .svg-2zuE5p {
         height: 57px;
         width: 48px;
@@ -17,6 +17,10 @@
         animation-duration: 4s;
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
+
+        foreignobject svg *{
+            fill: none !important;
+        }
     }
 }
 @keyframes y-spin {
