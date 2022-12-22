@@ -2988,12 +2988,35 @@ strong {
   color: var(--color-alert);
 }
 
+.container-x8Y1ix .defaultColor-1EVLSt {
+  color: var(--color-high);
+}
+
 .container-1Gt1iQ .title-10kb1R {
   color: var(--color-low);
 }
 
 .iconActiveLarger-2EZc1b {
   border-radius: 0;
+}
+
+.text-sm-normal-3Zj3Iv {
+  color: var(--color-low) !important;
+}
+
+.rowContainer-3t7486 {
+  border-radius: 0;
+  background-color: var(--color-low);
+}
+.rowContainer-3t7486 .defaultColor-1EVLSt {
+  color: var(--color-high);
+}
+.rowContainer-3t7486:hover {
+  background-color: var(--color-alert);
+}
+
+.sampleLink-5BWNy9 {
+  color: var(--color-low);
 }
 
 .theme-dark .uploadModal-2ie9O_ {

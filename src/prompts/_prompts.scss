@@ -37,6 +37,10 @@
 .anchor-1MIwyf {
 	color: $alert;
 }
+// start from template / create my own
+.container-x8Y1ix .defaultColor-1EVLSt {
+	color: $high;
+}
 // You've been invited to join a server
 .container-1Gt1iQ {
 	.title-10kb1R {
@@ -45,6 +49,25 @@
 }
 .iconActiveLarger-2EZc1b {
 	border-radius: 0;
+}
+// Join a server
+.text-sm-normal-3Zj3Iv {
+	color: $low !important;
+}
+// don't have an invite?
+.rowContainer-3t7486 {
+	border-radius: 0;
+	background-color: $low;
+	.defaultColor-1EVLSt {
+		color: $high;
+	}
+
+	&:hover {
+		background-color: $alert;
+	}
+}
+.sampleLink-5BWNy9 {
+	color: $low;
 }
 // Upload Image
 .theme-dark .uploadModal-2ie9O_ {
