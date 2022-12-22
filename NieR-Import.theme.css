@@ -3452,67 +3452,6 @@ strong {
   border-radius: 0;
 }
 
-.theme-dark .nowPlaying-zBamm2,
-.theme-dark .notDetected-2HEmAp {
-  background: var(--color-low);
-  border-radius: 0;
-  -webkit-box-shadow: 4px 4px 0 var(--color-mid);
-          box-shadow: 4px 4px 0 var(--color-mid);
-}
-.theme-dark .nowPlaying-zBamm2 .overlayStatusText-AHDYB3,
-.theme-dark .nowPlaying-zBamm2 .gameName-Uw4dbt,
-.theme-dark .nowPlaying-zBamm2 .lastPlayed-3aHvxk,
-.theme-dark .notDetected-2HEmAp .overlayStatusText-AHDYB3,
-.theme-dark .notDetected-2HEmAp .gameName-Uw4dbt,
-.theme-dark .notDetected-2HEmAp .lastPlayed-3aHvxk {
-  color: var(--color-high);
-}
-.theme-dark .game-3x3aDt {
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
-.theme-dark .member-1q7VfX .name-8yzEIY,
-.theme-dark .member-1q7VfX .roleWrapper-1Hde_V,
-.theme-dark .css-hsd1lu-singleValue,
-.theme-dark .nowPlayingAdd-3lvnXJ,
-.theme-dark .gameName-Uw4dbt,
-.theme-dark .lastPlayed-3aHvxk {
-  color: var(--color-low);
-}
-.theme-dark .card-2ART2V:before {
-  background: transparent;
-  border: none;
-}
-.theme-dark .card-2ART2V:hover:before {
-  border: none;
-  background: var(--color-low);
-  border-radius: 0;
-  -webkit-box-shadow: 4px 4px 0 var(--color-mid);
-          box-shadow: 4px 4px 0 var(--color-mid);
-}
-.theme-dark .card-2ART2V:hover .css-hsd1lu-singleValue,
-.theme-dark .card-2ART2V:hover .input-3K7d_z,
-.theme-dark .card-2ART2V:hover .description-30xx7u,
-.theme-dark .card-2ART2V:hover .labelDescriptor-34wZ-z,
-.theme-dark .card-2ART2V:hover .h5-2RwDNl,
-.theme-dark .card-2ART2V:hover .gameName-Uw4dbt,
-.theme-dark .card-2ART2V:hover .lastPlayed-3aHvxk,
-.theme-dark .card-2ART2V:hover .actionButton-1YKTU0,
-.theme-dark .card-2ART2V:hover .tag-1YGWN9,
-.theme-dark .card-2ART2V:hover .roleWrapper-1Hde_V,
-.theme-dark .card-2ART2V:hover .overlayStatusText-AHDYB3 {
-  color: var(--color-high);
-}
-.theme-dark .card-2ART2V:hover .gameNameInput-3TuPuA:focus,
-.theme-dark .card-2ART2V:hover .gameNameInput-3TuPuA:hover {
-  border-radius: 0;
-  background: var(--color-high);
-  color: var(--color-low);
-}
-.theme-dark .card-2ART2V:hover .actionButton-1YKTU0 {
-  border-color: var(--color-high);
-}
-
 .theme-dark .rolePills-32B_DQ {
   color: var(--color-low);
 }
@@ -3557,6 +3496,11 @@ strong {
 
 .value-26hJ01 {
   color: var(--color-low);
+}
+
+.theme-dark .row-3nMNOy {
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .item-3eFBNF .checkbox-f1HnKB {
@@ -3657,6 +3601,67 @@ strong {
 }
 .group-LWHoGI .allow-1h61-Z.selected-3jieYB {
   color: var(--color-high);
+}
+
+.theme-dark .nowPlaying-zBamm2,
+.theme-dark .notDetected-2HEmAp {
+  background: var(--color-low);
+  border-radius: 0;
+  -webkit-box-shadow: 4px 4px 0 var(--color-mid);
+          box-shadow: 4px 4px 0 var(--color-mid);
+}
+.theme-dark .nowPlaying-zBamm2 .overlayStatusText-In0YrK,
+.theme-dark .nowPlaying-zBamm2 .gameName-zbZetm,
+.theme-dark .nowPlaying-zBamm2 .lastPlayed-1jum9A,
+.theme-dark .notDetected-2HEmAp .overlayStatusText-In0YrK,
+.theme-dark .notDetected-2HEmAp .gameName-zbZetm,
+.theme-dark .notDetected-2HEmAp .lastPlayed-1jum9A {
+  color: var(--color-high);
+}
+.theme-dark .game-2f2vPC {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.theme-dark .member-1q7VfX .name-8yzEIY,
+.theme-dark .member-1q7VfX .roleWrapper-1Hde_V,
+.theme-dark .css-hsd1lu-singleValue,
+.theme-dark .nowPlayingAdd-3I4RbE,
+.theme-dark .gameName-zbZetm,
+.theme-dark .lastPlayed-1jum9A {
+  color: var(--color-low);
+}
+.theme-dark .card-2ART2V:before {
+  background: transparent;
+  border: none;
+}
+.theme-dark .card-2ART2V:hover:before {
+  border: none;
+  background: var(--color-low);
+  border-radius: 0;
+  -webkit-box-shadow: 4px 4px 0 var(--color-mid);
+          box-shadow: 4px 4px 0 var(--color-mid);
+}
+.theme-dark .card-2ART2V:hover .css-hsd1lu-singleValue,
+.theme-dark .card-2ART2V:hover .input-3K7d_z,
+.theme-dark .card-2ART2V:hover .description-30xx7u,
+.theme-dark .card-2ART2V:hover .labelDescriptor-34wZ-z,
+.theme-dark .card-2ART2V:hover .h5-2RwDNl,
+.theme-dark .card-2ART2V:hover .gameName-zbZetm,
+.theme-dark .card-2ART2V:hover .lastPlayed-1jum9A,
+.theme-dark .card-2ART2V:hover .actionButton-1YKTU0,
+.theme-dark .card-2ART2V:hover .tag-1YGWN9,
+.theme-dark .card-2ART2V:hover .roleWrapper-1Hde_V,
+.theme-dark .card-2ART2V:hover .overlayStatusText-In0YrK {
+  color: var(--color-high);
+}
+.theme-dark .card-2ART2V:hover .gameNameInput-3TuPuA:focus,
+.theme-dark .card-2ART2V:hover .gameNameInput-3TuPuA:hover {
+  border-radius: 0;
+  background: var(--color-high);
+  color: var(--color-low);
+}
+.theme-dark .card-2ART2V:hover .actionButton-1YKTU0 {
+  border-color: var(--color-high);
 }
 
 .stickyHeaderElevated-dNSSrJ,
