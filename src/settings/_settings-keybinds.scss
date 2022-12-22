@@ -11,3 +11,27 @@
 	border-radius: 0;
 	background-color: transparent;
 }
+
+.popout-1KHNAq {
+	background-color: $high;
+	border-radius: 0;
+	border: none;
+}
+.option-2eIyOn.focused-ODgjnC,
+.option-2eIyOn:focus,
+.option-2eIyOn:hover {
+	color: $low;
+	background-color: $mid;
+}
+// selected keybind option
+.option-2eIyOn {
+	color: $low;
+}
+.option-2eIyOn[aria-selected='true']:not(.option-2eIyOn.multi-1HXDiv) {
+	color: $high;
+	background-color: $low;
+}
+
+.value-26hJ01 {
+	color: $low;
+}
