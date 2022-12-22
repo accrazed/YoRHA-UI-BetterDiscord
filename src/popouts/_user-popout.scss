@@ -43,6 +43,15 @@
 	background: transparent;
 }
 
+// connect account button
+.actionColor-3JIzOn {
+	@include buttonify($low, $high, $alert, $high);
+}
+
+// send message button
+.lookFilled-yCfaCM.colorGreen-3y-Z79 {
+	@include buttonify($alert, $high, $low, $high);
+}
 // Colors
 [style*='border-color: rgb(255, 255, 255);'] {
 	border-color: $alert !important;
@@ -207,9 +216,7 @@
 		margin: auto;
 	}
 }
-// Body of profile
-.theme-dark .activityProfile-1712BN .headerText-3g1XK9,
-.theme-dark .activityUserPopout-2MzGCj .headerText-3g1XK9,
+
 .defaultColor-1EVLSt {
 	color: $low;
 }
@@ -329,14 +336,9 @@
 .themed-1LCNAV .textLeft-1Noen0,
 .themed-1LCNAV .textRight-2IW704,
 .customStatus-3Bvsdb,
+.overflow-1wOqNV,
 .discrimBase-KriZSj,
+.connectedAccountNameText-3VHIcl,
 .userTagUsernameNoNickname-2e_xaO {
 	color: $low;
-}
-
-.heading-sm-medium-7K3WMh,
-.text-md-bold-22PzaZ,
-.text-md-semibold-3xVVGu,
-.customStatusText-3ca2B1 {
-	color: $low !important;
 }

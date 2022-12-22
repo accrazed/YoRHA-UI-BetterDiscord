@@ -68,7 +68,23 @@
 			color: $high;
 		}
 	}
-} // User status popout
+}
+
+// switch accounts button
+.userMenuUsername-2xdVcJ .userMenuDiscriminator-2Vj2p9,
+.userMenuUsername-2xdVcJ .userMenuText-2e3Dry {
+	color: $high;
+}
+.focused-3RdCfX .userMenuUsername-2xdVcJ .userMenuDiscriminator-2Vj2p9,
+.focused-3RdCfX .userMenuUsername-2xdVcJ .userMenuText-2e3Dry {
+	color: $low;
+}
+
+.submenuPaddingContainer-_k62dJ {
+	padding: 0;
+}
+
+// User status popout
 .profileGroup-1yKk23 {
 	margin: 0%;
 }

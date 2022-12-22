@@ -2177,6 +2177,20 @@ strong {
   color: var(--color-high);
 }
 
+.userMenuUsername-2xdVcJ .userMenuDiscriminator-2Vj2p9,
+.userMenuUsername-2xdVcJ .userMenuText-2e3Dry {
+  color: var(--color-high);
+}
+
+.focused-3RdCfX .userMenuUsername-2xdVcJ .userMenuDiscriminator-2Vj2p9,
+.focused-3RdCfX .userMenuUsername-2xdVcJ .userMenuText-2e3Dry {
+  color: var(--color-low);
+}
+
+.submenuPaddingContainer-_k62dJ {
+  padding: 0;
+}
+
 .profileGroup-1yKk23 {
   margin: 0%;
 }
@@ -2293,6 +2307,30 @@ strong {
 .headerPlaying-j0WQBV,
 .theme-dark .footer-1fjuF6 {
   background: transparent;
+}
+
+.actionColor-3JIzOn {
+  border-radius: 0;
+  border-color: transparent;
+  background-color: var(--color-low);
+  color: var(--color-high);
+}
+.actionColor-3JIzOn:hover, .actionColor-3JIzOn:active {
+  border-color: transparent !important;
+  background-color: var(--color-alert) !important;
+  color: var(--color-high) !important;
+}
+
+.lookFilled-yCfaCM.colorGreen-3y-Z79 {
+  border-radius: 0;
+  border-color: transparent;
+  background-color: var(--color-alert);
+  color: var(--color-high);
+}
+.lookFilled-yCfaCM.colorGreen-3y-Z79:hover, .lookFilled-yCfaCM.colorGreen-3y-Z79:active {
+  border-color: transparent !important;
+  background-color: var(--color-low) !important;
+  color: var(--color-high) !important;
 }
 
 [style*="border-color: rgb(255, 255, 255);"] {
@@ -2473,8 +2511,6 @@ strong {
   margin: auto;
 }
 
-.theme-dark .activityProfile-1712BN .headerText-3g1XK9,
-.theme-dark .activityUserPopout-2MzGCj .headerText-3g1XK9,
 .defaultColor-1EVLSt {
   color: var(--color-low);
 }
@@ -2624,16 +2660,11 @@ strong {
 .themed-1LCNAV .textLeft-1Noen0,
 .themed-1LCNAV .textRight-2IW704,
 .customStatus-3Bvsdb,
+.overflow-1wOqNV,
 .discrimBase-KriZSj,
+.connectedAccountNameText-3VHIcl,
 .userTagUsernameNoNickname-2e_xaO {
   color: var(--color-low);
-}
-
-.heading-sm-medium-7K3WMh,
-.text-md-bold-22PzaZ,
-.text-md-semibold-3xVVGu,
-.customStatusText-3ca2B1 {
-  color: var(--color-low) !important;
 }
 
 .searchResult-O9NDji:before,
