@@ -2855,9 +2855,12 @@ strong {
   color: var(--color-low);
 }
 
+.header-145e10,
 .header-1w9Q93 {
   background-color: transparent;
 }
+.header-145e10 .brand-3g5E0C.item-3XjbnG,
+.header-145e10 .themed-2-lozF.item-3XjbnG,
 .header-1w9Q93 .brand-3g5E0C.item-3XjbnG,
 .header-1w9Q93 .themed-2-lozF.item-3XjbnG {
   border-radius: 0;
@@ -2865,13 +2868,19 @@ strong {
   background-color: var(--color-high);
   color: var(--color-low);
 }
-.header-1w9Q93 .brand-3g5E0C.item-3XjbnG:hover, .header-1w9Q93 .brand-3g5E0C.item-3XjbnG:active,
+.header-145e10 .brand-3g5E0C.item-3XjbnG:hover, .header-145e10 .brand-3g5E0C.item-3XjbnG:active,
+.header-145e10 .themed-2-lozF.item-3XjbnG:hover,
+.header-145e10 .themed-2-lozF.item-3XjbnG:active,
+.header-1w9Q93 .brand-3g5E0C.item-3XjbnG:hover,
+.header-1w9Q93 .brand-3g5E0C.item-3XjbnG:active,
 .header-1w9Q93 .themed-2-lozF.item-3XjbnG:hover,
 .header-1w9Q93 .themed-2-lozF.item-3XjbnG:active {
   border-color: transparent !important;
   background-color: var(--color-low) !important;
   color: var(--color-high) !important;
 }
+.header-145e10 .primary-38Hs-h:hover:not(.disabled-184-il),
+.header-145e10 .secondary-2bzKEX,
 .header-1w9Q93 .primary-38Hs-h:hover:not(.disabled-184-il),
 .header-1w9Q93 .secondary-2bzKEX {
   border-radius: 0;
@@ -2879,7 +2888,11 @@ strong {
   background-color: var(--color-low);
   color: var(--color-high);
 }
-.header-1w9Q93 .primary-38Hs-h:hover:not(.disabled-184-il):hover, .header-1w9Q93 .primary-38Hs-h:hover:not(.disabled-184-il):active,
+.header-145e10 .primary-38Hs-h:hover:not(.disabled-184-il):hover, .header-145e10 .primary-38Hs-h:hover:not(.disabled-184-il):active,
+.header-145e10 .secondary-2bzKEX:hover,
+.header-145e10 .secondary-2bzKEX:active,
+.header-1w9Q93 .primary-38Hs-h:hover:not(.disabled-184-il):hover,
+.header-1w9Q93 .primary-38Hs-h:hover:not(.disabled-184-il):active,
 .header-1w9Q93 .secondary-2bzKEX:hover,
 .header-1w9Q93 .secondary-2bzKEX:active {
   border-color: transparent !important;
@@ -2914,6 +2927,21 @@ strong {
 .messageContainer-3VTXBC .repliedMessage-3Z6XBG,
 .messageContainer-3VTXBC .markup-eYLPri {
   color: var(--color-low);
+}
+
+.messages-23can0 {
+  background-color: transparent;
+}
+
+.markup-eYLPri {
+  color: var(--color-low);
+}
+
+.container-2ebMPP {
+  background: var(--color-high);
+  border-radius: 0;
+  -webkit-box-shadow: 3px 3px 0 var(--color-mid);
+          box-shadow: 3px 3px 0 var(--color-mid);
 }
 
 .header-3_zmOb {

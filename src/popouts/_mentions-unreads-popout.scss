@@ -1,4 +1,5 @@
 // header
+.header-145e10,
 .header-1w9Q93 {
 	background-color: transparent;
 
@@ -27,7 +28,6 @@
 		@include buttonify($low, $high, $alert, $high);
 	}
 }
-
 .messageContainer-3VTXBC {
 	@include boxify($high, $mid, 3px);
 
@@ -35,4 +35,15 @@
 	.markup-eYLPri {
 		color: $low;
 	}
+}
+
+// unread messages tab
+.messages-23can0 {
+	background-color: transparent;
+}
+.markup-eYLPri {
+	color: $low;
+}
+.container-2ebMPP {
+	@include boxify($high, $mid, 3px);
 }
