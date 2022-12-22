@@ -1,9 +1,9 @@
 // Connections
 .accountList-Wii_T5,
 .connection-YOVI9j {
-    @include boxify($high, $mid, 4px);
+	@include boxify($high, $mid, 4px);
 }
 .theme-dark .inner-1lPVFp:hover {
-    background-color: $low;
-    border-radius: 0;
+	background-color: $low;
+	border-radius: 0;
 }

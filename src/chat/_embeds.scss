@@ -1,57 +1,56 @@
 // Embed card
 .embedFull-1HGV2S,
 .messageContent-2t3eCI pre {
-    @include boxify($high, $mid, 4px);
+	@include boxify($high, $mid, 4px);
 
-    & > code {
-        border-radius: 0;
-        margin-left: 13px;
-        margin-bottom: 4px;
-        box-shadow: -3px 0 0 $low, -9px 0 0 $high, -21px 0 0 $low,
-            -18px 4px 0 $mid;
-    }
+	& > code {
+		border-radius: 0;
+		margin-left: 13px;
+		margin-bottom: 4px;
+		box-shadow: -3px 0 0 $low, -9px 0 0 $high, -21px 0 0 $low, -18px 4px 0 $mid;
+	}
 }
 // Server invite
 .wrapper-1HIH0j {
-    @include boxify($high, $mid, 3px);
+	@include boxify($high, $mid, 3px);
 
-    .inviteDestination-1rM5rX {
-        color: $low;
-    }
-    .iconActiveLarge-ac-EDu {
-        border-radius: 0;
-    }
+	.inviteDestination-1rM5rX {
+		color: $low;
+	}
+	.iconActiveLarge-ac-EDu {
+		border-radius: 0;
+	}
 }
 // File attachments
 .attachment-1PZZB2 {
-    margin-left: 13px;
-    border-radius: 0;
-    box-shadow: -3px 0 0 var(--color-low), -9px 0 0 var(--color-high),
-        -21px 0 0 var(--color-low), -18px 3px 0 var(--color-mid),
-        3px 3px 0 var(--color-mid);
+	margin-left: 13px;
+	border-radius: 0;
+	box-shadow: -3px 0 0 var(--color-low), -9px 0 0 var(--color-high),
+		-21px 0 0 var(--color-low), -18px 3px 0 var(--color-mid),
+		3px 3px 0 var(--color-mid);
 
-    .metadata-1E7Z4i {
-        color: $low;
-    }
+	.metadata-1E7Z4i {
+		color: $low;
+	}
 }
 // Images and Videos
 .imageWrapper-oMkQl4:not(.embedImage-2Ynqkh) {
-    @include boxify($high, $mid, 4px);
+	@include boxify($high, $mid, 4px);
 }
 .wrapper-1FP9YQ,
 .video-2HW4jD {
-    border-radius: 0;
+	border-radius: 0;
 }
 // Spotify Listen-Along
 .theme-dark .invite-3uuHYQ {
-    @include boxify($high, $mid, 3px);
-    border: none;
+	@include boxify($high, $mid, 3px);
+	border: none;
 
-    .header-1Fx4D1,
-    .partyStatus-2-VcyG {
-        color: $low;
-    }
-    .textLink-_PElWP {
-        color: $alert;
-    }
+	.header-1Fx4D1,
+	.partyStatus-2-VcyG {
+		color: $low;
+	}
+	.textLink-_PElWP {
+		color: $alert;
+	}
 }

@@ -1,72 +1,72 @@
 .theme-dark {
-    .payment-2bOh4k,
-    .paginator-1eqD2g {
-        background: transparent;
-    }
-    .codeRedemptionRedirect-3SBiCp,
-    .divider-3APUjw,
-    .paymentHeader-2o7Phd,
-    .bottomDivider-ZmTm-j {
-        border: none;
-    }
-    .externalRowHeader-LT6-4N,
-    .pageIndicator-cOEPV8,
-    .activeBreadcrumb-2xVic0,
-    .breadcrumbWrapper-3rpYiO,
-    .giftIcon-U9wStf,
-    .summaryInfo-3hcuop,
-    .sectionHeader-1tIM9Z,
-    .subText-1gefwV,
-    .descriptionWrapper-eOmU90,
-    .description-1pzois {
-        color: $low;
-    }
-    .pageIndicator-cOEPV8 {
-        border-bottom: 2px solid $low;
-        border-top: 2px solid $low;
-    }
-    .pageButtonNext-2_bbdk,
-    .pageButtonPrev-3q9rh8 {
-        border-radius: 0;
-        border: 2px solid $low;
-        border-color: $low;
-    }
-    .defaultIndicator-2ndWks {
-        background-color: $alert;
-        border-radius: 0;
-        color: $high;
-    }
-    .codeRedemptionRedirect-3SBiCp,
-    .paymentPane-ut5qKZ {
-        @include boxify($high, $mid, 4px);
-        color: $low;
-    }
-    .expandedInfo-1W31i3 {
-        @include boxify($low, $mid, 4px);
+	.payment-2bOh4k,
+	.paginator-1eqD2g {
+		background: transparent;
+	}
+	.codeRedemptionRedirect-3SBiCp,
+	.divider-3APUjw,
+	.paymentHeader-2o7Phd,
+	.bottomDivider-ZmTm-j {
+		border: none;
+	}
+	.externalRowHeader-LT6-4N,
+	.pageIndicator-cOEPV8,
+	.activeBreadcrumb-2xVic0,
+	.breadcrumbWrapper-3rpYiO,
+	.giftIcon-U9wStf,
+	.summaryInfo-3hcuop,
+	.sectionHeader-1tIM9Z,
+	.subText-1gefwV,
+	.descriptionWrapper-eOmU90,
+	.description-1pzois {
+		color: $low;
+	}
+	.pageIndicator-cOEPV8 {
+		border-bottom: 2px solid $low;
+		border-top: 2px solid $low;
+	}
+	.pageButtonNext-2_bbdk,
+	.pageButtonPrev-3q9rh8 {
+		border-radius: 0;
+		border: 2px solid $low;
+		border-color: $low;
+	}
+	.defaultIndicator-2ndWks {
+		background-color: $alert;
+		border-radius: 0;
+		color: $high;
+	}
+	.codeRedemptionRedirect-3SBiCp,
+	.paymentPane-ut5qKZ {
+		@include boxify($high, $mid, 4px);
+		color: $low;
+	}
+	.expandedInfo-1W31i3 {
+		@include boxify($low, $mid, 4px);
 
-        .paymentText-BPrx01,
-        .paymentHeader-2o7Phd {
-            color: $high;
-        }
-    }
-    .paymentHeader-2o7Phd {
-        margin-top: 0;
-        padding-top: 10px;
-    }
-    .hoverablePayment-lE1s4t {
-        .giftIcon-U9wStf,
-        .summaryInfo-3hcuop {
-            color: $low;
-        }
-        &:hover {
-            background-color: $low;
-            .giftIcon-U9wStf,
-            .summaryInfo-3hcuop {
-                color: $high;
-            }
-        }
-    }
-    .lookFilled-yCfaCM.colorBrand-I6CyqQ {
-        @include buttonify($alert, $high, $high, $low);
-    }
+		.paymentText-BPrx01,
+		.paymentHeader-2o7Phd {
+			color: $high;
+		}
+	}
+	.paymentHeader-2o7Phd {
+		margin-top: 0;
+		padding-top: 10px;
+	}
+	.hoverablePayment-lE1s4t {
+		.giftIcon-U9wStf,
+		.summaryInfo-3hcuop {
+			color: $low;
+		}
+		&:hover {
+			background-color: $low;
+			.giftIcon-U9wStf,
+			.summaryInfo-3hcuop {
+				color: $high;
+			}
+		}
+	}
+	.lookFilled-yCfaCM.colorBrand-I6CyqQ {
+		@include buttonify($alert, $high, $high, $low);
+	}
 }

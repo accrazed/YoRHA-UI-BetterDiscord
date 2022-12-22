@@ -1,34 +1,34 @@
 // Transparencies
 .tabBarContainer-1s1u-z {
-    border: none;
+	border: none;
 }
 
 .divider-1wtgZ3 {
-    display: none;
+	display: none;
 }
 .separator-1So4YB {
-    margin: 0;
+	margin: 0;
 }
 .theme-dark {
-    .activityUserPopout-2MzGCj,
-    .activityUserPopoutV2-3eKqzY {
-        .activityName-3YXl6e,
-        .content-tXPNDw,
-        .details-2-ciHo,
-        .name-1-Q7l2,
-        .nameNormal-2fPMD2,
-        .nameWrap-3TyM52 {
-            color: $low;
-        }
-    }
+	.activityUserPopout-2MzGCj,
+	.activityUserPopoutV2-3eKqzY {
+		.activityName-3YXl6e,
+		.content-tXPNDw,
+		.details-2-ciHo,
+		.name-1-Q7l2,
+		.nameNormal-2fPMD2,
+		.nameWrap-3TyM52 {
+			color: $low;
+		}
+	}
 }
 .customStatus-3XAoF9 {
-    color: $low;
+	color: $low;
 }
 
 // add role focus
 .textarea-_59yqs:focus {
-    background-color: transparent;
+	background-color: transparent;
 }
 .bodyInnerWrapper-2bQs1k,
 .headerStreaming-2FjmGz,
@@ -40,23 +40,23 @@
 .headerSpotify-zpWxgT,
 .headerPlaying-j0WQBV,
 .theme-dark .footer-1fjuF6 {
-    background: transparent;
+	background: transparent;
 }
 
 // Colors
 [style*='border-color: rgb(255, 255, 255);'] {
-    border-color: $alert !important;
+	border-color: $alert !important;
 }
 
 .top-K_jibn .item-3XjbnG {
-    color: $mid;
+	color: $mid;
 }
 
 .top-K_jibn {
-    .selected-g-kMVV.item-3XjbnG,
-    .selected-g-kMVV.item-3XjbnG:hover {
-        color: $low;
-    }
+	.selected-g-kMVV.item-3XjbnG,
+	.selected-g-kMVV.item-3XjbnG:hover {
+		color: $low;
+	}
 }
 
 .nickname-t08Mck,
@@ -71,7 +71,7 @@
 .text-31kWmP,
 .nameWrap-3TyM52,
 .activityName-3YXl6e {
-    color: $high;
+	color: $high;
 }
 
 .customStatus-1bh2V9,
@@ -81,7 +81,7 @@
 .headerName-fajvi9,
 .headerTag-2pZJzA,
 .headerTagUsernameNoNickname-2_H881 {
-    color: $low;
+	color: $low;
 }
 
 .bar-1GpknY,
@@ -89,233 +89,233 @@
 .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_),
 .colorDefault-CDqZdO.focused-3qFvc8,
 .activity-3v9l4T {
-    background: $low;
+	background: $low;
 }
 
 .barInner-3dHef4 {
-    background: $high;
+	background: $high;
 }
 
 // Playing a game
 .theme-dark .activity-3v9l4T {
-    order: 10;
-    padding: 16px;
-    background-color: $low;
-    .nameWrap-3TyM52,
-    .content-tXPNDw,
-    .headerText-3g1XK9 {
-        color: $high;
-    }
+	order: 10;
+	padding: 16px;
+	background-color: $low;
+	.nameWrap-3TyM52,
+	.content-tXPNDw,
+	.headerText-3g1XK9 {
+		color: $high;
+	}
 }
 
 // Rich Embed Game Icon
 .gameIcon-1mDo1J,
 .assetsLargeImage-8U5dlz {
-    border-radius: 0;
-    border: 1px solid $high;
+	border-radius: 0;
+	border: 1px solid $high;
 }
 
 .root-SR8cQa, // User menu popout
 .theme-dark .colorPickerCustom-1swUKF, // Color picker
 .userPopout-2j1gM4 // Clicking on a user
 {
-    @include boxify($high, $mid, 5px);
-    border-color: $low;
+	@include boxify($high, $mid, 5px);
+	border-color: $low;
 }
 
 .theme-dark .newPopoutActivityStyles .activityName-3YXl6e {
-    color: $low;
+	color: $low;
 }
 
 .headerNormal-3Zn_yu {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .popoutBanner-3cqRD9 {
-    position: relative;
-    order: 0;
+	position: relative;
+	order: 0;
 }
 
 // Header
 .headerTop-3GPUSF {
-    position: static;
-    padding: 8px;
-    background-color: $low;
-    .customStatus-3XAoF9,
-    .nickname-2gQ76l,
-    .headerTagUsernameBase-24SRnT,
-    .headerTagUsernameNoNickname-1ZLDYY,
-    .discrimBase-1QwWzY {
-        color: $high;
-    }
-    .profileBadges-3cJaE1 {
-        margin: auto;
-        z-index: 1;
-        top: 0;
-        right: 0;
-        transform: translateY(150%);
-    }
-    .headerText-15Q25Z {
-        padding-bottom: 4px;
-    }
-    .aboutMeSection---MkQa {
-        padding: 8px;
-    }
+	position: static;
+	padding: 8px;
+	background-color: $low;
+	.customStatus-3XAoF9,
+	.nickname-2gQ76l,
+	.headerTagUsernameBase-24SRnT,
+	.headerTagUsernameNoNickname-1ZLDYY,
+	.discrimBase-1QwWzY {
+		color: $high;
+	}
+	.profileBadges-3cJaE1 {
+		margin: auto;
+		z-index: 1;
+		top: 0;
+		right: 0;
+		transform: translateY(150%);
+	}
+	.headerText-15Q25Z {
+		padding-bottom: 4px;
+	}
+	.aboutMeSection---MkQa {
+		padding: 8px;
+	}
 }
 // profile mask on banner
 .bannerSVGWrapper-qc0szY {
-    foreignObject {
-        mask: none !important;
-    }
+	foreignObject {
+		mask: none !important;
+	}
 }
 
 .headerWrapper-3iTlIT {
-    order: 1;
+	order: 1;
 }
 // Avatar
 .avatarWrapper-eenWra {
-    margin: 15px auto;
-    display: flex;
-    position: relative;
-    justify-self: center;
-    align-content: center;
-    justify-content: center;
-    order: 2;
-    top: 0;
-    left: 0;
-    width: 90%;
-    height: 120px;
-    background-color: $mid;
-    border-radius: 0;
+	margin: 15px auto;
+	display: flex;
+	position: relative;
+	justify-self: center;
+	align-content: center;
+	justify-content: center;
+	order: 2;
+	top: 0;
+	left: 0;
+	width: 90%;
+	height: 120px;
+	background-color: $mid;
+	border-radius: 0;
 }
 
 .headerWrapper-3iTlIT .wrapper-1VLyxH {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    margin: auto;
-    border-width: 1px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	margin: auto;
+	border-width: 1px;
 }
 
 // Avatar hint
 .avatarWrapperNormal-ahVUaC,
 .avatarWrapperNormal-ahVUaC:hover {
-    .avatarHint-k7pYop {
-        top: 20px;
-        left: 95px;
-        margin: auto;
-    }
+	.avatarHint-k7pYop {
+		top: 20px;
+		left: 95px;
+		margin: auto;
+	}
 }
 // Body of profile
 .theme-dark .activityProfile-1712BN .headerText-3g1XK9,
 .theme-dark .activityUserPopout-2MzGCj .headerText-3g1XK9,
-.defaultColor-24IHKz {
-    color: $low;
+.defaultColor-1EVLSt {
+	color: $low;
 }
 
-.roleName-2ZJJYR .defaultColor-24IHKz {
-    color: $high;
+.roleName-2ZJJYR .defaultColor-1EVLSt {
+	color: $high;
 }
 
 .eyebrow-Ejf06y {
-    color: $low !important;
+	color: $low !important;
 }
 .body-2wLx-E {
-    order: 3;
+	order: 3;
 }
 
 .footer-3naVBw {
-    background-color: transparent;
-    order: 4;
+	background-color: transparent;
+	order: 4;
 }
 
 // roles
 .theme-dark .role-2TIOKu {
-    background: $low;
-    color: $high;
-    .actionButton-1YKTU0 {
-        color: $high;
-    }
+	background: $low;
+	color: $high;
+	.actionButton-1YKTU0 {
+		color: $high;
+	}
 }
 // Spotify
 .bar-1GpknY {
-    border: 1px solid $mid;
-    .barInner-3dHef4 {
-        background-color: $alert;
-    }
+	border: 1px solid $mid;
+	.barInner-3dHef4 {
+		background-color: $alert;
+	}
 }
 
 ///////////////////////////////////////////////////
 
 .userProfileInnerThemedNonPremium-1gT-zY {
-    @include boxify($high, $mid, 3px);
-    background: $high;
+	@include boxify($high, $mid, 3px);
+	background: $high;
 }
 
 .overlayBackground-1KgwVi,
 .userProfileInner-3F03PX:before {
-    background: transparent;
+	background: transparent;
 }
 .divider-1tWBgZ {
-    display: none;
+	display: none;
 }
 .connectedAccountOpenIcon-3i81Tz:hover {
-    color: $mid;
+	color: $mid;
 }
 
 .userProfileOuter-1K_BYU {
-    @include boxify($high, $mid, 3px);
+	@include boxify($high, $mid, 3px);
 }
 .roundedBanner-TdlJGa {
-    border-radius: 0;
+	border-radius: 0;
 }
 
 .userProfileOuterThemed-3EfHmv.userPopoutOuter-3AVBmJ,
 .userProfileOuterThemed-3EfHmv.userProfileOuter-1K_BYU {
-    padding: 0;
+	padding: 0;
 }
 
 .overlayBackground-1KgwVi {
-    background: $high;
-    border-radius: 0%;
-    border: 2px solid $low;
+	background: $high;
+	border-radius: 0%;
+	border: 2px solid $low;
 }
 
 .buttonColor-XIRMbp {
-    @include buttonify($low, $high, $alert, $high);
+	@include buttonify($low, $high, $alert, $high);
 }
 
 .theme-dark {
-    .activityProfile-1712BN,
-    .activityProfileV2-1N7pee,
-    .activityUserPopout-2MzGCj,
-    .activityUserPopoutV2-3eKqzY {
-        .activityName-3YXl6e,
-        .content-tXPNDw,
-        .details-2-ciHo,
-        .name-1-Q7l2,
-        .nameNormal-2fPMD2,
-        .nameWrap-3TyM52 {
-            color: $low;
-        }
-    }
+	.activityProfile-1712BN,
+	.activityProfileV2-1N7pee,
+	.activityUserPopout-2MzGCj,
+	.activityUserPopoutV2-3eKqzY {
+		.activityName-3YXl6e,
+		.content-tXPNDw,
+		.details-2-ciHo,
+		.name-1-Q7l2,
+		.nameNormal-2fPMD2,
+		.nameWrap-3TyM52 {
+			color: $low;
+		}
+	}
 }
 
 .top-K_jibn .themed-2-lozF.item-3XjbnG:hover,
 .brand-3g5E0C.item-3XjbnG:hover,
 .themed-2-lozF.item-3XjbnG:hover {
-    color: $mid;
-    border-bottom-color: $mid;
+	color: $mid;
+	border-bottom-color: $mid;
 }
 
 .top-K_jibn .selected-g-kMVV.themed-2-lozF.item-3XjbnG,
 .top-K_jibn .themed-2-lozF.item-3XjbnG:active {
-    border-bottom-color: $low;
+	border-bottom-color: $low;
 }
 
 .guildNick-HT7Pgu {
-    color: $mid;
+	color: $mid;
 }
 
 .listRow-Y5zoF8,
@@ -331,12 +331,12 @@
 .customStatus-3Bvsdb,
 .discrimBase-KriZSj,
 .userTagUsernameNoNickname-2e_xaO {
-    color: $low;
+	color: $low;
 }
 
 .heading-sm-medium-7K3WMh,
 .text-md-bold-22PzaZ,
 .text-md-semibold-3xVVGu,
 .customStatusText-3ca2B1 {
-    color: $low !important;
+	color: $low !important;
 }

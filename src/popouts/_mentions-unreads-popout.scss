@@ -1,38 +1,38 @@
 // header
 .header-1w9Q93 {
-    background-color: transparent;
+	background-color: transparent;
 
-    .brand-3g5E0C.item-3XjbnG,
-    .themed-2-lozF.item-3XjbnG {
-        @include buttonify($high, $low, $low, $high);
-    }
+	.brand-3g5E0C.item-3XjbnG,
+	.themed-2-lozF.item-3XjbnG {
+		@include buttonify($high, $low, $low, $high);
+	}
 
-    // Settings button in header
-    .primary-38Hs-h:hover:not(.disabled-184-il),
-    .secondary-2bzKEX {
-        @include buttonify($low, $high, $alert, $high);
-    }
+	// Settings button in header
+	.primary-38Hs-h:hover:not(.disabled-184-il),
+	.secondary-2bzKEX {
+		@include buttonify($low, $high, $alert, $high);
+	}
 }
 
 // List, message Header
 .channelHeader-DFRX8q {
-    background-color: $high;
+	background-color: $high;
 
-    .text-xs-normal-3SiVjE {
-        color: $low !important;
-    }
+	.text-xs-normal-3SiVjE {
+		color: $low !important;
+	}
 
-    // close button
-    .tertiary-1e-lAP {
-        @include buttonify($low, $high, $alert, $high);
-    }
+	// close button
+	.tertiary-1e-lAP {
+		@include buttonify($low, $high, $alert, $high);
+	}
 }
 
 .messageContainer-3VTXBC {
-    @include boxify($high, $mid, 3px);
+	@include boxify($high, $mid, 3px);
 
-    .repliedMessage-3Z6XBG,
-    .markup-eYLPri {
-        color: $low;
-    }
+	.repliedMessage-3Z6XBG,
+	.markup-eYLPri {
+		color: $low;
+	}
 }

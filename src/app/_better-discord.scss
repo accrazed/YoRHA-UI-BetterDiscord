@@ -1,12 +1,12 @@
 #bd-pub-button {
-    @include buttonify($low, $high, $alert, $high);
-    box-shadow: 3px 3px 0 $high;
+	@include buttonify($low, $high, $alert, $high);
+	box-shadow: 3px 3px 0 $high;
 }
 #bd-pub-li {
-    margin: 0;
-    padding: 5px 0;
+	margin: 0;
+	padding: 5px 0;
 }
 .bd-server-card,
 .bd-server-card:hover {
-    @include boxify($high, $mid, 5px);
+	@include boxify($high, $mid, 5px);
 }

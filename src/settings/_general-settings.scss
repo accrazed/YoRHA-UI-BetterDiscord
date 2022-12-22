@@ -6,37 +6,37 @@
 .side-2ur1Qk .separator-2wx7h6,
 .contentRegionScroller-2_GT_N,
 .standardSidebarView-E9Pc3j {
-    background-color: transparent;
+	background-color: transparent;
 }
 .theme-dark .row-1Tg75B,
 .theme-dark .item-3eFBNF {
-    box-shadow: none;
+	box-shadow: none;
 }
 .theme-dark .divider-3wNib3 {
-    border: none;
+	border: none;
 }
 // X button
 .theme-dark {
-    .markValue-2U_-UG,
-    .keybind-13vtq8 {
-        color: $low;
-    }
-    .closeButton-PCZcma {
-        transition: background-color 0.2s;
-        border-color: $low;
-        &:hover {
-            background-color: $alert-trans;
-        }
-        path {
-            fill: $low;
-        }
-    }
+	.markValue-2U_-UG,
+	.keybind-13vtq8 {
+		color: $low;
+	}
+	.closeButton-PCZcma {
+		transition: background-color 0.2s;
+		border-color: $low;
+		&:hover {
+			background-color: $alert-trans;
+		}
+		path {
+			fill: $low;
+		}
+	}
 }
 // Headers
 .h1-34Txb0,
 .h2-1EaYVL {
-    @include titlify(2px, 4px);
+	@include titlify(2px, 4px);
 }
 .h5-2RwDNl {
-    @include titlify(2px, 2px);
+	@include titlify(2px, 2px);
 }

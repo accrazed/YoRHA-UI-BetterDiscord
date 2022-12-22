@@ -1,23 +1,23 @@
 // Language
 .item-3eFBNF {
-    .checkbox-f1HnKB {
-        border-color: $low;
-    }
-    &:hover {
-        background-color: $low;
-    }
-    &.selected-2DeaDa {
-        background-color: $alert;
-    }
-    &:hover,
-    &.selected-2DeaDa {
-        .checkbox-f1HnKB {
-            border-color: $high;
-        }
-        .description-30xx7u,
-        .labelDescriptor-34wZ-z,
-        .labelText-2kBs7x {
-            color: $high;
-        }
-    }
+	.checkbox-f1HnKB {
+		border-color: $low;
+	}
+	&:hover {
+		background-color: $low;
+	}
+	&.selected-2DeaDa {
+		background-color: $alert;
+	}
+	&:hover,
+	&.selected-2DeaDa {
+		.checkbox-f1HnKB {
+			border-color: $high;
+		}
+		.description-30xx7u,
+		.labelDescriptor-34wZ-z,
+		.labelText-2kBs7x {
+			color: $high;
+		}
+	}
 }

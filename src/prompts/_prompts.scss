@@ -1,29 +1,29 @@
 // Backdrop
 .backdrop-2ByYRN,
 .backdropWithLayer-3_uhz4 {
-    opacity: 0.4 !important;
+	opacity: 0.4 !important;
 }
 // Transparencies
 .theme-dark .separator-2lLxgC,
 .theme-dark .footer-VCsJQY,
 .theme-dark .footer-31IekZ {
-    background-color: transparent;
-    box-shadow: none;
+	background-color: transparent;
+	box-shadow: none;
 }
 .theme-dark .modalRoot-1uudbL {
-    @include boxify($high, $mid, 3px);
+	@include boxify($high, $mid, 3px);
 }
 // custom status dropdown selected
 .lookFilled-1GseHa.select-1Ia3hD {
-    border-radius: 0;
-    border: 2px solid $low;
-    background-color: $high;
+	border-radius: 0;
+	border: 2px solid $low;
+	background-color: $high;
 }
 .art-2p0nYa {
-    background-image: none;
+	background-image: none;
 }
 .header-2zHCAk {
-    padding-top: 0;
+	padding-top: 0;
 }
 // Create a server
 .h5-2RwDNl,
@@ -32,193 +32,193 @@
 .colorMuted-1jNaVo,
 .colorHeaderPrimary-3kwW7L,
 .colorHeaderSecondary-2mxIhA {
-    color: $low;
+	color: $low;
 }
 .anchor-1MIwyf {
-    color: $alert;
+	color: $alert;
 }
 // You've been invited to join a server
 .container-1Gt1iQ {
-    .title-10kb1R {
-        color: $low;
-    }
+	.title-10kb1R {
+		color: $low;
+	}
 }
 .iconActiveLarger-2EZc1b {
-    border-radius: 0;
+	border-radius: 0;
 }
 // Upload Image
 .theme-dark .uploadModal-2ie9O_ {
-    @include boxify($high, $mid, 6px);
-    .scrollableContainer-15eg7h {
-        box-shadow: none;
-        border: 3px solid $low;
-    }
+	@include boxify($high, $mid, 6px);
+	.scrollableContainer-15eg7h {
+		box-shadow: none;
+		border: 3px solid $low;
+	}
 }
 // Image popout carousel
 .arrowContainer-2wpC4q {
-    background-color: $alert;
+	background-color: $alert;
 }
 // Drag and drop upload
 .uploadModalIn-2w48Zf .uploadDropModal-13Kd20 {
-    .inner-rBP-MS .instructions-272j2A,
-    .inner-rBP-MS {
-        border: none;
-        color: $low;
-    }
-    .bgScale-1iWuPF {
-        @include boxify($high, $mid, 4px);
-    }
+	.inner-rBP-MS .instructions-272j2A,
+	.inner-rBP-MS {
+		border: none;
+		color: $low;
+	}
+	.bgScale-1iWuPF {
+		@include boxify($high, $mid, 4px);
+	}
 }
 .theme-dark .checkbox-f1HnKB {
-    border: 2px solid $low;
-    border-radius: 0;
+	border: 2px solid $low;
+	border-radius: 0;
 
-    &.checked-1pZh2h {
-        border: 2px solid $low !important;
-        background-color: $high;
+	&.checked-1pZh2h {
+		border: 2px solid $low !important;
+		background-color: $high;
 
-        path {
-            fill: $low !important;
-        }
-    }
+		path {
+			fill: $low !important;
+		}
+	}
 }
 // Login screen
 .theme-dark.authBox-1HR6Ha {
-    @include boxify($high, $mid, 6px);
+	@include boxify($high, $mid, 6px);
 
-    &,
-    .colorHeaderPrimary-3kwW7L,
-    .colorHeaderSecondary-2mxIhA,
-    .h5-2RwDNl {
-        color: $low;
-    }
-    .lookLink-9FtZy-.colorBrand-3pXr91 {
-        color: $alert;
-    }
-    .qrCodeContainer-1qlybH,
-    .qrCodeOverlay-2bLtKl {
-        border: 1px solid $low;
-    }
+	&,
+	.colorHeaderPrimary-3kwW7L,
+	.colorHeaderSecondary-2mxIhA,
+	.h5-2RwDNl {
+		color: $low;
+	}
+	.lookLink-9FtZy-.colorBrand-3pXr91 {
+		color: $alert;
+	}
+	.qrCodeContainer-1qlybH,
+	.qrCodeOverlay-2bLtKl {
+		border: 1px solid $low;
+	}
 }
 // CTRL K
 .quickswitcher-pKcM9U {
-    @include boxify($high, $mid, 5px);
-    .input-3r5zZY {
-        color: $high;
-        background: $low;
-        border-radius: 0;
-        box-shadow: none;
-    }
-    .icon-12xJtb {
-        height: 13px;
-        width: 13px;
-        background-color: $low;
-    }
-    .resultFocused-3aIoYe {
-        background: $low;
-        border-radius: 0;
+	@include boxify($high, $mid, 5px);
+	.input-3r5zZY {
+		color: $high;
+		background: $low;
+		border-radius: 0;
+		box-shadow: none;
+	}
+	.icon-12xJtb {
+		height: 13px;
+		width: 13px;
+		background-color: $low;
+	}
+	.resultFocused-3aIoYe {
+		background: $low;
+		border-radius: 0;
 
-        .note-OhIxFa,
-        .misc-XwBATi,
-        .contentUnread-1_MVDK,
-        .contentDefault-17ewQQ {
-            color: $high;
-        }
-        .icon-12xJtb {
-            background-color: $high;
-            path {
-                fill: $high;
-            }
-        }
-    }
+		.note-OhIxFa,
+		.misc-XwBATi,
+		.contentUnread-1_MVDK,
+		.contentDefault-17ewQQ {
+			color: $high;
+		}
+		.icon-12xJtb {
+			background-color: $high;
+			path {
+				fill: $high;
+			}
+		}
+	}
 }
 // Invite Friends to Server
 .theme-dark {
-    .lookLink-9FtZy-.colorGrey-2DXtkV,
-    .footerText-2QLGHU {
-        color: $low;
-    }
-    .inviteRow-3vmB7i {
-        border-radius: 0;
-        .inviteRowName-3H4s_c {
-            color: $low;
-        }
+	.lookLink-9FtZy-.colorGrey-2DXtkV,
+	.footerText-2QLGHU {
+		color: $low;
+	}
+	.inviteRow-3vmB7i {
+		border-radius: 0;
+		.inviteRowName-3H4s_c {
+			color: $low;
+		}
 
-        &:hover {
-            background: $low;
-            .lookLink-9FtZy-.colorGrey-2DXtkV,
-            .inviteRowName-3H4s_c {
-                color: $high;
-            }
-        }
-    }
+		&:hover {
+			background: $low;
+			.lookLink-9FtZy-.colorGrey-2DXtkV,
+			.inviteRowName-3H4s_c {
+				color: $high;
+			}
+		}
+	}
 }
 // Addon Errors
 .bd-modal-wrapper {
-    .bd-modal-inner {
-        @include boxify($high, $mid, 5px);
-        border: none;
-    }
-    .header {
-        color: $high;
-        background-color: $low;
-    }
-    .footer-31IekZ,
-    .bd-modal-body {
-        color: $low;
-        background-color: transparent;
-    }
-    .tab-bar-container {
-        background-color: transparent;
-        box-shadow: none;
-        .tab-bar-item {
-            color: $low;
+	.bd-modal-inner {
+		@include boxify($high, $mid, 5px);
+		border: none;
+	}
+	.header {
+		color: $high;
+		background-color: $low;
+	}
+	.footer-31IekZ,
+	.bd-modal-body {
+		color: $low;
+		background-color: transparent;
+	}
+	.tab-bar-container {
+		background-color: transparent;
+		box-shadow: none;
+		.tab-bar-item {
+			color: $low;
 
-            &.selected {
-                border-color: $low;
-            }
-        }
-    }
-    .error,
-    .table-header {
-        color: $low;
-        border-color: $low;
-    }
-    .error-link {
-        color: $alert;
-    }
+			&.selected {
+				border-color: $low;
+			}
+		}
+	}
+	.error,
+	.table-header {
+		color: $low;
+		border-color: $low;
+	}
+	.error-link {
+		color: $alert;
+	}
 }
 // Notification settings
 .theme-dark .modal-2RrUKJ {
-    @include boxify($high, $mid, 4px);
+	@include boxify($high, $mid, 4px);
 }
 // Reactions
 .theme-dark {
-    .reactors-1VXca7,
-    .scroller-2GkvCq {
-        background: transparent;
-    }
-    .reactorDefault-3GSyaV {
-        box-shadow: none;
-    }
-    .remove-19AQn_,
-    .discriminator-1DCM-o {
-        color: $low;
-    }
-    .reactionSelected-1aMb2K,
-    .reactionDefault-1Sjj1f:hover {
-        background: $low;
-        border-radius: 0;
+	.reactors-1VXca7,
+	.scroller-2GkvCq {
+		background: transparent;
+	}
+	.reactorDefault-3GSyaV {
+		box-shadow: none;
+	}
+	.remove-19AQn_,
+	.discriminator-1DCM-o {
+		color: $low;
+	}
+	.reactionSelected-1aMb2K,
+	.reactionDefault-1Sjj1f:hover {
+		background: $low;
+		border-radius: 0;
 
-        .colorStandard-1Xxp1s {
-            color: $high;
-        }
-    }
+		.colorStandard-1Xxp1s {
+			color: $high;
+		}
+	}
 }
 // "Hold Up" - external site prompt
 .theme-dark .root-g14mjS {
-    @include boxify($high, $low, 3px);
+	@include boxify($high, $low, 3px);
 }
 .lookFilled-yCfaCM.colorPrimary-2AuQVo {
-    @include buttonify($low, $high, $mid, $high);
+	@include buttonify($low, $high, $mid, $high);
 }

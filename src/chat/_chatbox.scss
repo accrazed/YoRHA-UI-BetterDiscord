@@ -1,28 +1,28 @@
 // Type box
 .channelTextArea-1VQBuV {
-    width: auto;
+	width: auto;
 }
 .channelTextArea-1FufC0 {
-    border-radius: 0;
-    margin-left: 21px;
-    box-shadow: -3px 0 0 $low, -9px 0 0 $high, -21px 0 0 $low, -18px 3px 0 $mid,
-        3px 3px 0 $mid;
+	border-radius: 0;
+	margin-left: 21px;
+	box-shadow: -3px 0 0 $low, -9px 0 0 $high, -21px 0 0 $low, -18px 3px 0 $mid,
+		3px 3px 0 $mid;
 }
 .placeholder-1_mJY1 {
-    color: $mid;
+	color: $mid;
 }
 .cooldownWrapper-2k1jHK {
-    color: $low !important;
+	color: $low !important;
 }
 // Buttons
 .attachButton-_ACFSu {
-    padding: {
-        left: 10px;
-        right: 10px;
-    }
+	padding: {
+		left: 10px;
+		right: 10px;
+	}
 
-    &:hover .attachButtonPlus-3IYelE {
-        transition: fill 0.1s ease-in-out;
-        fill: $mid;
-    }
+	&:hover .attachButtonPlus-3IYelE {
+		transition: fill 0.1s ease-in-out;
+		fill: $mid;
+	}
 }

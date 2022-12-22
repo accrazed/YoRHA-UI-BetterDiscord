@@ -1,70 +1,70 @@
 .theme-dark {
-    // Sidebar
-    #bd-settings-sidebar .ui-tab-bar- {
-        &item,
-        &header {
-            color: $low;
-        }
-        &separator {
-            background-color: transparent;
-        }
-    }
+	// Sidebar
+	#bd-settings-sidebar .ui-tab-bar- {
+		&item,
+		&header {
+			color: $low;
+		}
+		&separator {
+			background-color: transparent;
+		}
+	}
 
-    // Main Pane
-    #bd-settingspane-container {
-        .ui-switch-item h3,
-        .ui-switch-item .style-description,
-        h2.ui-form-title {
-            border: none;
-            color: $low;
-        }
-    }
-    .bd-select-options {
-        @include boxify($low, $mid, 3px);
-        border: none;
-        .bd-select-option {
-            @include buttonify($low, $high, $high, $low);
-        }
-    }
-    // Addons
-    .bd-select-wrapper {
-        .bd-select {
-            color: $low;
-        }
-        .bd-select-arrow {
-            fill: $low;
-        }
-        color: $low-trans;
-        label {
-            opacity: 1;
-        }
-    }
-    .bd-addon-list {
-        a {
-            color: $alert;
-        }
-        .bd-addon-card {
-            @include boxify($high, $mid, 4px);
+	// Main Pane
+	#bd-settingspane-container {
+		.ui-switch-item h3,
+		.ui-switch-item .style-description,
+		h2.ui-form-title {
+			border: none;
+			color: $low;
+		}
+	}
+	.bd-select-options {
+		@include boxify($low, $mid, 3px);
+		border: none;
+		.bd-select-option {
+			@include buttonify($low, $high, $high, $low);
+		}
+	}
+	// Addons
+	.bd-select-wrapper {
+		.bd-select {
+			color: $low;
+		}
+		.bd-select-arrow {
+			fill: $low;
+		}
+		color: $low-trans;
+		label {
+			opacity: 1;
+		}
+	}
+	.bd-addon-list {
+		a {
+			color: $alert;
+		}
+		.bd-addon-card {
+			@include boxify($high, $mid, 4px);
 
-            .bda-header,
-            .bda-description {
-                color: $low;
-                border: none;
-            }
-        }
-    }
-    .bd-search-wrapper {
-        background-color: $low;
-        border-radius: 0;
+			.bda-header,
+			.bda-description {
+				color: $low;
+				border: none;
+			}
+		}
+	}
+	.bd-search-wrapper {
+		background-color: $low;
+		border-radius: 0;
 
-        .bd-search {
-            color: $high-trans;
-            &::placeholder {
-                color: $high-trans;
-            }
-        }
-    }
+		.bd-search {
+			color: $high-trans;
+			&::placeholder {
+				color: $high-trans;
+			}
+		}
+	}
 }
 .bd-modal-wrapper .tab-bar-container .tab-bar-item {
-    color: $low !important;
+	color: $low !important;
 }

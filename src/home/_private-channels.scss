@@ -5,51 +5,51 @@
 .interactiveSelected-29CP8y,
 .interactive-iyXY_x,
 .interactive-iyXY_x:hover {
-    background: transparent;
+	background: transparent;
 }
 
 // Member hover/select animations
 .interactive-1vLZ_I {
-    transition: color 0.2s;
-    border-radius: 0;
-    margin: 1px 0 1px 0;
-    position: relative;
+	transition: color 0.2s;
+	border-radius: 0;
+	margin: 1px 0 1px 0;
+	position: relative;
 
-    // Animation
-    .layout-1LjVue {
-        background-color: transparent !important;
-        &:before {
-            content: '';
-            position: absolute;
-            left: 0;
-            top: 2px;
-            bottom: 2px;
-            transition: transform 0.4s;
-            animation-name: pulsingBackground;
-            animation-duration: 1.5s;
-            animation-iteration-count: infinite;
-            transform: scaleX(0);
-            transform-origin: left;
-            width: 100%;
-            box-shadow: 0 0 2px $low;
-        }
-    }
+	// Animation
+	.layout-1LjVue {
+		background-color: transparent !important;
+		&:before {
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 2px;
+			bottom: 2px;
+			transition: transform 0.4s;
+			animation-name: pulsingBackground;
+			animation-duration: 1.5s;
+			animation-iteration-count: infinite;
+			transform: scaleX(0);
+			transform-origin: left;
+			width: 100%;
+			box-shadow: 0 0 2px $low;
+		}
+	}
 
-    // Selected channel
-    &:hover,
-    &.interactiveSelected-29CP8y {
-        box-shadow: 0 1px $low, 0 -1px $low;
-        color: $high;
-        .layout-1LjVue:before {
-            transform: scaleX(1);
-        }
-        .highlighted-Q8Nll- {
-            color: $high;
-        }
-        .avatar-1HDIsL, // Home icons like friends, Library, nitro
+	// Selected channel
+	&:hover,
+	&.interactiveSelected-29CP8y {
+		box-shadow: 0 1px $low, 0 -1px $low;
+		color: $high;
+		.layout-1LjVue:before {
+			transform: scaleX(1);
+		}
+		.highlighted-Q8Nll- {
+			color: $high;
+		}
+		.avatar-1HDIsL, // Home icons like friends, Library, nitro
         .closeButton-mupH76, // Close DM button on DM list when hovering
         .content-66wMin {
-            z-index: 1;
-        }
-    }
+			z-index: 1;
+		}
+	}
 }

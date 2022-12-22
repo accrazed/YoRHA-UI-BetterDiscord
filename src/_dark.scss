@@ -1,39 +1,39 @@
 // Wallpaper
 #app-mount {
-    background: url('https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/wallpapers/dark-theme-1440.png')
-        center/cover no-repeat;
+	background: url('https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/wallpapers/dark-theme-1440.png')
+		center/cover no-repeat;
 }
 // Home icon
 .tutorialContainer-1pL9QS .svg-2zuE5p {
-    background: url('https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/icons/home_dark-theme.png')
-        center/contain no-repeat;
+	background: url('https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/icons/home_dark-theme.png')
+		center/contain no-repeat;
 }
 // Theatre effect
 #app-mount:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(
-            to right,
-            rgba(218, 212, 187, 0.05),
-            transparent 30%,
-            transparent 80%,
-            rgba(218, 212, 187, 0.05)
-        ),
-        radial-gradient(transparent 50%, rgba(218, 212, 187, 0.1));
-    user-select: none;
-    pointer-events: none;
+	content: '';
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(
+			to right,
+			rgba(218, 212, 187, 0.05),
+			transparent 30%,
+			transparent 80%,
+			rgba(218, 212, 187, 0.05)
+		),
+		radial-gradient(transparent 50%, rgba(218, 212, 187, 0.1));
+	user-select: none;
+	pointer-events: none;
 }
 
 .theme-dark .mentioned-Tre-dv a.anchor-1MIwyf {
-    background-color: $low-trans;
-    border-radius: 0.25em;
+	background-color: $low-trans;
+	border-radius: 0.25em;
 }
 
 // Highlighting text
 ::selection {
-    background-color: $alert-trans;
-    color: $low;
+	background-color: $alert-trans;
+	color: $low;
 }

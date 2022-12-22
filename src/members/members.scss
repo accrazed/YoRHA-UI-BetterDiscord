@@ -4,59 +4,59 @@
 .member-48YF_l,
 .members-3WRCEx,
 .members-3WRCEx > div {
-    background: transparent;
+	background: transparent;
 }
 
 // Member hover/select animations
 .container-1oeRFJ {
-    transition: color 0.2s;
-    max-width: none;
-    border-radius: 0;
-    height: 44px;
-    margin: 5px 0 5px 0;
-    position: relative;
-    // Animation
-    .layout-1qmrhw {
-        background-color: transparent !important;
-        border-radius: 0;
-        &:before {
-            content: '';
-            position: absolute;
-            left: 0;
-            top: 2px;
-            bottom: 2px;
-            transition: transform 0.4s;
-            animation-name: pulsingBackground;
-            animation-duration: 1.5s;
-            animation-iteration-count: infinite;
-            transform: scaleX(0);
-            transform-origin: left;
-            width: 100%;
-            box-shadow: 0 0 2px $low;
-        }
-    }
-    // Selected channel
-    &.selected-1-Z6gm,
-    &:hover {
-        color: $high !important;
-        box-shadow: 0 1px $low, 0 -1px $low;
-        .name-3Vmqxm span,
-        .activity-2EQDZv,
-        .muted-14PyqW {
-            color: $high !important;
-        }
-        .layout-1qmrhw:before {
-            transform: scaleX(1);
-        }
-        .avatar-6qzftW,
-        .linkButtonIcon-7rsZcu,
-        .content-1U25dZ {
-            z-index: 1;
-        }
-    }
+	transition: color 0.2s;
+	max-width: none;
+	border-radius: 0;
+	height: 44px;
+	margin: 5px 0 5px 0;
+	position: relative;
+	// Animation
+	.layout-1qmrhw {
+		background-color: transparent !important;
+		border-radius: 0;
+		&:before {
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 2px;
+			bottom: 2px;
+			transition: transform 0.4s;
+			animation-name: pulsingBackground;
+			animation-duration: 1.5s;
+			animation-iteration-count: infinite;
+			transform: scaleX(0);
+			transform-origin: left;
+			width: 100%;
+			box-shadow: 0 0 2px $low;
+		}
+	}
+	// Selected channel
+	&.selected-1-Z6gm,
+	&:hover {
+		color: $high !important;
+		box-shadow: 0 1px $low, 0 -1px $low;
+		.name-3Vmqxm span,
+		.activity-2EQDZv,
+		.muted-14PyqW {
+			color: $high !important;
+		}
+		.layout-1qmrhw:before {
+			transform: scaleX(1);
+		}
+		.avatar-6qzftW,
+		.linkButtonIcon-7rsZcu,
+		.content-1U25dZ {
+			z-index: 1;
+		}
+	}
 }
 
 .botTagRegular-kpctgU {
-    background-color: $alert;
-    color: $high;
+	background-color: $alert;
+	color: $high;
 }

@@ -1,50 +1,50 @@
 @mixin boxify($color, $drop-color, $drop) {
-    background: $color;
-    border-radius: 0;
-    box-shadow: $drop $drop 0 $drop-color;
+	background: $color;
+	border-radius: 0;
+	box-shadow: $drop $drop 0 $drop-color;
 }
 @mixin remask($url, $color) {
-    mask: url($url);
-    background: $color !important;
+	mask: url($url);
+	background: $color !important;
 }
 @mixin buttonify($base-bg, $base-text, $hover-bg, $hover-text) {
-    border-radius: 0;
-    border-color: transparent;
-    background-color: $base-bg;
-    color: $base-text;
+	border-radius: 0;
+	border-color: transparent;
+	background-color: $base-bg;
+	color: $base-text;
 
-    &:hover,
-    &:active {
-        border-color: transparent !important;
-        background-color: $hover-bg !important;
-        color: $hover-text !important;
-    }
+	&:hover,
+	&:active {
+		border-color: transparent !important;
+		background-color: $hover-bg !important;
+		color: $hover-text !important;
+	}
 }
 @mixin titlify($left-offset, $up-offset) {
-    letter-spacing: 1px;
-    text-shadow: $left-offset $up-offset 0 $mid;
-    padding-right: 3px;
-    padding-bottom: 3px;
+	letter-spacing: 1px;
+	text-shadow: $left-offset $up-offset 0 $mid;
+	padding-right: 3px;
+	padding-bottom: 3px;
 }
 @keyframes pulsingBackground {
-    0% {
-        background-color: $low;
-    }
-    20% {
-        background-color: $low;
-        opacity: 100%;
-    }
-    50% {
-        background-color: $low-trans;
-        opacity: 75%;
-    }
-    80% {
-        background-color: $low;
-        opacity: 100%;
-    }
-    100% {
-        background-color: $low;
-    }
+	0% {
+		background-color: $low;
+	}
+	20% {
+		background-color: $low;
+		opacity: 100%;
+	}
+	50% {
+		background-color: $low-trans;
+		opacity: 75%;
+	}
+	80% {
+		background-color: $low;
+		opacity: 100%;
+	}
+	100% {
+		background-color: $low;
+	}
 }
 
 @import 'root_config';

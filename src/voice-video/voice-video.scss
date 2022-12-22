@@ -3,56 +3,56 @@
 .gradientContainer-phMG8d,
 .wrapper-1gVUIN.minimum-fXpVNc,
 .wrapper-1gVUIN {
-    background-image: none;
-    background-color: transparent;
+	background-image: none;
+	background-color: transparent;
 }
 .tile-2TcwiO {
-    @include boxify($high, $low-trans, 5px);
+	@include boxify($high, $low-trans, 5px);
 }
 .container-1zzFcN {
-    border-bottom: none;
-    padding-bottom: 0;
+	border-bottom: none;
+	padding-bottom: 0;
 }
 // Voice and Video
 .colorable-3rVGna {
-    &.white-11auuQ {
-        background: $high;
-        color: $low;
+	&.white-11auuQ {
+		background: $high;
+		color: $low;
 
-        &:hover {
-            background: $mid;
-        }
-        &.active-3D763s {
-            background: $high;
-        }
-        .centerIcon-JYpTUi {
-            color: $low;
-        }
-    }
-    &.primaryDark-2UJt1G {
-        background: $low;
-        color: $high;
+		&:hover {
+			background: $mid;
+		}
+		&.active-3D763s {
+			background: $high;
+		}
+		.centerIcon-JYpTUi {
+			color: $low;
+		}
+	}
+	&.primaryDark-2UJt1G {
+		background: $low;
+		color: $high;
 
-        &:hover {
-            background: $mid;
-        }
-        .centerIcon-JYpTUi {
-            color: $high;
-        }
-    }
-    &.red-3T8maV,
-    &.red-3T8maV:hover {
-        background: $alert;
+		&:hover {
+			background: $mid;
+		}
+		.centerIcon-JYpTUi {
+			color: $high;
+		}
+	}
+	&.red-3T8maV,
+	&.red-3T8maV:hover {
+		background: $alert;
 
-        .centerIcon-JYpTUi {
-            color: $high;
-        }
-    }
+		.centerIcon-JYpTUi {
+			color: $high;
+		}
+	}
 }
 .clickable-ZD7xvu .icon-2xnN2Y:hover,
 .icon-2xnN2Y:hover,
 .controlIcon-10O-4h:hover {
-    color: $mid;
+	color: $mid;
 }
 .quickSelect-384d3G,
 .quickSelectLabel-ArUyd9,
@@ -62,107 +62,107 @@
 .icon-2xnN2Y,
 .name-3YKhmS,
 .title-17SveM {
-    color: $low;
+	color: $low;
 }
 .status-15kcmy {
-    color: $low;
-    background: $high-trans;
-    border-radius: 0;
+	color: $low;
+	background: $high-trans;
+	border-radius: 0;
 }
 .overlayTitle-2efoIF {
-    border-radius: 0;
-    background: $low-trans;
-    color: $high;
+	border-radius: 0;
+	background: $low-trans;
+	color: $high;
 }
 .status-15kcmy,
 .border-2Vy6FN.speaking-7QZEkv,
 .avatarSpeaking-3MqCHL {
-    box-shadow: inset 0 0 0 2px $alert;
+	box-shadow: inset 0 0 0 2px $alert;
 }
 .slash-2yrR11,
 .colorDefault-CDqZdO .checkbox-hADx5o,
 .colorDefault-CDqZdO .radioSelection-1UHp0b {
-    color: $alert;
+	color: $alert;
 }
 .base-3IDx3L,
 .liveLarge-IxMVzY {
-    border-radius: 0;
-    color: $high;
+	border-radius: 0;
+	color: $high;
 }
 .iconBadge-2wWu5e {
-    background-color: $low;
+	background-color: $low;
 }
 // Select Region arrow in videocall
 .theme-dark .quickSelectArrow-1dOOHb {
-    @include remask(
-        'https://discord.com/assets/f58cf3b8fc79e9d671ab649ab37651a9.svg',
-        $low
-    );
-    mask-repeat: no-repeat;
+	@include remask(
+		'https://discord.com/assets/f58cf3b8fc79e9d671ab649ab37651a9.svg',
+		$low
+	);
+	mask-repeat: no-repeat;
 }
 // Member hover/select animations
 .draggable-S2aEx4 {
-    height: 29px;
-    margin: 1px 0 1px 0;
+	height: 29px;
+	margin: 1px 0 1px 0;
 
-    .clickable-1ctZ-H {
-        height: 28px;
-        .icons-2mwuFp svg,
-        .avatarSmall-3qwAkA,
-        .username-vAneIW,
-        .icons-2mwuFp {
-            z-index: 1;
-            transition: color 0.2s;
-        }
-        border-radius: 0;
+	.clickable-1ctZ-H {
+		height: 28px;
+		.icons-2mwuFp svg,
+		.avatarSmall-3qwAkA,
+		.username-vAneIW,
+		.icons-2mwuFp {
+			z-index: 1;
+			transition: color 0.2s;
+		}
+		border-radius: 0;
 
-        // Animation
-        .content-1Tgc42 {
-            height: 28px;
-            background-color: transparent !important;
-            border-radius: 0;
-        }
-        .content-1Tgc42:before {
-            content: '';
-            position: absolute;
-            left: 0;
-            top: 1px;
-            bottom: 1px;
-            transition: transform 0.3s;
-            animation-name: pulsingBackground;
-            animation-duration: 1.5s;
-            animation-iteration-count: infinite;
-            transform: scaleX(0);
-            transform-origin: left;
-            width: 100%;
-        }
-        // Selected channel
-        &.selected-1oxcpH .content-1Tgc42,
-        &:hover .content-1Tgc42 {
-            box-shadow: 0 1px $low, 0 -1px $low;
+		// Animation
+		.content-1Tgc42 {
+			height: 28px;
+			background-color: transparent !important;
+			border-radius: 0;
+		}
+		.content-1Tgc42:before {
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 1px;
+			bottom: 1px;
+			transition: transform 0.3s;
+			animation-name: pulsingBackground;
+			animation-duration: 1.5s;
+			animation-iteration-count: infinite;
+			transform: scaleX(0);
+			transform-origin: left;
+			width: 100%;
+		}
+		// Selected channel
+		&.selected-1oxcpH .content-1Tgc42,
+		&:hover .content-1Tgc42 {
+			box-shadow: 0 1px $low, 0 -1px $low;
 
-            .icons-2mwuFp svg,
-            .avatarSmall-3qwAkA,
-            .username-vAneIW,
-            .icons-2mwuFp {
-                color: $high;
-                z-index: 1;
-            }
-            &:before {
-                transform: scaleX(1);
-            }
-        }
-    }
+			.icons-2mwuFp svg,
+			.avatarSmall-3qwAkA,
+			.username-vAneIW,
+			.icons-2mwuFp {
+				color: $high;
+				z-index: 1;
+			}
+			&:before {
+				transform: scaleX(1);
+			}
+		}
+	}
 }
 // Voice chat stream preview
 .theme-dark .streamPreview-3qoMP4 {
-    @include boxify($high, $mid, 3px);
+	@include boxify($high, $mid, 3px);
 }
 .theme-dark .activityStreamPreview-uBr6hk {
-    .activityName-3YXl6e,
-    .content-tXPNDw,
-    .details-2-ciHo,
-    .name-1-Q7l2 {
-        color: $low;
-    }
+	.activityName-3YXl6e,
+	.content-tXPNDw,
+	.details-2-ciHo,
+	.name-1-Q7l2 {
+		color: $low;
+	}
 }

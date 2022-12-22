@@ -1,60 +1,60 @@
 // Message in chat that someone's opened a thread
 .hasThread-3h-KJV {
-    // Elbow
-    &.cozy-VmLDNB:after {
-        border-left: 2px solid $low;
-        border-bottom: 2px solid $low;
-        border-bottom-left-radius: 0;
-    }
-    // Thread box,
-    .container-3i3IzO {
-        @include boxify($high, $mid, 3px);
-    }
+	// Elbow
+	&.cozy-VmLDNB:after {
+		border-left: 2px solid $low;
+		border-bottom: 2px solid $low;
+		border-bottom-left-radius: 0;
+	}
+	// Thread box,
+	.container-3i3IzO {
+		@include boxify($high, $mid, 3px);
+	}
 }
 
 // Thread Sidebar
 .chat-3JZdy8:before {
-    visibility: hidden;
+	visibility: hidden;
 }
 
 .iconWrapper-3plkqh {
-    background-color: $low;
-    .icon-382itv {
-        color: $high;
-        path:first-child {
-            visibility: hidden;
-        }
-    }
+	background-color: $low;
+	.icon-382itv {
+		color: $high;
+		path:first-child {
+			visibility: hidden;
+		}
+	}
 }
 
 .iconContainer-2rPbqG .icon-3OHhZU path:first-child {
-    visibility: hidden;
+	visibility: hidden;
 }
 
 *[aria-label='Threads'],
 *[aria-label='Thread'] {
-    .icon-2xnN2Y path:first-child {
-        visibility: hidden;
-    }
+	.icon-2xnN2Y path:first-child {
+		visibility: hidden;
+	}
 }
 
 .threadIcon-rd1kqG path:first-child {
-    visibility: hidden;
+	visibility: hidden;
 }
 
 .threadSidebar-1o3BTy {
-    @include boxify($high, $mid, 3px);
+	@include boxify($high, $mid, 3px);
 }
 
 .container-1Bj0eq .containerDefault-YUSmu3 {
-    left: 40px;
+	left: 40px;
 }
 
 .spine-29OFwR {
-    color: $low;
+	color: $low;
 }
 
 // Thread popout
 .browser-mnQ1T7 {
-    @include boxify($high, $mid, 3px);
+	@include boxify($high, $mid, 3px);
 }

@@ -2,28 +2,28 @@
 .pageContainer-36uo3F,
 .theme-dark .pageWrapper-2PwDoS,
 .joinServerOption-3ClG5j {
-    background-color: transparent;
+	background-color: transparent;
 }
 
 // University Hubs
 .card-3N2v9t {
-    @include boxify($high, $mid, 3px);
+	@include boxify($high, $mid, 3px);
 }
 
 // Home page
 .theme-dark .background-fkKrXt {
-    background: transparent;
+	background: transparent;
 }
 // -- card
 .containerCard-2kwJKN,
 .containerCard-2kwJKN:hover,
 .container-2Hi7Km,
 .card-3x20HF {
-    @include boxify($high, $mid, 3px);
+	@include boxify($high, $mid, 3px);
 }
 .channelList-24jKfX {
-    padding: 5px 0;
+	padding: 5px 0;
 }
 .feedItemHeader-txJq98 {
-    border-bottom: none;
+	border-bottom: none;
 }

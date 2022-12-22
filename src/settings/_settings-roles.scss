@@ -1,71 +1,71 @@
 // Transparencies
 .stickyHeaderElevated-dNSSrJ,
 .titleContainer-3fPic2 {
-    background-color: transparent;
+	background-color: transparent;
 }
 .titleElevated-eN3exl {
-    box-shadow: none;
+	box-shadow: none;
 }
 // Unsaved changes alert
 .theme-dark .elevationHigh-28Pty4 {
-    background-color: $high !important;
-    @include boxify($high, $mid, 3px);
+	background-color: $high !important;
+	@include boxify($high, $mid, 3px);
 
-    .contents-18-Yxp span,
-    .message-3C6JQ1 {
-        color: $low !important;
-    }
+	.contents-18-Yxp span,
+	.message-3C6JQ1 {
+		color: $low !important;
+	}
 }
 
 // Default Permissions
 .container-3EtAkD {
-    @include boxify($high, $mid, 3px);
+	@include boxify($high, $mid, 3px);
 }
 
 // Search Roles
 .container-2oNtJn {
-    border-radius: 0;
-    border: 1px solid $low;
+	border-radius: 0;
+	border: 1px solid $low;
 }
 
 // Role List - Hover
 .roleRow-230vCm:hover:not(.roleRowDisableHover-3En0vy) {
-    @include boxify($high, $mid, 3px);
+	@include boxify($high, $mid, 3px);
 
-    .circleButton-2Yr5A1:hover {
-        background-color: $low;
+	.circleButton-2Yr5A1:hover {
+		background-color: $low;
 
-        &.secondary-2bzKEX {
-            color: $high;
-        }
-    }
+		&.secondary-2bzKEX {
+			color: $high;
+		}
+	}
 }
 
 // Edit Role
 .header-JUTO-g {
-    margin-top: 48px;
-    padding: 16px 8px;
-    @include boxify($high, $mid, 4px);
+	margin-top: 48px;
+	padding: 16px 8px;
+	@include boxify($high, $mid, 4px);
 }
 .cozy-VmLDNB .timestamp-p1Df1m {
-    color: $low;
+	color: $low;
 }
 .theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV {
-    background-color: $low;
-    color: $high;
+	background-color: $low;
+	color: $high;
 }
 .top-K_jibn .brand-3g5E0C {
-    &.item-3XjbnG:active,
-    &.selected-g-kMVV.item-3XjbnG {
-        border-bottom-color: $alert;
-    }
-    &.item-3XjbnG:hover {
-        border-bottom-color: $mid;
-    }
+	&.item-3XjbnG:active,
+	&.selected-g-kMVV.item-3XjbnG {
+		border-bottom-color: $alert;
+	}
+	&.item-3XjbnG:hover {
+		border-bottom-color: $mid;
+	}
 }
 .warning-RBGtx2 {
-    color: $low;
+	color: $low;
 }
 .theme-dark .tooltip-14MtrL .colorStandard-1Xxp1s {
-    color: $high;
+	color: $high;
 }

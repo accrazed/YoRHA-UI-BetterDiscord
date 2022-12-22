@@ -3,24 +3,24 @@
 // Latest update for v3.0.50
 
 .message-2CShn3 .role-2TIOKu {
-    border-radius: 0;
-    padding: 4px 0;
-    transition: all 0.3s ease;
-    border: none;
+	border-radius: 0;
+	padding: 4px 0;
+	transition: all 0.3s ease;
+	border: none;
 
-    .roleCircle-1EgnFN {
-        border: 1px solid $low;
-        border-radius: 0;
-        margin: 0;
-    }
-    .roleName-2ZJJYR {
-        color: $low;
-        transition: all 0.3s ease;
-        margin: 0;
-        width: 0;
-    }
-    &:hover .roleName-2ZJJYR {
-        margin-left: 3px;
-        width: 100%;
-    }
+	.roleCircle-1EgnFN {
+		border: 1px solid $low;
+		border-radius: 0;
+		margin: 0;
+	}
+	.roleName-2ZJJYR {
+		color: $low;
+		transition: all 0.3s ease;
+		margin: 0;
+		width: 0;
+	}
+	&:hover .roleName-2ZJJYR {
+		margin-left: 3px;
+		width: 100%;
+	}
 }

@@ -1,121 +1,121 @@
 // Right-clicking things menu
 .theme-dark .quickSelectPopout-2F0PXw {
-    @include boxify($low, $mid, 3px);
+	@include boxify($low, $mid, 3px);
 
-    .quickSelectPopoutOption-2E2UmS {
-        @include buttonify($low, $high, $high, $low);
+	.quickSelectPopoutOption-2E2UmS {
+		@include buttonify($low, $high, $high, $low);
 
-        .regionSelectName-1Tj9C9 {
-            color: $high;
-        }
-        &:hover .regionSelectName-1Tj9C9 {
-            color: $low;
-        }
-        .check-K_srvn {
-            @include remask(
-                'https://discord.com/assets/6acb20d5e709b34b6a7f36ec13648666.svg',
-                $alert
-            );
-            mask-repeat: no-repeat;
-        }
-    }
+		.regionSelectName-1Tj9C9 {
+			color: $high;
+		}
+		&:hover .regionSelectName-1Tj9C9 {
+			color: $low;
+		}
+		.check-K_srvn {
+			@include remask(
+				'https://discord.com/assets/6acb20d5e709b34b6a7f36ec13648666.svg',
+				$alert
+			);
+			mask-repeat: no-repeat;
+		}
+	}
 }
 // Context hover
 .theme-dark .tooltipGrey-lpLZjh {
-    color: $low;
-    @include boxify($high, $mid, 3px);
-    .tooltipPointer-3L49xb {
-        border: none;
-    }
+	color: $low;
+	@include boxify($high, $mid, 3px);
+	.tooltipPointer-3L49xb {
+		border: none;
+	}
 }
 .menu-1QACrS,
 .theme-dark .tooltip-14MtrL,
 .theme-dark .listItemTooltip-CDcY8J {
-    .tooltipPointer-3L49xb {
-        border: none;
-    }
-    @include boxify($low, $mid, 3px);
-    .scroller-1bVxF5 {
-        padding: 0;
-    }
-    .colorDefault-CDqZdO {
-        @include buttonify($low, $high, $high, $low);
-        color: $high;
-    }
-    .guildNameText-74xXQn {
-        color: $high;
-    }
+	.tooltipPointer-3L49xb {
+		border: none;
+	}
+	@include boxify($low, $mid, 3px);
+	.scroller-1bVxF5 {
+		padding: 0;
+	}
+	.colorDefault-CDqZdO {
+		@include buttonify($low, $high, $high, $low);
+		color: $high;
+	}
+	.guildNameText-74xXQn {
+		color: $high;
+	}
 }
 .item-1OdjEX {
-    border-radius: 0;
-    margin: 0;
+	border-radius: 0;
+	margin: 0;
 }
 // Red text in context menu
 .colorDanger-3n-KnP {
-    .checkbox-hADx5o,
-    .radioSelection-1UHp0b {
-        color: $alert !important;
-    }
+	.checkbox-hADx5o,
+	.radioSelection-1UHp0b {
+		color: $alert !important;
+	}
 }
 // User status button
 .withTagAsButton-OsgQ9L,
 .withTagless-10ooWt {
-    @include buttonify(transparent, $low, $low, $high);
+	@include buttonify(transparent, $low, $low, $high);
 
-    &:hover {
-        .title-338goq,
-        .subtext-2HDqJ7 {
-            color: $high;
-        }
-    }
+	&:hover {
+		.title-338goq,
+		.subtext-2HDqJ7 {
+			color: $high;
+		}
+	}
 } // User status popout
 .profileGroup-1yKk23 {
-    margin: 0%;
+	margin: 0%;
 }
 .profileBody-3QbfPe {
-    padding: 8px;
-    background-color: $high;
+	padding: 8px;
+	background-color: $high;
 }
 
 .clickCTA-1bk0UN {
-    color: $mid;
+	color: $mid;
 }
 .guildNameText-jBFbNC,
 .theme-dark .tooltip-14MtrL,
 .theme-dark .listItemTooltip-CDcY8J {
-    color: $high;
+	color: $high;
 }
 .separator-1So4YB,
 .theme-dark .tooltipBlack-vMYxvw .tooltipPointer-3L49xb {
-    border: none;
+	border: none;
 }
 .theme-dark {
-    // Add role
-    .autocompleteShadow-2nfsSy {
-        border: 1px solid $low;
-        @include boxify($high, $mid, 3px);
-    }
-    .autocompleteArrow-jJE9TQ,
-    .header-3i_Csh {
-        background-color: transparent;
-        box-shadow: none;
-    }
-    .addGamePopout-3yePJc .cancelButton-1vsI8S,
-    .empty-3J6aBo .noResultsHeader-2crZUK,
-    .empty-3J6aBo p,
-    .container-1S70rv .input-2lpFVz {
-        color: $low;
+	// Add role
+	.autocompleteShadow-2nfsSy {
+		border: 1px solid $low;
+		@include boxify($high, $mid, 3px);
+	}
+	.autocompleteArrow-jJE9TQ,
+	.header-3i_Csh {
+		background-color: transparent;
+		box-shadow: none;
+	}
+	.addGamePopout-3yePJc .cancelButton-1vsI8S,
+	.empty-3J6aBo .noResultsHeader-2crZUK,
+	.empty-3J6aBo p,
+	.container-1S70rv .input-2lpFVz {
+		color: $low;
 
-        &::placeholder {
-            color: $mid;
-        }
-    }
+		&::placeholder {
+			color: $mid;
+		}
+	}
 }
 .row-1Ib2uD.selected-1IWCoj .rowInner-3uonq8 {
-    background-color: $low;
-    border-radius: 0;
+	background-color: $low;
+	border-radius: 0;
 
-    span {
-        color: $high !important;
-    }
+	span {
+		color: $high !important;
+	}
 }

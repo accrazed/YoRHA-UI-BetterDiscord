@@ -1,149 +1,149 @@
 // Transparencies
 .theme-dark .form-3gdLxP:before,
 .chat-2ZfjoI {
-    background: transparent;
+	background: transparent;
 }
 .mentioned-Tre-dv:before {
-    width: 0;
+	width: 0;
 }
 .divider-2rZFJK {
-    border-color: $alert;
+	border-color: $alert;
 }
 // Scrollbar
 .auto-2K3UW5::-webkit-scrollbar,
 .auto-2K3UW5::-webkit-scrollbar-thumb,
 .auto-2K3UW5::-webkit-scrollbar-track {
-    border-radius: 0;
-    width: 6px;
+	border-radius: 0;
+	width: 6px;
 }
 // Username label
 .cozyMessage-1DWF9U .header-2jRmjb {
-    border-radius: 0;
-    display: inline-block !important;
-    padding: 4px 5px 4px 6px;
-    background: var(--color-high);
-    margin-left: 13px;
-    box-shadow: 2px 2px 0 $mid, -3px 0 0 $low, -9px 0 0 $high, -21px 0 0 $low,
-        -18px 2px 0 $mid;
+	border-radius: 0;
+	display: inline-block !important;
+	padding: 4px 5px 4px 6px;
+	background: var(--color-high);
+	margin-left: 13px;
+	box-shadow: 2px 2px 0 $mid, -3px 0 0 $low, -9px 0 0 $high, -21px 0 0 $low,
+		-18px 2px 0 $mid;
 }
 // Profile Picture
 .full-motion .avatar-2e8lTP.clickable-31pE3P {
-    @include boxify($high, $mid, 3px);
+	@include boxify($high, $mid, 3px);
 
-    &:hover {
-        filter: none;
-        @include boxify($high, $alert, 3px);
-    }
+	&:hover {
+		filter: none;
+		@include boxify($high, $alert, 3px);
+	}
 }
 // Username color
 .username-h_Y3Us.clickable-31pE3P {
-    color: $low !important;
+	color: $low !important;
 }
 // Date stamp
 .isUnread-3Lojb- .content-3spvdd,
 .unreadPill-3nEWYM,
 .content-3spvdd {
-    border-radius: 0;
-    background-color: $alert;
-    color: $high;
+	border-radius: 0;
+	background-color: $alert;
+	color: $high;
 }
 .unreadPillCapStroke-1nE1Q8 {
-    color: $alert;
-    fill: $alert;
+	color: $alert;
+	fill: $alert;
 }
 // Quotes
 .blockquoteContainer-3VtvI1 .blockquoteDivider-363utW {
-    border-radius: 0;
-    background-color: $low;
+	border-radius: 0;
+	background-color: $low;
 }
 .emptyChannelIcon-1YdEz2 {
-    background-image: url('https://svgur.com/i/RGT.svg');
-    @include remask('https://svgur.com/i/RGT.svg', $mid);
-    margin: auto;
-    width: 403px !important;
-    height: 353px !important;
+	background-image: url('https://svgur.com/i/RGT.svg');
+	@include remask('https://svgur.com/i/RGT.svg', $mid);
+	margin: auto;
+	width: 403px !important;
+	height: 353px !important;
 }
 // Mentions
 .theme-dark {
-    .mentioned-Tre-dv {
-        .mention.interactive:hover {
-            color: $low;
-        }
-    }
-    .wrapper-1ZcZW- {
-        // mention text
-        background: $alert-trans;
-        color: $high;
+	.mentioned-Tre-dv {
+		.mention.interactive:hover {
+			color: $low;
+		}
+	}
+	.wrapper-1ZcZW- {
+		// mention text
+		background: $alert-trans;
+		color: $high;
 
-        &:hover {
-            color: $alert;
-            background: $high;
-        }
-    }
+		&:hover {
+			color: $alert;
+			background: $high;
+		}
+	}
 }
 // Replies
 .mouse-mode.full-motion .replying-eZ7p5z {
-    &,
-    &:hover {
-        background-color: $alert-trans;
-    }
-    &:before {
-        background-color: $alert;
-    }
+	&,
+	&:hover {
+		background-color: $alert-trans;
+	}
+	&:before {
+		background-color: $alert;
+	}
 }
 .backgroundFlash-1X5jVs {
-    transition: background-color 0.1s;
-    background-color: $alert-trans !important;
+	transition: background-color 0.1s;
+	background-color: $alert-trans !important;
 }
 [style='background-color: rgba(114, 137, 218, 0);'] {
-    background-color: transparent !important;
-    transition: background-color 0.5s;
+	background-color: transparent !important;
+	transition: background-color 0.5s;
 }
 .colorBrand-3Xb6JG {
-    color: $alert;
+	color: $alert;
 }
 .repliedMessage-3Z6XBG:before {
-    border-left: var(--spine-width) solid $low;
-    border-bottom: 0 solid $low;
-    border-right: 0 solid $low;
-    border-top: var(--spine-width) solid $low;
-    border-radius: 0;
+	border-left: var(--spine-width) solid $low;
+	border-bottom: 0 solid $low;
+	border-right: 0 solid $low;
+	border-top: var(--spine-width) solid $low;
+	border-radius: 0;
 }
 .replyBadge-LMm_Ic {
-    border-radius: 0;
-    border: 1px solid $low;
+	border-radius: 0;
+	border: 1px solid $low;
 }
 // You're viewing older messages /// X+ new messages since
 .newMessagesBar-1hF-9G,
 .jumpToPresentBar-1cEnH0 {
-    box-shadow: none;
-    background-color: $alert;
-    border-radius: 0;
-    button {
-        color: $high;
-    }
+	box-shadow: none;
+	background-color: $alert;
+	border-radius: 0;
+	button {
+		color: $high;
+	}
 }
 // Edit Message
 .scrollableContainer-15eg7h {
-    @include boxify($high, $mid, 3px);
+	@include boxify($high, $mid, 3px);
 }
 .theme-dark .operations-3q3u6E {
-    color: $low;
-    & > a {
-        color: $alert;
-    }
+	color: $low;
+	& > a {
+		color: $alert;
+	}
 }
 .codeBlockSyntax-3mFGiA,
 .syntaxAfter-2_BrZf,
 .syntaxBefore-3epS3C {
-    color: $alert;
+	color: $alert;
 }
 // Timestamps
 .compact-2Nkcau .headerText-2z4IhQ {
-    border-right: 2px dashed $alert;
+	border-right: 2px dashed $alert;
 }
 .compact-2Nkcau .timestamp-p1Df1m,
 .cozy-VmLDNB .timestamp-p1Df1m.alt-1dvXnH {
-    margin-right: 0;
-    width: auto;
+	margin-right: 0;
+	width: auto;
 }

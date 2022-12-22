@@ -2,60 +2,60 @@
 .divider-q3P9HC,
 .theme-dark .children-3xh0VB:after,
 .container-ZMc96U.themed-Hp1KC_ {
-    background: transparent;
+	background: transparent;
 }
 .platform-win .sidebar-1tnWFu {
-    border-radius: 0;
+	border-radius: 0;
 }
 .header-2o-2hj,
 .content-1jQy2l:before,
 .searchBar-3TnChZ {
-    box-shadow: none;
+	box-shadow: none;
 }
 // Server name
 .clickable-vvKY2q .header-3OsQeK:hover,
 .selected-1GtAC5 .header-3OsQeK {
-    background-color: $low;
-    color: $high;
+	background-color: $low;
+	color: $high;
 }
 // Top header
 .name-3Uvkvr,
 .title-17SveM {
-    @include titlify(3px, 4px);
-    margin: 0;
+	@include titlify(3px, 4px);
+	margin: 0;
 }
 .colorStreamerMode-8uoRWd, // Streamer mode Notif
 .akaBadge-3i7V3p // AKA badge
 {
-    box-shadow: none;
-    background: $alert;
-    color: $high;
+	box-shadow: none;
+	background: $alert;
+	color: $high;
 }
 .notice-2HEN-u {
-    border-radius: 0;
+	border-radius: 0;
 }
 // Channel icon
 .title-31SJ6t .children-3xh0VB {
-    .iconWrapper-2awDjA {
-        margin: 0 5px;
-        margin-bottom: 4px;
-    }
-    .icon-2xnN2Y {
-        margin: 6px 0px;
-        width: 16px;
-        height: 16px;
-        color: $high;
-        background: $low;
-    }
-    path:first-child {
-        background-color: $low;
-        fill: $low;
-    }
+	.iconWrapper-2awDjA {
+		margin: 0 5px;
+		margin-bottom: 4px;
+	}
+	.icon-2xnN2Y {
+		margin: 6px 0px;
+		width: 16px;
+		height: 16px;
+		color: $high;
+		background: $low;
+	}
+	path:first-child {
+		background-color: $low;
+		fill: $low;
+	}
 }
 // Home
 .topPill-3DJJNV .themed-2-lozF.item-3XjbnG:hover,
 .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG {
-    border-radius: 0;
-    background-color: $low;
-    color: $high;
+	border-radius: 0;
+	background-color: $low;
+	color: $high;
 }

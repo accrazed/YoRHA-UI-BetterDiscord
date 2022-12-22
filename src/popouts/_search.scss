@@ -7,165 +7,165 @@
 .searchHeader-1r_ZSh,
 .searchResultsWrap-5RVOkx,
 .theme-dark .option-ayUoaq:after {
-    background: transparent;
+	background: transparent;
 }
 .searchHeader-1r_ZSh,
 .searchResultMessage-1fxgXh.hit-1fVM9e {
-    box-shadow: none;
+	box-shadow: none;
 }
 // Search Box
 .searchBar-zdmu7v,
 .searchBar-3TnChZ .searchBarComponent-3N7dCG {
-    border: 1px solid $low;
-    background-color: $high-trans;
-    border-radius: 0;
-    text-align: center;
+	border: 1px solid $low;
+	background-color: $high-trans;
+	border-radius: 0;
+	text-align: center;
 }
 // Upper Tabs in search results
 .theme-dark .tab-2j5AEF {
-    transition: all 0.1s;
-    &:hover {
-        color: $high;
-        background-color: $low;
-    }
-    &.selected-2LAck8 {
-        color: $high;
-        background-color: $alert;
-    }
+	transition: all 0.1s;
+	&:hover {
+		color: $high;
+		background-color: $low;
+	}
+	&.selected-2LAck8 {
+		color: $high;
+		background-color: $alert;
+	}
 }
 
 // Search options popout
 .theme-dark {
-    // In-text labels
+	// In-text labels
 
-    .searchAnswer-23w-CH,
-    .searchFilter-2UfsDk {
-        color: $high;
-        background-color: $low;
-    }
-    .elevationBorderHigh-3drnJX,
-    .container-2McqkF {
-        @include boxify($high, $mid, 4px);
-    }
-    .queryContainer-ZunrLZ {
-        color: $low;
-        strong {
-            color: $low;
-        }
-        &.focused-2FU0YH {
-            color: $high;
-            background-color: $low;
-            strong {
-                color: $high;
-            }
-        }
-        border: none;
-    }
-    .resultsGroup-cfY57t {
-        .header-1BR0Ro,
-        .searchClearHistory-3nIKUO,
-        .searchLearnMore-1gNL3A a {
-            color: $low;
-        }
-        .plusIcon-2V7coV {
-            color: $high;
-        }
-        &::before {
-            border: none;
-        }
-    }
-    .option-ayUoaq[aria-selected='true'] {
-        background: $low;
+	.searchAnswer-23w-CH,
+	.searchFilter-2UfsDk {
+		color: $high;
+		background-color: $low;
+	}
+	.elevationBorderHigh-3drnJX,
+	.container-2McqkF {
+		@include boxify($high, $mid, 4px);
+	}
+	.queryContainer-ZunrLZ {
+		color: $low;
+		strong {
+			color: $low;
+		}
+		&.focused-2FU0YH {
+			color: $high;
+			background-color: $low;
+			strong {
+				color: $high;
+			}
+		}
+		border: none;
+	}
+	.resultsGroup-cfY57t {
+		.header-1BR0Ro,
+		.searchClearHistory-3nIKUO,
+		.searchLearnMore-1gNL3A a {
+			color: $low;
+		}
+		.plusIcon-2V7coV {
+			color: $high;
+		}
+		&::before {
+			border: none;
+		}
+	}
+	.option-ayUoaq[aria-selected='true'] {
+		background: $low;
 
-        strong {
-            color: $high;
-        }
-    }
-    .option-ayUoaq,
-    .searchOption-3u1gRt {
-        margin: 0;
+		strong {
+			color: $high;
+		}
+	}
+	.option-ayUoaq,
+	.searchOption-3u1gRt {
+		margin: 0;
 
-        &.user-1dKxvu .displayUsername-UTer,
-        &.user-1dKxvu .displayedNick-1atSpT,
-        .searchResultChannelCategory-3cL8uG,
-        .searchResultChannelIcon-1Il1Qo,
-        strong,
-        .nonText-28q_Ot,
-        .filter-2QaH9y,
-        .answer-14OVbQ {
-            color: $low;
-        }
+		&.user-1dKxvu .displayUsername-UTer,
+		&.user-1dKxvu .displayedNick-1atSpT,
+		.searchResultChannelCategory-3cL8uG,
+		.searchResultChannelIcon-1Il1Qo,
+		strong,
+		.nonText-28q_Ot,
+		.filter-2QaH9y,
+		.answer-14OVbQ {
+			color: $low;
+		}
 
-        &:hover {
-            background: $low;
-            border-radius: 0;
+		&:hover {
+			background: $low;
+			border-radius: 0;
 
-            &::after {
-                background: transparent;
-            }
-            .plusIcon-1RVszG,
-            &.user-1dKxvu .displayUsername-UTer,
-            &.user-1dKxvu .displayedNick-1atSpT,
-            strong,
-            .nonText-28q_Ot,
-            .filter-2QaH9y,
-            .answer-14OVbQ {
-                color: $high;
-            }
-            .searchResultChannelCategory-3cL8uG,
-            .searchResultChannelIcon-1Il1Qo {
-                color: $high;
-            }
-        }
-    }
+			&::after {
+				background: transparent;
+			}
+			.plusIcon-1RVszG,
+			&.user-1dKxvu .displayUsername-UTer,
+			&.user-1dKxvu .displayedNick-1atSpT,
+			strong,
+			.nonText-28q_Ot,
+			.filter-2QaH9y,
+			.answer-14OVbQ {
+				color: $high;
+			}
+			.searchResultChannelCategory-3cL8uG,
+			.searchResultChannelIcon-1Il1Qo {
+				color: $high;
+			}
+		}
+	}
 }
 // Search results
 .searchResult-O9NDji {
-    @include boxify($high, $mid, 5px);
+	@include boxify($high, $mid, 5px);
 }
 .tab-2j5AEF {
-    border-radius: 0;
+	border-radius: 0;
 }
 .searchResult-O9NDji.expanded-w_LCGl,
 .searchResultMessage-1fxgXh.hit-1fVM9e {
-    border: 1px solid $low;
-    border-radius: 0;
+	border: 1px solid $low;
+	border-radius: 0;
 }
 
 // Search calendar
 .theme-dark .calendarPicker-sDhzdi {
-    .react-datepicker,
-    .react-datepicker__current-month,
-    .react-datepicker__header,
-    .react-datepicker__day,
-    .react-datepicker__day--disabled,
-    .react-datepicker__day--outside-month,
-    .react-datepicker__day.react-datepicker__day--disabled,
-    .react-datepicker__day.react-datepicker__day--disabled:hover {
-        border: none;
-        color: $low;
-        background-color: transparent;
-    }
-    .react-datepicker__day.react-datepicker__day--selected:after {
-        background-color: $alert;
-    }
-    .react-datepicker__day-name {
-        color: $low;
-    }
+	.react-datepicker,
+	.react-datepicker__current-month,
+	.react-datepicker__header,
+	.react-datepicker__day,
+	.react-datepicker__day--disabled,
+	.react-datepicker__day--outside-month,
+	.react-datepicker__day.react-datepicker__day--disabled,
+	.react-datepicker__day.react-datepicker__day--disabled:hover {
+		border: none;
+		color: $low;
+		background-color: transparent;
+	}
+	.react-datepicker__day.react-datepicker__day--selected:after {
+		background-color: $alert;
+	}
+	.react-datepicker__day-name {
+		color: $low;
+	}
 }
 .datePicker-3iA7_k .datePickerHint-Ir4715 {
-    border: none;
-    .hint-xfbpCV {
-        color: $low;
-    }
-    .hintValue-V9hd8l {
-        background-color: $low;
-        color: $high;
-    }
+	border: none;
+	.hint-xfbpCV {
+		color: $low;
+	}
+	.hintValue-V9hd8l {
+		background-color: $low;
+		color: $high;
+	}
 }
 .react-datepicker__month-read-view--down-arrow,
 .react-datepicker__month-year-read-view--down-arrow,
 .react-datepicker__navigation-icon:before,
 .react-datepicker__year-read-view--down-arrow {
-    color: $low;
+	color: $low;
 }

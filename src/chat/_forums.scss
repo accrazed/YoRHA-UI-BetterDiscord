@@ -1,65 +1,65 @@
 .theme-dark .container-3wLKDe {
-    background-color: transparent;
+	background-color: transparent;
 }
 
 // primary post items
 .mainCard-3KBsBI {
-    @include boxify($high, $mid, 3px);
+	@include boxify($high, $mid, 3px);
 
-    &:hover {
-        @include boxify($high-trans, $mid, 3px);
-    }
+	&:hover {
+		@include boxify($high-trans, $mid, 3px);
+	}
 
-    // new post badge
-    .newBadge-1LcB6t {
-        background-color: $alert !important;
-    }
+	// new post badge
+	.newBadge-1LcB6t {
+		background-color: $alert !important;
+	}
 }
 
 // tag pills
 .pill-3pRQlO {
-    border-radius: 0;
-    border: 1px solid $low;
+	border-radius: 0;
+	border: 1px solid $low;
 }
 
 // see more dropdown
 .tagsButton-4pwOKH .tagsButtonInner-2pvSm1 {
-    color: $alert;
+	color: $alert;
 }
 // dropdown
 .container-2O1UgZ {
-    @include boxify($high, $mid, 3px);
+	@include boxify($high, $mid, 3px);
 
-    .text-md-semibold-3xVVGu {
-        color: $low !important;
-    }
+	.text-md-semibold-3xVVGu {
+		color: $low !important;
+	}
 
-    // filter search
-    .container-2oNtJn {
-        background-color: transparent;
-        border-radius: 1px solid $low;
-        color: $low;
+	// filter search
+	.container-2oNtJn {
+		background-color: transparent;
+		border-radius: 1px solid $low;
+		color: $low;
 
-        .icon-3CDcPB {
-            color: $low;
-        }
-        input {
-            color: $low;
+		.icon-3CDcPB {
+			color: $low;
+		}
+		input {
+			color: $low;
 
-            &::placeholder {
-                color: $mid;
-            }
-        }
-    }
+			&::placeholder {
+				color: $mid;
+			}
+		}
+	}
 
-    // no results found
-    .text-md-medium-2avxhQ,
-    .text-md-normal-304U3g {
-        color: $low !important;
-    }
+	// no results found
+	.text-md-medium-2avxhQ,
+	.text-md-normal-304U3g {
+		color: $low !important;
+	}
 }
 
 // post details
 .chat-25x62K:before {
-    display: none;
+	display: none;
 }
