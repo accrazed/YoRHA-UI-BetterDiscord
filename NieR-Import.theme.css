@@ -2016,6 +2016,15 @@ strong {
   background-color: var(--color-high);
 }
 
+.messageInputContainer-2rGDH8 {
+  border: 1px solid var(--color-low);
+  border-radius: 0;
+}
+
+.input-3O04eu {
+  color: var(--color-low);
+}
+
 .clickCTA-1bk0UN {
   color: var(--color-mid);
 }
@@ -2096,6 +2105,10 @@ strong {
 
 .textarea-_59yqs:focus {
   background-color: transparent;
+}
+
+.textarea-_59yqs {
+  color: var(--color-low);
 }
 
 .bodyInnerWrapper-2bQs1k,
