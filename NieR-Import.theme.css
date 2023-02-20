@@ -2228,9 +2228,9 @@ strong {
   background-color: transparent;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border: 2px solid var(--color-low);
+  border: 1px solid var(--color-low);
 }
-.note-6O4w9y textarea:focus {
+.note-6O4w9y textarea:hover, .note-6O4w9y textarea:focus {
   background-color: transparent;
   border-color: var(--color-alert);
 }
@@ -2238,6 +2238,10 @@ strong {
 .input-3O04eu {
   border-radius: 0;
   color: var(--color-low);
+}
+.input-3O04eu:focus {
+  background-color: transparent;
+  border-color: var(--color-alert);
 }
 
 .clickCTA-1bk0UN {

@@ -100,8 +100,9 @@
 .note-6O4w9y textarea {
 	background-color: transparent;
 	box-sizing: border-box;
-	border: 2px solid $low;
+	border: 1px solid $low;
 
+	&:hover,
 	&:focus {
 		background-color: transparent;
 		border-color: $alert;
@@ -110,6 +111,10 @@
 .input-3O04eu {
 	border-radius: 0;
 	color: $low;
+	&:focus {
+		background-color: transparent;
+		border-color: $alert;
+	}
 }
 .clickCTA-1bk0UN {
 	color: $mid;
