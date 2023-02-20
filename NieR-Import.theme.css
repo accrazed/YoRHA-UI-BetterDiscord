@@ -2224,7 +2224,19 @@ strong {
   border-radius: 0;
 }
 
+.note-6O4w9y textarea {
+  background-color: transparent;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid var(--color-low);
+}
+.note-6O4w9y textarea:focus {
+  background-color: transparent;
+  border-color: var(--color-alert);
+}
+
 .input-3O04eu {
+  border-radius: 0;
   color: var(--color-low);
 }
 
@@ -2327,6 +2339,21 @@ strong {
 .textarea-_59yqs {
   color: var(--color-low);
 }
+.textarea-_59yqs::-webkit-input-placeholder {
+  color: var(--color-low);
+}
+.textarea-_59yqs::-moz-placeholder {
+  color: var(--color-low);
+}
+.textarea-_59yqs:-ms-input-placeholder {
+  color: var(--color-low);
+}
+.textarea-_59yqs::-ms-input-placeholder {
+  color: var(--color-low);
+}
+.textarea-_59yqs::placeholder {
+  color: var(--color-low);
+}
 
 .bodyInnerWrapper-2bQs1k,
 .headerStreaming-2FjmGz,
@@ -2384,13 +2411,16 @@ strong {
 .discrimBase-1VOoau,
 .theme-dark .newPopoutActivityStyles .activityName-3YXl6e,
 .activityHeader-1PExlk,
-.customStatusText-39gdCI,
 .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_),
 .colorDefault-CDqZdO.focused-3qFvc8,
 .text-31kWmP,
 .nameWrap-3TyM52,
 .activityName-3YXl6e {
   color: var(--color-high);
+}
+
+.customStatusText-3ca2B1 {
+  color: var(--color-low) !important;
 }
 
 .customStatus-1bh2V9,
@@ -2696,6 +2726,18 @@ strong {
 .discrimBase-KriZSj,
 .connectedAccountNameText-3VHIcl,
 .userTagUsernameNoNickname-2e_xaO {
+  color: var(--color-low);
+}
+
+.connectedAccountContainer-2TWiXT {
+  border-radius: 0;
+  border: 2px solid var(--color-low);
+}
+.connectedAccountContainer-2TWiXT .text-xs-normal-3O7EaX,
+.connectedAccountContainer-2TWiXT .connectedAccountNameText-3VHIcl {
+  color: var(--color-low) !important;
+}
+.connectedAccountContainer-2TWiXT .connectedAccountOpenIcon-OngaxI {
   color: var(--color-low);
 }
 
@@ -3161,7 +3203,7 @@ strong {
   background: var(--color-low);
   border-radius: 0;
 }
-.quickswitcher-pKcM9U .resultFocused-3aIoYe .note-OhIxFa,
+.quickswitcher-pKcM9U .resultFocused-3aIoYe .note-3TX9O7,
 .quickswitcher-pKcM9U .resultFocused-3aIoYe .misc-XwBATi,
 .quickswitcher-pKcM9U .resultFocused-3aIoYe .contentUnread-1_MVDK,
 .quickswitcher-pKcM9U .resultFocused-3aIoYe .contentDefault-17ewQQ {

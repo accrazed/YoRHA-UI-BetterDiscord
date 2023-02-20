@@ -31,6 +31,9 @@
 	background-color: transparent;
 }
 .textarea-_59yqs {
+	&::placeholder {
+		color: $low;
+	}
 	color: $low;
 }
 .bodyInnerWrapper-2bQs1k,
@@ -77,13 +80,15 @@
 .discrimBase-1VOoau,
 .theme-dark .newPopoutActivityStyles .activityName-3YXl6e,
 .activityHeader-1PExlk,
-.customStatusText-39gdCI,
 .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_),
 .colorDefault-CDqZdO.focused-3qFvc8,
 .text-31kWmP,
 .nameWrap-3TyM52,
 .activityName-3YXl6e {
 	color: $high;
+}
+.customStatusText-3ca2B1 {
+	color: $low !important;
 }
 
 .customStatus-1bh2V9,
@@ -344,4 +349,19 @@
 .connectedAccountNameText-3VHIcl,
 .userTagUsernameNoNickname-2e_xaO {
 	color: $low;
+}
+
+// connected account
+.connectedAccountContainer-2TWiXT {
+	border-radius: 0;
+	border: 2px solid $low;
+
+	.text-xs-normal-3O7EaX,
+	.connectedAccountNameText-3VHIcl {
+		color: $low !important;
+	}
+
+	.connectedAccountOpenIcon-OngaxI {
+		color: $low;
+	}
 }

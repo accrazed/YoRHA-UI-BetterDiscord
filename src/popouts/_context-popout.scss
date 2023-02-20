@@ -97,7 +97,18 @@
 	border: 1px solid $low;
 	border-radius: 0;
 }
+.note-6O4w9y textarea {
+	background-color: transparent;
+	box-sizing: border-box;
+	border: 2px solid $low;
+
+	&:focus {
+		background-color: transparent;
+		border-color: $alert;
+	}
+}
 .input-3O04eu {
+	border-radius: 0;
 	color: $low;
 }
 .clickCTA-1bk0UN {
