@@ -47,42 +47,42 @@
 	}
 }
 // Buttons
-.bd-modal-wrapper .footer button, // PRE-BETA BBD: WILL BE DEPRECIATED SOON
 .theme-dark .button-1iHNQ2,
 .theme-dark .watchButton-2v6cPT,
-.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6,
-.lookInverted-2D7oAl.colorGreen-29iAKY,
-.lookInverted-2D7oAl.colorBrand-3pXr91,
+.theme-dark .lookFilled-1H2Jvj.colorPrimary-2-Lusz,
+.lookInverted-2D7oAl.colorGreen-jIPCAS,
+.lookInverted-2D7oAl.colorBrand-2M3O3N,
+.lookFilled-1H2Jvj.colorBrand-2M3O3N,
 .container-x8Y1ix,
-.lookOutlined-3sRXeN.colorGreen-29iAKY,
-.lookOutlined-3sRXeN.colorBrand-3pXr91,
-.lookFilled-1Gx00P.colorPrimary-3b3xI6,
-.lookFilled-1Gx00P.colorGrey-2DXtkV,
-.lookFilled-1Gx00P.colorBrand-3pXr91,
-.lookFilled-1Gx00P.colorBrand-3pXr91:disabled {
+.lookOutlined-3RTC7c.colorGreen-jIPCAS,
+.lookOutlined-3RTC7c.colorBrand-2M3O3N,
+.lookFilled-1H2Jvj.colorPrimary-2-Lusz,
+.lookFilled-1H2Jvj.colorGrey-2DXtkV,
+.lookFilled-1H2Jvj.colorBrand-2M3O3N,
+.lookFilled-1H2Jvj.colorBrand-2M3O3N:disabled {
 	@include buttonify($low, $high, $mid, $high);
 }
 #bd-settingspane-container .bd-pfbtn, // PRE-BETA BBD: WILL BE DEPRECIATED SOON
-.theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6,
+.theme-dark .lookOutlined-3RTC7c.colorPrimary-2-Lusz,
 .jumpButton-JkYoYK,
 .button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx,
-.lookFilled-1Gx00P.colorGreen-29iAKY,
-.lookFilled-1Gx00P.colorRed-1TFJan,
-.lookOutlined-3sRXeN.colorRed-1TFJan {
+.lookFilled-1H2Jvj.colorGreen-jIPCAS,
+.lookFilled-1H2Jvj.colorRed-2VFhM4,
+.lookOutlined-3RTC7c.colorRed-2VFhM4 {
 	@include buttonify($alert, $high, $low, $high);
 }
-.lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+.lookOutlined-3RTC7c.colorWhite-rEQuAQ {
 	@include buttonify($alert, $high, $high, $low);
 }
 // Slider / Toggle switch
-.container-2nx-BQ {
+.container-1QtPKm {
 	background-color: $low !important;
 	border-radius: 0;
 }
-.input-2XRLou {
+.input-125oad {
 	border-radius: 0;
 }
-.slider-32CRPX rect {
+.slider-HJFN2i rect {
 	fill: $high;
 	rx: 0;
 	ry: 4;
