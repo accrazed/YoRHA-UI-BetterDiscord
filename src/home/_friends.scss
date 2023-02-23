@@ -60,23 +60,6 @@
 .header-Imy05m {
 	@include titlify(2px, 4px);
 }
-// No pending requests image
-.theme-dark .emptyWumpus-11kRB0,
-.image-20MDYu {
-	@include remask('https://svgur.com/i/RGT.svg', $low);
-	width: 403px !important;
-	height: 353px !important;
-
-	& + div .text-27cdrj {
-		visibility: hidden;
-		justify-content: center;
-
-		&::before {
-			visibility: visible;
-			content: 'Nothing to see here, friend! *rolls away*';
-		}
-	}
-}
 // Close button hover
 .children-283-lq {
 	z-index: 1;

@@ -1054,6 +1054,12 @@ path[d="M5.43309 21C5.35842 21 5.30189 20.9325 5.31494 20.859L5.99991 17H2.14274
   border-radius: 0;
 }
 
+.wrapperAudio-1Bzv_Z.newMosaicStyle-31sBoZ,
+.attachment-1PZZB2.newMosaicStyle-35X6XO,
+.messageAttachmentMediaMosaic-2ic1yt {
+  border-radius: 0;
+}
+
 .attachment-1PZZB2 {
   margin-left: 13px;
   border-radius: 0;
@@ -1607,27 +1613,6 @@ strong {
   text-shadow: 2px 4px 0 var(--color-mid);
   padding-right: 3px;
   padding-bottom: 3px;
-}
-
-.theme-dark .emptyWumpus-11kRB0,
-.image-20MDYu {
-  -webkit-mask: url("https://svgur.com/i/RGT.svg");
-          mask: url("https://svgur.com/i/RGT.svg");
-  background: var(--color-low) !important;
-  width: 403px !important;
-  height: 353px !important;
-}
-.theme-dark .emptyWumpus-11kRB0 + div .text-27cdrj,
-.image-20MDYu + div .text-27cdrj {
-  visibility: hidden;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-.theme-dark .emptyWumpus-11kRB0 + div .text-27cdrj::before,
-.image-20MDYu + div .text-27cdrj::before {
-  visibility: visible;
-  content: "Nothing to see here, friend! *rolls away*";
 }
 
 .children-283-lq {
