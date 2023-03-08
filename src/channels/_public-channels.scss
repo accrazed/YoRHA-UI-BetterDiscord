@@ -21,9 +21,11 @@
 	@include buttonify(transparent, $low, $low, $high);
 }
 // Channel hover/select animations
+.containerDefault-YUSmu3 {
+	padding-bottom: 4px;
+}
 .wrapper-NhbLHG {
 	height: 30px;
-	margin-bottom: 4px;
 
 	// Muted and Locked channels
 	&.modeLocked-3sToxd,

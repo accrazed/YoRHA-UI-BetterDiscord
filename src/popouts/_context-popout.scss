@@ -1,160 +1,22 @@
-// Right-clicking things menu
-.theme-dark .quickSelectPopout-2F0PXw {
+.menu-2TXYjN {
 	@include boxify($low, $mid, 3px);
 
-	.quickSelectPopoutOption-2E2UmS {
-		@include buttonify($low, $high, $high, $low);
-
-		.regionSelectName-1Tj9C9 {
-			color: $high;
+	.scroller-nxCRu_ {
+		.separator-12G2Op {
+			display: none;
 		}
-		&:hover .regionSelectName-1Tj9C9 {
-			color: $low;
+		.item-5ApiZt {
+			margin: 0;
 		}
-		.check-K_srvn {
-			@include remask(
-				'https://discord.com/assets/6acb20d5e709b34b6a7f36ec13648666.svg',
-				$alert
-			);
-			mask-repeat: no-repeat;
+		.labelContainer-35-WEd {
+			@include buttonify($low, $high, $high, $low);
 		}
-	}
-}
-// Context hover
-.theme-dark .tooltipGrey-lpLZjh {
-	color: $low;
-	@include boxify($high, $mid, 3px);
-	.tooltipPointer-3L49xb {
-		border: none;
-	}
-}
-.menu-1QACrS,
-.theme-dark .tooltip-14MtrL,
-.theme-dark .listItemTooltip-CDcY8J {
-	.tooltipPointer-3L49xb {
-		border: none;
-	}
-	@include boxify($low, $mid, 3px);
-	.scroller-1bVxF5 {
-		padding: 0;
-	}
-	.colorDefault-CDqZdO {
-		@include buttonify($low, $high, $high, $low);
-		color: $high;
-	}
-	.guildNameText-74xXQn {
-		color: $high;
-	}
-}
-.item-1OdjEX {
-	border-radius: 0;
-	margin: 0;
-}
-// Red text in context menu
-.colorDanger-3n-KnP {
-	.checkbox-hADx5o,
-	.radioSelection-1UHp0b {
-		color: $alert !important;
-	}
-}
-// User status button
-.withTagAsButton-OsgQ9L,
-.withTagless-10ooWt {
-	@include buttonify(transparent, $low, $low, $high);
 
-	&:hover {
-		.title-338goq,
-		.subtext-2HDqJ7 {
-			color: $high;
-		}
-	}
-}
-
-// switch accounts button
-.userMenuUsername-2xdVcJ .userMenuDiscriminator-2Vj2p9,
-.userMenuUsername-2xdVcJ .userMenuText-2e3Dry {
-	color: $high;
-}
-.focused-3RdCfX .userMenuUsername-2xdVcJ .userMenuDiscriminator-2Vj2p9,
-.focused-3RdCfX .userMenuUsername-2xdVcJ .userMenuText-2e3Dry {
-	color: $low;
-}
-
-.submenuPaddingContainer-_k62dJ {
-	padding: 0;
-}
-
-// User status popout
-.profileGroup-1yKk23 {
-	margin: 0%;
-}
-.profileBody-3QbfPe {
-	padding: 8px;
-	background-color: $high;
-}
-// send message to person
-.messageInputContainer-2rGDH8 {
-	border: 1px solid $low;
-	border-radius: 0;
-}
-.note-6O4w9y textarea {
-	background-color: transparent;
-	box-sizing: border-box;
-	border: 1px solid $low;
-
-	&:hover,
-	&:focus {
-		background-color: transparent;
-		border-color: $alert;
-	}
-}
-.input-3O04eu {
-	border-radius: 0;
-	color: $low;
-	&:focus {
-		background-color: transparent;
-		border-color: $alert;
-	}
-}
-.clickCTA-1bk0UN {
-	color: $mid;
-}
-.guildNameText-jBFbNC,
-.theme-dark .tooltip-14MtrL,
-.theme-dark .listItemTooltip-CDcY8J {
-	color: $high;
-}
-.separator-1So4YB,
-.theme-dark .tooltipBlack-vMYxvw .tooltipPointer-3L49xb {
-	border: none;
-}
-.theme-dark {
-	// Add role
-	.autocompleteShadow-2nfsSy {
-		border: 1px solid $low;
-		@include boxify($high, $mid, 3px);
-	}
-	.autocompleteArrow-jJE9TQ,
-	.header-3i_Csh {
-		background-color: transparent;
-		box-shadow: none;
-	}
-	.addGamePopout-3yePJc .cancelButton-1vsI8S,
-	.empty-3J6aBo .noResultsHeader-2crZUK,
-	.empty-3J6aBo p,
-	.container-1S70rv .input-2lpFVz {
-		color: $low;
-
-		&::placeholder {
+		.caret-1TZU-U {
 			color: $mid;
 		}
-	}
-}
-.row-1Ib2uD.selected-1IWCoj .rowInner-3uonq8 {
-	background-color: $low;
-	border-radius: 0;
-
-	span {
-		color: $high !important;
+		.submenuPaddingContainer-QgnL1r {
+			padding: 0;
+		}
 	}
 }
