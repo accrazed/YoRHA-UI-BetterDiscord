@@ -3,7 +3,8 @@
 .modeDefault-2fEh7a,
 .container-ZMc96U,
 .titleBar-1it3bQ {
-  cursor: url("https://buns.gay/YoRHA-UI-BetterDiscord/assets/cursors/Hack_Normal_Select_v2.cur"), default !important;
+	cursor: url('https://buns.gay/YoRHA-UI-BetterDiscord/assets/cursors/Hack_Normal_Select_v2.cur'),
+		default !important;
 }
 
 .timestamp-p1Df1m.latin24CompactTimeStamp-2pXUBq,
@@ -12,7 +13,8 @@
 textarea,
 .textAreaSlate-9-y-k2 div div,
 input {
-  cursor: url("https://buns.gay/YoRHA-UI-BetterDiscord/assets/cursors/Hack_Text_Select_v2.cur"), default !important;
+	cursor: url('https://buns.gay/YoRHA-UI-BetterDiscord/assets/cursors/Hack_Text_Select_v2.cur'),
+		default !important;
 }
 
 a,
@@ -30,13 +32,13 @@ button,
 .profileBadge-12r2Nm,
 .item-1OdjEX,
 .container-YkUktl .avatar-1EWyVD,
-.wrapper-28eC3z,
+.wrapper-2PSQCG,
 .result-u66Ywh,
 .labelClickable-eiZOrp,
 .buttonWrapper-3YFQGJ,
-[role=button],
-[role=button] header,
-[type=checkbox],
+[role='button'],
+[role='button'] header,
+[type='checkbox'],
 label,
 .item-2idW98,
 .additionalActionsIcon-1FoUlE,
@@ -44,11 +46,13 @@ label,
 .actionIcon-2sw4Sl,
 .clickable-LksVCf,
 .friendsTable-133bsv .friendsRow-2yicud {
-  cursor: url("https://buns.gay/YoRHA-UI-BetterDiscord/assets/cursors/Hack_Link_Select_v2.cur"), default !important;
+	cursor: url('https://buns.gay/YoRHA-UI-BetterDiscord/assets/cursors/Hack_Link_Select_v2.cur'),
+		default !important;
 }
 
 .grabber-2GQyvM {
-  cursor: url("https://buns.gay/YoRHA-UI-BetterDiscord/assets/cursors/Hack_Horizontal_Resize_v2.cur"), default !important;
+	cursor: url('https://buns.gay/YoRHA-UI-BetterDiscord/assets/cursors/Hack_Horizontal_Resize_v2.cur'),
+		default !important;
 }
 
 .disabled,
@@ -57,5 +61,6 @@ label,
 .disabled-2qTmnp,
 .modeLocked-3sToxd,
 .modeLocked-3sToxd .mainContent-20q_Hp {
-  cursor: url("https://buns.gay/YoRHA-UI-BetterDiscord/assets/cursors/Hack_Unavailable_v2.cur"), default !important;
+	cursor: url('https://buns.gay/YoRHA-UI-BetterDiscord/assets/cursors/Hack_Unavailable_v2.cur'),
+		default !important;
 }
