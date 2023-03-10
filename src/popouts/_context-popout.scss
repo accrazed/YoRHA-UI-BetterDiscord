@@ -8,8 +8,16 @@
 		.item-5ApiZt {
 			margin: 0;
 		}
+		.colorDefault-2_rLdz,
 		.labelContainer-35-WEd {
 			@include buttonify($low, $high, $high, $low);
+
+			.defaultColor-1EVLSt {
+				color: $high;
+			}
+			&:hover .defaultColor-1EVLSt {
+				color: $low;
+			}
 		}
 
 		.caret-1TZU-U {
@@ -19,4 +27,10 @@
 			padding: 0;
 		}
 	}
+}
+
+// set status
+// invisible
+foreignObject[mask='url(#svg-mask-status-offline)'] .status-3cqfT9 {
+	background-color: $mid !important;
 }
