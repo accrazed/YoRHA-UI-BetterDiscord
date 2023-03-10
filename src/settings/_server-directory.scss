@@ -1,0 +1,30 @@
+.theme-dark .directoryModal-YJsOMv {
+	background-color: transparent;
+}
+
+// app container
+.collectionBottomMargin-Tqi9ac,
+.animatesOnHoverContainer-3iNRBI {
+	@include boxify($high, $mid, 3px);
+}
+.scroller-21ztLb {
+	padding: 1em 0;
+}
+.category-2OvQ93 {
+	@include buttonify($high, $low, $low, $high);
+
+	&:hover .defaultColor-1EVLSt {
+		color: $high;
+	}
+}
+
+.theme-dark .searchBox-pyIJJj {
+	@include boxify($high, $mid, 3px);
+
+	.searchIcon-34RNw9,
+	.searchBoxInput-P0mWHW {
+		&::placeholder {
+			color: $mid;
+		}
+	}
+}

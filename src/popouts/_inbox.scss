@@ -50,14 +50,3 @@
 		}
 	}
 }
-
-// ALL TABS
-.brand-2EKq3J.item-2GWPIy,
-.themed-qqoYp3.item-2GWPIy {
-	@include buttonify(transparent, $low, $low, $high);
-}
-.side-1lrxIh .themed-qqoYp3.selected-1sf9UK.item-2GWPIy,
-.topPill-2vcLsa .themed-qqoYp3.selected-1sf9UK.item-2GWPIy {
-	color: $high;
-	background-color: $low;
-}

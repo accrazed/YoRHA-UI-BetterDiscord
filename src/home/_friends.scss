@@ -83,3 +83,12 @@
 .tabBody-2dgbAs:before {
 	display: none;
 }
+
+.tabBar-ra-EuL .item-3mHhwr {
+	@include buttonify(transparent, $low, $low, $high);
+
+	&.selected-1sf9UK {
+		background-color: $low !important;
+		color: $high;
+	}
+}

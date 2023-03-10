@@ -9,19 +9,7 @@
 .separator-1So4YB {
 	margin: 0;
 }
-.theme-dark {
-	.activityUserPopout-2MzGCj,
-	.activityUserPopoutV2-3eKqzY {
-		.activityName-3YXl6e,
-		.content-tXPNDw,
-		.details-2-ciHo,
-		.name-1-Q7l2,
-		.nameNormal-2fPMD2,
-		.nameWrap-3TyM52 {
-			color: $low;
-		}
-	}
-}
+
 .customStatus-3XAoF9 {
 	color: $low;
 }
@@ -301,22 +289,6 @@
 	@include buttonify($low, $high, $alert, $high);
 }
 
-.theme-dark {
-	.activityProfile-1712BN,
-	.activityProfileV2-1N7pee,
-	.activityUserPopout-2MzGCj,
-	.activityUserPopoutV2-3eKqzY {
-		.activityName-3YXl6e,
-		.content-tXPNDw,
-		.details-2-ciHo,
-		.name-1-Q7l2,
-		.nameNormal-2fPMD2,
-		.nameWrap-3TyM52 {
-			color: $low;
-		}
-	}
-}
-
 .top-K_jibn .themed-2-lozF.item-2GWPIy:hover,
 .brand-3g5E0C.item-2GWPIy:hover,
 .themed-2-lozF.item-2GWPIy:hover {
@@ -331,24 +303,6 @@
 
 .guildNick-HT7Pgu {
 	color: $mid;
-}
-
-.listRow-Y5zoF8,
-.heading-lg-medium-3gUJeM,
-.userTagUsernameBase-3Nfr5j,
-.connectedAccountOpenIcon-3i81Tz,
-.theme-dark .activityUserPopoutV2-3eKqzY .headerText-3g1XK9,
-.username-28Thtk,
-.discriminator-3_S3CG,
-.discordIcon-JXet1k,
-.themed-1LCNAV .textLeft-1Noen0,
-.themed-1LCNAV .textRight-2IW704,
-.customStatus-3Bvsdb,
-.overflow-1wOqNV,
-.discrimBase-KriZSj,
-.connectedAccountNameText-3VHIcl,
-.userTagUsernameNoNickname-2e_xaO {
-	color: $low;
 }
 
 // connected account

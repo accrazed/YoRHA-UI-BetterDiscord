@@ -1,6 +1,6 @@
 .theme-dark {
-	.auditLog-3jNbM6 {
-		color: $mid;
+	.auditLog-1NVAY0 {
+		@include boxify($high, $mid, 4px);
 		border: none;
 
 		&:hover .expandForeground-1nZ4VR {
@@ -13,15 +13,20 @@
 			background-color: $low;
 			border-radius: 25%;
 		}
-		div {
-			color: $mid;
+
+		.headerExpanded-1-zwDr,
+		.headerClickable-zGQJz3,
+		.changeDetails-1kMZqI,
+		.headerDefault-1e6yjj {
+			background-color: transparent;
 		}
-		strong,
-		span {
-			color: $low;
-		}
-		& > div {
-			@include boxify($high, $mid, 4px);
+		.headerExpanded-1-zwDr:hover,
+		.headerClickable-zGQJz3:hover {
+			background-color: $mid;
 		}
 	}
+}
+
+.theme-dark .divider-M3saWq {
+	display: none;
 }

@@ -2,6 +2,10 @@
 	background: $color;
 	border-radius: 0;
 	box-shadow: $drop $drop 0 $drop-color;
+
+	&:hover {
+		box-shadow: $drop $drop 0 $drop-color;
+	}
 }
 @mixin remask($url, $color) {
 	mask: url($url);
@@ -12,6 +16,7 @@
 	border-color: transparent;
 	background-color: $base-bg;
 	color: $base-text;
+	transition: all 0.1s;
 
 	&:hover,
 	&:active {
@@ -48,6 +53,7 @@
 }
 
 @import 'root_config';
+@import 'color_config';
 @import 'app/import';
 @import 'channels/import';
 @import 'chat/import';
