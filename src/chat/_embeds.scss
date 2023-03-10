@@ -30,9 +30,8 @@
 .attachment-1PZZB2 {
 	margin-left: 13px;
 	border-radius: 0;
-	box-shadow: -3px 0 0 var(--color-low), -9px 0 0 var(--color-high),
-		-21px 0 0 var(--color-low), -18px 3px 0 var(--color-mid),
-		3px 3px 0 var(--color-mid);
+	box-shadow: -3px 0 0 var(--color-low), -9px 0 0 var(--color-high), -21px 0 0 var(--color-low),
+		-18px 3px 0 var(--color-mid), 3px 3px 0 var(--color-mid);
 
 	.metadata-1E7Z4i {
 		color: $low;
@@ -42,6 +41,8 @@
 .imageWrapper-oMkQl4:not(.embedImage-2Ynqkh) {
 	@include boxify($high, $mid, 4px);
 }
+.mediaAttachmentsContainer-1WGRWy,
+.oneByOneGridSingle-2ss-Zx,
 .wrapper-1FP9YQ,
 .video-2HW4jD {
 	border-radius: 0;

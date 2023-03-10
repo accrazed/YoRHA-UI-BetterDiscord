@@ -1,0 +1,63 @@
+// Inbox
+
+// Transparencies
+.messageContainer-3VTXBC,
+.messages-23can0,
+.header-1w9Q93 {
+	background-color: transparent;
+}
+
+// Base container
+.messagesPopoutWrap-3zryHW,
+.container-_dQaft,
+.container-2ebMPP {
+	@include boxify($high, $mid, 3px);
+
+	.channel-3NJZ1V,
+	.container-iA3Qrz {
+		box-sizing: border-box;
+		padding: 4px 0;
+		margin: 4px;
+		border: 2px solid $low;
+		background-color: $high;
+
+		.channelHeader-DFRX8q {
+			padding: 1em;
+			background-color: $high;
+
+			.collapseButton-39-IRc {
+				order: -1;
+				position: relative;
+				color: $low;
+			}
+		}
+
+		.repliedMessage-3Z6XBG,
+		.container-x059i8,
+		.markup-eYLPri,
+		.messages-23can0 {
+			color: $low;
+		}
+		.subtextContainer-1jbEbB {
+			color: $low !important;
+		}
+
+		.channelName-3APnhp svg {
+			height: 12px;
+			width: 12px;
+			margin-right: 6px;
+			background-color: $low;
+		}
+	}
+}
+
+// ALL TABS
+.brand-2EKq3J.item-2GWPIy,
+.themed-qqoYp3.item-2GWPIy {
+	@include buttonify(transparent, $low, $low, $high);
+}
+.side-1lrxIh .themed-qqoYp3.selected-1sf9UK.item-2GWPIy,
+.topPill-2vcLsa .themed-qqoYp3.selected-1sf9UK.item-2GWPIy {
+	color: $high;
+	background-color: $low;
+}

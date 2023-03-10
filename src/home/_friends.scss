@@ -13,12 +13,18 @@
 .peopleListItem-u6dGxF:hover {
 	@include boxify($high, $mid, 3px);
 }
+.peopleListItem-u6dGxF {
+	border-top: none;
+}
 // Low color
 .theme-dark .text-27cdrj,
 .theme-dark .title-2CL_z0 {
 	color: $low;
 }
 // "Active Now" tags, (misc. cards too)
+.scroller-hE2gWq {
+	border: none;
+}
 .theme-dark .feature-2IUcBI,
 .banner-WELp4M,
 .wrapper-2RrXDg {

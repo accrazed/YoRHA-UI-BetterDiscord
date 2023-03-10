@@ -13,11 +13,11 @@
 	transition: color 0.2s;
 	border-radius: 0;
 	margin: 2px 0;
+	background-color: transparent !important;
 
 	// Animation
 	.themed-2-lozF.selected-1sf9UK,
-	&:hover.themed-2-lozF,
-	& {
+	&:hover.themed-2-lozF {
 		background-color: transparent !important;
 		height: 32px;
 	}
