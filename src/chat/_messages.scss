@@ -24,8 +24,7 @@
 	padding: 4px 5px 4px 6px;
 	background: var(--color-high);
 	margin-left: 13px;
-	box-shadow: 2px 2px 0 $mid, -3px 0 0 $low, -9px 0 0 $high, -21px 0 0 $low,
-		-18px 2px 0 $mid;
+	box-shadow: 2px 2px 0 $mid, -3px 0 0 $low, -9px 0 0 $high, -21px 0 0 $low, -18px 2px 0 $mid;
 }
 // Profile Picture
 .full-motion .avatar-2e8lTP.clickable-31pE3P {
@@ -113,6 +112,13 @@
 .replyBadge-LMm_Ic {
 	border-radius: 0;
 	border: 1px solid $low;
+}
+// Spoiler tagged
+.spoilerText-2G40u0 {
+	border-radius: 0;
+}
+.theme-dark .spoilerText-2G40u0.hidden-2lQZ5q {
+	background-color: $low;
 }
 // You're viewing older messages /// X+ new messages since
 .newMessagesBar-1hF-9G,
