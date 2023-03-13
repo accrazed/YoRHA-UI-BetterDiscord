@@ -129,6 +129,32 @@
 
 .default-colors,
 :root {
+  --red-100: var(--red-100-hsl);
+  --red-130: var(--red-130-hsl);
+  --red-160: var(--red-160-hsl);
+  --red-200: var(--red-200-hsl);
+  --red-230: var(--red-230-hsl);
+  --red-260: var(--red-260-hsl);
+  --red-300: var(--red-300-hsl);
+  --red-330: var(--red-330-hsl);
+  --red-345: var(--red-345-hsl);
+  --red-360: var(--red-360-hsl);
+  --red-400: var(--red-400-hsl);
+  --red-430: var(--red-430-hsl);
+  --red-460: var(--red-460-hsl);
+  --red-500: var(--red-500-hsl);
+  --red-530: var(--red-530-hsl);
+  --red-560: var(--red-560-hsl);
+  --red-600: var(--red-600-hsl);
+  --red-630: var(--red-630-hsl);
+  --red-660: var(--red-660-hsl);
+  --red-700: var(--red-700-hsl);
+  --red-730: var(--red-730-hsl);
+  --red-760: var(--red-760-hsl);
+  --red-800: var(--red-800-hsl);
+  --red-830: var(--red-830-hsl);
+  --red-860: var(--red-860-hsl);
+  --red-900: var(--red-900-hsl);
   --red-100-hsl: var(--color-alert);
   --red-130-hsl: var(--color-alert);
   --red-160-hsl: var(--color-alert);
