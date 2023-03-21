@@ -1,5 +1,6 @@
 // Transparencies
 .callContainer-HtHELf,
+.container-1zzFcN,
 .gradientContainer-phMG8d,
 .wrapper-1gVUIN.minimum-fXpVNc,
 .wrapper-1gVUIN {
@@ -97,10 +98,7 @@
 }
 // Select Region arrow in videocall
 .theme-dark .quickSelectArrow-1dOOHb {
-	@include remask(
-		'https://discord.com/assets/f58cf3b8fc79e9d671ab649ab37651a9.svg',
-		$low
-	);
+	@include remask('https://discord.com/assets/f58cf3b8fc79e9d671ab649ab37651a9.svg', $low);
 	mask-repeat: no-repeat;
 }
 // Member hover/select animations
