@@ -997,6 +997,18 @@ path[d="M5.43309 21C5.35842 21 5.30189 20.9325 5.31494 20.859L5.99991 17H2.14274
   border-radius: 0;
 }
 
+.spineBorder-1-F4s1 {
+  background: transparent;
+}
+
+.spine-29OFwR {
+  top: 10px;
+  left: -18px;
+  width: 12px;
+  height: 12px;
+  background-color: var(--color-low);
+}
+
 .chatContent-3KubbW,
 .theme-dark .form-3gdLxP:before,
 .chat-2ZfjoI {
@@ -3968,6 +3980,13 @@ foreignObject[mask="url(#svg-mask-status-offline)"] .status-3cqfT9 {
 
 .theme-dark .lookLink-15mFoz.colorPrimary-2AuQVo {
   color: var(--color-alert);
+}
+
+.theme-dark .notches-2w7UZJ.gray-3wP137 {
+  border: 1px solid var(--color-low);
+}
+.theme-dark .notches-2w7UZJ.gray-3wP137 rect {
+  fill: none !important;
 }
 
 .draggable-1EOU8o {
