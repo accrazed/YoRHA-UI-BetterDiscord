@@ -198,15 +198,6 @@
   --white-530: var(--white-530-hsl);
   --white-560: var(--white-560-hsl);
   --white-600: var(--white-600-hsl);
-  --white-630: var(--white-630-hsl);
-  --white-660: var(--white-660-hsl);
-  --white-700: var(--white-700-hsl);
-  --white-730: var(--white-730-hsl);
-  --white-760: var(--white-760-hsl);
-  --white-800: var(--white-800-hsl);
-  --white-830: var(--white-830-hsl);
-  --white-860: var(--white-860-hsl);
-  --white-900: var(--white-900-hsl);
   --white-100-hsl: var(--color-low);
   --white-130-hsl: var(--color-low);
   --white-160-hsl: var(--color-low);
@@ -273,6 +264,20 @@
   --primary-400-hsl: var(--color-low);
   --primary-430-hsl: var(--color-low);
   --primary-460-hsl: var(--color-low);
+  --primary-500-hsl: var(--color-high);
+  --primary-530-hsl: var(--color-high);
+  --primary-560-hsl: var(--color-high);
+  --primary-600-hsl: var(--color-high);
+  --primary-630-hsl: var(--color-high);
+  --primary-645-hsl: var(--color-high);
+  --primary-660-hsl: var(--color-high);
+  --primary-700-hsl: var(--color-high);
+  --primary-730-hsl: var(--color-high);
+  --primary-760-hsl: var(--color-high);
+  --primary-800-hsl: var(--color-high);
+  --primary-830-hsl: var(--color-high);
+  --primary-860-hsl: var(--color-high);
+  --primary-900-hsl: var(--color-high);
 }
 
 .app-2CXKsg,
@@ -2826,7 +2831,6 @@ foreignObject[mask="url(#svg-mask-status-offline)"] .status-3cqfT9 {
   border-radius: 0;
 }
 
-.theme-dark .calendarPicker-sDhzdi .react-datepicker,
 .theme-dark .calendarPicker-sDhzdi .react-datepicker__current-month,
 .theme-dark .calendarPicker-sDhzdi .react-datepicker__header,
 .theme-dark .calendarPicker-sDhzdi .react-datepicker__day,
