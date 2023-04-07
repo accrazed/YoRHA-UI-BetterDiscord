@@ -143,9 +143,8 @@
 }
 
 // Header
-.headerTop-3GPUSF {
+.userPopoutInner-nv9Y92 {
 	position: static;
-	padding: 8px;
 	background-color: $low;
 	.customStatus-3XAoF9,
 	.nickname-2gQ76l,
@@ -154,12 +153,11 @@
 	.discrimBase-1QwWzY {
 		color: $high;
 	}
-	.profileBadges-3cJaE1 {
-		margin: auto;
+	.profileBadges-2pItdR {
+		position: absolute;
 		z-index: 1;
-		top: 0;
-		right: 0;
-		transform: translateY(150%);
+		top: 10px;
+		left: 12px;
 	}
 	.headerText-15Q25Z {
 		padding-bottom: 4px;
@@ -169,13 +167,13 @@
 	}
 }
 // profile mask on banner
-.bannerSVGWrapper-qc0szY {
+.bannerSVGWrapper-2CLfzN {
 	foreignObject {
 		mask: none !important;
 	}
 }
 
-.headerWrapper-3iTlIT {
+.bannerSVGWrapper-2CLfzN {
 	order: 1;
 }
 // Avatar
@@ -193,22 +191,21 @@
 	height: 120px;
 	background-color: $mid;
 	border-radius: 0;
-}
 
-.headerWrapper-3iTlIT .wrapper-1VLyxH {
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-	margin: auto;
-	border-width: 1px;
+	.avatarHoverTarget-1zzfRL {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		margin: auto;
+		border-width: 1px;
+	}
 }
 
 // Avatar hint
 .avatarWrapperNormal-ahVUaC,
 .avatarWrapperNormal-ahVUaC:hover {
 	.avatarHint-k7pYop {
-		top: 20px;
-		left: 95px;
+		position: relative;
 		margin: auto;
 	}
 }
@@ -224,7 +221,7 @@
 .eyebrow-Ejf06y {
 	color: $low !important;
 }
-.body-2wLx-E {
+.userPopoutOverlayBackground-3A0Pcz {
 	order: 3;
 }
 
@@ -256,36 +253,36 @@
 	background: $high;
 }
 
-.overlayBackground-1KgwVi,
-.userProfileInner-3F03PX:before {
+.overlayBackground-2aa7wt,
+.userPopoutInner-nv9Y92:before {
 	background: transparent;
 }
-.divider-1tWBgZ {
+.divider-1QVlfF {
 	display: none;
 }
 .connectedAccountOpenIcon-3i81Tz:hover {
 	color: $mid;
 }
 
-.userProfileOuter-1K_BYU {
+.userProfileOuter-2tQwNf {
 	@include boxify($high, $mid, 3px);
 }
 .roundedBanner-TdlJGa {
 	border-radius: 0;
 }
 
-.userProfileOuterThemed-3EfHmv.userPopoutOuter-3AVBmJ,
-.userProfileOuterThemed-3EfHmv.userProfileOuter-1K_BYU {
+.userProfileOuterThemed-2BgJCM.userPopoutOuter-1OHwPL,
+.userProfileOuterThemed-2BgJCM.userProfileOuter-2tQwNf {
 	padding: 0;
 }
 
-.overlayBackground-1KgwVi {
+.overlayBackground-2aa7wt {
 	background: $high;
 	border-radius: 0%;
 	border: 2px solid $low;
 }
 
-.buttonColor-XIRMbp {
+.buttonColor-_0gSD_ {
 	@include buttonify($low, $high, $alert, $high);
 }
 
