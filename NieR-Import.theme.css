@@ -1530,6 +1530,13 @@ strong {
   box-shadow: 3px 3px 0 var(--color-mid);
 }
 
+.folderIconWrapper-1oRIZr {
+  border-radius: 0;
+}
+.folderIconWrapper-1oRIZr .iconInactive-26M06U {
+  border-radius: 0;
+}
+
 .folderIconWrapper-1_bOZe {
   border-radius: 0;
 }

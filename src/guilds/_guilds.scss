@@ -29,6 +29,14 @@
 .scroller-2TZvBN > div[aria-label='Servers'] > .listItem-2P_4kh foreignObject {
 	@include boxify($high, $mid, 3px);
 }
+// folder inner (color/icons)
+.folderIconWrapper-1oRIZr {
+	border-radius: 0;
+
+	.iconInactive-26M06U {
+		border-radius: 0;
+	}
+}
 
 .folderIconWrapper-1_bOZe {
 	border-radius: 0;
