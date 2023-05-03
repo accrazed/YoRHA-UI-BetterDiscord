@@ -122,7 +122,7 @@
 	--control-brand-foreground-new: var(--color-alert);
 	--background-mentioned: var(--color-alert-trans);
 	--background-mentioned-hover: var(--color-alert-trans);
-	// --background-message-hover: var(--primary-900-hsl);
+	--background-message-hover: rgba(0, 0, 0, 0.1);
 	--background-message-automod: var(--color-alert-trans);
 	--background-message-automod-hover: var(--color-alert-trans);
 	--background-message-highlight: var(--color-alert-trans);
