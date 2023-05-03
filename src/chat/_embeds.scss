@@ -37,6 +37,23 @@
 		color: $low;
 	}
 }
+// Audio
+.wrapperAudio-1Bzv_Z.newMosaicStyle-31sBoZ {
+	@include boxify($high, $mid, 3px);
+
+	.audioControls-3fmemK,
+	.videoControls-2NzHnF {
+		background-color: $high;
+		border-radius: 0;
+		border: 1px solid $low;
+	}
+
+	.mediaBarWrapper-33h1oY,
+	.mediaBarWrapper-33h1oY:after,
+	.mediaBarWrapper-33h1oY:before {
+		background-color: $mid;
+	}
+}
 // Images and Videos
 .imageWrapper-oMkQl4:not(.embedImage-2Ynqkh) {
 	@include boxify($high, $mid, 4px);
