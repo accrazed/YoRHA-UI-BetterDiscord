@@ -150,7 +150,11 @@
 .spine-29OFwR {
 	top: 10px;
 	left: -18px;
-	width: 12px;
-	height: 12px;
+	width: 12px !important;
+	height: 12px !important;
 	background-color: $low;
+
+	&[style='transform: rotateX(180deg) translateY(-9px);'] {
+		display: none;
+	}
 }

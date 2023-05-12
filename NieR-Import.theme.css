@@ -1016,9 +1016,12 @@ path[d="M5.43309 21C5.35842 21 5.30189 20.9325 5.31494 20.859L5.99991 17H2.14274
 .spine-29OFwR {
   top: 10px;
   left: -18px;
-  width: 12px;
-  height: 12px;
+  width: 12px !important;
+  height: 12px !important;
   background-color: var(--color-low);
+}
+.spine-29OFwR[style="transform: rotateX(180deg) translateY(-9px);"] {
+  display: none;
 }
 
 .chatContent-3KubbW,
