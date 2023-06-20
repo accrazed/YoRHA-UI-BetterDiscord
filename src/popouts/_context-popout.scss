@@ -12,8 +12,13 @@
 		.labelContainer-35-WEd {
 			@include buttonify($low, $high, $high, $low);
 
+			.subtext-1mqKVB,
 			.defaultColor-1EVLSt {
 				color: $high;
+			}
+
+			&:hover .subtext-1mqKVB {
+				color: $mid;
 			}
 			&:hover .defaultColor-1EVLSt {
 				color: $low;

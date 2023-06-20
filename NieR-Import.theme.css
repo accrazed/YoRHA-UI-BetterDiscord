@@ -2343,9 +2343,15 @@ strong {
   background-color: var(--color-high) !important;
   color: var(--color-low) !important;
 }
+.menu-2TXYjN .scroller-nxCRu_ .colorDefault-2_rLdz .subtext-1mqKVB,
 .menu-2TXYjN .scroller-nxCRu_ .colorDefault-2_rLdz .defaultColor-1EVLSt,
+.menu-2TXYjN .scroller-nxCRu_ .labelContainer-35-WEd .subtext-1mqKVB,
 .menu-2TXYjN .scroller-nxCRu_ .labelContainer-35-WEd .defaultColor-1EVLSt {
   color: var(--color-high);
+}
+.menu-2TXYjN .scroller-nxCRu_ .colorDefault-2_rLdz:hover .subtext-1mqKVB,
+.menu-2TXYjN .scroller-nxCRu_ .labelContainer-35-WEd:hover .subtext-1mqKVB {
+  color: var(--color-mid);
 }
 .menu-2TXYjN .scroller-nxCRu_ .colorDefault-2_rLdz:hover .defaultColor-1EVLSt,
 .menu-2TXYjN .scroller-nxCRu_ .labelContainer-35-WEd:hover .defaultColor-1EVLSt {
