@@ -3,9 +3,9 @@
 .theme-dark .container-1NXEtd,
 .panels-3wFtMD,
 .theme-dark .container-YkUktl,
-.wrapper-NhbLHG:hover .content-1gYQeQ,
-.modeSelected-3DmyhH .content-1gYQeQ,
-.modeSelected-3DmyhH:hover .content-1gYQeQ {
+.wrapper-NhbLHG:hover .link-1_kTxV,
+.modeSelected-3DmyhH .link-1_kTxV,
+.modeSelected-3DmyhH:hover .link-1_kTxV {
 	background: transparent;
 }
 .header-3OsQeK {
@@ -26,6 +26,7 @@
 }
 .wrapper-NhbLHG {
 	height: 30px;
+	padding: 0;
 
 	// Muted and Locked channels
 	&.modeLocked-3sToxd,
@@ -39,8 +40,9 @@
 	}
 	// Locked Channels
 	&.modeLocked-3sToxd {
-		cursor: disabled;
+		cursor: not-allowed;
 	}
+
 	// Square icon
 	.iconContainer-21RCa3 {
 		align-self: center;
@@ -63,17 +65,21 @@
 		}
 	}
 	// Animation
-	.content-1gYQeQ {
+	.link-1_kTxV {
 		height: 28px;
-		top: 1px;
 		margin-left: 0;
+		padding: 0;
 		border-radius: 0;
 	}
 	.name-28HaxV,
 	.actionIcon-2sw4Sl {
 		transition: color 0.2s;
 	}
-	.mainContent-20q_Hp:before {
+	.linkTop-1W1aK6 {
+		padding: 6px 8px;
+	}
+	.linkTop-1W1aK6:before {
+		content: '';
 		transition: transform 0.4s;
 		position: absolute;
 		animation-name: pulsingBackground;
@@ -82,6 +88,7 @@
 		transform: scaleX(0);
 		transform-origin: left;
 		width: 100%;
+		height: 100%;
 	}
 	// settings/invite button in channel side
 	.children-1MGS9G {
@@ -93,7 +100,7 @@
 	&:hover {
 		box-shadow: 0 1px $low, 0 -1px $low;
 
-		.mainContent-20q_Hp:before {
+		.linkTop-1W1aK6:before {
 			transform: scaleX(1);
 		}
 		.icon-2W8DHg {
@@ -164,4 +171,8 @@
 	&[style='transform: rotateX(180deg) translateY(-9px);'] {
 		display: none;
 	}
+}
+
+.typeThread-2Aqh6X .link-1_kTxV {
+	margin-left: 0;
 }
