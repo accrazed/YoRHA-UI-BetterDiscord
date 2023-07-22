@@ -936,7 +936,8 @@ path[d="M5.43309 21C5.35842 21 5.30189 20.9325 5.31494 20.859L5.99991 17H2.14274
   transition: color 0.2s;
 }
 .wrapper-NhbLHG .linkTop-1W1aK6 {
-  padding: 6px 8px;
+  top: 1px;
+  padding: 4px 8px;
 }
 .wrapper-NhbLHG .linkTop-1W1aK6:before {
   content: "";
@@ -1376,6 +1377,10 @@ path[d="M5.43309 21C5.35842 21 5.30189 20.9325 5.31494 20.859L5.99991 17H2.14274
 }
 .reaction-3vwAF2:hover .reactionCount-26U4As {
   color: var(--color-high);
+}
+
+.typeThread-2Aqh6X.wrapper-NhbLHG {
+  margin-left: 0;
 }
 
 .hasThread-3h-KJV.cozy-VmLDNB:after {
