@@ -71,15 +71,22 @@
 		margin-left: 0;
 		padding: 0;
 		border-radius: 0;
+		justify-content: center;
 	}
 	.name-28HaxV,
 	.actionIcon-2sw4Sl {
 		transition: color 0.2s;
 	}
+	.content-2V2neN {
+		position: relative;
+		top: -3px;
+		padding: 4px 0px;
+	}
 	.linkTop-1W1aK6 {
 		top: 1px;
 		padding: 4px 8px;
 	}
+	.content-2V2neN:before,
 	.linkTop-1W1aK6:before {
 		content: '';
 		transition: transform 0.4s;
@@ -102,6 +109,7 @@
 	&:hover {
 		box-shadow: 0 1px $low, 0 -1px $low;
 
+		.content-2V2neN:before,
 		.linkTop-1W1aK6:before {
 			transform: scaleX(1);
 		}
