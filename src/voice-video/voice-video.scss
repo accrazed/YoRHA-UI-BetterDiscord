@@ -1,129 +1,129 @@
 // Transparencies
-.callContainer-HtHELf,
-.container-1zzFcN,
-.gradientContainer-phMG8d,
-.wrapper-1gVUIN.minimum-fXpVNc,
-.wrapper-1gVUIN {
+.callContainer_cbde45,
+.container_d667ff,
+.gradientContainer__9a5a6,
+.wrapper_bd2abe.minimum_ebf000,
+.wrapper_bd2abe {
 	background-image: none;
 	background-color: transparent;
 }
-.tile-2TcwiO {
+.tile_a411a4 {
 	@include boxify($high, $low-trans, 5px);
 }
-.container-1zzFcN {
+.container_d667ff {
 	border-bottom: none;
 	padding-bottom: 0;
 }
 // Voice and Video
-.colorable-3rVGna {
-	&.white-11auuQ {
+.colorable_c84c4c {
+	&.white__10e89 {
 		background: $high;
 		color: $low;
 
 		&:hover {
 			background: $mid;
 		}
-		&.active-3D763s {
+		&.active_ff29dc {
 			background: $high;
 		}
-		.centerIcon-JYpTUi {
+		.centerIcon__6075a {
 			color: $low;
 		}
 	}
-	&.primaryDark-2UJt1G {
+	&.primaryDark__6b700 {
 		background: $low;
 		color: $high;
 
 		&:hover {
 			background: $mid;
 		}
-		.centerIcon-JYpTUi {
+		.centerIcon__6075a {
 			color: $high;
 		}
 	}
-	&.red-3T8maV,
-	&.red-3T8maV:hover {
+	&.red_a51ba8,
+	&.red_a51ba8:hover {
 		background: $alert;
 
-		.centerIcon-JYpTUi {
+		.centerIcon__6075a {
 			color: $high;
 		}
 	}
 }
-.clickable-ZD7xvu .icon-2xnN2Y:hover,
-.icon-2xnN2Y:hover,
-.controlIcon-10O-4h:hover {
+.clickable_d23a1a .icon__4cb88:hover,
+.icon__4cb88:hover,
+.controlIcon__25700:hover {
 	color: $mid;
 }
-.quickSelect-384d3G,
-.quickSelectLabel-ArUyd9,
-.playingText-16QsYy,
-.controlIcon-10O-4h,
-.clickable-ZD7xvu .icon-2xnN2Y,
-.icon-2xnN2Y,
+.quickSelect_ae48d2,
+.quickSelectLabel_cf5c1b,
+.playingText_f2f60c,
+.controlIcon__25700,
+.clickable_d23a1a .icon__4cb88,
+.icon__4cb88,
 .name-3YKhmS,
-.title-17SveM {
+.title__9e2b0 {
 	color: $low;
 }
-.status-15kcmy {
+.status__42e87 {
 	color: $low;
 	background: $high-trans;
 	border-radius: 0;
 }
-.overlayTitle-2efoIF {
+.overlayTitle_a9f7c6 {
 	border-radius: 0;
 	background: $low-trans;
 	color: $high;
 }
-.status-15kcmy,
-.border-2Vy6FN.speaking-7QZEkv,
+.status__42e87,
+.border_d9a17b.speaking__9b95a,
 .avatarSpeaking-3MqCHL {
 	box-shadow: inset 0 0 0 2px $alert;
 }
-.slash-2yrR11,
+.slash_c0ba36,
 .colorDefault-CDqZdO .checkbox-hADx5o,
 .colorDefault-CDqZdO .radioSelection-1UHp0b {
 	color: $alert;
 }
-.base-3IDx3L {
+.base__92a12 {
 	background-color: $alert !important;
 }
-.base-3IDx3L,
-.liveLarge-IxMVzY {
+.base__92a12,
+.liveLarge__9308a {
 	border-radius: 0;
 	color: $high;
 }
-.iconBadge-2wWu5e {
+.iconBadge_f54f3d {
 	background-color: $low;
 }
 // Select Region arrow in videocall
-.theme-dark .quickSelectArrow-1dOOHb {
+.theme-dark .quickSelectArrow__9853b {
 	@include remask('https://discord.com/assets/f58cf3b8fc79e9d671ab649ab37651a9.svg', $low);
 	mask-repeat: no-repeat;
 }
 // Member hover/select animations
-.draggable-S2aEx4 {
+.draggable__081c0 {
 	height: 29px;
 	margin: 1px 0 1px 0;
 
-	.clickable-1ctZ-H {
+	.clickable__137bc {
 		height: 28px;
-		.icons-2mwuFp svg,
-		.avatarSmall-3qwAkA,
-		.username-vAneIW,
-		.icons-2mwuFp {
+		.icons__10dd7 svg,
+		.avatarSmall__7dc81,
+		.username__73ce9,
+		.icons__10dd7 {
 			z-index: 1;
 			transition: color 0.2s;
 		}
 		border-radius: 0;
 
 		// Animation
-		.content-1Tgc42 {
+		.content_b60865 {
 			height: 28px;
 			background-color: transparent !important;
 			border-radius: 0;
 		}
-		.content-1Tgc42:before {
+		.content_b60865:before {
 			content: '';
 			position: absolute;
 			left: 0;
@@ -138,14 +138,14 @@
 			width: 100%;
 		}
 		// Selected channel
-		&.selected-1oxcpH .content-1Tgc42,
-		&:hover .content-1Tgc42 {
+		&.selected__471ca .content_b60865,
+		&:hover .content_b60865 {
 			box-shadow: 0 1px $low, 0 -1px $low;
 
-			.icons-2mwuFp svg,
-			.avatarSmall-3qwAkA,
-			.username-vAneIW,
-			.icons-2mwuFp {
+			.icons__10dd7 svg,
+			.avatarSmall__7dc81,
+			.username__73ce9,
+			.icons__10dd7 {
 				color: $high;
 				z-index: 1;
 			}
@@ -159,11 +159,11 @@
 .theme-dark .streamPreview-3qoMP4 {
 	@include boxify($high, $mid, 3px);
 }
-.theme-dark .activityStreamPreview-uBr6hk {
-	.activityName-3YXl6e,
-	.content-tXPNDw,
-	.details-2-ciHo,
-	.name-1-Q7l2 {
+.theme-dark .activityStreamPreview_a4f8f0 {
+	.activityName__47e51,
+	.content_d7cb7f,
+	.details__445eb,
+	.name_b6124d {
 		color: $low;
 	}
 }

@@ -1,7 +1,7 @@
-.itemFilled-2Fo7lr {
+.itemFilled__373d7 {
 	@include boxify($high, $mid, 3px);
 
-	&:hover:not([aria-checked='true']):not(.disabled-WBmOu_),
+	&:hover:not([aria-checked='true']):not(.disabled_af801d),
 	&:hover {
 		background-color: $mid;
 		color: $high;

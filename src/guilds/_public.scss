@@ -1,29 +1,29 @@
 .selectedOptionItem-3v62YZ,
-.pageContainer-36uo3F,
-.theme-dark .pageWrapper-2PwDoS,
+.pageContainer__1e84a,
+.theme-dark .pageWrapper_fef757,
 .joinServerOption-3ClG5j {
 	background-color: transparent;
 }
 
 // University Hubs
-.card-3N2v9t {
+.card__73022 {
 	@include boxify($high, $mid, 3px);
 }
 
 // Home page
-.theme-dark .background-fkKrXt {
+.theme-dark .background_e80d5a {
 	background: transparent;
 }
 // -- card
-.containerCard-2kwJKN,
-.containerCard-2kwJKN:hover,
-.container-2Hi7Km,
-.card-3x20HF {
+.containerCard__30250,
+.containerCard__30250:hover,
+.container__92dc8,
+.card_d4f6c7 {
 	@include boxify($high, $mid, 3px);
 }
-.channelList-24jKfX {
+.channelList__2bf8c {
 	padding: 5px 0;
 }
-.feedItemHeader-txJq98 {
+.feedItemHeader__653e4 {
 	border-bottom: none;
 }

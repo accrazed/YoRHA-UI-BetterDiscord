@@ -1,14 +1,14 @@
 // Transparencies
-.chatContent-2O4SXb,
-.theme-dark .form-3gdLxP:before,
-.container-2vWgD2,
-.chat-9g_3Xj {
+.chatContent__5dca8,
+.theme-dark .form__13a2c:before,
+.container_b2ce9c,
+.chat__52833 {
 	background: transparent;
 }
-.mentioned-Tre-dv:before {
+.mentioned__58017:before {
 	width: 0;
 }
-.divider-2rZFJK {
+.divider_b9338f {
 	border-color: $alert;
 }
 // Scrollbar
@@ -19,7 +19,7 @@
 	width: 6px;
 }
 // Username label
-.cozyMessage-1DWF9U .header-2jRmjb {
+.cozyMessage__64ce7 .header__39b23 {
 	border-radius: 0;
 	display: inline-block !important;
 	padding: 4px 5px 4px 6px;
@@ -28,7 +28,7 @@
 	box-shadow: 2px 2px 0 $mid, -3px 0 0 $low, -9px 0 0 $high, -21px 0 0 $low, -18px 2px 0 $mid;
 }
 // Profile Picture
-.full-motion .avatar-2e8lTP.clickable-31pE3P {
+.full-motion .avatar__08316.clickable_d866f1 {
 	@include boxify($high, $mid, 3px);
 
 	&:hover {
@@ -37,27 +37,27 @@
 	}
 }
 // Username color
-.username-h_Y3Us.clickable-31pE3P {
+.username_d30d99.clickable_d866f1 {
 	color: $low !important;
 }
 // Date stamp
-.isUnread-3Lojb- .content-3spvdd,
-.unreadPill-3nEWYM,
-.content-3spvdd {
+.isUnread__6f880 .content_d67847,
+.unreadPill__715fc,
+.content_d67847 {
 	border-radius: 0;
 	background-color: $alert;
 	color: $high;
 }
-.unreadPillCapStroke-1nE1Q8 {
+.unreadPillCapStroke__12c0b {
 	color: $alert;
 	fill: $alert;
 }
 // Quotes
-.blockquoteContainer-3VtvI1 .blockquoteDivider-363utW {
+.blockquoteContainer_f24d1f .blockquoteDivider__96157 {
 	border-radius: 0;
 	background-color: $low;
 }
-.emptyChannelIcon-1YdEz2 {
+.emptyChannelIcon__1a1ba {
 	background-image: url('https://svgur.com/i/RGT.svg');
 	@include remask('https://svgur.com/i/RGT.svg', $mid);
 	margin: auto;
@@ -66,12 +66,12 @@
 }
 // Mentions
 .theme-dark {
-	.mentioned-Tre-dv {
+	.mentioned__58017 {
 		.mention.interactive:hover {
 			color: $low;
 		}
 	}
-	.wrapper-1ZcZW- {
+	.wrapper__2d9b1 {
 		// mention text
 		background: $alert-trans;
 		color: $high;
@@ -83,7 +83,7 @@
 	}
 }
 // Replies
-.mouse-mode.full-motion .replying-eZ7p5z {
+.mouse-mode.full-motion .replying_d7b6ad {
 	&,
 	&:hover {
 		background-color: $alert-trans;
@@ -92,7 +92,7 @@
 		background-color: $alert;
 	}
 }
-.backgroundFlash-1X5jVs {
+.backgroundFlash_e5b9ad {
 	transition: background-color 0.1s;
 	background-color: $alert-trans !important;
 }
@@ -100,17 +100,17 @@
 	background-color: transparent !important;
 	transition: background-color 0.5s;
 }
-.colorBrand-3Xb6JG {
+.colorBrand_be5f58 {
 	color: $alert;
 }
-.repliedMessage-3Z6XBG:before {
+.repliedMessage_e2bf4a:before {
 	border-left: var(--spine-width) solid $low;
 	border-bottom: 0 solid $low;
 	border-right: 0 solid $low;
 	border-top: var(--spine-width) solid $low;
 	border-radius: 0;
 }
-.replyBadge-LMm_Ic {
+.replyBadge__3d01e {
 	border-radius: 0;
 	border: 1px solid $low;
 }
@@ -118,13 +118,13 @@
 .spoilerText-2G40u0 {
 	border-radius: 0;
 }
-.spoilerMarkdownContent-2R1Vwe.hidden-2lQZ5q,
-.theme-dark .spoilerText-2G40u0.hidden-2lQZ5q {
+.spoilerMarkdownContent__2b8f8.hidden_f44e41,
+.theme-dark .spoilerText-2G40u0.hidden_f44e41 {
 	background-color: $low;
 }
 // You're viewing older messages /// X+ new messages since
-.newMessagesBar-1hF-9G,
-.jumpToPresentBar-1cEnH0 {
+.newMessagesBar__8b6d7,
+.jumpToPresentBar__0ff7f {
 	box-shadow: none;
 	background-color: $alert;
 	border-radius: 0;
@@ -133,26 +133,26 @@
 	}
 }
 // Edit Message
-.scrollableContainer-15eg7h {
+.scrollableContainer__33e06 {
 	@include boxify($high, $mid, 3px);
 }
-.theme-dark .operations-3q3u6E {
+.theme-dark .operations__07224 {
 	color: $low;
 	& > a {
 		color: $alert;
 	}
 }
-.codeBlockSyntax-3mFGiA,
-.syntaxAfter-2_BrZf,
-.syntaxBefore-3epS3C {
+.codeBlockSyntax__71770,
+.syntaxAfter_a2a4a2,
+.syntaxBefore__91665 {
 	color: $alert;
 }
 // Timestamps
-.compact-2Nkcau .headerText-2z4IhQ {
+.compact__54ecc .headerText_f47574 {
 	border-right: 2px dashed $alert;
 }
-.compact-2Nkcau .timestamp-p1Df1m,
-.cozy-VmLDNB .timestamp-p1Df1m.alt-1dvXnH {
+.compact__54ecc .timestamp_cdbd93,
+.cozy_f5c119 .timestamp_cdbd93.alt__6c563 {
 	margin-right: 0;
 	width: auto;
 }

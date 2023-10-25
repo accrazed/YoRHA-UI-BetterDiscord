@@ -1,93 +1,93 @@
 // Transparencies
-.theme-dark .scroller-WSmht3,
-.scroller-2XLwLg,
-.scroller-29cQFV,
-.applicationStore-2nk7Lo,
-.nowPlayingColumn-1eCBCN,
-.container-1oAagU,
-.theme-dark .inset-SbsSFp,
-.theme-dark .container-2cd8Mz {
+.theme-dark .scroller__4b984,
+.scroller__311cd,
+.scroller__244e5,
+.applicationStore_fc7d76,
+.nowPlayingColumn_f5023f,
+.container__0a6a9,
+.theme-dark .inset__0bfb3,
+.theme-dark .container__5c7e7 {
 	background-color: transparent;
 }
-.peopleListItem-u6dGxF.active-2UF8Zh,
-.peopleListItem-u6dGxF:hover {
+.peopleListItem_d14722.active__6b8ff,
+.peopleListItem_d14722:hover {
 	@include boxify($high, $mid, 3px);
 }
-.peopleListItem-u6dGxF {
+.peopleListItem_d14722 {
 	border-top: none;
 }
 // Low color
-.theme-dark .text-27cdrj,
-.theme-dark .title-2CL_z0 {
+.theme-dark .text__1c14c,
+.theme-dark .title__627cf {
 	color: $low;
 }
 // "Active Now" tags, (misc. cards too)
-.scroller-hE2gWq {
+.scroller__00e7e {
 	border: none;
 }
 .theme-dark .feature-2IUcBI,
 .banner-WELp4M,
-.wrapper-2RrXDg {
+.wrapper__6e669 {
 	transition: all 0.1s;
 	@include boxify($high, $mid, 4px);
 
-	.inset-SbsSFp {
+	.inset__0bfb3 {
 		border: 1px solid $mid;
 		border-radius: 0;
 	}
-	.partyMemberOverflow-3G1oZz {
+	.partyMemberOverflow_d12297 {
 		color: $high;
 		background: $low;
 	}
-	.section-3G9aLW {
+	.section_efc22d {
 		border-radius: 0;
 	}
 	&:hover {
 		background-color: $low !important;
 
-		.partyMemberOverflow-3G1oZz {
+		.partyMemberOverflow_d12297 {
 			color: $low;
 			background: $high;
 		}
-		.text-sm-normal-3Zj3Iv.textContent-TsKzji,
-		.defaultColor-1EVLSt,
-		.base-ZDDK0g,
+		.text-sm-normal-3Zj3Iv.textContent__45dd0,
+		.defaultColor__77578,
+		.base__7ba63,
 		span,
-		.colorHeaderSecondary-2mxIhA,
-		.colorStandard-1Xxp1s {
+		.colorHeaderSecondary__90aae,
+		.colorStandard__5111e {
 			color: $high;
 		}
-		.section-3G9aLW div {
+		.section_efc22d div {
 			color: $low;
 		}
 	}
 }
 // 'Active Now' Header
-.header-Imy05m {
+.header__123bf {
 	@include titlify(2px, 4px);
 }
 // Close button hover
-.children-283-lq {
+.children_c027c5 {
 	z-index: 1;
 }
-.actionButton-3-B2x-:hover {
+.actionButton__23182:hover {
 	transition: background-color 0.2s ease-in-out;
 	background-color: $low;
 
-	.icon-1WVg4I {
+	.icon__7215c {
 		transition: color 0.1s ease-in-out;
 		color: $high;
 	}
 }
 // Header divider
-.tabBody-2dgbAs:before {
+.tabBody_b3d268:before {
 	display: none;
 }
 
-.tabBar-ra-EuL .item-3mHhwr {
+.tabBar__73938 .item_e4ca95 {
 	@include buttonify(transparent, $low, $low, $high);
 
-	&.selected-1sf9UK {
+	&.selected__5711d {
 		background-color: $low !important;
 		color: $high;
 	}

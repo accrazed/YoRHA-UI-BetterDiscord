@@ -1,6 +1,6 @@
 // Embed card
-.embedFull-1HGV2S,
-.messageContent-2t3eCI pre {
+.embedFull__8dc21,
+.messageContent__21e69 pre {
 	@include boxify($high, $mid, 4px);
 
 	& > code {
@@ -11,69 +11,69 @@
 	}
 }
 // Server invite
-.wrapper-1HIH0j {
+.wrapper_efe67f {
 	@include boxify($high, $mid, 3px);
 
-	.inviteDestination-1rM5rX {
+	.inviteDestination_bd24e2 {
 		color: $low;
 	}
-	.iconActiveLarge-ac-EDu {
+	.iconActiveLarge__8985a {
 		border-radius: 0;
 	}
 }
 // File attachments
-.wrapperAudio-1Bzv_Z.newMosaicStyle-31sBoZ,
-.attachment-1PZZB2.newMosaicStyle-35X6XO,
-.messageAttachmentMediaMosaic-2ic1yt {
+.wrapperAudio__555ce.newMosaicStyle_fb18b9,
+.attachment_f3cf2c.newMosaicStyle__235c9,
+.messageAttachmentMediaMosaic__65bfc {
 	border-radius: 0;
 }
-.attachment-1PZZB2 {
+.attachment_f3cf2c {
 	margin-left: 13px;
 	border-radius: 0;
 	box-shadow: -3px 0 0 var(--color-low), -9px 0 0 var(--color-high), -21px 0 0 var(--color-low),
 		-18px 3px 0 var(--color-mid), 3px 3px 0 var(--color-mid);
 
-	.metadata-1E7Z4i {
+	.metadata__541c7 {
 		color: $low;
 	}
 }
 // Audio
-.wrapperAudio-1Bzv_Z.newMosaicStyle-31sBoZ {
+.wrapperAudio__555ce.newMosaicStyle_fb18b9 {
 	@include boxify($high, $mid, 3px);
 
-	.audioControls-3fmemK,
-	.videoControls-2NzHnF {
+	.audioControls__9fbe9,
+	.videoControls__96149 {
 		background-color: $high;
 		border-radius: 0;
 		border: 1px solid $low;
 	}
 
-	.mediaBarWrapper-33h1oY,
-	.mediaBarWrapper-33h1oY:after,
-	.mediaBarWrapper-33h1oY:before {
+	.mediaBarWrapper_f312bd,
+	.mediaBarWrapper_f312bd:after,
+	.mediaBarWrapper_f312bd:before {
 		background-color: $mid;
 	}
 }
 // Images and Videos
-.imageWrapper-oMkQl4:not(.embedImage-2Ynqkh) {
+.imageWrapper_fd6587:not(.embedImage_e638a7) {
 	@include boxify($high, $mid, 4px);
 }
-.mediaAttachmentsContainer-1WGRWy,
-.oneByOneGridSingle-2ss-Zx,
-.wrapper-1FP9YQ,
-.video-2HW4jD {
+.mediaAttachmentsContainer_edba75,
+.oneByOneGridSingle__01756,
+.wrapper__3a7a0,
+.video__4c052 {
 	border-radius: 0;
 }
 // Spotify Listen-Along
-.theme-dark .invite-3uuHYQ {
+.theme-dark .invite__2a93b {
 	@include boxify($high, $mid, 3px);
 	border: none;
 
-	.header-1Fx4D1,
-	.partyStatus-2-VcyG {
+	.header__8b673,
+	.partyStatus__6a567 {
 		color: $low;
 	}
-	.textLink-_PElWP {
+	.textLink__47850 {
 		color: $alert;
 	}
 }

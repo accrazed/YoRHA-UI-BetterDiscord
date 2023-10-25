@@ -1,14 +1,14 @@
 // Transparencies
-.container-2o3qEW,
-.clickable-28SzVr:hover .layout-1qmrhw,
-.member-2iQhp7,
-.members-2y1nVj,
-.members-2y1nVj > div {
+.container_b2ce9c,
+.clickable__17ccb:hover .layout_bb8e67,
+.member_b44d5d,
+.members__9f47b,
+.members__9f47b > div {
 	background: transparent;
 }
 
 // Member hover/select animations
-.container-1oeRFJ {
+.container__4f20e {
 	transition: color 0.2s;
 	max-width: none;
 	border-radius: 0;
@@ -16,7 +16,7 @@
 	margin: 5px 0 5px 0;
 	position: relative;
 	// Animation
-	.layout-1qmrhw {
+	.layout_bb8e67 {
 		background-color: transparent !important;
 		border-radius: 0;
 		&:before {
@@ -36,27 +36,27 @@
 		}
 	}
 	// Selected channel
-	&.selected-1-Z6gm,
+	&.selected__9800b,
 	&:hover {
 		color: $high !important;
 		box-shadow: 0 1px $low, 0 -1px $low;
-		.name-3Vmqxm span,
-		.activity-2EQDZv,
-		.muted-14PyqW {
+		.name__16feb span,
+		.activity__3cbac,
+		.muted__7327f {
 			color: $high !important;
 		}
-		.layout-1qmrhw:before {
+		.layout_bb8e67:before {
 			transform: scaleX(1);
 		}
-		.avatar-6qzftW,
-		.linkButtonIcon-7rsZcu,
-		.content-1U25dZ {
+		.avatar__6337f,
+		.linkButtonIcon__2f35b,
+		.content_a6999d {
 			z-index: 1;
 		}
 	}
 }
 
-.botTagRegular-kpctgU {
+.botTagRegular_c89c9a {
 	background-color: $alert;
 	color: $high;
 }

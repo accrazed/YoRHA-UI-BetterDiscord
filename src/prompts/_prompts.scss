@@ -1,11 +1,11 @@
 // Backdrop
-.backdrop-2ByYRN,
+.backdrop__7e89b,
 .backdropWithLayer-3_uhz4 {
 	opacity: 0.4 !important;
 }
 // Transparencies
 .theme-dark .separator-2lLxgC,
-.theme-dark .footer-VCsJQY,
+.theme-dark .footer_ceda43,
 .theme-dark .footer-31IekZ {
 	background-color: transparent;
 	box-shadow: none;
@@ -29,25 +29,25 @@
 .h5-2RwDNl,
 .footer-31IekZ,
 .uploadIcon-2wV7s_,
-.colorMuted-1jNaVo,
-.colorHeaderPrimary-3kwW7L,
-.colorHeaderSecondary-2mxIhA {
+.colorMuted_ae2200,
+.colorHeaderPrimary_fcac0c,
+.colorHeaderSecondary__90aae {
 	color: $low;
 }
 .anchor-1MIwyf {
 	color: $alert;
 }
 // start from template / create my own
-.container-x8Y1ix .defaultColor-1EVLSt {
+.container-x8Y1ix .defaultColor__77578 {
 	color: $high;
 }
 // You've been invited to join a server
-.container-1Gt1iQ {
-	.title-10kb1R {
+.container__8cd73 {
+	.title__8f1f4 {
 		color: $low;
 	}
 }
-.iconActiveLarger-2EZc1b {
+.iconActiveLarger__0698f {
 	border-radius: 0;
 }
 // Join a server
@@ -58,7 +58,7 @@
 .rowContainer-3t7486 {
 	border-radius: 0;
 	background-color: $low;
-	.defaultColor-1EVLSt {
+	.defaultColor__77578 {
 		color: $high;
 	}
 
@@ -70,25 +70,25 @@
 	color: $low;
 }
 // Upload Image
-.theme-dark .uploadModal-2ie9O_ {
+.theme-dark .uploadModal_eae2a0 {
 	@include boxify($high, $mid, 6px);
-	.scrollableContainer-15eg7h {
+	.scrollableContainer__33e06 {
 		box-shadow: none;
 		border: 3px solid $low;
 	}
 }
 // Image popout carousel
-.arrowContainer-2wpC4q {
+.arrowContainer__94160 {
 	background-color: $alert;
 }
 // Drag and drop upload
-.uploadModalIn-2w48Zf .uploadDropModal-13Kd20 {
-	.inner-rBP-MS .instructions-272j2A,
-	.inner-rBP-MS {
+.uploadModalIn_c0ca4b .uploadDropModal__73a36 {
+	.inner__7afe9 .instructions__9e259,
+	.inner__7afe9 {
 		border: none;
 		color: $low;
 	}
-	.bgScale-1iWuPF {
+	.bgScale_f3a2be {
 		@include boxify($high, $mid, 4px);
 	}
 }
@@ -96,7 +96,7 @@
 	border: 2px solid $low;
 	border-radius: 0;
 
-	&.checked-16gMAN {
+	&.checked__6bdb0 {
 		border: 2px solid $low !important;
 		background-color: $high;
 
@@ -106,16 +106,16 @@
 	}
 }
 // Login screen
-.theme-dark.authBox-1HR6Ha {
+.theme-dark.authBox__7196a {
 	@include boxify($high, $mid, 6px);
 
 	&,
-	.colorHeaderPrimary-3kwW7L,
-	.colorHeaderSecondary-2mxIhA,
+	.colorHeaderPrimary_fcac0c,
+	.colorHeaderSecondary__90aae,
 	.h5-2RwDNl {
 		color: $low;
 	}
-	.lookLink-13iF2K.colorBrand-2M3O3N {
+	.lookLink__93965.colorBrand_b2253e {
 		color: $alert;
 	}
 	.qrCodeContainer-1qlybH,
@@ -124,15 +124,15 @@
 	}
 }
 // CTRL K
-.quickswitcher-pKcM9U {
+.quickswitcher_a3d29a {
 	@include boxify($high, $mid, 5px);
-	.input-3r5zZY {
+	.input__848cd {
 		color: $high;
 		background: $low;
 		border-radius: 0;
 		box-shadow: none;
 	}
-	.icon-12xJtb {
+	.icon_f8a8b6 {
 		height: 13px;
 		width: 13px;
 		background-color: $low;
@@ -142,12 +142,12 @@
 		border-radius: 0;
 
 		.note-3TX9O7,
-		.misc-XwBATi,
-		.contentUnread-1_MVDK,
-		.contentDefault-17ewQQ {
+		.misc__9152e,
+		.contentUnread__50b0f,
+		.contentDefault_f2e62d {
 			color: $high;
 		}
-		.icon-12xJtb {
+		.icon_f8a8b6 {
 			background-color: $high;
 			path {
 				fill: $high;
@@ -157,7 +157,7 @@
 }
 // Invite Friends to Server
 .theme-dark {
-	.lookLink-13iF2K.colorGrey-2DXtkV,
+	.lookLink__93965.colorGrey-2DXtkV,
 	.footerText-2QLGHU {
 		color: $low;
 	}
@@ -169,7 +169,7 @@
 
 		&:hover {
 			background: $low;
-			.lookLink-13iF2K.colorGrey-2DXtkV,
+			.lookLink__93965.colorGrey-2DXtkV,
 			.inviteRowName-3H4s_c {
 				color: $high;
 			}
@@ -212,34 +212,34 @@
 	}
 }
 // Notification settings
-.theme-dark .modal-2RrUKJ {
+.theme-dark .modal__060da {
 	@include boxify($high, $mid, 4px);
 }
 // Reactions
 .theme-dark {
-	.reactors-1VXca7,
-	.scroller-2GkvCq {
+	.reactors__20ab0,
+	.scroller__5fda0 {
 		background: transparent;
 	}
-	.reactorDefault-3GSyaV {
+	.reactorDefault__5b249 {
 		box-shadow: none;
 	}
-	.remove-19AQn_,
-	.discriminator-1DCM-o {
+	.remove__6bd0e,
+	.discriminator__18879 {
 		color: $low;
 	}
-	.reactionSelected-1aMb2K,
-	.reactionDefault-1Sjj1f:hover {
+	.reactionSelected__249a7,
+	.reactionDefault__792ef:hover {
 		background: $low;
 		border-radius: 0;
 
-		.colorStandard-1Xxp1s {
+		.colorStandard__5111e {
 			color: $high;
 		}
 	}
 }
 // "Hold Up" - external site prompt
-.theme-dark .root-g14mjS {
+.theme-dark .root_a28985 {
 	@include boxify($high, $low, 3px);
 }
 .lookFilled-yCfaCM.colorPrimary-2AuQVo {

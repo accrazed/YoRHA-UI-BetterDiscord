@@ -1,34 +1,34 @@
-.menu-2TXYjN {
+.menu_dc52c6 {
 	@include boxify($low, $mid, 3px);
 
-	.scroller-nxCRu_ {
-		.separator-12G2Op {
+	.scroller__750f5 {
+		.separator__18122 {
 			display: none;
 		}
-		.item-5ApiZt {
+		.item__183e8 {
 			margin: 0;
 		}
-		.colorDefault-2_rLdz,
-		.labelContainer-35-WEd {
+		.colorDefault__0b482,
+		.labelContainer_bc2861 {
 			@include buttonify($low, $high, $high, $low);
 
-			.subtext-1mqKVB,
-			.defaultColor-1EVLSt {
+			.subtext__8a015,
+			.defaultColor__77578 {
 				color: $high;
 			}
 
-			&:hover .subtext-1mqKVB {
+			&:hover .subtext__8a015 {
 				color: $mid;
 			}
-			&:hover .defaultColor-1EVLSt {
+			&:hover .defaultColor__77578 {
 				color: $low;
 			}
 		}
 
-		.caret-1TZU-U {
+		.caret_ce50ce {
 			color: $mid;
 		}
-		.submenuPaddingContainer-QgnL1r {
+		.submenuPaddingContainer__12a9d {
 			padding: 0;
 		}
 	}
@@ -36,6 +36,6 @@
 
 // set status
 // invisible
-foreignObject[mask='url(#svg-mask-status-offline)'] .status-3cqfT9 {
+foreignObject[mask='url(#svg-mask-status-offline)'] .status__1c26d {
 	background-color: $mid !important;
 }

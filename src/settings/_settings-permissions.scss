@@ -3,19 +3,19 @@
 	@include boxify($high, $mid, 3px);
 }
 // Allow / Passthrough / Deny
-.group-LWHoGI {
+.group__6ae8b {
 	border-radius: 0;
 	border: 2px solid $low;
 	width: 97px;
 
-	.deny-1GO6vI {
+	.deny__71546 {
 		svg {
 			color: $alert;
 		}
 		&:hover {
 			border-radius: 0;
 		}
-		&.selected-3jieYB {
+		&.selected__47401 {
 			background-color: $alert;
 			border-radius: 0;
 			svg {
@@ -24,17 +24,17 @@
 		}
 	}
 
-	.passthrough--fbdFR {
-		&.selected-3jieYB {
+	.passthrough__7cd54 {
+		&.selected__47401 {
 			background-color: $low;
 			color: $high;
 		}
 	}
 
-	.allow-1h61-Z {
+	.allow_bbc621 {
 		border-radius: 0;
 
-		&.selected-3jieYB {
+		&.selected__47401 {
 			color: $high;
 		}
 	}

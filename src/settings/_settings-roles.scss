@@ -1,71 +1,71 @@
 // Transparencies
-.stickyHeaderElevated-dNSSrJ,
-.titleContainer-3fPic2 {
+.stickyHeaderElevated__89bcf,
+.titleContainer_e558ff {
 	background-color: transparent;
 }
-.titleElevated-eN3exl {
+.titleElevated__6a163 {
 	box-shadow: none;
 }
 // Unsaved changes alert
-.theme-dark .elevationHigh-28Pty4 {
+.theme-dark .elevationHigh__312fd {
 	background-color: $high !important;
 	@include boxify($high, $mid, 3px);
 
 	.contents-18-Yxp span,
-	.message-3C6JQ1 {
+	.message__13e98 {
 		color: $low !important;
 	}
 }
 
 // Default Permissions
-.container-3EtAkD {
+.container_d5f6d0 {
 	@include boxify($high, $mid, 3px);
 }
 
 // Search Roles
-.container-2oNtJn {
+.container__7712a {
 	border-radius: 0;
 	border: 1px solid $low;
 }
 
 // Role List - Hover
-.roleRow-230vCm:hover:not(.roleRowDisableHover-3En0vy) {
+.roleRow_c357d5:hover:not(.roleRowDisableHover__9fe35) {
 	@include boxify($high, $mid, 3px);
 
-	.circleButton-2Yr5A1:hover {
+	.circleButton__29ce2:hover {
 		background-color: $low;
 
-		&.secondary-2bzKEX {
+		&.secondary_c96c46 {
 			color: $high;
 		}
 	}
 }
 
 // Edit Role
-.header-JUTO-g {
+.header__63c59 {
 	margin-top: 48px;
 	padding: 16px 8px;
 	@include boxify($high, $mid, 4px);
 }
-.cozy-VmLDNB .timestamp-p1Df1m {
+.cozy_f5c119 .timestamp_cdbd93 {
 	color: $low;
 }
-.theme-dark .lookFilled-1H2Jvj.colorGrey-2DXtkV {
+.theme-dark .lookFilled__19298.colorGrey-2DXtkV {
 	background-color: $low;
 	color: $high;
 }
 .top-K_jibn .brand-3g5E0C {
-	&.item-2GWPIy:active,
-	&.selected-1sf9UK.item-2GWPIy {
+	&.item__48dda:active,
+	&.selected__5711d.item__48dda {
 		border-bottom-color: $alert;
 	}
-	&.item-2GWPIy:hover {
+	&.item__48dda:hover {
 		border-bottom-color: $mid;
 	}
 }
-.warning-RBGtx2 {
+.warning__9db16 {
 	color: $low;
 }
-.theme-dark .tooltip-14MtrL .colorStandard-1Xxp1s {
+.theme-dark .tooltip-14MtrL .colorStandard__5111e {
 	color: $high;
 }

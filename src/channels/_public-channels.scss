@@ -1,53 +1,53 @@
 // Transparencies
-.unread-36eUEm,
-.theme-dark .container-1NXEtd,
-.theme-dark .container-1CH86i,
-.panels-3wFtMD,
-.theme-dark .container-YkUktl,
-.wrapper-NhbLHG:hover .link-1_kTxV,
-.modeSelected-3DmyhH .link-1_kTxV,
-.modeSelected-3DmyhH:hover .link-1_kTxV {
+.unread__48cf4,
+.theme-dark .container__590e2,
+.theme-dark .container_ca50b9,
+.panels__58331,
+.theme-dark .container_ca50b9,
+.wrapper__7bcde:hover .link__95dc0,
+.modeSelected__487d6 .link__95dc0,
+.modeSelected__487d6:hover .link__95dc0 {
 	background: transparent;
 }
-.header-3OsQeK {
+.header__104ca {
 	box-shadow: none;
 }
 // Unread messages notification
-.unread-2wipsx {
+.unread__75c9f {
 	color: $high;
 	@include boxify($alert, $mid, 3px);
 }
 // User info
-.button-12Fmur {
+.button__4f306 {
 	@include buttonify(transparent, $low, $low, $high);
 }
 // Channel hover/select animations
-.containerDefault-YUSmu3 {
+.containerDefault__3187b {
 	padding-bottom: 4px;
 }
-.wrapper-NhbLHG {
+.wrapper__7bcde {
 	height: 30px;
 	padding: 0;
 
 	// Muted and Locked channels
-	&.modeLocked-3sToxd,
-	&.modeMuted-2T4MDZ {
+	&.modeLocked_fcc71a,
+	&.modeMuted__0aeea {
 		opacity: 50%;
 
-		.icon-2W8DHg,
-		.name-28HaxV {
+		.icon_eff5d4,
+		.name__8d1ec {
 			color: $low;
 		}
 	}
 	// Locked Channels
-	&.modeLocked-3sToxd {
+	&.modeLocked_fcc71a {
 		cursor: not-allowed;
 	}
 
 	// Square icon
-	.iconContainer-21RCa3 {
+	.iconContainer__3f9b0 {
 		align-self: center;
-		.icon-2W8DHg {
+		.icon_eff5d4 {
 			transition: color 0.2s, background-color 0.2s;
 			height: 12px;
 			width: 12px;
@@ -66,28 +66,28 @@
 		}
 	}
 	// Animation
-	.link-1_kTxV {
+	.link__95dc0 {
 		height: 28px;
 		margin-left: 0;
 		padding: 0;
 		border-radius: 0;
 		justify-content: center;
 	}
-	.name-28HaxV,
-	.actionIcon-2sw4Sl {
+	.name__8d1ec,
+	.actionIcon_d679b5 {
 		transition: color 0.2s;
 	}
-	.content-2V2neN {
+	.content_c6490e {
 		position: relative;
 		top: -3px;
 		padding: 4px 0px;
 	}
-	.linkTop-1W1aK6 {
+	.linkTop_eaa673 {
 		top: 1px;
 		padding: 4px 8px;
 	}
-	.content-2V2neN:before,
-	.linkTop-1W1aK6:before {
+	.content_c6490e:before,
+	.linkTop_eaa673:before {
 		content: '';
 		transition: transform 0.4s;
 		position: absolute;
@@ -100,20 +100,20 @@
 		height: 100%;
 	}
 	// settings/invite button in channel side
-	.children-1MGS9G {
+	.children_a486f8 {
 		margin: 0;
 	}
 	// Selected channel
-	&.modeConnected-NrO4cP,
-	&.modeSelected-3DmyhH,
+	&.modeConnected__1c02e,
+	&.modeSelected__487d6,
 	&:hover {
 		box-shadow: 0 1px $low, 0 -1px $low;
 
-		.content-2V2neN:before,
-		.linkTop-1W1aK6:before {
+		.content_c6490e:before,
+		.linkTop_eaa673:before {
 			transform: scaleX(1);
 		}
-		.icon-2W8DHg {
+		.icon_eff5d4 {
 			color: $high;
 			background-color: $high;
 			// Voice channels/Locked channels/NSFW CHANNELS
@@ -126,52 +126,52 @@
 				fill: $low;
 			}
 		}
-		.actionIcon-2sw4Sl,
-		.name-28HaxV {
+		.actionIcon_d679b5,
+		.name__8d1ec {
 			z-index: 1;
 			color: $high;
 		}
-		.wrapper-2fEmwW {
+		.wrapper__5848b {
 			z-index: 1;
 		}
 	}
 	// Unread channels
-	&.modeUnread-3Cxepe {
-		.icon-2W8DHg {
+	&.modeUnread_f74c03 {
+		.icon_eff5d4 {
 			color: $alert;
 			background-color: $alert;
 		}
-		.name-28HaxV {
+		.name__8d1ec {
 			color: $alert;
 		}
 	}
 }
 // Voice channel limits
-.wrapper-2fEmwW {
+.wrapper__5848b {
 	border-radius: 0;
 	border: 1px solid $mid;
 	height: 18px;
-	.users-2JoyGL {
+	.users__65981 {
 		padding-left: 4px;
 		z-index: 1;
 	}
-	.total-1c5KCN {
+	.total_c01838 {
 		background-color: $alert;
 		color: $high;
 		z-index: 2;
 	}
-	.total-1c5KCN::after {
+	.total_c01838::after {
 		border-right-color: $alert;
 	}
 }
-.base-3IDx3L {
+.base__92a12 {
 	border-radius: 0;
 }
 // Thread splines
-.spineBorder-1-F4s1 {
+.spineBorder_bdec8b {
 	background: transparent;
 }
-.spine-29OFwR {
+.spine__88e6d {
 	top: 10px;
 	left: -18px;
 	width: 12px !important;
@@ -183,6 +183,6 @@
 	}
 }
 
-.typeThread-2Aqh6X .link-1_kTxV {
+.typeThread__2f91c .link__95dc0 {
 	margin-left: 0;
 }

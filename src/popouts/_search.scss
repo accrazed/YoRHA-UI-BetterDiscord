@@ -1,21 +1,21 @@
 // Transparencies
-.searchResult-O9NDji:before,
-.searchResult-O9NDji:after,
-.option-ayUoaq:after,
-.option-ayUoaq:hover:after,
+.searchResult_dcd237:before,
+.searchResult_dcd237:after,
+.option_b5597b:after,
+.option_b5597b:hover:after,
 .channelName-3w2Y3c,
-.searchHeader-1r_ZSh,
-.searchResultsWrap-5RVOkx,
-.theme-dark .option-ayUoaq:after {
+.searchHeader__19d87,
+.searchResultsWrap__9f374,
+.theme-dark .option_b5597b:after {
 	background: transparent;
 }
-.searchHeader-1r_ZSh,
+.searchHeader__19d87,
 .searchResultMessage-1fxgXh.hit-1fVM9e {
 	box-shadow: none;
 }
 // Search Box
 .searchBar-zdmu7v,
-.searchBar-3TnChZ .searchBarComponent-3N7dCG {
+.searchBar_e4ea2a .searchBarComponent__22760 {
 	border: 1px solid $low;
 	background-color: $high-trans;
 	border-radius: 0;
@@ -38,21 +38,21 @@
 .theme-dark {
 	// In-text labels
 
-	.searchAnswer-23w-CH,
-	.searchFilter-2UfsDk {
+	.searchAnswer_b452e7,
+	.searchFilter__118cb {
 		color: $high;
 		background-color: $low;
 	}
-	.elevationBorderHigh-3drnJX,
-	.container-2McqkF {
+	.elevationBorderHigh_f9a758,
+	.container_d6dad3 {
 		@include boxify($high, $mid, 4px);
 	}
-	.queryContainer-ZunrLZ {
+	.queryContainer_c359fe {
 		color: $low;
 		strong {
 			color: $low;
 		}
-		&.focused-2FU0YH {
+		&.focused_f9cf2c {
 			color: $high;
 			background-color: $low;
 			strong {
@@ -61,10 +61,10 @@
 		}
 		border: none;
 	}
-	.resultsGroup-cfY57t {
-		.header-1BR0Ro,
-		.searchClearHistory-3nIKUO,
-		.searchLearnMore-1gNL3A a {
+	.resultsGroup_ea9b64 {
+		.header_b24bd1,
+		.searchClearHistory_cd1df2,
+		.searchLearnMore_bf7b8e a {
 			color: $low;
 		}
 		.plusIcon-2V7coV {
@@ -74,25 +74,25 @@
 			border: none;
 		}
 	}
-	.option-ayUoaq[aria-selected='true'] {
+	.option_b5597b[aria-selected='true'] {
 		background: $low;
 
 		strong {
 			color: $high;
 		}
 	}
-	.option-ayUoaq,
-	.searchOption-3u1gRt {
+	.option_b5597b,
+	.searchOption__41bc5 {
 		margin: 0;
 
-		&.user-1dKxvu .displayUsername-UTer,
-		&.user-1dKxvu .displayedNick-1atSpT,
+		&.user__97b4c .displayUsername-UTer,
+		&.user__97b4c .displayedNick_df9a16,
 		.searchResultChannelCategory-3cL8uG,
 		.searchResultChannelIcon-1Il1Qo,
 		strong,
-		.nonText-28q_Ot,
-		.filter-2QaH9y,
-		.answer-14OVbQ {
+		.nonText_cbb69b,
+		.filter_bd5fe7,
+		.answer__9ff92 {
 			color: $low;
 		}
 
@@ -103,13 +103,13 @@
 			&::after {
 				background: transparent;
 			}
-			.plusIcon-1RVszG,
-			&.user-1dKxvu .displayUsername-UTer,
-			&.user-1dKxvu .displayedNick-1atSpT,
+			.plusIcon__36244,
+			&.user__97b4c .displayUsername-UTer,
+			&.user__97b4c .displayedNick_df9a16,
 			strong,
-			.nonText-28q_Ot,
-			.filter-2QaH9y,
-			.answer-14OVbQ {
+			.nonText_cbb69b,
+			.filter_bd5fe7,
+			.answer__9ff92 {
 				color: $high;
 			}
 			.searchResultChannelCategory-3cL8uG,
@@ -120,20 +120,20 @@
 	}
 }
 // Search results
-.searchResult-O9NDji {
+.searchResult_dcd237 {
 	@include boxify($high, $mid, 5px);
 }
 .tab-2j5AEF {
 	border-radius: 0;
 }
-.searchResult-O9NDji.expanded-w_LCGl,
+.searchResult_dcd237.expanded-w_LCGl,
 .searchResultMessage-1fxgXh.hit-1fVM9e {
 	border: 1px solid $low;
 	border-radius: 0;
 }
 
 // Search calendar
-.theme-dark .calendarPicker-sDhzdi {
+.theme-dark .calendarPicker__5c474 {
 	.react-datepicker__current-month,
 	.react-datepicker__header,
 	.react-datepicker__day,
@@ -152,12 +152,12 @@
 		color: $low;
 	}
 }
-.datePicker-3iA7_k .datePickerHint-Ir4715 {
+.datePicker__94673 .datePickerHint__7cc9b {
 	border: none;
-	.hint-xfbpCV {
+	.hint__460f1 {
 		color: $low;
 	}
-	.hintValue-V9hd8l {
+	.hintValue_c2ce1f {
 		background-color: $low;
 		color: $high;
 	}

@@ -1,11 +1,11 @@
 // Transparencies
-.layer-86YKbF,
-.scroller-3_YDR2,
-.contentRegion-3HkfJJ,
-.sidebarRegionScroller-FXiQOh,
-.side-1lrxIh .separator-2wx7h6,
-.contentRegionScroller-2_GT_N,
-.standardSidebarView-E9Pc3j {
+.layer_e552e0,
+.scroller__52680,
+.contentRegion__0bec1,
+.sidebarRegionScroller__1fa7e,
+.side_b4b3f6 .separator-2wx7h6,
+.contentRegionScroller__86c79,
+.standardSidebarView__1129a {
 	background-color: transparent;
 }
 .theme-dark .row-1Tg75B,
@@ -18,10 +18,10 @@
 // X button
 .theme-dark {
 	.markValue-2U_-UG,
-	.keybind-13vtq8 {
+	.keybind__57645 {
 		color: $low;
 	}
-	.closeButton-PCZcma {
+	.closeButton__34341 {
 		transition: background-color 0.2s;
 		border-color: $low;
 		&:hover {
@@ -33,19 +33,19 @@
 	}
 }
 // Headers
-.h1-3iMExa,
+.h1__90460,
 .h2-1EaYVL {
 	@include titlify(2px, 4px);
 }
-.h5-2feg8J {
+.h5__884a2 {
 	@include titlify(2px, 2px);
 }
 
-.divider-3nqZNm,
+.divider__2bbbc,
 .bd-setting-divider {
 	display: none;
 }
 
-.side-1lrxIh .separator-2N511j {
+.side_b4b3f6 .separator_fdbcfd {
 	visibility: hidden;
 }

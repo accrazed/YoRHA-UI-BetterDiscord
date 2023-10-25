@@ -1,14 +1,14 @@
 // Transparencies
-.app-2CXKsg,
-.bg-1QIAus {
+.app__00c92,
+.bg__7adbf {
 	background-color: transparent;
 }
-.wordmarkWindows-2dq6rw {
+.wordmarkWindows__05c46 {
 	color: transparent;
 }
 // Scrollbars
-.thin-RnSY0a,
-.auto-2TJ1RH {
+.thin_b1c063,
+.auto_a48086 {
 	&::-webkit-scrollbar {
 		width: 6px;
 	}
@@ -23,21 +23,21 @@
 		background-color: transparent;
 	}
 }
-.thin-RnSY0a::-webkit-scrollbar-track {
+.thin_b1c063::-webkit-scrollbar-track {
 	background: transparent;
 }
 // Close/Minimize/Maximize buttons
-.winButtonClose-3Q8ZH5:hover {
+.winButtonClose__73489:hover {
 	transition: background-color 0.2s, color 0.2s ease;
 	color: $high;
 	background: $alert;
 }
-.winButtonMinMax-3RsPUg:hover {
+.winButtonMinMax__72f36:hover {
 	transition: background-color 0.2s, color 0.2s ease;
 	color: $high;
 	background: $low;
 }
-.withFrame-2dL45i {
+.withFrame__485f4 {
 	margin-top: 0;
 	padding-top: 4px;
 }
@@ -67,42 +67,42 @@
 	}
 }
 // Buttons
-.theme-dark .button-1iHNQ2,
+.theme-dark .button__57d93,
 .theme-dark .watchButton-2v6cPT,
-.theme-dark .lookFilled-1H2Jvj.colorPrimary-2-Lusz,
-.lookInverted-2D7oAl.colorGreen-jIPCAS,
-.lookInverted-2D7oAl.colorBrand-2M3O3N,
-.lookFilled-1H2Jvj.colorBrand-2M3O3N,
+.theme-dark .lookFilled__19298.colorPrimary__6ed40,
+.lookInverted-2D7oAl.colorGreen__5f181,
+.lookInverted-2D7oAl.colorBrand_b2253e,
+.lookFilled__19298.colorBrand_b2253e,
 .container-x8Y1ix,
-.lookOutlined-3RTC7c.colorGreen-jIPCAS,
-.lookOutlined-3RTC7c.colorBrand-2M3O3N,
-.lookFilled-1H2Jvj.colorPrimary-2-Lusz,
-.lookFilled-1H2Jvj.colorGrey-2DXtkV,
-.lookFilled-1H2Jvj.colorBrand-2M3O3N,
-.lookFilled-1H2Jvj.colorBrand-2M3O3N:disabled {
+.lookOutlined__46d54.colorGreen__5f181,
+.lookOutlined__46d54.colorBrand_b2253e,
+.lookFilled__19298.colorPrimary__6ed40,
+.lookFilled__19298.colorGrey-2DXtkV,
+.lookFilled__19298.colorBrand_b2253e,
+.lookFilled__19298.colorBrand_b2253e:disabled {
 	@include buttonify($low, $high, $mid, $high);
 }
 #bd-settingspane-container .bd-pfbtn, // PRE-BETA BBD: WILL BE DEPRECIATED SOON
-.theme-dark .lookOutlined-3RTC7c.colorPrimary-2-Lusz,
+.theme-dark .lookOutlined__46d54.colorPrimary__6ed40,
 .jumpButton-JkYoYK,
-.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx,
-.lookFilled-1H2Jvj.colorGreen-jIPCAS,
-.lookFilled-1H2Jvj.colorRed-2VFhM4,
-.lookOutlined-3RTC7c.colorRed-2VFhM4 {
+.button__66e8c.buttonColor_a6eb73.buttonActive__407a7,
+.lookFilled__19298.colorGreen__5f181,
+.lookFilled__19298.colorRed_d6b062,
+.lookOutlined__46d54.colorRed_d6b062 {
 	@include buttonify($alert, $high, $low, $high);
 }
-.lookOutlined-3RTC7c.colorWhite-rEQuAQ {
+.lookOutlined__46d54.colorWhite-rEQuAQ {
 	@include buttonify($alert, $high, $high, $low);
 }
 // Slider / Toggle switch
-.container-1QtPKm {
+.container__871ba {
 	background-color: $low !important;
 	border-radius: 0;
 }
-.input-125oad {
+.input_be50d1 {
 	border-radius: 0;
 }
-.slider-HJFN2i rect {
+.slider__41d94 rect {
 	fill: $high;
 	rx: 0;
 	ry: 4;
@@ -139,20 +139,20 @@
 	}
 }
 
-.colorDefault-2_rLdz.focused-3LIdPu .caret-1TZU-U,
-.colorDefault-2_rLdz.focused-3LIdPu .checkbox-397WsK,
-.colorDefault-2_rLdz.focused-3LIdPu .radioSelection-3PDNAQ,
-.colorDefault-2_rLdz.focused-3LIdPu .subtext-1mqKVB {
+.colorDefault__0b482.focused__27621 .caret_ce50ce,
+.colorDefault__0b482.focused__27621 .checkbox__45366,
+.colorDefault__0b482.focused__27621 .radioSelection__5ed39,
+.colorDefault__0b482.focused__27621 .subtext__8a015 {
 	color: $high;
 }
 
-.colorDefault-2_rLdz .checkbox-397WsK,
-.colorDefault-2_rLdz .radioSelection-3PDNAQ {
+.colorDefault__0b482 .checkbox__45366,
+.colorDefault__0b482 .radioSelection__5ed39 {
 	color: $alert;
 }
 
-.colorDefault-2_rLdz .check-3-73a4,
-.colorDefault-2_rLdz.focused-3LIdPu {
+.colorDefault__0b482 .check__8d1bd,
+.colorDefault__0b482.focused__27621 {
 	color: $mid;
 }
 
@@ -185,8 +185,8 @@
 		background-color: $low;
 		color: $high;
 
-		.colorStandard-1Xxp1s,
-		.subtitle-2SfoOV {
+		.colorStandard__5111e,
+		.subtitle__1eabe {
 			color: $high;
 		}
 	}
@@ -196,7 +196,7 @@
 	}
 }
 // Pulley bar
-.barFill-3RgCsY {
+.barFill__30e17 {
 	background: $alert;
 }
 .theme-dark .bar-1Bhnl9 {

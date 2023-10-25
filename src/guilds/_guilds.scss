@@ -1,39 +1,39 @@
 // Transparencies
-.theme-dark .scroller-3X7KbA,
-.wrapper-1_HaEi,
-.scroller-3X7KbA {
+.theme-dark .scroller__3d071,
+.wrapper_a7e7a8,
+.scroller__3d071 {
 	background-color: transparent;
 }
-.guildSeparator-a4uisj {
+.guildSeparator_dcb3cc {
 	height: 0;
 }
-.listItem-GuPuDH .svg-2ifYOU foreignObject {
+.listItem-GuPuDH .svg_ad7356 foreignObject {
 	mask: none;
 }
 .homeIcon-FuNwkv, // deprecated
-.homeIcon-r0w4ny {
+.homeIcon__00b1b {
 	width: 48px;
 	height: 56px;
 }
 // Guild icons
-.wrapper-2PSQCG > svg > mask {
+.wrapper__3af0b > svg > mask {
 	display: none;
 }
-.wrapperSimple-2SFl9K {
+.wrapperSimple_a34580 {
 	border-radius: 0;
 }
 // Folder
-.expandedFolderBackground-1kSAf6 {
+.expandedFolderBackground__1bec6 {
 	@include boxify($high, $mid, 3px);
 }
 .scroller-2TZvBN > div[aria-label='Servers'] > .listItem-2P_4kh foreignObject {
 	@include boxify($high, $mid, 3px);
 }
 // folder inner (color/icons)
-.folderIconWrapper-1oRIZr {
+.folderIconWrapper__72239 {
 	border-radius: 0;
 
-	.iconInactive-26M06U {
+	.iconInactive__90d40 {
 		border-radius: 0;
 	}
 }
@@ -42,11 +42,11 @@
 	border-radius: 0;
 }
 // Servers with no icons
-.acronym-2zrAHN {
+.acronym_cd4809 {
 	color: $low !important;
 }
 // Selected / Unread Guild
-.item-2LIpTv {
+.item_f9d377 {
 	width: 11px;
 	transition: background-color 0.2s;
 	background-color: $low;
@@ -54,11 +54,11 @@
 	height: 48px !important;
 }
 // Unread Guild
-.item-2LIpTv[style='opacity: 1; height: 8px; transform: none;'] {
+.item_f9d377[style='opacity: 1; height: 8px; transform: none;'] {
 	background-color: $alert;
 }
 // Streaming icon
-.iconBadge-32fMme {
+.iconBadge_fdf33a {
 	background-color: $low;
 
 	// Also participating
@@ -67,11 +67,11 @@
 	}
 }
 // Unread blip out of screen
-.mention-3XBnnZ {
+.mention__1afd3 {
 	@include boxify($alert, $low, 3px);
 }
 // Notification blip
-.numberBadge-37OJ3S {
+.numberBadge__50328 {
 	background-color: $alert !important;
 	color: $high !important;
 	border-radius: 0;
@@ -86,21 +86,21 @@
 	}
 }
 // Discover screen
-.theme-dark .card-2TuZPZ,
-.theme-dark .iconMask-2fMR98 {
+.theme-dark .card__86773,
+.theme-dark .iconMask__1aff7 {
 	@include boxify($high, $mid, 5px);
 }
-.theme-dark .contentWrapper-3oy4Xo {
+.theme-dark .contentWrapper__85d37 {
 	@include boxify($high, $mid, 5px);
 
-	.lookLink-13iF2K.colorBrand-2M3O3N {
+	.lookLink__93965.colorBrand_b2253e {
 		color: $alert;
 		text-decoration-color: $alert;
 	}
 }
 
-.wrapper-2SplAX, // You must complete a few more steps before you can talk
-.container-2dXT_2 // You can't talk in here yet
+.wrapper_fbbb73, // You must complete a few more steps before you can talk
+.container_d4b118 // You can't talk in here yet
 {
 	@include boxify($high, $mid, 3px);
 }
