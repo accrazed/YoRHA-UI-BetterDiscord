@@ -768,7 +768,8 @@ html {
   }
 }
 .iconSize__78a46 {
-  mask: url("https://discord.com/assets/c30220448097b064286a8759a9b6c4af.svg");
+  -webkit-mask: url("https://discord.com/assets/c30220448097b064286a8759a9b6c4af.svg");
+          mask: url("https://discord.com/assets/c30220448097b064286a8759a9b6c4af.svg");
   background: var(--color-alert) !important;
 }
 
@@ -1132,7 +1133,8 @@ path[d="M5.43309 21C5.35842 21 5.30189 20.9325 5.31494 20.859L5.99991 17H2.14274
 
 .emptyChannelIcon__1a1ba {
   background-image: url("https://svgur.com/i/RGT.svg");
-  mask: url("https://svgur.com/i/RGT.svg");
+  -webkit-mask: url("https://svgur.com/i/RGT.svg");
+          mask: url("https://svgur.com/i/RGT.svg");
   background: var(--color-mid) !important;
   margin: auto;
   width: 403px !important;
@@ -1567,7 +1569,8 @@ strong {
 }
 
 .listItem-GuPuDH .svg_ad7356 foreignObject {
-  mask: none;
+  -webkit-mask: none;
+          mask: none;
 }
 
 .homeIcon-FuNwkv,
@@ -2092,7 +2095,8 @@ strong {
   background: url("https://i.ibb.co/Fq9Jt09/Nie-R-Lattice.png");
   z-index: 10000;
   opacity: 0.03;
-  user-select: none;
+  -webkit-user-select: none;
+          user-select: none;
   pointer-events: none;
 }
 
@@ -2599,7 +2603,8 @@ foreignObject[mask="url(#svg-mask-status-offline)"] .status__1c26d {
 }
 
 .bannerSVGWrapper__3e7b0 foreignObject {
-  mask: none !important;
+  -webkit-mask: none !important;
+          mask: none !important;
 }
 
 .bannerSVGWrapper__3e7b0 {
@@ -4267,9 +4272,11 @@ foreignObject[mask="url(#svg-mask-status-offline)"] .status__1c26d {
 }
 
 .theme-dark .quickSelectArrow__9853b {
-  mask: url("https://discord.com/assets/f58cf3b8fc79e9d671ab649ab37651a9.svg");
+  -webkit-mask: url("https://discord.com/assets/f58cf3b8fc79e9d671ab649ab37651a9.svg");
+          mask: url("https://discord.com/assets/f58cf3b8fc79e9d671ab649ab37651a9.svg");
   background: var(--color-low) !important;
-  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
 }
 
 .draggable__081c0 {
