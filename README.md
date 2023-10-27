@@ -25,7 +25,7 @@ Make sure to turn on hardware acceleration!
 To turn off the home icon spin, you can add this to your override CSS on BetterDiscord:
 
 ```scss
-.tutorialContainer-1pL9QS .svg-2ifYOU
+.tutorialContainer__890ea .svg_ad7356
  {
   animation-name: none !important;
 }
