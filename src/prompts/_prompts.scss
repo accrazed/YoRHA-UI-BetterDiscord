@@ -216,24 +216,14 @@
 	@include boxify($high, $mid, 4px);
 }
 // Reactions
-.theme-dark {
-	.reactors__20ab0,
-	.scroller__5fda0 {
-		background: transparent;
-	}
-	.reactorDefault__5b249 {
-		box-shadow: none;
-	}
-	.remove__6bd0e,
-	.discriminator__18879 {
-		color: $low;
-	}
-	.reactionSelected__249a7,
-	.reactionDefault__792ef:hover {
-		background: $low;
-		border-radius: 0;
+.reaction_fef95b {
+	border-radius: 0;
+	@include boxify($high, $mid, 3px);
 
-		.colorStandard__5111e {
+	&.reactionMe__98f57 {
+		background-color: $low;
+
+		.reactionCount_b49901 {
 			color: $high;
 		}
 	}

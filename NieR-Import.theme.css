@@ -1619,27 +1619,27 @@ path[d="M5.43309 21C5.35842 21 5.30189 20.9325 5.31494 20.859L5.99991 17H2.14274
   background-color: transparent;
 }
 
-.mainCard-3KBsBI {
+.mainCard__8a660 {
   background: var(--color-high);
   border-radius: 0;
   -webkit-box-shadow: 3px 3px 0 var(--color-mid);
           box-shadow: 3px 3px 0 var(--color-mid);
 }
-.mainCard-3KBsBI:hover {
+.mainCard__8a660:hover {
   -webkit-box-shadow: 3px 3px 0 var(--color-mid);
           box-shadow: 3px 3px 0 var(--color-mid);
 }
-.mainCard-3KBsBI:hover {
+.mainCard__8a660:hover {
   background: var(--color-high-trans);
   border-radius: 0;
   -webkit-box-shadow: 3px 3px 0 var(--color-mid);
           box-shadow: 3px 3px 0 var(--color-mid);
 }
-.mainCard-3KBsBI:hover:hover {
+.mainCard__8a660:hover:hover {
   -webkit-box-shadow: 3px 3px 0 var(--color-mid);
           box-shadow: 3px 3px 0 var(--color-mid);
 }
-.mainCard-3KBsBI .newBadge-1LcB6t {
+.mainCard__8a660 .newBadge-1LcB6t {
   background-color: var(--color-alert) !important;
 }
 
@@ -3662,25 +3662,21 @@ foreignObject[mask="url(#svg-mask-status-offline)"] .status__1c26d {
           box-shadow: 4px 4px 0 var(--color-mid);
 }
 
-.theme-dark .reactors__20ab0,
-.theme-dark .scroller__5fda0 {
-  background: transparent;
-}
-.theme-dark .reactorDefault__5b249 {
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
-.theme-dark .remove__6bd0e,
-.theme-dark .discriminator__18879 {
-  color: var(--color-low);
-}
-.theme-dark .reactionSelected__249a7,
-.theme-dark .reactionDefault__792ef:hover {
-  background: var(--color-low);
+.reaction_fef95b {
   border-radius: 0;
+  background: var(--color-high);
+  border-radius: 0;
+  -webkit-box-shadow: 3px 3px 0 var(--color-mid);
+          box-shadow: 3px 3px 0 var(--color-mid);
 }
-.theme-dark .reactionSelected__249a7 .colorStandard__5111e,
-.theme-dark .reactionDefault__792ef:hover .colorStandard__5111e {
+.reaction_fef95b:hover {
+  -webkit-box-shadow: 3px 3px 0 var(--color-mid);
+          box-shadow: 3px 3px 0 var(--color-mid);
+}
+.reaction_fef95b.reactionMe__98f57 {
+  background-color: var(--color-low);
+}
+.reaction_fef95b.reactionMe__98f57 .reactionCount_b49901 {
   color: var(--color-high);
 }
 
@@ -3709,7 +3705,7 @@ foreignObject[mask="url(#svg-mask-status-offline)"] .status__1c26d {
   color: var(--color-high) !important;
 }
 
-.layer_e552e0,
+.layer__2efaa,
 .scroller__52680,
 .contentRegion__0bec1,
 .sidebarRegionScroller__1fa7e,
