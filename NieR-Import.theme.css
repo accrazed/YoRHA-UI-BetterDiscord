@@ -1117,11 +1117,11 @@ path[d="M5.43309 21C5.35842 21 5.30189 20.9325 5.31494 20.859L5.99991 17H2.14274
 .wrapper__7bcde.modeConnected__1c02e .wrapper__5848b, .wrapper__7bcde.modeSelected__487d6 .wrapper__5848b, .wrapper__7bcde:hover .wrapper__5848b {
   z-index: 1;
 }
-.wrapper__7bcde.modeUnread_f74c03 .icon_eff5d4 {
+.wrapper__7bcde.modeUnreadImportant_efb53e .icon_eff5d4 {
   color: var(--color-alert);
   background-color: var(--color-alert);
 }
-.wrapper__7bcde.modeUnread_f74c03 .name__8d1ec {
+.wrapper__7bcde.modeUnreadImportant_efb53e .name__8d1ec {
   color: var(--color-alert);
 }
 
