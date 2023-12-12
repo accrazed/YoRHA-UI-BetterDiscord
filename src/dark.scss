@@ -3,11 +3,13 @@
 	background: url('https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/wallpapers/dark-theme-1440.png')
 		center/cover no-repeat;
 }
+
 // Home icon
 .tutorialContainer__890ea .svg_ad7356 {
 	background: url('https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/icons/home_dark-theme.png')
 		center/contain no-repeat;
 }
+
 // Theatre effect
 #app-mount:before {
 	content: '';
@@ -25,11 +27,6 @@
 		radial-gradient(transparent 50%, rgba(218, 212, 187, 0.1));
 	user-select: none;
 	pointer-events: none;
-}
-
-.theme-dark .mentioned__58017 a.anchor-1MIwyf {
-	background-color: $low-trans;
-	border-radius: 0.25em;
 }
 
 // Highlighting text

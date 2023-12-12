@@ -24,10 +24,6 @@
 	user-select: none;
 	pointer-events: none;
 }
-.theme-dark .mentioned__58017 a.anchor-1MIwyf {
-	background-color: var(--color-low-trans);
-	border-radius: 0.25em;
-}
 ::selection {
 	background-color: var(--color-alert);
 	color: var(--color-low);

@@ -1265,6 +1265,13 @@ path[d="M5.43309 21C5.35842 21 5.30189 20.9325 5.31494 20.859L5.99991 17H2.14274
   background: var(--color-high);
 }
 
+.mentioned__58017 .messageContent__21e69 a,
+.wrapper_f46140,
+.roleMention__02469,
+.mention {
+  text-shadow: #000 0 0 3px;
+}
+
 .mouse-mode.full-motion .replying_d7b6ad, .mouse-mode.full-motion .replying_d7b6ad:hover {
   background-color: var(--color-alert-trans);
 }
