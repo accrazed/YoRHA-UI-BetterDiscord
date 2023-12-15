@@ -1,0 +1,48 @@
+#app-mount {
+	background: url('https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/wallpapers/dark-theme-1440.png')
+		center/cover no-repeat;
+}
+
+.tutorialContainer__890ea .svg_ad7356 {
+	background: url('https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/icons/home_dark-theme.png')
+		center/contain no-repeat;
+}
+
+#app-mount:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(
+			to right,
+			rgba(218, 212, 187, 0.05),
+			transparent 30%,
+			transparent 80%,
+			rgba(218, 212, 187, 0.05)
+		),
+		radial-gradient(transparent 50%, rgba(218, 212, 187, 0.1));
+	user-select: none;
+	pointer-events: none;
+}
+::selection {
+	background-color: var(--color-alert);
+	color: var(--color-low);
+}
+
+#app-mount:before {
+	display: none;
+}
+
+.appAsidePanelWrapper__714a6,
+.titleBar__01af6 {
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+:root {
+	--color-high: rgb(29, 28, 25);
+	--color-low: rgb(176, 171, 152);
+	--color-high-trans: rgba(29, 28, 25, 0.6);
+	--color-low-trans: rgba(176, 171, 152, 0.8);
+	--color-mid: rgb(60, 60, 60);
+}
