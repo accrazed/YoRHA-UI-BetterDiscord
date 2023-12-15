@@ -40,9 +40,9 @@
 }
 
 :root {
-	--color-high: rgb(29, 28, 25);
-	--color-low: rgb(176, 171, 152);
-	--color-high-trans: rgba(29, 28, 25, 0.6);
-	--color-low-trans: rgba(176, 171, 152, 0.8);
-	--color-mid: rgb(60, 60, 60);
+	--color-high: rgb(29, 28, 25) !important;
+	--color-low: rgb(176, 171, 152) !important;
+	--color-high-trans: rgba(29, 28, 25, 0.6) !important;
+	--color-low-trans: rgba(176, 171, 152, 0.8) !important;
+	--color-mid: rgb(60, 60, 60) !important;
 }
