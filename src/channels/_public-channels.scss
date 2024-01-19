@@ -24,6 +24,12 @@
 // Channel hover/select animations
 .containerDefault__3187b {
 	padding-bottom: 4px;
+
+	.typeVoice_f4ba92 .linkBottom_bac113 {
+		top: 35px;
+		right: 10px;
+		position: absolute;
+	}
 }
 .wrapper__7bcde {
 	height: 30px;
@@ -112,6 +118,10 @@
 		.content_c6490e:before,
 		.linkTop_eaa673:before {
 			transform: scaleX(1);
+		}
+
+		&.typeVoice_f4ba92 .icon_eff5d4 {
+			color: $low;
 		}
 		.icon_eff5d4 {
 			color: $high;

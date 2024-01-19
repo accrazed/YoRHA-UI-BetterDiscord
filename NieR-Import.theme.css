@@ -989,6 +989,11 @@ path[d="M5.43309 21C5.35842 21 5.30189 20.9325 5.31494 20.859L5.99991 17H2.14274
 .containerDefault__3187b {
   padding-bottom: 4px;
 }
+.containerDefault__3187b .typeVoice_f4ba92 .linkBottom_bac113 {
+  top: 35px;
+  right: 10px;
+  position: absolute;
+}
 
 .wrapper__7bcde {
   height: 30px;
@@ -1084,6 +1089,9 @@ path[d="M5.43309 21C5.35842 21 5.30189 20.9325 5.31494 20.859L5.99991 17H2.14274
 .wrapper__7bcde:hover .linkTop_eaa673:before {
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
+}
+.wrapper__7bcde.modeConnected__1c02e.typeVoice_f4ba92 .icon_eff5d4, .wrapper__7bcde.modeSelected__487d6.typeVoice_f4ba92 .icon_eff5d4, .wrapper__7bcde:hover.typeVoice_f4ba92 .icon_eff5d4 {
+  color: var(--color-low);
 }
 .wrapper__7bcde.modeConnected__1c02e .icon_eff5d4, .wrapper__7bcde.modeSelected__487d6 .icon_eff5d4, .wrapper__7bcde:hover .icon_eff5d4 {
   color: var(--color-high);
