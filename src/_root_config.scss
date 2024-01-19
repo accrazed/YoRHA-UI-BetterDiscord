@@ -1,8 +1,12 @@
+@import url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/font/vietnam/stylesheet.css');
+
 .theme-dark,
 .theme-light,
 :root {
-	--font-primary: var(--nier-font), 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
-	--font-display: var(--nier-font), 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	--font-primary: var(--nier-font), 'vietnam-pro', 'Whitney', 'Helvetica Neue', Helvetica, Arial,
+		sans-serif !important;
+	--font-display: var(--nier-font), 'vietnam-pro', 'Whitney', 'Helvetica Neue', Helvetica, Arial,
+		sans-serif !important;
 
 	--header-primary: var(--color-low);
 	--header-secondary: var(--color-low);
