@@ -1719,19 +1719,19 @@ path[d="M5.43309 21C5.35842 21 5.30189 20.9325 5.31494 20.859L5.99991 17H2.14274
 }
 
 ::-webkit-input-placeholder {
-  font-family: var(--nier-font), Arial, Helvetica, sans-serif;
+  font-family: var(--nier-font), "vietnam-pro", Arial, Helvetica, sans-serif;
 }
 
 ::-moz-placeholder {
-  font-family: var(--nier-font), Arial, Helvetica, sans-serif;
+  font-family: var(--nier-font), "vietnam-pro", Arial, Helvetica, sans-serif;
 }
 
 :-ms-input-placeholder {
-  font-family: var(--nier-font), Arial, Helvetica, sans-serif;
+  font-family: var(--nier-font), "vietnam-pro", Arial, Helvetica, sans-serif;
 }
 
 ::-ms-input-placeholder {
-  font-family: var(--nier-font), Arial, Helvetica, sans-serif;
+  font-family: var(--nier-font), "vietnam-pro", Arial, Helvetica, sans-serif;
 }
 
 ::placeholder,
@@ -1740,7 +1740,7 @@ button,
 input,
 select,
 textarea {
-  font-family: var(--nier-font), Arial, Helvetica, sans-serif;
+  font-family: var(--nier-font), "vietnam-pro", Arial, Helvetica, sans-serif;
 }
 
 strong {
