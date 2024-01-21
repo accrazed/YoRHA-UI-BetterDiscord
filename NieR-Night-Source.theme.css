@@ -16,7 +16,7 @@
  *  ;;`;;    ,;;;'````' ,;;;'````' ;;;;``;;;;   ;;`;;    '`````;;;;;;;'''' ;;,   `';,
  * ,[[ '[[,  [[[        [[[         [[[,/[[['  ,[[ '[[,      .n[[' [[cccc  `[[     [[
  * c$$$cc$$$c $$$        $$$         $$$$$$c   c$$$cc$$$c   ,$$P"   $$""""   $$,    $$
- * 888   888,`88bo,__,o,`88bo,__,o, 888b "88bo,888   888,,888bo,_  888oo,__ 888_,o8P'
+ * 888   888,`88bo,__,o,`88bo,__,o, 888b "88bo,888   888,,88s8bo,_  888oo,__ 888_,o8P'
  * YMM   ""`   "YUMMMMMP" "YUMMMMMP"MMMM   "W" YMM   ""`  `""*UMM  """"YUMMMMMMMP"`  
  */
 
@@ -24,6 +24,11 @@
 @import url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/NieR-Cursor.css'); /* Cursor */
 @import url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/NieR-Import.theme.css'); /* Main File */
 @import url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/NightImport.theme.css'); /* Night Part of Theme */
+
+@import url('https://buns.gay/YoRHA-UI-BetterDiscord/font/stylesheet.css'); /* Font */
+@import url('https://buns.gay/YoRHA-UI-BetterDiscord/NieR-Cursor.css'); /* Cursor */
+@import url('https://buns.gay/YoRHA-UI-BetterDiscord/NieR-Import.theme.css'); /* Main File */
+@import url('https://buns.gay/YoRHA-UI-BetterDiscord/NightImport.theme.css'); /* Night Part of Theme */
 
 /* GLOBAL VARIABLES */
 :root {

@@ -25,6 +25,11 @@
 @import url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/NieR-Import.theme.css'); /* Main File */
 @import url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/LightImport.theme.css'); /* Light Part of Theme */
 
+@import url('https://buns.gay/YoRHA-UI-BetterDiscord/font/stylesheet.css'); /* Font */
+@import url('https://buns.gay/YoRHA-UI-BetterDiscord/NieR-Cursor.css'); /* Cursor */
+@import url('https://buns.gay/YoRHA-UI-BetterDiscord/NieR-Import.theme.css'); /* Main File */
+@import url('https://buns.gay/YoRHA-UI-BetterDiscord/LightImport.theme.css'); /* Light Part of Theme */
+
 /* GLOBAL VARIABLES */
 :root {
 	--color-high: rgb(218, 212, 187);
