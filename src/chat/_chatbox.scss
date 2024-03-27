@@ -1,30 +1,30 @@
 // Transparencies
-.theme-dark .form__13a2c:before {
+.theme-dark .form_d8a4a1:before {
 	background: transparent;
 }
 // Type box
-.channelTextArea__56a36 {
+.channelTextArea__648e5 {
 	width: auto;
 }
-.channelTextArea__2e60f {
+.channelTextArea_c2094b {
 	border-radius: 0;
 	margin-left: 21px;
 	box-shadow: -3px 0 0 $low, -9px 0 0 $high, -21px 0 0 $low, -18px 3px 0 $mid, 3px 3px 0 $mid;
 }
-.placeholder__4bea5 {
+.placeholder__443e5 {
 	color: $mid;
 }
-.cooldownWrapper_de448f {
+.cooldownWrapper__193b2 {
 	color: $low !important;
 }
 // Buttons
-.attachButton_b1db83 {
+.attachButton__56f98 {
 	padding: {
 		left: 10px;
 		right: 10px;
 	}
 
-	&:hover .attachButtonPlus_bf89ca {
+	&:hover .attachButtonPlus_fd0021 {
 		transition: fill 0.1s ease-in-out;
 		fill: $mid;
 	}

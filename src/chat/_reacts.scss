@@ -1,23 +1,23 @@
 // Reacts
-.reaction_b90ab0 {
+.reaction_ef7e09 {
 	border-radius: 0;
 	background-color: transparent;
 	border: 1px solid $low;
 
-	&.reactionMe_bf6909 {
+	&.reactionMe__9fc5c {
 		border: 1px solid $low;
 		@include boxify($low, $mid, 2px);
-		.reactionCount__60448 {
+		.reactionCount_b780c8 {
 			color: $high;
 		}
 	}
 
-	.reactionCount__60448 {
+	.reactionCount_b780c8 {
 		color: $low;
 	}
 	&:hover {
 		@include boxify($mid, $mid, 2px);
-		.reactionCount__60448 {
+		.reactionCount_b780c8 {
 			color: $high;
 		}
 	}

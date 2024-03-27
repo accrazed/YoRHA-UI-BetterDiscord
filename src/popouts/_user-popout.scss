@@ -56,8 +56,8 @@
 }
 
 .top-K_jibn {
-	.selected__5711d.item__48dda,
-	.selected__5711d.item__48dda:hover {
+	.selected_a523ff.item__48dda,
+	.selected_a523ff.item__48dda:hover {
 		color: $low;
 	}
 }
@@ -66,13 +66,13 @@
 .headerTagUsernameBase-XYisdh,
 .headerTagUsernameNoNickname-1TjuLc,
 .discrimBase-1VOoau,
-.theme-dark .newPopoutActivityStyles .activityName__47e51,
+.theme-dark .newPopoutActivityStyles .activityName_a7b7de,
 .activityHeader-1PExlk,
 .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_),
 .colorDefault-CDqZdO.focused-3qFvc8,
-.text__13126,
-.nameWrap__7263f,
-.activityName__47e51 {
+.text__6822d,
+.nameWrap_b61c4b,
+.activityName_a7b7de {
 	color: $high;
 }
 .customStatusText-3ca2B1 {
@@ -97,7 +97,7 @@
 	background: $low;
 }
 
-.barInner_d1abc6 {
+.barInner__0f713 {
 	background: $high;
 }
 
@@ -106,16 +106,16 @@
 	order: 10;
 	padding: 16px;
 	background-color: $low;
-	.nameWrap__7263f,
-	.content_d7cb7f,
-	.headerText__7d203 {
+	.nameWrap_b61c4b,
+	.content__7246b,
+	.headerText_c0138d {
 		color: $high;
 	}
 }
 
 // Rich Embed Game Icon
-.gameIcon__90c32,
-.assetsLargeImage_b88a59 {
+.gameIcon_fc710a,
+.assetsLargeImage__57902 {
 	border-radius: 0;
 	border: 1px solid $high;
 }
@@ -128,7 +128,7 @@
 	border-color: $low;
 }
 
-.theme-dark .newPopoutActivityStyles .activityName__47e51 {
+.theme-dark .newPopoutActivityStyles .activityName_a7b7de {
 	color: $low;
 }
 
@@ -137,13 +137,13 @@
 	flex-direction: column;
 }
 
-.popoutBanner__9f5b9 {
+.popoutBanner__3fbe8 {
 	position: relative;
 	order: 0;
 }
 
 // Header
-.userPopoutInner_f545a3 {
+.userPopoutInner_e90432 {
 	position: static;
 	background-color: $low;
 	.customStatus-3XAoF9,
@@ -153,7 +153,7 @@
 	.discrimBase-1QwWzY {
 		color: $high;
 	}
-	.profileBadges__7a7cb {
+	.profileBadges__1f2ab {
 		position: absolute;
 		z-index: 1;
 		top: 10px;
@@ -177,7 +177,7 @@
 	order: 1;
 }
 // Avatar
-.avatarWrapper_f77579 {
+.avatarWrapper__0cd44 {
 	margin: 15px auto;
 	display: flex;
 	position: relative;
@@ -192,7 +192,7 @@
 	background-color: $mid;
 	border-radius: 0;
 
-	.avatarHoverTarget__3a360 {
+	.avatarHoverTarget__9b4a9 {
 		position: absolute;
 		top: 50%;
 		transform: translateY(-50%);
@@ -202,31 +202,31 @@
 }
 
 // Avatar hint
-.avatarWrapperNormal__0bddb,
-.avatarWrapperNormal__0bddb:hover {
-	.avatarDecorationHint__03e0b,
-	.avatarHint__8e5b9 {
+.avatarWrapperNormal__36eec,
+.avatarWrapperNormal__36eec:hover {
+	.avatarDecorationHint__04b99,
+	.avatarHint__15059 {
 		position: relative;
 		margin: auto;
 	}
 }
-.avatarDecorationHint__03e0b {
+.avatarDecorationHint__04b99 {
 	top: 0;
 	left: 0;
 }
 
-.defaultColor__37d78 {
+.defaultColor__30336 {
 	color: $low;
 }
 
-.roleName_d19d33 .defaultColor__37d78 {
+.roleName__851c9 .defaultColor__30336 {
 	color: $high;
 }
 
 .eyebrow_e5a66c {
 	color: $low !important;
 }
-.userPopoutOverlayBackground_d8afa4 {
+.userPopoutOverlayBackground_bf6444 {
 	order: 3;
 }
 
@@ -236,17 +236,17 @@
 }
 
 // roles
-.theme-dark .role__631a3 {
+.theme-dark .role_d81130 {
 	background: $low;
 	color: $high;
-	.actionButton__81eaa {
+	.actionButton__96742 {
 		color: $high;
 	}
 }
 // Spotify
 .bar_e63719 {
 	border: 1px solid $mid;
-	.barInner_d1abc6 {
+	.barInner__0f713 {
 		background-color: $alert;
 	}
 }
@@ -258,30 +258,30 @@
 	background: $high;
 }
 
-.overlayBackground__86b78,
-.userPopoutInner_f545a3:before {
+.overlayBackground__2666e,
+.userPopoutInner_e90432:before {
 	background: transparent;
 }
-.divider__56f26 {
+.divider__126d2 {
 	display: none;
 }
-.connectedAccountOpenIcon_df549d:hover {
+.connectedAccountOpenIcon__23b1a:hover {
 	color: $mid;
 }
 
-.userProfileOuter__46bb7 {
+.userProfileOuter__4ac83 {
 	@include boxify($high, $mid, 3px);
 }
 .roundedBanner-TdlJGa {
 	border-radius: 0;
 }
 
-.userProfileOuterThemed__6eb84.userPopoutOuter_d739b2,
-.userProfileOuterThemed__6eb84.userProfileOuter__46bb7 {
+.userProfileOuterThemed__1fbd7.userPopoutOuter__3884e,
+.userProfileOuterThemed__1fbd7.userProfileOuter__4ac83 {
 	padding: 0;
 }
 
-.overlayBackground__86b78 {
+.overlayBackground__2666e {
 	background: $high;
 	border-radius: 0%;
 	border: 2px solid $low;
@@ -298,7 +298,7 @@
 	border-bottom-color: $mid;
 }
 
-.top-K_jibn .selected__5711d.themed-2-lozF.item__48dda,
+.top-K_jibn .selected_a523ff.themed-2-lozF.item__48dda,
 .top-K_jibn .themed-2-lozF.item__48dda:active {
 	border-bottom-color: $low;
 }

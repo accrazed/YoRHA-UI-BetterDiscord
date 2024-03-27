@@ -1,11 +1,11 @@
 // Backdrop
-.backdrop__7e89b,
+.backdrop__1a911,
 .backdropWithLayer-3_uhz4 {
 	opacity: 0.4 !important;
 }
 // Transparencies
 .theme-dark .separator-2lLxgC,
-.theme-dark .footer_ceda43,
+.theme-dark .footer_f06dbb,
 .theme-dark .footer-31IekZ {
 	background-color: transparent;
 	box-shadow: none;
@@ -29,25 +29,25 @@
 .h5-2RwDNl,
 .footer-31IekZ,
 .uploadIcon-2wV7s_,
-.colorMuted_ae2200,
-.colorHeaderPrimary_fcac0c,
-.colorHeaderSecondary__90aae {
+.colorMuted__413e9,
+.colorHeaderPrimary_b60093,
+.colorHeaderSecondary__5539c {
 	color: $low;
 }
 .anchor-1MIwyf {
 	color: $alert;
 }
 // start from template / create my own
-.container-x8Y1ix .defaultColor__37d78 {
+.container-x8Y1ix .defaultColor__30336 {
 	color: $high;
 }
 // You've been invited to join a server
-.container__8cd73 {
+.container__734b5 {
 	.title__8f1f4 {
 		color: $low;
 	}
 }
-.iconActiveLarger__0698f {
+.iconActiveLarger__1e0da {
 	border-radius: 0;
 }
 // Join a server
@@ -58,7 +58,7 @@
 .rowContainer-3t7486 {
 	border-radius: 0;
 	background-color: $low;
-	.defaultColor__37d78 {
+	.defaultColor__30336 {
 		color: $high;
 	}
 
@@ -70,25 +70,25 @@
 	color: $low;
 }
 // Upload Image
-.theme-dark .uploadModal_eae2a0 {
+.theme-dark .uploadModal__6eb75 {
 	@include boxify($high, $mid, 6px);
-	.scrollableContainer__33e06 {
+	.scrollableContainer_ff917f {
 		box-shadow: none;
 		border: 3px solid $low;
 	}
 }
 // Image popout carousel
-.arrowContainer__94160 {
+.arrowContainer_eb1184 {
 	background-color: $alert;
 }
 // Drag and drop upload
-.uploadModalIn_c0ca4b .uploadDropModal__73a36 {
-	.inner__7afe9 .instructions__9e259,
+.uploadModalIn_c0e1db .uploadDropModal_cfadae {
+	.inner__7afe9 .instructions_e266ce,
 	.inner__7afe9 {
 		border: none;
 		color: $low;
 	}
-	.bgScale_f3a2be {
+	.bgScale_f4bff5 {
 		@include boxify($high, $mid, 4px);
 	}
 }
@@ -96,7 +96,7 @@
 	border: 2px solid $low;
 	border-radius: 0;
 
-	&.checked__6bdb0 {
+	&.checked__36fdc {
 		border: 2px solid $low !important;
 		background-color: $high;
 
@@ -106,16 +106,16 @@
 	}
 }
 // Login screen
-.theme-dark.authBox__7196a {
+.theme-dark.authBox__6f336 {
 	@include boxify($high, $mid, 6px);
 
 	&,
-	.colorHeaderPrimary_fcac0c,
-	.colorHeaderSecondary__90aae,
+	.colorHeaderPrimary_b60093,
+	.colorHeaderSecondary__5539c,
 	.h5-2RwDNl {
 		color: $low;
 	}
-	.lookLink__93965.colorBrand_b2253e {
+	.lookLink__93965.colorBrand__27d57 {
 		color: $alert;
 	}
 	.qrCodeContainer-1qlybH,
@@ -124,15 +124,15 @@
 	}
 }
 // CTRL K
-.quickswitcher_a3d29a {
+.quickswitcher_b5bb0a {
 	@include boxify($high, $mid, 5px);
-	.input__848cd {
+	.input__2a648 {
 		color: $high;
 		background: $low;
 		border-radius: 0;
 		box-shadow: none;
 	}
-	.icon_f8a8b6 {
+	.icon__39f1d {
 		height: 13px;
 		width: 13px;
 		background-color: $low;
@@ -143,11 +143,11 @@
 
 		.note-3TX9O7,
 		.misc__9152e,
-		.contentUnread__50b0f,
-		.contentDefault_f2e62d {
+		.contentUnread_cd86ef,
+		.contentDefault_d3a863 {
 			color: $high;
 		}
-		.icon_f8a8b6 {
+		.icon__39f1d {
 			background-color: $high;
 			path {
 				fill: $high;
@@ -216,14 +216,14 @@
 	@include boxify($high, $mid, 4px);
 }
 // Reactions
-.reaction_fef95b {
+.reaction__4a43f {
 	border-radius: 0;
 	@include boxify($high, $mid, 3px);
 
-	&.reactionMe__98f57 {
+	&.reactionMe__0fffc {
 		background-color: $low;
 
-		.reactionCount_b49901 {
+		.reactionCount__2c34d {
 			color: $high;
 		}
 	}

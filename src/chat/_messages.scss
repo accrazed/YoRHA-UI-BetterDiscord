@@ -1,14 +1,14 @@
 // Transparencies
-.chatContent__5dca8,
-.theme-dark .form__13a2c:before,
-.container_b2ce9c,
+.chatContent_f087cb,
+.theme-dark .form_d8a4a1:before,
+.container_f79ab4,
 .chat__52833 {
 	background: transparent;
 }
-.mentioned__58017:before {
+.mentioned_fa6fd2:before {
 	width: 0;
 }
-.divider_b9338f {
+.divider__855e3 {
 	border-color: $alert;
 }
 // Scrollbar
@@ -19,7 +19,7 @@
 	width: 6px;
 }
 // Username label
-.cozyMessage__64ce7 .header__39b23 {
+.cozyMessage__9f4fd .header__6a14d {
 	border-radius: 0;
 	display: inline-block !important;
 	padding: 4px 5px 4px 6px;
@@ -28,7 +28,7 @@
 	box-shadow: 2px 2px 0 $mid, -3px 0 0 $low, -9px 0 0 $high, -21px 0 0 $low, -18px 2px 0 $mid;
 }
 // Profile Picture
-.full-motion .avatar__08316.clickable_d866f1 {
+.full-motion .avatar__08316.clickable__09456 {
 	@include boxify($high, $mid, 3px);
 
 	&:hover {
@@ -37,13 +37,13 @@
 	}
 }
 // Username color
-.username_d30d99.clickable_d866f1 {
+.username_d30d99.clickable__09456 {
 	color: $low !important;
 }
 // Date stamp
-.isUnread__6f880 .content_d67847,
+.isUnread_de09f5 .content__7191e,
 .unreadPill__715fc,
-.content_d67847 {
+.content__7191e {
 	border-radius: 0;
 	background-color: $alert;
 	color: $high;
@@ -53,11 +53,11 @@
 	fill: $alert;
 }
 // Quotes
-.blockquoteContainer_f24d1f .blockquoteDivider__96157 {
+.blockquoteContainer__66aaa .blockquoteDivider__5cbad {
 	border-radius: 0;
 	background-color: $low;
 }
-.emptyChannelIcon__1a1ba {
+.emptyChannelIcon_d45c50 {
 	background-image: url('https://svgur.com/i/RGT.svg');
 	@include remask('https://svgur.com/i/RGT.svg', $mid);
 	margin: auto;
@@ -66,7 +66,7 @@
 }
 // Mentions
 .theme-dark {
-	.mentioned__58017 {
+	.mentioned_fa6fd2 {
 		.mention.interactive:hover {
 			color: $low;
 		}
@@ -82,14 +82,14 @@
 		}
 	}
 }
-.mentioned__58017 .messageContent__21e69 a,
+.mentioned_fa6fd2 .messageContent_abea64 a,
 .wrapper_f46140,
-.roleMention__02469,
+.roleMention_d441cd,
 .mention {
 	color: rgb(218, 212, 187);
 }
 // Replies
-.mouse-mode.full-motion .replying_d7b6ad {
+.mouse-mode.full-motion .replying__38514 {
 	&,
 	&:hover {
 		background-color: $alert-trans;
@@ -98,7 +98,7 @@
 		background-color: $alert;
 	}
 }
-.backgroundFlash_e5b9ad {
+.backgroundFlash__28f42 {
 	transition: background-color 0.1s;
 	background-color: $alert-trans !important;
 }
@@ -106,17 +106,17 @@
 	background-color: transparent !important;
 	transition: background-color 0.5s;
 }
-.colorBrand_be5f58 {
+.colorBrand__65cd6 {
 	color: $alert;
 }
-.repliedMessage_e2bf4a:before {
+.repliedMessage__636d2:before {
 	border-left: var(--spine-width) solid $low;
 	border-bottom: 0 solid $low;
 	border-right: 0 solid $low;
 	border-top: var(--spine-width) solid $low;
 	border-radius: 0;
 }
-.replyBadge__3d01e {
+.replyBadge__37a84 {
 	border-radius: 0;
 	border: 1px solid $low;
 }
@@ -124,13 +124,13 @@
 .spoilerText-2G40u0 {
 	border-radius: 0;
 }
-.spoilerMarkdownContent__2b8f8.hidden_f44e41,
+.spoilerMarkdownContent__5c448.hidden_f44e41,
 .theme-dark .spoilerText-2G40u0.hidden_f44e41 {
 	background-color: $low;
 }
 // You're viewing older messages /// X+ new messages since
-.newMessagesBar__8b6d7,
-.jumpToPresentBar__0ff7f {
+.newMessagesBar__8b272,
+.jumpToPresentBar__69174 {
 	box-shadow: none;
 	background-color: $alert;
 	border-radius: 0;
@@ -139,7 +139,7 @@
 	}
 }
 // Edit Message
-.scrollableContainer__33e06 {
+.scrollableContainer_ff917f {
 	@include boxify($high, $mid, 3px);
 }
 .theme-dark .operations__07224 {
@@ -148,17 +148,17 @@
 		color: $alert;
 	}
 }
-.codeBlockSyntax__71770,
-.syntaxAfter_a2a4a2,
-.syntaxBefore__91665 {
+.codeBlockSyntax__4104a,
+.syntaxAfter__23aff,
+.syntaxBefore_bd3975 {
 	color: $alert;
 }
 // Timestamps
-.compact__54ecc .headerText_f47574 {
+.compact_eda3c8 .headerText_bd68ec {
 	border-right: 2px dashed $alert;
 }
-.compact__54ecc .timestamp_cdbd93,
-.cozy_f5c119 .timestamp_cdbd93.alt__6c563 {
+.compact_eda3c8 .timestamp_c79dd2,
+.cozy_f5c119 .timestamp_c79dd2.alt__6c563 {
 	margin-right: 0;
 	width: auto;
 }

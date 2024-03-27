@@ -1,15 +1,15 @@
 // Transparencies
 .unread__48cf4,
-.theme-dark .container__590e2,
-.theme-dark .container_ca50b9,
+.theme-dark .container__7e23c,
+.theme-dark .container_debb33,
 .panels__58331,
-.theme-dark .container_ca50b9,
-.wrapper__7bcde:hover .link__95dc0,
-.modeSelected__487d6 .link__95dc0,
-.modeSelected__487d6:hover .link__95dc0 {
+.theme-dark .container_debb33,
+.wrapper__7bcde:hover .link_ddbb36,
+.modeSelected__473f1 .link_ddbb36,
+.modeSelected__473f1:hover .link_ddbb36 {
 	background: transparent;
 }
-.header__104ca {
+.header__77c95 {
 	box-shadow: none;
 }
 // Unread messages notification
@@ -18,14 +18,14 @@
 	@include boxify($alert, $mid, 3px);
 }
 // User info
-.button__4f306 {
+.button_ae40a4 {
 	@include buttonify(transparent, $low, $low, $high);
 }
 // Channel hover/select animations
-.containerDefault__3187b {
+.containerDefault_ae2ea4 {
 	padding-bottom: 4px;
 
-	.typeVoice_f4ba92 .linkBottom_bac113 {
+	.typeVoice__86122 .linkBottom__942a1 {
 		top: 35px;
 		right: 10px;
 		position: absolute;
@@ -36,24 +36,24 @@
 	padding: 0;
 
 	// Muted and Locked channels
-	&.modeLocked_fcc71a,
-	&.modeMuted__0aeea {
+	&.modeLocked__6df8a,
+	&.modeMuted_f0a72e {
 		opacity: 50%;
 
-		.icon_eff5d4,
-		.name__8d1ec {
+		.icon__67ab4,
+		.name__4eb92 {
 			color: $low;
 		}
 	}
 	// Locked Channels
-	&.modeLocked_fcc71a {
+	&.modeLocked__6df8a {
 		cursor: not-allowed;
 	}
 
 	// Square icon
-	.iconContainer__3f9b0 {
+	.iconContainer__6a580 {
 		align-self: center;
-		.icon_eff5d4 {
+		.icon__67ab4 {
 			transition: color 0.2s, background-color 0.2s;
 			height: 12px;
 			width: 12px;
@@ -72,15 +72,15 @@
 		}
 	}
 	// Animation
-	.link__95dc0 {
+	.link_ddbb36 {
 		height: 28px;
 		margin-left: 0;
 		padding: 0;
 		border-radius: 0;
 		justify-content: center;
 	}
-	.name__8d1ec,
-	.actionIcon_d679b5 {
+	.name__4eb92,
+	.actionIcon_b149a2 {
 		transition: color 0.2s;
 	}
 	.content_c6490e {
@@ -88,12 +88,12 @@
 		top: -3px;
 		padding: 4px 0px;
 	}
-	.linkTop_eaa673 {
+	.linkTop_c8969d {
 		top: 1px;
 		padding: 4px 8px;
 	}
 	.content_c6490e:before,
-	.linkTop_eaa673:before {
+	.linkTop_c8969d:before {
 		content: '';
 		transition: transform 0.4s;
 		position: absolute;
@@ -106,24 +106,24 @@
 		height: 100%;
 	}
 	// settings/invite button in channel side
-	.children_a486f8 {
+	.children__563f2 {
 		margin: 0;
 	}
 	// Selected channel
-	&.modeConnected__1c02e,
-	&.modeSelected__487d6,
+	&.modeConnected__52a8f,
+	&.modeSelected__473f1,
 	&:hover {
 		box-shadow: 0 1px $low, 0 -1px $low;
 
 		.content_c6490e:before,
-		.linkTop_eaa673:before {
+		.linkTop_c8969d:before {
 			transform: scaleX(1);
 		}
 
-		&.typeVoice_f4ba92 .icon_eff5d4 {
+		&.typeVoice__86122 .icon__67ab4 {
 			color: $low;
 		}
-		.icon_eff5d4 {
+		.icon__67ab4 {
 			color: $high;
 			background-color: $high;
 			// Voice channels/Locked channels/NSFW CHANNELS
@@ -136,8 +136,8 @@
 				fill: $low;
 			}
 		}
-		.actionIcon_d679b5,
-		.name__8d1ec {
+		.actionIcon_b149a2,
+		.name__4eb92 {
 			z-index: 1;
 			color: $high;
 		}
@@ -146,12 +146,12 @@
 		}
 	}
 	// Unread channels
-	&.modeUnreadImportant_efb53e {
-		.icon_eff5d4 {
+	&.modeUnreadImportant__35358 {
+		.icon__67ab4 {
 			color: $alert;
 			background-color: $alert;
 		}
-		.name__8d1ec {
+		.name__4eb92 {
 			color: $alert;
 		}
 	}
@@ -174,11 +174,11 @@
 		border-right-color: $alert;
 	}
 }
-.base__92a12 {
+.base__5ed84 {
 	border-radius: 0;
 }
 // Thread splines
-.spineBorder_bdec8b {
+.spineBorder__52981 {
 	background: transparent;
 }
 .spine__88e6d {
@@ -193,6 +193,6 @@
 	}
 }
 
-.typeThread__2f91c .link__95dc0 {
+.typeThread__5fb37 .link_ddbb36 {
 	margin-left: 0;
 }

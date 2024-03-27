@@ -1,39 +1,39 @@
 // Transparencies
-.theme-dark .scroller__3d071,
+.theme-dark .scroller_de945b,
 .wrapper_a7e7a8,
-.scroller__3d071 {
+.scroller_de945b {
 	background-color: transparent;
 }
 .guildSeparator_dcb3cc {
 	height: 0;
 }
-.listItem_fa7b36 .svg_ad7356 foreignObject {
+.listItem__48528 .svg__34dd4 foreignObject {
 	mask: none;
 }
 .homeIcon-FuNwkv, // deprecated
-.homeIcon__00b1b {
+.homeIcon__560eb {
 	width: 48px;
 	height: 56px;
 }
 // Guild icons
-.wrapper__3af0b > svg > mask {
+.wrapper__9916c > svg > mask {
 	display: none;
 }
 .wrapperSimple_a34580 {
 	border-radius: 0;
 }
 // Folder
-.expandedFolderBackground__1bec6 {
+.expandedFolderBackground_b1385f {
 	@include boxify($high, $mid, 3px);
 }
 .scroller-2TZvBN > div[aria-label='Servers'] > .listItem-2P_4kh foreignObject {
 	@include boxify($high, $mid, 3px);
 }
 // folder inner (color/icons)
-.folderIconWrapper__72239 {
+.folderIconWrapper__11165 {
 	border-radius: 0;
 
-	.iconInactive__90d40 {
+	.iconInactive__8c603 {
 		border-radius: 0;
 	}
 }
@@ -42,7 +42,7 @@
 	border-radius: 0;
 }
 // Servers with no icons
-.acronym_cd4809 {
+.acronym_fb7739 {
 	color: $low !important;
 }
 // Selected / Unread Guild
@@ -58,7 +58,7 @@
 	background-color: $alert;
 }
 // Streaming icon
-.iconBadge_fdf33a {
+.iconBadge__19638 {
 	background-color: $low;
 
 	// Also participating
@@ -71,7 +71,7 @@
 	@include boxify($alert, $low, 3px);
 }
 // Notification blip
-.numberBadge__50328 {
+.numberBadge__40d6f {
 	background-color: $alert !important;
 	color: $high !important;
 	border-radius: 0;
@@ -87,20 +87,20 @@
 }
 // Discover screen
 .theme-dark .card__86773,
-.theme-dark .iconMask__1aff7 {
+.theme-dark .iconMask__4092e {
 	@include boxify($high, $mid, 5px);
 }
-.theme-dark .contentWrapper__85d37 {
+.theme-dark .contentWrapper_f9bc93 {
 	@include boxify($high, $mid, 5px);
 
-	.lookLink__93965.colorBrand_b2253e {
+	.lookLink__93965.colorBrand__27d57 {
 		color: $alert;
 		text-decoration-color: $alert;
 	}
 }
 
 .wrapper_fbbb73, // You must complete a few more steps before you can talk
-.container_d4b118 // You can't talk in here yet
+.container__6a8f8 // You can't talk in here yet
 {
 	@include boxify($high, $mid, 3px);
 }

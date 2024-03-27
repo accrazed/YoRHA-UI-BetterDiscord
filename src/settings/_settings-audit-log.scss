@@ -1,5 +1,5 @@
 .theme-dark {
-	.auditLog__6c805 {
+	.auditLog__9228d {
 		@include boxify($high, $mid, 4px);
 		border: none;
 
@@ -14,19 +14,19 @@
 			border-radius: 25%;
 		}
 
-		.headerExpanded__03c29,
-		.headerClickable_c4d7a9,
-		.changeDetails_ecd760,
-		.headerDefault__3e003 {
+		.headerExpanded__05a35,
+		.headerClickable__334f7,
+		.changeDetails_c0aa16,
+		.headerDefault__31bb1 {
 			background-color: transparent;
 		}
-		.headerExpanded__03c29:hover,
-		.headerClickable_c4d7a9:hover {
+		.headerExpanded__05a35:hover,
+		.headerClickable__334f7:hover {
 			background-color: $mid;
 		}
 	}
 }
 
-.theme-dark .divider__1505d {
+.theme-dark .divider__1ee1f {
 	display: none;
 }

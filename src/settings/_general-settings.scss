@@ -1,11 +1,11 @@
 // Transparencies
-.layer__2efaa ,
-.scroller__52680,
-.contentRegion__0bec1,
-.sidebarRegionScroller__1fa7e,
+.layer_f7d46a ,
+.scroller_c92337,
+.contentRegion__08eba,
+.sidebarRegionScroller__8113e,
 .side_b4b3f6 .separator-2wx7h6,
-.contentRegionScroller__86c79,
-.standardSidebarView__1129a {
+.contentRegionScroller__9ae20,
+.standardSidebarView__12528 {
 	background-color: transparent;
 }
 .theme-dark .row-1Tg75B,
@@ -21,7 +21,7 @@
 	.keybind__57645 {
 		color: $low;
 	}
-	.closeButton__34341 {
+	.closeButton__8177f {
 		transition: background-color 0.2s;
 		border-color: $low;
 		&:hover {
@@ -33,11 +33,11 @@
 	}
 }
 // Headers
-.h1__90460,
+.h1_dc86b3,
 .h2-1EaYVL {
 	@include titlify(2px, 4px);
 }
-.h5__884a2 {
+.h5__28baa {
 	@include titlify(2px, 2px);
 }
 
@@ -46,6 +46,6 @@
 	display: none;
 }
 
-.side_b4b3f6 .separator_fdbcfd {
+.side_b4b3f6 .separator_d14fb1 {
 	visibility: hidden;
 }

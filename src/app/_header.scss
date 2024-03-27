@@ -1,31 +1,31 @@
 // Transparencies
-.divider_c09b64,
-.theme-dark .children__32014:after,
-.container__11d72.themed_b152d4 {
+.divider_bdb894,
+.theme-dark .children_cde9af:after,
+.container__26baa.themed_b152d4 {
 	background: transparent;
 }
 .platform-win .sidebar_ded4b5 {
 	border-radius: 0;
 }
 .header-2o-2hj,
-.content__1a4fe:before,
-.searchBar_e4ea2a {
+.content__01e65:before,
+.searchBar__621ec {
 	box-shadow: none;
 }
 // Server name
-.clickable__2d589 .header__104ca:hover,
-.selected__0b1ad .header__104ca {
+.clickable__1383f .header__77c95:hover,
+.selected__987e6 .header__77c95 {
 	background-color: $low;
 	color: $high;
 }
 // Top header
-.name_c08dbc,
-.title__9e2b0 {
+.name_e8e549,
+.title__84e16 {
 	@include titlify(3px, 4px);
 	margin: 0;
 }
-.colorStreamerMode_e927c0, // Streamer mode Notif
-.akaBadge__7df41 // AKA badge
+.colorStreamerMode_cb7f84, // Streamer mode Notif
+.akaBadge__27cd4 // AKA badge
 {
 	box-shadow: none;
 	background: $alert;
@@ -35,12 +35,12 @@
 	border-radius: 0;
 }
 // Channel icon
-.title_b7d661 .children__32014 {
-	.iconWrapper_af9215 {
+.title_d4ba1a .children_cde9af {
+	.iconWrapper_de6cd1 {
 		margin: 0 5px;
 		margin-bottom: 4px;
 	}
-	.icon__4cb88 {
+	.icon_ae0b42 {
 		margin: 6px 0px;
 		width: 16px;
 		height: 16px;
@@ -54,7 +54,7 @@
 }
 // Home
 .topPill-3DJJNV .themed-2-lozF.item__48dda:hover,
-.topPill-3DJJNV .themed-2-lozF.selected__5711d.item__48dda {
+.topPill-3DJJNV .themed-2-lozF.selected_a523ff.item__48dda {
 	border-radius: 0;
 	background-color: $low;
 	color: $high;

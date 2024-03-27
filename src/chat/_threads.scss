@@ -1,8 +1,8 @@
 // Message in chat that someone's opened a thread
-.typeThread__2f91c.wrapper__7bcde {
+.typeThread__5fb37.wrapper__7bcde {
 	margin-left: 0;
 }
-.hasThread__58ee2 {
+.hasThread__44ae4 {
 	// Elbow
 	&.cozy_f5c119:after {
 		border-left: 2px solid $low;
@@ -10,7 +10,7 @@
 		border-bottom-left-radius: 0;
 	}
 	// Thread box,
-	.container__767d1 {
+	.container__17159 {
 		@include boxify($high, $mid, 3px);
 	}
 }
@@ -20,9 +20,9 @@
 	visibility: hidden;
 }
 
-.iconWrapper__85630 {
+.iconWrapper__8795c {
 	background-color: $low;
-	.icon__7ed2b {
+	.icon__09787 {
 		color: $high;
 		path:first-child {
 			visibility: hidden;
@@ -30,18 +30,18 @@
 	}
 }
 
-.iconContainer_dfc268 .icon__5c1d3 path:first-child {
+.iconContainer_d0200f .icon__5c1d3 path:first-child {
 	visibility: hidden;
 }
 
 *[aria-label='Threads'],
 *[aria-label='Thread'] {
-	.icon__4cb88 path:first-child {
+	.icon_ae0b42 path:first-child {
 		visibility: hidden;
 	}
 }
 
-.threadIcon__046f1 path:first-child {
+.threadIcon_a292d5 path:first-child {
 	visibility: hidden;
 }
 
@@ -49,7 +49,7 @@
 	@include boxify($high, $mid, 3px);
 }
 
-.container_f87d43 .containerDefault__3187b {
+.container__342a0 .containerDefault_ae2ea4 {
 	left: 40px;
 }
 
@@ -58,6 +58,6 @@
 }
 
 // Thread popout
-.browser_fece63 {
+.browser_fa9cea {
 	@include boxify($high, $mid, 3px);
 }

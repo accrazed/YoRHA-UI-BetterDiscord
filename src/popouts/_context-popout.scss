@@ -1,26 +1,26 @@
-.menu_dc52c6 {
+.menu__088f7 {
 	@include boxify($low, $mid, 3px);
 
-	.scroller__750f5 {
-		.separator__18122 {
+	.scroller__8f066 {
+		.separator__174fc {
 			display: none;
 		}
 		.item__183e8 {
 			margin: 0;
 		}
-		.colorDefault__0b482,
-		.labelContainer_bc2861 {
+		.colorDefault_e361cf,
+		.labelContainer__4f869 {
 			@include buttonify($low, $high, $high, $low);
 
 			.subtext__8a015,
-			.defaultColor__37d78 {
+			.defaultColor__30336 {
 				color: $high;
 			}
 
 			&:hover .subtext__8a015 {
 				color: $mid;
 			}
-			&:hover .defaultColor__37d78 {
+			&:hover .defaultColor__30336 {
 				color: $low;
 			}
 		}
@@ -28,7 +28,7 @@
 		.caret_ce50ce {
 			color: $mid;
 		}
-		.submenuPaddingContainer__12a9d {
+		.submenuPaddingContainer__5a97c {
 			padding: 0;
 		}
 	}

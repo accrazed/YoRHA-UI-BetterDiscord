@@ -2,11 +2,11 @@
 .theme-dark .scroller__4b984,
 .scroller__311cd,
 .scroller__244e5,
-.applicationStore_fc7d76,
-.nowPlayingColumn_f5023f,
-.container__0a6a9,
-.theme-dark .inset__0bfb3,
-.theme-dark .container__5c7e7 {
+.applicationStore__444b9,
+.nowPlayingColumn_b025fe,
+.container__3673d,
+.theme-dark .inset__61d5b,
+.theme-dark .container_bd15da {
 	background-color: transparent;
 }
 .peopleListItem_d14722.active__6b8ff,
@@ -17,8 +17,8 @@
 	border-top: none;
 }
 // Low color
-.theme-dark .text__1c14c,
-.theme-dark .title__627cf {
+.theme-dark .text__0e310,
+.theme-dark .title__496be {
 	color: $low;
 }
 // "Active Now" tags, (misc. cards too)
@@ -27,50 +27,50 @@
 }
 .theme-dark .feature-2IUcBI,
 .banner-WELp4M,
-.wrapper__6e669 {
+.wrapper__3c6d5 {
 	transition: all 0.1s;
 	@include boxify($high, $mid, 4px);
 
-	.inset__0bfb3 {
+	.inset__61d5b {
 		border: 1px solid $mid;
 		border-radius: 0;
 	}
-	.partyMemberOverflow_d12297 {
+	.partyMemberOverflow_fa82b9 {
 		color: $high;
 		background: $low;
 	}
-	.section_efc22d {
+	.section__253ec {
 		border-radius: 0;
 	}
 	&:hover {
 		background-color: $low !important;
 
-		.partyMemberOverflow_d12297 {
+		.partyMemberOverflow_fa82b9 {
 			color: $low;
 			background: $high;
 		}
-		.text-sm-normal-3Zj3Iv.textContent__45dd0,
-		.defaultColor__37d78,
-		.base__7ba63,
+		.text-sm-normal-3Zj3Iv.textContent_e33074,
+		.defaultColor__30336,
+		.base__1aa9d,
 		span,
-		.colorHeaderSecondary__90aae,
-		.colorStandard__5111e {
+		.colorHeaderSecondary__5539c,
+		.colorStandard__3d599 {
 			color: $high;
 		}
-		.section_efc22d div {
+		.section__253ec div {
 			color: $low;
 		}
 	}
 }
 // 'Active Now' Header
-.header__123bf {
+.header_c56a27 {
 	@include titlify(2px, 4px);
 }
 // Close button hover
-.children_c027c5 {
+.children_cf6731 {
 	z-index: 1;
 }
-.actionButton__23182:hover {
+.actionButton__2b4bb:hover {
 	transition: background-color 0.2s ease-in-out;
 	background-color: $low;
 
@@ -87,7 +87,7 @@
 .tabBar__73938 .item_e4ca95 {
 	@include buttonify(transparent, $low, $low, $high);
 
-	&.selected__5711d {
+	&.selected_a523ff {
 		background-color: $low !important;
 		color: $high;
 	}

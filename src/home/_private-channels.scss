@@ -1,15 +1,15 @@
 // Transparencies
 .scroller__4b984,
 .sidebar_ded4b5,
-.privateChannels__93473,
-.interactiveSelected_ec846b,
-.interactive_a868bc,
-.interactive_a868bc:hover {
+.privateChannels__9b518,
+.interactiveSelected__689f0,
+.interactive__3e804,
+.interactive__3e804:hover {
 	background: transparent;
 }
 
 // Member hover/select animations
-.theme-dark .channel_c21703 {
+.theme-dark .channel__0aef5 {
 	transition: color 0.2s;
 	border-radius: 0;
 	margin: 2px 0 2px 0;
@@ -36,22 +36,22 @@
 	}
 
 	// Selected channel
-	&:hover .interactive__776ee,
-	.interactiveSelected_ec846b {
+	&:hover .interactive__0786a,
+	.interactiveSelected__689f0 {
 		box-shadow: 0 1px $low, 0 -1px $low;
 		color: $high;
 		.layout__59abc:before {
 			transform: scaleX(1);
 		}
-		.subtext__623a0,
-		.activityText__84949,
+		.subtext__798a4,
+		.activityText__56d3b,
 		.overflow__87fe8,
-		.highlighted__7bba7 {
+		.highlighted_e2e5df {
 			color: $high;
 		}
 		.avatar__7bd22, // Home icons like friends, Library, nitro
-        .closeButton__8f1fd, // Close DM button on DM list when hovering
-		.content_f767b8 {
+        .closeButton__116c3, // Close DM button on DM list when hovering
+		.content_b5e449 {
 			z-index: 1;
 		}
 	}

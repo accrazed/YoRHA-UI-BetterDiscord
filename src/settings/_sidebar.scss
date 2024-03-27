@@ -4,7 +4,7 @@
 }
 // Category titles
 .bd-sidebar-header h2,
-.side_b4b3f6 .header_f72511 {
+.side_b4b3f6 .header__71a82 {
 	color: $low;
 	@include titlify(1px, 3px);
 }
@@ -16,7 +16,7 @@
 	background-color: transparent !important;
 
 	// Animation
-	.themed-2-lozF.selected__5711d,
+	.themed-2-lozF.selected_a523ff,
 	&:hover.themed-2-lozF {
 		background-color: transparent !important;
 		height: 32px;
@@ -39,7 +39,7 @@
 	// Selected channel
 	&[style*="color: rgb(255, 255, 255);"],
     &.selected, // PRE-BETA BBD: WILL BE DEPRECIATED SOON
-    &.selected__5711d,
+    &.selected_a523ff,
     &:hover {
 		color: $high !important;
 		box-shadow: 0 1px $low, 0 -1px $low;

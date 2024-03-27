@@ -4,23 +4,23 @@
 	border-radius: 0;
 	border-color: $alert;
 }
-.option_a0c054 {
+.option__1d8de {
 	@include boxify($low, $mid, 2px);
 	&:hover {
 		box-shadow: 2px 2px 0 $mid;
 		background: $low;
 	}
-	&.selected_ea51d6 {
+	&.selected__4e154 {
 		background: $alert;
 	}
 }
-.wrapper__4beb8.disabledSelected_dd29ae {
+.wrapper__4beb8.disabledSelected__7c065 {
 	border-color: $alert;
 }
-.disabled_ab18dc {
+.disabled__586d3 {
 	color: $mid;
 
-	&.selected_ea51d6,
+	&.selected__4e154,
 	&:hover {
 		color: $alert;
 	}

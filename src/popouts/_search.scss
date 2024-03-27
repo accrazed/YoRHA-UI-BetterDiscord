@@ -1,21 +1,21 @@
 // Transparencies
 .searchResult_dcd237:before,
 .searchResult_dcd237:after,
-.option_b5597b:after,
-.option_b5597b:hover:after,
+.option__91497:after,
+.option__91497:hover:after,
 .channelName-3w2Y3c,
-.searchHeader__19d87,
-.searchResultsWrap__9f374,
-.theme-dark .option_b5597b:after {
+.searchHeader__4d70e,
+.searchResultsWrap__2e184,
+.theme-dark .option__91497:after {
 	background: transparent;
 }
-.searchHeader__19d87,
+.searchHeader__4d70e,
 .searchResultMessage-1fxgXh.hit-1fVM9e {
 	box-shadow: none;
 }
 // Search Box
 .searchBar-zdmu7v,
-.searchBar_e4ea2a .searchBarComponent__22760 {
+.searchBar__621ec .searchBarComponent__8f95f {
 	border: 1px solid $low;
 	background-color: $high-trans;
 	border-radius: 0;
@@ -38,21 +38,21 @@
 .theme-dark {
 	// In-text labels
 
-	.searchAnswer_b452e7,
+	.searchAnswer__2ccaf,
 	.searchFilter__118cb {
 		color: $high;
 		background-color: $low;
 	}
-	.elevationBorderHigh_f9a758,
-	.container_d6dad3 {
+	.elevationBorderHigh__24051,
+	.container__84c26 {
 		@include boxify($high, $mid, 4px);
 	}
-	.queryContainer_c359fe {
+	.queryContainer_c1cb2f {
 		color: $low;
 		strong {
 			color: $low;
 		}
-		&.focused_f9cf2c {
+		&.focused__68b93 {
 			color: $high;
 			background-color: $low;
 			strong {
@@ -61,10 +61,10 @@
 		}
 		border: none;
 	}
-	.resultsGroup_ea9b64 {
-		.header_b24bd1,
-		.searchClearHistory_cd1df2,
-		.searchLearnMore_bf7b8e a {
+	.resultsGroup_b221b0 {
+		.header__00739,
+		.searchClearHistory__7fe75,
+		.searchLearnMore__17e18 a {
 			color: $low;
 		}
 		.plusIcon-2V7coV {
@@ -74,24 +74,24 @@
 			border: none;
 		}
 	}
-	.option_b5597b[aria-selected='true'] {
+	.option__91497[aria-selected='true'] {
 		background: $low;
 
 		strong {
 			color: $high;
 		}
 	}
-	.option_b5597b,
-	.searchOption__41bc5 {
+	.option__91497,
+	.searchOption__3c857 {
 		margin: 0;
 
 		&.user__97b4c .displayUsername-UTer,
-		&.user__97b4c .displayedNick_df9a16,
+		&.user__97b4c .displayedNick_ee206c,
 		.searchResultChannelCategory-3cL8uG,
 		.searchResultChannelIcon-1Il1Qo,
 		strong,
-		.nonText_cbb69b,
-		.filter_bd5fe7,
+		.nonText_fbd88d,
+		.filter__851fb,
 		.answer__9ff92 {
 			color: $low;
 		}
@@ -103,12 +103,12 @@
 			&::after {
 				background: transparent;
 			}
-			.plusIcon__36244,
+			.plusIcon__3ff01,
 			&.user__97b4c .displayUsername-UTer,
-			&.user__97b4c .displayedNick_df9a16,
+			&.user__97b4c .displayedNick_ee206c,
 			strong,
-			.nonText_cbb69b,
-			.filter_bd5fe7,
+			.nonText_fbd88d,
+			.filter__851fb,
 			.answer__9ff92 {
 				color: $high;
 			}
@@ -152,12 +152,12 @@
 		color: $low;
 	}
 }
-.datePicker__94673 .datePickerHint__7cc9b {
+.datePicker_df63a7 .datePickerHint_d023b6 {
 	border: none;
 	.hint__460f1 {
 		color: $low;
 	}
-	.hintValue_c2ce1f {
+	.hintValue__0c960 {
 		background-color: $low;
 		color: $high;
 	}

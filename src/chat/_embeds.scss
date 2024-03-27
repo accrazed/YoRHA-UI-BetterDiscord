@@ -1,6 +1,6 @@
 // Embed card
-.embedFull__8dc21,
-.messageContent__21e69 pre {
+.embedFull__14919,
+.messageContent_abea64 pre {
 	@include boxify($high, $mid, 4px);
 
 	& > code {
@@ -14,54 +14,54 @@
 .wrapper_efe67f {
 	@include boxify($high, $mid, 3px);
 
-	.inviteDestination_bd24e2 {
+	.inviteDestination_d9f4ed {
 		color: $low;
 	}
-	.iconActiveLarge__8985a {
+	.iconActiveLarge__21948 {
 		border-radius: 0;
 	}
 }
 // File attachments
-.wrapperAudio__555ce.newMosaicStyle_fb18b9,
-.attachment_f3cf2c.newMosaicStyle__235c9,
-.messageAttachmentMediaMosaic__65bfc {
+.wrapperAudio__178e9.newMosaicStyle__78072,
+.attachment__06ca3.newMosaicStyle_b4aa24,
+.messageAttachmentMediaMosaic__67262 {
 	border-radius: 0;
 }
-.attachment_f3cf2c {
+.attachment__06ca3 {
 	margin-left: 13px;
 	border-radius: 0;
 	box-shadow: -3px 0 0 var(--color-low), -9px 0 0 var(--color-high), -21px 0 0 var(--color-low),
 		-18px 3px 0 var(--color-mid), 3px 3px 0 var(--color-mid);
 
-	.metadata__541c7 {
+	.metadata__05734 {
 		color: $low;
 	}
 }
 // Audio
-.wrapperAudio__555ce.newMosaicStyle_fb18b9 {
+.wrapperAudio__178e9.newMosaicStyle__78072 {
 	@include boxify($high, $mid, 3px);
 
-	.audioControls__9fbe9,
-	.videoControls__96149 {
+	.audioControls_da7066,
+	.videoControls__7bc92 {
 		background-color: $high;
 		border-radius: 0;
 		border: 1px solid $low;
 	}
 
-	.mediaBarWrapper_f312bd,
-	.mediaBarWrapper_f312bd:after,
-	.mediaBarWrapper_f312bd:before {
+	.mediaBarWrapper_e90a7a,
+	.mediaBarWrapper_e90a7a:after,
+	.mediaBarWrapper_e90a7a:before {
 		background-color: $mid;
 	}
 }
 // Images and Videos
-.imageWrapper_fd6587:not(.embedImage_e638a7) {
+.imageWrapper__178ee:not(.embedImage_eb54e3) {
 	@include boxify($high, $mid, 4px);
 }
-.mediaAttachmentsContainer_edba75,
-.oneByOneGridSingle__01756,
-.wrapper__3a7a0,
-.video__4c052 {
+.mediaAttachmentsContainer__242e2,
+.oneByOneGridSingle__8c6ef,
+.wrapper_f09ac7,
+.video__83189 {
 	border-radius: 0;
 }
 // Spotify Listen-Along
@@ -69,8 +69,8 @@
 	@include boxify($high, $mid, 3px);
 	border: none;
 
-	.header__8b673,
-	.partyStatus__6a567 {
+	.header__1c712,
+	.partyStatus__12fc2 {
 		color: $low;
 	}
 	.textLink__47850 {

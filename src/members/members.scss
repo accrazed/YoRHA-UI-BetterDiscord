@@ -1,14 +1,14 @@
 // Transparencies
-.container_b2ce9c,
-.clickable__17ccb:hover .layout_bb8e67,
+.container_f79ab4,
+.clickable__03a29:hover .layout_bb8e67,
 .member_b44d5d,
-.members__9f47b,
-.members__9f47b > div {
+.members__573eb,
+.members__573eb > div {
 	background: transparent;
 }
 
 // Member hover/select animations
-.container__4f20e {
+.container_a48b21 {
 	transition: color 0.2s;
 	max-width: none;
 	border-radius: 0;
@@ -36,12 +36,12 @@
 		}
 	}
 	// Selected channel
-	&.selected__9800b,
+	&.selected__7f4cb,
 	&:hover {
 		color: $high !important;
 		box-shadow: 0 1px $low, 0 -1px $low;
-		.name__16feb span,
-		.activity__3cbac,
+		.name__7afe8 span,
+		.activity_bafb94,
 		.muted__7327f {
 			color: $high !important;
 		}
@@ -49,8 +49,8 @@
 			transform: scaleX(1);
 		}
 		.avatar__6337f,
-		.linkButtonIcon__2f35b,
-		.content_a6999d {
+		.linkButtonIcon_cff89e,
+		.content_e8a0d1 {
 			z-index: 1;
 		}
 	}
