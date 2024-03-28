@@ -812,12 +812,10 @@ body,
   color: transparent;
 }
 
-.tutorialContainer__890ea .wrapper__8436d,
-.tutorialContainer__890ea .svg__34dd4 {
+.tutorialContainer_b06ae6 .wrapper__8436d,
+.tutorialContainer_b06ae6 .svg__34dd4 {
   height: 57px;
   width: 48px;
-}
-.tutorialContainer__890ea .svg__34dd4 {
   -webkit-animation-name: y-spin;
           animation-name: y-spin;
   -webkit-animation-duration: 4s;
@@ -827,7 +825,8 @@ body,
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }
-.tutorialContainer__890ea .svg__34dd4 foreignobject svg * {
+.tutorialContainer_b06ae6 .wrapper__8436d foreignobject svg *,
+.tutorialContainer_b06ae6 .svg__34dd4 foreignobject svg * {
   fill: none !important;
 }
 
