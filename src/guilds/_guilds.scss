@@ -1,10 +1,10 @@
 // Transparencies
 .theme-dark .scroller_de945b,
-.wrapper_a7e7a8,
+.wrapper__216eb,
 .scroller_de945b {
 	background-color: transparent;
 }
-.guildSeparator_dcb3cc {
+.guildSeparator__75928 {
 	height: 0;
 }
 .listItem__48528 .svg__34dd4 foreignObject {
@@ -67,7 +67,7 @@
 	}
 }
 // Unread blip out of screen
-.mention__1afd3 {
+.mention_dd733a {
 	@include boxify($alert, $low, 3px);
 }
 // Notification blip
@@ -93,13 +93,13 @@
 .theme-dark .contentWrapper_f9bc93 {
 	@include boxify($high, $mid, 5px);
 
-	.lookLink__93965.colorBrand__27d57 {
+	.lookLink_a2da25.colorBrand__27d57 {
 		color: $alert;
 		text-decoration-color: $alert;
 	}
 }
 
-.wrapper_fbbb73, // You must complete a few more steps before you can talk
+.wrapper__57349, // You must complete a few more steps before you can talk
 .container__6a8f8 // You can't talk in here yet
 {
 	@include boxify($high, $mid, 3px);

@@ -1,5 +1,5 @@
 // Transparencies
-.wrapper__4f229 {
+.wrapper__85934 {
 	background: transparent;
 }
 .header__21b33,
@@ -10,8 +10,8 @@
 {
 	@include boxify($high, $mid, 3px);
 }
-.full-motion .wrapper_c727b6:hover,
-.wrapper_c727b6 // Options when hovering over message
+.full-motion .wrapper__4e6b6:hover,
+.wrapper__4e6b6 // Options when hovering over message
 {
 	@include boxify($low, $mid, 3px);
 
@@ -20,7 +20,7 @@
 	}
 }
 // Pinned Messages
-.username_d30d99 {
+.username__0b0e7 {
 	color: $low !important;
 }
 // Selected tab in header

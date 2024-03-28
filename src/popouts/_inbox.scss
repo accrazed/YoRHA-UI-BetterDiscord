@@ -2,7 +2,7 @@
 
 // Transparencies
 .messageContainer_cb3d47,
-.messages_f7999e,
+.messages__1aaa1,
 .header__21b33 {
 	background-color: transparent;
 }
@@ -10,7 +10,7 @@
 // Base container
 .messagesPopoutWrap__10dd1,
 .container__23c08,
-.container__20de0 {
+.container_eb737e {
 	@include boxify($high, $mid, 3px);
 
 	.channel__36a7e,
@@ -35,7 +35,7 @@
 		.repliedMessage__636d2,
 		.container__2acd5,
 		.markup_a7e664,
-		.messages_f7999e {
+		.messages__1aaa1 {
 			color: $low;
 		}
 		.subtextContainer__2a201 {

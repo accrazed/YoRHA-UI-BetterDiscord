@@ -1,6 +1,6 @@
 // Transparencies
-.theme-dark .scroller__4b984,
-.scroller__311cd,
+.theme-dark .scroller__89969,
+.scroller_a9a4b4,
 .scroller__244e5,
 .applicationStore__444b9,
 .nowPlayingColumn_b025fe,
@@ -9,11 +9,11 @@
 .theme-dark .container_bd15da {
 	background-color: transparent;
 }
-.peopleListItem_d14722.active__6b8ff,
-.peopleListItem_d14722:hover {
+.peopleListItem_dab480.active__6b8ff,
+.peopleListItem_dab480:hover {
 	@include boxify($high, $mid, 3px);
 }
-.peopleListItem_d14722 {
+.peopleListItem_dab480 {
 	border-top: none;
 }
 // Low color
@@ -22,7 +22,7 @@
 	color: $low;
 }
 // "Active Now" tags, (misc. cards too)
-.scroller__00e7e {
+.scroller__7c25e {
 	border: none;
 }
 .theme-dark .feature-2IUcBI,

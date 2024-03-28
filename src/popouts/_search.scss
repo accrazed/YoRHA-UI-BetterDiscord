@@ -1,6 +1,6 @@
 // Transparencies
-.searchResult_dcd237:before,
-.searchResult_dcd237:after,
+.searchResult__00093:before,
+.searchResult__00093:after,
 .option__91497:after,
 .option__91497:hover:after,
 .channelName-3w2Y3c,
@@ -39,7 +39,7 @@
 	// In-text labels
 
 	.searchAnswer__2ccaf,
-	.searchFilter__118cb {
+	.searchFilter_dbda51 {
 		color: $high;
 		background-color: $low;
 	}
@@ -120,20 +120,20 @@
 	}
 }
 // Search results
-.searchResult_dcd237 {
+.searchResult__00093 {
 	@include boxify($high, $mid, 5px);
 }
 .tab-2j5AEF {
 	border-radius: 0;
 }
-.searchResult_dcd237.expanded-w_LCGl,
+.searchResult__00093.expanded-w_LCGl,
 .searchResultMessage-1fxgXh.hit-1fVM9e {
 	border: 1px solid $low;
 	border-radius: 0;
 }
 
 // Search calendar
-.theme-dark .calendarPicker__5c474 {
+.theme-dark .calendarPicker__47c85 {
 	.react-datepicker__current-month,
 	.react-datepicker__header,
 	.react-datepicker__day,

@@ -37,18 +37,18 @@
 	}
 }
 // Username color
-.username_d30d99.clickable__09456 {
+.username__0b0e7.clickable__09456 {
 	color: $low !important;
 }
 // Date stamp
 .isUnread_de09f5 .content__7191e,
-.unreadPill__715fc,
+.unreadPill__1b4fa,
 .content__7191e {
 	border-radius: 0;
 	background-color: $alert;
 	color: $high;
 }
-.unreadPillCapStroke__12c0b {
+.unreadPillCapStroke__89d64 {
 	color: $alert;
 	fill: $alert;
 }
@@ -83,7 +83,7 @@
 	}
 }
 .mentioned_fa6fd2 .messageContent_abea64 a,
-.wrapper_f46140,
+.wrapper__53064,
 .roleMention_d441cd,
 .mention {
 	color: rgb(218, 212, 187);
@@ -142,7 +142,7 @@
 .scrollableContainer_ff917f {
 	@include boxify($high, $mid, 3px);
 }
-.theme-dark .operations__07224 {
+.theme-dark .operations__62559 {
 	color: $low;
 	& > a {
 		color: $alert;
