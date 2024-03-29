@@ -31,6 +31,6 @@
 
 // Highlighting text
 ::selection {
-	background-color: $alert;
-	color: $high;
+	background-color: var(--color-alert);
+	color: var(--color-high);
 }
