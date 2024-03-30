@@ -12,12 +12,12 @@
 		.labelContainer__4f869 {
 			@include buttonify($low, $high, $high, $low);
 
-			.subtext__8a015,
+			.subtext__694e2,
 			.defaultColor__30336 {
 				color: $high;
 			}
 
-			&:hover .subtext__8a015 {
+			&:hover .subtext__694e2 {
 				color: $mid;
 			}
 			&:hover .defaultColor__30336 {

@@ -83,7 +83,7 @@
 	.actionIcon_b149a2 {
 		transition: color 0.2s;
 	}
-	.content_c6490e {
+	.content__6bf34 {
 		position: relative;
 		top: -3px;
 		padding: 4px 0px;
@@ -92,7 +92,7 @@
 		top: 1px;
 		padding: 4px 8px;
 	}
-	.content_c6490e:before,
+	.content__6bf34:before,
 	.linkTop_c8969d:before {
 		content: '';
 		transition: transform 0.4s;
@@ -115,7 +115,7 @@
 	&:hover {
 		box-shadow: 0 1px $low, 0 -1px $low;
 
-		.content_c6490e:before,
+		.content__6bf34:before,
 		.linkTop_c8969d:before {
 			transform: scaleX(1);
 		}
