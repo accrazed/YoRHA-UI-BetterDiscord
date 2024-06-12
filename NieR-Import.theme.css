@@ -989,6 +989,9 @@ path[d="M5.43309 21C5.35842 21 5.30189 20.9325 5.31494 20.859L5.99991 17H2.14274
   background-color: var(--color-low) !important;
   color: var(--color-high) !important;
 }
+.button_ae40a4:hover .lottieIcon_c7076c :not(defs *)[fill][fill-opacity] {
+  fill: var(--color-high);
+}
 
 .containerDefault_ae2ea4 {
   padding-bottom: 4px;
@@ -1753,6 +1756,7 @@ strong {
 }
 
 .theme-dark .scroller_de945b,
+.childWrapperNoHoverBg_bc176a,
 .wrapper__216eb,
 .scroller_de945b {
   background-color: transparent;

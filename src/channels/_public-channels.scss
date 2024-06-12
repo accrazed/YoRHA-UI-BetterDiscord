@@ -20,6 +20,10 @@
 // User info
 .button_ae40a4 {
 	@include buttonify(transparent, $low, $low, $high);
+
+	&:hover .lottieIcon_c7076c :not(defs *)[fill][fill-opacity] {
+		fill: $high;
+	}
 }
 // Channel hover/select animations
 .containerDefault_ae2ea4 {
