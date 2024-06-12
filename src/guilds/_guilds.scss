@@ -14,7 +14,7 @@
 .iconBadge__19638 {
 	background-color: $high;
 	color: $low;
-	.isCurrentUserConnected__3bd70 {
+	&.isCurrentUserConnected__3bd70 {
 		background-color: $alert;
 		color: $low;
 	}

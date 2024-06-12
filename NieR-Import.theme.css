@@ -1828,7 +1828,7 @@ strong {
   background-color: var(--color-high);
   color: var(--color-low);
 }
-.iconBadge__19638 .isCurrentUserConnected__3bd70 {
+.iconBadge__19638.isCurrentUserConnected__3bd70 {
   background-color: var(--color-alert);
   color: var(--color-low);
 }
