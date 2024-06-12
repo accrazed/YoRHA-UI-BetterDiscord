@@ -11,6 +11,14 @@
 .listItem__48528 .svg__34dd4 foreignObject {
 	mask: none;
 }
+.iconBadge__19638 {
+	background-color: $high;
+	color: $low;
+	.isCurrentUserConnected__3bd70 {
+		background-color: $alert;
+		color: $low;
+	}
+}
 .wrapper_a6f950:hover .childWrapper__760c6,
 .wrapper_a6f950.selected_b420e6 .childWrapper__760c6 {
 	background-color: transparent;

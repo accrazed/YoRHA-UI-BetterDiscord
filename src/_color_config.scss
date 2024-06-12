@@ -166,58 +166,58 @@
 	// --yellow-860-hsl: 32 calc(var(--saturation-factor, 1) * 86.7%) 5.9%;
 	// --yellow-900: hsl(var(--yellow-900-hsl) / 1);
 	// --yellow-900-hsl: 36 calc(var(--saturation-factor, 1) * 83.3%) 4.7%;
-	// --green-100: hsl(var(--green-100-hsl) / 1);
-	// --green-100-hsl: 137 calc(var(--saturation-factor, 1) * 90%) 96.1%;
-	// --green-130: hsl(var(--green-130-hsl) / 1);
-	// --green-130-hsl: 137 calc(var(--saturation-factor, 1) * 94.1%) 93.3%;
-	// --green-160: hsl(var(--green-160-hsl) / 1);
-	// --green-160-hsl: 141 calc(var(--saturation-factor, 1) * 91.3%) 86.5%;
-	// --green-200: hsl(var(--green-200-hsl) / 1);
-	// --green-200-hsl: 143 calc(var(--saturation-factor, 1) * 93.5%) 75.9%;
-	// --green-230: hsl(var(--green-230-hsl) / 1);
-	// --green-230-hsl: 146 calc(var(--saturation-factor, 1) * 86.6%) 64.9%;
-	// --green-260: hsl(var(--green-260-hsl) / 1);
-	// --green-260-hsl: 146 calc(var(--saturation-factor, 1) * 75.1%) 59%;
-	// --green-300: hsl(var(--green-300-hsl) / 1);
-	// --green-300-hsl: 146 calc(var(--saturation-factor, 1) * 65.4%) 53.5%;
-	// --green-330: hsl(var(--green-330-hsl) / 1);
-	// --green-330-hsl: 146 calc(var(--saturation-factor, 1) * 63.1%) 47.8%;
-	// --green-345: hsl(var(--green-345-hsl) / 1);
-	// --green-345-hsl: 147 calc(var(--saturation-factor, 1) * 65.9%) 43.7%;
-	// --green-360: hsl(var(--green-360-hsl) / 1);
-	// --green-360-hsl: 145 calc(var(--saturation-factor, 1) * 65%) 39.2%;
-	// --green-400: hsl(var(--green-400-hsl) / 1);
-	// --green-400-hsl: 143 calc(var(--saturation-factor, 1) * 60.7%) 35.9%;
-	// --green-430: hsl(var(--green-430-hsl) / 1);
-	// --green-430-hsl: 142 calc(var(--saturation-factor, 1) * 56.1%) 32.2%;
-	// --green-460: hsl(var(--green-460-hsl) / 1);
-	// --green-460-hsl: 141 calc(var(--saturation-factor, 1) * 56.6%) 28%;
-	// --green-500: hsl(var(--green-500-hsl) / 1);
-	// --green-500-hsl: 141 calc(var(--saturation-factor, 1) * 58.4%) 24.5%;
-	// --green-530: hsl(var(--green-530-hsl) / 1);
-	// --green-530-hsl: 140 calc(var(--saturation-factor, 1) * 60.7%) 21%;
-	// --green-560: hsl(var(--green-560-hsl) / 1);
-	// --green-560-hsl: 139 calc(var(--saturation-factor, 1) * 61.7%) 18.4%;
-	// --green-600: hsl(var(--green-600-hsl) / 1);
-	// --green-600-hsl: 139 calc(var(--saturation-factor, 1) * 65.4%) 15.9%;
-	// --green-630: hsl(var(--green-630-hsl) / 1);
-	// --green-630-hsl: 140 calc(var(--saturation-factor, 1) * 66.7%) 14.1%;
-	// --green-660: hsl(var(--green-660-hsl) / 1);
-	// --green-660-hsl: 139 calc(var(--saturation-factor, 1) * 68.8%) 12.5%;
-	// --green-700: hsl(var(--green-700-hsl) / 1);
-	// --green-700-hsl: 141 calc(var(--saturation-factor, 1) * 74.1%) 10.6%;
-	// --green-730: hsl(var(--green-730-hsl) / 1);
-	// --green-730-hsl: 138 calc(var(--saturation-factor, 1) * 78.3%) 9%;
-	// --green-760: hsl(var(--green-760-hsl) / 1);
-	// --green-760-hsl: 140 calc(var(--saturation-factor, 1) * 84.6%) 7.6%;
-	// --green-800: hsl(var(--green-800-hsl) / 1);
-	// --green-800-hsl: 139 calc(var(--saturation-factor, 1) * 82.4%) 6.7%;
-	// --green-830: hsl(var(--green-830-hsl) / 1);
-	// --green-830-hsl: 138 calc(var(--saturation-factor, 1) * 80%) 5.9%;
-	// --green-860: hsl(var(--green-860-hsl) / 1);
-	// --green-860-hsl: 133 calc(var(--saturation-factor, 1) * 70.4%) 5.3%;
-	// --green-900: hsl(var(--green-900-hsl) / 1);
-	// --green-900-hsl: 129 calc(var(--saturation-factor, 1) * 58.3%) 4.7%;
+	--green-100: var(--color-alert)
+	--green-100-hsl: var(--color-alert)
+	--green-130: var(--color-alert)
+	--green-130-hsl: var(--color-alert)
+	--green-160: var(--color-alert)
+	--green-160-hsl: var(--color-alert)
+	--green-200: var(--color-alert)
+	--green-200-hsl: var(--color-alert)
+	--green-230: var(--color-alert)
+	--green-230-hsl: var(--color-alert)
+	--green-260: var(--color-alert)
+	--green-260-hsl: var(--color-alert)
+	--green-300: var(--color-alert)
+	--green-300-hsl: var(--color-alert)
+	--green-330: var(--color-alert)
+	--green-330-hsl: var(--color-alert)
+	--green-345: var(--color-alert)
+	--green-345-hsl: var(--color-alert)
+	--green-360: var(--color-alert)
+	--green-360-hsl: var(--color-alert)
+	--green-400: var(--color-alert)
+	--green-400-hsl: var(--color-alert)
+	--green-430: var(--color-alert)
+	--green-430-hsl: var(--color-alert)
+	--green-460: var(--color-alert)
+	--green-460-hsl: var(--color-alert)
+	--green-500: var(--color-alert)
+	--green-500-hsl: var(--color-alert)
+	--green-530: var(--color-alert)
+	--green-530-hsl: var(--color-alert)
+	--green-560: var(--color-alert)
+	--green-560-hsl: var(--color-alert)
+	--green-600: var(--color-alert)
+	--green-600-hsl: var(--color-alert)
+	--green-630: var(--color-alert)
+	--green-630-hsl: var(--color-alert)
+	--green-660: var(--color-alert)
+	--green-660-hsl: var(--color-alert)
+	--green-700: var(--color-alert)
+	--green-700-hsl: var(--color-alert)
+	--green-730: var(--color-alert)
+	--green-730-hsl: var(--color-alert)
+	--green-760: var(--color-alert)
+	--green-760-hsl: var(--color-alert)
+	--green-800: var(--color-alert)
+	--green-800-hsl: var(--color-alert)
+	--green-830: var(--color-alert)
+	--green-830-hsl: var(--color-alert)
+	--green-860: var(--color-alert)
+	--green-860-hsl: var(--color-alert)
+	--green-900: var(--color-alert)
+	--green-900-hsl: var(--color-alert)
 	// --blue-100: hsl(var(--blue-100-hsl) / 1);
 	// --blue-100-hsl: 210 calc(var(--saturation-factor, 1) * 80%) 98%;
 	// --blue-130: hsl(var(--blue-130-hsl) / 1);

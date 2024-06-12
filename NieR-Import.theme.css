@@ -220,6 +220,59 @@ html {
   --radius-xl: 0;
   --radius-xxl: 0;
   --radius-round: 0;
+  --green-100: var(--color-alert)
+  --green-100-hsl: var(--color-alert)
+  --green-130: var(--color-alert)
+  --green-130-hsl: var(--color-alert)
+  --green-160: var(--color-alert)
+  --green-160-hsl: var(--color-alert)
+  --green-200: var(--color-alert)
+  --green-200-hsl: var(--color-alert)
+  --green-230: var(--color-alert)
+  --green-230-hsl: var(--color-alert)
+  --green-260: var(--color-alert)
+  --green-260-hsl: var(--color-alert)
+  --green-300: var(--color-alert)
+  --green-300-hsl: var(--color-alert)
+  --green-330: var(--color-alert)
+  --green-330-hsl: var(--color-alert)
+  --green-345: var(--color-alert)
+  --green-345-hsl: var(--color-alert)
+  --green-360: var(--color-alert)
+  --green-360-hsl: var(--color-alert)
+  --green-400: var(--color-alert)
+  --green-400-hsl: var(--color-alert)
+  --green-430: var(--color-alert)
+  --green-430-hsl: var(--color-alert)
+  --green-460: var(--color-alert)
+  --green-460-hsl: var(--color-alert)
+  --green-500: var(--color-alert)
+  --green-500-hsl: var(--color-alert)
+  --green-530: var(--color-alert)
+  --green-530-hsl: var(--color-alert)
+  --green-560: var(--color-alert)
+  --green-560-hsl: var(--color-alert)
+  --green-600: var(--color-alert)
+  --green-600-hsl: var(--color-alert)
+  --green-630: var(--color-alert)
+  --green-630-hsl: var(--color-alert)
+  --green-660: var(--color-alert)
+  --green-660-hsl: var(--color-alert)
+  --green-700: var(--color-alert)
+  --green-700-hsl: var(--color-alert)
+  --green-730: var(--color-alert)
+  --green-730-hsl: var(--color-alert)
+  --green-760: var(--color-alert)
+  --green-760-hsl: var(--color-alert)
+  --green-800: var(--color-alert)
+  --green-800-hsl: var(--color-alert)
+  --green-830: var(--color-alert)
+  --green-830-hsl: var(--color-alert)
+  --green-860: var(--color-alert)
+  --green-860-hsl: var(--color-alert)
+  --green-900: var(--color-alert)
+  --green-900-hsl: var(--color-alert)
+  // --blue-100: hsl(var(--blue-100-hsl) / 1);
   --white-100: var(--white-100-hsl);
   --white-130: var(--white-130-hsl);
   --white-160: var(--white-160-hsl);
@@ -1769,6 +1822,15 @@ strong {
 .listItem__48528 .svg__34dd4 foreignObject {
   -webkit-mask: none;
           mask: none;
+}
+
+.iconBadge__19638 {
+  background-color: var(--color-high);
+  color: var(--color-low);
+}
+.iconBadge__19638 .isCurrentUserConnected__3bd70 {
+  background-color: var(--color-alert);
+  color: var(--color-low);
 }
 
 .wrapper_a6f950:hover .childWrapper__760c6,
