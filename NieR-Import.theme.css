@@ -1825,12 +1825,15 @@ strong {
 }
 
 .iconBadge__19638 {
-  background-color: var(--color-high);
-  color: var(--color-low);
+  background-color: var(--color-low);
+  color: var(--color-high);
 }
 .iconBadge__19638.isCurrentUserConnected__3bd70 {
   background-color: var(--color-alert);
   color: var(--color-low);
+}
+.iconBadge__19638.participating-2Z81oO {
+  background-color: var(--color-alert);
 }
 
 .wrapper_a6f950:hover .childWrapper__760c6,
@@ -1899,13 +1902,6 @@ strong {
 }
 
 .item_f9d377[style="opacity: 1; height: 8px; transform: none;"] {
-  background-color: var(--color-alert);
-}
-
-.iconBadge__19638 {
-  background-color: var(--color-low);
-}
-.iconBadge__19638.participating-2Z81oO {
   background-color: var(--color-alert);
 }
 

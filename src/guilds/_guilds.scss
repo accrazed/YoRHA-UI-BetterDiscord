@@ -12,11 +12,14 @@
 	mask: none;
 }
 .iconBadge__19638 {
-	background-color: $high;
-	color: $low;
+	background-color: $low;
+	color: $high;
 	&.isCurrentUserConnected__3bd70 {
 		background-color: $alert;
 		color: $low;
+	}
+	&.participating-2Z81oO {
+		background-color: $alert;
 	}
 }
 .wrapper_a6f950:hover .childWrapper__760c6,
@@ -69,15 +72,6 @@
 // Unread Guild
 .item_f9d377[style='opacity: 1; height: 8px; transform: none;'] {
 	background-color: $alert;
-}
-// Streaming icon
-.iconBadge__19638 {
-	background-color: $low;
-
-	// Also participating
-	&.participating-2Z81oO {
-		background-color: $alert;
-	}
 }
 // Unread blip out of screen
 .mention_dd733a {
