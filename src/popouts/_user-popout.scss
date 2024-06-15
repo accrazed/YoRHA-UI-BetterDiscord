@@ -1,325 +1,116 @@
-// Transparencies
-.tabBarContainer-1s1u-z {
-	border: none;
-}
-.bannerSVGWrapper__8a38c circle {
-	fill: none;
-}
-.divider-1wtgZ3 {
-	display: none;
-}
-.separator-1So4YB {
-	margin: 0;
-}
-
-.customStatus-3XAoF9 {
-	color: $low;
-}
-
-// add role focus
-.textarea__0461c:focus {
-	background-color: transparent;
-}
-.textarea__0461c {
-	&::placeholder {
-		color: $low;
-	}
-	color: $low;
-}
-.bodyInnerWrapper-2bQs1k,
-.headerStreaming-2FjmGz,
-.headerXbox-3G-4PF,
-.theme-dark .headerNormal-T_seeN,
-.theme-dark .body-3iLsc4,
-.topSectionPlaying-1J5E4n,
-.topSectionSpotify-1lI0-P,
-.headerSpotify-zpWxgT,
-.headerPlaying-j0WQBV,
-.theme-dark .footer-1fjuF6 {
-	background: transparent;
-}
-
-// connect account button
-.actionColor-3JIzOn {
-	@include buttonify($low, $high, $alert, $high);
-}
-
-// send message button
-.lookFilled-yCfaCM.colorGreen-3y-Z79 {
-	@include buttonify($alert, $high, $low, $high);
-}
-// Colors
-[style*='border-color: rgb(255, 255, 255);'] {
-	border-color: $alert !important;
-}
-
-.top-K_jibn .item__48dda {
-	color: $mid;
-}
-
-.top-K_jibn {
-	.selected_a523ff.item__48dda,
-	.selected_a523ff.item__48dda:hover {
-		color: $low;
-	}
-}
-
-.nickname-t08Mck,
-.headerTagUsernameBase-XYisdh,
-.headerTagUsernameNoNickname-1TjuLc,
-.discrimBase-1VOoau,
-.theme-dark .newPopoutActivityStyles .activityName_a7b7de,
-.activityHeader-1PExlk,
-.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_),
-.colorDefault-CDqZdO.focused-3qFvc8,
-.text__6822d,
-.nameWrap_b61c4b,
-.activityName_a7b7de {
-	color: $high;
-}
-.customStatusText-3ca2B1 {
-	color: $low !important;
-}
-
-.customStatus-1bh2V9,
-.additionalActionsIcon-1FoUlE,
-.discriminator-xUhQkU,
-.username-3gJmXY,
-.headerName-fajvi9,
-.headerTag-2pZJzA,
-.headerTagUsernameNoNickname-2_H881 {
-	color: $low;
-}
-
-.bar_e63719,
-.headerFill-adLl4x,
-.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_),
-.colorDefault-CDqZdO.focused-3qFvc8,
-.activity-3v9l4T {
-	background: $low;
-}
-
-.barInner__0f713 {
-	background: $high;
-}
-
-// Playing a game
-.theme-dark .activity-3v9l4T {
-	order: 10;
-	padding: 16px;
-	background-color: $low;
-	.nameWrap_b61c4b,
-	.content__7246b,
-	.headerText_c0138d {
-		color: $high;
-	}
-}
-
-// Rich Embed Game Icon
-.gameIcon_fc710a,
-.assetsLargeImage__57902 {
-	border-radius: 0;
-	border: 1px solid $high;
-}
-
-.root-SR8cQa, // User menu popout
-.theme-dark .colorPickerCustom-1swUKF, // Color picker
-.userPopout-2j1gM4 // Clicking on a user
-{
-	@include boxify($high, $mid, 5px);
-	border-color: $low;
-}
-
-.theme-dark .newPopoutActivityStyles .activityName_a7b7de {
-	color: $low;
-}
-
-.headerNormal-3Zn_yu {
-	display: flex;
-	flex-direction: column;
-}
-
-.popoutBanner__3fbe8 {
-	position: relative;
-	order: 0;
-}
-
-// Header
-.userPopoutInner_e90432 {
-	position: static;
-	background-color: $low;
-	.customStatus-3XAoF9,
-	.nickname-2gQ76l,
-	.headerTagUsernameBase-24SRnT,
-	.headerTagUsernameNoNickname-1ZLDYY,
-	.discrimBase-1QwWzY {
-		color: $high;
-	}
-	.profileBadges__1f2ab {
-		position: absolute;
-		z-index: 1;
-		top: 10px;
-		left: 12px;
-	}
-	.headerText-15Q25Z {
-		padding-bottom: 4px;
-	}
-	.aboutMeSection---MkQa {
-		padding: 8px;
-	}
-}
-// profile mask on banner
-.bannerSVGWrapper__8a38c {
-	foreignObject {
-		mask: none !important;
-	}
-}
-
-.bannerSVGWrapper__8a38c {
-	order: 1;
-}
-// Avatar
-.avatarWrapper__0cd44 {
-	margin: 15px auto;
-	display: flex;
-	position: relative;
-	justify-self: center;
-	align-content: center;
-	justify-content: center;
-	order: 2;
-	top: 0;
-	left: 0;
-	width: 90%;
-	height: 120px;
-	background-color: $mid;
-	border-radius: 0;
-
-	.avatarHoverTarget__9b4a9 {
-		position: absolute;
-		top: 50%;
-		transform: translateY(-50%);
-		margin: auto;
-		border-width: 1px;
-	}
-}
-
-// Avatar hint
-.avatarWrapperNormal__36eec,
-.avatarWrapperNormal__36eec:hover {
-	.avatarDecorationHint__04b99,
-	.avatarHint__15059 {
-		position: relative;
-		margin: auto;
-	}
-}
-.avatarDecorationHint__04b99 {
-	top: 0;
-	left: 0;
-}
-
-.defaultColor__30336 {
-	color: $low;
-}
-
-.roleName__851c9 .defaultColor__30336 {
-	color: $high;
-}
-
-.eyebrow_e5a66c {
-	color: $low !important;
-}
-.userPopoutOverlayBackground_bf6444 {
-	order: 3;
-}
-
-.footer-3naVBw {
-	background-color: transparent;
-	order: 4;
-}
-
-// roles
-.theme-dark .role_d81130 {
-	background: $low;
-	color: $high;
-	.actionButton__96742 {
-		color: $high;
-	}
-}
-// Spotify
-.bar_e63719 {
-	border: 1px solid $mid;
-	.barInner__0f713 {
-		background-color: $alert;
-	}
-}
-
-///////////////////////////////////////////////////
-
-.userProfileInnerThemedNonPremium-1gT-zY {
+// whole container
+.userPopoutOuter_d67f56 {
 	@include boxify($high, $mid, 3px);
-	background: $high;
-}
+	padding: 0 !important;
 
-.overlayBackground__2666e,
-.userPopoutInner_e90432:before {
-	background: transparent;
-}
-.divider__126d2 {
-	display: none;
-}
-.connectedAccountOpenIcon__23b1a:hover {
-	color: $mid;
-}
-
-.userProfileOuter__4ac83 {
-	@include boxify($high, $mid, 3px);
-}
-.roundedBanner-TdlJGa {
-	border-radius: 0;
-}
-
-.userProfileOuterThemed__1fbd7.userPopoutOuter__3884e,
-.userProfileOuterThemed__1fbd7.userProfileOuter__4ac83 {
-	padding: 0;
-}
-
-.overlayBackground__2666e {
-	background: $high;
-	border-radius: 0%;
-	border: 2px solid $low;
-}
-
-.buttonColor_fd4fe8 {
-	@include buttonify($low, $high, $alert, $high);
-}
-
-.top-K_jibn .themed-2-lozF.item__48dda:hover,
-.brand-3g5E0C.item__48dda:hover,
-.themed-2-lozF.item__48dda:hover {
-	color: $mid;
-	border-bottom-color: $mid;
-}
-
-.top-K_jibn .selected_a523ff.themed-2-lozF.item__48dda,
-.top-K_jibn .themed-2-lozF.item__48dda:active {
-	border-bottom-color: $low;
-}
-
-.guildNick-HT7Pgu {
-	color: $mid;
-}
-
-// connected account
-.connectedAccountContainer-2TWiXT {
-	border-radius: 0;
-	border: 2px solid $low;
-
-	.text-xs-normal_ccc5fb,
-	.connectedAccountNameText-3VHIcl {
-		color: $low !important;
+	// weird box that sits over theme colors, under boxes
+	// seems to darken the color selection
+	.userProfileInner__8ff35:before {
+		height: 100%;
+		width: 100%;
 	}
 
-	.connectedAccountOpenIcon-OngaxI {
-		color: $low;
+	.header__725f2 {
+		display: flex;
+		flex-direction: column;
+
+		// janky ass invisible container?
+		.invisibleContainer__1e05d.biteSize__4396a {
+			display: none;
+		}
+
+		.bannerSVGWrapper__8a38c {
+			// pfp mask around banner
+			mask circle {
+				display: none;
+			}
+		}
+
+		// thinking text and bubbles
+		.statusBubbleOuter__7e51b {
+			max-width: none;
+			max-height: none;
+			border-radius: 0;
+			box-shadow: none;
+
+			margin: 0 0.5em;
+			border: 2px solid $low;
+
+			.content_faa8bf {
+				max-height: none !important;
+				overflow: visible;
+				word-wrap: normal;
+			}
+
+			.statusBubble__1a4c3 {
+				background-color: $high;
+				border-radius: 0;
+				word-wrap: normal;
+				padding: 0;
+
+				.clamp__79a59 {
+					-webkit-line-clamp: 100;
+					line-clamp: 100;
+				}
+			}
+
+			.statusBubbleWithTextMinWidth__7b594 {
+				padding: 0.25em;
+			}
+
+			.singleLineAlign__355e0 {
+				text-align: left;
+			}
+		}
+		.statusBubbleOuter__7e51b:before,
+		.statusBubbleOuter__7e51b:after {
+			display: none;
+		}
+
+		// thinking text
+		.visibleContainer_adf761.biteSize__4396a {
+			position: relative;
+			top: 0;
+			left: 0;
+		}
+
+		// profile picture clickable area
+		.clickable_bf76d2 {
+			border: 2px solid $low;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			background-color: $mid;
+			margin: 0.5em;
+			padding: 2em;
+			border-radius: 0;
+			position: relative;
+			top: 0;
+			left: 0;
+
+			// the actual pfp
+			.wrapper__3ed10 {
+				border-radius: 0;
+			}
+		}
+	}
+
+	// usernames, mutuals, roles
+	.body__489bc {
+		border: 2px solid $low;
+		margin: 0 0.5em;
+		padding: 0.5em;
+		background: $high;
+	}
+	.footer_b50e3f {
+		margin: 0;
+		padding: 0.5em;
+	}
+
+	// message user
+	.channelTextArea__648e5 {
+		background: $high;
+		border-radius: 0;
 	}
 }
