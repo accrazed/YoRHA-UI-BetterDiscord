@@ -5,7 +5,7 @@
 }
 // Transparencies
 .theme-dark .separator-2lLxgC,
-.theme-dark .footer_f06dbb,
+.theme-dark .footer_f82cc7,
 .theme-dark .footer-31IekZ {
 	background-color: transparent;
 	box-shadow: none;
@@ -29,25 +29,25 @@
 .h5-2RwDNl,
 .footer-31IekZ,
 .uploadIcon-2wV7s_,
-.colorMuted__413e9,
-.colorHeaderPrimary_b60093,
-.colorHeaderSecondary__5539c {
+.colorMuted_fbc755,
+.colorHeaderPrimary_fbc755,
+.colorHeaderSecondary_fbc755 {
 	color: $low;
 }
 .anchor-1MIwyf {
 	color: $alert;
 }
 // start from template / create my own
-.container-x8Y1ix .defaultColor__30336 {
+.container-x8Y1ix .defaultColor_a595eb {
 	color: $high;
 }
 // You've been invited to join a server
-.container__734b5 {
-	.title__61612 {
+.container_ed5743 {
+	.title_f9c402 {
 		color: $low;
 	}
 }
-.iconActiveLarger__1e0da {
+.iconActiveLarger_f11207 {
 	border-radius: 0;
 }
 // Join a server
@@ -58,7 +58,7 @@
 .rowContainer-3t7486 {
 	border-radius: 0;
 	background-color: $low;
-	.defaultColor__30336 {
+	.defaultColor_a595eb {
 		color: $high;
 	}
 
@@ -70,25 +70,25 @@
 	color: $low;
 }
 // Upload Image
-.theme-dark .uploadModal__6eb75 {
+.theme-dark .uploadModal_f82cc7 {
 	@include boxify($high, $mid, 6px);
-	.scrollableContainer_ff917f {
+	.scrollableContainer_d0696b {
 		box-shadow: none;
 		border: 3px solid $low;
 	}
 }
 // Image popout carousel
-.arrowContainer_eb1184 {
+.arrowContainer_b65c0b {
 	background-color: $alert;
 }
 // Drag and drop upload
-.uploadModalIn_c0e1db .uploadDropModal_cfadae {
-	.inner__7afe9 .instructions_e266ce,
-	.inner__7afe9 {
+.uploadModalIn_f82cc7 .uploadDropModal_f82cc7 {
+	.inner_f82cc7 .instructions_f82cc7,
+	.inner_f82cc7 {
 		border: none;
 		color: $low;
 	}
-	.bgScale_f4bff5 {
+	.bgScale_f82cc7 {
 		@include boxify($high, $mid, 4px);
 	}
 }
@@ -96,7 +96,7 @@
 	border: 2px solid $low;
 	border-radius: 0;
 
-	&.checked__36fdc {
+	&.checked_cebd1c {
 		border: 2px solid $low !important;
 		background-color: $high;
 
@@ -106,16 +106,16 @@
 	}
 }
 // Login screen
-.theme-dark.authBox__6f336 {
+.theme-dark.authBox_dc6abe {
 	@include boxify($high, $mid, 6px);
 
 	&,
-	.colorHeaderPrimary_b60093,
-	.colorHeaderSecondary__5539c,
+	.colorHeaderPrimary_fbc755,
+	.colorHeaderSecondary_fbc755,
 	.h5-2RwDNl {
 		color: $low;
 	}
-	.lookLink_a2da25.colorBrand__27d57 {
+	.lookLink_dd4f85.colorBrand_dd4f85 {
 		color: $alert;
 	}
 	.qrCodeContainer-1qlybH,
@@ -124,15 +124,15 @@
 	}
 }
 // CTRL K
-.quickswitcher_b5bb0a {
+.quickswitcher_f4e139 {
 	@include boxify($high, $mid, 5px);
-	.input__2a648 {
+	.input_f4e139 {
 		color: $high;
 		background: $low;
 		border-radius: 0;
 		box-shadow: none;
 	}
-	.icon__39f1d {
+	.icon_f14193 {
 		height: 13px;
 		width: 13px;
 		background-color: $low;
@@ -142,12 +142,12 @@
 		border-radius: 0;
 
 		.note-3TX9O7,
-		.misc__9152e,
-		.contentUnread_cd86ef,
-		.contentDefault_d3a863 {
+		.misc_f14193,
+		.contentUnread_f14193,
+		.contentDefault_f14193 {
 			color: $high;
 		}
-		.icon__39f1d {
+		.icon_f14193 {
 			background-color: $high;
 			path {
 				fill: $high;
@@ -157,7 +157,7 @@
 }
 // Invite Friends to Server
 .theme-dark {
-	.lookLink_a2da25.colorGrey-2DXtkV,
+	.lookLink_dd4f85.colorGrey-2DXtkV,
 	.footerText-2QLGHU {
 		color: $low;
 	}
@@ -169,7 +169,7 @@
 
 		&:hover {
 			background: $low;
-			.lookLink_a2da25.colorGrey-2DXtkV,
+			.lookLink_dd4f85.colorGrey-2DXtkV,
 			.inviteRowName-3H4s_c {
 				color: $high;
 			}
@@ -212,24 +212,24 @@
 	}
 }
 // Notification settings
-.theme-dark .modal__060da {
+.theme-dark .modal_ec75c1 {
 	@include boxify($high, $mid, 4px);
 }
 // Reactions
-.reaction__4a43f {
+.reaction_ec6b19 {
 	border-radius: 0;
 	@include boxify($high, $mid, 3px);
 
-	&.reactionMe__0fffc {
+	&.reactionMe_ec6b19 {
 		background-color: $low;
 
-		.reactionCount__2c34d {
+		.reactionCount_ec6b19 {
 			color: $high;
 		}
 	}
 }
 // "Hold Up" - external site prompt
-.theme-dark .root_a28985 {
+.theme-dark .root_f9a4c9 {
 	@include boxify($high, $low, 3px);
 }
 .lookFilled-yCfaCM.colorPrimary-2AuQVo {

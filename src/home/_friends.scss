@@ -1,19 +1,19 @@
 // Transparencies
-.theme-dark .scroller__89969,
-.scroller_a9a4b4,
+.theme-dark .scroller_c47fa9,
+.scroller_ad8f79,
 .scroller__244e5,
-.applicationStore__444b9,
-.nowPlayingColumn_b025fe,
-.container__3673d,
-.theme-dark .inset__61d5b,
-.theme-dark .container_bd15da {
+.applicationStore_cecc86,
+.nowPlayingColumn_c2739c,
+.container_bf550a,
+.theme-dark .inset_c0f6a6,
+.theme-dark .container_c2739c {
 	background-color: transparent;
 }
-.peopleListItem_dab480.active__6b8ff,
-.peopleListItem_dab480:hover {
+.peopleListItem_d51464.active_d51464,
+.peopleListItem_d51464:hover {
 	@include boxify($high, $mid, 3px);
 }
-.peopleListItem_dab480 {
+.peopleListItem_d51464 {
 	border-top: none;
 }
 // Low color
@@ -22,72 +22,72 @@
 	color: $low;
 }
 // "Active Now" tags, (misc. cards too)
-.scroller__7c25e {
+.scroller_bf550a {
 	border: none;
 }
 .theme-dark .feature-2IUcBI,
 .banner-WELp4M,
-.wrapper__3c6d5 {
+.wrapper_cd82a7 {
 	transition: all 0.1s;
 	@include boxify($high, $mid, 4px);
 
-	.inset__61d5b {
+	.inset_c0f6a6 {
 		border: 1px solid $mid;
 		border-radius: 0;
 	}
-	.partyMemberOverflow_fa82b9 {
+	.partyMemberOverflow_b448f2 {
 		color: $high;
 		background: $low;
 	}
-	.section__253ec {
+	.section_cd82a7 {
 		border-radius: 0;
 	}
 	&:hover {
 		background-color: $low !important;
 
-		.partyMemberOverflow_fa82b9 {
+		.partyMemberOverflow_b448f2 {
 			color: $low;
 			background: $high;
 		}
-		.text-sm-normal-3Zj3Iv.textContent_e33074,
-		.defaultColor__30336,
-		.base__1aa9d,
+		.text-sm-normal-3Zj3Iv.textContent_cd82a7,
+		.defaultColor_a595eb,
+		.base_d0da3e,
 		span,
-		.colorHeaderSecondary__5539c,
-		.colorStandard__3d599 {
+		.colorHeaderSecondary_fbc755,
+		.colorStandard_fbc755 {
 			color: $high;
 		}
-		.section__253ec div {
+		.section_cd82a7 div {
 			color: $low;
 		}
 	}
 }
 // 'Active Now' Header
-.header_c56a27 {
+.header_bf550a {
 	@include titlify(2px, 4px);
 }
 // Close button hover
-.children_cf6731 {
+.children_e9f61e {
 	z-index: 1;
 }
-.actionButton__2b4bb:hover {
+.actionButton_e01b91:hover {
 	transition: background-color 0.2s ease-in-out;
 	background-color: $low;
 
-	.icon__4ee3f {
+	.icon_e01b91 {
 		transition: color 0.1s ease-in-out;
 		color: $high;
 	}
 }
 // Header divider
-.tabBody_a90ea8:before {
+.tabBody_c2739c:before {
 	display: none;
 }
 
-.tabBar__73938 .item_e4ca95 {
+.tabBar_c2739c .item_c2739c {
 	@include buttonify(transparent, $low, $low, $high);
 
-	&.selected_a523ff {
+	&.selected_a0 {
 		background-color: $low !important;
 		color: $high;
 	}

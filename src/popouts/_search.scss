@@ -1,21 +1,21 @@
 // Transparencies
-.searchResult__00093:before,
-.searchResult__00093:after,
-.option__91497:after,
-.option__91497:hover:after,
+.searchResult_ddc613:before,
+.searchResult_ddc613:after,
+.option_b0286e:after,
+.option_b0286e:hover:after,
 .channelName-3w2Y3c,
-.searchHeader__4d70e,
-.searchResultsWrap__2e184,
-.theme-dark .option__91497:after {
+.searchHeader_b7c924,
+.searchResultsWrap_c2b47d,
+.theme-dark .option_b0286e:after {
 	background: transparent;
 }
-.searchHeader__4d70e,
+.searchHeader_b7c924,
 .searchResultMessage-1fxgXh.hit-1fVM9e {
 	box-shadow: none;
 }
 // Search Box
 .searchBar-zdmu7v,
-.searchBar__621ec .searchBarComponent__8f95f {
+.searchBar_f0963d .searchBarComponent_f0963d {
 	border: 1px solid $low;
 	background-color: $high-trans;
 	border-radius: 0;
@@ -38,21 +38,21 @@
 .theme-dark {
 	// In-text labels
 
-	.searchAnswer__2ccaf,
-	.searchFilter_dbda51 {
+	.searchAnswer_b0fa94,
+	.searchFilter_b0fa94 {
 		color: $high;
 		background-color: $low;
 	}
-	.elevationBorderHigh__24051,
-	.container__84c26 {
+	.elevationBorderHigh_ff8688,
+	.container_eedf95 {
 		@include boxify($high, $mid, 4px);
 	}
-	.queryContainer_c1cb2f {
+	.queryContainer_eedf95 {
 		color: $low;
 		strong {
 			color: $low;
 		}
-		&.focused__68b93 {
+		&.focused_eedf95 {
 			color: $high;
 			background-color: $low;
 			strong {
@@ -61,10 +61,10 @@
 		}
 		border: none;
 	}
-	.resultsGroup_b221b0 {
-		.header__00739,
-		.searchClearHistory__7fe75,
-		.searchLearnMore__17e18 a {
+	.resultsGroup_b0286e {
+		.header_b0286e,
+		.searchClearHistory_b0286e,
+		.searchLearnMore_b0286e a {
 			color: $low;
 		}
 		.plusIcon-2V7coV {
@@ -74,25 +74,25 @@
 			border: none;
 		}
 	}
-	.option__91497[aria-selected='true'] {
+	.option_b0286e[aria-selected='true'] {
 		background: $low;
 
 		strong {
 			color: $high;
 		}
 	}
-	.option__91497,
-	.searchOption__3c857 {
+	.option_b0286e,
+	.searchOption_b0286e {
 		margin: 0;
 
-		&.user__97b4c .displayUsername-UTer,
-		&.user__97b4c .displayedNick_ee206c,
+		&.user_b0286e .displayUsername-UTer,
+		&.user_b0286e .displayedNick_b0286e,
 		.searchResultChannelCategory-3cL8uG,
 		.searchResultChannelIcon-1Il1Qo,
 		strong,
-		.nonText_fbd88d,
-		.filter__851fb,
-		.answer__9ff92 {
+		.nonText_b0286e,
+		.filter_b0286e,
+		.answer_b0286e {
 			color: $low;
 		}
 
@@ -103,13 +103,13 @@
 			&::after {
 				background: transparent;
 			}
-			.plusIcon__3ff01,
-			&.user__97b4c .displayUsername-UTer,
-			&.user__97b4c .displayedNick_ee206c,
+			.plusIcon_b0286e,
+			&.user_b0286e .displayUsername-UTer,
+			&.user_b0286e .displayedNick_b0286e,
 			strong,
-			.nonText_fbd88d,
-			.filter__851fb,
-			.answer__9ff92 {
+			.nonText_b0286e,
+			.filter_b0286e,
+			.answer_b0286e {
 				color: $high;
 			}
 			.searchResultChannelCategory-3cL8uG,
@@ -120,13 +120,13 @@
 	}
 }
 // Search results
-.searchResult__00093 {
+.searchResult_ddc613 {
 	@include boxify($high, $mid, 5px);
 }
 .tab-2j5AEF {
 	border-radius: 0;
 }
-.searchResult__00093.expanded-w_LCGl,
+.searchResult_ddc613.expanded-w_LCGl,
 .searchResultMessage-1fxgXh.hit-1fVM9e {
 	border: 1px solid $low;
 	border-radius: 0;
@@ -152,12 +152,12 @@
 		color: $low;
 	}
 }
-.datePicker_df63a7 .datePickerHint_d023b6 {
+.datePicker_b0286e .datePickerHint_b0286e {
 	border: none;
-	.hint__460f1 {
+	.hint_b0286e {
 		color: $low;
 	}
-	.hintValue__0c960 {
+	.hintValue_b0286e {
 		background-color: $low;
 		color: $high;
 	}

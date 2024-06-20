@@ -3,17 +3,17 @@
 }
 
 // app container
-.collectionBottomMargin__4e025,
-.animatesOnHoverContainer_f1fedf {
+.collectionBottomMargin_e90143,
+.animatesOnHoverContainer_d9c848 {
 	@include boxify($high, $mid, 3px);
 }
-.scroller__51dd3 {
+.scroller_b503b8 {
 	padding: 1em 0;
 }
-.category_c3da1d {
+.category_d7acc7 {
 	@include buttonify($high, $low, $low, $high);
 
-	&:hover .defaultColor__30336 {
+	&:hover .defaultColor_a595eb {
 		color: $high;
 	}
 }

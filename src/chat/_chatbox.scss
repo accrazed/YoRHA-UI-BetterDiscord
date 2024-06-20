@@ -1,12 +1,12 @@
 // Transparencies
-.theme-dark .form_d8a4a1:before {
+.theme-dark .form_a7d72e:before {
 	background: transparent;
 }
 // Type box
-.channelTextArea__648e5 {
+.channelTextArea_d0696b {
 	width: 100%;
 }
-.channelTextArea_c2094b {
+.channelTextArea_a7d72e {
 	border-radius: 0;
 	margin-left: 21px;
 	box-shadow: -3px 0 0 $low, -9px 0 0 $high, -21px 0 0 $low, -18px 3px 0 $mid, 3px 3px 0 $mid;
@@ -14,17 +14,17 @@
 .placeholder__443e5 {
 	color: $mid;
 }
-.cooldownWrapper__193b2 {
+.cooldownWrapper_d7ebeb {
 	color: $low !important;
 }
 // Buttons
-.attachButton__56f98 {
+.attachButton_f298d4 {
 	padding: {
 		left: 10px;
 		right: 10px;
 	}
 
-	&:hover .attachButtonPlus_fd0021 {
+	&:hover .attachButtonPlus_f298d4 {
 		transition: fill 0.1s ease-in-out;
 		fill: $mid;
 	}

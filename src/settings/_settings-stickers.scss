@@ -1,18 +1,18 @@
 .theme-dark {
-	.tier_d16770 {
+	.tier_da77bd {
 		@include boxify($high, $mid, 3px);
 
-		.tierHeaderUnlocked__960f7,
-		.tierIconLocked__99052,
-		.tierBody_fd5f94,
-		.tierHeaderLocked__0ca2e {
+		.tierHeaderUnlocked_da77bd,
+		.tierIconLocked_da77bd,
+		.tierBody_da77bd,
+		.tierHeaderLocked_da77bd {
 			color: $low;
 			background-color: transparent;
 		}
 	}
 
-	.subscriberCount__6634d,
-	.subscriberCount__6634d strong {
+	.subscriberCount_da77bd,
+	.subscriberCount_da77bd strong {
 		color: $low;
 	}
 }

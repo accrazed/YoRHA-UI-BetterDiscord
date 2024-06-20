@@ -1,34 +1,34 @@
-.menu__088f7 {
+.menu_d90b3d {
 	@include boxify($low, $mid, 3px);
 
-	.scroller__8f066 {
-		.separator__174fc {
+	.scroller_d90b3d {
+		.separator_d90b3d {
 			display: none;
 		}
-		.item__183e8 {
+		.item_d90b3d {
 			margin: 0;
 		}
-		.colorDefault_e361cf,
-		.labelContainer__4f869 {
+		.colorDefault_d90b3d,
+		.labelContainer_d90b3d {
 			@include buttonify($low, $high, $high, $low);
 
-			.subtext__694e2,
-			.defaultColor__30336 {
+			.subtext_d90b3d,
+			.defaultColor_a595eb {
 				color: $high;
 			}
 
-			&:hover .subtext__694e2 {
+			&:hover .subtext_d90b3d {
 				color: $mid;
 			}
-			&:hover .defaultColor__30336 {
+			&:hover .defaultColor_a595eb {
 				color: $low;
 			}
 		}
 
-		.caret_ce50ce {
+		.caret_d90b3d {
 			color: $mid;
 		}
-		.submenuPaddingContainer__5a97c {
+		.submenuPaddingContainer_d90b3d {
 			padding: 0;
 		}
 	}
@@ -36,6 +36,6 @@
 
 // set status
 // invisible
-foreignObject[mask='url(#svg-mask-status-offline)'] .status__1c26d {
+foreignObject[mask='url(#svg-mask-status-offline)'] .status_c7d26b {
 	background-color: $mid !important;
 }

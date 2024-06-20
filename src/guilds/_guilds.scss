@@ -1,20 +1,20 @@
 // Transparencies
-.theme-dark .scroller_de945b,
-.childWrapperNoHoverBg_bc176a,
-.wrapper__216eb,
-.scroller_de945b {
+.theme-dark .scroller_fea3ef,
+.childWrapperNoHoverBg_f90abb,
+.wrapper_fea3ef,
+.scroller_fea3ef {
 	background-color: transparent;
 }
-.guildSeparator__75928 {
+.guildSeparator_d0c57e {
 	height: 0;
 }
-.listItem__48528 .svg__34dd4 foreignObject {
+.listItem_c96c45 .svg_c5f96a foreignObject {
 	mask: none;
 }
-.iconBadge__19638 {
+.iconBadge_c96c45 {
 	background-color: $low;
 	color: $high;
-	&.isCurrentUserConnected__3bd70 {
+	&.isCurrentUserConnected_c96c45 {
 		background-color: $alert;
 		color: $low;
 	}
@@ -22,8 +22,8 @@
 		background-color: $alert;
 	}
 }
-.wrapper_a6f950:hover .childWrapper__760c6,
-.wrapper_a6f950.selected_b420e6 .childWrapper__760c6 {
+.wrapper_f90abb:hover .childWrapper_f90abb,
+.wrapper_f90abb.selected_f90abb .childWrapper_f90abb {
 	background-color: transparent;
 }
 .homeIcon-FuNwkv, // deprecated
@@ -32,24 +32,24 @@
 	height: 56px;
 }
 // Guild icons
-.wrapper__9916c > svg > mask {
+.wrapper_c5f96a > svg > mask {
 	display: none;
 }
-.wrapperSimple__9e2b0 {
+.wrapperSimple_c5f96a {
 	border-radius: 0;
 }
 // Folder
-.expandedFolderBackground_b1385f {
+.expandedFolderBackground_bc7085 {
 	@include boxify($high, $mid, 3px);
 }
 .scroller-2TZvBN > div[aria-label='Servers'] > .listItem-2P_4kh foreignObject {
 	@include boxify($high, $mid, 3px);
 }
 // folder inner (color/icons)
-.folderIconWrapper__11165 {
+.folderIconWrapper_bc7085 {
 	border-radius: 0;
 
-	.iconInactive__8c603 {
+	.iconInactive_f11207 {
 		border-radius: 0;
 	}
 }
@@ -62,7 +62,7 @@
 	color: $low !important;
 }
 // Selected / Unread Guild
-.item_f9d377 {
+.item_fd07a3 {
 	width: 11px;
 	transition: background-color 0.2s;
 	background-color: $low;
@@ -70,11 +70,11 @@
 	height: 48px !important;
 }
 // Unread Guild
-.item_f9d377[style='opacity: 1; height: 8px; transform: none;'] {
+.item_fd07a3[style='opacity: 1; height: 8px; transform: none;'] {
 	background-color: $alert;
 }
 // Unread blip out of screen
-.mention_dd733a {
+.mention_c10249 {
 	@include boxify($alert, $low, 3px);
 }
 // Notification blip
@@ -93,21 +93,21 @@
 	}
 }
 // Discover screen
-.theme-dark .card__86773,
-.theme-dark .iconMask__4092e {
+.theme-dark .card_eb1ca6,
+.theme-dark .iconMask_eb1ca6 {
 	@include boxify($high, $mid, 5px);
 }
-.theme-dark .contentWrapper_f9bc93 {
+.theme-dark .contentWrapper_ed5743 {
 	@include boxify($high, $mid, 5px);
 
-	.lookLink_a2da25.colorBrand__27d57 {
+	.lookLink_dd4f85.colorBrand_dd4f85 {
 		color: $alert;
 		text-decoration-color: $alert;
 	}
 }
 
-.wrapper__57349, // You must complete a few more steps before you can talk
-.container__6a8f8 // You can't talk in here yet
+.wrapper_faf5ab, // You must complete a few more steps before you can talk
+.container_a9480d // You can't talk in here yet
 {
 	@include boxify($high, $mid, 3px);
 }

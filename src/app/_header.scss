@@ -1,26 +1,26 @@
 // Transparencies
-.divider_bdb894,
-.theme-dark .children_cde9af:after,
-.container__26baa.themed_b152d4 {
+.divider_e44302,
+.theme-dark .children_e44302:after,
+.container_e44302.themed_e44302 {
 	background: transparent;
 }
-.platform-win .sidebar_e031be {
+.platform-win .sidebar_a4d4d9 {
 	border-radius: 0;
 }
 .header-2o-2hj,
-.content__01e65:before,
-.searchBar__621ec {
+.content_a7d72e:before,
+.searchBar_f0963d {
 	box-shadow: none;
 }
 // Server name
-.clickable__1383f .header__77c95:hover,
-.selected__987e6 .header__77c95 {
+.clickable_fd6364 .header_fd6364:hover,
+.selected_fd6364 .header_fd6364 {
 	background-color: $low;
 	color: $high;
 }
 // Top header
-.name_e8e549,
-.title__84e16 {
+.name_fd6364,
+.title_e44302 {
 	@include titlify(3px, 4px);
 	margin: 0;
 }
@@ -35,12 +35,12 @@
 	border-radius: 0;
 }
 // Channel icon
-.title_d4ba1a .children_cde9af {
-	.iconWrapper_de6cd1 {
+.title_a7d72e .children_e44302 {
+	.iconWrapper_e44302 {
 		margin: 0 5px;
 		margin-bottom: 4px;
 	}
-	.icon_ae0b42 {
+	.icon_e44302 {
 		margin: 6px 0px;
 		width: 16px;
 		height: 16px;
@@ -53,13 +53,13 @@
 	}
 }
 // Home
-.topPill-3DJJNV .themed-2-lozF.item__48dda:hover,
-.topPill-3DJJNV .themed-2-lozF.selected_a523ff.item__48dda {
+.topPill-3DJJNV .themed-2-lozF.item_a0:hover,
+.topPill-3DJJNV .themed-2-lozF.selected_a0.item_a0 {
 	border-radius: 0;
 	background-color: $low;
 	color: $high;
 }
-.brand-3g5E0C.item__48dda,
-.themed-2-lozF.item__48dda {
+.brand-3g5E0C.item_a0,
+.themed-2-lozF.item_a0 {
 	color: $low;
 }

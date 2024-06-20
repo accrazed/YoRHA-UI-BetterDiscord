@@ -1,14 +1,14 @@
 // Transparencies
-.chatContent_f087cb,
-.theme-dark .form_d8a4a1:before,
-.container_f79ab4,
-.chat__52833 {
+.chatContent_a7d72e,
+.theme-dark .form_a7d72e:before,
+.container_cbd271,
+.chat_a7d72e {
 	background: transparent;
 }
-.mentioned_fa6fd2:before {
+.mentioned_d5deea:before {
 	width: 0;
 }
-.divider__855e3 {
+.divider_fc5f50 {
 	border-color: $alert;
 }
 // Scrollbar
@@ -19,7 +19,7 @@
 	width: 6px;
 }
 // Username label
-.cozyMessage__9f4fd .header__6a14d {
+.cozyMessage_d5deea .header_ec86aa {
 	border-radius: 0;
 	display: inline-block !important;
 	padding: 4px 5px 4px 6px;
@@ -28,7 +28,7 @@
 	box-shadow: 2px 2px 0 $mid, -3px 0 0 $low, -9px 0 0 $high, -21px 0 0 $low, -18px 2px 0 $mid;
 }
 // Profile Picture
-.full-motion .avatar__08316.clickable__09456 {
+.full-motion .avatar_ec86aa.clickable_ec86aa {
 	@include boxify($high, $mid, 3px);
 
 	&:hover {
@@ -37,27 +37,27 @@
 	}
 }
 // Username color
-.username__0b0e7.clickable__09456 {
+.username_ec86aa.clickable_ec86aa {
 	color: $low !important;
 }
 // Date stamp
-.isUnread_de09f5 .content__7191e,
-.unreadPill__1b4fa,
-.content__7191e {
+.isUnread_fc5f50 .content_fc5f50,
+.unreadPill_fc5f50,
+.content_fc5f50 {
 	border-radius: 0;
 	background-color: $alert;
 	color: $high;
 }
-.unreadPillCapStroke__89d64 {
+.unreadPillCapStroke_fc5f50 {
 	color: $alert;
 	fill: $alert;
 }
 // Quotes
-.blockquoteContainer__66aaa .blockquoteDivider__5cbad {
+.blockquoteContainer_d6076c .blockquoteDivider_d6076c {
 	border-radius: 0;
 	background-color: $low;
 }
-.emptyChannelIcon_d45c50 {
+.emptyChannelIcon_c2668b {
 	background-image: url('https://svgur.com/i/RGT.svg');
 	@include remask('https://svgur.com/i/RGT.svg', $mid);
 	margin: auto;
@@ -66,12 +66,12 @@
 }
 // Mentions
 .theme-dark {
-	.mentioned_fa6fd2 {
+	.mentioned_d5deea {
 		.mention.interactive:hover {
 			color: $low;
 		}
 	}
-	.wrapper_f5f4c9 {
+	.wrapper_d4fa29 {
 		// mention text
 		background: $alert-trans;
 		color: $high;
@@ -82,14 +82,14 @@
 		}
 	}
 }
-.mentioned_fa6fd2 .messageContent_abea64 a,
-.wrapper__53064,
-.roleMention_d441cd,
+.mentioned_d5deea .messageContent_ec86aa a,
+.wrapper_a7c28c,
+.roleMention_d6076c,
 .mention {
 	color: rgb(218, 212, 187);
 }
 // Replies
-.mouse-mode.full-motion .replying__38514 {
+.mouse-mode.full-motion .replying_d5deea {
 	&,
 	&:hover {
 		background-color: $alert-trans;
@@ -98,7 +98,7 @@
 		background-color: $alert;
 	}
 }
-.backgroundFlash__28f42 {
+.backgroundFlash_d5deea {
 	transition: background-color 0.1s;
 	background-color: $alert-trans !important;
 }
@@ -106,17 +106,17 @@
 	background-color: transparent !important;
 	transition: background-color 0.5s;
 }
-.colorBrand__65cd6 {
+.colorBrand_fbc755 {
 	color: $alert;
 }
-.repliedMessage__636d2:before {
+.repliedMessage_ec86aa:before {
 	border-left: var(--spine-width) solid $low;
 	border-bottom: 0 solid $low;
 	border-right: 0 solid $low;
 	border-top: var(--spine-width) solid $low;
 	border-radius: 0;
 }
-.replyBadge__37a84 {
+.replyBadge_ec86aa {
 	border-radius: 0;
 	border: 1px solid $low;
 }
@@ -124,13 +124,13 @@
 .spoilerText-2G40u0 {
 	border-radius: 0;
 }
-.spoilerMarkdownContent__5c448.hidden_f44e41,
-.theme-dark .spoilerText-2G40u0.hidden_f44e41 {
+.spoilerMarkdownContent_a3d0f7.hidden_a3d0f7,
+.theme-dark .spoilerText-2G40u0.hidden_a3d0f7 {
 	background-color: $low;
 }
 // You're viewing older messages /// X+ new messages since
-.newMessagesBar__8b272,
-.jumpToPresentBar__69174 {
+.newMessagesBar_cf58b5,
+.jumpToPresentBar_cf58b5 {
 	box-shadow: none;
 	background-color: $alert;
 	border-radius: 0;
@@ -139,26 +139,26 @@
 	}
 }
 // Edit Message
-.scrollableContainer_ff917f {
+.scrollableContainer_d0696b {
 	@include boxify($high, $mid, 3px);
 }
-.theme-dark .operations__62559 {
+.theme-dark .operations_ed9386 {
 	color: $low;
 	& > a {
 		color: $alert;
 	}
 }
-.codeBlockSyntax__4104a,
-.syntaxAfter__23aff,
-.syntaxBefore_bd3975 {
+.codeBlockSyntax_cdb578,
+.syntaxAfter_cdb578,
+.syntaxBefore_cdb578 {
 	color: $alert;
 }
 // Timestamps
-.compact_eda3c8 .headerText_bd68ec {
+.compact_ec86aa .headerText_ec86aa {
 	border-right: 2px dashed $alert;
 }
-.compact_eda3c8 .timestamp_c79dd2,
-.cozy_f5c119 .timestamp_c79dd2.alt__6c563 {
+.compact_ec86aa .timestamp_ec86aa,
+.cozy_ec86aa .timestamp_ec86aa.alt_ec86aa {
 	margin-right: 0;
 	width: auto;
 }

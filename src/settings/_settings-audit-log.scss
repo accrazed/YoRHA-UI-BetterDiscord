@@ -1,5 +1,5 @@
 .theme-dark {
-	.auditLog__9228d {
+	.auditLog_eebd33 {
 		@include boxify($high, $mid, 4px);
 		border: none;
 
@@ -14,19 +14,19 @@
 			border-radius: 25%;
 		}
 
-		.headerExpanded__05a35,
-		.headerClickable__334f7,
-		.changeDetails_c0aa16,
-		.headerDefault__31bb1 {
+		.headerExpanded_eebd33,
+		.headerClickable_eebd33,
+		.changeDetails_eebd33,
+		.headerDefault_eebd33 {
 			background-color: transparent;
 		}
-		.headerExpanded__05a35:hover,
-		.headerClickable__334f7:hover {
+		.headerExpanded_eebd33:hover,
+		.headerClickable_eebd33:hover {
 			background-color: $mid;
 		}
 	}
 }
 
-.theme-dark .divider__1ee1f {
+.theme-dark .divider_eebd33 {
 	display: none;
 }

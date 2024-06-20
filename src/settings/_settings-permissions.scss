@@ -3,19 +3,19 @@
 	@include boxify($high, $mid, 3px);
 }
 // Allow / Passthrough / Deny
-.group__6ae8b {
+.group_e3c4bb {
 	border-radius: 0;
 	border: 2px solid $low;
 	width: 97px;
 
-	.deny__71546 {
+	.deny_e3c4bb {
 		svg {
 			color: $alert;
 		}
 		&:hover {
 			border-radius: 0;
 		}
-		&.selected__5faae {
+		&.selected_e3c4bb {
 			background-color: $alert;
 			border-radius: 0;
 			svg {
@@ -24,17 +24,17 @@
 		}
 	}
 
-	.passthrough__91f95 {
-		&.selected__5faae {
+	.passthrough_e3c4bb {
+		&.selected_e3c4bb {
 			background-color: $low;
 			color: $high;
 		}
 	}
 
-	.allow_bbc621 {
+	.allow_e3c4bb {
 		border-radius: 0;
 
-		&.selected__5faae {
+		&.selected_e3c4bb {
 			color: $high;
 		}
 	}

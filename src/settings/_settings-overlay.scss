@@ -1,26 +1,26 @@
 // Overlay Visualizer
-.wrapper__4b6b3 {
+.wrapper_d2da9c {
 	background-color: $high;
 	border-radius: 0;
 	border-color: $alert;
 }
-.option__1d8de {
+.option_d2da9c {
 	@include boxify($low, $mid, 2px);
 	&:hover {
 		box-shadow: 2px 2px 0 $mid;
 		background: $low;
 	}
-	&.selected__4e154 {
+	&.selected_d2da9c {
 		background: $alert;
 	}
 }
-.wrapper__4b6b3.disabledSelected__7c065 {
+.wrapper_d2da9c.disabledSelected_d2da9c {
 	border-color: $alert;
 }
-.disabled__586d3 {
+.disabled_d2da9c {
 	color: $mid;
 
-	&.selected__4e154,
+	&.selected_d2da9c,
 	&:hover {
 		color: $alert;
 	}

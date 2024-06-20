@@ -1,11 +1,11 @@
 // Transparencies
-.layer_f7d46a ,
-.scroller_c92337,
-.contentRegion__08eba,
-.sidebarRegionScroller__8113e,
-.side_b4b3f6 .separator-2wx7h6,
-.contentRegionScroller__9ae20,
-.standardSidebarView__12528 {
+.layer_d4b6c5 ,
+.scroller_e9196a,
+.contentRegion_c25c6d,
+.sidebarRegionScroller_c25c6d,
+.side_a0 .separator-2wx7h6,
+.contentRegionScroller_c25c6d,
+.standardSidebarView_c25c6d {
 	background-color: transparent;
 }
 .theme-dark .row-1Tg75B,
@@ -18,10 +18,10 @@
 // X button
 .theme-dark {
 	.markValue-2U_-UG,
-	.keybind_a619c1 {
+	.keybind_df5532 {
 		color: $low;
 	}
-	.closeButton__8177f {
+	.closeButton_df5532 {
 		transition: background-color 0.2s;
 		border-color: $low;
 		&:hover {
@@ -33,19 +33,19 @@
 	}
 }
 // Headers
-.h1_dc86b3,
+.h1_c46f6a,
 .h2-1EaYVL {
 	@include titlify(2px, 4px);
 }
-.h5__28baa {
+.h5_c46f6a {
 	@include titlify(2px, 2px);
 }
 
-.divider_d6f39c,
+.divider_ae36e5,
 .bd-setting-divider {
 	display: none;
 }
 
-.side_b4b3f6 .separator_d14fb1 {
+.side_a0 .separator_a0 {
 	visibility: hidden;
 }

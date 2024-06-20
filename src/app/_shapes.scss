@@ -5,9 +5,9 @@
 	background-color: transparent;
 	color: transparent;
 }
-.tutorialContainer_b06ae6 {
+.tutorialContainer_f9623d {
 	.wrapper__8436d,
-	.svg__34dd4 {
+	.svg_c5f96a {
 		height: 57px;
 		width: 48px;
 
@@ -30,17 +30,17 @@
 	}
 }
 // Icons
-.iconSize__89aca {
+.iconSize_e62b38 {
 	@include remask('https://discord.com/assets/c30220448097b064286a8759a9b6c4af.svg', $alert);
 }
 foreignObject[mask='url(#svg-mask-status-dnd)'] .status-2DiCMd {
 	background-color: $alert !important;
 }
 .iconBadge-2wi9r4.participating-NBGDkr,
-.iconBadge__20a6b {
+.iconBadge_e44302 {
 	background-color: $alert;
 }
-.strikethrough__7b742 {
+.strikethrough_b2ca13 {
 	color: $alert;
 }
 // Alert Fills / Blurple
@@ -66,7 +66,7 @@ foreignObject[mask='url(#svg-mask-status-dnd)'] .status-2DiCMd {
 	border: 2px solid $low;
 }
 // Plus sign
-.theme-dark .actionButton__96742 {
+.theme-dark .actionButton_e4010c {
 	color: $low;
 }
 // Do not disturb

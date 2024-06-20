@@ -1,16 +1,16 @@
 // Transparencies
-.app_de4237,
-.bg__12180,
+.app_a01fb1,
+.bg_d4b6c5,
 body,
-.appMount_c99875 {
+.appMount_ea7e65 {
 	background-color: transparent;
 }
-.wordmarkWindows_ffbc5e {
+.wordmarkWindows_a934d8 {
 	color: transparent;
 }
 // Scrollbars
-.thin_b1c063,
-.auto_a3c0bd {
+.thin_eed6a8,
+.auto_eed6a8 {
 	&::-webkit-scrollbar {
 		width: 6px;
 	}
@@ -25,21 +25,21 @@ body,
 		background-color: transparent;
 	}
 }
-.thin_b1c063::-webkit-scrollbar-track {
+.thin_eed6a8::-webkit-scrollbar-track {
 	background: transparent;
 }
 // Close/Minimize/Maximize buttons
-.winButtonClose__6396d:hover {
+.winButtonClose_a934d8:hover {
 	transition: background-color 0.2s, color 0.2s ease;
 	color: $high;
 	background: $alert;
 }
-.winButtonMinMax_caf9c8:hover {
+.winButtonMinMax_a934d8:hover {
 	transition: background-color 0.2s, color 0.2s ease;
 	color: $high;
 	background: $low;
 }
-.withFrame__5e49e {
+.withFrame_a934d8 {
 	margin-top: 0;
 	padding-top: 4px;
 }
@@ -71,40 +71,40 @@ body,
 // Buttons
 .theme-dark .button__33db6,
 .theme-dark .watchButton-2v6cPT,
-.theme-dark .lookFilled__950dd.colorPrimary_ebe632,
-.lookInverted-2D7oAl.colorGreen__75c93,
-.lookInverted-2D7oAl.colorBrand__27d57,
-.lookFilled__950dd.colorBrand__27d57,
+.theme-dark .lookFilled_dd4f85.colorPrimary_dd4f85,
+.lookInverted-2D7oAl.colorGreen_dd4f85,
+.lookInverted-2D7oAl.colorBrand_dd4f85,
+.lookFilled_dd4f85.colorBrand_dd4f85,
 .container-x8Y1ix,
-.lookOutlined__014b5.colorGreen__75c93,
-.lookOutlined__014b5.colorBrand__27d57,
-.lookFilled__950dd.colorPrimary_ebe632,
-.lookFilled__950dd.colorGrey-2DXtkV,
-.lookFilled__950dd.colorBrand__27d57,
-.lookFilled__950dd.colorBrand__27d57:disabled {
+.lookOutlined_dd4f85.colorGreen_dd4f85,
+.lookOutlined_dd4f85.colorBrand_dd4f85,
+.lookFilled_dd4f85.colorPrimary_dd4f85,
+.lookFilled_dd4f85.colorGrey-2DXtkV,
+.lookFilled_dd4f85.colorBrand_dd4f85,
+.lookFilled_dd4f85.colorBrand_dd4f85:disabled {
 	@include buttonify($low, $high, $mid, $high);
 }
 #bd-settingspane-container .bd-pfbtn, // PRE-BETA BBD: WILL BE DEPRECIATED SOON
-.theme-dark .lookOutlined__014b5.colorPrimary_ebe632,
+.theme-dark .lookOutlined_dd4f85.colorPrimary_dd4f85,
 .jumpButton-JkYoYK,
-.button_b82d53.buttonColor__7bad9.buttonActive_ae686f,
-.lookFilled__950dd.colorGreen__75c93,
-.lookFilled__950dd.colorRed__5a617,
-.lookOutlined__014b5.colorRed__5a617 {
+.button_adcaac.buttonColor_adcaac.buttonActive_adcaac,
+.lookFilled_dd4f85.colorGreen_dd4f85,
+.lookFilled_dd4f85.colorRed_dd4f85,
+.lookOutlined_dd4f85.colorRed_dd4f85 {
 	@include buttonify($alert, $high, $low, $high);
 }
-.lookOutlined__014b5.colorWhite-rEQuAQ {
+.lookOutlined_dd4f85.colorWhite-rEQuAQ {
 	@include buttonify($alert, $high, $high, $low);
 }
 // Slider / Toggle switch
-.container__2ed72 {
+.container_cebd1c {
 	background-color: $low !important;
 	border-radius: 0;
 }
-.input__3e05b {
+.input_cebd1c {
 	border-radius: 0;
 }
-.slider__41d94 rect {
+.slider_cebd1c rect {
 	fill: $high;
 	rx: 0;
 	ry: 4;
@@ -141,20 +141,20 @@ body,
 	}
 }
 
-.colorDefault_e361cf.focused_dcafb9 .caret_ce50ce,
-.colorDefault_e361cf.focused_dcafb9 .checkbox__378d3,
-.colorDefault_e361cf.focused_dcafb9 .radioSelection__41d1e,
-.colorDefault_e361cf.focused_dcafb9 .subtext__694e2 {
+.colorDefault_d90b3d.focused_d90b3d .caret_d90b3d,
+.colorDefault_d90b3d.focused_d90b3d .checkbox_d90b3d,
+.colorDefault_d90b3d.focused_d90b3d .radioSelection_d90b3d,
+.colorDefault_d90b3d.focused_d90b3d .subtext_d90b3d {
 	color: $high;
 }
 
-.colorDefault_e361cf .checkbox__378d3,
-.colorDefault_e361cf .radioSelection__41d1e {
+.colorDefault_d90b3d .checkbox_d90b3d,
+.colorDefault_d90b3d .radioSelection_d90b3d {
 	color: $alert;
 }
 
-.colorDefault_e361cf .check__8d1bd,
-.colorDefault_e361cf.focused_dcafb9 {
+.colorDefault_d90b3d .check_d90b3d,
+.colorDefault_d90b3d.focused_d90b3d {
 	color: $mid;
 }
 
@@ -187,7 +187,7 @@ body,
 		background-color: $low;
 		color: $high;
 
-		.colorStandard__3d599,
+		.colorStandard_fbc755,
 		.subtitle_e9c087 {
 			color: $high;
 		}
@@ -198,7 +198,7 @@ body,
 	}
 }
 // Pulley bar
-.barFill__1f56b {
+.barFill_c7a159 {
 	background: $alert;
 }
 .theme-dark .bar-1Bhnl9 {

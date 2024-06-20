@@ -1,8 +1,8 @@
-.chatTarget_f14a03,
-.container__694a1 {
+.chatTarget_d1c246,
+.container_d1c246 {
 	border-radius: 0;
 }
-.chat_f8f70f:before {
+.chat_fe669e:before {
 	display: none;
 }
 // accept / ignore buttons
@@ -13,7 +13,7 @@
 	@include buttonify($alert, $high, $mid, $high);
 }
 // message request item
-.messageRequestItem__9f70d {
+.messageRequestItem_a5de62 {
 	@include boxify($high, $mid, 3px);
 	&:hover {
 		@include boxify($high, $mid, 3px);

@@ -1,9 +1,9 @@
 // Transparencies
-.stickyHeaderElevated_a05798,
-.titleContainer_d09261 {
+.stickyHeaderElevated_bd05f1,
+.titleContainer_e87574 {
 	background-color: transparent;
 }
-.titleElevated__2941d {
+.titleElevated_e87574 {
 	box-shadow: none;
 }
 // Unsaved changes alert
@@ -12,13 +12,13 @@
 	@include boxify($high, $mid, 3px);
 
 	.contents-18-Yxp span,
-	.message__702f7 {
+	.message_b6cd66 {
 		color: $low !important;
 	}
 }
 
 // Default Permissions
-.container__9c57c {
+.container_cc7b67 {
 	@include boxify($high, $mid, 3px);
 }
 
@@ -29,10 +29,10 @@
 }
 
 // Role List - Hover
-.roleRow_dc2631:hover:not(.roleRowDisableHover_c9454c) {
+.roleRow_a930f1:hover:not(.roleRowDisableHover_a930f1) {
 	@include boxify($high, $mid, 3px);
 
-	.circleButton_c3a5df:hover {
+	.circleButton_a930f1:hover {
 		background-color: $low;
 
 		&.secondary__45d4f {
@@ -42,30 +42,30 @@
 }
 
 // Edit Role
-.header_ee0bd9 {
+.header_bd05f1 {
 	margin-top: 48px;
 	padding: 16px 8px;
 	@include boxify($high, $mid, 4px);
 }
-.cozy_f5c119 .timestamp_c79dd2 {
+.cozy_ec86aa .timestamp_ec86aa {
 	color: $low;
 }
-.theme-dark .lookFilled__950dd.colorGrey-2DXtkV {
+.theme-dark .lookFilled_dd4f85.colorGrey-2DXtkV {
 	background-color: $low;
 	color: $high;
 }
 .top-K_jibn .brand-3g5E0C {
-	&.item__48dda:active,
-	&.selected_a523ff.item__48dda {
+	&.item_a0:active,
+	&.selected_a0.item_a0 {
 		border-bottom-color: $alert;
 	}
-	&.item__48dda:hover {
+	&.item_a0:hover {
 		border-bottom-color: $mid;
 	}
 }
-.warning__4da7a {
+.warning_f20685 {
 	color: $low;
 }
-.theme-dark .tooltip-14MtrL .colorStandard__3d599 {
+.theme-dark .tooltip-14MtrL .colorStandard_fbc755 {
 	color: $high;
 }

@@ -1,25 +1,25 @@
 // whole container
-.userPopoutOuter_d67f56 {
+.userPopoutOuter_c69a7b {
 	@include boxify($high, $mid, 3px);
 	padding: 0 !important;
 
 	// weird box that sits over theme colors, under boxes
 	// seems to darken the color selection
-	.userProfileInner__8ff35:before {
+	.userProfileInner_c69a7b:before {
 		height: 100%;
 		width: 100%;
 	}
 
-	.header__725f2 {
+	.header_c6e596 {
 		display: flex;
 		flex-direction: column;
 
 		// janky ass invisible container?
-		.invisibleContainer__1e05d.biteSize__4396a {
+		.invisibleContainer_d0a252.biteSize_d0a252 {
 			display: none;
 		}
 
-		.bannerSVGWrapper__8a38c {
+		.bannerSVGWrapper_b32cc2 {
 			// pfp mask around banner
 			mask circle {
 				display: none;
@@ -27,7 +27,7 @@
 		}
 
 		// thinking text and bubbles
-		.statusBubbleOuter__7e51b {
+		.statusBubbleOuter_d0a252 {
 			max-width: none;
 			max-height: none;
 			border-radius: 0;
@@ -36,46 +36,46 @@
 			margin: 0 0.5em;
 			border: 2px solid $low;
 
-			.content_faa8bf {
+			.content_d0a252 {
 				max-height: none !important;
 				overflow: visible;
 				word-wrap: normal;
 			}
 
-			.statusBubble__1a4c3 {
+			.statusBubble_d0a252 {
 				background-color: $high;
 				border-radius: 0;
 				word-wrap: normal;
 				padding: 0;
 
-				.clamp__79a59 {
+				.clamp_d0a252 {
 					-webkit-line-clamp: 100;
 					line-clamp: 100;
 				}
 			}
 
-			.statusBubbleWithTextMinWidth__7b594 {
+			.statusBubbleWithTextMinWidth_d0a252 {
 				padding: 0.25em;
 			}
 
-			.singleLineAlign__355e0 {
+			.singleLineAlign_d0a252 {
 				text-align: left;
 			}
 		}
-		.statusBubbleOuter__7e51b:before,
-		.statusBubbleOuter__7e51b:after {
+		.statusBubbleOuter_d0a252:before,
+		.statusBubbleOuter_d0a252:after {
 			display: none;
 		}
 
 		// thinking text
-		.visibleContainer_adf761.biteSize__4396a {
+		.visibleContainer_d0a252.biteSize_d0a252 {
 			position: relative;
 			top: 0;
 			left: 0;
 		}
 
 		// profile picture clickable area
-		.clickable_bf76d2 {
+		.clickable_cc54d6 {
 			border: 2px solid $low;
 			display: flex;
 			align-items: center;
@@ -90,26 +90,26 @@
 			left: 0;
 
 			// the actual pfp
-			.wrapper__3ed10 {
+			.wrapper_c51b4e {
 				border-radius: 0;
 			}
 		}
 	}
 
 	// usernames, mutuals, roles
-	.body__489bc {
+	.body_a45fe8 {
 		border: 2px solid $low;
 		margin: 0 0.5em;
 		padding: 0.5em;
 		background: $high;
 	}
-	.footer_b50e3f {
+	.footer_d5223c {
 		margin: 0;
 		padding: 0.5em;
 	}
 
 	// message user
-	.channelTextArea__648e5 {
+	.channelTextArea_d0696b {
 		background: $high;
 		border-radius: 0;
 	}

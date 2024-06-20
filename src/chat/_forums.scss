@@ -3,7 +3,7 @@
 }
 
 // primary post items
-.mainCard__0ec2c {
+.mainCard_a6d69a {
 	@include boxify($high, $mid, 3px);
 
 	&:hover {
@@ -17,7 +17,7 @@
 }
 
 // tag pills
-.pill_f055c3 {
+.pill_c993da {
 	border-radius: 0;
 	border: 1px solid $low;
 }
@@ -60,6 +60,6 @@
 }
 
 // post details
-.chat__4eed1:before {
+.chat_d6c7e0:before {
 	display: none;
 }

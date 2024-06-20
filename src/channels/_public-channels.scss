@@ -1,63 +1,63 @@
 // Transparencies
-.unread__48cf4,
-.theme-dark .container__7e23c,
-.theme-dark .container_debb33,
-.panels__58331,
-.theme-dark .container_debb33,
-.wrapper__612a5:hover .link_ddbb36,
-.modeSelected__473f1 .link_ddbb36,
-.modeSelected__473f1:hover .link_ddbb36 {
+.unread_d8bfb3,
+.theme-dark .container_ee69e0,
+.theme-dark .container_b2ca13,
+.panels_a4d4d9,
+.theme-dark .container_b2ca13,
+.wrapper_d8bfb3:hover .link_d8bfb3,
+.modeSelected_d8bfb3 .link_d8bfb3,
+.modeSelected_d8bfb3:hover .link_d8bfb3 {
 	background: transparent;
 }
-.header__77c95 {
+.header_fd6364 {
 	box-shadow: none;
 }
 // Unread messages notification
-.unread__75c9f {
+.unread_c10249 {
 	color: $high;
 	@include boxify($alert, $mid, 3px);
 }
 // User info
-.button_ae40a4 {
+.button_f67531 {
 	@include buttonify(transparent, $low, $low, $high);
 
-	&:hover .lottieIcon_c7076c :not(defs *)[fill][fill-opacity] {
+	&:hover .lottieIcon_f73ef7 :not(defs *)[fill][fill-opacity] {
 		fill: $high;
 	}
 }
 // Channel hover/select animations
-.containerDefault_ae2ea4 {
+.containerDefault_f6f816 {
 	padding-bottom: 4px;
 
-	.typeVoice__86122 .linkBottom__942a1 {
+	.typeVoice_d8bfb3 .linkBottom_d8bfb3 {
 		top: 35px;
 		right: 10px;
 		position: absolute;
 	}
 }
-.wrapper__612a5 {
+.wrapper_d8bfb3 {
 	height: 30px;
 	padding: 0;
 
 	// Muted and Locked channels
-	&.modeLocked__6df8a,
-	&.modeMuted_f0a72e {
+	&.modeLocked_d8bfb3,
+	&.modeMuted_d8bfb3 {
 		opacity: 50%;
 
-		.icon__67ab4,
-		.name__4eb92 {
+		.icon_d8bfb3,
+		.name_d8bfb3 {
 			color: $low;
 		}
 	}
 	// Locked Channels
-	&.modeLocked__6df8a {
+	&.modeLocked_d8bfb3 {
 		cursor: not-allowed;
 	}
 
 	// Square icon
-	.iconContainer__6a580 {
+	.iconContainer_d8bfb3 {
 		align-self: center;
-		.icon__67ab4 {
+		.icon_d8bfb3 {
 			transition: color 0.2s, background-color 0.2s;
 			height: 12px;
 			width: 12px;
@@ -76,28 +76,28 @@
 		}
 	}
 	// Animation
-	.link_ddbb36 {
+	.link_d8bfb3 {
 		height: 28px;
 		margin-left: 0;
 		padding: 0;
 		border-radius: 0;
 		justify-content: center;
 	}
-	.name__4eb92,
-	.actionIcon_b149a2 {
+	.name_d8bfb3,
+	.actionIcon_f6f816 {
 		transition: color 0.2s;
 	}
-	.content__6bf34 {
+	.content_cc29d1 {
 		position: relative;
 		top: -3px;
 		padding: 4px 0px;
 	}
-	.linkTop_c8969d {
+	.linkTop_d8bfb3 {
 		top: 1px;
 		padding: 4px 8px;
 	}
-	.content__6bf34:before,
-	.linkTop_c8969d:before {
+	.content_cc29d1:before,
+	.linkTop_d8bfb3:before {
 		content: '';
 		transition: transform 0.4s;
 		position: absolute;
@@ -110,24 +110,24 @@
 		height: 100%;
 	}
 	// settings/invite button in channel side
-	.children__563f2 {
+	.children_d8bfb3 {
 		margin: 0;
 	}
 	// Selected channel
-	&.modeConnected__52a8f,
-	&.modeSelected__473f1,
+	&.modeConnected_d8bfb3,
+	&.modeSelected_d8bfb3,
 	&:hover {
 		box-shadow: 0 1px $low, 0 -1px $low;
 
-		.content__6bf34:before,
-		.linkTop_c8969d:before {
+		.content_cc29d1:before,
+		.linkTop_d8bfb3:before {
 			transform: scaleX(1);
 		}
 
-		&.typeVoice__86122 .icon__67ab4 {
+		&.typeVoice_d8bfb3 .icon_d8bfb3 {
 			color: $low;
 		}
-		.icon__67ab4 {
+		.icon_d8bfb3 {
 			color: $high;
 			background-color: $high;
 			// Voice channels/Locked channels/NSFW CHANNELS
@@ -140,41 +140,41 @@
 				fill: $low;
 			}
 		}
-		.actionIcon_b149a2,
-		.name__4eb92 {
+		.actionIcon_f6f816,
+		.name_d8bfb3 {
 			z-index: 1;
 			color: $high;
 		}
-		.wrapper__71278 {
+		.wrapper_a5bc92 {
 			z-index: 1;
 		}
 	}
 	// Unread channels
-	&.modeUnreadImportant__35358 {
-		.icon__67ab4 {
+	&.modeUnreadImportant_d8bfb3 {
+		.icon_d8bfb3 {
 			color: $alert;
 			background-color: $alert;
 		}
-		.name__4eb92 {
+		.name_d8bfb3 {
 			color: $alert;
 		}
 	}
 }
 // Voice channel limits
-.wrapper__71278 {
+.wrapper_a5bc92 {
 	border-radius: 0;
 	border: 1px solid $mid;
 	height: 18px;
-	.users__65981 {
+	.users_a5bc92 {
 		padding-left: 4px;
 		z-index: 1;
 	}
-	.total_c01838 {
+	.total_a5bc92 {
 		background-color: $alert;
 		color: $high;
 		z-index: 2;
 	}
-	.total_c01838::after {
+	.total_a5bc92::after {
 		border-right-color: $alert;
 	}
 }
@@ -182,10 +182,10 @@
 	border-radius: 0;
 }
 // Thread splines
-.spineBorder__52981 {
+.spineBorder_e1e976 {
 	background: transparent;
 }
-.spine__88e6d {
+.spine_e1e976 {
 	top: 10px;
 	left: -18px;
 	width: 12px !important;
@@ -197,6 +197,6 @@
 	}
 }
 
-.typeThread__5fb37 .link_ddbb36 {
+.typeThread_d8bfb3 .link_d8bfb3 {
 	margin-left: 0;
 }
