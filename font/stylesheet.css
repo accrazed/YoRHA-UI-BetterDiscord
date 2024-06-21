@@ -15,9 +15,9 @@
 
 
 @font-face {
-    font-family: 'sce-ps3_rodin_latinitalic';
-    src: url('sce-ps3-rd-i-latin-webfont.woff2') format('woff2'),
-         url('sce-ps3-rd-i-latin-webfont.woff') format('woff');
+    font-family: 'sce-ps3_rodin_latinbold';
+    src: url('sce-ps3-rd-b-latin-webfont.woff2') format('woff2'),
+         url('sce-ps3-rd-b-latin-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -27,9 +27,9 @@
 
 
 @font-face {
-    font-family: 'sce-ps3_rodin_latinbold';
-    src: url('sce-ps3-rd-b-latin-webfont.woff2') format('woff2'),
-         url('sce-ps3-rd-b-latin-webfont.woff') format('woff');
+    font-family: 'sce-ps3_rodin_latinitalic';
+    src: url('sce-ps3-rd-i-latin-webfont.woff2') format('woff2'),
+         url('sce-ps3-rd-i-latin-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
