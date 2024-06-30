@@ -975,9 +975,7 @@ foreignObject[mask="url(#svg-mask-status-dnd)"] .status-2DiCMd {
   color: var(--color-alert);
 }
 
-.blobContainer_a5ad63 .wrapper_c5f96a,
-.blobContainer_a5ad63 .lowerBadge_c5f96a,
-.blobContainer_a5ad63 .numberBadge_df8943 {
+.numberBadge_df8943 {
   border-radius: 0px;
 }
 
