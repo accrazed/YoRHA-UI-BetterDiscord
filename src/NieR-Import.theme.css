@@ -2013,6 +2013,10 @@ strong {
   -webkit-box-shadow: 3px 3px 0 var(--color-mid);
           box-shadow: 3px 3px 0 var(--color-mid);
 }
+.expandedFolderBackground_bc7085.collapsed_bc7085 {
+  position: absolute;
+  height: 48px;
+}
 
 .scroller-2TZvBN > div[aria-label=Servers] > .listItem-2P_4kh foreignObject {
   background: var(--color-high);
@@ -2681,6 +2685,20 @@ strong {
   white-space: wrap;
 }
 .serverCount_FsTTs1:hover {
+  -webkit-box-shadow: 2px 2px 0 var(--color-mid);
+          box-shadow: 2px 2px 0 var(--color-mid);
+}
+
+.friendsOnline_2JkivW {
+  background: var(--color-high-trans);
+  border-radius: 0;
+  -webkit-box-shadow: 2px 2px 0 var(--color-mid);
+          box-shadow: 2px 2px 0 var(--color-mid);
+  color: var(--color-low);
+  padding: 4px 0px 0px 0px;
+  text-transform: uppercase;
+}
+.friendsOnline_2JkivW:hover {
   -webkit-box-shadow: 2px 2px 0 var(--color-mid);
           box-shadow: 2px 2px 0 var(--color-mid);
 }

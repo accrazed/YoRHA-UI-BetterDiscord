@@ -1,0 +1,8 @@
+// https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/ReadAllNotificationsButton
+
+.friendsOnline_2JkivW {
+	@include boxify($high-trans, $mid, 2px);
+	color: $low;
+	padding: 4px 0px 0px 0px;
+	text-transform: uppercase;
+}
