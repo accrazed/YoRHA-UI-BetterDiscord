@@ -43,6 +43,10 @@ foreignObject[mask='url(#svg-mask-status-dnd)'] .status-2DiCMd {
 .strikethrough_b2ca13 {
 	color: $alert;
 }
+// Ping background (that hopefully works for both Guild Icons and messages)
+.numberBadge_df8943 { 
+	border-radius: 0px;
+}
 // Alert Fills / Blurple
 .theme-dark .overlayToggleIconOn-3_-nGm .fill-MYciTJ,
 .overlayToggleIconOff-3hGOmN .fill-MYciTJ,
