@@ -3,6 +3,8 @@
 .friendsOnline_2JkivW {
 	@include boxify($high-trans, $mid, 2px);
 	color: $low;
-	padding: 4px 0px 0px 0px;
+	margin-top: 4px;
+	padding:2px;
 	text-transform: uppercase;
+	justify-content: center;
 }

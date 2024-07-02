@@ -2695,8 +2695,12 @@ strong {
   -webkit-box-shadow: 2px 2px 0 var(--color-mid);
           box-shadow: 2px 2px 0 var(--color-mid);
   color: var(--color-low);
-  padding: 4px 0px 0px 0px;
+  margin-top: 4px;
+  padding: 2px;
   text-transform: uppercase;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .friendsOnline_2JkivW:hover {
   -webkit-box-shadow: 2px 2px 0 var(--color-mid);
