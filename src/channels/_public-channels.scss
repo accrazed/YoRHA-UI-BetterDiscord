@@ -101,10 +101,23 @@
 	}
 	.content_cc29d1 {
 		position: absolute;
-		top: 1px;
-		bottom: 3px;
+		top: 2px;
+		bottom: 2px;
 		width: 225px;
 		padding: 4px 2px;
+	}
+	.content_cc29d1:hover {
+		margin: 0;
+		animation-name: pulsingBackground;
+		animation-duration: 2.5s;
+		animation-iteration-count: infinite;
+		.name_d8bfb3 {
+			color: $high;
+		}
+		.icon_d8bfb3 {
+			color: $high;
+			background-color: $high;
+		}
 	}
 	.linkBottom_d8bfb3 {
 		margin: 0;
@@ -150,6 +163,7 @@
 	&.modeConnected_d8bfb3,
 	&.modeSelected_d8bfb3,
 	&:hover {
+		&.typeThread_d8bfb3,
 		&.typeDefault_d8bfb3,
 		&.typeVoice_d8bfb3 {
 			box-shadow: 0 1px $low, 0 -1px $low;
