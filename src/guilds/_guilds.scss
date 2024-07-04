@@ -41,6 +41,11 @@
 // Folder
 .expandedFolderBackground_bc7085 {
 	@include boxify($high, $mid, 3px);
+	&.collapsed_bc7085 {
+		position:absolute;
+		height: 48px;
+	}
+
 }
 .scroller-2TZvBN > div[aria-label='Servers'] > .listItem-2P_4kh foreignObject {
 	@include boxify($high, $mid, 3px);

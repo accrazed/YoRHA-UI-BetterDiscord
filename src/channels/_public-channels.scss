@@ -88,6 +88,15 @@
 	.link_d8bfb3 {
 		padding: 1px 0;
 	}
+
+	.content_cc29d1 {
+		height: 28px;
+		margin-left: 0;
+		border-radius: 0;
+		justify-content: center;
+		padding: 0px 12px;
+	}
+
 	.linkTop_d8bfb3 {
 		height: 28px;
 		margin-left: 0;
@@ -99,13 +108,7 @@
 	.actionIcon_f6f816 {
 		transition: color 0.2s;
 	}
-	.content_cc29d1 {
-		position: absolute;
-		top: 1px;
-		bottom: 3px;
-		width: 225px;
-		padding: 4px 2px;
-	}
+
 	.linkBottom_d8bfb3 {
 		margin: 0;
 		padding: 0px 24px;
@@ -127,7 +130,6 @@
 			}
 		}
 	}
-
 	.content_cc29d1:before,
 	.linkTop_d8bfb3:before,
 	.linkBottom_d8bfb3:before {
@@ -150,6 +152,7 @@
 	&.modeConnected_d8bfb3,
 	&.modeSelected_d8bfb3,
 	&:hover {
+		&.typeThread_d8bfb3,
 		&.typeDefault_d8bfb3,
 		&.typeVoice_d8bfb3 {
 			box-shadow: 0 1px $low, 0 -1px $low;
@@ -241,3 +244,24 @@
 .typeThread_d8bfb3 .link_d8bfb3 {
 	margin-left: 0;
 }
+
+//Mention badge and unread coloring for threads (wtf discord, why is this so hard)
+.typeThread_d8bfb3 {
+	.name_d8bfb3 {
+		position: absolute;
+		left: 1px;
+		max-width: 175px;
+		text-align: left;
+		&.overflow_c74e70{
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow:ellipsis;
+		}
+	}
+	.mentionsBadge_e2a798 {
+		position: absolute;
+		padding-left: 121px;
+		z-index: 1;
+	}
+}
+
