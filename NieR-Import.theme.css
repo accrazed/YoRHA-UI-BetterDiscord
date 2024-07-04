@@ -1952,7 +1952,7 @@ textarea {
 }
 
 strong {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--nier-font), "vietnam-pro", Arial, Helvetica, sans-serif;
 }
 
 .markup_d6076c {
