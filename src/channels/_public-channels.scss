@@ -255,3 +255,11 @@
 .typeThread_d8bfb3 .link_d8bfb3 {
 	margin-left: 0;
 }
+
+//Mention badge for threads (wtf discord, why is this so hard)
+.typeThread_d8bfb3.modeUnreadImportant_d8bfb3 {
+	.children_d8bfb3 {
+		position: absolute;
+		right: 48px;
+	}
+}

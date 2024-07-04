@@ -1382,6 +1382,11 @@ path[d="M5.43309 21C5.35842 21 5.30189 20.9325 5.31494 20.859L5.99991 17H2.14274
   margin-left: 0;
 }
 
+.typeThread_d8bfb3.modeUnreadImportant_d8bfb3 .children_d8bfb3 {
+  position: absolute;
+  right: 48px;
+}
+
 .chatContent_a7d72e,
 .theme-dark .form_a7d72e:before,
 .container_cbd271,
