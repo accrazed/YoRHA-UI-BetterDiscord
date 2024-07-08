@@ -3281,22 +3281,22 @@ foreignObject[mask="url(#svg-mask-status-offline)"] .status_c7d26b {
   color: var(--color-low);
 }
 
-.userPopoutOuter_c69a7b {
+.userProfileOuter_c69a7b {
   background: var(--color-high);
   border-radius: 0;
   -webkit-box-shadow: 3px 3px 0 var(--color-mid);
           box-shadow: 3px 3px 0 var(--color-mid);
   padding: 0 !important;
 }
-.userPopoutOuter_c69a7b:hover {
+.userProfileOuter_c69a7b:hover {
   -webkit-box-shadow: 3px 3px 0 var(--color-mid);
           box-shadow: 3px 3px 0 var(--color-mid);
 }
-.userPopoutOuter_c69a7b .userProfileInner_c69a7b:before {
+.userProfileOuter_c69a7b .userProfileInner_c69a7b:before {
   height: 100%;
   width: 100%;
 }
-.userPopoutOuter_c69a7b .header_c6e596 {
+.userProfileOuter_c69a7b .header_b07019 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3305,13 +3305,13 @@ foreignObject[mask="url(#svg-mask-status-offline)"] .status_c7d26b {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.userPopoutOuter_c69a7b .header_c6e596 .invisibleContainer_d0a252.biteSize_d0a252 {
+.userProfileOuter_c69a7b .header_b07019 .invisibleContainer_d0a252.biteSize_d0a252 {
   display: none;
 }
-.userPopoutOuter_c69a7b .header_c6e596 .bannerSVGWrapper_b32cc2 mask circle {
+.userProfileOuter_c69a7b .header_b07019 .bannerSVGWrapper_b32cc2 mask circle {
   display: none;
 }
-.userPopoutOuter_c69a7b .header_c6e596 .statusBubbleOuter_d0a252 {
+.userProfileOuter_c69a7b .header_b07019 .statusBubbleOuter_d0a252 {
   max-width: none;
   max-height: none;
   border-radius: 0;
@@ -3320,37 +3320,37 @@ foreignObject[mask="url(#svg-mask-status-offline)"] .status_c7d26b {
   margin: 0 0.5em;
   border: 2px solid var(--color-low);
 }
-.userPopoutOuter_c69a7b .header_c6e596 .statusBubbleOuter_d0a252 .content_d0a252 {
+.userProfileOuter_c69a7b .header_b07019 .statusBubbleOuter_d0a252 .content_d0a252 {
   max-height: none !important;
   overflow: visible;
   word-wrap: normal;
 }
-.userPopoutOuter_c69a7b .header_c6e596 .statusBubbleOuter_d0a252 .statusBubble_d0a252 {
+.userProfileOuter_c69a7b .header_b07019 .statusBubbleOuter_d0a252 .statusBubble_d0a252 {
   background-color: var(--color-high);
   border-radius: 0;
   word-wrap: normal;
   padding: 0;
 }
-.userPopoutOuter_c69a7b .header_c6e596 .statusBubbleOuter_d0a252 .statusBubble_d0a252 .clamp_d0a252 {
+.userProfileOuter_c69a7b .header_b07019 .statusBubbleOuter_d0a252 .statusBubble_d0a252 .clamp_d0a252 {
   -webkit-line-clamp: 100;
   line-clamp: 100;
 }
-.userPopoutOuter_c69a7b .header_c6e596 .statusBubbleOuter_d0a252 .statusBubbleWithTextMinWidth_d0a252 {
+.userProfileOuter_c69a7b .header_b07019 .statusBubbleOuter_d0a252 .statusBubbleWithTextMinWidth_d0a252 {
   padding: 0.25em;
 }
-.userPopoutOuter_c69a7b .header_c6e596 .statusBubbleOuter_d0a252 .singleLineAlign_d0a252 {
+.userProfileOuter_c69a7b .header_b07019 .statusBubbleOuter_d0a252 .singleLineAlign_d0a252 {
   text-align: left;
 }
-.userPopoutOuter_c69a7b .header_c6e596 .statusBubbleOuter_d0a252:before,
-.userPopoutOuter_c69a7b .header_c6e596 .statusBubbleOuter_d0a252:after {
+.userProfileOuter_c69a7b .header_b07019 .statusBubbleOuter_d0a252:before,
+.userProfileOuter_c69a7b .header_b07019 .statusBubbleOuter_d0a252:after {
   display: none;
 }
-.userPopoutOuter_c69a7b .header_c6e596 .visibleContainer_d0a252.biteSize_d0a252 {
+.userProfileOuter_c69a7b .header_b07019 .visibleContainer_d0a252.biteSize_d0a252 {
   position: relative;
   top: 0;
   left: 0;
 }
-.userPopoutOuter_c69a7b .header_c6e596 .clickable_cc54d6 {
+.userProfileOuter_c69a7b .header_b07019 .clickable_cc54d6 {
   border: 2px solid var(--color-low);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3369,20 +3369,20 @@ foreignObject[mask="url(#svg-mask-status-offline)"] .status_c7d26b {
   top: 0;
   left: 0;
 }
-.userPopoutOuter_c69a7b .header_c6e596 .clickable_cc54d6 .wrapper_c51b4e {
+.userProfileOuter_c69a7b .header_b07019 .clickable_cc54d6 .wrapper_c51b4e {
   border-radius: 0;
 }
-.userPopoutOuter_c69a7b .body_a45fe8 {
+.userProfileOuter_c69a7b .body_b07019 {
   border: 2px solid var(--color-low);
   margin: 0 0.5em;
   padding: 0.5em;
   background: var(--color-high);
 }
-.userPopoutOuter_c69a7b .footer_d5223c {
+.userProfileOuter_c69a7b .footer_d5223c {
   margin: 0;
   padding: 0.5em;
 }
-.userPopoutOuter_c69a7b .channelTextArea_d0696b {
+.userProfileOuter_c69a7b .channelTextArea_d0696b {
   background: var(--color-high);
   border-radius: 0;
 }

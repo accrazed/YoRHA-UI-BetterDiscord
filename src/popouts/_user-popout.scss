@@ -1,5 +1,5 @@
 // whole container
-.userPopoutOuter_c69a7b {
+.userProfileOuter_c69a7b {
 	@include boxify($high, $mid, 3px);
 	padding: 0 !important;
 
@@ -10,7 +10,7 @@
 		width: 100%;
 	}
 
-	.header_c6e596 {
+	.header_b07019 {
 		display: flex;
 		flex-direction: column;
 
@@ -97,7 +97,7 @@
 	}
 
 	// usernames, mutuals, roles
-	.body_a45fe8 {
+	.body_b07019 {
 		border: 2px solid $low;
 		margin: 0 0.5em;
 		padding: 0.5em;
