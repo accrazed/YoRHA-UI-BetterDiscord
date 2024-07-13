@@ -19,10 +19,6 @@
 		@include buttonify($low, $high, $high, $low);
 	}
 }
-// Pinned Messages
-.username_f9f2ca {
-	color: $low !important;
-}
 // Selected tab in header
 .theme-dark .header_f0cd33 .tabBar_f0cd33 .tab_f0cd33.active_f0cd33 {
 	background-color: $alert;

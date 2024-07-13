@@ -1440,10 +1440,6 @@ path[d="M5.43309 21C5.35842 21 5.30189 20.9325 5.31494 20.859L5.99991 17H2.14274
           box-shadow: 3px 3px 0 var(--color-alert);
 }
 
-.username_f9f2ca.clickable_f9f2ca {
-  color: var(--color-low) !important;
-}
-
 .isUnread_c2654d .content_c2654d,
 .unreadPill_c2654d,
 .content_c2654d {
@@ -2758,10 +2754,6 @@ strong {
 .wrapper_ef319f .button_ef319f:active {
   border-color: transparent !important;
   background-color: var(--color-high) !important;
-  color: var(--color-low) !important;
-}
-
-.username_f9f2ca {
   color: var(--color-low) !important;
 }
 

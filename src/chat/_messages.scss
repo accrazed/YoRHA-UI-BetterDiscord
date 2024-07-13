@@ -36,10 +36,6 @@
 		@include boxify($high, $alert, 3px);
 	}
 }
-// Username color
-.username_f9f2ca.clickable_f9f2ca {
-	color: $low !important;
-}
 // Date stamp
 .isUnread_c2654d .content_c2654d,
 .unreadPill_c2654d,
