@@ -8,7 +8,7 @@
 .mentioned_d5deea:before {
 	width: 0;
 }
-.divider_fc5f50 {
+.divider_c2654d {
 	border-color: $alert;
 }
 // Scrollbar
@@ -28,7 +28,7 @@
 	box-shadow: 2px 2px 0 $mid, -3px 0 0 $low, -9px 0 0 $high, -21px 0 0 $low, -18px 2px 0 $mid;
 }
 // Profile Picture
-.full-motion .avatar_ec86aa.clickable_ec86aa {
+.full-motion .avatar_f9f2ca.clickable_f9f2ca {
 	@include boxify($high, $mid, 3px);
 
 	&:hover {
@@ -37,23 +37,23 @@
 	}
 }
 // Username color
-.username_ec86aa.clickable_ec86aa {
+.username_f9f2ca.clickable_f9f2ca {
 	color: $low !important;
 }
 // Date stamp
-.isUnread_fc5f50 .content_fc5f50,
-.unreadPill_fc5f50,
-.content_fc5f50 {
+.isUnread_c2654d .content_c2654d,
+.unreadPill_c2654d,
+.content_c2654d {
 	border-radius: 0;
 	background-color: $alert;
 	color: $high;
 }
-.unreadPillCapStroke_fc5f50 {
+.unreadPillCapStroke_c2654d {
 	color: $alert;
 	fill: $alert;
 }
 // Quotes
-.blockquoteContainer_d6076c .blockquoteDivider_d6076c {
+.blockquoteContainer_f8f345 .blockquoteDivider_f8f345 {
 	border-radius: 0;
 	background-color: $low;
 }
@@ -82,9 +82,9 @@
 		}
 	}
 }
-.mentioned_d5deea .messageContent_ec86aa a,
+.mentioned_d5deea .messageContent_f9f2ca a,
 .wrapper_a7c28c,
-.roleMention_d6076c,
+.roleMention_f8f345,
 .mention {
 	color: rgb(218, 212, 187);
 }
@@ -109,14 +109,14 @@
 .colorBrand_fbc755 {
 	color: $alert;
 }
-.repliedMessage_ec86aa:before {
+.repliedMessage_f9f2ca:before {
 	border-left: var(--spine-width) solid $low;
 	border-bottom: 0 solid $low;
 	border-right: 0 solid $low;
 	border-top: var(--spine-width) solid $low;
 	border-radius: 0;
 }
-.replyBadge_ec86aa {
+.replyBadge_f9f2ca {
 	border-radius: 0;
 	border: 1px solid $low;
 }
@@ -142,7 +142,7 @@
 .scrollableContainer_d0696b {
 	@include boxify($high, $mid, 3px);
 }
-.theme-dark .operations_ed9386 {
+.theme-dark .operations_baf0d6 {
 	color: $low;
 	& > a {
 		color: $alert;
@@ -154,11 +154,11 @@
 	color: $alert;
 }
 // Timestamps
-.compact_ec86aa .headerText_ec86aa {
+.compact_f9f2ca .headerText_f9f2ca {
 	border-right: 2px dashed $alert;
 }
-.compact_ec86aa .timestamp_ec86aa,
-.cozy_ec86aa .timestamp_ec86aa.alt_ec86aa {
+.compact_f9f2ca .timestamp_f9f2ca,
+.cozy_f9f2ca .timestamp_f9f2ca.alt_f9f2ca {
 	margin-right: 0;
 	width: auto;
 }

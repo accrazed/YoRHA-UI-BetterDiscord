@@ -50,8 +50,8 @@
 		}
 	}
 }
-.clickable_e44302 .icon_e44302:hover,
-.icon_e44302:hover,
+.clickable_fc4f04 .icon_fc4f04:hover,
+.icon_fc4f04:hover,
 .controlIcon_ef18ee:hover {
 	color: $mid;
 }
@@ -59,10 +59,10 @@
 .quickSelectLabel__79774,
 .playingText_c7b3af,
 .controlIcon_ef18ee,
-.clickable_e44302 .icon_e44302,
-.icon_e44302,
+.clickable_fc4f04 .icon_fc4f04,
+.icon_fc4f04,
 .name-3YKhmS,
-.title_e44302 {
+.title_fc4f04 {
 	color: $low;
 }
 .status_ba4b17 {
@@ -159,11 +159,11 @@
 .theme-dark .streamPreview-3qoMP4 {
 	@include boxify($high, $mid, 3px);
 }
-.theme-dark .activityStreamPreview_d5089b {
-	.activityName_d5089b,
-	.content_d5089b,
-	.details_d5089b,
-	.name_d5089b {
+.theme-dark .activityStreamPreview_c1d9fd {
+	.activityName_c1d9fd,
+	.content_c1d9fd,
+	.details_c1d9fd,
+	.name_c1d9fd {
 		color: $low;
 	}
 }
