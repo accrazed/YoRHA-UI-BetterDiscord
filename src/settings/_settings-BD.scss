@@ -2,6 +2,9 @@
 .bd-button {
 	@include buttonify($low, $high, $mid, $high);
 
+	&.bd-button-link.bd-button-color-primary {
+		color: $high;
+	}
 	&.bd-button-danger {
 		background-color: $alert;
 	}
