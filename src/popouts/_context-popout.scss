@@ -39,3 +39,10 @@
 foreignObject[mask='url(#svg-mask-status-offline)'] .status_c7d26b {
 	background-color: $mid !important;
 }
+// context popouts / tooltips
+.tooltipPrimary_b6c360 {
+	@include boxify($high, $mid, 2px);
+}
+.tooltipPointer_b6c360 {
+	display: none;
+}

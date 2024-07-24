@@ -2878,6 +2878,21 @@ foreignObject[mask="url(#svg-mask-status-offline)"] .status_c7d26b {
   background-color: var(--color-mid) !important;
 }
 
+.tooltipPrimary_b6c360 {
+  background: var(--color-high);
+  border-radius: 0;
+  -webkit-box-shadow: 2px 2px 0 var(--color-mid);
+          box-shadow: 2px 2px 0 var(--color-mid);
+}
+.tooltipPrimary_b6c360:hover {
+  -webkit-box-shadow: 2px 2px 0 var(--color-mid);
+          box-shadow: 2px 2px 0 var(--color-mid);
+}
+
+.tooltipPointer_b6c360 {
+  display: none;
+}
+
 .messageContainer_ddb5b4,
 .messages_c06487,
 .header_ac90a2 {
