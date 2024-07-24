@@ -4691,3 +4691,12 @@ foreignObject[mask="url(#svg-mask-status-offline)"] .status_c7d26b {
 .theme-dark .activityStreamPreview_c1d9fd .name_c1d9fd {
   color: var(--color-low);
 }
+
+.base__5ed84,
+.liveLarge_e17fae {
+  color: var(--color-low);
+}
+
+.clipBadgeIcon_d7719d {
+  color: var(--color-low) !important;
+}
