@@ -39,11 +39,6 @@
 	}
 }
 
-// .typeVoice_d8bfb3 .linkBottom_d8bfb3 {
-// 	top: 35px;
-// 	right: 10px;
-// 	position: absolute;
-// }
 
 .wrapper_d8bfb3 {
 	padding: 0;
@@ -120,8 +115,6 @@
 	}
 	
 	.content_cc29d1:before {
-	//.linkTop_d8bfb3:before,
-	//.linkBottom_d8bfb3:before {
 		content: '';
 		transition: transform 0.4s;
 		position: absolute;
@@ -193,7 +186,6 @@
 			}
 		}
 		}
-
 
 	// Unread channels
 	&.modeUnreadImportant_d8bfb3 {
