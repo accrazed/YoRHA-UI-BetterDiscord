@@ -75,7 +75,7 @@
 		}
 
 		// profile picture clickable area
-		.clickable_cc54d6 {
+		.clickable_f94206 {
 			border: 2px solid $low;
 			display: flex;
 			align-items: center;
@@ -102,6 +102,13 @@
 		margin: 0 0.5em;
 		padding: 0.5em;
 		background: $high;
+		.activity_cd74cc { //activites (takes on profile theme color and can cause conflict with colors)
+			border-top: 1px solid;
+			border-bottom: 1px solid;
+			border-color: $low;
+			border-radius: 0px;
+			background-color: transparent;
+		}
 	}
 	.footer_d5223c {
 		margin: 0;
@@ -112,5 +119,20 @@
 	.channelTextArea_d0696b {
 		background: $high;
 		border-radius: 0;
+	}
+
+	//user popout bottom left
+	.body_ad5fac {
+		border: 2px solid $low;
+		margin: 0 0.5em;
+		padding: 0.5em;
+		background: $high;
+		.activity_cd74cc { //activites (takes on profile theme color and can cause conflict with colors)
+			border-top: 1px solid;
+			border-bottom: 1px solid;
+			border-color: $low;
+			border-radius: 0px;
+			background-color: transparent;
+		}
 	}
 }
