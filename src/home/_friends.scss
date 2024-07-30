@@ -49,13 +49,15 @@
 			color: $low;
 			background: $high;
 		}
-		.text-sm\/normal_dc00ef,
-		.defaultColor_a595eb,
 		.base_d0da3e,
+		.defaultColor_a595eb,
 		span,
 		.colorHeaderSecondary_fbc755,
 		.colorStandard_fbc755 {
 			color: $high;
+		}
+		.text-sm\/normal_dc00ef { // smaller text for active now (game name etc)
+			color: $high !important; //using important was necessary as it failed to invert colors due to a global variable
 		}
 		.section_cd82a7 div {
 			color: $low;

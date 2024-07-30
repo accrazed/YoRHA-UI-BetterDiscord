@@ -238,14 +238,16 @@
 			height: 100%;
 		}
 		.linkTop_d8bfb3,
-		.linkBottom_d8bfb3 { //Technically doesn't have a hover animation, uses the selection animation instead
+		.linkBottom_d8bfb3 { //Technically doesn't have a hover animation, uses the selected channel animation instead
 			animation-name: pulsingBackground;
 			animation-duration: 2.5s;
 			animation-iteration-count: infinite;
 			transform: scaleX(1);
 		}
 	}
-
+}
+.list_a478e5 { //Container that holds users in the VC
+	margin-top: 1.5px; //fix for some awkward bumping between the borders
 }
 
 // Voice channel limits
@@ -266,7 +268,7 @@
 		border-right-color: $alert;
 	}
 }
-.base__5ed84 {
+.base_a4d4d9 {
 	border-radius: 0;
 }
 // Thread splines
@@ -289,22 +291,4 @@
 	margin-left: 0;
 }
 
-//Mention badge and unread coloring for threads (wtf discord, why is this so hard)
-.typeThread_d8bfb3 {
-	.name_d8bfb3 {
-		position: absolute;
-		left: 1px;
-		max-width: 175px;
-		text-align: left;
-		&.overflow_c74e70 {
-			white-space: nowrap;
-			overflow: hidden;
-			text-overflow: ellipsis;
-		}
-	}
-	.mentionsBadge_e2a798 {
-		position: absolute;
-		padding-left: 121px;
-		z-index: 1;
-	}
-}
+

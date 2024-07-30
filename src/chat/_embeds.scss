@@ -1,5 +1,5 @@
 // Embed card
-.embedFull_ad0b71,
+.embedFull_b0068a,
 .messageContent_f9f2ca pre {
 	@include boxify($high, $mid, 4px);
 
@@ -22,48 +22,70 @@
 	}
 }
 // File attachments
-.wrapperAudio_f316dd.newMosaicStyle_f316dd,
-.attachment_a4623d.newMosaicStyle_a4623d,
+.wrapperAudio_f72aac.newMosaicStyle_f72aac,
+.attachment_b52bef.newMosaicStyle_b52bef,
 .messageAttachmentMediaMosaic__67262 {
 	border-radius: 0;
 }
-.attachment_a4623d {
+.attachment_b52bef {
 	margin-left: 13px;
 	border-radius: 0;
 	box-shadow: -3px 0 0 var(--color-low), -9px 0 0 var(--color-high), -21px 0 0 var(--color-low),
 		-18px 3px 0 var(--color-mid), 3px 3px 0 var(--color-mid);
 
-	.metadata_a4623d {
+	.metadata_b52bef {
 		color: $low;
 	}
 }
 // Audio
-.wrapperAudio_f316dd.newMosaicStyle_f316dd {
+.wrapperAudio_f72aac.newMosaicStyle_f72aac {
 	@include boxify($high, $mid, 3px);
 
-	.audioControls_f316dd,
-	.videoControls_f316dd {
+	.audioControls_f72aac,
+	.videoControls_f72aac {
 		background-color: $high;
 		border-radius: 0;
 		border: 1px solid $low;
 	}
 
-	.mediaBarWrapper_f7877e,
-	.mediaBarWrapper_f7877e:after,
-	.mediaBarWrapper_f7877e:before {
+	.mediaBarWrapper_d12f5a,
+	.mediaBarWrapper_d12f5a:after,
+	.mediaBarWrapper_d12f5a:before {
 		background-color: $mid;
 	}
 }
 // Images and Videos
-.imageWrapper__178ee:not(.embedImage_ad0b71) {
+.visualMediaItemContainer_cda674:not(.embedImage_ad0b71),
+.inlineMediaEmbed_b0068a.embed_b0068a {
 	@include boxify($high, $mid, 4px);
+	width:fit-content;
+	margin-bottom: -2px;
 }
-.mediaAttachmentsContainer__242e2,
-.oneByOneGridSingle_cda674,
-.wrapper_f316dd,
-.video_f316dd {
-	border-radius: 0;
+.visualMediaItemContainer_cda674,
+.oneByOneGrid_cda674,
+.mosaicItem_e5c1dc,
+.imageWrapper_d4597d, 
+.embed_b0068a,
+.embedMedia_b0068a,
+.wrapper_f72aac,
+.video_f72aac {
+	border-radius: 0 !important;
 }
+.visualMediaItemContainer_cda674{
+	.wrapper_f72aac {
+		.videoControls_f72aac {
+		width: 99.9%;
+			.controlIcon_f72aac,
+			.controlIcon_ef18ee {
+				color: $high-trans !important;
+			}
+		}
+		.durationTimeWrapper_f72aac {
+			color: $high-trans;
+		}
+	}
+}
+
 // Spotify Listen-Along
 .theme-dark .invite_f61cb8 {
 	@include boxify($high, $mid, 3px);
@@ -75,5 +97,12 @@
 	}
 	.textLink_f61cb8 {
 		color: $alert;
+	}
+}
+
+//Spotify Song Embed
+.embedSpotify_b0068a {
+	.encore-dark-theme {
+		border-radius: 0rem !important;
 	}
 }

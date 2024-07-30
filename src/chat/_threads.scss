@@ -61,3 +61,23 @@
 .browser_f542fc {
 	@include boxify($high, $mid, 3px);
 }
+
+//Mention badge and unread coloring for threads (wtf discord, why is this so hard)
+.typeThread_d8bfb3 {
+	.name_d8bfb3 {
+		position: absolute;
+		left: 1px;
+		max-width: 175px;
+		text-align: left;
+		&.overflow_c74e70 {
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+	}
+	.mentionsBadge_e2a798 {
+		position: absolute;
+		padding-left: 121px;
+		z-index: 1;
+	}
+}
