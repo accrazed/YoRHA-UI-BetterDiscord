@@ -1,15 +1,15 @@
 // whole container
-.fullSizeOuter_c69a7b {
+.userPanelOuter_c69a7b {
 	@include boxify($low, $mid, 3px);
 	padding: 0 !important;
 
 	// weird box that sits over theme colors, under boxes
 	// seems to darken the color selection
-	.userProfileInner_c69a7b:before {
-		height: 100%;
+	.userPanelInner_c69a7b::before {
+		//height: 100%;
 		width: 100%;
 	}
-    .userProfileInner_c69a7b {
+    .userPanelInner_c69a7b {
         gap: 0px;
     }
 
@@ -18,24 +18,23 @@
         mask circle {
             display: none;
         }
+        
+        padding-bottom: 2px;
+        padding-right: 40px;
     }
 
-    .headerInner_bc9cc2 {
-		display: grid;
-		grid-template-columns: 4fr 1fr; /* Create two equal columns */
-		gap: 0; /* Optional: add spacing between columns */
-		//flex-direction: column;
+    .header_ecc60d {
         padding: 0;
         margin: 0.25em;
 
 		// janky ass invisible container?
-		.invisibleContainer_d0a252.fullSize_d0a252 {
+		.invisibleContainer_d0a252.panel_d0a252 {
 			display: none;
             
 		}
 
-		.invisibleContainer_d0a252.fullSize_d0a252,
-		.visibleContainer_d0a252.fullSize_d0a252 {
+		// .invisibleContainer_d0a252.panel_d0a252,
+		.visibleContainer_d0a252.panel_d0a252 {
 			display: flex;
 			align-content: center;
 			justify-content: center;
@@ -93,38 +92,28 @@
 
 		//edit status buttons on user status hover
 		.popover_bba79b.visible_bba79b {
-			.left_bba79b {
+			.left_bba79b:not(:hover) {
 				path[d='m13.96 5.46 4.58 4.58a1 1 0 0 0 1.42 0l1.38-1.38a2 2 0 0 0 0-2.82l-3.18-3.18a2 2 0 0 0-2.82 0l-1.38 1.38a1 1 0 0 0 0 1.42ZM2.11 20.16l.73-4.22a3 3 0 0 1 .83-1.61l7.87-7.87a1 1 0 0 1 1.42 0l4.58 4.58a1 1 0 0 1 0 1.42l-7.87 7.87a3 3 0 0 1-1.6.83l-4.23.73a1.5 1.5 0 0 1-1.73-1.73Z'] {
 					fill:$high;
 				}
-				border-radius: 0px;
 			}
-			.right_bba79b {
+			.right_bba79b:not(:hover) {
 				path[d='M14.25 1c.41 0 .75.34.75.75V3h5.25c.41 0 .75.34.75.75v.5c0 .41-.34.75-.75.75H3.75A.75.75 0 0 1 3 4.25v-.5c0-.41.34-.75.75-.75H9V1.75c0-.41.34-.75.75-.75h4.5Z'],
 				path[d='M5.06 7a1 1 0 0 0-1 1.06l.76 12.13a3 3 0 0 0 3 2.81h8.36a3 3 0 0 0 3-2.81l.75-12.13a1 1 0 0 0-1-1.06H5.07ZM11 12a1 1 0 1 0-2 0v6a1 1 0 1 0 2 0v-6Zm3-1a1 1 0 0 1 1 1v6a1 1 0 1 1-2 0v-6a1 1 0 0 1 1-1Z'] {
 					fill: $high;
 				}
-				border-radius: 0px;
 			}
-			border-radius: 0px;
-
 		}
 
 
-        //buttons
+        //edit profile button
         .buttons_d181d8 {
-			align-items: normal;
-			gap: 0px;
-			display: contents;
-			.multipleButtons_fcef98 {
-				display: flex;
-				flex-direction: column;
-				gap: 4px;
-			}
+			width: fit-content;
+			height: auto;
         }
 
 		// thinking text
-		.visibleContainer_d0a252.fullSize_d0a252 {
+		.visibleContainer_d0a252.panel_d0a252 {
 			position: relative;
 			top: 0;
 			left: 0;
@@ -134,18 +123,16 @@
 		}
 
 		// profile picture area
-		.avatar_f94206 {
-			border-bottom: 2px;
+		.avatar_f94206.panel_f94206 {
 			display: flex;
 			align-items: center;
 			justify-content: center;
 			background-color: $mid;
-			margin: 0em 0.25em 0 0.25em;
 			padding: 2em;
 			border-radius: 0;
 			position: relative;
-			top: 0;
-			left: 0;
+            top: 0;
+            left: 0;
 
 			// the actual pfp
 			.wrapper_c51b4e {
@@ -156,62 +143,44 @@
 	}
 
 	// usernames, mutuals, roles
-	.body_bc9cc2 {
-		//border: 2px solid $low;
+	.body_e9e42f {
 		margin: 0em 0.5em 0.5em 0.5em;
 		padding: 0.5em;
 		background: $high;
 
-        // .defaultColor_a595eb {
-        //     color: $high;
-        // }
-
-        .fullSizeOverlayBackground_c69a7b{ //container that everything below username (had to be categorized seperately cuz it broke everything otherwise lol)
+        .overlayBackground_c69a7b{ //container that everything below username (had to be categorized seperately cuz it broke everything otherwise lol)
             border: 0px;
             height: 100%;
-            width: 100%;
+            width: auto;
             background: $high;
 
-            //container that holds everything the same as above
-            .container_c1519f {
-                display:contents; 
-            }
-            
-            //tab selection bar
-            .tabBar_c1519f {
-                margin: 3px;
-                height: 42px;
-                gap: 20px;
-                border-bottom: 2px solid;
-                border-color: $low;
-                .item_a0 {
-                    background-color: $mid-trans;
-                    padding: 3px 32px 3px 6px;                   
-                    .defaultColor_a595eb {
-                        color: $low;
-                    }
-                    &:hover {
-                        border-bottom: 0px;
-                    }
-                    &.selected_a0 {
-                        background-color: $low;
-                        height: 100%;
-                        //border-bottom: 0px;
-                        .defaultColor_a595eb {
-                            color: $high;
-                        }
-                    }
+            .markup_f8f345 {
+                height: auto;
+                .lineClamp2Plus_a595eb {
+                    -webkit-line-clamp: 12 !important;
                 }
-            
             }
-            
-            //border fixes
-            .connectedAccountContainer_f3eb60, //border fix for connected accounts
-            .note_c2dcc6 { //border fix for note section
-                border: 1px solid;
-                border-radius: 0px;
-                border-color: $low-trans;
-            }
+        
         }
+        .activity_cd74cc { //activites (takes on profile theme color and can cause conflict with colors)
+			border-top: 1px solid;
+			border-bottom: 1px solid;
+			border-color: $low;
+			border-radius: 0px;
+			background-color: transparent;
+		}
 	}
+}
+
+//extra area below user profile
+.overlayBackground_c69a7b.overlay_f9da1d,
+.footer_ecc60d { 
+    margin: 0em 0.5em 0.5em 0.5em;
+    padding: 0.5em;
+    background: $high;
+    .divider_e3d8a6 {
+        background-color: $low;
+        margin: 0px;
+        width: 100%;
+    }
 }
