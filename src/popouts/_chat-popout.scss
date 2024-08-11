@@ -10,12 +10,12 @@
 {
 	@include boxify($high, $mid, 3px);
 }
-.full-motion .wrapper_ef319f:hover,
-.wrapper_ef319f // Options when hovering over message
+.full-motion .wrapper_f7e168:hover,
+.wrapper_f7e168 // Options when hovering over message
 {
 	@include boxify($low, $mid, 3px);
 
-	.button_ef319f {
+	.button_f7e168 {
 		@include buttonify($low, $high, $high, $low);
 	}
 }
@@ -51,22 +51,22 @@
 }
 // Autocomplete in chatbox
 .theme-dark {
-	.contentTitle_f23da8 strong,
+	.contentTitle_bcc24e strong,
 	.content-Qb0rXO {
 		color: $low;
 	}
-	.divider_f23da8::after {
+	.divider_bcc24e::after {
 		background-color: $low;
 	}
-	.autocomplete_f23da8 {
+	.autocomplete_bcc24e {
 		@include boxify($high, $mid, 4px);
 
-		.descriptionDiscriminator_f23da8 {
+		.descriptionDiscriminator_bcc24e {
 			color: $mid;
 		}
 		.description-11DmNu,
 		.descriptionUsername-J_75O8,
-		.contentTitle_f23da8 {
+		.contentTitle_bcc24e {
 			color: $low;
 		}
 	}
@@ -75,13 +75,13 @@
 		background-color: $low;
 		border-radius: 0;
 
-		.colorInteractiveNormal_fbc755,
-		.colorInteractiveActive_fbc755,
-		.colorStandard_fbc755,
+		.colorInteractiveNormal_d1aa77,
+		.colorInteractiveActive_d1aa77,
+		.colorStandard_d1aa77,
 		.content-Qb0rXO,
 		.description-11DmNu,
 		.descriptionUsername-J_75O8,
-		.contentTitle_f23da8 {
+		.contentTitle_bcc24e {
 			color: $high;
 		}
 
@@ -91,7 +91,7 @@
 		}
 	}
 }
-.autocompleteRow_f23da8 {
+.autocompleteRow_bcc24e {
 	padding: 0;
 }
 // Delete message
@@ -104,7 +104,7 @@
 		box-shadow: none;
 	}
 	// Pro tip
-	.pro_dcc874 {
+	.pro_b5053a {
 		color: $alert !important;
 	}
 }

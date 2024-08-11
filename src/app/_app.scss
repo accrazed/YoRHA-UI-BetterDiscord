@@ -10,7 +10,7 @@ body,
 }
 
 .wordmarkWindows_a934d8::before {
-	content: "For the Glory of Mankind";
+	content: 'For the Glory of Mankind';
 	font-size: 12px;
 	position: fixed;
 	color: $high-trans;
@@ -19,7 +19,7 @@ body,
 	margin-top: 1px;
 	font-family: 'sce-ps3_rodin_latinregular';
 	font-weight: 700;
-	pointer-events:fill;
+	pointer-events: fill;
 }
 
 // Scrollbars
@@ -96,6 +96,7 @@ body,
 .lookFilled_dd4f85.colorGrey-2DXtkV,
 .button_bba79b,
 .button_f7e168,
+.button_f9d37d,
 .button_a24e84,
 .lookFilled_dd4f85.colorBrand_dd4f85:disabled {
 	@include buttonify($low, $high, $mid, $high);
@@ -203,7 +204,7 @@ body,
 		background-color: $low;
 		color: $high;
 
-		.colorStandard_fbc755,
+		.colorStandard_d1aa77,
 		.subtitle_e9c087 {
 			color: $high;
 		}

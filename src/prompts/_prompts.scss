@@ -29,9 +29,9 @@
 .h5-2RwDNl,
 .footer-31IekZ,
 .uploadIcon-2wV7s_,
-.colorMuted_fbc755,
-.colorHeaderPrimary_fbc755,
-.colorHeaderSecondary_fbc755 {
+.colorMuted_d1aa77,
+.colorHeaderPrimary_d1aa77,
+.colorHeaderSecondary_d1aa77 {
 	color: $low;
 }
 .anchor-1MIwyf {
@@ -47,7 +47,7 @@
 		color: $low;
 	}
 }
-.iconActiveLarger_f11207 {
+.iconActiveLarger_a64689 {
 	border-radius: 0;
 }
 // Join a server
@@ -123,8 +123,8 @@
 	@include boxify($high, $mid, 6px);
 
 	&,
-	.colorHeaderPrimary_fbc755,
-	.colorHeaderSecondary_fbc755,
+	.colorHeaderPrimary_d1aa77,
+	.colorHeaderSecondary_d1aa77,
 	.h5-2RwDNl {
 		color: $low;
 	}
@@ -145,7 +145,7 @@
 		border-radius: 0;
 		box-shadow: none;
 	}
-	.icon_f14193 {
+	.icon_e3c1c6 {
 		height: 13px;
 		width: 13px;
 		background-color: $low;
@@ -155,12 +155,12 @@
 		border-radius: 0;
 
 		.note-3TX9O7,
-		.misc_f14193,
-		.contentUnread_f14193,
-		.contentDefault_f14193 {
+		.misc_e3c1c6,
+		.contentUnread_e3c1c6,
+		.contentDefault_e3c1c6 {
 			color: $high;
 		}
-		.icon_f14193 {
+		.icon_e3c1c6 {
 			background-color: $high;
 			path {
 				fill: $high;
@@ -225,7 +225,7 @@
 	}
 }
 // Notification settings
-.theme-dark .modal_ec75c1 {
+.theme-dark .modal_c97cbd {
 	@include boxify($high, $mid, 4px);
 }
 // Reactions

@@ -89,7 +89,7 @@
 	background-color: $alert !important;
 }
 .base__5ed84,
-.liveLarge_e17fae {
+.liveLarge_ec1c2d {
 	border-radius: 0;
 	color: $high;
 }
@@ -106,24 +106,24 @@
 	height: 29px;
 	margin: 1px 0 1px 0;
 
-	.clickable_cdc675 {
+	.clickable_d80634 {
 		height: 28px;
-		.icons_cdc675 svg,
-		.avatarSmall_cdc675,
-		.username_cdc675,
-		.icons_cdc675 {
+		.icons_d80634 svg,
+		.avatarSmall_d80634,
+		.username_d80634,
+		.icons_d80634 {
 			z-index: 1;
 			transition: color 0.2s;
 		}
 		border-radius: 0;
 
 		// Animation
-		.content_cdc675 {
+		.content_d80634 {
 			height: 28px;
 			background-color: transparent !important;
 			border-radius: 0;
 		}
-		.content_cdc675:before {
+		.content_d80634:before {
 			content: '';
 			position: absolute;
 			left: 0;
@@ -138,14 +138,14 @@
 			width: 100%;
 		}
 		// Selected channel
-		&.selected_cdc675 .content_cdc675,
-		&:hover .content_cdc675 {
+		&.selected_d80634 .content_d80634,
+		&:hover .content_d80634 {
 			box-shadow: 0 1px $low, 0 -1px $low;
 
-			.icons_cdc675 svg,
-			.avatarSmall_cdc675,
-			.username_cdc675,
-			.icons_cdc675 {
+			.icons_d80634 svg,
+			.avatarSmall_d80634,
+			.username_d80634,
+			.icons_d80634 {
 				color: $high;
 				z-index: 1;
 			}
@@ -171,7 +171,7 @@
 // Stream buttons
 
 .base__5ed84,
-.liveLarge_e17fae {
+.liveLarge_ec1c2d {
 	color: $low;
 }
 

@@ -1,6 +1,6 @@
 // Transparencies
 .container_cbd271,
-.clickable_e9f61e:hover .layout_e9f61e,
+.clickable_d808b0:hover .layout_d808b0,
 .member_cbd271,
 .members_cbd271,
 .members_cbd271 > div {
@@ -8,7 +8,7 @@
 }
 
 // Member hover/select animations
-.container_e9f61e {
+.container_d808b0 {
 	transition: color 0.2s;
 	max-width: none;
 	border-radius: 0;
@@ -16,7 +16,7 @@
 	margin: 5px 0 5px 0;
 	position: relative;
 	// Animation
-	.layout_e9f61e {
+	.layout_d808b0 {
 		background-color: transparent !important;
 		border-radius: 0;
 		&:before {
@@ -36,21 +36,21 @@
 		}
 	}
 	// Selected channel
-	&.selected_e9f61e,
+	&.selected_d808b0,
 	&:hover {
 		color: $high !important;
 		box-shadow: 0 1px $low, 0 -1px $low;
-		.name_e9f61e span,
+		.name_d808b0 span,
 		.activity_a31c43,
-		.muted_e9f61e {
+		.muted_d808b0 {
 			color: $high !important;
 		}
-		.layout_e9f61e:before {
+		.layout_d808b0:before {
 			transform: scaleX(1);
 		}
-		.avatar_e9f61e,
+		.avatar_d808b0,
 		.linkButtonIcon_c91bad,
-		.content_e9f61e {
+		.content_d808b0 {
 			z-index: 1;
 		}
 	}

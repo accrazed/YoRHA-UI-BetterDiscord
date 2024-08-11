@@ -3,19 +3,19 @@
 	@include boxify($high, $mid, 3px);
 }
 // Allow / Passthrough / Deny
-.group_e3c4bb {
+.group_d25d19 {
 	border-radius: 0;
 	border: 2px solid $low;
 	width: 97px;
 
-	.deny_e3c4bb {
+	.deny_d25d19 {
 		svg {
 			color: $alert;
 		}
 		&:hover {
 			border-radius: 0;
 		}
-		&.selected_e3c4bb {
+		&.selected_d25d19 {
 			background-color: $alert;
 			border-radius: 0;
 			svg {
@@ -24,17 +24,17 @@
 		}
 	}
 
-	.passthrough_e3c4bb {
-		&.selected_e3c4bb {
+	.passthrough_d25d19 {
+		&.selected_d25d19 {
 			background-color: $low;
 			color: $high;
 		}
 	}
 
-	.allow_e3c4bb {
+	.allow_d25d19 {
 		border-radius: 0;
 
-		&.selected_e3c4bb {
+		&.selected_d25d19 {
 			color: $high;
 		}
 	}

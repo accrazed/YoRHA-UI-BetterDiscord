@@ -5,7 +5,7 @@
 .applicationStore_cecc86,
 .nowPlayingColumn_c2739c,
 .container_bf550a,
-.theme-dark .inset_c0f6a6,
+.theme-dark .inset_ac5d22,
 .theme-dark .container_c2739c {
 	background-color: transparent;
 }
@@ -31,7 +31,7 @@
 	transition: all 0.1s;
 	@include boxify($high, $mid, 4px);
 
-	.inset_c0f6a6 {
+	.inset_ac5d22 {
 		border: 1px solid $mid;
 		border-radius: 0;
 	}
@@ -49,11 +49,11 @@
 			color: $low;
 			background: $high;
 		}
-		.base_d0da3e,
+		.base_bd482f,
 		.defaultColor_a595eb,
 		span,
-		.colorHeaderSecondary_fbc755,
-		.colorStandard_fbc755 {
+		.colorHeaderSecondary_d1aa77,
+		.colorStandard_d1aa77 {
 			color: $high;
 		}
 		.text-sm\/normal_dc00ef { // smaller text for active now (game name etc)
@@ -69,7 +69,7 @@
 	@include titlify(2px, 4px);
 }
 // Close button hover
-.children_e9f61e {
+.children_d808b0 {
 	z-index: 1;
 }
 .actionButton_e01b91:hover {

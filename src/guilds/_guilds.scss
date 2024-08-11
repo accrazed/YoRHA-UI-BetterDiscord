@@ -57,7 +57,7 @@
 .folderIconWrapper_bc7085 {
 	border-radius: 0;
 
-	.iconInactive_f11207 {
+	.iconInactive_a64689 {
 		border-radius: 0;
 	}
 }
@@ -82,7 +82,7 @@
 	background-color: $alert;
 }
 // Unread blip out of screen
-.mention_c10249 {
+.mention_edf32f {
 	@include boxify($alert, $low, 3px);
 }
 // Notification blip
@@ -101,8 +101,8 @@
 	}
 }
 // Discover screen
-.theme-dark .card_eb1ca6,
-.theme-dark .iconMask_eb1ca6 {
+.theme-dark .card_e90879,
+.theme-dark .iconMask_e90879 {
 	@include boxify($high, $mid, 5px);
 }
 .theme-dark .contentWrapper_ed5743 {

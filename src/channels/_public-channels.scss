@@ -13,12 +13,12 @@
 	box-shadow: none;
 }
 // Unread messages notification
-.unread_c10249 {
+.unread_edf32f {
 	color: $high;
 	@include boxify($alert, $mid, 3px);
 }
 // User info
-.button_f67531 {
+.button_adca65 {
 	@include buttonify(transparent, $low, $low, $high);
 
 	&:hover .lottieIcon_f73ef7 :not(defs *)[fill][fill-opacity] {

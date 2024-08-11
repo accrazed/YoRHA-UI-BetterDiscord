@@ -11,13 +11,13 @@
 	}
 }
 // Server invite
-.wrapper_b9fe76 {
+.wrapper_a71a1c {
 	@include boxify($high, $mid, 3px);
 
-	.inviteDestination_b9fe76 {
+	.inviteDestination_a71a1c {
 		color: $low;
 	}
-	.iconActiveLarge_f11207 {
+	.iconActiveLarge_a64689 {
 		border-radius: 0;
 	}
 }
@@ -55,7 +55,7 @@
 	}
 }
 // Images and Videos
-.visualMediaItemContainer_cda674:not(.embedImage_ad0b71),
+.visualMediaItemContainer_cda674:not(.embedImage_b0068a),
 .inlineMediaEmbed_b0068a.embed_b0068a {
 	@include boxify($high, $mid, 4px);
 	width:fit-content;
