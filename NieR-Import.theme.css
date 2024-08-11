@@ -1428,8 +1428,9 @@ foreignObject[mask="url(#svg-mask-status-dnd)"] .status-2DiCMd {
 }
 
 .spine_e1e976 {
-  top: 10px;
-  left: -18px;
+  z-index: 2;
+  left: 8px;
+  top: 11px;
   width: 12px !important;
   height: 12px !important;
   background-color: var(--color-low);
@@ -1437,9 +1438,17 @@ foreignObject[mask="url(#svg-mask-status-dnd)"] .status-2DiCMd {
 .spine_e1e976[style="transform: rotateX(180deg) translateY(-9px);"] {
   display: none;
 }
+.spine_e1e976:has(~ .typeThread_d8bfb3:hover), .spine_e1e976:has(~ .typeThread_d8bfb3.modeSelected_d8bfb3) {
+  background-color: var(--color-high);
+  color: var(--color-high);
+}
 
 .typeThread_d8bfb3 .link_d8bfb3 {
   margin-left: 0;
+}
+
+.typeThread_d8bfb3 .name_d8bfb3.overflow_a82120 {
+  left: 24px;
 }
 
 .userPanelOuter_c69a7b {

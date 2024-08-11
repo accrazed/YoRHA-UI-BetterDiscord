@@ -290,7 +290,8 @@
 	z-index: 2;
 }
 
-.scroller_c43953 {  //container that holds actual channels
+.scroller_c43953 {
+	//container that holds actual channels
 	.content_eed6a8 {
 		margin-left: 20px;
 		//padding-left: 15px;
@@ -324,8 +325,10 @@
 	background: transparent;
 }
 .spine_e1e976 {
-	top: 10px;
-	left: -18px;
+	z-index: 2;
+	left: 8px;
+
+	top: 11px;
 	width: 12px !important;
 	height: 12px !important;
 	background-color: $low;
@@ -333,8 +336,17 @@
 	&[style='transform: rotateX(180deg) translateY(-9px);'] {
 		display: none;
 	}
+
+	&:has(~ .typeThread_d8bfb3:hover),
+	&:has(~ .typeThread_d8bfb3.modeSelected_d8bfb3) {
+		background-color: $high;
+		color: $high;
+	}
 }
 
 .typeThread_d8bfb3 .link_d8bfb3 {
 	margin-left: 0;
+}
+.typeThread_d8bfb3 .name_d8bfb3.overflow_a82120 {
+	left: 24px;
 }
