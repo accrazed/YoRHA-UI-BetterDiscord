@@ -167,10 +167,6 @@
 			color: $alert;
 		}
 	}
-// 	.basicChannelRowLink_d8bfb3:hover {
-// 		box-shadow: 0 1px $low, 0 -1px $low;
-// 		transform: scaleX(1);
-// 	}
 }
 
 	
@@ -257,8 +253,6 @@
 
 //Test for pointer
 .wrapper_d8bfb3.modeSelected_d8bfb3::before {
-	// content: url('https://breadtheripper.github.io/Ronin-Font/NierSelector.png');
-	// margin-left: -8px;
 		content: "";
 		position: absolute;
 		left: -30px;
@@ -266,13 +260,10 @@
 		transform: translateY(-50%);
 		width: 21px; /* Adjust width as needed */
 		height: 21px; /* Adjust height as needed */
-		background-image: url('https://breadtheripper.github.io/Ronin-Font/NierSelector.png'); /* Replace with your image URL */
+		background-image: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/extras/NierSelector.png');
 		background-size: cover;
 		background-repeat: no-repeat;
 }
-// .wrapper_d8bfb3.modeSelected_d8bfb3 {
-// 	//margin-left: 25px;
-// }
 
 // Entire channels list container
 .content_eed6a8::before {
