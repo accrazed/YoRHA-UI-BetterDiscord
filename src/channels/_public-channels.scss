@@ -42,6 +42,7 @@
 
 .wrapper_d8bfb3 {
 	padding: 0;
+	margin-left: 15px;
 
 	// Square icon
 	.iconContainer_d8bfb3 {
@@ -79,7 +80,7 @@
 		margin-left: 0;
 		border-radius: 0;
 		justify-content: center;
-		padding: 0px 12px;
+		padding: 0px 8px;
 	}
 
 	.linkTop_d8bfb3 {
@@ -166,6 +167,10 @@
 			color: $alert;
 		}
 	}
+// 	.basicChannelRowLink_d8bfb3:hover {
+// 		box-shadow: 0 1px $low, 0 -1px $low;
+// 		transform: scaleX(1);
+// 	}
 }
 
 	
@@ -248,6 +253,47 @@
 }
 .list_a478e5 { //Container that holds users in the VC
 	margin-top: 1.5px; //fix for some awkward bumping between the borders
+}
+
+//Test for pointer
+.wrapper_d8bfb3.modeSelected_d8bfb3::before {
+	// content: url('https://breadtheripper.github.io/Ronin-Font/NierSelector.png');
+	// margin-left: -8px;
+		content: "";
+		position: absolute;
+		left: -30px;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 21px; /* Adjust width as needed */
+		height: 21px; /* Adjust height as needed */
+		background-image: url('https://breadtheripper.github.io/Ronin-Font/NierSelector.png'); /* Replace with your image URL */
+		background-size: cover;
+		background-repeat: no-repeat;
+}
+// .wrapper_d8bfb3.modeSelected_d8bfb3 {
+// 	//margin-left: 25px;
+// }
+
+// Entire channels list container
+.content_eed6a8::before {
+		content: "";
+		position: absolute;
+		left: 0px;
+		width: 2px;
+		height:  100%;
+		bottom: 0px;
+		border-radius: 0;
+		padding: 4px 5px 4px 6px;
+		margin-left: -3px;
+		//margin-right: 15px;
+		box-shadow: -3px 0 0 $mid, -15px 0 0 transparent, -21px 0 0 $mid, -18px 2px 0 transparent;
+}
+.scroller_c43953 {
+	.content_eed6a8 {
+		margin-left: 20px;
+		//padding-left: 15px;		
+		//background-color: $mid-trans;
+	}
 }
 
 // Voice channel limits
