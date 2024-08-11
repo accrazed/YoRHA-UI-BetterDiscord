@@ -78,7 +78,18 @@
 	}
 }
 // Image popout carousel
-.arrowContainer_b65c0b {
+.carouselModal_d2b9a1.root_f9a4c9 {
+	background:none !important;
+	box-shadow: none !important;
+	.wrapper_b6f1f8 {
+		width: auto;
+		.downloadLink_fb6520,
+		.text_e31053 {
+			color: $high !important;
+		}
+	}
+}
+.arrowContainer_ad2a08 {
 	background-color: $alert;
 }
 // Drag and drop upload

@@ -43,11 +43,14 @@
 		.overlayStatusText__668e1 {
 			color: $high;
 		}
-		.gameNameInput-3TuPuA:focus,
-		.gameNameInput-3TuPuA:hover {
+		.gameNameInput_fd966d:focus,
+		.gameNameInput_fd966d:hover {
 			border-radius: 0;
 			background: $high;
 			color: $low;
+		}
+		&.toggleIcon_fd966d { //needs fixing
+			color: $high;
 		}
 		.actionButton_e4010c {
 			border-color: $high;
