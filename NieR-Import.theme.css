@@ -575,7 +575,6 @@ body,
 .button_bba79b,
 .button_f7e168,
 .button_f9d37d,
-.button_a24e84,
 .lookFilled_dd4f85.colorBrand_dd4f85:disabled {
   border-radius: 0;
   border-color: transparent;
@@ -611,8 +610,6 @@ body,
 .button_f7e168:active,
 .button_f9d37d:hover,
 .button_f9d37d:active,
-.button_a24e84:hover,
-.button_a24e84:active,
 .lookFilled_dd4f85.colorBrand_dd4f85:disabled:hover,
 .lookFilled_dd4f85.colorBrand_dd4f85:disabled:active {
   border-color: transparent !important;
@@ -3230,6 +3227,19 @@ strong {
 }
 .menu_d90b3d .scroller_d90b3d .submenuPaddingContainer_d90b3d {
   padding: 0;
+}
+.menu_d90b3d .scroller_d90b3d .button_a24e84 {
+  border-radius: 0;
+  border-color: transparent;
+  background-color: var(--color-low);
+  color: var(--color-high);
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+.menu_d90b3d .scroller_d90b3d .button_a24e84:hover, .menu_d90b3d .scroller_d90b3d .button_a24e84:active {
+  border-color: transparent !important;
+  background-color: var(--color-high) !important;
+  color: var(--color-low) !important;
 }
 
 foreignObject[mask="url(#svg-mask-status-offline)"] .status_c7d26b {
