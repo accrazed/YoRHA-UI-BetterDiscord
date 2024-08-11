@@ -302,6 +302,7 @@ html {
   --green-900: var(--color-alert)
   --green-900-hsl: var(--color-alert)
   // --blue-100: hsl(var(--blue-100-hsl) / 1);
+  --white: var(--white-hsl);
   --white-100: var(--white-100-hsl);
   --white-130: var(--white-130-hsl);
   --white-160: var(--white-160-hsl);
@@ -319,6 +320,7 @@ html {
   --white-530: var(--white-530-hsl);
   --white-560: var(--white-560-hsl);
   --white-600: var(--white-600-hsl);
+  --white-hsl: var(--color-low);
   --white-100-hsl: var(--color-low);
   --white-130-hsl: var(--color-low);
   --white-160-hsl: var(--color-low);
@@ -375,7 +377,7 @@ html {
   --brand-500-hsl: 235 calc(var(--saturation-factor, 1) * 85.6%) 64.7%;
   --brand-530: var(--color-alert);
   --brand-530-hsl: 235 calc(var(--saturation-factor, 1) * 66.7%) 58.8%;
-  --brand-560: var(--color-alert);
+  --brand-560: var(--color-low);
   --brand-560-hsl: 235 calc(var(--saturation-factor, 1) * 51.4%) 52.4%;
   --brand-600: var(--color-alert);
   --brand-600-hsl: 235 calc(var(--saturation-factor, 1) * 46.7%) 44.1%;
@@ -1370,7 +1372,7 @@ foreignObject[mask="url(#svg-mask-status-dnd)"] .status-2DiCMd {
   margin-top: 1.5px;
 }
 
-.content_eed6a8::before {
+.container_ee69e0 .content_eed6a8::before {
   content: "";
   position: absolute;
   left: 0px;

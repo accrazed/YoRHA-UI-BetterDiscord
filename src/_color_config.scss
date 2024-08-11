@@ -271,6 +271,7 @@
 	// --blue-900: hsl(var(--blue-900-hsl) / 1);
 	// --blue-900-hsl: 213 calc(var(--saturation-factor, 1) * 100%) 7.1%;
 
+	--white: var(--white-hsl);
 	--white-100: var(--white-100-hsl);
 	--white-130: var(--white-130-hsl);
 	--white-160: var(--white-160-hsl);
@@ -297,6 +298,7 @@
 	// --white-830: var(--white-830-hsl);
 	// --white-860: var(--white-860-hsl);
 	// --white-900: var(--white-900-hsl);
+	--white-hsl: var(--color-low);
 	--white-100-hsl: var(--color-low);
 	--white-130-hsl: var(--color-low);
 	--white-160-hsl: var(--color-low);
@@ -406,7 +408,7 @@
 	--brand-500-hsl: 235 calc(var(--saturation-factor, 1) * 85.6%) 64.7%;
 	--brand-530: var(--color-alert);
 	--brand-530-hsl: 235 calc(var(--saturation-factor, 1) * 66.7%) 58.8%;
-	--brand-560: var(--color-alert);
+	--brand-560: var(--color-low);
 	--brand-560-hsl: 235 calc(var(--saturation-factor, 1) * 51.4%) 52.4%;
 	--brand-600: var(--color-alert);
 	--brand-600-hsl: 235 calc(var(--saturation-factor, 1) * 46.7%) 44.1%;
