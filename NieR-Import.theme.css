@@ -1384,6 +1384,10 @@ foreignObject[mask="url(#svg-mask-status-dnd)"] .status-2DiCMd {
           box-shadow: -3px 0 0 var(--color-mid), -15px 0 0 transparent, -21px 0 0 var(--color-mid), -18px 2px 0 transparent;
 }
 
+.hasBanner_fd6364.bannerVisible_fd6364 {
+  z-index: 2;
+}
+
 .scroller_c43953 .content_eed6a8 {
   margin-left: 20px;
 }

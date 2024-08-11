@@ -282,7 +282,12 @@
 	//margin-right: 15px;
 	box-shadow: -3px 0 0 $mid, -15px 0 0 transparent, -21px 0 0 $mid, -18px 2px 0 transparent;
 }
-.scroller_c43953 {
+
+.hasBanner_fd6364.bannerVisible_fd6364 {
+	z-index: 2;
+}
+
+.scroller_c43953 {  //container that holds actual channels
 	.content_eed6a8 {
 		margin-left: 20px;
 		//padding-left: 15px;
