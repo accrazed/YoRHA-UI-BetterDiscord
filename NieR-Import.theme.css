@@ -42,30 +42,30 @@
 }
 @-webkit-keyframes shift {
   0% {
-    -webkit-transform: translate(0%, -50%);
-            transform: translate(0%, -50%);
+    -webkit-transform: translate(-15%, -50%);
+            transform: translate(-15%, -50%);
   }
   50% {
-    -webkit-transform: translate(20%, -50%);
-            transform: translate(20%, -50%);
+    -webkit-transform: translate(5%, -50%);
+            transform: translate(5%, -50%);
   }
   100% {
-    -webkit-transform: translate(0%, -50%);
-            transform: translate(0%, -50%);
+    -webkit-transform: translate(-15%, -50%);
+            transform: translate(-15%, -50%);
   }
 }
 @keyframes shift {
   0% {
-    -webkit-transform: translate(0%, -50%);
-            transform: translate(0%, -50%);
+    -webkit-transform: translate(-15%, -50%);
+            transform: translate(-15%, -50%);
   }
   50% {
-    -webkit-transform: translate(20%, -50%);
-            transform: translate(20%, -50%);
+    -webkit-transform: translate(5%, -50%);
+            transform: translate(5%, -50%);
   }
   100% {
-    -webkit-transform: translate(0%, -50%);
-            transform: translate(0%, -50%);
+    -webkit-transform: translate(-15%, -50%);
+            transform: translate(-15%, -50%);
   }
 }
 .theme-dark,
@@ -1365,9 +1365,9 @@ foreignObject[mask="url(#svg-mask-status-dnd)"] .status-2DiCMd {
           animation: shift 2.5s infinite;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  width: 21px; /* Adjust width as needed */
-  height: 21px; /* Adjust height as needed */
-  background-image: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/extras/NierSelector.png");
+  width: 24px; /* Adjust width as needed */
+  height: 22px; /* Adjust height as needed */
+  background-image: var(--selector-img);
   background-size: cover;
   background-repeat: no-repeat;
 }

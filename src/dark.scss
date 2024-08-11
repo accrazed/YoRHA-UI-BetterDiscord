@@ -29,6 +29,11 @@
 	pointer-events: none;
 }
 
+// Dark Mode img
+:root {
+	--selector-img: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/extras/nier-selector_high.png');
+}
+
 // Highlighting text
 ::selection {
 	background-color: var(--color-alert);

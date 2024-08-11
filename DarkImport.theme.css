@@ -21,6 +21,10 @@
   pointer-events: none;
 }
 
+:root {
+  --selector-img: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/extras/nier-selector_high.png");
+}
+
 ::-moz-selection {
   background-color: var(--color-alert);
   color: var(--color-low);

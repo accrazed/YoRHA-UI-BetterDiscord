@@ -256,9 +256,9 @@
 		top: 50%;
 		animation: shift 2.5s infinite;
 		transform: translateY(-50%);
-		width: 21px; /* Adjust width as needed */
-		height: 21px; /* Adjust height as needed */
-		background-image: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/extras/NierSelector.png');
+		width: 24px; /* Adjust width as needed */
+		height: 22px; /* Adjust height as needed */
+		background-image: $selector-img; // overridded in light/dark/night files
 		background-size: cover;
 		background-repeat: no-repeat;
 	}

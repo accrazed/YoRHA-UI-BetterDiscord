@@ -21,6 +21,18 @@
   pointer-events: none;
 }
 
+:root {
+  --color-high: rgb(218, 212, 187);
+  --color-low: rgb(87, 84, 74);
+  --color-mid: rgb(151, 147, 129);
+  --color-alert: rgb(205, 102, 77);
+  --color-high-trans: rgba(218, 212, 187, 0.8);
+  --color-low-trans: rgba(87, 84, 74, 0.6);
+  --color-alert-trans: rgba(205, 102, 77, 0.7);
+  --nier-font: sce-ps3_rodin_latinregular;
+  --selector-img: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/extras/nier-selector_low.png");
+}
+
 ::-moz-selection {
   background-color: var(--color-alert);
   color: var(--color-high);
@@ -28,5 +40,9 @@
 
 ::selection {
   background-color: var(--color-alert);
+  color: var(--color-high);
+}
+
+.obscureWarning_aa9639 {
   color: var(--color-high);
 }

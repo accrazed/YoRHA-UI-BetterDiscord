@@ -39,6 +39,7 @@
 	--color-low-trans: rgba(87, 84, 74, 0.6);
 	--color-alert-trans: rgba(205, 102, 77, 0.7);
 	--nier-font: sce-ps3_rodin_latinregular;
+	--selector-img: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/extras/nier-selector_low.png');
 }
 
 // Highlighting text
@@ -49,5 +50,5 @@
 
 // Spoiler Text
 .obscureWarning_aa9639 {
-	color: $high;
+	color: var(--color-high);
 }
