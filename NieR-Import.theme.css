@@ -3964,14 +3964,24 @@ foreignObject[mask="url(#svg-mask-status-offline)"] .status_c7d26b {
   border: 3px solid var(--color-low);
 }
 
+.modal_aee8c6.root_f9a4c9,
 .carouselModal_d2b9a1.root_f9a4c9 {
   background: none !important;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
 }
+.modal_aee8c6.root_f9a4c9 .wrapper_fb6520,
+.modal_aee8c6.root_f9a4c9 .wrapper_b6f1f8,
+.carouselModal_d2b9a1.root_f9a4c9 .wrapper_fb6520,
 .carouselModal_d2b9a1.root_f9a4c9 .wrapper_b6f1f8 {
   width: auto;
 }
+.modal_aee8c6.root_f9a4c9 .wrapper_fb6520 .downloadLink_fb6520,
+.modal_aee8c6.root_f9a4c9 .wrapper_fb6520 .text_e31053,
+.modal_aee8c6.root_f9a4c9 .wrapper_b6f1f8 .downloadLink_fb6520,
+.modal_aee8c6.root_f9a4c9 .wrapper_b6f1f8 .text_e31053,
+.carouselModal_d2b9a1.root_f9a4c9 .wrapper_fb6520 .downloadLink_fb6520,
+.carouselModal_d2b9a1.root_f9a4c9 .wrapper_fb6520 .text_e31053,
 .carouselModal_d2b9a1.root_f9a4c9 .wrapper_b6f1f8 .downloadLink_fb6520,
 .carouselModal_d2b9a1.root_f9a4c9 .wrapper_b6f1f8 .text_e31053 {
   color: var(--color-high) !important;
