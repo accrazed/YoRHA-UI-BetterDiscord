@@ -3,6 +3,7 @@
 .title-3hptVQ,
 .modeDefault-2fEh7a,
 .container_fc4f04,
+[role='menu'], //idk why this needed to be specified, but there were deadzones in some menus
 .titleBar_a934d8 {
 	cursor: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/cursors/Hack_Normal_Select_v2.cur'),
 		default !important;
@@ -20,6 +21,8 @@ input {
 // Pointer
 a,
 button,
+.button,
+.link,
 .folder_bc7085, //Server Folders
 .item-3eFBNF,
 .css-gvi9bl-control,
@@ -36,7 +39,7 @@ button,
 .wrapper_c5f96a,
 .result_f14193,
 .labelClickable-eiZOrp,
-.buttonWrapper_cecf00,
+.buttonWrapper_f9af59,
 .button_Jt-tIg, //Read all Notifications plugin
 .nameTag_b2ca13, //Nametag bottom left
 .hoverRoll_c0d6c6, //Status below nametag, bottom left
@@ -49,15 +52,24 @@ button,
 .peopleListItem_d51464, //Friends list
 .voiceSectionDetails_cd82a7, //active now section in friends list
 .applicationStreamingHoverWrapper_cd82a7, //hovering over stream in active now section
+.button_a24e84, //quick emote react on message right click
+[role='menuitem'],
+[role='menuitemcheckbox'],
+[role='menuitemradio'],
 [role='button'],
 [role='button'] header,
+[type='button'],
+[type='button'] header,
 [type='checkbox'],
+[role='img'], //this should fix hover issues with SVG icons
 label,
 .item-2idW98,
 .additionalActionsIcon-1FoUlE,
 .clickable_e9f61e:hover .layout_e9f61e,
+.clickable_d808b0:hover .layout_d808b0,
 .actionIcon_f6f816,
 .clickable__2869d,
+.cursorPointer_a7d72e, //Why is this an entire class?
 .friendsTable-133bsv .friendsRow-2yicud {
 	cursor: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/cursors/Hack_Link_Select_v2.cur'),
 		default !important;
