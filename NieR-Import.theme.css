@@ -40,6 +40,34 @@
     background-color: var(--color-low);
   }
 }
+@-webkit-keyframes shift {
+  0% {
+    -webkit-transform: translate(0%, -50%);
+            transform: translate(0%, -50%);
+  }
+  50% {
+    -webkit-transform: translate(20%, -50%);
+            transform: translate(20%, -50%);
+  }
+  100% {
+    -webkit-transform: translate(0%, -50%);
+            transform: translate(0%, -50%);
+  }
+}
+@keyframes shift {
+  0% {
+    -webkit-transform: translate(0%, -50%);
+            transform: translate(0%, -50%);
+  }
+  50% {
+    -webkit-transform: translate(20%, -50%);
+            transform: translate(20%, -50%);
+  }
+  100% {
+    -webkit-transform: translate(0%, -50%);
+            transform: translate(0%, -50%);
+  }
+}
 .theme-dark,
 .theme-light,
 :root {
@@ -1322,16 +1350,13 @@ foreignObject[mask="url(#svg-mask-status-dnd)"] .status-2DiCMd {
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
 }
-
-.list_a478e5 {
-  margin-top: 1.5px;
-}
-
-.wrapper_d8bfb3.modeSelected_d8bfb3::before {
+.wrapper_d8bfb3.modeSelected_d8bfb3::before, .wrapper_d8bfb3:hover::before {
   content: "";
   position: absolute;
   left: -30px;
   top: 50%;
+  -webkit-animation: shift 2.5s infinite;
+          animation: shift 2.5s infinite;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   width: 21px; /* Adjust width as needed */
@@ -1339,6 +1364,10 @@ foreignObject[mask="url(#svg-mask-status-dnd)"] .status-2DiCMd {
   background-image: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/extras/NierSelector.png");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.list_a478e5 {
+  margin-top: 1.5px;
 }
 
 .content_eed6a8::before {
@@ -2735,7 +2764,8 @@ strong {
 
 .background_a26d7b {
   fill: var(--color-low);
-  clip-path: circle(37% at center);
+  -webkit-clip-path: circle(37% at center);
+          clip-path: circle(37% at center);
 }
 
 .svg_a26d7b {

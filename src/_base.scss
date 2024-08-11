@@ -52,6 +52,18 @@
 	}
 }
 
+@keyframes shift {
+	0% {
+		transform: translate(0%, -50%);
+	}
+	50% {
+		transform: translate(20%, -50%);
+	}
+	100% {
+		transform: translate(0%, -50%);
+	}
+}
+
 @import 'root_config';
 @import 'color_config';
 @import 'app/import';
