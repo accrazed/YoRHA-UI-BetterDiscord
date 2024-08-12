@@ -75,7 +75,6 @@
   	sans-serif !important;
   --font-display: var(--nier-font), "vietnam-pro", "Whitney", "Helvetica Neue", Helvetica, Arial,
   	sans-serif !important;
-  --color-mid-trans: rgb(151, 147, 129, 0.5);
   --header-primary: var(--color-low);
   --header-secondary: var(--color-low);
   --text-normal: var(--color-low);
@@ -90,7 +89,7 @@
   --interactive-hover: var(--color-low);
   --interactive-active: var(--color-low);
   --interactive-muted: var(--color-low-trans);
-  --mention-foreground: var(--color-high);
+  --mention-foreground: rgb(218, 212, 187);
   --mention-background: var(--color-alert-trans);
   --background-primary: var(--color-high);
   --background-secondary: var(--color-high);
@@ -336,7 +335,7 @@ html {
   --white-400-hsl: var(--color-low);
   --white-430-hsl: var(--color-low);
   --white-460-hsl: var(--color-low);
-  --white-500-hsl: var(--color-high);
+  --white-500-hsl: var(--color-low);
   --white-530-hsl: var(--color-low);
   --white-560-hsl: var(--color-low);
   --white-600-hsl: var(--color-low);
@@ -575,6 +574,7 @@ body,
 .button_bba79b,
 .button_f7e168,
 .button_f9d37d,
+.custom-profile-theme .themeColor_f9d37d.primary_f9d37d,
 .lookFilled_dd4f85.colorBrand_dd4f85:disabled {
   border-radius: 0;
   border-color: transparent;
@@ -610,6 +610,8 @@ body,
 .button_f7e168:active,
 .button_f9d37d:hover,
 .button_f9d37d:active,
+.custom-profile-theme .themeColor_f9d37d.primary_f9d37d:hover,
+.custom-profile-theme .themeColor_f9d37d.primary_f9d37d:active,
 .lookFilled_dd4f85.colorBrand_dd4f85:disabled:hover,
 .lookFilled_dd4f85.colorBrand_dd4f85:disabled:active {
   border-color: transparent !important;
@@ -1384,10 +1386,10 @@ foreignObject[mask="url(#svg-mask-status-dnd)"] .status-2DiCMd {
   height: 100%;
   bottom: 0px;
   border-radius: 0;
-  padding: 4px 5px 4px 6px;
-  margin-left: -3px;
-  -webkit-box-shadow: -3px 0 0 var(--color-mid), -15px 0 0 transparent, -21px 0 0 var(--color-mid), -18px 2px 0 transparent;
-          box-shadow: -3px 0 0 var(--color-mid), -15px 0 0 transparent, -21px 0 0 var(--color-mid), -18px 2px 0 transparent;
+  padding: 4px 2.5px 4px 2.5px;
+  margin-left: -1px;
+  -webkit-box-shadow: -3px 0 0 var(--color-mid), -15px 0 0 transparent, -14px 0 0 var(--color-mid), -18px 2px 0 transparent;
+          box-shadow: -3px 0 0 var(--color-mid), -15px 0 0 transparent, -14px 0 0 var(--color-mid), -18px 2px 0 transparent;
 }
 
 .hasBanner_fd6364.bannerVisible_fd6364 {
@@ -2949,8 +2951,7 @@ strong {
 
 .background_a26d7b {
   fill: var(--color-low);
-  -webkit-clip-path: circle(37% at center);
-          clip-path: circle(37% at center);
+  clip-path: circle(37% at center);
 }
 
 .svg_a26d7b {
@@ -3610,13 +3611,13 @@ foreignObject[mask="url(#svg-mask-status-offline)"] .status_c7d26b {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.userProfileOuter_c69a7b .header_b07019 .invisibleContainer_d0a252.biteSize_d0a252 {
+.userProfileOuter_c69a7b .invisibleContainer_d0a252.biteSize_d0a252 {
   display: none;
 }
-.userProfileOuter_c69a7b .header_b07019 .bannerSVGWrapper_b32cc2 mask circle {
+.userProfileOuter_c69a7b .bannerSVGWrapper_b32cc2 mask circle {
   display: none;
 }
-.userProfileOuter_c69a7b .header_b07019 .statusBubbleOuter_d0a252 {
+.userProfileOuter_c69a7b .statusBubbleOuter_d0a252 {
   max-width: none;
   max-height: none;
   border-radius: 0;
@@ -3625,37 +3626,38 @@ foreignObject[mask="url(#svg-mask-status-offline)"] .status_c7d26b {
   margin: 0 0.5em;
   border: 2px solid var(--color-low);
 }
-.userProfileOuter_c69a7b .header_b07019 .statusBubbleOuter_d0a252 .content_d0a252 {
+.userProfileOuter_c69a7b .statusBubbleOuter_d0a252 .content_d0a252 {
   max-height: none !important;
   overflow: visible;
   word-wrap: normal;
 }
-.userProfileOuter_c69a7b .header_b07019 .statusBubbleOuter_d0a252 .statusBubble_d0a252 {
+.userProfileOuter_c69a7b .statusBubbleOuter_d0a252 .statusBubble_d0a252 {
   background-color: var(--color-high);
   border-radius: 0;
   word-wrap: normal;
   padding: 0;
 }
-.userProfileOuter_c69a7b .header_b07019 .statusBubbleOuter_d0a252 .statusBubble_d0a252 .clamp_d0a252 {
+.userProfileOuter_c69a7b .statusBubbleOuter_d0a252 .statusBubble_d0a252 .clamp_d0a252 {
   -webkit-line-clamp: 100;
   line-clamp: 100;
 }
-.userProfileOuter_c69a7b .header_b07019 .statusBubbleOuter_d0a252 .statusBubbleWithTextMinWidth_d0a252 {
+.userProfileOuter_c69a7b .statusBubbleOuter_d0a252 .statusBubbleWithTextMinWidth_d0a252 {
   padding: 0.25em;
 }
-.userProfileOuter_c69a7b .header_b07019 .statusBubbleOuter_d0a252 .singleLineAlign_d0a252 {
+.userProfileOuter_c69a7b .statusBubbleOuter_d0a252 .singleLineAlign_d0a252 {
   text-align: left;
 }
-.userProfileOuter_c69a7b .header_b07019 .statusBubbleOuter_d0a252:before,
-.userProfileOuter_c69a7b .header_b07019 .statusBubbleOuter_d0a252:after {
+.userProfileOuter_c69a7b .statusBubbleOuter_d0a252:before,
+.userProfileOuter_c69a7b .statusBubbleOuter_d0a252:after {
   display: none;
 }
-.userProfileOuter_c69a7b .header_b07019 .visibleContainer_d0a252.biteSize_d0a252 {
+.userProfileOuter_c69a7b .visibleContainer_d0a252.biteSize_d0a252 {
   position: relative;
   top: 0;
   left: 0;
 }
-.userProfileOuter_c69a7b .header_b07019 .clickable_f94206 {
+.userProfileOuter_c69a7b .clickable_f89da9,
+.userProfileOuter_c69a7b .clickable_f94206 {
   border: 2px solid var(--color-low);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3674,15 +3676,22 @@ foreignObject[mask="url(#svg-mask-status-offline)"] .status_c7d26b {
   top: 0;
   left: 0;
 }
-.userProfileOuter_c69a7b .header_b07019 .clickable_f94206 .wrapper_c51b4e {
+.userProfileOuter_c69a7b .clickable_f89da9 .wrapper_c51b4e,
+.userProfileOuter_c69a7b .clickable_f94206 .wrapper_c51b4e {
   border-radius: 0;
 }
+.userProfileOuter_c69a7b .clickable_f89da9 .avatarHint_f89da9,
+.userProfileOuter_c69a7b .clickable_f94206 .avatarHint_f89da9 {
+  display: none;
+}
+.userProfileOuter_c69a7b .userPopoutOverlayBackground_c69a7b,
 .userProfileOuter_c69a7b .body_b07019 {
   border: 2px solid var(--color-low);
   margin: 0 0.5em;
   padding: 0.5em;
   background: var(--color-high);
 }
+.userProfileOuter_c69a7b .userPopoutOverlayBackground_c69a7b .activity_cd74cc,
 .userProfileOuter_c69a7b .body_b07019 .activity_cd74cc {
   border-top: 1px solid;
   border-bottom: 1px solid;

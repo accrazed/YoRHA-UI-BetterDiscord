@@ -6,7 +6,6 @@
 	--font-display: var(--nier-font), 'vietnam-pro', 'Whitney', 'Helvetica Neue', Helvetica, Arial,
 		sans-serif !important;
 
-	--color-mid-trans: rgb(151, 147, 129, 0.5);
 	--header-primary: var(--color-low);
 	--header-secondary: var(--color-low);
 	--text-normal: var(--color-low);
@@ -21,7 +20,7 @@
 	--interactive-hover: var(--color-low);
 	--interactive-active: var(--color-low);
 	--interactive-muted: var(--color-low-trans);
-	--mention-foreground: var(--color-high);
+	--mention-foreground: rgb(218, 212, 187);
 	--mention-background: var(--color-alert-trans);
 	--background-primary: var(--color-high);
 	--background-secondary: var(--color-high);
