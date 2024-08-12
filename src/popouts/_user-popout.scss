@@ -13,6 +13,7 @@
 	.header_b07019 {
 		display: flex;
 		flex-direction: column;
+	}
 
 		// janky ass invisible container?
 		.invisibleContainer_d0a252.biteSize_d0a252 {
@@ -75,6 +76,7 @@
 		}
 
 		// profile picture clickable area
+		.clickable_f89da9,
 		.clickable_f94206 {
 			border: 2px solid $low;
 			display: flex;
@@ -93,10 +95,15 @@
 			.wrapper_c51b4e {
 				border-radius: 0;
 			}
+			.avatarHint_f89da9 { //hover 
+				display: none;
+			}
 		}
-	}
+
 
 	// usernames, mutuals, roles
+	
+	.userPopoutOverlayBackground_c69a7b,
 	.body_b07019 {
 		border: 2px solid $low;
 		margin: 0 0.5em;
