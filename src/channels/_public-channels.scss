@@ -124,17 +124,19 @@
 		&.typeThread_d8bfb3,
 		&.typeDefault_d8bfb3,
 		&.typeVoice_d8bfb3 {
-			box-shadow: 0 1px $low, 0 -1px $low;
-
-			.linkTop_d8bfb3:before {
+			.linkTop_d8bfb3:before,
+			.linkTop_d8bfb3::after {
 				transform: scaleX(1);
 			}
+			.linkTop_d8bfb3::after {
+				height: 33px;
+			}
+
 			.linkBottom_d8bfb3 {
 				position: relative;
 				top: 0;
 				right: 0;
 			}
-
 			.icon_d8bfb3 {
 				color: $high;
 				background-color: $high;
@@ -152,35 +154,46 @@
 			fill: $low;
 		}
 	}
-
 	// Unread channels
-	&.modeUnreadImportant_d8bfb3 {
+	.unreadImportant_d8bfb3 ~ div {
 		.icon_d8bfb3 {
-			color: $alert;
-			background-color: $alert;
+			color: $alert !important;
+			background-color: $alert !important;
 		}
 		.name_d8bfb3 {
-			color: $alert;
+			color: $alert !important;
 		}
 	}
-}
 
-.wrapper_d8bfb3 {
 	//specificity for hover/select animations
 	&.typeDefault_d8bfb3, //normal channels
 	&.typeThread_d8bfb3 {
-		//threads
-		.linkTop_d8bfb3:before {
+		// the block itself
+		.linkTop_d8bfb3::before {
 			content: '';
-			transition: transform 0.4s;
+			transition: 0.4s;
 			position: absolute;
+			width: 100%;
+			height: 100%;
+
 			animation-name: pulsingBackground;
 			animation-duration: 2.5s;
 			animation-iteration-count: infinite;
+
 			transform: scaleX(0);
 			transform-origin: left;
+		}
+		// the border
+		.linkTop_d8bfb3::after {
+			content: '';
+			transition: transform 0.4s;
+			position: absolute;
 			width: 100%;
-			height: 100%;
+
+			box-shadow: 0 1px $low, 0 -1px $low;
+
+			transform: scaleX(0);
+			transform-origin: left;
 		}
 	}
 
@@ -244,21 +257,69 @@
 			animation-duration: 2.5s;
 			animation-iteration-count: infinite;
 			transform: scaleX(1);
+
+			box-shadow: none;
 		}
 	}
 
+	@keyframes fade-out {
+		0% {
+			opacity: 1;
+		}
+		100% {
+			opacity: 0;
+		}
+	}
+	@keyframes fade-in {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
 	//Test for pointer
-	&.modeSelected_d8bfb3::before,
-	&:hover::before {
+	&:not(.modeSelected_d8bfb3):hover::before {
 		content: '';
 		position: absolute;
 		left: -30px;
 		top: 50%;
-		animation: shift 2.5s infinite;
+		transform: translateY(-50%);
+		animation: fade-in 0.175s;
+		animation-fill-mode: forwards;
+		width: 24px; /* Adjust width as needed */
+		height: 22px; /* Adjust height as needed */
+		background-image: $selector-img; // overridded in light/dark/night files
+		transition: opacity 0.5s;
+
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	&.modeSelected_d8bfb3::after {
+		content: '';
+		position: absolute;
+		left: -30px;
+		top: 50%;
 		transform: translateY(-50%);
 		width: 24px; /* Adjust width as needed */
 		height: 22px; /* Adjust height as needed */
 		background-image: $selector-img; // overridded in light/dark/night files
+		animation: fade-out 0.25s;
+		animation-fill-mode: forwards;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	&.modeSelected_d8bfb3::before {
+		content: '';
+		position: absolute;
+		left: -30px;
+		top: 50%;
+		transform: translateY(-50%);
+		transition: opacity 0.5s;
+		width: 24px; /* Adjust width as needed */
+		height: 22px; /* Adjust height as needed */
+		background-image: $selector-img-invert; // overridded in light/dark/night files
+
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
@@ -280,7 +341,7 @@
 		border-radius: 0;
 		padding: 4px 2.5px 4px 2.5px;
 		margin-left: -1px;
-		box-shadow: -3px 0 0 $mid, -15px 0 0 transparent, -14px 0 0 $mid, -18px 2px 0 transparent;	
+		box-shadow: -3px 0 0 $mid, -15px 0 0 transparent, -14px 0 0 $mid, -18px 2px 0 transparent;
 	}
 }
 

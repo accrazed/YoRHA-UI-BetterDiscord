@@ -50,4 +50,5 @@
   --color-mid-trans: rgb(151, 147, 129, 0.5);
   --color-alert-trans: rgba(205, 102, 77, 0.7);
   --selector-img: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/extras/nier-selector_high.png");
+  --selector-img-invert: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/extras/nier-selector_low.png");
 }
