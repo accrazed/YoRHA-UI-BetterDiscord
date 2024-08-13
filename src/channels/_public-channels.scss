@@ -188,16 +188,16 @@
 				transform-origin: right;
 			}
 		}
-	}
 
-	// Unread channels will override
-	.unreadImportant_d8bfb3 ~ div {
-		.icon_d8bfb3 {
-			color: $alert;
-			background-color: $alert;
-		}
-		.name_d8bfb3 {
-			color: $alert;
+		// Unread channels will override
+		.unread_d8bfb3.unreadImportant_d8bfb3 ~ div {
+			.icon_d8bfb3 {
+				color: $alert;
+				background-color: $alert;
+			}
+			.name_d8bfb3 {
+				color: $alert;
+			}
 		}
 	}
 

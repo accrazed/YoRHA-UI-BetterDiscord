@@ -1358,11 +1358,11 @@ foreignObject[mask="url(#svg-mask-status-dnd)"] .status-2DiCMd {
   -webkit-transform-origin: right;
           transform-origin: right;
 }
-.wrapper_d8bfb3 .unreadImportant_d8bfb3 ~ div .icon_d8bfb3 {
+.wrapper_d8bfb3.typeDefault_d8bfb3 .unread_d8bfb3.unreadImportant_d8bfb3 ~ div .icon_d8bfb3, .wrapper_d8bfb3.typeThread_d8bfb3 .unread_d8bfb3.unreadImportant_d8bfb3 ~ div .icon_d8bfb3, .wrapper_d8bfb3.typeVoice_d8bfb3 .unread_d8bfb3.unreadImportant_d8bfb3 ~ div .icon_d8bfb3 {
   color: var(--color-alert);
   background-color: var(--color-alert);
 }
-.wrapper_d8bfb3 .unreadImportant_d8bfb3 ~ div .name_d8bfb3 {
+.wrapper_d8bfb3.typeDefault_d8bfb3 .unread_d8bfb3.unreadImportant_d8bfb3 ~ div .name_d8bfb3, .wrapper_d8bfb3.typeThread_d8bfb3 .unread_d8bfb3.unreadImportant_d8bfb3 ~ div .name_d8bfb3, .wrapper_d8bfb3.typeVoice_d8bfb3 .unread_d8bfb3.unreadImportant_d8bfb3 ~ div .name_d8bfb3 {
   color: var(--color-alert);
 }
 .wrapper_d8bfb3::before {
