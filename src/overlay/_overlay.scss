@@ -6,9 +6,10 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: url('https://i.ibb.co/Fq9Jt09/Nie-R-Lattice.png');
+	background-size: 4px 4px;
+	background-image: linear-gradient(90deg, transparent, transparent 3px, rgba(0,0,0,.07) 4px), linear-gradient(transparent, transparent 3px, rgba(0,0,0,.07) 4px);
 	z-index: 10000;
-	opacity: 0.03;
+	opacity: 1;
 	user-select: none;
 	pointer-events: none;
 }
