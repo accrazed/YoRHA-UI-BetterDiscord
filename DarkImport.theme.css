@@ -23,8 +23,9 @@
 
 :root {
   --color-high: rgb(87, 84, 74);
-  --color-low: rgb(218, 212, 187);
+  --color-high-mid: rgb(121, 119, 103);
   --color-mid: rgb(151, 147, 129);
+  --color-low: rgb(218, 212, 187);
   --color-alert: rgb(205, 102, 77);
   --color-high-trans: rgba(87, 84, 74, 0.6);
   --color-low-trans: rgba(218, 212, 187, 0.8);

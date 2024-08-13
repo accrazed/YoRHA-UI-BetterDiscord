@@ -31,6 +31,17 @@
 	padding-right: 3px;
 	padding-bottom: 3px;
 }
+
+@keyframes staticBackground {
+	0% {
+		background-color: $low;
+		opacity: 1;
+	}
+	100% {
+		background-color: $low;
+		opacity: 0.75;
+	}
+}
 @keyframes pulsingBackground {
 	0% {
 		background-color: $low;
@@ -40,8 +51,8 @@
 		opacity: 100%;
 	}
 	50% {
-		background-color: $low-trans;
-		opacity: 75%;
+		background-color: $low;
+		opacity: 65%;
 	}
 	80% {
 		background-color: $low;
@@ -51,7 +62,22 @@
 		background-color: $low;
 	}
 }
-
+@keyframes fade-out {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 @keyframes shift {
 	0% {
 		transform: translate(-15%, -50%);

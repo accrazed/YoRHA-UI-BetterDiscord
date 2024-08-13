@@ -9,28 +9,27 @@
 		//height: 100%;
 		width: 100%;
 	}
-    .userPanelInner_c69a7b {
-        gap: 0px;
-    }
+	.userPanelInner_c69a7b {
+		gap: 0px;
+	}
 
 	.bannerSVGWrapper_b32cc2 {
-        // pfp mask around banner
-        mask circle {
-            display: none;
-        }
-        
-        padding-bottom: 2px;
-        padding-right: 40px;
-    }
+		// pfp mask around banner
+		mask circle {
+			display: none;
+		}
 
-    .header_ecc60d {
-        padding: 0;
-        margin: 0.25em;
+		padding-bottom: 2px;
+		padding-right: 40px;
+	}
+
+	.header_ecc60d {
+		padding: 0;
+		margin: 0.25em;
 
 		// janky ass invisible container?
 		.invisibleContainer_d0a252.panel_d0a252 {
 			display: none;
-            
 		}
 
 		// .invisibleContainer_d0a252.panel_d0a252,
@@ -77,7 +76,6 @@
 				.emoji_ad923e {
 					height: 32px;
 					width: 32px;
-
 				}
 			}
 
@@ -94,7 +92,7 @@
 		.popover_bba79b.visible_bba79b {
 			.left_bba79b:not(:hover) {
 				path[d='m13.96 5.46 4.58 4.58a1 1 0 0 0 1.42 0l1.38-1.38a2 2 0 0 0 0-2.82l-3.18-3.18a2 2 0 0 0-2.82 0l-1.38 1.38a1 1 0 0 0 0 1.42ZM2.11 20.16l.73-4.22a3 3 0 0 1 .83-1.61l7.87-7.87a1 1 0 0 1 1.42 0l4.58 4.58a1 1 0 0 1 0 1.42l-7.87 7.87a3 3 0 0 1-1.6.83l-4.23.73a1.5 1.5 0 0 1-1.73-1.73Z'] {
-					fill:$high;
+					fill: $high;
 				}
 			}
 			.right_bba79b:not(:hover) {
@@ -105,19 +103,18 @@
 			}
 		}
 
-
-        //edit profile button
-        .buttons_d181d8 {
+		//edit profile button
+		.buttons_d181d8 {
 			width: fit-content;
 			height: auto;
-        }
+		}
 
 		// thinking text
 		.visibleContainer_d0a252.panel_d0a252 {
 			position: relative;
 			top: 0;
 			left: 0;
-            padding-top: 0px;
+			padding-top: 0px;
 			width: fit-content;
 			display: flex;
 		}
@@ -131,8 +128,8 @@
 			padding: 2em;
 			border-radius: 0;
 			position: relative;
-            top: 0;
-            left: 0;
+			top: 0;
+			left: 0;
 
 			// the actual pfp
 			.wrapper_c51b4e {
@@ -148,21 +145,22 @@
 		padding: 0.5em;
 		background: $high;
 
-        .overlayBackground_c69a7b{ //container that everything below username (had to be categorized seperately cuz it broke everything otherwise lol)
-            border: 0px;
-            height: 100%;
-            width: auto;
-            background: $high;
+		.overlayBackground_c69a7b {
+			//container that everything below username (had to be categorized seperately cuz it broke everything otherwise lol)
+			border: 0px;
+			height: 100%;
+			width: auto;
+			background: $high;
 
-            .markup_f8f345 {
-                height: auto;
-                .lineClamp2Plus_a595eb {
-                    -webkit-line-clamp: 12 !important;
-                }
-            }
-        
-        }
-        .activity_cd74cc { //activites (takes on profile theme color and can cause conflict with colors)
+			.markup_f8f345 {
+				height: auto;
+				.lineClamp2Plus_a595eb {
+					-webkit-line-clamp: 12 !important;
+				}
+			}
+		}
+		.activity_cd74cc {
+			//activites (takes on profile theme color and can cause conflict with colors)
 			border-top: 1px solid;
 			border-bottom: 1px solid;
 			border-color: $low;
@@ -174,13 +172,13 @@
 
 //extra area below user profile
 .overlayBackground_c69a7b.overlay_f9da1d,
-.footer_ecc60d { 
-    margin: 0em 0.5em 0.5em 0.5em;
-    padding: 0.5em;
-    background: $high;
-    .divider_e3d8a6 {
-        background-color: $low;
-        margin: 0px;
-        width: 100%;
-    }
+.footer_ecc60d {
+	margin: 0em 0.5em 0.5em 0.5em;
+	padding: 0.5em;
+	background: $high;
+	.divider_e3d8a6 {
+		background-color: $low;
+		margin: 0px;
+		width: 100%;
+	}
 }
