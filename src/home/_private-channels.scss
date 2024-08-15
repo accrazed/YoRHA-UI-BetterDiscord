@@ -13,11 +13,26 @@
 }
 .container_d91ad9 {
 	padding: 0;
+	margin-left: 36px;
+
+	// Entire channels list container
+	// selector backdrop
+	&::before {
+		content: '';
+		position: absolute;
+		left: -16px;
+		width: 2px;
+		height: 100%;
+		bottom: 0px;
+		border-radius: 0;
+		padding: 4px 2.5px 4px 2.5px;
+		margin-left: -1px;
+		box-shadow: -3px 0 0 $mid, -15px 0 0 transparent, -14px 0 0 $mid, -18px 2px 0 transparent;
+	}
 }
 
 .interactive_f5eb4b {
 	padding: 0;
-	margin-left: 0px;
 	// -------------------- ICONS / TEXT ------------------------------
 	// channel name
 	.overflow_a82120,
@@ -164,5 +179,55 @@
 		.subText_ec8679 {
 			color: $alert;
 		}
+	}
+
+	// SELECTOR CHANNEL ---------------------------------------------
+	&::before {
+		content: '';
+		position: absolute;
+		left: -30px;
+		top: 50%;
+		transform: translateY(-50%);
+		animation-fill-mode: forwards;
+		width: 24px; /* Adjust width as needed */
+		height: 22px; /* Adjust height as needed */
+		background-image: $selector-img; // overridded in light/dark/night files
+		background-size: cover;
+		background-repeat: no-repeat;
+
+		transition: opacity 0.175s ease-in-out;
+		opacity: 0;
+	}
+	&:not(.selected_f5eb4b):hover::before {
+		opacity: 1;
+	}
+	&.selected_f5eb4b::before {
+		content: '';
+		position: absolute;
+		left: -30px;
+		top: 50%;
+		transform-origin: top;
+		transform: translateY(-50%);
+		width: 24px; /* Adjust width as needed */
+		height: 22px; /* Adjust height as needed */
+		background-image: $selector-img-invert; // overridded in light/dark/night files
+		opacity: 1;
+
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	&.selected_f5eb4b::after {
+		content: '';
+		position: absolute;
+		left: -30px;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 24px; /* Adjust width as needed */
+		height: 22px; /* Adjust height as needed */
+		background-image: $selector-img; // overridded in light/dark/night files
+		animation: fade-out 0.25s;
+		animation-fill-mode: forwards;
+		background-size: cover;
+		background-repeat: no-repeat;
 	}
 }
