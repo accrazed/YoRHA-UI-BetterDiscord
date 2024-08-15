@@ -2497,6 +2497,13 @@ strong {
   border-bottom: none;
 }
 
+.shop_e77fa3,
+.pageWrapper_e77fa3,
+.headerBar_d8354c,
+.shopScroll_e77fa3 {
+  background: transparent !important;
+}
+
 .scroller_c47fa9,
 .sidebar_a4d4d9,
 .privateChannels_f0963d,
