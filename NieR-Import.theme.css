@@ -2338,14 +2338,7 @@ strong {
 }
 
 .expandedFolderBackground_bc7085 {
-  background: var(--color-high);
   border-radius: 0;
-  -webkit-box-shadow: 3px 3px 0 var(--color-mid);
-          box-shadow: 3px 3px 0 var(--color-mid);
-}
-.expandedFolderBackground_bc7085:hover {
-  -webkit-box-shadow: 3px 3px 0 var(--color-mid);
-          box-shadow: 3px 3px 0 var(--color-mid);
 }
 .expandedFolderBackground_bc7085.collapsed_bc7085 {
   position: absolute;
