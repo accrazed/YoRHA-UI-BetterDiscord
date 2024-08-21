@@ -17,12 +17,12 @@
 @font-face {
 	font-family: 'sce-ps3_rodin_latinregular';
 	src: url('Rodin-Regular.woff2') format('woff2');
-	font-weight:bold;
+	font-weight: bold;
 	font-style: normal;
 }
 
 /* BOLD T2 */
-@font-face {
+/*@font-face {
 	font-family: 'sce-ps3_rodin_latinregular';
 	src: url('Rodin-Bold.woff2') format('woff2');
 	font-weight: bolder;
