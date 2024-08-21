@@ -2283,7 +2283,7 @@ strong {
 }
 
 .markup_f8f345 {
-  font-size: 11pt;
+  font-size: 11.6pt;
 }
 
 .theme-dark .scroller_fea3ef,
@@ -3161,8 +3161,7 @@ strong {
 
 .background_a26d7b {
   fill: var(--color-low);
-  -webkit-clip-path: circle(37% at center);
-          clip-path: circle(37% at center);
+  clip-path: circle(37% at center);
 }
 
 .svg_a26d7b {
