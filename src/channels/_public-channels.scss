@@ -65,7 +65,7 @@
 
 	// VERY IMPORTANT. Padding must be zero or we get subpixel errors
 	.link_d8bfb3 {
-		margin: 8px 0px;
+		margin: 9px 0px;
 		padding: 0;
 	}
 
@@ -104,7 +104,7 @@
 	&.typeVoice_d8bfb3 {
 		// LinkTop is the main body
 		.linkTop_d8bfb3 {
-			height: 25px;
+			height: 24px;
 			padding: 0px 6px;
 			background-color: $high-mid;
 		}
@@ -128,13 +128,13 @@
 			position: absolute;
 			content: '';
 			width: 100%;
-			height: 30px;
+			height: 32px;
 			pointer-events: none;
 
 			box-shadow: 0 1px $low, 0 -1px $low;
 
 			transition: transform 0.4s;
-			transform: scale(0, 90%);
+			transform: scale(0, 85%);
 			transform-origin: left;
 		}
 
