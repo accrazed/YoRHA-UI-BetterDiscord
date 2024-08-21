@@ -17,21 +17,30 @@
 @font-face {
 	font-family: 'sce-ps3_rodin_latinregular';
 	src: url('Rodin-Regular.woff2') format('woff2');
-	font-weight: bold;
+	font-weight:bold;
 	font-style: normal;
 }
 
-/* BOLD T2 */
+/* Light Italic */
 /*@font-face {
 	font-family: 'sce-ps3_rodin_latinregular';
-	src: url('Rodin-Bold.woff2') format('woff2');
-	font-weight: bolder;
-	font-style: normal;
+	src: url('Rodin-Light.woff2') format('woff2');
+	font-weight: lighter;
+	font-style: italic;
 }
-/* BOLD T3 */
+
+/* Normal Italic */ /*IMPORTANT FOR NON-LATIN ITALICS*/
 /*@font-face {
 	font-family: 'sce-ps3_rodin_latinregular';
-	src: url('FOTRodinProUB.woff2') format('woff2');
-	font-weight: 900;
-	font-style: normal;
+	src: url('Rodin-Light.woff2') format('woff2');
+	font-weight: lighter;
+	font-style: italic;
+}
+
+/* Bold Italic */ /*IMPORTANT FOR NON-LATIN BOLD*/
+/*@font-face {
+	font-family: 'sce-ps3_rodin_latinregular';
+	src: url('Rodin-Light.woff2') format('woff2');
+	font-weight: lighter;
+	font-style: italic;
 }
