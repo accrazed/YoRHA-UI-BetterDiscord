@@ -1,14 +1,14 @@
 /* Light */
 @font-face {
 	font-family: 'sce-ps3_rodin_latinregular';
-	src: url('FOTRodinProL.woff2') format('woff2');
+	src: url('Rodin-Light.woff2') format('woff2');
 	font-weight: lighter;
 	font-style: normal;
 }
 /* Normal/Medium */
 @font-face {
 	font-family: 'sce-ps3_rodin_latinregular';
-	src: url('FOTRodinProM.woff2') format('woff2');
+	src: url('Rodin-Light.woff2') format('woff2');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -16,20 +16,20 @@
 /* BOLD T1 */
 @font-face {
 	font-family: 'sce-ps3_rodin_latinregular';
-	src: url('FOTRodinProDB.woff2') format('woff2');
-	font-weight: 700;
+	src: url('Rodin-Regular.woff2') format('woff2');
+	font-weight:bold;
 	font-style: normal;
 }
 
 /* BOLD T2 */
 @font-face {
 	font-family: 'sce-ps3_rodin_latinregular';
-	src: url('FOTRodinProEB.woff2') format('woff2');
-	font-weight: 800;
+	src: url('Rodin-Bold.woff2') format('woff2');
+	font-weight: bolder;
 	font-style: normal;
 }
 /* BOLD T3 */
-@font-face {
+/*@font-face {
 	font-family: 'sce-ps3_rodin_latinregular';
 	src: url('FOTRodinProUB.woff2') format('woff2');
 	font-weight: 900;
