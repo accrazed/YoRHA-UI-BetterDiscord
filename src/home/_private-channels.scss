@@ -7,54 +7,227 @@
 .interactive_c91bad:hover {
 	background: transparent;
 }
-
-// Member hover/select animations
-.theme-dark .channel_c91bad {
-	transition: color 0.2s;
+.container_d91ad9,
+.layout_ec8679 {
 	border-radius: 0;
-	margin: 2px 0 2px 0;
-	position: relative;
+}
+.container_d91ad9 {
+	padding: 0;
+	margin-left: 36px;
 
-	// Animation
+	// Entire channels list container
+	// selector backdrop
+	&::before {
+		content: '';
+		position: absolute;
+		left: -16px;
+		width: 2px;
+		height: 100%;
+		bottom: 0px;
+		border-radius: 0;
+		padding: 4px 2.5px 4px 2.5px;
+		margin-left: -1px;
+		box-shadow: -3px 0 0 $mid, -15px 0 0 transparent, -14px 0 0 $mid, -18px 2px 0 transparent;
+	}
+}
+
+.interactive_f5eb4b {
+	padding: 0;
+	// -------------------- ICONS / TEXT ------------------------------
+	// channel name
+	.overflow_a82120,
+	.name_ec8679,
+	.subText_ec8679 {
+		transition: color 0.2s;
+	}
+	&.muted_f5eb4b {
+		opacity: 50%;
+	}
+	// Profile picture
+	.wrapper_c51b4e {
+		border-radius: 0;
+
+		foreignObject {
+			mask: none;
+		}
+	}
+	// Close icon
+	.closeButton_c91bad {
+		position: absolute;
+		z-index: 3;
+		right: 0;
+		color: $alert;
+	}
+	.linkButtonIcon_c91bad,
+	.content_ec8679,
+	.subtext_c91bad {
+		position: relative;
+	}
+
+	// ------------------------ STRUCTURE ----------------------------
+
+	// VERY IMPORTANT. Padding must be zero or we get subpixel errors
+	.link_c91bad {
+		margin: 4px 0px;
+		padding: 0;
+	}
+	.channel_c91bad,
+	.interactive_f5eb4b,
 	.layout_ec8679 {
-		background-color: transparent !important;
-		&::before {
-			content: '';
-			position: absolute;
-			left: 0;
-			top: 2px;
-			bottom: 2px;
-			transition: transform 0.4s;
-			animation-name: pulsingBackground;
-			animation-duration: 1.5s;
-			animation-iteration-count: infinite;
-			transform: scaleX(0);
-			transform-origin: left;
-			width: 100%;
-			box-shadow: 0 0 2px $low;
+		height: 36px;
+	}
+
+	// ------------------- TEXT+VOICE CHANNELS ----------------------------
+
+	// Base block + border. hold the text
+	// LinkTop is the main body
+	.link_c91bad {
+		height: 36px;
+		padding: 0px 0px;
+		background-color: $high-mid;
+	}
+
+	// the main grower
+	.link_c91bad::before {
+		position: absolute;
+		content: '';
+		width: 100%;
+		height: 36px;
+		animation: pulsingBackground 2.5s infinite;
+		z-index: 0;
+
+		box-shadow: 0 0 3px $low;
+
+		transition: transform 0.4s;
+		transform: scaleX(0);
+		transform-origin: left;
+	}
+	// grower border
+	.link_c91bad::after {
+		position: absolute;
+		content: '';
+		width: 100%;
+		height: 44px;
+		pointer-events: none;
+
+		box-shadow: 0 1px $low, 0 -1px $low;
+
+		transition: transform 0.4s;
+		transform: scale(0, 85%);
+		transform-origin: left;
+	}
+
+	&.selected_f5eb4b,// When hovering and selecting
+	&:hover {
+		// grow border and body
+		.link_c91bad::before,
+		.link_c91bad::after {
+			transform: scale(100%, 100%);
+		}
+
+		// invert name and icons
+		.overflow_a82120,
+		.linkButtonIcon_c91bad,
+		.name_ec8679,
+		.subText_ec8679 {
+			color: $high;
+		}
+		.iconContainer_d8bfb3 {
+			.icon_d8bfb3 {
+				background-color: $high;
+				color: $high;
+			}
+		}
+		.actionIcon_f6f816 path {
+			transition: opacity 0.5s;
+			opacity: 1;
+			fill: $high;
+		}
+		&.modeLocked_d8bfb3,
+		&.typeVoice_d8bfb3 {
+			.icon_d8bfb3 {
+				color: $low;
+			}
+		}
+	}
+	// When selected
+	&.selected_f5eb4b {
+		.link_c91bad::before {
+			transform: scale(100%, 100%);
+			transition: transform 0.4s, opacity 0.4s;
+			animation: none;
+			background-color: $low;
+			opacity: 0.65;
+			height: 36px;
+		}
+
+		.link_c91bad::after {
+			transition: transform 0.75s;
+			transform: scale(0%, 100%);
+			transform-origin: right;
 		}
 	}
 
-	// Selected channel
-	&:hover .interactive_f5eb4b,
-	.interactiveSelected_c91bad {
-		box-shadow: 0 1px $low, 0 -1px $low;
-		color: $high;
-		.layout_ec8679:before {
-			transform: scaleX(1);
+	// Unread channels will override
+	.unread_d8bfb3.unreadImportant_d8bfb3 ~ div {
+		.icon_d8bfb3 {
+			color: $alert;
+			background-color: $alert;
 		}
-		.subtext_c91bad,
-		.activityText_c91bad,
-		.icon_ad923e,
 		.overflow_a82120,
-		.highlighted_ec8679 {
-			color: $high;
-			z-index: 1;
+		.name_ec8679,
+		.subText_ec8679 {
+			color: $alert;
 		}
-		.avatar_ec8679, // Home icons like friends, Library, nitro
-        .closeButton_c91bad, // Close DM button on DM list when hovering
-		.content_ec8679 {
-			z-index: 1;
-		}
+	}
+
+	// SELECTOR CHANNEL ---------------------------------------------
+	&::before {
+		content: '';
+		position: absolute;
+		left: -30px;
+		top: 50%;
+		transform: translateY(-50%);
+		animation-fill-mode: forwards;
+		width: 24px; /* Adjust width as needed */
+		height: 22px; /* Adjust height as needed */
+		background-image: $selector-img; // overridded in light/dark/night files
+		background-size: cover;
+		background-repeat: no-repeat;
+
+		transition: opacity 0.175s ease-in-out;
+		opacity: 0;
+	}
+	&:not(.selected_f5eb4b):hover::before {
+		opacity: 1;
+	}
+	&.selected_f5eb4b::before {
+		content: '';
+		position: absolute;
+		left: -30px;
+		top: 50%;
+		transform-origin: top;
+		transform: translateY(-50%);
+		width: 24px; /* Adjust width as needed */
+		height: 22px; /* Adjust height as needed */
+		background-image: $selector-img-invert; // overridded in light/dark/night files
+		opacity: 1;
+
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	&.selected_f5eb4b::after {
+		content: '';
+		position: absolute;
+		left: -30px;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 24px; /* Adjust width as needed */
+		height: 22px; /* Adjust height as needed */
+		background-image: $selector-img; // overridded in light/dark/night files
+		animation: fade-out 0.25s;
+		animation-fill-mode: forwards;
+		background-size: cover;
+		background-repeat: no-repeat;
 	}
 }
