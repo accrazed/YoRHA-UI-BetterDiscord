@@ -3886,12 +3886,14 @@ foreignObject[mask="url(#svg-mask-status-offline)"] .status_c7d26b {
   top: 0;
   left: 0;
 }
-.userProfileOuter_c69a7b .clickable_f89da9 .wrapper_c51b4e,
-.userProfileOuter_c69a7b .clickable_f94206 .wrapper_c51b4e {
+.userProfileOuter_c69a7b .avatar_f94206.biteSize_f94206 {
+  top: 0;
+  left: 0;
+}
+.userProfileOuter_c69a7b .avatar_f94206.biteSize_f94206 .wrapper_c51b4e {
   border-radius: 0;
 }
-.userProfileOuter_c69a7b .clickable_f89da9 .avatarHint_f89da9,
-.userProfileOuter_c69a7b .clickable_f94206 .avatarHint_f89da9 {
+.userProfileOuter_c69a7b .avatar_f94206.biteSize_f94206 .avatarHint_f89da9 {
   display: none;
 }
 .userProfileOuter_c69a7b .userPopoutOverlayBackground_c69a7b,
