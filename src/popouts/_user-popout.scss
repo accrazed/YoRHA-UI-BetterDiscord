@@ -20,7 +20,7 @@
 			display: none;
 		}
 
-		.bannerSVGWrapper_b32cc2 {
+		.mask_c3e427 {
 			// pfp mask around banner
 			mask circle {
 				display: none;
@@ -88,6 +88,12 @@
 			padding: 2em;
 			border-radius: 0;
 			position: relative;
+			top: 0;
+			left: 0;
+		}
+			
+		//container holding pfp and banner
+		.avatar_f94206.biteSize_f94206 {
 			top: 0;
 			left: 0;
 
