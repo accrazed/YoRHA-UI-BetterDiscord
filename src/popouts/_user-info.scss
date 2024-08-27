@@ -9,9 +9,9 @@
 		height: 100%;
 		width: 100%;
 	}
-    .userProfileInner_c69a7b {
-        gap: 0px;
-    }
+	.userProfileInner_c69a7b {
+		gap: 0px;
+	}
 
 	.mask_c3e427 {
         // pfp mask around banner
@@ -20,18 +20,17 @@
         }
     }
 
-    .headerInner_bc9cc2 {
+	.headerInner_bc9cc2 {
 		display: grid;
 		grid-template-columns: 4fr 1fr; /* Create two equal columns */
 		gap: 0; /* Optional: add spacing between columns */
 		//flex-direction: column;
-        padding: 0;
-        margin: 0.25em;
+		padding: 0;
+		margin: 0.25em;
 
 		// janky ass invisible container?
 		.invisibleContainer_d0a252.fullSize_d0a252 {
 			display: none;
-            
 		}
 
 		.invisibleContainer_d0a252.fullSize_d0a252,
@@ -78,7 +77,6 @@
 				.emoji_ad923e {
 					height: 32px;
 					width: 32px;
-
 				}
 			}
 
@@ -95,7 +93,7 @@
 		.popover_bba79b.visible_bba79b {
 			.left_bba79b {
 				path[d='m13.96 5.46 4.58 4.58a1 1 0 0 0 1.42 0l1.38-1.38a2 2 0 0 0 0-2.82l-3.18-3.18a2 2 0 0 0-2.82 0l-1.38 1.38a1 1 0 0 0 0 1.42ZM2.11 20.16l.73-4.22a3 3 0 0 1 .83-1.61l7.87-7.87a1 1 0 0 1 1.42 0l4.58 4.58a1 1 0 0 1 0 1.42l-7.87 7.87a3 3 0 0 1-1.6.83l-4.23.73a1.5 1.5 0 0 1-1.73-1.73Z'] {
-					fill:$high;
+					fill: $high;
 				}
 				border-radius: 0px;
 			}
@@ -107,12 +105,10 @@
 				border-radius: 0px;
 			}
 			border-radius: 0px;
-
 		}
 
-
-        //buttons
-        .buttons_d181d8 {
+		//buttons
+		.headerButtons_bc9cc2 {
 			align-items: normal;
 			gap: 0px;
 			display: contents;
@@ -121,14 +117,14 @@
 				flex-direction: column;
 				gap: 4px;
 			}
-        }
+		}
 
 		// thinking text
 		.visibleContainer_d0a252.fullSize_d0a252 {
 			position: relative;
 			top: 0;
 			left: 0;
-            padding-top: 0px;
+			padding-top: 0px;
 			width: fit-content;
 			display: flex;
 		}
@@ -162,56 +158,57 @@
 		padding: 0.5em;
 		background: $high;
 
-        // .defaultColor_a595eb {
-        //     color: $high;
-        // }
+		// .defaultColor_a595eb {
+		//     color: $high;
+		// }
 
-        .fullSizeOverlayBackground_c69a7b{ //container that everything below username (had to be categorized seperately cuz it broke everything otherwise lol)
-            border: 0px;
-            height: 100%;
-            width: 100%;
-            background: $high;
+		.fullSizeOverlayBackground_c69a7b {
+			//container that everything below username (had to be categorized seperately cuz it broke everything otherwise lol)
+			border: 0px;
+			height: 100%;
+			width: 100%;
+			background: $high;
 
-            //container that holds everything the same as above
-            .container_c1519f {
-                display:contents; 
-            }
-            
-            //tab selection bar
-            .tabBar_c1519f {
-                margin: 3px;
-                height: 42px;
-                gap: 20px;
-                border-bottom: 2px solid;
-                border-color: $low;
-                .item_a0 {
-                    background-color: $mid-trans;
-                    padding: 3px 32px 3px 6px;                   
-                    .defaultColor_a595eb {
-                        color: $low;
-                    }
-                    &:hover {
-                        border-bottom: 0px;
-                    }
-                    &.selected_a0 {
-                        background-color: $low;
-                        height: 100%;
-                        //border-bottom: 0px;
-                        .defaultColor_a595eb {
-                            color: $high;
-                        }
-                    }
-                }
-            
-            }
-            
-            //border fixes
-            .connectedAccountContainer_f3eb60, //border fix for connected accounts
-            .note_c2dcc6 { //border fix for note section
-                border: 1px solid;
-                border-radius: 0px;
-                border-color: $low-trans;
-            }
-        }
+			//container that holds everything the same as above
+			.container_c1519f {
+				display: contents;
+			}
+
+			//tab selection bar
+			.tabBar_c1519f {
+				margin: 3px;
+				height: 42px;
+				gap: 20px;
+				border-bottom: 2px solid;
+				border-color: $low;
+				.item_a0 {
+					background-color: $mid-trans;
+					padding: 3px 32px 3px 6px;
+					.defaultColor_a595eb {
+						color: $low;
+					}
+					&:hover {
+						border-bottom: 0px;
+					}
+					&.selected_a0 {
+						background-color: $low;
+						height: 100%;
+						//border-bottom: 0px;
+						.defaultColor_a595eb {
+							color: $high;
+						}
+					}
+				}
+			}
+
+			//border fixes
+			.connectedAccountContainer_f3eb60, //border fix for connected accounts
+            .note_c2dcc6 {
+				//border fix for note section
+				border: 1px solid;
+				border-radius: 0px;
+				border-color: $low-trans;
+			}
+		}
 	}
 }
