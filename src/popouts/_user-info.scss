@@ -13,14 +13,17 @@
 		gap: 0px;
 	}
 
-	.mask_c3e427 {
+	.mask_d5fdb1 {
         // pfp mask around banner
         mask circle {
             display: none;
         }
+		:where(.banner_d5fdb1) { //Specificity to remove border radius on banner. I can't believe they did this. 
+			border-radius: 0px;
+		}
     }
 
-	.headerInner_bc9cc2 {
+	.headerInner_b9fccc {
 		display: grid;
 		grid-template-columns: 4fr 1fr; /* Create two equal columns */
 		gap: 0; /* Optional: add spacing between columns */
@@ -108,11 +111,11 @@
 		}
 
 		//buttons
-		.headerButtons_bc9cc2 {
+		.headerButtons_b9fccc {
 			align-items: normal;
 			gap: 0px;
 			display: contents;
-			.multipleButtons_fcef98 {
+			.multipleButtons_e9f973 {
 				display: flex;
 				flex-direction: column;
 				gap: 4px;
@@ -152,7 +155,7 @@
 	}
 
 	// usernames, mutuals, roles
-	.body_bc9cc2 {
+	.body_b9fccc {
 		//border: 2px solid $low;
 		margin: 0em 0.5em 0.5em 0.5em;
 		padding: 0.5em;
@@ -170,12 +173,12 @@
 			background: $high;
 
 			//container that holds everything the same as above
-			.container_c1519f {
+			.container_ecc04c {
 				display: contents;
 			}
 
 			//tab selection bar
-			.tabBar_c1519f {
+			.tabBar_ecc04c {
 				margin: 3px;
 				height: 42px;
 				gap: 20px;
@@ -202,8 +205,8 @@
 			}
 
 			//border fixes
-			.connectedAccountContainer_f3eb60, //border fix for connected accounts
-            .note_c2dcc6 {
+			.connectedAccountContainer_ab12c6, //border fix for connected accounts
+            .note_d53fbd {
 				//border fix for note section
 				border: 1px solid;
 				border-radius: 0px;
