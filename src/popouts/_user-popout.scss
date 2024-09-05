@@ -67,6 +67,16 @@
 		.statusBubbleOuter_d0a252:after {
 			display: none;
 		}
+				
+		//edit status buttons on user status hover
+		.popover_bba79b.visible_bba79b {
+			.button_bba79b svg path {
+				fill: $high;
+			}
+			.button_bba79b:hover svg path {
+				fill: $low;
+			}
+		}
 
 		// thinking text
 		.visibleContainer_d0a252.biteSize_d0a252 {
