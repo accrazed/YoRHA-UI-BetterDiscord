@@ -20,7 +20,7 @@
 			display: none;
 		}
 
-		.mask_c3e427 {
+		.mask_d5fdb1 {
 			// pfp mask around banner
 			mask circle {
 				display: none;
@@ -67,6 +67,16 @@
 		.statusBubbleOuter_d0a252:after {
 			display: none;
 		}
+				
+		//edit status buttons on user status hover
+		.popover_bba79b.visible_bba79b {
+			.button_bba79b svg path {
+				fill: $high;
+			}
+			.button_bba79b:hover svg path {
+				fill: $low;
+			}
+		}
 
 		// thinking text
 		.visibleContainer_d0a252.biteSize_d0a252 {
@@ -109,13 +119,14 @@
 
 	// usernames, mutuals, roles
 	
-	.userPopoutOverlayBackground_c69a7b,
-	.body_b07019 {
+	.body_b8cc6d {
 		border: 2px solid $low;
 		margin: 0 0.5em;
 		padding: 0.5em;
 		background: $high;
-		.activity_cd74cc { //activites (takes on profile theme color and can cause conflict with colors)
+	}
+	.biteSizeOverlayBackground_c69a7b { //activities container
+		&.activity_b8cc6d { //activites (takes on profile theme color and can cause conflict with colors)
 			border-top: 1px solid;
 			border-bottom: 1px solid;
 			border-color: $low;
@@ -140,7 +151,9 @@
 		margin: 0 0.5em;
 		padding: 0.5em;
 		background: $high;
-		.activity_cd74cc { //activites (takes on profile theme color and can cause conflict with colors)
+	}
+	.biteSizeOverlayBackground_c69a7b { //activities container
+		&.card_ae1fa2 { //activites (takes on profile theme color and can cause conflict with colors)
 			border-top: 1px solid;
 			border-bottom: 1px solid;
 			border-color: $low;
