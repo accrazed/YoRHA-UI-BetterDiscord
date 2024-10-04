@@ -13,7 +13,7 @@
 		gap: 0px;
 	}
 
-	.mask_c3e427 {
+	.mask_d5fdb1 {
 		// pfp mask around banner
 		mask circle {
 			display: none;
@@ -23,7 +23,7 @@
 		padding-right: 40px;
 	}
 
-	.header_ecc60d {
+	.header_a823cd {
 		padding: 0;
 		margin: 0.25em;
 
@@ -60,7 +60,6 @@
 
 				.clamp_d0a252 {
 					-webkit-line-clamp: 100;
-					line-clamp: 100;
 				}
 			}
 
@@ -140,7 +139,7 @@
 	}
 
 	// usernames, mutuals, roles
-	.body_e9e42f {
+	.body_a972fe {
 		margin: 0em 0.5em 0.5em 0.5em;
 		padding: 0.5em;
 		background: $high;
@@ -159,7 +158,8 @@
 				}
 			}
 		}
-		.activity_cd74cc {
+		.activity_cd74cc,
+		.activity_a972fe {
 			//activites (takes on profile theme color and can cause conflict with colors)
 			border-top: 1px solid;
 			border-bottom: 1px solid;
@@ -171,8 +171,8 @@
 }
 
 //extra area below user profile
-.overlayBackground_c69a7b.overlay_f9da1d,
-.footer_ecc60d {
+.overlayBackground_c69a7b.overlay_a8795b,
+.footer_a823cd {
 	margin: 0em 0.5em 0.5em 0.5em;
 	padding: 0.5em;
 	background: $high;
