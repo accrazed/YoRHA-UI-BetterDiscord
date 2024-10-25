@@ -2032,6 +2032,13 @@ foreignObject[mask="url(#svg-mask-status-dnd)"] .status-2DiCMd {
   border-radius: 0rem !important;
 }
 
+.messagesPopout_ac90a2 .embedWrapper_b558d0,
+.messagesPopout_ac90a2 .imageWrapper_d4597d,
+.focusLock_f9a4c9 .embedWrapper_b558d0,
+.focusLock_f9a4c9 .imageWrapper_d4597d {
+  width: auto !important;
+}
+
 .reaction_f61c73 {
   border-radius: 0;
   background-color: transparent;
@@ -3155,8 +3162,7 @@ strong {
 
 .background_a26d7b {
   fill: var(--color-low);
-  -webkit-clip-path: circle(37% at center);
-          clip-path: circle(37% at center);
+  clip-path: circle(37% at center);
 }
 
 .svg_a26d7b {
