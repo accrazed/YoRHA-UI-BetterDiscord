@@ -58,14 +58,14 @@
 .visualMediaItemContainer_cda674:not(.embedImage_b0068a),
 .inlineMediaEmbed_b0068a.embed_b0068a {
 	@include boxify($high, $mid, 4px);
-	width:fit-content;
+	width: fit-content;
 	margin-bottom: -2px;
 }
 .visualMediaItemContainer_cda674,
 .oneByOneGrid_cda674,
 .mosaicItem_e5c1dc,
 .imageWrapper_d4597d,
-.clickableWrapper_d4597d, 
+.clickableWrapper_d4597d,
 .embed_b0068a,
 .embedMedia_b0068a,
 .embedImage_b0068a,
@@ -73,10 +73,10 @@
 .video_f72aac {
 	border-radius: 0 !important;
 }
-.visualMediaItemContainer_cda674{
+.visualMediaItemContainer_cda674 {
 	.wrapper_f72aac {
 		.videoControls_f72aac {
-		width: 99.9%;
+			width: 99.9%;
 			.controlIcon_f72aac,
 			.controlIcon_ef18ee {
 				color: $high-trans !important;
@@ -106,5 +106,14 @@
 .embedSpotify_b0068a {
 	.encore-dark-theme {
 		border-radius: 0rem !important;
+	}
+}
+
+//Fix for width of pinned embeds
+.messagesPopout_ac90a2,
+.focusLock_f9a4c9 {
+	.embedWrapper_b558d0,
+	.imageWrapper_d4597d {
+		width: auto !important;
 	}
 }
