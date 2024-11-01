@@ -61,6 +61,14 @@
 	width: fit-content;
 	margin-bottom: -2px;
 }
+// Media in Threads (Sidebar)
+.chatLayerWrapper_d1c246 {
+	.visualMediaItemContainer_cda674:not(.embedImage_b0068a),
+	.inlineMediaEmbed_b0068a.embed_b0068a {
+		width: 100%;
+	}
+}
+
 .visualMediaItemContainer_cda674,
 .oneByOneGrid_cda674,
 .mosaicItem_e5c1dc,
