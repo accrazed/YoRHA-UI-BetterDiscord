@@ -25,6 +25,10 @@
 		mask circle {
 			display: none;
 		}
+		//banner container:
+		.banner_d5fdb1 {
+			border-radius: 0;
+		}
 	}
 
 	// thinking text and bubbles
@@ -117,6 +121,13 @@
 		}
 	}
 
+	//"Add Status" container:
+	.addCustomStatusButtonBubble_d0a252.biteSize_d0a252 {
+		top: 0;
+		left: 0;
+		width: auto;
+	}
+
 	// usernames, mutuals, roles
 
 	.body_b8cc6d {
@@ -136,6 +147,13 @@
 			background-color: transparent;
 		}
 	}
+	//Roles container
+	.root_e6f2d0 {
+		.role_f9575e {
+			background-color: $mid-trans;
+		}
+	}
+	
 	.footer_d5223c {
 		margin: 0;
 		padding: 0.5em;
