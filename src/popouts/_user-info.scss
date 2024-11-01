@@ -46,6 +46,23 @@
 			//padding: 4em 0em 0em 0em;
 		}
 
+		//Add Status button
+		.addCustomStatusButtonBubble_d0a252.fullSize_d0a252{
+			top: 0px;
+			left: 0px;
+			height: auto;
+			.statusBubbleOuter_d0a252 {
+				margin: 0px 0px 4px 0px;
+				border: none;
+				.statusBubble_d0a252 {
+					background-color: $mid-trans;
+					border-radius: 0;
+					word-wrap: normal;
+					padding: 2px;
+					//width: fit-content;
+				}
+			}
+		}
 		// thinking text container
 		.visibleContainer_d0a252.fullSize_d0a252 {
 			position: relative;
@@ -67,7 +84,6 @@
 				background-color: transparent;
 
 				.statusBubble_d0a252 {
-					background-color: $mid;
 					border-radius: 0;
 					word-wrap: normal;
 					padding: 0;
