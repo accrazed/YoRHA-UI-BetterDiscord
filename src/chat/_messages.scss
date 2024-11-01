@@ -66,6 +66,9 @@
 		.mention.interactive:hover {
 			color: $low;
 		}
+		.anchor_af404b {
+			text-shadow: 1px 1px 2px $low, 0 0 25px $high, 0 0 5px $alert;
+		}
 	}
 	.wrapper_d4fa29 {
 		// mention text
