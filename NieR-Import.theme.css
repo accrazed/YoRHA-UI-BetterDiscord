@@ -619,6 +619,8 @@ body,
 .lookInverted-2D7oAl.colorBrand_dd4f85,
 .lookFilled_dd4f85.colorBrand_dd4f85,
 .container-x8Y1ix,
+.primaryButton_a35965,
+.secondaryButton_a35965,
 .lookOutlined_dd4f85.colorGreen_dd4f85,
 .lookOutlined_dd4f85.colorBrand_dd4f85,
 .lookFilled_dd4f85.colorPrimary_dd4f85,
@@ -646,6 +648,10 @@ body,
 .lookFilled_dd4f85.colorBrand_dd4f85:active,
 .container-x8Y1ix:hover,
 .container-x8Y1ix:active,
+.primaryButton_a35965:hover,
+.primaryButton_a35965:active,
+.secondaryButton_a35965:hover,
+.secondaryButton_a35965:active,
 .lookOutlined_dd4f85.colorGreen_dd4f85:hover,
 .lookOutlined_dd4f85.colorGreen_dd4f85:active,
 .lookOutlined_dd4f85.colorBrand_dd4f85:hover,
@@ -3170,7 +3176,8 @@ strong {
 
 .background_a26d7b {
   fill: var(--color-low);
-  clip-path: circle(37% at center);
+  -webkit-clip-path: circle(37% at center);
+          clip-path: circle(37% at center);
 }
 
 .svg_a26d7b {
@@ -3460,6 +3467,44 @@ strong {
   border-color: transparent !important;
   background-color: var(--color-high) !important;
   color: var(--color-low) !important;
+}
+
+.theme-dark .secondaryButton_a35965 .secondaryText_a35965 {
+  color: var(--color-high);
+}
+
+.primaryButton_a35965 .contents_dd4f85 div {
+  color: var(--color-high) !important;
+}
+.primaryButton_a35965 .contents_dd4f85 path {
+  fill: var(--color-high) !important;
+}
+
+.popout_a35965 {
+  background: var(--color-high);
+  border-radius: 0;
+  -webkit-box-shadow: 3px 3px 0 var(--color-mid);
+          box-shadow: 3px 3px 0 var(--color-mid);
+}
+.popout_a35965:hover {
+  -webkit-box-shadow: 3px 3px 0 var(--color-mid);
+          box-shadow: 3px 3px 0 var(--color-mid);
+}
+.popout_a35965 .interactionsContainer_a35965,
+.popout_a35965 .popoutContentWrapper_a35965 {
+  padding: 0.5em;
+}
+.popout_a35965 .hero_a35965 {
+  background: var(--color-low) !important;
+}
+.popout_a35965 .hero_a35965 .popoutHeroBody_a35965 .lineClamp1_a595eb,
+.popout_a35965 .hero_a35965 .popoutHeroBody_a35965 .popoutHeroTextPrimary_a35965,
+.popout_a35965 .hero_a35965 .popoutHeroBody_a35965 .tabularNumbers_a595eb,
+.popout_a35965 .hero_a35965 .popoutHeroBody_a35965 .badgeLabel_d60c6d {
+  color: var(--color-high) !important;
+}
+.popout_a35965 .hero_a35965 .popoutHeroBody_a35965 .badgeContainer_d60c6d path {
+  fill: var(--color-high) !important;
 }
 
 foreignObject[mask="url(#svg-mask-status-offline)"] .status_c7d26b {

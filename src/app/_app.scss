@@ -90,6 +90,8 @@ body,
 .lookInverted-2D7oAl.colorBrand_dd4f85,
 .lookFilled_dd4f85.colorBrand_dd4f85,
 .container-x8Y1ix,
+.primaryButton_a35965,
+.secondaryButton_a35965,
 .lookOutlined_dd4f85.colorGreen_dd4f85,
 .lookOutlined_dd4f85.colorBrand_dd4f85,
 .lookFilled_dd4f85.colorPrimary_dd4f85,
@@ -111,6 +113,7 @@ body,
 .lookOutlined_dd4f85.colorWhite-rEQuAQ {
 	@include buttonify($alert, $high, $high, $low);
 }
+
 // Slider / Toggle switch
 .container_cebd1c {
 	background-color: $low !important;

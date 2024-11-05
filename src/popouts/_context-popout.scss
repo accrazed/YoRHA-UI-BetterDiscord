@@ -38,6 +38,43 @@
 		}
 	}
 }
+// activity
+.theme-dark .secondaryButton_a35965 .secondaryText_a35965 {
+	color: $high;
+}
+.primaryButton_a35965 .contents_dd4f85 {
+	div {
+		color: $high !important;
+	}
+
+	path {
+		fill: $high !important;
+	}
+}
+.popout_a35965 {
+	@include boxify($high, $mid, 3px);
+
+	.interactionsContainer_a35965,
+	.popoutContentWrapper_a35965 {
+		padding: 0.5em;
+	}
+
+	.hero_a35965 {
+		background: $low !important;
+
+		.popoutHeroBody_a35965 {
+			.lineClamp1_a595eb,
+			.popoutHeroTextPrimary_a35965,
+			.tabularNumbers_a595eb,
+			.badgeLabel_d60c6d {
+				color: $high !important;
+			}
+			.badgeContainer_d60c6d path {
+				fill: $high !important;
+			}
+		}
+	}
+}
 
 // set status
 // invisible
