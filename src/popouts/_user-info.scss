@@ -24,12 +24,14 @@
     }
 
 	.headerInner_b9fccc {
-		display: grid;
-		grid-template-columns: 4fr 1fr; /* Create two equal columns */
-		gap: 0; /* Optional: add spacing between columns */
-		//flex-direction: column;
+		display: flex;
+		flex-direction: column;
 		padding: 0;
 		margin: 0.25em;
+
+		> :first-child {
+			width: 100%;
+		}
 
 		// janky ass invisible container?
 		.invisibleContainer_d0a252.fullSize_d0a252 {
@@ -44,47 +46,74 @@
 			//padding: 4em 0em 0em 0em;
 		}
 
-		// thinking text and bubbles
-		.statusBubbleOuter_d0a252 {
-			max-width: none;
-			width: 100%;
-			max-height: none;
-			border-radius: 0;
-			box-shadow: none;
-			margin: 0.25em;
-			border: 2px transparent;
-			background-color: transparent;
+		//Add Status button
+		.addCustomStatusButtonBubble_d0a252.fullSize_d0a252{
+			top: 0px;
+			left: 0px;
+			height: auto;
+			.statusBubbleOuter_d0a252 {
+				margin: 0px 0px 4px 0px;
+				border: none;
+				.statusBubble_d0a252 {
+					background-color: $mid-trans;
+					border-radius: 0;
+					word-wrap: normal;
+					padding: 2px;
+					//width: fit-content;
+				}
+			}
+		}
+		// thinking text container
+		.visibleContainer_d0a252.fullSize_d0a252 {
+			position: relative;
+			top: 0;
+			left: 0;
+			padding-top: 0px;
+			width: fit-content;
+			display: flex;
 
-			.statusBubble_d0a252 {
-				background-color: transparent;
+			// thinking text and bubbles
+			.statusBubbleOuter_d0a252 {
+				max-width: none;
+				width: 100%;
+				max-height: none;
 				border-radius: 0;
-				word-wrap: normal;
-				padding: 0;
-				//width: fit-content;
+				box-shadow: none;
+				margin: 0px 0px 4px 0px;
+				border: 2px transparent;
+				background-color: transparent;
 
-				.clamp_d0a252 {
-					-webkit-line-clamp: 100;
-					line-clamp: 100;
+				.statusBubble_d0a252 {
+					border-radius: 0;
+					word-wrap: normal;
+					padding: 0;
+					//width: fit-content;
+
+					.clamp_d0a252 {
+						-webkit-line-clamp: 100;
+						line-clamp: 100;
+						background-color: $mid-trans;
+					}
 				}
-			}
 
-			.content_d0a252 {
-				max-height: none !important;
-				overflow: visible;
-				word-wrap: normal;
-				//width: fit-content;
-				display: flex;
-				align-items: center;
-				background-color: $high;
-				padding-right: 5px;
-				.emoji_ad923e {
-					height: 32px;
-					width: 32px;
+				.content_d0a252 {
+					max-height: none !important;
+					overflow: visible;
+					word-wrap: normal;
+					//width: fit-content;
+					display: flex;
+					align-items: center;
+					background-color: $high;
+					padding-right: 5px;
+					.emoji_ad923e {
+						height: 32px;
+						width: 32px;
+					}
 				}
-			}
 
-			.singleLineAlign_d0a252 {
-				text-align: center;
+				.singleLineAlign_d0a252 {
+					text-align: center;
+				}
 			}
 		}
 		.statusBubbleOuter_d0a252:before,
@@ -109,19 +138,9 @@
 			display: contents;
 			.multipleButtons_e9f973 {
 				display: flex;
-				flex-direction: column;
+				flex-direction: row;
 				gap: 4px;
 			}
-		}
-
-		// thinking text
-		.visibleContainer_d0a252.fullSize_d0a252 {
-			position: relative;
-			top: 0;
-			left: 0;
-			padding-top: 0px;
-			width: fit-content;
-			display: flex;
 		}
 
 		// profile picture area
@@ -131,8 +150,8 @@
 			align-items: center;
 			justify-content: center;
 			background-color: $mid;
-			margin: 0em 0.25em 0 0.25em;
-			padding: 2em;
+			margin-bottom: 4px;
+			padding: 2em 0em 2em 0em;
 			border-radius: 0;
 			position: relative;
 			top: 0;
