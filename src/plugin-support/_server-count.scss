@@ -1,5 +1,10 @@
-.serverCount_FsTTs1 {	
-	@include boxify($high-trans, $mid, 2px);
-	color: $low;
-	white-space: wrap;
+.serverCountWrap_k8F5De {
+	margin: 2px;
+	justify-content: left;
+	.label_2wRs_g.serverCount_FsTTs1 {	
+		@include boxify($high-trans, $mid, 2px);
+		color: $low;
+		width: 61px;
+		white-space: wrap;
+	}
 }
