@@ -1,11 +1,11 @@
 // whole container
-.fullSizeOuter_c69a7b {
-	@include boxify($low, $mid, 3px);
+.fullSize_c69a7b {
+	// @include boxify($low, $mid, 3px);
 	padding: 0 !important;
 
 	// weird box that sits over theme colors, under boxes
 	// seems to darken the color selection
-	.userProfileInner_c69a7b:before {
+	.inner_c69a7b:before {
 		height: 100%;
 		width: 100%;
 	}
@@ -176,7 +176,7 @@
 		//     color: $high;
 		// }
 
-		.fullSizeOverlayBackground_c69a7b {
+		.fullSize_c69a7b.overlay_b9fccc {
 			//container that everything below username (had to be categorized seperately cuz it broke everything otherwise lol)
 			border: 0px;
 			height: 100%;

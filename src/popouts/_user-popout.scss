@@ -1,11 +1,11 @@
 // whole container
-.userProfileOuter_c69a7b {
+.outer_c69a7b {
 	@include boxify($high, $mid, 3px);
 	padding: 0 !important;
 
 	// weird box that sits over theme colors, under boxes
 	// seems to darken the color selection
-	.userProfileInner_c69a7b:before {
+	.inner_c69a7b:before {
 		height: 100%;
 		width: 100%;
 	}
@@ -135,16 +135,16 @@
 		margin: 0 0.5em;
 		padding: 0.5em;
 		background: $high;
-	}
-	.biteSizeOverlayBackground_c69a7b {
-		//activities container
-		&.activity_b8cc6d {
-			//activites (takes on profile theme color and can cause conflict with colors)
-			border-top: 1px solid;
-			border-bottom: 1px solid;
-			border-color: $low;
-			border-radius: 0px;
-			background-color: transparent;
+		.biteSize_c69a7b {
+			//activities container
+			&.activity_b8cc6d {
+				//activites (takes on profile theme color and can cause conflict with colors)
+				border-top: 1px solid;
+				border-bottom: 1px solid;
+				border-color: $low;
+				border-radius: 0px;
+				background-color: transparent;
+			}
 		}
 	}
 	//Roles container
@@ -171,16 +171,16 @@
 		margin: 0 0.5em;
 		padding: 0.5em;
 		background: $high;
-	}
-	.biteSizeOverlayBackground_c69a7b {
-		//activities container
-		&.card_ae1fa2 {
-			//activites (takes on profile theme color and can cause conflict with colors)
-			border-top: 1px solid;
-			border-bottom: 1px solid;
-			border-color: $low;
-			border-radius: 0px;
-			background-color: transparent;
+		.biteSize_c69a7b {
+			//activities container
+			&.card_ae1fa2 {
+				//activites (takes on profile theme color and can cause conflict with colors)
+				border-top: 1px solid;
+				border-bottom: 1px solid;
+				border-color: $low;
+				border-radius: 0px;
+				background-color: transparent;
+			}
 		}
 	}
 }
