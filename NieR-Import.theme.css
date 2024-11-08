@@ -3177,7 +3177,8 @@ strong {
 
 .background_a26d7b {
   fill: var(--color-low);
-  clip-path: circle(37% at center);
+  -webkit-clip-path: circle(37% at center);
+          clip-path: circle(37% at center);
 }
 
 .svg_a26d7b {
