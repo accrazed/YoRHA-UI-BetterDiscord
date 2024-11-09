@@ -80,9 +80,11 @@
 .avatarSpeaking_c51b4e {
 	box-shadow: inset 0 0 0 2px $alert;
 }
-.border_ba4b17.speaking_ba4b17 {
-	box-shadow: inset 0 0 0 2px $alert;
+.border_ba4b17 {
 	border-radius: 0;
+	&.speaking_ba4b17 {
+		box-shadow: inset 0 0 0 2px $alert;
+	}
 }
 .slash_c0ba36,
 .colorDefault-CDqZdO .checkbox-hADx5o,
