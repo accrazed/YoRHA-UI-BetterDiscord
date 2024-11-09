@@ -241,10 +241,3 @@
 		}
 	}
 }
-// "Hold Up" - external site prompt
-.theme-dark .root_f9a4c9 {
-	@include boxify($high, $low, 3px);
-}
-.lookFilled-yCfaCM.colorPrimary-2AuQVo {
-	@include buttonify($low, $high, $mid, $high);
-}
