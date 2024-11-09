@@ -15,7 +15,7 @@
 	padding-bottom: 0;
 }
 // Voice and Video
-.colorable_ef18ee {
+.colorable_ef18ee:not(.contextMenuNub_ef18ee) {
 	&.white_ef18ee {
 		background: $high;
 		color: $low;
@@ -76,22 +76,27 @@
 	color: $high;
 }
 .status_ba4b17,
-.border_ba4b17.speaking_ba4b17,
-.avatarSpeaking-3MqCHL {
+.avatarSpeaking_d80634,
+.avatarSpeaking_c51b4e {
 	box-shadow: inset 0 0 0 2px $alert;
+}
+.border_ba4b17.speaking_ba4b17 {
+	box-shadow: inset 0 0 0 2px $alert;
+	border-radius: 0;
 }
 .slash_c0ba36,
 .colorDefault-CDqZdO .checkbox-hADx5o,
-.colorDefault-CDqZdO .radioSelection-1UHp0b {
+.colorDefault_d90b3d .radioSelection_d90b3d {
 	color: $alert;
 }
-.base_df8943{ //This element applies to ALL badges (LIVE, Ping, etc etc)
+.base_df8943 { //This element applies to ALL badge backgrounds (LIVE, Ping, etc etc)
 	background-color: $alert !important;
 	color: $high;
 }
 .textBadge_df8943,
-.liveLarge_ec1c2d {
-	border-radius: 0;
+.liveLarge_ec1c2d,
+.liveIndicator_c5881c {
+	border-radius: 0 !important;
 	color: $high;
 }
 .iconBadge__4989d {
@@ -157,7 +162,7 @@
 	}
 }
 // Voice chat stream preview
-.theme-dark .streamPreview-3qoMP4 {
+.theme-dark .streamPreview_adbea6 {
 	@include boxify($high, $mid, 3px);
 }
 .theme-dark .activityStreamPreview_c1d9fd {
@@ -178,4 +183,22 @@
 
 .clipBadgeIcon_d7719d {
 	color: $low !important;
+}
+
+//picture in picture stream feed
+.pictureInPictureVideo_cadaa5 {
+	border-radius: 0px;
+}
+
+// control buttons when in VC
+.controlButton_b6e2f9 {
+	.svg_afd438 foreignObject {
+		mask: none;
+	}
+	.centerButton_ef18ee {
+		border-radius: 0;
+	}
+	.contextMenuNub_ef18ee {
+		border-radius: 0;
+	}
 }
