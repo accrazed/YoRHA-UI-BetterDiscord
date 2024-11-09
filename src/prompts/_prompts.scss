@@ -80,7 +80,7 @@
 // Image popout carousel
 .modal_aee8c6.root_f9a4c9,
 .carouselModal_d2b9a1.root_f9a4c9 {
-	background:none !important;
+	background: none !important;
 	box-shadow: none !important;
 	.wrapper_fb6520,
 	.wrapper_b6f1f8 {
@@ -238,6 +238,229 @@
 
 		.reactionCount_ec6b19 {
 			color: $high;
+		}
+	}
+}
+
+// Focused Prompts
+.theme-dark .focusLock_f9a4c9 {
+	.root_f9a4c9,
+	.root_f9a4c9 * {
+		box-shadow: none;
+		border-radius: 0px;
+	}
+	.art_e1cc86 {
+		display: none;
+	}
+	.modalCloseButton_e1cc86,
+	.modalClose_e5da2b {
+		z-index: 2;
+		color: $high;
+		top: 4px;
+		right: 4px;
+	}
+	.header_f9a4c9:before,
+	.header_e5da2b:before {
+		display: flex;
+		content: '';
+		height: 16px;
+		width: 16px;
+		max-height: 16px;
+		max-width: 16px;
+		min-height: 16px;
+		min-width: 16px;
+		background-color: $high;
+		align-self: center;
+		justify-self: center;
+	}
+	.header_f9a4c9 {
+		padding: 4px 12px 4px 12px;
+		background-color: $low;
+		border-radius: 0px;
+		.header_e1cc86 {
+			align-items: baseline;
+			margin: 0px 0px 0px 12px;
+		}
+		.heading-lg\/semibold_dc00ef {
+			margin-left: 12px !important;
+		}
+		.headerText_e1cc86,
+		.defaultColor_e42ec6 {
+			text-transform: uppercase;
+			letter-spacing: 4px;
+			color: $high;
+			margin: 0px;
+		}
+		.headerDescription_e1cc86 {
+			color: $high !important;
+			text-align: left;
+			padding: 0px;
+		}
+	}
+	.content_e5da2b:has(> .header_e5da2b) {
+		&::-webkit-scrollbar {
+			display: none;
+		}
+		padding-right: 32px !important;
+	}
+	.header_e5da2b {
+		&:before {
+			margin-right: 12px;
+			margin-left: 12px;
+		}
+		display: flex;
+		flex-direction: row;
+		margin: 0px;
+		margin-left: -36px;
+		width: 440px;
+		height: 42px;
+		align-items: center;
+		background-color: $low;
+		&.defaultColor_e42ec6 {
+			text-transform: uppercase;
+			letter-spacing: 4px;
+			color: $high;
+		}
+	}
+	//Share screen container
+	.modalSize_e1cc86 {
+		.segmentContainer_d7ec26 {
+			//container holding the tabs
+			.divider_bcb954 {
+				display: none;
+			}
+			.segmentControl_d7ec26 {
+				padding: 0px;
+			}
+			.tabContainer_a18ec1 {
+				//margin-top: 4px;
+				height: 42px;
+				justify-content: space-around;
+				border-bottom: 2px solid;
+				border-color: $low;
+				.tabItem_a18ec1 {
+					display: flex;
+					background-color: $mid-trans;
+					padding: 0px 32px 0px 6px;
+					margin: 7px 0;
+					height: 24px;
+					align-self: center;
+					.text-sm\/medium_dc00ef {
+						color: $low;
+						align-self: center;
+					}
+					&.tabItemSelected_a18ec1 {
+						background-color: $low;
+						height: 100%;
+						box-shadow: inset 0 4px 0 0 $high;
+						.text-sm\/medium_dc00ef {
+							color: $high;
+							align-self: baseline;
+							padding-top: 6px;
+						}
+					}
+				}
+			}
+		}
+		.sourceContainer_d7ec26 {
+			padding: 0;
+		}
+	}
+	// Message Preview
+	.message_ddcc45 {
+		border-radius: 0;
+		border: 1px solid $low;
+		background-color: $high;
+		box-shadow: none;
+	}
+	// Pro tip
+	.pro_b5053a {
+		color: $alert !important;
+	}
+	.footer_f9a4c9 {
+		position: relative;
+		padding: 25px 0 25px 0; /* Adjust as needed */
+		background-color: $high; /* box background color */
+		background-image: linear-gradient(
+			to right,
+			transparent 6px,
+			$mid-trans 6px,
+			$mid-trans calc(100% - 6px),
+			transparent calc(100% - 6px)
+		);
+		background-repeat: no-repeat; /* Ensure the gradient doesn't repeat */
+		background-position: top; /* Position it at the top */
+		background-size: 100% 2px; /* Set the height of the "border" and make it span the full width */
+
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		.lookFilled_dd4f85::before,
+		.lookLink_dd4f85::before {
+			display: block;
+			content: '';
+			height: 16px;
+			width: 16px;
+			max-height: 16px;
+			max-width: 16px;
+			min-height: 16px;
+			min-width: 16px;
+			background-color: $low;
+		}
+		.lookFilled_dd4f85::after,
+		.lookLink_dd4f85::after {
+			content: '';
+			position: absolute;
+			top: 50%;
+			left: -30px; /* Adjust spacing relative to the square */
+			transform: translateY(-50%);
+			width: 24px;
+			height: 22px;
+			background-image: $selector-img; /* Replace with actual path */
+			background-size: cover;
+			background-repeat: no-repeat;
+			opacity: 0;
+			transition: opacity 0.175s ease-in-out;
+		}
+		.lookFilled_dd4f85:hover::before,
+		.lookLink_dd4f85:hover::before {
+			display: block;
+			content: '';
+			height: 16px;
+			width: 16px;
+			background-color: $high;
+			color: $high;
+		}
+		.lookFilled_dd4f85:hover::after,
+		.lookLink_dd4f85:hover::after {
+			opacity: 1;
+		}
+		.lookFilled_dd4f85,
+		.lookLink_dd4f85 {
+			display: flex;
+			background-color: $mid-trans;
+			border-radius: 0px;
+			font-size: 16px;
+			width: 125px;
+			height: 32px;
+			min-height: 0px;
+			padding: 0 0 0 8px;
+			justify-content: left;
+			.contents_dd4f85 {
+				color: $low;
+				margin: 0 0 0 12px;
+			}
+		}
+		:hover:not(.checkboxWrapper_f6cde8, .checkboxWrapper_f6cde8 *) {
+			box-shadow: 3px 3px $mid-trans;
+			background-color: $low !important;
+			.contents_dd4f85 {
+				pointer-events: none;
+				color: $high !important;
+			}
+		}
+		.checkboxWrapper_f6cde8 {
+			flex: none;
 		}
 	}
 }
