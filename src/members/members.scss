@@ -56,7 +56,12 @@
 	}
 }
 
-.botTagRegular_c89c9a {
+.botTag_a31c43,
+.botTag_f9f2ca {
 	background-color: $alert;
 	color: $high;
+	border-radius: 0px !important;
+	.botText_a9e77f {
+		line-height: normal;
+	}
 }

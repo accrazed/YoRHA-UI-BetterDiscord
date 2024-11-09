@@ -14,14 +14,15 @@
 	}
 
 	.mask_d5fdb1 {
-        // pfp mask around banner
-        mask circle {
-            display: none;
-        }
-		:where(.banner_d5fdb1) { //Specificity to remove border radius on banner. I can't believe they did this. 
+		// pfp mask around banner
+		mask circle {
+			display: none;
+		}
+		:where(.banner_d5fdb1) {
+			//Specificity to remove border radius on banner. I can't believe they did this.
 			border-radius: 0px;
 		}
-    }
+	}
 
 	.headerInner_b9fccc {
 		display: flex;
@@ -47,7 +48,7 @@
 		}
 
 		//Add Status button
-		.addCustomStatusButtonBubble_d0a252.fullSize_d0a252{
+		.addCustomStatusButtonBubble_d0a252.fullSize_d0a252 {
 			top: 0px;
 			left: 0px;
 			height: auto;

@@ -2,7 +2,55 @@
 .background_b69b77 {
 	@include boxify($high, $mid, 6px);
 }
-.userSettingsSecurity-3C5Hg5 .isEnabled-2qCZy8,
-.theme-dark .lookLink_dd4f85.colorPrimary_dd4f85 {
-	color: $low;
+
+//Specificity for changing password prompt
+.header_e7b58e.header_e7b58e {
+	padding: 4px 12px 4px 12px;
+	background-color: $low;
+	border-radius: 0px;
+	display: grid;
+	grid-template-rows: auto auto; /* Two rows */
+	.colorHeaderPrimary_d1aa77 {
+		grid-column: 2;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		color: $high;
+		margin: 0 0 0 12px;
+		text-align: left;
+	}
+	.subtitle_e7b58e {
+		grid-column: 1 / span 2;
+		color: $high !important;
+		text-align: left;
+		padding: 0px;
+	}
+}
+.header_e7b58e.header_e7b58e.header_e7b58e::before {
+	grid-column: 1;
+	display: block;
+	content: '';
+	height: 16px;
+	width: 16px;
+	max-height: 16px;
+	max-width: 16px;
+	min-height: 16px;
+	min-width: 16px;
+	background-color: $high;
+	align-self: center;
+	justify-self: center;
+}
+#app-mount
+	> div.appAsidePanelWrapper_bd26cc
+	> div.notAppAsidePanel_bd26cc
+	> div:nth-child(4)
+	> div.layer_c9e2da
+	> div
+	> div
+	> form
+	> div.content_f9a4c9.content_e7b58e.thin_c49869.scrollerBase_c49869
+	> div:nth-child(n + 1)
+	> div
+	> div
+	> input {
+	background-color: $mid-trans;
 }
