@@ -202,3 +202,19 @@
 		border-radius: 0;
 	}
 }
+
+//soundboard container
+.wrapper_ee8ca7 {
+	.soundButtonRefresh_f40049 * {
+		border-radius: 0px;
+	}
+	.soundButtonRefresh_f40049 {
+		@include boxify($high, $mid, 3px);
+		&.playing_f40049 {
+			outline: 2px solid $alert;
+		}
+		.soundInfoRefresh_f40049 {
+			box-shadow: none !important;
+		}
+	}
+}
