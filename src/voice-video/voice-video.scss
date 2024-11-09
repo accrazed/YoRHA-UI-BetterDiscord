@@ -85,10 +85,11 @@
 .colorDefault-CDqZdO .radioSelection-1UHp0b {
 	color: $alert;
 }
-.base__5ed84 {
+.base_df8943{ //This element applies to ALL badges (LIVE, Ping, etc etc)
 	background-color: $alert !important;
+	color: $high;
 }
-.base__5ed84,
+.textBadge_df8943,
 .liveLarge_ec1c2d {
 	border-radius: 0;
 	color: $high;
