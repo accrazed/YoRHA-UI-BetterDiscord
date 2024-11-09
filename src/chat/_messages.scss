@@ -70,11 +70,11 @@
 			text-shadow: 1px 1px 2px $low, 0 0 25px $high, 0 0 5px $alert;
 		}
 	}
-	.wrapper_d4fa29 {
+	.wrapper_bf1b19 {
 		// mention text
 		background: $alert-trans;
 		color: $high;
-
+		border-radius: 0px;
 		&:hover {
 			color: $alert;
 			background: $high;
