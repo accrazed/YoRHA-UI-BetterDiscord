@@ -18,9 +18,9 @@
 	@include boxify($alert, $mid, 3px);
 }
 // User info
-.button_adcaac{
+.button_adcaac {
 	@include buttonify(transparent, $low, $low, $high);
-	
+
 	.lottieIcon_f73ef7 {
 		--__lottieIconColor: currentColor !important;
 	}

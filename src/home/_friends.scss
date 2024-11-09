@@ -56,7 +56,8 @@
 		.colorStandard_d1aa77 {
 			color: $high;
 		}
-		.text-sm\/normal_dc00ef { // smaller text for active now (game name etc)
+		// smaller text for active now (game name etc)
+		.text-sm\/normal_dc00ef {
 			color: $high !important; //using important was necessary as it failed to invert colors due to a global variable
 		}
 		.section_cd82a7 div {
