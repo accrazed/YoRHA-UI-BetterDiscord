@@ -91,7 +91,8 @@
 .colorDefault_d90b3d .radioSelection_d90b3d {
 	color: $alert;
 }
-.base_df8943 { //This element applies to ALL badge backgrounds (LIVE, Ping, etc etc)
+.base_df8943 {
+	//This element applies to ALL badge backgrounds (LIVE, Ping, etc etc)
 	background-color: $alert !important;
 	color: $high;
 }
