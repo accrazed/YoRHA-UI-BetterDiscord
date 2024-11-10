@@ -8,7 +8,6 @@ body,
 .wordmarkWindows_a934d8 {
 	color: transparent;
 }
-
 .wordmarkWindows_a934d8::before {
 	content: 'For the Glory of Mankind';
 	font-size: 12px;
@@ -58,23 +57,20 @@ body,
 	padding-top: 4px;
 }
 // Input text
-.emojiRowText-2j4TNM {
+.emojiRowText_dc1809 {
 	color: $mid;
 }
-.theme-dark .emojiAliasPlaceholder-3H_iZA {
+.theme-dark .emojiAliasPlaceholder_dc1809 {
 	color: $low;
 }
-.theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse,
-.input-2g-os5 {
+.theme-dark .emojiRow_dc1809 .emojiAliasInput_dc1809 > .input_f8bc55 {
 	background-color: $high;
 	border-radius: 0;
 	border: 2px solid $low;
 	color: $low;
-
 	&:hover {
-		border-color: $mid;
+		border-color: $high;
 	}
-	&.focused-1AtTHC,
 	&:focus {
 		border-color: $alert;
 	}
