@@ -1765,20 +1765,17 @@ foreignObject[mask="url(#svg-mask-status-dnd)"] .status-2DiCMd {
   height: 353px !important;
 }
 
-.theme-dark .mentioned_d5deea .mention.interactive:hover {
-  color: var(--color-low);
-}
 .theme-dark .mentioned_d5deea .anchor_af404b {
   text-shadow: 1px 1px 2px var(--color-low), 0 0 25px var(--color-high), 0 0 5px var(--color-alert);
 }
-.theme-dark .wrapper_bf1b19 {
+.theme-dark .wrapper_bf1b19.interactive {
   background: var(--color-alert-trans);
-  color: var(--color-high);
   border-radius: 0px;
 }
-.theme-dark .wrapper_bf1b19:hover {
+.theme-dark .wrapper_bf1b19.interactive:hover {
   color: var(--color-alert);
   background: var(--color-high);
+  text-decoration: none;
 }
 
 .mouse-mode.full-motion .replying_d5deea, .mouse-mode.full-motion .replying_d5deea:hover {
