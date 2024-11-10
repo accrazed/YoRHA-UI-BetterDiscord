@@ -39,6 +39,20 @@
 .wrapper_c5f96a > svg > mask {
 	display: none;
 }
+.scroller_fea3ef.none_c49869 {
+	.tutorialContainer_f9623d .listItem_c96c45 {
+		margin-bottom: 4px;
+		.wrapperSimple_c5f96a {
+			height: 57px
+		}
+	}
+	&.scrollerBase_c49869:nth-child(2) {
+		.listItem_c96c45 .pill_f36a5a {
+			background-color: $alert;
+		}
+	}
+}
+
 .wrapperSimple_c5f96a {
 	border-radius: 0;
 }
