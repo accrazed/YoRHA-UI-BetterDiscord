@@ -498,6 +498,7 @@
 			background-repeat: no-repeat;
 			opacity: 0;
 			transition: opacity 0.175s ease-in-out;
+			pointer-events: none; //Needed so the hover behavior doesn't trigger when you pass the mouse over where the pointer itself would be
 		}
 		.lookFilled_dd4f85:hover::before,
 		.lookLink_dd4f85:hover::before {
