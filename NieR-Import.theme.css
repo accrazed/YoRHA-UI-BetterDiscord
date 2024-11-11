@@ -2346,14 +2346,15 @@ strong {
   display: none;
 }
 
-.scroller_fea3ef.none_c49869 .tutorialContainer_f9623d .listItem_c96c45 {
-  margin-bottom: 4px;
+.scroller_fea3ef.none_c49869.scrollerBase_c49869 .tutorialContainer_f9623d .listItem_c96c45 {
+  padding-bottom: 4px;
 }
-.scroller_fea3ef.none_c49869 .tutorialContainer_f9623d .listItem_c96c45 .wrapperSimple_c5f96a {
+.scroller_fea3ef.none_c49869.scrollerBase_c49869 .tutorialContainer_f9623d .listItem_c96c45 .wrapperSimple_c5f96a {
   height: 57px;
 }
-.scroller_fea3ef.none_c49869.scrollerBase_c49869:nth-child(2) .listItem_c96c45 .pill_f36a5a {
-  background-color: var(--color-alert);
+.scroller_fea3ef.none_c49869.scrollerBase_c49869:nth-child(2) .listItem_c96c45:has(.pill_f36a5a) {
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--color-low-trans);
 }
 
 .wrapperSimple_c5f96a {
