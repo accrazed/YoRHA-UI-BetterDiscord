@@ -2346,15 +2346,25 @@ strong {
   display: none;
 }
 
-.scroller_fea3ef.none_c49869.scrollerBase_c49869 .tutorialContainer_f9623d .listItem_c96c45 {
-  padding-bottom: 4px;
-}
 .scroller_fea3ef.none_c49869.scrollerBase_c49869 .tutorialContainer_f9623d .listItem_c96c45 .wrapperSimple_c5f96a {
   height: 57px;
 }
 .scroller_fea3ef.none_c49869.scrollerBase_c49869:nth-child(2) .listItem_c96c45:has(.pill_f36a5a) {
-  padding-bottom: 8px;
-  border-bottom: 2px solid var(--color-low-trans);
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.scroller_fea3ef.none_c49869.scrollerBase_c49869:nth-child(2) .listItem_c96c45:has(.pill_f36a5a):before {
+  content: "";
+  position: absolute;
+  bottom: -4px; /* Position the pseudo-element at the bottom */
+  left: 50%; /* Start at the center of the container */
+  width: 75%; /* 75% width from the center */
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%); /* Offset by 50% to keep it centered */
+  border-bottom: 2px solid var(--color-low-trans); /* Your border style */
+}
+.scroller_fea3ef.none_c49869.scrollerBase_c49869:nth-child(2) .listItem_c96c45:has(.pill_f36a5a) .pill_f36a5a {
+  padding-top: 4px;
 }
 
 .wrapperSimple_c5f96a {

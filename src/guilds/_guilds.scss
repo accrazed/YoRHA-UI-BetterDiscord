@@ -41,15 +41,26 @@
 }
 .scroller_fea3ef.none_c49869.scrollerBase_c49869 {
 	.tutorialContainer_f9623d .listItem_c96c45 {
-		padding-bottom: 4px;
 		.wrapperSimple_c5f96a {
 			height: 57px;
 		}
 	}
 	&:nth-child(2) {
 		.listItem_c96c45:has(.pill_f36a5a) {
-			padding-bottom: 8px;
-			border-bottom: 2px solid $low-trans;
+			&:before {
+				content: '';
+				position: absolute;
+				bottom: -4px; /* Position the pseudo-element at the bottom */
+				left: 50%; /* Start at the center of the container */
+				width: 75%; /* 75% width from the center */
+				transform: translateX(-50%); /* Offset by 50% to keep it centered */
+				border-bottom: 2px solid $low-trans; /* Your border style */
+			}
+			padding-top: 4px;
+			padding-bottom: 4px;
+			.pill_f36a5a {
+				padding-top: 4px;
+			}
 		}
 	}
 }
