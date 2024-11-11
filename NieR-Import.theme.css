@@ -2347,16 +2347,21 @@ strong {
 }
 
 .scroller_fea3ef.none_c49869.scrollerBase_c49869 .tutorialContainer_f9623d .listItem_c96c45 {
-  margin-bottom: 0;
+  height: 57px;
+}
+.scroller_fea3ef.none_c49869.scrollerBase_c49869 .tutorialContainer_f9623d .listItem_c96c45 .pill_f9623d,
+.scroller_fea3ef.none_c49869.scrollerBase_c49869 .tutorialContainer_f9623d .listItem_c96c45 .item_c4cd66 {
+  height: 57px !important;
 }
 .scroller_fea3ef.none_c49869.scrollerBase_c49869 .tutorialContainer_f9623d .listItem_c96c45 .wrapperSimple_c5f96a {
   height: 57px;
 }
-.scroller_fea3ef.none_c49869.scrollerBase_c49869:nth-child(2) .listItem_c96c45:has(.pill_f36a5a) {
-  padding-top: 4px;
-  padding-bottom: 4px;
+.scroller_fea3ef.none_c49869.scrollerBase_c49869 div:has(.listItem_c96c45 .pill_f36a5a) {
+  height: 55px !important;
+  padding-bottom: 0px;
+  margin-bottom: 12px;
 }
-.scroller_fea3ef.none_c49869.scrollerBase_c49869:nth-child(2) .listItem_c96c45:has(.pill_f36a5a):before {
+.scroller_fea3ef.none_c49869.scrollerBase_c49869 div:has(.listItem_c96c45 .pill_f36a5a):before {
   content: "";
   position: absolute;
   bottom: -4px; /* Position the pseudo-element at the bottom */
@@ -2366,8 +2371,8 @@ strong {
           transform: translateX(-50%); /* Offset by 50% to keep it centered */
   border-bottom: 2px solid var(--color-low-trans); /* Your border style */
 }
-.scroller_fea3ef.none_c49869.scrollerBase_c49869:nth-child(2) .listItem_c96c45:has(.pill_f36a5a) .pill_f36a5a {
-  padding-top: 4px;
+.scroller_fea3ef.none_c49869.scrollerBase_c49869 .listItem_c96c45:has(.guildSeparator_d0c57e) {
+  display: none;
 }
 
 .wrapperSimple_c5f96a {
