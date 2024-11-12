@@ -1865,13 +1865,9 @@ foreignObject[mask="url(#svg-mask-status-dnd)"] .status-2DiCMd {
 }
 
 .container_a6d69a,
-.container_d1c246:not(.container_d1c246.floating_d1c246),
+.container_d1c246,
 .theme-dark .form_a7d72e:before {
   background: transparent;
-}
-
-.container_d1c246.floating_d1c246 {
-  background-color: var(--color-high);
 }
 
 .channelTextArea_d0696b {
@@ -3104,7 +3100,7 @@ strong {
   height: 100%;
   background-size: 5px 5px;
   background-image: linear-gradient(90deg, transparent, transparent 4px, rgba(0, 0, 0, 0.07) 5px), linear-gradient(transparent, transparent 4px, rgba(0, 0, 0, 0.07) 5px);
-  z-index: 1500;
+  z-index: 10000;
   opacity: 0.75;
   -webkit-user-select: none;
      -moz-user-select: none;

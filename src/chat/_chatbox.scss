@@ -1,11 +1,8 @@
 // Transparencies
 .container_a6d69a,
-.container_d1c246:not(.container_d1c246.floating_d1c246),
+.container_d1c246,
 .theme-dark .form_a7d72e:before {
 	background: transparent;
-}
-.container_d1c246.floating_d1c246 {
-	background-color: $high-mid ;
 }
 // Type box
 .channelTextArea_d0696b {

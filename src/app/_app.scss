@@ -224,14 +224,3 @@ body,
 	border-radius: 0;
 	box-shadow: none;
 }
-
-// // Attempted fix for lattice showing over media (put here so that it can be easily toggled if breaking things.
-// //.wrapper_d880dc:has(.callContainer_d880dc .root_dd069c):not(.chatSidebarOpen_d880dc), //Streams are VERY difficult to pull off due to all the nesting, may need to forgo this for now
-// .layerContainer_cd0de5:has(.chatLayerWrapper_d1c246, .drawerSizingWrapper_af5dbb, .drawerSizingWrapper_f7506e, .layer_cd0de5),
-// .layerContainer_cd0de5:has(.layer_c9e2da .focusLock_f9a4c9 .carouselModal_c9eb31) {
-// 	z-index: 1501;
-// }
-// // .wrapper_d880dc > .callContainer_d880dc > .root_dd069c *,
-// // .chatLayerWrapper_d1c246 .drawerSizingWrapper_af5dbb .drawerSizingWrapper_f7506e .layer_cd0de5 * {
-// // 	z-index: 1502;
-// // }
