@@ -253,7 +253,8 @@
 		display: none;
 	}
 	.modalCloseButton_e1cc86,
-	.modalClose_e5da2b {
+	.modalClose_e5da2b,
+	.closeButton_e89716 {
 		z-index: 2;
 		color: $high;
 		top: 4px;
@@ -320,6 +321,82 @@
 			text-transform: uppercase;
 			letter-spacing: 4px;
 			color: $high;
+		}
+	}
+	.small_f9a4c9 {
+		&:has(> .header_d0585c) {
+			width: 600px;
+		}
+		//Specificity for forward message prompt
+		.header_d0585c.header_d0585c {
+			padding: 4px 12px 4px 12px;
+			background-color: $low;
+			border-radius: 0px;
+			display: flex;
+			flex-direction: column;
+			.titleLine_d0585c {
+				display: flex;
+				flex-direction: row;
+				.title_d0585c {
+					grid-column: 2;
+					margin: 0 0 0 12px;
+					.defaultColor_a595eb,
+					.defaultColor_e42ec6 {
+						margin-left: 0 !important;
+						color: $high !important;
+					}
+				}
+				.closeButton_d0585c {
+					z-index: 2;
+					color: $high;
+					top: 4px;
+					right: 4px;
+				}
+			}
+			//Search bar
+			.container_c18ec9 {
+				grid-column: 1 / span 2;
+				color: $high !important;
+				text-align: left;
+				padding: 0px;
+			}
+			&::before {
+				content: none;
+			}
+			.titleLine_d0585c::before {
+				grid-column: 1;
+				display: block;
+				content: '';
+				height: 16px;
+				width: 16px;
+				max-height: 16px;
+				max-width: 16px;
+				min-height: 16px;
+				min-width: 16px;
+				background-color: $high;
+				align-self: center;
+				justify-self: center;
+			}
+		}
+		//Specificity for report message prompt
+		.header_e89716 {
+			flex-direction: row;
+			.defaultColor_e42ec6,
+			.text-md\/normal_dc00ef {
+				&:not(.text-md\/normal_dc00ef) {
+					text-transform: uppercase;
+					letter-spacing: 4px;
+				}
+				color: $high !important;
+				text-align: left;
+			}
+		}
+		//Specificty for "how was your xyz" prompt //can't actually finish this cuz I don't have a reliable way to bring up the prompt
+		.headerContainer_b58b14 {
+			&::before {
+				grid-column: 1;
+			}
+			display: grid;
 		}
 	}
 	//Share screen container
@@ -421,6 +498,7 @@
 			background-repeat: no-repeat;
 			opacity: 0;
 			transition: opacity 0.175s ease-in-out;
+			pointer-events: none; //Needed so the hover behavior doesn't trigger when you pass the mouse over where the pointer itself would be
 		}
 		.lookFilled_dd4f85:hover::before,
 		.lookLink_dd4f85:hover::before {
@@ -451,16 +529,27 @@
 				margin: 0 0 0 12px;
 			}
 		}
-		:hover:not(.checkboxWrapper_f6cde8, .checkboxWrapper_f6cde8 *) {
-			box-shadow: 3px 3px $mid-trans;
-			background-color: $low !important;
-			.contents_dd4f85 {
-				pointer-events: none;
-				color: $high !important;
+		.lookFilled_dd4f85,
+		.lookLink_dd4f85 {
+			&:hover:not(.checkboxWrapper_f6cde8, .checkboxWrapper_f6cde8 *) {
+				box-shadow: 3px 3px $mid-trans;
+				background-color: $low !important;
+				.contents_dd4f85 {
+					pointer-events: none;
+					color: $high !important;
+				}
 			}
 		}
 		.checkboxWrapper_f6cde8 {
 			flex: none;
+		}
+
+		&.footerWithMessage_d0585c {
+			flex-direction: column;
+			padding: 0;
+			.textArea_bdf0de {
+				background-color: $mid-trans;
+			}
 		}
 	}
 }
