@@ -3212,8 +3212,7 @@ strong {
 
 .background_a26d7b {
   fill: var(--color-low);
-  -webkit-clip-path: circle(37% at center);
-          clip-path: circle(37% at center);
+  clip-path: circle(37% at center);
 }
 
 .svg_a26d7b {
@@ -5729,6 +5728,11 @@ foreignObject[mask="url(#svg-mask-status-offline)"] .status_c7d26b {
 
 .theme-dark .lookLink-15mFoz.colorPrimary-2AuQVo {
   color: var(--color-alert);
+}
+
+.container_da1432 {
+  background-color: var(--color-high);
+  background-image: none !important;
 }
 
 .theme-dark .notches_e5cdf3.gray_e5cdf3 {
