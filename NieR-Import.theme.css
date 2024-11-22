@@ -1147,6 +1147,10 @@ foreignObject[mask="url(#svg-mask-status-dnd)"] .status-2DiCMd {
           box-shadow: 5px 5px 0 var(--color-mid);
 }
 
+.bd-controls > .bd-addon-button svg {
+  fill: var(--color-high);
+}
+
 .unread_d8bfb3,
 .theme-dark .container_ee69e0,
 .theme-dark .container_b2ca13,
@@ -3112,6 +3116,10 @@ strong {
       -ms-user-select: none;
           user-select: none;
   pointer-events: none;
+}
+
+.layerContainer_cd0de5:has(.layer_c9e2da .focusLock_f9a4c9 .carouselModal_c9eb31) {
+  z-index: 1501;
 }
 
 .message_d5deea .role_f9575e {
