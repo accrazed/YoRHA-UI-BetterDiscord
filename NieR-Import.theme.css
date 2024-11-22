@@ -1703,6 +1703,7 @@ foreignObject[mask="url(#svg-mask-status-dnd)"] .status-2DiCMd {
   width: 6px;
 }
 
+.a11y-font-scaled-down .cozy_f9f2ca.wrapper_f9f2ca .header_f9f2ca,
 .cozyMessage_d5deea .header_f9f2ca {
   border-radius: 0;
   display: inline-block !important;
@@ -2002,7 +2003,7 @@ foreignObject[mask="url(#svg-mask-status-dnd)"] .status-2DiCMd {
 
 .chatLayerWrapper_d1c246 .visualMediaItemContainer_cda674:not(.embedImage_b0068a),
 .chatLayerWrapper_d1c246 .inlineMediaEmbed_b0068a.embed_b0068a {
-  width: 100%;
+  width: unset;
 }
 
 .visualMediaItemContainer_cda674,
@@ -2056,6 +2057,10 @@ foreignObject[mask="url(#svg-mask-status-dnd)"] .status-2DiCMd {
 .messagesPopout_ac90a2 .imageWrapper_d4597d,
 .focusLock_f9a4c9 .embedWrapper_b558d0,
 .focusLock_f9a4c9 .imageWrapper_d4597d {
+  width: auto !important;
+}
+
+.imageWrapper_d4597d {
   width: auto !important;
 }
 
