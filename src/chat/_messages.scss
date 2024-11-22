@@ -19,6 +19,7 @@
 	width: 6px;
 }
 // Username label
+.a11y-font-scaled-down .cozy_f9f2ca.wrapper_f9f2ca .header_f9f2ca,
 .cozyMessage_d5deea .header_f9f2ca {
 	border-radius: 0;
 	display: inline-block !important;
@@ -27,6 +28,7 @@
 	margin-left: 13px;
 	box-shadow: 2px 2px 0 $mid, -3px 0 0 $low, -9px 0 0 $high, -21px 0 0 $low, -18px 2px 0 $mid;
 }
+
 // Profile Picture
 .full-motion .avatar_f9f2ca.clickable_f9f2ca {
 	@include boxify($high, $mid, 3px);
