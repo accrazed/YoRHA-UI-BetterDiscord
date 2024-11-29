@@ -65,7 +65,7 @@
 .chatLayerWrapper_d1c246 {
 	.visualMediaItemContainer_cda674:not(.embedImage_b0068a),
 	.inlineMediaEmbed_b0068a.embed_b0068a {
-		width: 100%;
+		width: unset;
 	}
 }
 
@@ -124,4 +124,8 @@
 	.imageWrapper_d4597d {
 		width: auto !important;
 	}
+}
+//Fix for Image stretch in threads
+.imageWrapper_d4597d {
+	width: auto !important;
 }

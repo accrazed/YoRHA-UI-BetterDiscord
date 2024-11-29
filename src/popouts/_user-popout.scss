@@ -16,7 +16,7 @@
 	}
 
 	// janky ass invisible container?
-	.invisibleContainer_d0a252.biteSize_d0a252 {
+	.invisibleContainer_af9888.biteSize_af9888 {
 		display: none;
 	}
 
@@ -32,7 +32,7 @@
 	}
 
 	// thinking text and bubbles
-	.statusBubbleOuter_d0a252 {
+	.statusBubbleOuter_af9888 {
 		max-width: none;
 		max-height: none;
 		border-radius: 0;
@@ -41,49 +41,49 @@
 		margin: 0 0.5em;
 		border: 2px solid $low;
 
-		.content_d0a252 {
+		.content_af9888 {
 			max-height: none !important;
 			overflow: visible;
 			word-wrap: normal;
 		}
 
-		.statusBubble_d0a252 {
+		.statusBubble_af9888 {
 			background-color: $high;
 			border-radius: 0;
 			word-wrap: normal;
 			padding: 0;
 
-			.clamp_d0a252 {
+			.content_af9888 {
 				-webkit-line-clamp: 100;
 				line-clamp: 100;
 			}
 		}
 
-		.statusBubbleWithTextMinWidth_d0a252 {
+		.statusBubbleWithTextMinWidth_af9888 {
 			padding: 0.25em;
 		}
 
-		.singleLineAlign_d0a252 {
+		.singleLineAlign_af9888 {
 			text-align: left;
 		}
 	}
-	.statusBubbleOuter_d0a252:before,
-	.statusBubbleOuter_d0a252:after {
+	.statusBubbleOuter_af9888:before,
+	.statusBubbleOuter_af9888:after {
 		display: none;
 	}
 
 	//edit status buttons on user status hover
-	.popover_bba79b.visible_bba79b {
-		.button_bba79b svg path {
+	.popover_f7be4f.visible_f7be4f.wrapper_f7e168 {
+		.button_f7be4f svg path {
 			fill: $high;
 		}
-		.button_bba79b:hover svg path {
+		.button_f7be4f:hover svg path {
 			fill: $low;
 		}
 	}
 
 	// thinking text
-	.visibleContainer_d0a252.biteSize_d0a252 {
+	.visibleContainer_af9888.biteSize_af9888 {
 		position: relative;
 		top: 0;
 		left: 0;
@@ -122,7 +122,7 @@
 	}
 
 	//"Add Status" container:
-	.addCustomStatusButtonBubble_d0a252.biteSize_d0a252 {
+	.addCustomStatusButtonBubble_af9888.biteSize_af9888 {
 		top: 0;
 		left: 0;
 		width: auto;

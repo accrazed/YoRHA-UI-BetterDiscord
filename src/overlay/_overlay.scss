@@ -14,3 +14,7 @@
 	user-select: none;
 	pointer-events: none;
 }
+//Overwrite for image modals (temporarily placed here)
+.layerContainer_cd0de5:has(.layer_c9e2da .focusLock_f9a4c9 .carouselModal_c9eb31) {
+	z-index: 1501;
+}
