@@ -28,12 +28,12 @@
 		margin: 0.25em;
 
 		// janky ass invisible container?
-		.invisibleContainer_d0a252.panel_d0a252 {
+		.invisibleContainer_af9888.panel_af9888 {
 			display: none;
 		}
 
-		// .invisibleContainer_d0a252.panel_d0a252,
-		.visibleContainer_d0a252.panel_d0a252 {
+		// .invisibleContainer_af9888.panel_af9888,
+		.visibleContainer_af9888.panel_af9888 {
 			display: flex;
 			align-content: center;
 			justify-content: center;
@@ -41,7 +41,7 @@
 		}
 
 		// thinking text and bubbles
-		.statusBubbleOuter_d0a252 {
+		.statusBubbleOuter_af9888 {
 			max-width: none;
 			width: 100%;
 			max-height: none;
@@ -51,19 +51,19 @@
 			border: 2px transparent;
 			background-color: transparent;
 
-			.statusBubble_d0a252 {
+			.statusBubble_af9888 {
 				background-color: transparent;
 				border-radius: 0;
 				word-wrap: normal;
 				padding: 0;
 				//width: fit-content;
 
-				.clamp_d0a252 {
+				.content_af9888 {
 					-webkit-line-clamp: 100;
 				}
 			}
 
-			.content_d0a252 {
+			.content_af9888 {
 				max-height: none !important;
 				overflow: visible;
 				word-wrap: normal;
@@ -78,17 +78,17 @@
 				}
 			}
 
-			.singleLineAlign_d0a252 {
+			.singleLineAlign_af9888 {
 				text-align: center;
 			}
 		}
-		.statusBubbleOuter_d0a252:before,
-		.statusBubbleOuter_d0a252:after {
+		.statusBubbleOuter_af9888:before,
+		.statusBubbleOuter_af9888:after {
 			display: none;
 		}
 
 		//edit status buttons on user status hover
-		.popover_bba79b.visible_bba79b {
+		.popover_f7be4f.visible_f7be4f {
 			.left_bba79b:not(:hover) {
 				path[d='m13.96 5.46 4.58 4.58a1 1 0 0 0 1.42 0l1.38-1.38a2 2 0 0 0 0-2.82l-3.18-3.18a2 2 0 0 0-2.82 0l-1.38 1.38a1 1 0 0 0 0 1.42ZM2.11 20.16l.73-4.22a3 3 0 0 1 .83-1.61l7.87-7.87a1 1 0 0 1 1.42 0l4.58 4.58a1 1 0 0 1 0 1.42l-7.87 7.87a3 3 0 0 1-1.6.83l-4.23.73a1.5 1.5 0 0 1-1.73-1.73Z'] {
 					fill: $high;
@@ -109,7 +109,7 @@
 		}
 
 		// thinking text
-		.visibleContainer_d0a252.panel_d0a252 {
+		.visibleContainer_af9888.panel_af9888 {
 			position: relative;
 			top: 0;
 			left: 0;
