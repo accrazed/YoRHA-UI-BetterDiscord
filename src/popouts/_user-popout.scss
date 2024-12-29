@@ -1,6 +1,8 @@
 // whole container
 .outer_c69a7b {
-	@include boxify($high, $mid, 3px);
+	&:not(.custom-theme-background.custom-profile-theme) {
+		@include boxify($high, $mid, 3px);
+	}
 	padding: 0 !important;
 
 	// weird box that sits over theme colors, under boxes
