@@ -3900,13 +3900,15 @@ foreignObject[mask="url(#svg-mask-status-offline)"] .status_c7d26b {
 }
 
 .outer_c69a7b {
+  padding: 0 !important;
+}
+.outer_c69a7b:not(.custom-theme-background.custom-profile-theme) {
   background: var(--color-high);
   border-radius: 0;
   -webkit-box-shadow: 3px 3px 0 var(--color-mid);
           box-shadow: 3px 3px 0 var(--color-mid);
-  padding: 0 !important;
 }
-.outer_c69a7b:hover {
+.outer_c69a7b:not(.custom-theme-background.custom-profile-theme):hover {
   -webkit-box-shadow: 3px 3px 0 var(--color-mid);
           box-shadow: 3px 3px 0 var(--color-mid);
 }
