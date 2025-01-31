@@ -1219,7 +1219,7 @@ foreignObject[mask="url(#svg-mask-status-dnd)"] .status-2DiCMd {
   width: 12px;
   z-index: 1;
   background-color: var(--color-low);
-  color: var(--color-low);
+  color: var(--color-high);
 }
 .wrapper__2ea32.modeMuted__2ea32 {
   opacity: 50%;
