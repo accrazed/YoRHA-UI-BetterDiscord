@@ -1254,12 +1254,12 @@ foreignObject[mask="url(#svg-mask-status-dnd)"] .status-2DiCMd {
 .wrapper__2ea32 .linkBottom__2ea32:hover .statusText__5cda9 {
   color: var(--color-mid);
 }
-.wrapper__2ea32.typeDefault__2ea32 .linkTop__2ea32, .wrapper__2ea32.typeThread__2ea32 .linkTop__2ea32, .wrapper__2ea32.typeVoice__2ea32 .linkTop__2ea32 {
+.wrapper__2ea32 .linkTop__2ea32 {
   height: 24px;
   padding: 0px 6px;
   background-color: var(--color-high-mid);
 }
-.wrapper__2ea32.typeDefault__2ea32 .linkTop__2ea32::before, .wrapper__2ea32.typeThread__2ea32 .linkTop__2ea32::before, .wrapper__2ea32.typeVoice__2ea32 .linkTop__2ea32::before {
+.wrapper__2ea32 .linkTop__2ea32::before {
   position: absolute;
   content: "";
   width: 100%;
@@ -1277,7 +1277,7 @@ foreignObject[mask="url(#svg-mask-status-dnd)"] .status-2DiCMd {
   -webkit-transform-origin: left;
           transform-origin: left;
 }
-.wrapper__2ea32.typeDefault__2ea32 .linkTop__2ea32::after, .wrapper__2ea32.typeThread__2ea32 .linkTop__2ea32::after, .wrapper__2ea32.typeVoice__2ea32 .linkTop__2ea32::after {
+.wrapper__2ea32 .linkTop__2ea32::after {
   position: absolute;
   content: "";
   width: 100%;
@@ -1294,51 +1294,35 @@ foreignObject[mask="url(#svg-mask-status-dnd)"] .status-2DiCMd {
   -webkit-transform-origin: left;
           transform-origin: left;
 }
-.wrapper__2ea32.typeDefault__2ea32.modeConnected__2ea32 .linkBottom__2ea32::before,
-.wrapper__2ea32.typeDefault__2ea32.modeConnected__2ea32 .linkTop__2ea32::before,
-.wrapper__2ea32.typeDefault__2ea32.modeConnected__2ea32 .linkTop__2ea32::after, .wrapper__2ea32.typeDefault__2ea32.modeSelected__2ea32 .linkBottom__2ea32::before,
-.wrapper__2ea32.typeDefault__2ea32.modeSelected__2ea32 .linkTop__2ea32::before,
-.wrapper__2ea32.typeDefault__2ea32.modeSelected__2ea32 .linkTop__2ea32::after, .wrapper__2ea32.typeDefault__2ea32:hover .linkBottom__2ea32::before,
-.wrapper__2ea32.typeDefault__2ea32:hover .linkTop__2ea32::before,
-.wrapper__2ea32.typeDefault__2ea32:hover .linkTop__2ea32::after, .wrapper__2ea32.typeThread__2ea32.modeConnected__2ea32 .linkBottom__2ea32::before,
-.wrapper__2ea32.typeThread__2ea32.modeConnected__2ea32 .linkTop__2ea32::before,
-.wrapper__2ea32.typeThread__2ea32.modeConnected__2ea32 .linkTop__2ea32::after, .wrapper__2ea32.typeThread__2ea32.modeSelected__2ea32 .linkBottom__2ea32::before,
-.wrapper__2ea32.typeThread__2ea32.modeSelected__2ea32 .linkTop__2ea32::before,
-.wrapper__2ea32.typeThread__2ea32.modeSelected__2ea32 .linkTop__2ea32::after, .wrapper__2ea32.typeThread__2ea32:hover .linkBottom__2ea32::before,
-.wrapper__2ea32.typeThread__2ea32:hover .linkTop__2ea32::before,
-.wrapper__2ea32.typeThread__2ea32:hover .linkTop__2ea32::after, .wrapper__2ea32.typeVoice__2ea32.modeConnected__2ea32 .linkBottom__2ea32::before,
-.wrapper__2ea32.typeVoice__2ea32.modeConnected__2ea32 .linkTop__2ea32::before,
-.wrapper__2ea32.typeVoice__2ea32.modeConnected__2ea32 .linkTop__2ea32::after, .wrapper__2ea32.typeVoice__2ea32.modeSelected__2ea32 .linkBottom__2ea32::before,
-.wrapper__2ea32.typeVoice__2ea32.modeSelected__2ea32 .linkTop__2ea32::before,
-.wrapper__2ea32.typeVoice__2ea32.modeSelected__2ea32 .linkTop__2ea32::after, .wrapper__2ea32.typeVoice__2ea32:hover .linkBottom__2ea32::before,
-.wrapper__2ea32.typeVoice__2ea32:hover .linkTop__2ea32::before,
-.wrapper__2ea32.typeVoice__2ea32:hover .linkTop__2ea32::after {
+.wrapper__2ea32.modeConnected__2ea32 .linkBottom__2ea32::before,
+.wrapper__2ea32.modeConnected__2ea32 .linkTop__2ea32::before,
+.wrapper__2ea32.modeConnected__2ea32 .linkTop__2ea32::after, .wrapper__2ea32.modeSelected__2ea32 .linkBottom__2ea32::before,
+.wrapper__2ea32.modeSelected__2ea32 .linkTop__2ea32::before,
+.wrapper__2ea32.modeSelected__2ea32 .linkTop__2ea32::after, .wrapper__2ea32:hover .linkBottom__2ea32::before,
+.wrapper__2ea32:hover .linkTop__2ea32::before,
+.wrapper__2ea32:hover .linkTop__2ea32::after {
   -webkit-transform: scale(100%, 100%);
           transform: scale(100%, 100%);
 }
-.wrapper__2ea32.typeDefault__2ea32.modeConnected__2ea32 .name__2ea32, .wrapper__2ea32.typeDefault__2ea32.modeSelected__2ea32 .name__2ea32, .wrapper__2ea32.typeDefault__2ea32:hover .name__2ea32, .wrapper__2ea32.typeThread__2ea32.modeConnected__2ea32 .name__2ea32, .wrapper__2ea32.typeThread__2ea32.modeSelected__2ea32 .name__2ea32, .wrapper__2ea32.typeThread__2ea32:hover .name__2ea32, .wrapper__2ea32.typeVoice__2ea32.modeConnected__2ea32 .name__2ea32, .wrapper__2ea32.typeVoice__2ea32.modeSelected__2ea32 .name__2ea32, .wrapper__2ea32.typeVoice__2ea32:hover .name__2ea32 {
+.wrapper__2ea32.modeConnected__2ea32 .name__2ea32, .wrapper__2ea32.modeSelected__2ea32 .name__2ea32, .wrapper__2ea32:hover .name__2ea32 {
   color: var(--color-high);
 }
-.wrapper__2ea32.typeDefault__2ea32.modeConnected__2ea32 .iconContainer__2ea32 .icon__2ea32, .wrapper__2ea32.typeDefault__2ea32.modeSelected__2ea32 .iconContainer__2ea32 .icon__2ea32, .wrapper__2ea32.typeDefault__2ea32:hover .iconContainer__2ea32 .icon__2ea32, .wrapper__2ea32.typeThread__2ea32.modeConnected__2ea32 .iconContainer__2ea32 .icon__2ea32, .wrapper__2ea32.typeThread__2ea32.modeSelected__2ea32 .iconContainer__2ea32 .icon__2ea32, .wrapper__2ea32.typeThread__2ea32:hover .iconContainer__2ea32 .icon__2ea32, .wrapper__2ea32.typeVoice__2ea32.modeConnected__2ea32 .iconContainer__2ea32 .icon__2ea32, .wrapper__2ea32.typeVoice__2ea32.modeSelected__2ea32 .iconContainer__2ea32 .icon__2ea32, .wrapper__2ea32.typeVoice__2ea32:hover .iconContainer__2ea32 .icon__2ea32 {
+.wrapper__2ea32.modeConnected__2ea32 .iconContainer__2ea32 .icon__2ea32, .wrapper__2ea32.modeSelected__2ea32 .iconContainer__2ea32 .icon__2ea32, .wrapper__2ea32:hover .iconContainer__2ea32 .icon__2ea32 {
   background-color: var(--color-high);
   color: var(--color-high);
 }
-.wrapper__2ea32.typeDefault__2ea32.modeConnected__2ea32 .actionIcon_c69b6d path, .wrapper__2ea32.typeDefault__2ea32.modeSelected__2ea32 .actionIcon_c69b6d path, .wrapper__2ea32.typeDefault__2ea32:hover .actionIcon_c69b6d path, .wrapper__2ea32.typeThread__2ea32.modeConnected__2ea32 .actionIcon_c69b6d path, .wrapper__2ea32.typeThread__2ea32.modeSelected__2ea32 .actionIcon_c69b6d path, .wrapper__2ea32.typeThread__2ea32:hover .actionIcon_c69b6d path, .wrapper__2ea32.typeVoice__2ea32.modeConnected__2ea32 .actionIcon_c69b6d path, .wrapper__2ea32.typeVoice__2ea32.modeSelected__2ea32 .actionIcon_c69b6d path, .wrapper__2ea32.typeVoice__2ea32:hover .actionIcon_c69b6d path {
+.wrapper__2ea32.modeConnected__2ea32 .actionIcon_c69b6d path, .wrapper__2ea32.modeSelected__2ea32 .actionIcon_c69b6d path, .wrapper__2ea32:hover .actionIcon_c69b6d path {
   -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s;
   opacity: 1;
   fill: var(--color-high);
 }
-.wrapper__2ea32.typeDefault__2ea32.modeConnected__2ea32.modeLocked__2ea32 .icon__2ea32, .wrapper__2ea32.typeDefault__2ea32.modeConnected__2ea32.typeVoice__2ea32 .icon__2ea32, .wrapper__2ea32.typeDefault__2ea32.modeSelected__2ea32.modeLocked__2ea32 .icon__2ea32, .wrapper__2ea32.typeDefault__2ea32.modeSelected__2ea32.typeVoice__2ea32 .icon__2ea32, .wrapper__2ea32.typeDefault__2ea32:hover.modeLocked__2ea32 .icon__2ea32, .wrapper__2ea32.typeDefault__2ea32:hover.typeVoice__2ea32 .icon__2ea32, .wrapper__2ea32.typeThread__2ea32.modeConnected__2ea32.modeLocked__2ea32 .icon__2ea32, .wrapper__2ea32.typeThread__2ea32.modeConnected__2ea32.typeVoice__2ea32 .icon__2ea32, .wrapper__2ea32.typeThread__2ea32.modeSelected__2ea32.modeLocked__2ea32 .icon__2ea32, .wrapper__2ea32.typeThread__2ea32.modeSelected__2ea32.typeVoice__2ea32 .icon__2ea32, .wrapper__2ea32.typeThread__2ea32:hover.modeLocked__2ea32 .icon__2ea32, .wrapper__2ea32.typeThread__2ea32:hover.typeVoice__2ea32 .icon__2ea32, .wrapper__2ea32.typeVoice__2ea32.modeConnected__2ea32.modeLocked__2ea32 .icon__2ea32, .wrapper__2ea32.typeVoice__2ea32.modeConnected__2ea32.typeVoice__2ea32 .icon__2ea32, .wrapper__2ea32.typeVoice__2ea32.modeSelected__2ea32.modeLocked__2ea32 .icon__2ea32, .wrapper__2ea32.typeVoice__2ea32.modeSelected__2ea32.typeVoice__2ea32 .icon__2ea32, .wrapper__2ea32.typeVoice__2ea32:hover.modeLocked__2ea32 .icon__2ea32, .wrapper__2ea32.typeVoice__2ea32:hover.typeVoice__2ea32 .icon__2ea32 {
+.wrapper__2ea32.modeConnected__2ea32.modeLocked__2ea32 .icon__2ea32, .wrapper__2ea32.modeConnected__2ea32.typeVoice__2ea32 .icon__2ea32, .wrapper__2ea32.modeSelected__2ea32.modeLocked__2ea32 .icon__2ea32, .wrapper__2ea32.modeSelected__2ea32.typeVoice__2ea32 .icon__2ea32, .wrapper__2ea32:hover.modeLocked__2ea32 .icon__2ea32, .wrapper__2ea32:hover.typeVoice__2ea32 .icon__2ea32 {
   color: var(--color-low);
 }
-.wrapper__2ea32.typeDefault__2ea32.modeConnected__2ea32 .linkBottom__2ea32::before,
-.wrapper__2ea32.typeDefault__2ea32.modeConnected__2ea32 .linkTop__2ea32::before, .wrapper__2ea32.typeDefault__2ea32.modeSelected__2ea32 .linkBottom__2ea32::before,
-.wrapper__2ea32.typeDefault__2ea32.modeSelected__2ea32 .linkTop__2ea32::before, .wrapper__2ea32.typeThread__2ea32.modeConnected__2ea32 .linkBottom__2ea32::before,
-.wrapper__2ea32.typeThread__2ea32.modeConnected__2ea32 .linkTop__2ea32::before, .wrapper__2ea32.typeThread__2ea32.modeSelected__2ea32 .linkBottom__2ea32::before,
-.wrapper__2ea32.typeThread__2ea32.modeSelected__2ea32 .linkTop__2ea32::before, .wrapper__2ea32.typeVoice__2ea32.modeConnected__2ea32 .linkBottom__2ea32::before,
-.wrapper__2ea32.typeVoice__2ea32.modeConnected__2ea32 .linkTop__2ea32::before, .wrapper__2ea32.typeVoice__2ea32.modeSelected__2ea32 .linkBottom__2ea32::before,
-.wrapper__2ea32.typeVoice__2ea32.modeSelected__2ea32 .linkTop__2ea32::before {
+.wrapper__2ea32.modeConnected__2ea32 .linkBottom__2ea32::before,
+.wrapper__2ea32.modeConnected__2ea32 .linkTop__2ea32::before, .wrapper__2ea32.modeSelected__2ea32 .linkBottom__2ea32::before,
+.wrapper__2ea32.modeSelected__2ea32 .linkTop__2ea32::before {
   -webkit-transform: scale(100%, 100%);
           transform: scale(100%, 100%);
   -webkit-transition: opacity 0.4s, -webkit-transform 0.4s;
@@ -1350,7 +1334,7 @@ foreignObject[mask="url(#svg-mask-status-dnd)"] .status-2DiCMd {
   background-color: var(--color-low);
   opacity: 0.65;
 }
-.wrapper__2ea32.typeDefault__2ea32.modeConnected__2ea32 .linkTop__2ea32::after, .wrapper__2ea32.typeDefault__2ea32.modeSelected__2ea32 .linkTop__2ea32::after, .wrapper__2ea32.typeThread__2ea32.modeConnected__2ea32 .linkTop__2ea32::after, .wrapper__2ea32.typeThread__2ea32.modeSelected__2ea32 .linkTop__2ea32::after, .wrapper__2ea32.typeVoice__2ea32.modeConnected__2ea32 .linkTop__2ea32::after, .wrapper__2ea32.typeVoice__2ea32.modeSelected__2ea32 .linkTop__2ea32::after {
+.wrapper__2ea32.modeConnected__2ea32 .linkTop__2ea32::after, .wrapper__2ea32.modeSelected__2ea32 .linkTop__2ea32::after {
   -webkit-transition: -webkit-transform 0.75s;
   transition: -webkit-transform 0.75s;
   transition: transform 0.75s;
@@ -1360,11 +1344,11 @@ foreignObject[mask="url(#svg-mask-status-dnd)"] .status-2DiCMd {
   -webkit-transform-origin: right;
           transform-origin: right;
 }
-.wrapper__2ea32.typeDefault__2ea32 .unread__2ea32.unreadImportant__2ea32 ~ div .icon__2ea32, .wrapper__2ea32.typeThread__2ea32 .unread__2ea32.unreadImportant__2ea32 ~ div .icon__2ea32, .wrapper__2ea32.typeVoice__2ea32 .unread__2ea32.unreadImportant__2ea32 ~ div .icon__2ea32 {
+.wrapper__2ea32 .unread__2ea32.unreadImportant__2ea32 ~ div .icon__2ea32 {
   color: var(--color-alert);
   background-color: var(--color-alert);
 }
-.wrapper__2ea32.typeDefault__2ea32 .unread__2ea32.unreadImportant__2ea32 ~ div .name__2ea32, .wrapper__2ea32.typeThread__2ea32 .unread__2ea32.unreadImportant__2ea32 ~ div .name__2ea32, .wrapper__2ea32.typeVoice__2ea32 .unread__2ea32.unreadImportant__2ea32 ~ div .name__2ea32 {
+.wrapper__2ea32 .unread__2ea32.unreadImportant__2ea32 ~ div .name__2ea32 {
   color: var(--color-alert);
 }
 .wrapper__2ea32::before {

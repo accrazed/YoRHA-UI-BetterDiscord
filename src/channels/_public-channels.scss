@@ -102,9 +102,9 @@
 	// ------------------- TEXT+VOICE CHANNELS ----------------------------
 
 	// Base block + border. hold the text
-	&.typeDefault__2ea32,
-	&.typeThread__2ea32,
-	&.typeVoice__2ea32 {
+	//&.typeDefault__2ea32,
+	//&.typeThread__2ea32,
+	//&.typeVoice__2ea32 {
 		// LinkTop is the main body
 		.linkTop__2ea32 {
 			height: 24px;
@@ -202,7 +202,7 @@
 				color: $alert;
 			}
 		}
-	}
+	//}
 
 	// SELECTOR CHANNEL ---------------------------------------------
 	&::before {
