@@ -1,67 +1,67 @@
 .theme-dark {
-	.payment_a28a08,
-	.paginator_f66684 {
+	.payment_e9cb00,
+	.paginator__01014 {
 		background: transparent;
 	}
 	.codeRedemptionRedirect-3SBiCp,
 	.divider-3APUjw,
-	.paymentHeader_a28a08,
-	.bottomDivider_f66684 {
+	.paymentHeader_e9cb00,
+	.bottomDivider__01014 {
 		border: none;
 	}
-	.externalRowHeader_f66684,
-	.pageIndicator_d6a4eb,
+	.externalRowHeader__01014,
+	.pageIndicator__2d021,
 	.activeBreadcrumb__56acd,
 	.breadcrumbWrapper__75797,
-	.giftIcon_a28a08,
-	.summaryInfo_a28a08,
-	.sectionHeader_d96f24,
-	.subText_edf4d6,
-	.descriptionWrapper_ede133,
-	.description_ede133 {
+	.giftIcon_e9cb00,
+	.summaryInfo_e9cb00,
+	.sectionHeader_f0c2ea,
+	.subText__0eeee,
+	.descriptionWrapper__43963,
+	.description__43963 {
 		color: $low;
 	}
-	.pageIndicator_d6a4eb {
+	.pageIndicator__2d021 {
 		border-bottom: 2px solid $low;
 		border-top: 2px solid $low;
 	}
-	.pageButtonNext_d6a4eb,
-	.pageButtonPrev_d6a4eb {
+	.pageButtonNext__2d021,
+	.pageButtonPrev__2d021 {
 		border-radius: 0;
 		border: 2px solid $low;
 		border-color: $low;
 	}
-	.defaultIndicator_ede133 {
+	.defaultIndicator__43963 {
 		background-color: $alert;
 		border-radius: 0;
 		color: $high;
 	}
 	.codeRedemptionRedirect-3SBiCp,
-	.paymentPane_f66684 {
+	.paymentPane__01014 {
 		@include boxify($high, $mid, 4px);
 		color: $low;
 	}
-	.expandedInfo_a28a08 {
+	.expandedInfo_e9cb00 {
 		@include boxify($low, $mid, 4px);
 
-		.paymentText_a28a08,
-		.paymentHeader_a28a08 {
+		.paymentText_e9cb00,
+		.paymentHeader_e9cb00 {
 			color: $high;
 		}
 	}
-	.paymentHeader_a28a08 {
+	.paymentHeader_e9cb00 {
 		margin-top: 0;
 		padding-top: 10px;
 	}
-	.hoverablePayment_a28a08 {
-		.giftIcon_a28a08,
-		.summaryInfo_a28a08 {
+	.hoverablePayment_e9cb00 {
+		.giftIcon_e9cb00,
+		.summaryInfo_e9cb00 {
 			color: $low;
 		}
 		&:hover {
 			background-color: $low;
-			.giftIcon_a28a08,
-			.summaryInfo_a28a08 {
+			.giftIcon_e9cb00,
+			.summaryInfo_e9cb00 {
 				color: $high;
 			}
 		}

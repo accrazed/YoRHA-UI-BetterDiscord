@@ -2,7 +2,7 @@
 // https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/TopRoleEverywhere
 // Latest update for v3.0.50
 
-.message_d5deea .role_f9575e {
+.message__5126c .role_dfa8b6 {
 	border-radius: 0;
 	padding: 4px 0;
 	transition: all 0.3s ease;
@@ -13,13 +13,13 @@
 		border-radius: 0;
 		margin: 0;
 	}
-	.roleName_e4010c {
+	.roleName__48c1c {
 		color: $low;
 		transition: all 0.3s ease;
 		margin: 0;
 		width: 0;
 	}
-	&:hover .roleName_e4010c {
+	&:hover .roleName__48c1c {
 		margin-left: 3px;
 		width: 100%;
 	}

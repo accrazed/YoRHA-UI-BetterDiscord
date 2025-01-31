@@ -5,7 +5,7 @@
 }
 // Transparencies
 .theme-dark .separator-2lLxgC,
-.theme-dark .footer_f82cc7,
+.theme-dark .footer_dbca3c,
 .theme-dark .footer-31IekZ {
 	background-color: transparent;
 	box-shadow: none;
@@ -29,25 +29,25 @@
 .h5-2RwDNl,
 .footer-31IekZ,
 .uploadIcon-2wV7s_,
-.colorMuted_d1aa77,
-.colorHeaderPrimary_d1aa77,
-.colorHeaderSecondary_d1aa77 {
+.colorMuted_c9946a,
+.colorHeaderPrimary_c9946a,
+.colorHeaderSecondary_c9946a {
 	color: $low;
 }
 .anchor-1MIwyf {
 	color: $alert;
 }
 // start from template / create my own
-.container-x8Y1ix .defaultColor_a595eb {
+.container-x8Y1ix .defaultColor__4bd52 {
 	color: $high;
 }
 // You've been invited to join a server
-.container_ed5743 {
-	.title_f9c402 {
+.container__9b0f4 {
+	.title_fa285e {
 		color: $low;
 	}
 }
-.iconActiveLarger_a64689 {
+.iconActiveLarger_f34534 {
 	border-radius: 0;
 }
 // Join a server
@@ -58,7 +58,7 @@
 .rowContainer-3t7486 {
 	border-radius: 0;
 	background-color: $low;
-	.defaultColor_a595eb {
+	.defaultColor__4bd52 {
 		color: $high;
 	}
 
@@ -70,38 +70,38 @@
 	color: $low;
 }
 // Upload Image
-.theme-dark .uploadModal_f82cc7 {
+.theme-dark .uploadModal_dbca3c {
 	@include boxify($high, $mid, 6px);
-	.scrollableContainer_d0696b {
+	.scrollableContainer__74017 {
 		box-shadow: none;
 		border: 3px solid $low;
 	}
 }
 // Image popout carousel
-.modal_aee8c6.root_f9a4c9,
-.carouselModal_d2b9a1.root_f9a4c9 {
+.modal_b0827a.root__49fc1,
+.carouselModal_d2b9a1.root__49fc1 {
 	background: none !important;
 	box-shadow: none !important;
 	.wrapper_fb6520,
-	.wrapper_b6f1f8 {
+	.wrapper__21d85 {
 		width: auto;
 		.downloadLink_fb6520,
-		.text_e31053 {
+		.text__96e72 {
 			color: $high !important;
 		}
 	}
 }
-.arrowContainer_ad2a08 {
+.arrowContainer__31873 {
 	background-color: $alert;
 }
 // Drag and drop upload
-.uploadModalIn_f82cc7 .uploadDropModal_f82cc7 {
-	.inner_f82cc7 .instructions_f82cc7,
-	.inner_f82cc7 {
+.uploadModalIn_dbca3c .uploadDropModal_dbca3c {
+	.inner_dbca3c .instructions_dbca3c,
+	.inner_dbca3c {
 		border: none;
 		color: $low;
 	}
-	.bgScale_f82cc7 {
+	.bgScale_dbca3c {
 		@include boxify($high, $mid, 4px);
 	}
 }
@@ -109,7 +109,7 @@
 	border: 2px solid $low;
 	border-radius: 0;
 
-	&.checked_cebd1c {
+	&.checked__87bf1 {
 		border: 2px solid $low !important;
 		background-color: $high;
 
@@ -123,12 +123,12 @@
 	@include boxify($high, $mid, 6px);
 
 	&,
-	.colorHeaderPrimary_d1aa77,
-	.colorHeaderSecondary_d1aa77,
+	.colorHeaderPrimary_c9946a,
+	.colorHeaderSecondary_c9946a,
 	.h5-2RwDNl {
 		color: $low;
 	}
-	.lookLink_dd4f85.colorBrand_dd4f85 {
+	.lookLink__201d5.colorBrand__201d5 {
 		color: $alert;
 	}
 	.qrCodeContainer-1qlybH,
@@ -137,15 +137,15 @@
 	}
 }
 // CTRL K
-.quickswitcher_f4e139 {
+.quickswitcher_ac6cb0 {
 	@include boxify($high, $mid, 5px);
-	.input_f4e139 {
+	.input_ac6cb0 {
 		color: $high;
 		background: $low;
 		border-radius: 0;
 		box-shadow: none;
 	}
-	.icon_e3c1c6 {
+	.icon__71961 {
 		height: 13px;
 		width: 13px;
 		background-color: $low;
@@ -155,12 +155,12 @@
 		border-radius: 0;
 
 		.note-3TX9O7,
-		.misc_e3c1c6,
-		.contentUnread_e3c1c6,
-		.contentDefault_e3c1c6 {
+		.misc__71961,
+		.contentUnread__71961,
+		.contentDefault__71961 {
 			color: $high;
 		}
-		.icon_e3c1c6 {
+		.icon__71961 {
 			background-color: $high;
 			path {
 				fill: $high;
@@ -170,7 +170,7 @@
 }
 // Invite Friends to Server
 .theme-dark {
-	.lookLink_dd4f85.colorGrey-2DXtkV,
+	.lookLink__201d5.colorGrey-2DXtkV,
 	.footerText-2QLGHU {
 		color: $low;
 	}
@@ -182,7 +182,7 @@
 
 		&:hover {
 			background: $low;
-			.lookLink_dd4f85.colorGrey-2DXtkV,
+			.lookLink__201d5.colorGrey-2DXtkV,
 			.inviteRowName-3H4s_c {
 				color: $high;
 			}
@@ -225,27 +225,27 @@
 	}
 }
 // Notification settings
-.theme-dark .modal_c97cbd {
+.theme-dark .modal__7f8f5 {
 	@include boxify($high, $mid, 4px);
 }
 // Reactions
-.reaction_ec6b19 {
+.reaction__23977 {
 	border-radius: 0;
 	@include boxify($high, $mid, 3px);
 
-	&.reactionMe_ec6b19 {
+	&.reactionMe__23977 {
 		background-color: $low;
 
-		.reactionCount_ec6b19 {
+		.reactionCount__23977 {
 			color: $high;
 		}
 	}
 }
 
 // Focused Prompts
-.theme-dark .focusLock_f9a4c9 {
-	.root_f9a4c9,
-	.root_f9a4c9 * {
+.theme-dark .focusLock__49fc1 {
+	.root__49fc1,
+	.root__49fc1 * {
 		box-shadow: none;
 		border-radius: 0px;
 	}
@@ -253,15 +253,15 @@
 		display: none;
 	}
 	.modalCloseButton_e1cc86,
-	.modalClose_e5da2b,
-	.closeButton_e89716 {
+	.modalClose__19236,
+	.closeButton__527b1 {
 		z-index: 2;
 		color: $high;
 		top: 4px;
 		right: 4px;
 	}
-	.header_f9a4c9:before,
-	.header_e5da2b:before {
+	.header__49fc1:before,
+	.header__19236:before {
 		display: flex;
 		content: '';
 		height: 16px;
@@ -274,7 +274,7 @@
 		align-self: center;
 		justify-self: center;
 	}
-	.header_f9a4c9 {
+	.header__49fc1 {
 		padding: 4px 12px 4px 12px;
 		background-color: $low;
 		border-radius: 0px;
@@ -282,11 +282,11 @@
 			align-items: baseline;
 			margin: 0px 0px 0px 12px;
 		}
-		.heading-lg\/semibold_dc00ef {
+		.heading-lg\/semibold_cf4812 {
 			margin-left: 12px !important;
 		}
 		.headerText_e1cc86,
-		.defaultColor_e42ec6 {
+		.defaultColor__5345c {
 			text-transform: uppercase;
 			letter-spacing: 4px;
 			color: $high;
@@ -298,13 +298,13 @@
 			padding: 0px;
 		}
 	}
-	.content_e5da2b:has(> .header_e5da2b) {
+	.content__19236:has(> .header__19236) {
 		&::-webkit-scrollbar {
 			display: none;
 		}
 		padding-right: 32px !important;
 	}
-	.header_e5da2b {
+	.header__19236 {
 		&:before {
 			margin-right: 12px;
 			margin-left: 12px;
@@ -317,36 +317,36 @@
 		height: 42px;
 		align-items: center;
 		background-color: $low;
-		&.defaultColor_e42ec6 {
+		&.defaultColor__5345c {
 			text-transform: uppercase;
 			letter-spacing: 4px;
 			color: $high;
 		}
 	}
-	.small_f9a4c9 {
-		&:has(> .header_d0585c) {
+	.small__49fc1 {
+		&:has(> .header__62280) {
 			width: 600px;
 		}
 		//Specificity for forward message prompt
-		.header_d0585c.header_d0585c {
+		.header__62280.header__62280 {
 			padding: 4px 12px 4px 12px;
 			background-color: $low;
 			border-radius: 0px;
 			display: flex;
 			flex-direction: column;
-			.titleLine_d0585c {
+			.titleLine__62280 {
 				display: flex;
 				flex-direction: row;
-				.title_d0585c {
+				.title__62280 {
 					grid-column: 2;
 					margin: 0 0 0 12px;
-					.defaultColor_a595eb,
-					.defaultColor_e42ec6 {
+					.defaultColor__4bd52,
+					.defaultColor__5345c {
 						margin-left: 0 !important;
 						color: $high !important;
 					}
 				}
-				.closeButton_d0585c {
+				.closeButton__62280 {
 					z-index: 2;
 					color: $high;
 					top: 4px;
@@ -354,7 +354,7 @@
 				}
 			}
 			//Search bar
-			.container_c18ec9 {
+			.container_a45028 {
 				grid-column: 1 / span 2;
 				color: $high !important;
 				text-align: left;
@@ -363,7 +363,7 @@
 			&::before {
 				content: none;
 			}
-			.titleLine_d0585c::before {
+			.titleLine__62280::before {
 				grid-column: 1;
 				display: block;
 				content: '';
@@ -379,11 +379,11 @@
 			}
 		}
 		//Specificity for report message prompt
-		.header_e89716 {
+		.header__527b1 {
 			flex-direction: row;
-			.defaultColor_e42ec6,
-			.text-md\/normal_dc00ef {
-				&:not(.text-md\/normal_dc00ef) {
+			.defaultColor__5345c,
+			.text-md\/normal_cf4812 {
+				&:not(.text-md\/normal_cf4812) {
 					text-transform: uppercase;
 					letter-spacing: 4px;
 				}
@@ -392,7 +392,7 @@
 			}
 		}
 		//Specificty for "how was your xyz" prompt //can't actually finish this cuz I don't have a reliable way to bring up the prompt
-		.headerContainer_b58b14 {
+		.headerContainer__6c12c {
 			&::before {
 				grid-column: 1;
 			}
@@ -401,36 +401,36 @@
 	}
 	//Share screen container
 	.modalSize_e1cc86 {
-		.segmentContainer_d7ec26 {
+		.segmentContainer_a2de16 {
 			//container holding the tabs
-			.divider_bcb954 {
+			.divider__33f29 {
 				display: none;
 			}
-			.segmentControl_d7ec26 {
+			.segmentControl_a2de16 {
 				padding: 0px;
 			}
-			.tabContainer_a18ec1 {
+			.tabContainer__9e06a {
 				//margin-top: 4px;
 				height: 42px;
 				justify-content: space-around;
 				border-bottom: 2px solid;
 				border-color: $low;
-				.tabItem_a18ec1 {
+				.tabItem__9e06a {
 					display: flex;
 					background-color: $mid-trans;
 					padding: 0px 32px 0px 6px;
 					margin: 7px 0;
 					height: 24px;
 					align-self: center;
-					.text-sm\/medium_dc00ef {
+					.text-sm\/medium_cf4812 {
 						color: $low;
 						align-self: center;
 					}
-					&.tabItemSelected_a18ec1 {
+					&.tabItemSelected__9e06a {
 						background-color: $low;
 						height: 100%;
 						box-shadow: inset 0 4px 0 0 $high;
-						.text-sm\/medium_dc00ef {
+						.text-sm\/medium_cf4812 {
 							color: $high;
 							align-self: baseline;
 							padding-top: 6px;
@@ -439,22 +439,22 @@
 				}
 			}
 		}
-		.sourceContainer_d7ec26 {
+		.sourceContainer_a2de16 {
 			padding: 0;
 		}
 	}
 	// Message Preview
-	.message_ddcc45 {
+	.message__89466 {
 		border-radius: 0;
 		border: 1px solid $low;
 		background-color: $high;
 		box-shadow: none;
 	}
 	// Pro tip
-	.pro_b5053a {
+	.pro__30cbe {
 		color: $alert !important;
 	}
-	.footer_f9a4c9 {
+	.footer__49fc1 {
 		position: relative;
 		padding: 25px 0 25px 0; /* Adjust as needed */
 		background-color: $high; /* box background color */
@@ -472,8 +472,8 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: space-evenly;
-		.lookFilled_dd4f85::before,
-		.lookLink_dd4f85::before {
+		.lookFilled__201d5::before,
+		.lookLink__201d5::before {
 			display: block;
 			content: '';
 			height: 16px;
@@ -484,8 +484,8 @@
 			min-width: 16px;
 			background-color: $low;
 		}
-		.lookFilled_dd4f85::after,
-		.lookLink_dd4f85::after {
+		.lookFilled__201d5::after,
+		.lookLink__201d5::after {
 			content: '';
 			position: absolute;
 			top: 50%;
@@ -500,8 +500,8 @@
 			transition: opacity 0.175s ease-in-out;
 			pointer-events: none; //Needed so the hover behavior doesn't trigger when you pass the mouse over where the pointer itself would be
 		}
-		.lookFilled_dd4f85:hover::before,
-		.lookLink_dd4f85:hover::before {
+		.lookFilled__201d5:hover::before,
+		.lookLink__201d5:hover::before {
 			display: block;
 			content: '';
 			height: 16px;
@@ -509,12 +509,12 @@
 			background-color: $high;
 			color: $high;
 		}
-		.lookFilled_dd4f85:hover::after,
-		.lookLink_dd4f85:hover::after {
+		.lookFilled__201d5:hover::after,
+		.lookLink__201d5:hover::after {
 			opacity: 1;
 		}
-		.lookFilled_dd4f85,
-		.lookLink_dd4f85 {
+		.lookFilled__201d5,
+		.lookLink__201d5 {
 			display: flex;
 			background-color: $mid-trans;
 			border-radius: 0px;
@@ -524,30 +524,30 @@
 			min-height: 0px;
 			padding: 0 0 0 8px;
 			justify-content: left;
-			.contents_dd4f85 {
+			.contents__201d5 {
 				color: $low;
 				margin: 0 0 0 12px;
 			}
 		}
-		.lookFilled_dd4f85,
-		.lookLink_dd4f85 {
-			&:hover:not(.checkboxWrapper_f6cde8, .checkboxWrapper_f6cde8 *) {
+		.lookFilled__201d5,
+		.lookLink__201d5 {
+			&:hover:not(.checkboxWrapper_f525d3, .checkboxWrapper_f525d3 *) {
 				box-shadow: 3px 3px $mid-trans;
 				background-color: $low !important;
-				.contents_dd4f85 {
+				.contents__201d5 {
 					pointer-events: none;
 					color: $high !important;
 				}
 			}
 		}
-		.checkboxWrapper_f6cde8 {
+		.checkboxWrapper_f525d3 {
 			flex: none;
 		}
 
-		&.footerWithMessage_d0585c {
+		&.footerWithMessage__62280 {
 			flex-direction: column;
 			padding: 0;
-			.textArea_bdf0de {
+			.textArea__74017 {
 				background-color: $mid-trans;
 			}
 		}

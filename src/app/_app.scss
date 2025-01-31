@@ -1,14 +1,14 @@
 // Transparencies
-.app_a01fb1,
-.bg_d4b6c5,
+.app__160d8,
+.bg__960e4,
 body,
-.appMount_ea7e65 {
+.appMount__51fd7 {
 	background-color: transparent;
 }
-.wordmarkWindows_a934d8 {
+.wordmarkWindows__421ed {
 	color: transparent;
 }
-.wordmarkWindows_a934d8::before {
+.wordmarkWindows__421ed::before {
 	content: 'For the Glory of Mankind';
 	font-size: 12px;
 	position: fixed;
@@ -22,8 +22,8 @@ body,
 }
 
 // Scrollbars
-.thin_eed6a8,
-.auto_eed6a8 {
+.thin__99f8c,
+.auto__99f8c {
 	&::-webkit-scrollbar {
 		width: 6px;
 	}
@@ -38,32 +38,32 @@ body,
 		background-color: transparent;
 	}
 }
-.thin_eed6a8::-webkit-scrollbar-track {
+.thin__99f8c::-webkit-scrollbar-track {
 	background: transparent;
 }
 // Close/Minimize/Maximize buttons
-.winButtonClose_a934d8:hover {
+.winButtonClose__421ed:hover {
 	transition: background-color 0.2s, color 0.2s ease;
 	color: $high;
 	background: $alert;
 }
-.winButtonMinMax_a934d8:hover {
+.winButtonMinMax__421ed:hover {
 	transition: background-color 0.2s, color 0.2s ease;
 	color: $high;
 	background: $low;
 }
-.withFrame_a934d8 {
+.withFrame__421ed {
 	margin-top: 0;
 	padding-top: 4px;
 }
 // Input text
-.emojiRowText_dc1809 {
+.emojiRowText_e7d73e {
 	color: $mid;
 }
-.theme-dark .emojiAliasPlaceholder_dc1809 {
+.theme-dark .emojiAliasPlaceholder_e7d73e {
 	color: $low;
 }
-.theme-dark .emojiRow_dc1809 .emojiAliasInput_dc1809 > .input_f8bc55 {
+.theme-dark .emojiRow_e7d73e .emojiAliasInput_e7d73e > .input__0f084 {
 	background-color: $high;
 	border-radius: 0;
 	border: 2px solid $low;
@@ -81,44 +81,45 @@ body,
 // Buttons
 .theme-dark .button__33db6,
 .theme-dark .watchButton-2v6cPT,
-.theme-dark .lookFilled_dd4f85.colorPrimary_dd4f85,
-.lookInverted-2D7oAl.colorGreen_dd4f85,
-.lookInverted-2D7oAl.colorBrand_dd4f85,
-.lookFilled_dd4f85.colorBrand_dd4f85,
+.theme-dark .lookFilled__201d5.colorPrimary__201d5,
+.lookInverted-2D7oAl.colorGreen__201d5,
+.lookInverted-2D7oAl.colorBrand__201d5,
+.lookFilled__201d5.colorBrand__201d5,
 .container-x8Y1ix,
-.primaryButton_a35965,
-.secondaryButton_a35965,
-.lookOutlined_dd4f85.colorGreen_dd4f85,
-.lookOutlined_dd4f85.colorBrand_dd4f85,
-.lookFilled_dd4f85.colorPrimary_dd4f85,
-.lookFilled_dd4f85.colorGrey-2DXtkV,
-.button_f9d37d,
-.custom-profile-theme .themeColor_f9d37d.primary_f9d37d,
-.lookFilled_dd4f85.colorBrand_dd4f85:disabled {
+
+.primaryButton_af3b89,
+.secondaryButton_af3b89,
+.lookOutlined__201d5.colorGreen__201d5,
+.lookOutlined__201d5.colorBrand__201d5,
+.lookFilled__201d5.colorPrimary__201d5,
+.lookFilled__201d5.colorGrey-2DXtkV,
+.button_fb7f94,
+.custom-profile-theme .themeColor_fb7f94.primary_fb7f94,
+.lookFilled__201d5.colorBrand__201d5:disabled {
 	@include buttonify($low, $high, $mid, $high);
 }
 #bd-settingspane-container .bd-pfbtn, // PRE-BETA BBD: WILL BE DEPRECIATED SOON
-.theme-dark .lookOutlined_dd4f85.colorPrimary_dd4f85,
+.theme-dark .lookOutlined__201d5.colorPrimary__201d5,
 .jumpButton-JkYoYK,
-.button_adcaac.buttonColor_adcaac.buttonActive_adcaac,
-.lookFilled_dd4f85.colorGreen_dd4f85,
-.lookFilled_dd4f85.colorRed_dd4f85,
-.lookOutlined_dd4f85.colorRed_dd4f85 {
+.button_e131a9.buttonColor_e131a9.buttonActive_e131a9,
+.lookFilled__201d5.colorGreen__201d5,
+.lookFilled__201d5.colorRed__201d5,
+.lookOutlined__201d5.colorRed__201d5 {
 	@include buttonify($alert, $high, $low, $high);
 }
-.lookOutlined_dd4f85.colorWhite-rEQuAQ {
+.lookOutlined__201d5.colorWhite-rEQuAQ {
 	@include buttonify($alert, $high, $high, $low);
 }
 
 // Slider / Toggle switch
-.container_cebd1c {
+.container__87bf1 {
 	background-color: $low !important;
 	border-radius: 0;
 }
-.input_cebd1c {
+.input__87bf1 {
 	border-radius: 0;
 }
-.slider_cebd1c rect {
+.slider__87bf1 rect {
 	fill: $high;
 	rx: 0;
 	ry: 4;
@@ -155,20 +156,20 @@ body,
 	}
 }
 
-.colorDefault_d90b3d.focused_d90b3d .caret_d90b3d,
-.colorDefault_d90b3d.focused_d90b3d .checkbox_d90b3d,
-.colorDefault_d90b3d.focused_d90b3d .radioSelection_d90b3d,
-.colorDefault_d90b3d.focused_d90b3d .subtext_d90b3d {
+.colorDefault_c1e9c4.focused_c1e9c4 .caret_c1e9c4,
+.colorDefault_c1e9c4.focused_c1e9c4 .checkbox_c1e9c4,
+.colorDefault_c1e9c4.focused_c1e9c4 .radioSelection_c1e9c4,
+.colorDefault_c1e9c4.focused_c1e9c4 .subtext_c1e9c4 {
 	color: $high;
 }
 
-.colorDefault_d90b3d .checkbox_d90b3d,
-.colorDefault_d90b3d .radioSelection_d90b3d {
+.colorDefault_c1e9c4 .checkbox_c1e9c4,
+.colorDefault_c1e9c4 .radioSelection_c1e9c4 {
 	color: $alert;
 }
 
-.colorDefault_d90b3d .check_d90b3d,
-.colorDefault_d90b3d.focused_d90b3d {
+.colorDefault_c1e9c4 .check_c1e9c4,
+.colorDefault_c1e9c4.focused_c1e9c4 {
 	color: $mid;
 }
 
@@ -201,7 +202,7 @@ body,
 		background-color: $low;
 		color: $high;
 
-		.colorStandard_d1aa77,
+		.colorStandard_c9946a,
 		.subtitle_e9c087 {
 			color: $high;
 		}
@@ -212,7 +213,7 @@ body,
 	}
 }
 // Pulley bar
-.barFill_c7a159 {
+.barFill_a562c8 {
 	background: $alert;
 }
 .theme-dark .bar-1Bhnl9 {

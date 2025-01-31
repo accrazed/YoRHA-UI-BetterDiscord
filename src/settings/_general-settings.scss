@@ -1,11 +1,11 @@
 // Transparencies
-.layer_d4b6c5,
+.layer__960e4,
 .scroller_ff90b2,
-.contentRegion_c25c6d,
-.sidebarRegionScroller_c25c6d,
-.side_a0 .separator-2wx7h6,
-.contentRegionScroller_c25c6d,
-.standardSidebarView_c25c6d {
+.contentRegion__23e6b,
+.sidebarRegionScroller__23e6b,
+.side_b3f026 .separator-2wx7h6,
+.contentRegionScroller__23e6b,
+.standardSidebarView__23e6b {
 	background-color: transparent;
 }
 .theme-dark .row-1Tg75B,
@@ -18,10 +18,10 @@
 // X button
 .theme-dark {
 	.markValue-2U_-UG,
-	.keybind_df5532 {
+	.keybind_c2b141 {
 		color: $low;
 	}
-	.closeButton_df5532 {
+	.closeButton_c2b141 {
 		transition: background-color 0.2s;
 		border-color: $low;
 		&:hover {
@@ -33,11 +33,11 @@
 	}
 }
 // Headers
-.h1_c46f6a,
+.h1_b717a1,
 .h2-1EaYVL {
 	@include titlify(2px, 4px);
 }
-.h5_c46f6a {
+.h5_b717a1 {
 	@include titlify(2px, 2px);
 }
 
@@ -46,11 +46,11 @@
 	display: none;
 }
 
-.side_a0 .separator_a0 {
+.side_b3f026 .separator_b3f026 {
 	visibility: hidden;
 }
 
-.radioIconForeground_eb92a8 {
+.radioIconForeground__001a7 {
 	//dot in the center of selected setting
 	fill: var(--color-alert);
 }

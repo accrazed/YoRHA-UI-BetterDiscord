@@ -13,7 +13,7 @@
 .category_d7acc7 {
 	@include buttonify($high, $low, $low, $high);
 
-	&:hover .defaultColor_a595eb {
+	&:hover .defaultColor__4bd52 {
 		color: $high;
 	}
 }

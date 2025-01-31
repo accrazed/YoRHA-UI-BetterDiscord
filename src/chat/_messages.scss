@@ -1,14 +1,14 @@
 // Transparencies
-.chatContent_a7d72e,
-.theme-dark .form_a7d72e:before,
-.container_cbd271,
-.chat_a7d72e {
+.chatContent_f75fb0,
+.theme-dark .form_f75fb0:before,
+.container_c8ffbb,
+.chat_f75fb0 {
 	background: transparent;
 }
-.mentioned_d5deea:before {
+.mentioned__5126c:before {
 	width: 0;
 }
-.divider_c2654d {
+.divider__908e2 {
 	border-color: $alert;
 }
 // Scrollbar
@@ -19,8 +19,8 @@
 	width: 6px;
 }
 // Username label
-.a11y-font-scaled-down .cozy_f9f2ca.wrapper_f9f2ca .header_f9f2ca,
-.cozyMessage_d5deea .header_f9f2ca {
+.a11y-font-scaled-down .cozy_c19a55.wrapper_c19a55 .header_c19a55,
+.cozyMessage__5126c .header_c19a55 {
 	border-radius: 0;
 	display: inline-block !important;
 	padding: 4px 5px 4px 6px;
@@ -30,7 +30,7 @@
 }
 
 // Profile Picture
-.full-motion .avatar_f9f2ca.clickable_f9f2ca {
+.full-motion .avatar_c19a55.clickable_c19a55 {
 	@include boxify($high, $mid, 3px);
 
 	&:hover {
@@ -39,23 +39,23 @@
 	}
 }
 // Date stamp
-.isUnread_c2654d .content_c2654d,
-.unreadPill_c2654d,
-.content_c2654d {
+.isUnread__908e2 .content__908e2,
+.unreadPill__908e2,
+.content__908e2 {
 	border-radius: 0;
 	background-color: $alert;
 	color: $high;
 }
-.unreadPillCapStroke_c2654d {
+.unreadPillCapStroke__908e2 {
 	color: $alert;
 	fill: $alert;
 }
 // Quotes
-.blockquoteContainer_f8f345 .blockquoteDivider_f8f345 {
+.blockquoteContainer__75297 .blockquoteDivider__75297 {
 	border-radius: 0;
 	background-color: $low;
 }
-.emptyChannelIcon_c2668b {
+.emptyChannelIcon__00de6 {
 	background-image: url('https://svgur.com/i/RGT.svg');
 	@include remask('https://svgur.com/i/RGT.svg', $mid);
 	margin: auto;
@@ -64,12 +64,12 @@
 }
 // Mentions
 .theme-dark {
-	.mentioned_d5deea {
-		.anchor_af404b {
+	.mentioned__5126c {
+		.anchor_edefb8 {
 			text-shadow: 1px 1px 2px $low, 0 0 25px $high, 0 0 5px $alert;
 		}
 	}
-	.wrapper_bf1b19.interactive {
+	.wrapper_f61d60.interactive {
 		// mention text
 		background: $alert-trans;
 		border-radius: 0px;
@@ -80,14 +80,14 @@
 		}
 	}
 }
-// .mentioned_d5deea .messageContent_f9f2ca a,
-// .wrapper_bf1b19,
-// .roleMention_f8f345,
+// .mentioned__5126c .messageContent_c19a55 a,
+// .wrapper_f61d60,
+// .roleMention__75297,
 // .mention {
 // 	color: rgb(218, 212, 187);
 // }
 // Replies
-.mouse-mode.full-motion .replying_d5deea {
+.mouse-mode.full-motion .replying__5126c {
 	&,
 	&:hover {
 		background-color: $alert-trans;
@@ -96,7 +96,7 @@
 		background-color: $alert;
 	}
 }
-.backgroundFlash_d5deea {
+.backgroundFlash__5126c {
 	transition: background-color 0.1s;
 	background-color: $alert-trans !important;
 }
@@ -104,17 +104,17 @@
 	background-color: transparent !important;
 	transition: background-color 0.5s;
 }
-.colorBrand_d1aa77 {
+.colorBrand_c9946a {
 	color: $alert;
 }
-.repliedMessage_f9f2ca:before {
+.repliedMessage_c19a55:before {
 	border-left: var(--spine-width) solid $low;
 	border-bottom: 0 solid $low;
 	border-right: 0 solid $low;
 	border-top: var(--spine-width) solid $low;
 	border-radius: 0;
 }
-.replyBadge_f9f2ca {
+.replyBadge_c19a55 {
 	border-radius: 0;
 	border: 1px solid $low;
 }
@@ -122,13 +122,13 @@
 .spoilerText-2G40u0 {
 	border-radius: 0;
 }
-.spoilerMarkdownContent_aa9639.hidden_aa9639,
-.theme-dark .spoilerText-2G40u0.hidden_aa9639 {
+.spoilerMarkdownContent__54ab5.hidden__54ab5,
+.theme-dark .spoilerText-2G40u0.hidden__54ab5 {
 	background-color: $low;
 }
 // You're viewing older messages /// X+ new messages since
-.newMessagesBar_cf58b5,
-.jumpToPresentBar_cf58b5 {
+.newMessagesBar__0f481,
+.jumpToPresentBar__0f481 {
 	box-shadow: none;
 	background-color: $alert;
 	border-radius: 0;
@@ -137,30 +137,30 @@
 	}
 }
 // Edit Message
-.scrollableContainer_d0696b {
+.scrollableContainer__74017 {
 	@include boxify($high, $mid, 3px);
 }
-.theme-dark .operations_baf0d6 {
+.theme-dark .operations_bab751 {
 	color: $low;
 	& > a {
 		color: $alert;
 	}
 }
-.codeBlockSyntax_cdb578,
-.syntaxAfter_cdb578,
-.syntaxBefore_cdb578 {
+.codeBlockSyntax_ada32f,
+.syntaxAfter_ada32f,
+.syntaxBefore_ada32f {
 	color: $alert;
 }
 // Timestamps
-.compact_f9f2ca .headerText_f9f2ca {
+.compact_c19a55 .headerText_c19a55 {
 	border-right: 2px dashed $alert;
 }
-.compact_f9f2ca .timestamp_f9f2ca,
-.cozy_f9f2ca .timestamp_f9f2ca.alt_f9f2ca {
+.compact_c19a55 .timestamp_c19a55,
+.cozy_c19a55 .timestamp_c19a55.alt_c19a55 {
 	margin-right: 0;
 	width: auto;
 }
 //Launcher button next to message field
-.button_df39bd {
+.button_e6e74f {
 	border-radius: 0px;
 }

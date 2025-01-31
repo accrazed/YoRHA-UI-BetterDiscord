@@ -1,48 +1,48 @@
 // Inbox
 
 // Transparencies
-.messageContainer_ddb5b4,
-.messages_c06487,
-.header_ac90a2 {
+.messageContainer__95796,
+.messages__1ccd1,
+.header__45690 {
 	background-color: transparent;
 }
 
 // Base container
-.messagesPopoutWrap_ac90a2,
+.messagesPopoutWrap__45690,
 .container__23c08,
-.container_f1c3d9 {
+.container__2692d {
 	@include boxify($high, $mid, 3px);
 
-	.channel_d09ffd,
-	.container_ddb5b4 {
+	.channel__427f0,
+	.container__95796 {
 		box-sizing: border-box;
 		padding: 4px 0;
 		margin: 4px;
 		border: 2px solid $low;
 		background-color: $high;
 
-		.channelHeader_f3978e {
+		.channelHeader__35a7e {
 			padding: 1em;
 			background-color: $high;
 
-			.collapseButton_d09ffd {
+			.collapseButton__427f0 {
 				order: -1;
 				position: relative;
 				color: $low;
 			}
 		}
 
-		.repliedMessage_f9f2ca,
-		.container_d76df7,
-		.markup_f8f345,
-		.messages_c06487 {
+		.repliedMessage_c19a55,
+		.container__235ca,
+		.markup__75297,
+		.messages__1ccd1 {
 			color: $low;
 		}
-		.subtextContainer_f3978e {
+		.subtextContainer__35a7e {
 			color: $low !important;
 		}
 
-		.channelName_f3978e svg {
+		.channelName__35a7e svg {
 			height: 12px;
 			width: 12px;
 			margin-right: 6px;

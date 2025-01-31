@@ -1,48 +1,48 @@
-.menu_d90b3d {
+.menu_c1e9c4 {
 	@include boxify($low, $mid, 3px);
 
-	.scroller_d90b3d {
-		.separator_d90b3d {
+	.scroller_c1e9c4 {
+		.separator_c1e9c4 {
 			display: none;
 		}
-		.item_d90b3d {
+		.item_c1e9c4 {
 			margin: 0;
 		}
-		.colorDefault_d90b3d,
-		.labelContainer_d90b3d {
+		.colorDefault_c1e9c4,
+		.labelContainer_c1e9c4 {
 			@include buttonify($low, $high, $high, $low);
 
-			.subtext_d90b3d,
-			.defaultColor_a595eb {
+			.subtext_c1e9c4,
+			.defaultColor__4bd52 {
 				color: $high;
 			}
 
-			&:hover .subtext_d90b3d {
+			&:hover .subtext_c1e9c4 {
 				color: $mid;
 			}
-			&:hover .defaultColor_a595eb {
+			&:hover .defaultColor__4bd52 {
 				color: $low;
 			}
 		}
 
-		.caret_d90b3d {
+		.caret_c1e9c4 {
 			color: $mid;
 		}
-		.submenuPaddingContainer_d90b3d {
+		.submenuPaddingContainer_c1e9c4 {
 			padding: 0;
 		}
 
 		// Specifically react buttons in context menu
-		.button_a24e84 {
+		.button_f563df {
 			@include buttonify($low, $high, $high, $low);
 		}
 	}
 }
 // activity
-.theme-dark .secondaryButton_a35965 .secondaryText_a35965 {
+.theme-dark .secondaryButton_af3b89 .secondaryText_a35965 {
 	color: $high;
 }
-.primaryButton_a35965 .contents_dd4f85 {
+.primaryButton_af3b89 .contents__201d5 {
 	div {
 		color: $high !important;
 	}
@@ -51,25 +51,25 @@
 		fill: $high !important;
 	}
 }
-.popout_a35965 {
+.popout_af3b89 {
 	@include boxify($high, $mid, 3px);
 
-	.interactionsContainer_a35965,
-	.popoutContentWrapper_a35965 {
+	.interactionsContainer_af3b89,
+	.popoutContentWrapper_af3b89 {
 		padding: 0.5em;
 	}
 
-	.hero_a35965 {
+	.hero_af3b89 {
 		background: $low !important;
 
-		.popoutHeroBody_a35965 {
-			.lineClamp1_a595eb,
-			.popoutHeroTextPrimary_a35965,
-			.tabularNumbers_a595eb,
-			.badgeLabel_d60c6d {
+		.popoutHeroBody_af3b89 {
+			.lineClamp1__4bd52,
+			.popoutHeroTextPrimary_af3b89,
+			.tabularNumbers__4bd52,
+			.badgeLabel__635ed {
 				color: $high !important;
 			}
-			.badgeContainer_d60c6d path {
+			.badgeContainer__635ed path {
 				fill: $high !important;
 			}
 		}
@@ -78,13 +78,13 @@
 
 // set status
 // invisible
-foreignObject[mask='url(#svg-mask-status-offline)'] .status_c7d26b {
+foreignObject[mask='url(#svg-mask-status-offline)'] .status_a423bd {
 	background-color: $mid !important;
 }
 // context popouts / tooltips
-.tooltipPrimary_b6c360 {
+.tooltipPrimary__382e7 {
 	@include boxify($high, $mid, 2px);
 }
-.tooltipPointer_b6c360 {
+.tooltipPointer__382e7 {
 	display: none;
 }

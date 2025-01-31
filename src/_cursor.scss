@@ -2,19 +2,19 @@
 #app-mount,
 .title-3hptVQ,
 .modeDefault-2fEh7a,
-.container_fc4f04,
+.container__9293f,
 [role='menu'], //idk why this needed to be specified, but there were deadzones in some menus
-.titleBar_a934d8 {
+.titleBar__421ed {
 	cursor: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/cursors/Hack_Normal_Select_v2.cur'),
 		default !important;
 }
 // Text
-.timestamp_f9f2ca,
+.timestamp_c19a55,
 .searchBar-zdmu7v,
-.contents_f9f2ca,
+.contents_c19a55,
 textarea,
-.textAreaSlate_d0696b div div,
-.textAreaSlate_bdf0de div div,
+.textAreaSlate__74017 div div,
+.textAreaSlate__74017 div div,
 input {
 	cursor: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/cursors/Hack_Text_Select_v2.cur'),
 		default !important;
@@ -24,36 +24,36 @@ a,
 button,
 .button,
 .link,
-.folder_bc7085, //Server Folders
+.folder__48112, //Server Folders
 .item-3eFBNF,
 .css-gvi9bl-control,
 .css-rzbxvl-option,
 .css-1ba14n5-option,
 .css-ku6vh5-indicatorContainer,
-.avatar_f9f2ca,
+.avatar_c19a55,
 .fileInput-2wWHbw,
-.container_cebd1c,
+.container__87bf1,
 .input-2XRLou,
 .profileBadge_b64375,
 .item-1OdjEX,
-.container_b2ca13 .avatar_b2ca13,
-.wrapper_c5f96a,
-.result_e3c1c6,
+.container__37e49 .avatar__37e49,
+.wrapper_cc5dd2,
+.result__71961,
 .labelClickable-eiZOrp,
-.buttonWrapper_f9af59,
+.buttonWrapper__24af7,
 .button_Jt-tIg, //Read all Notifications plugin
-.nameTag_b2ca13, //Nametag bottom left
-.hoverRoll_e07331, //Status below nametag, bottom left
+.nameTag__37e49, //Nametag bottom left
+.hoverRoll__0263c, //Status below nametag, bottom left
 .friendsOnline_2JkivW, //Friend Notifications plugin
-.basicChannelRowLink_d8bfb3, //Tabs at the top of server channels, probably
-.header_fd6364, //Server header
+.basicChannelRowLink__2ea32, //Tabs at the top of server channels, probably
+.header_f37cb1, //Server header
 .channelTabs-newTab, //Channel tabs Plugin
 .channelTabs-closeTab, //Channel Tabs Plugin
-.themed_a0, //I forgot what this one was
-.peopleListItem_d51464, //Friends list
-.voiceSectionDetails_cd82a7, //active now section in friends list
+.themed_b3f026, //I forgot what this one was
+.peopleListItem_cc6179, //Friends list
+.voiceSectionDetails__00943, //active now section in friends list
 .applicationStreamingHoverWrapper_cd82a7, //hovering over stream in active now section
-.button_a24e84, //quick emote react on message right click
+.button_f563df, //quick emote react on message right click
 [role='menuitem'],
 [role='menuitemcheckbox'],
 [role='menuitemradio'],
@@ -66,12 +66,12 @@ button,
 label,
 .item-2idW98,
 .additionalActionsIcon-1FoUlE,
-.clickable_d808b0:hover .layout_d808b0,
-.clickable_d808b0:hover .layout_d808b0,
-.actionIcon_f6f816,
+.clickable__91a9d:hover .layout__91a9d,
+.clickable__91a9d:hover .layout__91a9d,
+.actionIcon_c69b6d,
 .clickable__2869d,
-.cursorPointer_a7d72e, //Why is this an entire class?
-.labelClickable_f6cde8,
+.cursorPointer_f75fb0, //Why is this an entire class?
+.labelClickable_f525d3,
 .friendsTable-133bsv .friendsRow-2yicud {
 	cursor: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/cursors/Hack_Link_Select_v2.cur'),
 		default !important;
@@ -84,10 +84,10 @@ label,
 // Disabled
 .disabled,
 .innerDisabled__37f59,
-.disabled_d6a4eb,
+.disabled__2d021,
 .disabled-2qTmnp,
-.modeLocked_d8bfb3,
-.modeLocked_d8bfb3 .mainContent-20q_Hp {
+.modeLocked__2ea32,
+.modeLocked__2ea32 .mainContent-20q_Hp {
 	cursor: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/cursors/Hack_Unavailable_v2.cur'),
 		default !important;
 }

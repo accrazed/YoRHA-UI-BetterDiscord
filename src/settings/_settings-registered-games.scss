@@ -5,27 +5,27 @@
 		@include boxify($low, $mid, 4px);
 
 		.overlayStatusText__668e1,
-		.gameName_fd966d,
-		.lastPlayed_fd966d {
+		.gameName_cc46f0,
+		.lastPlayed_cc46f0 {
 			color: $high;
 		}
 	}
-	.game_fd966d {
+	.game_cc46f0 {
 		box-shadow: none;
 	}
 	.member-1q7VfX .name-8yzEIY,
 	.member-1q7VfX .roleWrapper-1Hde_V,
 	.css-hsd1lu-singleValue,
-	.nowPlayingAdd_fd966d,
-	.gameName_fd966d,
-	.lastPlayed_fd966d {
+	.nowPlayingAdd_cc46f0,
+	.gameName_cc46f0,
+	.lastPlayed_cc46f0 {
 		color: $low;
 	}
-	.card_ffe375:before {
+	.card_b846e5:before {
 		background: transparent;
 		border: none;
 	}
-	.card_ffe375:hover {
+	.card_b846e5:hover {
 		&:before {
 			border: none;
 			@include boxify($low, $mid, 4px);
@@ -35,25 +35,25 @@
 		.description-30xx7u,
 		.labelDescriptor-34wZ-z,
 		.h5-2RwDNl,
-		.gameName_fd966d,
-		.lastPlayed_fd966d,
-		.actionButton_e4010c,
+		.gameName_cc46f0,
+		.lastPlayed_cc46f0,
+		.actionButton__48c1c,
 		.tag-1YGWN9,
 		.roleWrapper-1Hde_V,
 		.overlayStatusText__668e1 {
 			color: $high;
 		}
-		.gameNameInput_fd966d:focus,
-		.gameNameInput_fd966d:hover {
+		.gameNameInput_cc46f0:focus,
+		.gameNameInput_cc46f0:hover {
 			border-radius: 0;
 			background: $high;
 			color: $low;
 		}
-		&.toggleIcon_fd966d {
+		&.toggleIcon_cc46f0 {
 			//needs fixing
 			color: $high;
 		}
-		.actionButton_e4010c {
+		.actionButton__48c1c {
 			border-color: $high;
 		}
 	}

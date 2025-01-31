@@ -4,19 +4,19 @@
 }
 // Category titles
 .bd-sidebar-header h2,
-.side_a0 .header_a0 {
+.side_b3f026 .header_b3f026 {
 	color: $low;
 	@include titlify(1px, 3px);
 }
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item, // PRE-BETA BBD: WILL BE DEPRECIATED SOON
-.side_a0 .item_a0 {
+.side_b3f026 .item_b3f026 {
 	transition: color 0.2s;
 	border-radius: 0;
 	margin: 2px 0;
 	background-color: transparent !important;
 
 	// Animation
-	.themed-2-lozF.selected_a0,
+	.themed-2-lozF.selected_b3f026,
 	&:hover.themed-2-lozF {
 		background-color: transparent !important;
 		height: 32px;
@@ -39,7 +39,7 @@
 	// Selected channel
 	&[style*="color: rgb(255, 255, 255);"],
     &.selected, // PRE-BETA BBD: WILL BE DEPRECIATED SOON
-    &.selected_a0,
+    &.selected_b3f026,
     &:hover {
 		color: $high !important;
 		box-shadow: 0 1px $low, 0 -1px $low;

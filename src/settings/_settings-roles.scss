@@ -1,9 +1,9 @@
 // Transparencies
-.stickyHeaderElevated_bd05f1,
-.titleContainer_e87574 {
+.stickyHeaderElevated_c6bf1b,
+.titleContainer_e29cd7 {
 	background-color: transparent;
 }
-.titleElevated_e87574 {
+.titleElevated_e29cd7 {
 	box-shadow: none;
 }
 // Unsaved changes alert
@@ -12,13 +12,13 @@
 	@include boxify($high, $mid, 3px);
 
 	.contents-18-Yxp span,
-	.message_b6cd66 {
+	.message_fcf29c {
 		color: $low !important;
 	}
 }
 
 // Default Permissions
-.container_cc7b67 {
+.container_d8f25b {
 	@include boxify($high, $mid, 3px);
 }
 
@@ -42,30 +42,30 @@
 }
 
 // Edit Role
-.header_bd05f1 {
+.header_c6bf1b {
 	margin-top: 48px;
 	padding: 16px 8px;
 	@include boxify($high, $mid, 4px);
 }
-.cozy_f9f2ca .timestamp_f9f2ca {
+.cozy_c19a55 .timestamp_c19a55 {
 	color: $low;
 }
-.theme-dark .lookFilled_dd4f85.colorGrey-2DXtkV {
+.theme-dark .lookFilled__201d5.colorGrey-2DXtkV {
 	background-color: $low;
 	color: $high;
 }
 .top-K_jibn .brand-3g5E0C {
-	&.item_a0:active,
-	&.selected_a0.item_a0 {
+	&.item_b3f026:active,
+	&.selected_b3f026.item_b3f026 {
 		border-bottom-color: $alert;
 	}
-	&.item_a0:hover {
+	&.item_b3f026:hover {
 		border-bottom-color: $mid;
 	}
 }
-.warning_bc1f7a {
+.warning__6436f {
 	color: $low;
 }
-.theme-dark .tooltip-14MtrL .colorStandard_d1aa77 {
+.theme-dark .tooltip-14MtrL .colorStandard_c9946a {
 	color: $high;
 }

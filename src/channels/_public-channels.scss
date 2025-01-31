@@ -1,46 +1,46 @@
 // Transparencies
-.unread_d8bfb3,
-.theme-dark .container_ee69e0,
-.theme-dark .container_b2ca13,
-.panels_a4d4d9,
-.theme-dark .container_b2ca13,
-.wrapper_d8bfb3:hover .link_d8bfb3,
-.modeSelected_d8bfb3 .link_d8bfb3,
-.modeSelected_d8bfb3:hover .link_d8bfb3 {
+.unread__2ea32,
+.theme-dark .container__2637a,
+.theme-dark .container__37e49,
+.panels_c48ade,
+.theme-dark .container__37e49,
+.wrapper__2ea32:hover .link__2ea32,
+.modeSelected__2ea32 .link__2ea32,
+.modeSelected__2ea32:hover .link__2ea32 {
 	background: transparent;
 }
-.header_fd6364 {
+.header_f37cb1 {
 	box-shadow: none;
 }
 // Unread messages notification
-.unread_edf32f {
+.unread__3b95d {
 	color: $high;
 	@include boxify($alert, $mid, 3px);
 }
 // User info
-.button_adcaac {
+.button_e131a9 {
 	@include buttonify(transparent, $low, $low, $high);
 
-	.lottieIcon_f73ef7 {
+	.lottieIcon__5eb9b {
 		--__lottieIconColor: currentColor !important;
 	}
-	&:hover .lottieIcon_f73ef7 :not(defs *)[fill][fill-opacity] {
+	&:hover .lottieIcon__5eb9b :not(defs *)[fill][fill-opacity] {
 		fill: $high !important;
 	}
 }
 // Channel hover/select animations
-.wrapper_d8bfb3 {
+.wrapper__2ea32 {
 	padding: 0;
 	margin-left: 15px;
 	// -------------------- ICONS / TEXT ------------------------------
 	// channel name
-	.name_d8bfb3 {
+	.name__2ea32 {
 		transition: color 0.2s;
 	}
 	// Square icon
-	.iconContainer_d8bfb3 {
+	.iconContainer__2ea32 {
 		align-self: center;
-		.icon_d8bfb3 {
+		.icon__2ea32 {
 			transition: color 0.2s, background-color 0.2s;
 			height: 12px;
 			width: 12px;
@@ -49,31 +49,31 @@
 			color: $low;
 		}
 	}
-	&.modeMuted_d8bfb3 {
+	&.modeMuted__2ea32 {
 		opacity: 50%;
 	}
 
 	// Voice icon and lock icons should show
-	&.modeLocked_d8bfb3,
-	&.typeVoice_d8bfb3 {
-		.icon_d8bfb3 {
+	&.modeLocked__2ea32,
+	&.typeVoice__2ea32 {
+		.icon__2ea32 {
 			color: $high;
 		}
 	}
 	// Channel icons on side
-	.actionIcon_f6f816 {
+	.actionIcon_c69b6d {
 		color: $high;
 	}
 	// ------------------------ STRUCTURE ----------------------------
 
 	// VERY IMPORTANT. Padding must be zero or we get subpixel errors
-	.link_d8bfb3 {
+	.link__2ea32 {
 		margin: 9px 0px;
 		padding: 0;
 	}
 
 	// Not sure?
-	.content_cc29d1 {
+	.content__65844 {
 		height: 28px;
 		margin-left: 0;
 		border-radius: 0;
@@ -81,19 +81,19 @@
 		padding: 0px 8px;
 	}
 
-	.linkBottom_d8bfb3 {
+	.linkBottom__2ea32 {
 		margin: 0;
 
-		.hoverable_e66732 {
-			.pencilIcon_e66732,
-			.statusText_e66732 {
+		.hoverable__5cda9 {
+			.pencilIcon__5cda9,
+			.statusText__5cda9 {
 				color: $low;
 			}
 		}
 
 		&:hover {
-			.pencilIcon_e66732,
-			.statusText_e66732 {
+			.pencilIcon__5cda9,
+			.statusText__5cda9 {
 				color: $mid;
 			}
 		}
@@ -102,18 +102,18 @@
 	// ------------------- TEXT+VOICE CHANNELS ----------------------------
 
 	// Base block + border. hold the text
-	&.typeDefault_d8bfb3,
-	&.typeThread_d8bfb3,
-	&.typeVoice_d8bfb3 {
+	&.typeDefault__2ea32,
+	&.typeThread__2ea32,
+	&.typeVoice__2ea32 {
 		// LinkTop is the main body
-		.linkTop_d8bfb3 {
+		.linkTop__2ea32 {
 			height: 24px;
 			padding: 0px 6px;
 			background-color: $high-mid;
 		}
 
 		// the main grower
-		.linkTop_d8bfb3::before {
+		.linkTop__2ea32::before {
 			position: absolute;
 			content: '';
 			width: 100%;
@@ -127,7 +127,7 @@
 			transform-origin: left;
 		}
 		// grower border
-		.linkTop_d8bfb3::after {
+		.linkTop__2ea32::after {
 			position: absolute;
 			content: '';
 			width: 100%;
@@ -141,43 +141,43 @@
 			transform-origin: left;
 		}
 
-		&.modeConnected_d8bfb3,
-		&.modeSelected_d8bfb3,// When hovering and selecting
+		&.modeConnected__2ea32,
+		&.modeSelected__2ea32,// When hovering and selecting
 		&:hover {
 			// grow border and body
-			.linkBottom_d8bfb3::before,
-			.linkTop_d8bfb3::before,
-			.linkTop_d8bfb3::after {
+			.linkBottom__2ea32::before,
+			.linkTop__2ea32::before,
+			.linkTop__2ea32::after {
 				transform: scale(100%, 100%);
 			}
 
 			// invert name and icons
-			.name_d8bfb3 {
+			.name__2ea32 {
 				color: $high;
 			}
-			.iconContainer_d8bfb3 {
-				.icon_d8bfb3 {
+			.iconContainer__2ea32 {
+				.icon__2ea32 {
 					background-color: $high;
 					color: $high;
 				}
 			}
-			.actionIcon_f6f816 path {
+			.actionIcon_c69b6d path {
 				transition: opacity 0.5s;
 				opacity: 1;
 				fill: $high;
 			}
-			&.modeLocked_d8bfb3,
-			&.typeVoice_d8bfb3 {
-				.icon_d8bfb3 {
+			&.modeLocked__2ea32,
+			&.typeVoice__2ea32 {
+				.icon__2ea32 {
 					color: $low;
 				}
 			}
 		}
 		// When selected
-		&.modeConnected_d8bfb3,
-		&.modeSelected_d8bfb3 {
-			.linkBottom_d8bfb3::before,
-			.linkTop_d8bfb3::before {
+		&.modeConnected__2ea32,
+		&.modeSelected__2ea32 {
+			.linkBottom__2ea32::before,
+			.linkTop__2ea32::before {
 				transform: scale(100%, 100%);
 				transition: transform 0.4s, opacity 0.4s;
 				animation: none;
@@ -185,7 +185,7 @@
 				opacity: 0.65;
 			}
 
-			.linkTop_d8bfb3::after {
+			.linkTop__2ea32::after {
 				transition: transform 0.75s;
 				transform: scale(0%, 100%);
 				transform-origin: right;
@@ -193,12 +193,12 @@
 		}
 
 		// Unread channels will override
-		.unread_d8bfb3.unreadImportant_d8bfb3 ~ div {
-			.icon_d8bfb3 {
+		.unread__2ea32.unreadImportant__2ea32 ~ div {
+			.icon__2ea32 {
 				color: $alert;
 				background-color: $alert;
 			}
-			.name_d8bfb3 {
+			.name__2ea32 {
 				color: $alert;
 			}
 		}
@@ -221,10 +221,10 @@
 		transition: opacity 0.175s ease-in-out;
 		opacity: 0;
 	}
-	&:not(.modeSelected_d8bfb3):hover::before {
+	&:not(.modeSelected__2ea32):hover::before {
 		opacity: 1;
 	}
-	&.modeSelected_d8bfb3::before {
+	&.modeSelected__2ea32::before {
 		content: '';
 		position: absolute;
 		left: -30px;
@@ -239,7 +239,7 @@
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
-	&.modeSelected_d8bfb3::after {
+	&.modeSelected__2ea32::after {
 		content: '';
 		position: absolute;
 		left: -30px;
@@ -254,15 +254,15 @@
 		background-repeat: no-repeat;
 	}
 }
-.list_a478e5 {
+.list_c3cd7d {
 	//Container that holds users in the VC
 	margin-top: 1.5px; //fix for some awkward bumping between the borders
 }
 
 // Entire channels list container
-.container_ee69e0 {
+.container__2637a {
 	// selector backdrop
-	.content_eed6a8::before {
+	.content__99f8c::before {
 		content: '';
 		position: absolute;
 		left: 0px;
@@ -276,7 +276,7 @@
 	}
 
 	// selector backdrop for threads
-	.container_e1e976::before {
+	.container__5b40b::before {
 		content: '';
 		position: absolute;
 		left: 25px;
@@ -290,13 +290,13 @@
 }
 
 //Banner at the top of server channel list
-.hasBanner_fd6364.bannerVisible_fd6364 {
+.hasBanner_f37cb1.bannerVisible_f37cb1 {
 	z-index: 2;
 }
 
-.scroller_c43953 {
+.scroller__629e4 {
 	//container that holds actual channels
-	.content_eed6a8 {
+	.content__99f8c {
 		margin-left: 20px;
 		//padding-left: 15px;
 		//background-color: $mid-trans;
@@ -304,31 +304,31 @@
 }
 
 // Voice channel limits
-.wrapper_a5bc92 {
+.wrapper__260e1 {
 	border-radius: 0;
 	border: 1px solid $mid;
 	height: 18px;
-	.users_a5bc92 {
+	.users__260e1 {
 		padding-left: 4px;
 		z-index: 1;
 	}
-	.total_a5bc92 {
+	.total__260e1 {
 		background-color: $alert;
 		color: $high;
 		z-index: 2;
 	}
-	.total_a5bc92::after {
+	.total__260e1::after {
 		border-right-color: $alert;
 	}
 }
-.base_a4d4d9 {
+.base_c48ade {
 	border-radius: 0;
 }
 // Thread splines
-.spineBorder_e1e976 {
+.spineBorder__5b40b {
 	background: transparent;
 }
-.spine_e1e976 {
+.spine__5b40b {
 	z-index: 2;
 	left: 6px;
 	top: 6.5px;
@@ -341,16 +341,16 @@
 		display: none;
 	}
 
-	&:has(~ .typeThread_d8bfb3:hover),
-	&:has(~ .typeThread_d8bfb3.modeSelected_d8bfb3) {
+	&:has(~ .typeThread__2ea32:hover),
+	&:has(~ .typeThread__2ea32.modeSelected__2ea32) {
 		background-color: $high;
 		color: $high;
 	}
 }
 
-.typeThread_d8bfb3 .link_d8bfb3 {
+.typeThread__2ea32 .link__2ea32 {
 	margin-left: 0;
 }
-.typeThread_d8bfb3 .name_d8bfb3.overflow_a82120 {
+.typeThread__2ea32 .name__2ea32.overflow__82b15 {
 	left: 24px;
 }
