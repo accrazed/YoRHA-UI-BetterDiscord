@@ -2,34 +2,34 @@
 .wrapper_dc0b29 {
 	background: transparent;
 }
-.header_ac90a2,
-.header_c6ee36 {
+.header__45690,
+.header_c0e32c {
 	box-shadow: none;
 }
-.popoutContainer_cf58b5 // Clicking an emote
+.popoutContainer__0f481 // Clicking an emote
 {
 	@include boxify($high, $mid, 3px);
 }
-.full-motion .wrapper_f7e168:hover,
-.wrapper_f7e168 // Options when hovering over message
+.full-motion .wrapper_f7ecac:hover,
+.wrapper_f7ecac // Options when hovering over message
 {
 	@include boxify($low, $mid, 3px);
 
-	.button_f7e168 {
+	.button_f7ecac {
 		@include buttonify($low, $high, $high, $low);
 	}
 }
 // Selected tab in header
-.theme-dark .header_f0cd33 .tabBar_f0cd33 .tab_f0cd33.active_f0cd33 {
+.theme-dark .header_ab6641 .tabBar_ab6641 .tab_ab6641.active_f0cd33 {
 	background-color: $alert;
 	color: $high;
 }
 // Pick emoji
-.contentWrapper_af5dbb {
+.contentWrapper__08434 {
 	border: 1px solid $low;
 	@include boxify($high, $mid, 4px);
 }
-.emojiItem_fbfedd.emojiItemSelected_fbfedd {
+.emojiItem_fc7141.emojiItemSelected_fc7141 {
 	background: $low;
 	border-radius: 0;
 }
@@ -40,48 +40,48 @@
 		color: $mid;
 	}
 }
-.navButtonActive_af5dbb {
+.navButtonActive__08434 {
 	background-color: $low;
 	color: $high;
 	border-radius: 0;
 }
 // Pick Sticker
-.stickerInspected_a708c4 .inspectedIndicator_a708c4 {
+.stickerInspected_c6367b .inspectedIndicator_c6367b {
 	background-color: $low;
 }
 // Autocomplete in chatbox
 .theme-dark {
-	.contentTitle_bcc24e strong,
+	.contentTitle__13533 strong,
 	.content-Qb0rXO {
 		color: $low;
 	}
-	.divider_bcc24e::after {
+	.divider__13533::after {
 		background-color: $low;
 	}
-	.autocomplete_bcc24e {
+	.autocomplete__13533 {
 		@include boxify($high, $mid, 4px);
 
-		.descriptionDiscriminator_bcc24e {
+		.descriptionDiscriminator__13533 {
 			color: $mid;
 		}
 		.description-11DmNu,
 		.descriptionUsername-J_75O8,
-		.contentTitle_bcc24e {
+		.contentTitle__13533 {
 			color: $low;
 		}
 	}
 	// Autocomplete hovered item
-	.selected_ae3c77 {
+	.selected_e681d1 {
 		background-color: $low;
 		border-radius: 0;
 
-		.colorInteractiveNormal_d1aa77,
-		.colorInteractiveActive_d1aa77,
-		.colorStandard_d1aa77,
+		.colorInteractiveNormal_c9946a,
+		.colorInteractiveActive_c9946a,
+		.colorStandard_c9946a,
 		.content-Qb0rXO,
 		.description-11DmNu,
 		.descriptionUsername-J_75O8,
-		.contentTitle_bcc24e {
+		.contentTitle__13533 {
 			color: $high;
 		}
 
@@ -91,7 +91,7 @@
 		}
 	}
 }
-.autocompleteRow_bcc24e {
+.autocompleteRow__13533 {
 	padding: 0;
 }
 
@@ -106,17 +106,17 @@
 }
 
 // Ping everyone warning
-.theme-dark .contentWarningPopout_fa823b {
+.theme-dark .contentWarningPopout_be95d0 {
 	@include boxify($high, $mid, 3px);
 
-	.footer_fa823b {
+	.footer_be95d0 {
 		background-color: transparent;
 	}
 
-	.buttonHint_fa823b,
-	.buttonHint_fa823b strong,
-	.header_fa823b,
-	.body_fa823b {
+	.buttonHint_be95d0,
+	.buttonHint_be95d0 strong,
+	.header_be95d0,
+	.body_be95d0 {
 		color: $low;
 	}
 }

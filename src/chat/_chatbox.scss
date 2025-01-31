@@ -1,17 +1,17 @@
 // Transparencies
-.container_a6d69a,
-.container_d1c246:not(.container_d1c246.floating_d1c246),
-.theme-dark .form_a7d72e:before {
+.container_f369db,
+.container__01ae2:not(.container__01ae2.floating__01ae2),
+.theme-dark .form_f75fb0:before {
 	background: transparent;
 }
-.container_d1c246.floating_d1c246 {
+.container__01ae2.floating__01ae2 {
 	background-color: $high-mid;
 }
 // Type box
-.channelTextArea_d0696b {
+.channelTextArea__74017 {
 	width: 100%;
 }
-.channelTextArea_a7d72e {
+.channelTextArea_f75fb0 {
 	border-radius: 0;
 	margin-left: 21px;
 	box-shadow: -3px 0 0 $low, -9px 0 0 $high, -21px 0 0 $low, -18px 3px 0 $mid, 3px 3px 0 $mid;
@@ -19,16 +19,16 @@
 .placeholder__443e5 {
 	color: $mid;
 }
-.cooldownWrapper_d7ebeb {
+.cooldownWrapper_b21699 {
 	color: $low !important;
 }
 // Buttons
-.attachButton_f298d4 {
+.attachButton__0923f {
 	padding: {
 		left: 10px;
 		right: 10px;
 	}
-	&:hover .attachButtonPlus_f298d4 {
+	&:hover .attachButtonPlus__0923f {
 		transition: fill 0.1s ease-in-out;
 		fill: $mid;
 	}

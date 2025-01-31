@@ -13,7 +13,7 @@
 		gap: 0px;
 	}
 
-	.mask_d5fdb1 {
+	.mask__68edb {
 		// pfp mask around banner
 		mask circle {
 			display: none;
@@ -23,17 +23,17 @@
 		padding-right: 40px;
 	}
 
-	.header_a823cd {
+	.header__537ec {
 		padding: 0;
 		margin: 0.25em;
 
 		// janky ass invisible container?
-		.invisibleContainer_af9888.panel_af9888 {
+		.invisibleContainer_af9888.panel_ab8609 {
 			display: none;
 		}
 
-		// .invisibleContainer_af9888.panel_af9888,
-		.visibleContainer_af9888.panel_af9888 {
+		// .invisibleContainer_af9888.panel_ab8609,
+		.visibleContainer_af9888.panel_ab8609 {
 			display: flex;
 			align-content: center;
 			justify-content: center;
@@ -58,12 +58,12 @@
 				padding: 0;
 				//width: fit-content;
 
-				.content_af9888 {
+				.content_ab8609 {
 					-webkit-line-clamp: 100;
 				}
 			}
 
-			.content_af9888 {
+			.content_ab8609 {
 				max-height: none !important;
 				overflow: visible;
 				word-wrap: normal;
@@ -72,7 +72,7 @@
 				align-items: center;
 				background-color: $high;
 				padding-right: 5px;
-				.emoji_ad923e {
+				.emoji_e463a5 {
 					height: 32px;
 					width: 32px;
 				}
@@ -88,13 +88,13 @@
 		}
 
 		//edit status buttons on user status hover
-		.popover_f7be4f.visible_f7be4f {
-			.left_bba79b:not(:hover) {
+		.popover_c97e55.visible_c97e55 {
+			.left_c97e55:not(:hover) {
 				path[d='m13.96 5.46 4.58 4.58a1 1 0 0 0 1.42 0l1.38-1.38a2 2 0 0 0 0-2.82l-3.18-3.18a2 2 0 0 0-2.82 0l-1.38 1.38a1 1 0 0 0 0 1.42ZM2.11 20.16l.73-4.22a3 3 0 0 1 .83-1.61l7.87-7.87a1 1 0 0 1 1.42 0l4.58 4.58a1 1 0 0 1 0 1.42l-7.87 7.87a3 3 0 0 1-1.6.83l-4.23.73a1.5 1.5 0 0 1-1.73-1.73Z'] {
 					fill: $high;
 				}
 			}
-			.right_bba79b:not(:hover) {
+			.right_c97e55:not(:hover) {
 				path[d='M14.25 1c.41 0 .75.34.75.75V3h5.25c.41 0 .75.34.75.75v.5c0 .41-.34.75-.75.75H3.75A.75.75 0 0 1 3 4.25v-.5c0-.41.34-.75.75-.75H9V1.75c0-.41.34-.75.75-.75h4.5Z'],
 				path[d='M5.06 7a1 1 0 0 0-1 1.06l.76 12.13a3 3 0 0 0 3 2.81h8.36a3 3 0 0 0 3-2.81l.75-12.13a1 1 0 0 0-1-1.06H5.07ZM11 12a1 1 0 1 0-2 0v6a1 1 0 1 0 2 0v-6Zm3-1a1 1 0 0 1 1 1v6a1 1 0 1 1-2 0v-6a1 1 0 0 1 1-1Z'] {
 					fill: $high;
@@ -103,13 +103,13 @@
 		}
 
 		//edit profile button
-		.headerButtons_bc9cc2 {
+		.headerButtons__24502 {
 			width: fit-content;
 			height: auto;
 		}
 
 		// thinking text
-		.visibleContainer_af9888.panel_af9888 {
+		.visibleContainer_af9888.panel_ab8609 {
 			position: relative;
 			top: 0;
 			left: 0;
@@ -119,7 +119,7 @@
 		}
 
 		// profile picture area
-		.avatar_f94206.panel_f94206 {
+		.avatar__75742.panel__75742 {
 			display: flex;
 			align-items: center;
 			justify-content: center;
@@ -131,7 +131,7 @@
 			left: 0;
 
 			// the actual pfp
-			.wrapper_c51b4e {
+			.wrapper__44b0c {
 				border-radius: 0;
 				mask-image: none;
 			}
@@ -139,7 +139,7 @@
 	}
 
 	// usernames, mutuals, roles
-	.body_a972fe {
+	.body__747b1 {
 		margin: 0em 0.5em 0.5em 0.5em;
 		padding: 0.5em;
 		background: $high;
@@ -151,15 +151,15 @@
 			width: auto;
 			background: $high;
 
-			.markup_f8f345 {
+			.markup__75297 {
 				height: auto;
-				.lineClamp2Plus_a595eb {
+				.lineClamp2Plus__4bd52 {
 					-webkit-line-clamp: 12 !important;
 				}
 			}
 		}
-		.activity_cd74cc,
-		.activity_a972fe {
+		.activity_f00225,
+		.activity__747b1 {
 			//activites (takes on profile theme color and can cause conflict with colors)
 			border-top: 1px solid;
 			border-bottom: 1px solid;
@@ -171,12 +171,12 @@
 }
 
 //extra area below user profile
-.overlayBackground_c69a7b.overlay_a8795b,
-.footer_a823cd {
+.overlayBackground_c69a7b.overlay__325ce,
+.footer__537ec {
 	margin: 0em 0.5em 0.5em 0.5em;
 	padding: 0.5em;
 	background: $high;
-	.divider_e3d8a6 {
+	.divider__23eb0 {
 		background-color: $low;
 		margin: 0px;
 		width: 100%;

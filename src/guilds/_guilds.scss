@@ -1,25 +1,25 @@
 // Transparencies
-.theme-dark .scroller_fea3ef,
-.childWrapperNoHoverBg_f90abb,
-.footer_aa1bff,
-.wrapper_fea3ef,
-.scroller_fea3ef {
+.theme-dark .scroller_ef3116,
+.childWrapperNoHoverBg__6e9f8,
+.footer__214dc,
+.wrapper_ef3116,
+.scroller_ef3116 {
 	background-color: transparent;
 }
-.wrapper_fea3ef.guilds_a4d4d9 {
+.wrapper_ef3116.guilds_c48ade {
 	width: 65px;
 }
 
-.guildSeparator_d0c57e {
+.guildSeparator__252b6 {
 	height: 0;
 }
-.listItem_c96c45 .svg_c5f96a foreignObject {
+.listItem__650eb .svg_cc5dd2 foreignObject {
 	mask: none;
 }
-.iconBadge_c96c45 {
+.iconBadge__650eb {
 	background-color: $low;
 	color: $high;
-	&.isCurrentUserConnected_c96c45 {
+	&.isCurrentUserConnected__650eb {
 		background-color: $alert;
 		color: $low;
 	}
@@ -27,8 +27,8 @@
 		background-color: $alert;
 	}
 }
-.wrapper_f90abb:hover .childWrapper_f90abb,
-.wrapper_f90abb.selected_f90abb .childWrapper_f90abb {
+.wrapper__6e9f8:hover .childWrapper__6e9f8,
+.wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8 {
 	background-color: transparent;
 }
 .homeIcon-FuNwkv, // deprecated
@@ -37,21 +37,21 @@
 	height: 56px;
 }
 // Guild icons
-.wrapper_c5f96a > svg > mask {
+.wrapper_cc5dd2 > svg > mask {
 	display: none;
 }
-.scroller_fea3ef.none_c49869.scrollerBase_c49869 {
-	.tutorialContainer_f9623d .listItem_c96c45 {
+.scroller_ef3116.none_d125d2.scrollerBase_d125d2 {
+	.tutorialContainer__1f388 .listItem__650eb {
 		height: 57px;
-		.pill_f9623d,
-		.item_c4cd66 {
+		.pill__1f388,
+		.item__58105 {
 			height: 57px !important;
 		}
-		.wrapperSimple_c5f96a {
+		.wrapperSimple_cc5dd2 {
 			height: 57px;
 		}
 	}
-	div:has(.listItem_c96c45 .pill_f36a5a) {
+	div:has(.listItem__650eb .pill_ed9a5f) {
 		&:before {
 			content: '';
 			position: absolute;
@@ -64,22 +64,22 @@
 		height: 55px !important;
 		padding-bottom: 0px;
 		margin-bottom: 12px;
-		.pill_f36a5a {
+		.pill_ed9a5f {
 			//padding-top: 0px;
 		}
 	}
-	.listItem_c96c45:has(.guildSeparator_d0c57e) {
+	.listItem__650eb:has(.guildSeparator__252b6) {
 		display: none;
 	}
 }
 
-.wrapperSimple_c5f96a {
+.wrapperSimple_cc5dd2 {
 	border-radius: 0;
 }
 // Folder
-.expandedFolderBackground_bc7085 {
+.expandedFolderBackground__48112 {
 	border-radius: 0;
-	&.collapsed_bc7085 {
+	&.collapsed__48112 {
 		position: absolute;
 		height: 48px;
 	}
@@ -88,10 +88,10 @@
 	@include boxify($high, $mid, 3px);
 }
 // folder inner (color/icons)
-.folderIconWrapper_bc7085 {
+.folderIconWrapper__48112 {
 	border-radius: 0;
 
-	.iconInactive_a64689 {
+	.iconInactive_f34534 {
 		border-radius: 0;
 	}
 }
@@ -104,7 +104,7 @@
 	color: $low !important;
 }
 // Selected / Unread Guild
-.item_c4cd66 {
+.item__58105 {
 	width: 11px;
 	transition: background-color 0.2s;
 	background-color: $low;
@@ -112,15 +112,15 @@
 	height: 48px !important;
 }
 // Unread Guild
-.item_c4cd66[style='opacity: 1; height: 8px; transform: none;'] {
+.item__58105[style='opacity: 1; height: 8px; transform: none;'] {
 	background-color: $alert;
 }
 // Unread blip out of screen
-.mention_edf32f {
+.mention__3b95d {
 	@include boxify($alert, $low, 3px);
 }
 // Notification blip
-.numberBadge_df8943 {
+.numberBadge__2b1f5 {
 	border-radius: 0;
 }
 // Server browser and add server button
@@ -137,17 +137,17 @@
 .theme-dark .iconMask_e90879 {
 	@include boxify($high, $mid, 5px);
 }
-.theme-dark .contentWrapper_ed5743 {
+.theme-dark .contentWrapper__9b0f4 {
 	@include boxify($high, $mid, 5px);
 
-	.lookLink_dd4f85.colorBrand_dd4f85 {
+	.lookLink__201d5.colorBrand__201d5 {
 		color: $alert;
 		text-decoration-color: $alert;
 	}
 }
 
-.wrapper_faf5ab, // You must complete a few more steps before you can talk
-.container_a9480d // You can't talk in here yet
+.wrapper__44df5, // You must complete a few more steps before you can talk
+.container__7e919 // You can't talk in here yet
 {
 	@include boxify($high, $mid, 3px);
 }

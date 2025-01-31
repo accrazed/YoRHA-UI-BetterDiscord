@@ -1,30 +1,30 @@
 // Transparencies
-.divider_fc4f04,
-.theme-dark .children_fc4f04:after,
-.container_fc4f04.themed_fc4f04 {
+.divider__9293f,
+.theme-dark .children__9293f:after,
+.container__9293f.themed__9293f {
 	background: transparent;
 }
-.platform-win .sidebar_a4d4d9 {
+.platform-win .sidebar_c48ade {
 	border-radius: 0;
 }
 .header-2o-2hj,
-.content_a7d72e:before,
-.searchBar_f0963d {
+.content_f75fb0:before,
+.searchBar__35e86 {
 	box-shadow: none;
 }
 // Server name
-.clickable_fd6364 .header_fd6364:hover,
-.selected_fd6364 .header_fd6364 {
+.clickable_f37cb1 .header_f37cb1:hover,
+.selected_f37cb1 .header_f37cb1 {
 	background-color: $low;
 	color: $high;
 }
 // Top header
-.name_fd6364,
-.title_fc4f04 {
+.name_f37cb1,
+.title__9293f {
 	@include titlify(3px, 4px);
 	margin: 0;
 }
-.notice_be03aa.colorStreamerMode_be03aa, // Streamer mode Notif
+.notice__6e2b9.colorStreamerMode__6e2b9, // Streamer mode Notif
 .akaBadge__27cd4 // AKA badge
 {
 	box-shadow: none;
@@ -35,12 +35,12 @@
 	border-radius: 0;
 }
 // Channel icon
-.title_a7d72e .children_fc4f04 {
-	.iconWrapper_fc4f04 {
+.title_f75fb0 .children__9293f {
+	.iconWrapper__9293f {
 		margin: 0 5px;
 		margin-bottom: 4px;
 	}
-	.icon_fc4f04 {
+	.icon__9293f {
 		margin: 6px 0px;
 		width: 16px;
 		height: 16px;
@@ -53,19 +53,19 @@
 	}
 }
 // Home
-.topPill-3DJJNV .themed-2-lozF.item_a0:hover,
-.topPill-3DJJNV .themed-2-lozF.selected_a0.item_a0 {
+.topPill-3DJJNV .themed-2-lozF.item_b3f026:hover,
+.topPill-3DJJNV .themed-2-lozF.selected_b3f026.item_b3f026 {
 	border-radius: 0;
 	background-color: $low;
 	color: $high;
 }
-.brand-3g5E0C.item_a0,
-.themed-2-lozF.item_a0 {
+.brand-3g5E0C.item_b3f026,
+.themed-2-lozF.item_b3f026 {
 	color: $low;
 }
 
-// .container_fc4f04.themed_fc4f04{
-// 	.children_fc4f04::after {
+// .container__9293f.themed__9293f{
+// 	.children__9293f::after {
 // 		content: ''; /* Use the variable */
 // 		position:absolute;
 // 		width: 100%;

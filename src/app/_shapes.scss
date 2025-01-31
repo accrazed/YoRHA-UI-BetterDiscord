@@ -5,9 +5,9 @@
 	background-color: transparent;
 	color: transparent;
 }
-.tutorialContainer_f9623d {
+.tutorialContainer__1f388 {
 	.wrapper__8436d,
-	.svg_c5f96a {
+	.svg_cc5dd2 {
 		height: 57px;
 		width: 48px;
 
@@ -30,22 +30,22 @@
 	}
 }
 // Icons
-.iconSize_d76df7 {
+.iconSize__235ca {
 	@include remask('https://discord.com/assets/c30220448097b064286a8759a9b6c4af.svg', $alert);
 }
 foreignObject[mask='url(#svg-mask-status-dnd)'] .status-2DiCMd {
 	background-color: $alert !important;
 }
 .iconBadge-2wi9r4.participating-NBGDkr,
-.iconBadge_fc4f04 {
+.iconBadge__9293f {
 	background-color: $alert;
 }
-.strikethrough_b2ca13 {
+.strikethrough__37e49 {
 	color: $alert;
 }
 
 // Badges on Guild icons
-.baseShapeRound_df8943 {
+.baseShapeRound__2b1f5 {
 	border-radius: 0px;
 }
 
@@ -72,7 +72,7 @@ foreignObject[mask='url(#svg-mask-status-dnd)'] .status-2DiCMd {
 	border: 2px solid $low;
 }
 // Plus sign
-.theme-dark .actionButton_e4010c {
+.theme-dark .actionButton__48c1c {
 	color: $low;
 }
 // Do not disturb

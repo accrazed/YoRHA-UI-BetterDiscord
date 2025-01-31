@@ -1,5 +1,5 @@
 .theme-dark {
-	.auditLog_eebd33 {
+	.auditLog__43dab {
 		@include boxify($high, $mid, 4px);
 		border: none;
 
@@ -14,19 +14,19 @@
 			border-radius: 25%;
 		}
 
-		.headerExpanded_eebd33,
-		.headerClickable_eebd33,
-		.changeDetails_eebd33,
-		.headerDefault_eebd33 {
+		.headerExpanded__43dab,
+		.headerClickable__43dab,
+		.changeDetails__43dab,
+		.headerDefault__43dab {
 			background-color: transparent;
 		}
-		.headerExpanded_eebd33:hover,
-		.headerClickable_eebd33:hover {
+		.headerExpanded__43dab:hover,
+		.headerClickable__43dab:hover {
 			background-color: $mid;
 		}
 	}
 }
 
-.theme-dark .divider_eebd33 {
+.theme-dark .divider__43dab {
 	display: none;
 }

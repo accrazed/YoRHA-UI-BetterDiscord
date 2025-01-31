@@ -1,26 +1,26 @@
 // Overlay Visualizer
-.wrapper_b877fa {
+.wrapper_e03935 {
 	background-color: $high;
 	border-radius: 0;
 	border-color: $alert;
 }
-.option_b877fa {
+.option_e03935 {
 	@include boxify($low, $mid, 2px);
 	&:hover {
 		box-shadow: 2px 2px 0 $mid;
 		background: $low;
 	}
-	&.selected_b877fa {
+	&.selected_e03935 {
 		background: $alert;
 	}
 }
-.wrapper_b877fa.disabledSelected_b877fa {
+.wrapper_e03935.disabledSelected_e03935 {
 	border-color: $alert;
 }
-.disabled_b877fa {
+.disabled_e03935 {
 	color: $mid;
 
-	&.selected_b877fa,
+	&.selected_e03935,
 	&:hover {
 		color: $alert;
 	}

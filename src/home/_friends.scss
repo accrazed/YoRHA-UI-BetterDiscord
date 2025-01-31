@@ -1,19 +1,19 @@
 // Transparencies
-.scroller_c47fa9.scroller_c47fa9,
-.scroller_ad8f79,
+.scroller__99e7c.scroller__99e7c,
+.scroller__4a84a,
 .scroller__244e5,
-.applicationStore_cecc86,
-.nowPlayingColumn_c2739c,
-.container_bf550a,
-.theme-dark .inset_ac5d22,
-.container_c2739c.container_c2739c {
+.applicationStore_f07d62,
+.nowPlayingColumn__133bf,
+.container__7d20c,
+.theme-dark .inset_bf1984,
+.container__133bf.container__133bf {
 	background-color: transparent;
 }
-.peopleListItem_d51464.active_d51464,
-.peopleListItem_d51464:hover {
+.peopleListItem_cc6179.active_cc6179,
+.peopleListItem_cc6179:hover {
 	@include boxify($high, $mid, 3px);
 }
-.peopleListItem_d51464 {
+.peopleListItem_cc6179 {
 	border-top: none;
 }
 // Low color
@@ -22,75 +22,75 @@
 	color: $low;
 }
 // "Active Now" tags, (misc. cards too)
-.scroller_bf550a {
+.scroller__7d20c {
 	border: none;
 }
 .theme-dark .feature-2IUcBI,
 .banner-WELp4M,
-.wrapper_cd82a7 {
+.wrapper__00943 {
 	transition: all 0.1s;
 	@include boxify($high, $mid, 4px);
 
-	.inset_ac5d22 {
+	.inset_bf1984 {
 		border: 1px solid $mid;
 		border-radius: 0;
 	}
-	.partyMemberOverflow_b448f2 {
+	.partyMemberOverflow_e45a82 {
 		color: $high;
 		background: $low;
 	}
-	.section_cd82a7 {
+	.section__00943 {
 		border-radius: 0;
 	}
 	&:hover {
 		background-color: $low !important;
 
-		.partyMemberOverflow_b448f2 {
+		.partyMemberOverflow_e45a82 {
 			color: $low;
 			background: $high;
 		}
-		.base_bd482f,
-		.defaultColor_a595eb,
+		.base_eb1a4c,
+		.defaultColor__4bd52,
 		span,
-		.colorHeaderSecondary_d1aa77,
-		.colorStandard_d1aa77 {
+		.colorHeaderSecondary_c9946a,
+		.colorStandard_c9946a {
 			color: $high;
 		}
 		// smaller text for active now (game name etc)
-		.text-sm\/normal_dc00ef {
+		.text-sm\/normal_cf4812 {
 			color: $high !important; //using important was necessary as it failed to invert colors due to a global variable
 		}
-		.section_cd82a7 div {
+		.section__00943 div {
 			color: $low;
 		}
 	}
 }
 // 'Active Now' Header
-.header_bf550a {
+.header__7d20c {
 	@include titlify(2px, 4px);
 }
 // Close button hover
-.children_d808b0 {
+.children__91a9d {
 	z-index: 1;
 }
-.actionButton_e01b91:hover {
+.actionButton_f8fa06:hover {
 	transition: background-color 0.2s ease-in-out;
 	background-color: $low;
 
-	.icon_e01b91 {
+	.icon_f8fa06 {
 		transition: color 0.1s ease-in-out;
 		color: $high;
 	}
 }
 // Header divider
-.tabBody_c2739c:before {
+.tabBody__133bf:before {
 	display: none;
 }
 
-.tabBar_c2739c .item_c2739c {
+.tabBar__133bf .item__133bf {
 	@include buttonify(transparent, $low, $low, $high);
 
-	&.selected_a0 {
+	&.selected_b3f026 {
 		background-color: $low !important;
 		color: $high;
 	}
