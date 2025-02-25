@@ -2,10 +2,6 @@
   background: url("https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/wallpapers/light-theme-1440.png") center/cover no-repeat;
 }
 
-.tutorialContainer__1f388 .svg_cc5dd2 {
-  background: url("https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/icons/home_light-theme.png") center/contain no-repeat;
-}
-
 #app-mount:before {
   content: "";
   position: absolute;
