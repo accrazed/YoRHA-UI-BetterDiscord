@@ -4,6 +4,8 @@
 // # main containers
 .sidebar_c48ade, 
 .theme-dark .container__2637a, 
+// # unread message blip
+.unread__2ea32,
 // # user profile
 .panels_c48ade,
 .theme-dark .content__37e49 {
@@ -32,7 +34,7 @@ button.button__67645 {
 	padding: 0;
 	margin-left: 15px;
 
-	// -------------------- ICONS / TEXT ------------------------------
+	// -------------------- ICONS / TEXT ---------------------------------------
 	// Channel name
 	.name__2ea32 {
 		transition: color 0.2s;
@@ -66,7 +68,7 @@ button.button__67645 {
 	.actionIcon_c69b6d {
 		color: $high;
 	}
-	// ------------------------ STRUCTURE ----------------------------
+	// ------------------------ STRUCTURE --------------------------------------
 
 	// VERY IMPORTANT. Padding must be zero or we get subpixel errors
 	.link__2ea32 {
@@ -83,30 +85,8 @@ button.button__67645 {
 		padding: 0px 8px;
 	}
 
-	.linkBottom__2ea32 {
-		margin: 0;
+	// ------------------- TEXT+VOICE CHANNELS ---------------------------------
 
-		.hoverable__5cda9 {
-			.pencilIcon__5cda9,
-			.statusText__5cda9 {
-				color: $low;
-			}
-		}
-
-		&:hover {
-			.pencilIcon__5cda9,
-			.statusText__5cda9 {
-				color: $mid;
-			}
-		}
-	}
-
-	// ------------------- TEXT+VOICE CHANNELS ----------------------------
-
-	// Base block + border. hold the text
-	//&.typeDefault__2ea32,
-	//&.typeThread__2ea32,
-	//&.typeVoice__2ea32 {
 	// LinkTop is the main body
 	.linkTop__2ea32 {
 		height: 24px;
@@ -210,7 +190,8 @@ button.button__67645 {
 		opacity: 50%;
 	}
 
-	// ------------------- SELECTOR CHANNEL --------------------------------
+	// ------------------- SELECTOR ARROW ------------------------------------
+	// Hovering selector
 	&::before {
 		content: '';
 		position: absolute;
@@ -230,6 +211,10 @@ button.button__67645 {
 	&:not(.modeSelected__2ea32):hover::before {
 		opacity: 1;
 	}
+
+	// Selected Channel
+	// tbh this is kind of magic i forgot how it works
+	// # white arrow that fades in
 	&.modeSelected__2ea32::before {
 		content: '';
 		position: absolute;
@@ -240,11 +225,14 @@ button.button__67645 {
 		width: 24px; /* Adjust width as needed */
 		height: 22px; /* Adjust height as needed */
 		background-image: $selector-img-invert; // overridded in light/dark/night files
+
 		opacity: 1;
 
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
+
+	// # black arrow that fades out into white
 	&.modeSelected__2ea32::after {
 		content: '';
 		position: absolute;
@@ -265,7 +253,7 @@ button.button__67645 {
 	margin-top: 1.5px; //fix for some awkward bumping between the borders
 }
 
-// ------------------- SELECTOR BACKDROP --------------------------------
+// ------------------- SELECTOR BACKDROP ---------------------------------------
 .container__2637a {
 	// selector backdrop
 	.content__99f8c::before {
@@ -292,39 +280,6 @@ button.button__67645 {
 		padding: 0 2.5px;
 		margin-left: -1px;
 		box-shadow: -3px 0 0 $mid, -15px 0 0 transparent, -14px 0 0 $mid, -18px 2px 0 transparent;
-	}
-}
-
-// Banner at the top of server channel list
-.hasBanner_f37cb1.bannerVisible_f37cb1 {
-	z-index: 2;
-}
-
-.scroller__629e4 {
-	//container that holds actual channels
-	.content__99f8c {
-		margin-left: 20px;
-		//padding-left: 15px;
-		//background-color: $mid-trans;
-	}
-}
-
-// Voice channel limits
-.wrapper__260e1 {
-	border-radius: 0;
-	border: 1px solid $mid;
-	height: 18px;
-	.users__260e1 {
-		padding-left: 4px;
-		z-index: 1;
-	}
-	.total__260e1 {
-		background-color: $alert;
-		color: $high;
-		z-index: 2;
-	}
-	.total__260e1::after {
-		border-right-color: $alert;
 	}
 }
 
@@ -357,4 +312,39 @@ button.button__67645 {
 }
 .typeThread__2ea32 .name__2ea32.overflow__82b15 {
 	left: 24px;
+}
+
+// ---------------------- MISC ----------------------------------------
+
+// Banner at the top of server channel list
+.hasBanner_f37cb1.bannerVisible_f37cb1 {
+	z-index: 2;
+}
+
+.scroller__629e4 {
+	//container that holds actual channels
+	.content__99f8c {
+		margin-left: 20px;
+		//padding-left: 15px;
+		//background-color: $mid-trans;
+	}
+}
+
+// Voice channel limits
+.wrapper__260e1 {
+	border-radius: 0;
+	border: 1px solid $mid;
+	height: 18px;
+	.users__260e1 {
+		padding-left: 4px;
+		z-index: 1;
+	}
+	.total__260e1 {
+		background-color: $alert;
+		color: $high;
+		z-index: 2;
+	}
+	.total__260e1::after {
+		border-right-color: $alert;
+	}
 }

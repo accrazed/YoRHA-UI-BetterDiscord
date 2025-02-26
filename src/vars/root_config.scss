@@ -26,7 +26,7 @@
 	--background-secondary: var(--color-high);
 	--background-secondary-alt: var(--color-high);
 	--background-tertiary: var(--color-high-trans);
-	// --background-accent: var(--primary-530);
+	--background-accent: var(--primary-530);
 	--background-floating: var(--color-high);
 	--background-nested-floating: var(--color-high);
 	--background-mobile-primary: var(--color-high);
@@ -167,6 +167,9 @@
 	--deprecated-text-input-border-disabled: var(--color-high-trans);
 	// --deprecated-text-input-prefix: var(--primary-200);
 	--badge-brand-text: var(--color-low);
+
+	// ---------- Fucking extensive measurements and shit?
+	--custom-guild-list-width: 65px;
 }
 
 [data-popout-root],
