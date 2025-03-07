@@ -15,12 +15,15 @@
 	box-shadow: none;
 }
 // Unread messages notification
-.bar__7aaec {
+.bar__7aaec,
+// ... the other Unread messages notification (shows up when scrolled down and there's an unread channel above)
+.bar__3b95d {
 	.barText__7aaec {
 		color: $high !important;
 	}
 	@include boxify($alert, $mid, 3px);
 }
+
 // User info
 button.button__67645 {
 	@include buttonify(transparent, $low, $low, $high);
@@ -29,6 +32,22 @@ button.button__67645 {
 		--__lottieIconColor: currentColor !important;
 	}
 }
+
+// used to scale up lock / warning icons etc
+@mixin scaleChanIconAndColor($aria-label, $color-icon) {
+	.iconContainer__2ea32[aria-label='#{$aria-label}'] .icon__2ea32 {
+		color: transparent;
+
+		path {
+			fill: none;
+			&:first-child {
+				fill: $color-icon;
+				transform: translate(-26px, 1px) scale(200%);
+			}
+		}
+	}
+}
+
 // Channel hover/select animations
 .wrapper__2ea32 {
 	padding: 0;
@@ -52,10 +71,15 @@ button.button__67645 {
 			color: $high;
 		}
 
+		// Text channels have no hashtag
 		&[aria-label='Text icon'] .icon__2ea32 {
 			color: $low;
 		}
 	}
+	// Private text channels only show lock
+	@include scaleChanIconAndColor($aria-label-text-limited, $high);
+	// nsfw channels show only warning
+	@include scaleChanIconAndColor($aria-label-text-age-restricted, $high);
 
 	// Voice icon and lock icons should show
 	&.modeLocked__2ea32,
@@ -142,7 +166,16 @@ button.button__67645 {
 				background-color: $high;
 				color: $high;
 			}
+			&[aria-label='#{$aria-label-voice}'] .icon__2ea32,
+			&[aria-label='#{$aria-label-voice-limited}'] .icon__2ea32 {
+				color: $low;
+			}
 		}
+		// Private text channels only show lock
+		@include scaleChanIconAndColor($aria-label-text-limited, $low);
+		// nsfw channels show only warning
+		@include scaleChanIconAndColor($aria-label-text-age-restricted, $low);
+
 		.actionIcon_c69b6d path {
 			transition: opacity 0.5s;
 			opacity: 1;

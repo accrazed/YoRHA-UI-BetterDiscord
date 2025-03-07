@@ -1,0 +1,20 @@
+@use '../vars/vars.scss' as *;
+
+// transparencies
+.chat_f75fb0, // main chat+members sidebar wrapper
+.chatContent_f75fb0, // just the chat container
+// #header bar
+.theme-dark .themed__9293f {
+	background-color: transparent;
+}
+
+// TODO: this can probably be made much cuter / novel
+// daily date markers
+// # dividers
+.divider__908e2 {
+}
+// # date
+.content__908e2 {
+	color: $low;
+	@include boxify($high, $mid, 3px);
+}
