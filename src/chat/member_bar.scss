@@ -11,7 +11,7 @@
 	background: transparent;
 }
 
-// Channel hover/select animations
+// member hover/select animations
 .member_c8ffbb {
 	margin: 4px 0;
 	// -------------------- STRUCTURE ---------------------------------------
@@ -21,7 +21,7 @@
 	}
 
 	// -------------------- ICONS / TEXT ---------------------------------------
-	// Channel name
+	// member name
 	.name__5d473 {
 		transition: color 0.2s;
 	}
@@ -50,7 +50,7 @@
 
 		transition: transform 0.4s;
 		transform: scaleX(0);
-		transform-origin: left;
+		transform-origin: right;
 	}
 
 	// grower border
@@ -65,7 +65,7 @@
 
 		transition: transform 0.4s;
 		transform: scale(0, 85%);
-		transform-origin: left;
+		transform-origin: right;
 	}
 
 	&.selected__91a9d,// When hovering and selecting
@@ -98,7 +98,13 @@
 		.childContainer__91a9d::after {
 			transition: transform 0.75s;
 			transform: scale(0%, 100%);
-			transform-origin: right;
+			transform-origin: left;
 		}
 	}
+}
+
+// member group labels
+.membersGroup_c8ffbb {
+	padding-left: 0;
+	text-align: right;
 }
