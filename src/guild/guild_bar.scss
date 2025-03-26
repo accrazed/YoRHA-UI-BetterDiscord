@@ -1,0 +1,128 @@
+@use '../vars/vars' as *;
+
+$guild-bar-width: 65px;
+
+// Transparencies
+// # discover backdrop
+.footer__214dc,
+// # main wrapper
+.wrapper_ef3116 {
+	background: transparent;
+}
+
+// ----------------- STRUCTURE -------------------------
+// Shrink guild bar
+.wrapper_ef3116.guilds_c48ade {
+	width: $guild-bar-width;
+}
+
+// Square guild icons
+.wrapper_cc5dd2 > svg > mask {
+	display: none;
+}
+
+// Selected / Unread Guild blip on left
+// # wrapper
+.wrapper__58105 {
+	width: inherit;
+}
+// # Blip base
+.item__58105 {
+	width: 9px;
+	transition: background-color 0.2s;
+	border-radius: 0;
+	margin-left: 0;
+	height: 48px !important;
+
+	// stop it from sliding in from the left
+	transform: none !important;
+
+	// Unread Guild blip
+	&[style='opacity: 1; height: 8px; transform: none;'] {
+		background-color: $alert;
+	}
+}
+
+// Servers with no icons (just letters)
+.wrapper__6e9f8:hover .childWrapper__6e9f8,
+.wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8 {
+	background-color: transparent;
+}
+
+// Home Icon
+.homeIcon__560eb {
+	width: 48px;
+	height: 56px;
+}
+// TODO: Is this necessary anymore? I can't tell
+.scroller_ef3116.none_d125d2.scrollerBase_d125d2 {
+	.tutorialContainer__1f388 .listItem__650eb {
+		height: 57px;
+		.pill__1f388,
+		.item__58105 {
+			height: 57px !important;
+		}
+		.wrapperSimple_cc5dd2 {
+			height: 57px;
+		}
+	}
+	div:has(.listItem__650eb .pill_ed9a5f) {
+		&:before {
+			content: '';
+			position: absolute;
+			bottom: -4px; /* Position the pseudo-element at the bottom */
+			left: 50%; /* Start at the center of the container */
+			width: 75%; /* 75% width from the center */
+			transform: translateX(-50%); /* Offset by 50% to keep it centered */
+			border-bottom: 2px solid $low-trans; /* Your border style */
+		}
+		height: 55px !important;
+		padding-bottom: 0px;
+		margin-bottom: 12px;
+	}
+	.listItem__650eb:has(.guildSeparator__252b6) {
+		display: none;
+	}
+}
+
+// Folders
+// # Folder Icon (custom colored)
+.folderIconWrapper__48112 {
+	border-radius: 0;
+
+	.iconInactive_f34534 {
+		border-radius: 0;
+	}
+}
+// # Folder Backdrop
+.expandedFolderBackground__48112 {
+	border-radius: 0;
+	left: 9px;
+	&.collapsed__48112 {
+		position: absolute;
+		height: 48px;
+	}
+}
+
+// # square out servers in folders
+.folderIconWrapper-1_bOZe,
+.wrapperSimple_cc5dd2 {
+	border-radius: 0;
+}
+
+// -------------------------- MISC ---------------------------------------------
+// little badge on top-right of server icons that show ongoing streaming/vc
+.iconBadge__650eb {
+	&.isCurrentUserConnected__650eb {
+		background-color: $alert;
+		color: $low;
+	}
+	&.participating-2Z81oO {
+		background-color: $alert;
+	}
+}
+// Unread mentions indicators
+.unreadMentionsIndicatorBottom_ef3116,
+.unreadMentionsIndicatorTop_ef3116 {
+	width: $guild-bar-width;
+}

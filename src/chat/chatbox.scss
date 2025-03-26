@@ -1,0 +1,38 @@
+@use '../vars/vars.scss' as *;
+
+
+.visual-refresh .channelTextArea_f75fb0 {
+	background: $high;
+}
+
+// little random chat container
+.themedBackground__74017 {
+    background: transparent
+}
+
+// Type box
+.channelTextArea_f75fb0 {
+	border-radius: 0;
+	margin-left: 21px;
+	box-shadow: -3px 0 0 $low, -9px 0 0 $high, -21px 0 0 $low, -18px 3px 0 $mid, 3px 3px 0 $mid;
+}
+.cooldownWrapper_b21699 {
+	color: $low !important;
+}
+
+// Buttons
+.attachButton__0923f {
+	padding: {
+		left: 10px;
+		right: 10px;
+	}
+	&:hover .attachButtonPlus__0923f {
+		transition: fill 0.1s ease-in-out;
+		fill: $mid;
+	}
+}
+
+//# app button
+.button_e6e74f {
+	@include boxify($high, $mid, 3px)
+}

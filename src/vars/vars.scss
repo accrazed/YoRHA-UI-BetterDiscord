@@ -1,4 +1,17 @@
-@use './vars.scss' as *;
+@forward 'aria_labels';
+
+$high: var(--color-high);
+$low: var(--color-low);
+$high-trans: var(--color-high-trans);
+$low-trans: var(--color-low-trans);
+$mid: var(--color-mid);
+$mid-trans: var(--color-mid-trans);
+$alert: var(--color-alert);
+$alert-trans: var(--color-alert-trans);
+$font: var(--nier-font);
+$selector-img: var(--selector-img);
+$high-mid: var(--color-high-mid);
+$selector-img-invert: var(--selector-img-invert);
 
 @mixin boxify($color, $drop-color, $drop) {
 	background: $color;
@@ -9,10 +22,12 @@
 		box-shadow: $drop $drop 0 $drop-color;
 	}
 }
+
 @mixin remask($url, $color) {
 	mask: url($url);
 	background: $color !important;
 }
+
 @mixin buttonify($base-bg, $base-text, $hover-bg, $hover-text) {
 	border-radius: 0;
 	border-color: transparent;
@@ -27,6 +42,7 @@
 		color: $hover-text !important;
 	}
 }
+
 @mixin titlify($left-offset, $up-offset) {
 	letter-spacing: 1px;
 	text-shadow: $left-offset $up-offset 0 $mid;
@@ -44,6 +60,7 @@
 		opacity: 0.75;
 	}
 }
+
 @keyframes pulsingBackground {
 	0% {
 		background-color: $low;
@@ -64,6 +81,7 @@
 		background-color: $low;
 	}
 }
+
 @keyframes fade-out {
 	0% {
 		opacity: 1;
@@ -72,6 +90,7 @@
 		opacity: 0;
 	}
 }
+
 @keyframes fade-in {
 	0% {
 		opacity: 0;
@@ -80,6 +99,7 @@
 		opacity: 1;
 	}
 }
+
 @keyframes shift {
 	0% {
 		transform: translate(-15%, -50%);
@@ -91,19 +111,3 @@
 		transform: translate(-15%, -50%);
 	}
 }
-
-@import 'root_config';
-@import 'color_config';
-@import 'app/import';
-@import 'channels/import';
-@import 'chat/import';
-@import 'font/font';
-@import 'guilds/import';
-@import 'home/import';
-@import 'members/members';
-@import 'overlay/overlay';
-@import 'plugin-support/import.scss';
-@import 'popouts/import';
-@import 'prompts/prompts';
-@import 'settings/import';
-@import 'voice-video/import';

@@ -1,16 +1,13 @@
-// Wallpaper
 #app-mount {
 	background: url('https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/wallpapers/dark-theme-1440.png')
 		center/cover no-repeat;
 }
 
-// // Home icon
-// .tutorialContainer__1f388 .svg_cc5dd2 {
-// 	background: url('https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/icons/home_dark-theme.png')
-// 		center/contain no-repeat;
-// }
+.tutorialContainer__1f388 .svg_cc5dd2 {
+	background: url('https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/icons/home_dark-theme.png')
+		center/contain no-repeat;
+}
 
-// Theatre effect
 #app-mount:before {
 	content: '';
 	position: absolute;
@@ -28,25 +25,31 @@
 	user-select: none;
 	pointer-events: none;
 }
-
-// Dark Mode adjustments
-:root {
-	--color-high: rgb(87, 84, 74);
-	--color-high-mid: rgb(121, 119, 103);
-	--color-mid: rgb(151, 147, 129);
-	--color-low: rgb(218, 212, 187);
-	--color-alert: rgb(205, 102, 77);
-	--color-high-trans: rgba(87, 84, 74, 0.6);
-	--color-low-trans: rgba(218, 212, 187, 0.8);
-	--color-mid-trans: rgb(151, 147, 129, 0.5);
-	--color-alert-trans: rgba(205, 102, 77, 0.7);
-	//Dark Mode selector img
-	--selector-img: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/extras/nier-selector_high.png');
-	--selector-img-invert: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/extras/nier-selector_low.png');
-}
-
-// Highlighting text
 ::selection {
 	background-color: var(--color-alert);
 	color: var(--color-low);
+}
+
+#app-mount:before {
+	display: none;
+}
+
+.appAsidePanelWrapper_a3002d,
+.titleBar__421ed {
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+:root {
+	--color-high: rgb(87, 84, 74);
+	--color-high-mid: rgb(53, 53, 50);
+	--color-low: rgb(217, 215, 206);
+	--color-mid: rgb(151, 147, 129);
+	--color-alert: rgb(205, 102, 77);
+	--color-high-trans: rgba(87, 84, 74, 0.6);
+	--color-low-trans: rgba(217, 213, 195, 0.8);
+	--color-mid-trans: rgb(151, 147, 129, 0.5);
+	--color-alert-trans: rgba(205, 102, 77, 0.7);
+	// Dark Mode img
+	--selector-img: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/extras/nier-selector_high.png');
+	--selector-img-invert: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/extras/nier-selector_low.png');
 }
