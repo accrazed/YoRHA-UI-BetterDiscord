@@ -544,10 +544,6 @@ button.button__67645 .lottieIcon__5eb9b {
   background: transparent;
 }
 
-.visual-refresh .panels_c48ade {
-  background: transparent;
-}
-
 .typeThread__2ea32.wrapper__2ea32 {
   margin-left: 0;
 }
@@ -634,6 +630,16 @@ button.button__67645 .lottieIcon__5eb9b {
   position: absolute;
   padding-left: 121px;
   z-index: 1;
+}
+
+.visual-refresh .panels_c48ade {
+  background: transparent;
+}
+
+.visual-refresh .channelChatWrapper_cb9592,
+.visual-refresh .wrapper_cb9592,
+.callContainer_cb9592 {
+  background: transparent;
 }
 
 .footer__214dc,
@@ -873,6 +879,10 @@ button.button__67645 .lottieIcon__5eb9b {
 [data-popout-root],
 html {
   --brand-experiment: var(--color-alert);
+}
+
+.visual-refresh .root_bfe55a {
+  background: transparent;
 }
 
 .default-colors,
