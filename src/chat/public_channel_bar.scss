@@ -77,6 +77,7 @@ button.button__67645 {
 		}
 
 		// Text channels have no hashtag
+		&[aria-label='#{$aria-label-text-active-threads}'] .icon__2ea32,
 		&[aria-label='Text icon'] .icon__2ea32 {
 			color: $low;
 		}
@@ -171,6 +172,7 @@ button.button__67645 {
 				background-color: $high;
 				color: $high;
 			}
+
 			&[aria-label='#{$aria-label-voice}'] .icon__2ea32,
 			&[aria-label='#{$aria-label-voice-limited}'] .icon__2ea32 {
 				color: $low;

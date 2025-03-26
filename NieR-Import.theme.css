@@ -456,7 +456,7 @@ button.button__67645 .lottieIcon__5eb9b {
   background-color: var(--color-low);
   color: var(--color-high);
 }
-.wrapper__2ea32 .iconContainer__2ea32[aria-label="Text icon"] .icon__2ea32 {
+.wrapper__2ea32 .iconContainer__2ea32[aria-label="Text (Active Threads) icon"] .icon__2ea32, .wrapper__2ea32 .iconContainer__2ea32[aria-label="Text icon"] .icon__2ea32 {
   color: var(--color-low);
 }
 .wrapper__2ea32 .iconContainer__2ea32[aria-label="Text (Limited) icon"] .icon__2ea32 {
