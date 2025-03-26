@@ -11,6 +11,10 @@
 .theme-dark .content__37e49 {
 	background: transparent;
 }
+// # weird scrollbar in bottom left corner under profile
+.visual-refresh .sidebar_c48ade:after {
+	display: none;
+}
 .header_f37cb1 {
 	box-shadow: none;
 }
