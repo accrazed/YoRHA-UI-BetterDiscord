@@ -931,6 +931,20 @@ button.button__67645 .lottieIcon__5eb9b {
   width: 65px;
 }
 
+.visual-refresh .tabBody__133bf {
+  background: transparent;
+}
+
+.allPerksScroller_ca1a02,
+.mainPageScroller_ca1a02,
+.visual-refresh .shop__08415,
+.applicationStore_f07d62,
+.scroller__4a84a,
+.visual-refresh .homeWrapper__0920e,
+.visual-refresh .container__133bf {
+  background: transparent;
+}
+
 .layer__960e4,
 .visual-refresh .standardSidebarView__23e6b,
 .visual-refresh .sidebarRegionScroller__23e6b,
