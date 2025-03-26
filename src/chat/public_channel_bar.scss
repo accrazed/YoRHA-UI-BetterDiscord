@@ -60,6 +60,9 @@ button.button__67645 {
 	}
 	// Square icon
 	.iconContainer__2ea32 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
 		.icon__2ea32 {
 			transition: color 0.2s, background-color 0.2s;
 			height: 12px;
