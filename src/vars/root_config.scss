@@ -4,7 +4,17 @@
 	--font-primary: var(--nier-font), 'vietnam-pro', 'Whitney', 'Helvetica Neue', Helvetica, Arial,
 		sans-serif !important;
 	--font-display: var(--nier-font), 'vietnam-pro', 'Whitney', 'Helvetica Neue', Helvetica, Arial,
-		sans-serif !important;
+	sans-serif !important;
+	
+	--text-primary: var(--color-low);
+	--text-secondary: var(--color-low);
+	--text-tertiary: var(--color-low);
+	--icon-secondary: var(--color-low);
+	--icon-tertiary: var(--color-low);
+	--text-default: var(--color-low);
+	
+	--background-surface-high: var(--color-high);
+	--background-base-lowest: var(--color-low);
 
 	--header-primary: var(--color-low);
 	--header-secondary: var(--color-low);

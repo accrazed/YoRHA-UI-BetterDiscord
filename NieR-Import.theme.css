@@ -544,6 +544,10 @@ button.button__67645 .lottieIcon__5eb9b {
   background: transparent;
 }
 
+.visual-refresh .panels_c48ade {
+  background: transparent;
+}
+
 .footer__214dc,
 .wrapper_ef3116 {
   background: transparent;
@@ -645,13 +649,29 @@ button.button__67645 .lottieIcon__5eb9b {
   width: 65px;
 }
 
+.layer__960e4,
+.visual-refresh .standardSidebarView__23e6b,
+.visual-refresh .sidebarRegionScroller__23e6b,
+.contentRegion__23e6b,
+.visual-refresh .contentRegionScroller__23e6b {
+  background: transparent;
+}
+
 .visual-refresh.theme-dark,
 .visual-refresh.theme-light,
 :root {
   --font-primary: var(--nier-font), "vietnam-pro", "Whitney", "Helvetica Neue", Helvetica, Arial,
   	sans-serif !important;
   --font-display: var(--nier-font), "vietnam-pro", "Whitney", "Helvetica Neue", Helvetica, Arial,
-  	sans-serif !important;
+  sans-serif !important;
+  --text-primary: var(--color-low);
+  --text-secondary: var(--color-low);
+  --text-tertiary: var(--color-low);
+  --icon-secondary: var(--color-low);
+  --icon-tertiary: var(--color-low);
+  --text-default: var(--color-low);
+  --background-surface-high: var(--color-high);
+  --background-base-lowest: var(--color-low);
   --header-primary: var(--color-low);
   --header-secondary: var(--color-low);
   --text-normal: var(--color-low);
