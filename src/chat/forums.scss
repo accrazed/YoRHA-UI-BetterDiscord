@@ -6,7 +6,23 @@
     background: transparent;
 }
 
+.theme-dark .children__9293f:after{ //weird colored line that showed up at the end of the title bar for forums
+    display: none;
+}
+
+.visual-refresh .container_f369db { //main container that holds all threads in the forum
+    .contents__201d5 .sortDropdownInner_f369db * { //"Sort & View" container
+        color: $high !important;
+    }
+    .pill_a2c9e8 { //tags list at top of forum
+        border-radius: 0px;
+    }
+}
 //container for thread in the main forum window
 .visual-refresh .mainCard_f369db {
     border: 1px solid $low;
+    .tagPill__9a337 { //pills for tags in forums
+        border-radius: 0px;
+
+    }
 }
