@@ -12,6 +12,7 @@ $font: var(--nier-font);
 $selector-img: var(--selector-img);
 $high-mid: var(--color-high-mid);
 $selector-img-invert: var(--selector-img-invert);
+$nier-border: var(--nier-border);
 
 @mixin boxify($color, $drop-color, $drop) {
 	background: $color;

@@ -84,9 +84,9 @@ body {
   position: absolute;
   top: 5;
   left: 0;
-  width: 84%;
+  width: 89%;
   height: 15px;
-  background: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/extras/nier_border.svg") repeat-x;
+  background: var(--nier-border) repeat-x;
 }
 
 #app-mount:after {
@@ -106,6 +106,19 @@ body {
 
 .layerContainer_da8173:has(.layer_bc663c .focusLock__49fc1 .carouselModal_d3a6f0) {
   z-index: 1501;
+}
+
+.buttonsInner__5126c.popover_f84418.popoverReactionHoverBar_f84418.wrapper_f7ecac {
+  background-color: var(--color-high);
+}
+
+.buttonContainer_c19a55 * {
+  border-radius: 0px;
+}
+
+.emoji__040f0 {
+  height: 25px;
+  width: 25px;
 }
 
 .visual-refresh .chatContent_f75fb0,
@@ -973,9 +986,8 @@ button.button__67645 .lottieIcon__5eb9b {
   height: 48px;
 }
 
-.folderIconWrapper-1_bOZe,
-.wrapperSimple_cc5dd2 {
-  border-radius: 0;
+.closedFolderIconWrapper__48112 * {
+  border-radius: 0 !important;
 }
 
 .iconBadge__650eb.isCurrentUserConnected__650eb {

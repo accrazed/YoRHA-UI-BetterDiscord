@@ -26,6 +26,7 @@
   --nier-font: sce-ps3_rodin_latinregular;
   --selector-img: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/extras/nier-selector_low.png");
   --selector-img-invert: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/extras/nier-selector_high.png");
+  --nier-border: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/extras/nier_border.svg");
 }
 
 ::selection {

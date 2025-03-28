@@ -104,10 +104,9 @@ $guild-bar-width: 65px;
 	}
 }
 
-// # square out servers in folders
-.folderIconWrapper-1_bOZe,
-.wrapperSimple_cc5dd2 {
-	border-radius: 0;
+// # square out servers in closed folders
+.closedFolderIconWrapper__48112 * {
+	border-radius: 0 !important;
 }
 
 // -------------------------- MISC ---------------------------------------------
