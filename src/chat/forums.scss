@@ -1,0 +1,12 @@
+@use '../vars/vars' as *;
+
+//Transparencies
+.visual-refresh .container_f369db, //main container that holds all threads in the forum
+.visual-refresh .mainCard_f369db { //container for thread in the main forum window
+    background: transparent;
+}
+
+//container for thread in the main forum window
+.visual-refresh .mainCard_f369db {
+    border: 1px solid $low;
+}

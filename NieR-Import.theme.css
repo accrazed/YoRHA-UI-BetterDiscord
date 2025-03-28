@@ -136,6 +136,15 @@ body {
   box-shadow: 3px 3px 0 var(--color-mid);
 }
 
+.visual-refresh .container_f369db,
+.visual-refresh .mainCard_f369db {
+  background: transparent;
+}
+
+.visual-refresh .mainCard_f369db {
+  border: 1px solid var(--color-low);
+}
+
 .container_c8ffbb,
 .members_c8ffbb,
 .member_c8ffbb,
