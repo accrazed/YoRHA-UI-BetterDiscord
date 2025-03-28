@@ -75,6 +75,20 @@ body {
   background: var(--color-low);
 }
 
+.bar_c38106 .title_c38106 {
+  display: none;
+}
+.bar_c38106:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 5;
+  left: 0;
+  width: 84%;
+  height: 15px;
+  background: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/extras/nier_border.svg") repeat-x;
+}
+
 #app-mount:after {
   content: "";
   position: absolute;

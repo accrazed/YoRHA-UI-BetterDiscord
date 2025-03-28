@@ -20,3 +20,19 @@ body {
 	color: $high;
 	background: $low;
 }
+
+.bar_c38106 { //title bar at the top
+	.title_c38106 { //server name
+		display: none;
+	}
+	&:after {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 5;
+		left: 0;
+		width: 84%;
+		height: 15px;
+		background: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/extras/nier_border.svg') repeat-x;
+	  }
+}
