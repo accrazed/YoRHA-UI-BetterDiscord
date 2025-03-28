@@ -1,30 +1,3 @@
-.app__160d8,
-.appMount__51fd7,
-.visual-refresh .wrapper_ef3116,
-.visual-refresh .bg__960e4,
-body {
-  background: transparent;
-}
-
-#app-mount:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: 5px 5px;
-  background-image: linear-gradient(90deg, transparent, transparent 4px, rgba(0, 0, 0, 0.07) 5px), linear-gradient(transparent, transparent 4px, rgba(0, 0, 0, 0.07) 5px);
-  z-index: 1500;
-  opacity: 0.75;
-  user-select: none;
-  pointer-events: none;
-}
-
-.layerContainer_da8173:has(.layer_bc663c .focusLock__49fc1 .carouselModal__8a837) {
-  z-index: 1501;
-}
-
 @keyframes staticBackground {
   0% {
     background-color: var(--color-low);
@@ -82,6 +55,45 @@ body {
     transform: translate(-15%, -50%);
   }
 }
+.app__160d8,
+.appMount__51fd7,
+.visual-refresh .wrapper_ef3116,
+.visual-refresh .bg__960e4,
+body {
+  background: transparent;
+}
+
+.winButtonClose_c38106:hover {
+  transition: background-color 0.2s, color 0.2s ease;
+  color: var(--color-high);
+  background: var(--color-alert);
+}
+
+.winButtonMinMax_c38106:hover {
+  transition: background-color 0.2s, color 0.2s ease;
+  color: var(--color-high);
+  background: var(--color-low);
+}
+
+#app-mount:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 5px 5px;
+  background-image: linear-gradient(90deg, transparent, transparent 4px, rgba(0, 0, 0, 0.07) 5px), linear-gradient(transparent, transparent 4px, rgba(0, 0, 0, 0.07) 5px);
+  z-index: 1500;
+  opacity: 0.75;
+  user-select: none;
+  pointer-events: none;
+}
+
+.layerContainer_da8173:has(.layer_bc663c .focusLock__49fc1 .carouselModal__8a837) {
+  z-index: 1501;
+}
+
 .visual-refresh .chatContent_f75fb0,
 .visual-refresh .chat_f75fb0,
 .chat_f75fb0,

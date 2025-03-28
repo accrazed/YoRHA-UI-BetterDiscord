@@ -1,3 +1,5 @@
+@use '../vars/vars.scss' as *;
+
 // Transparencies for deep layers
 .app__160d8,
 .appMount__51fd7,
@@ -5,4 +7,16 @@
 .visual-refresh .bg__960e4,
 body {
 	background: transparent;
+}
+
+// Close/Minimize/Maximize buttons
+.winButtonClose_c38106:hover {
+	transition: background-color 0.2s, color 0.2s ease;
+	color: $high;
+	background: $alert;
+}
+.winButtonMinMax_c38106:hover {
+	transition: background-color 0.2s, color 0.2s ease;
+	color: $high;
+	background: $low;
 }
