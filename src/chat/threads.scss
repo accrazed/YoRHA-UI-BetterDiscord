@@ -32,19 +32,19 @@
 	.icon__54b20 {
 		color: $high;
 		path:first-child {
-			//visibility: hidden; TODO; fix whatever this is
+			visibility: hidden;
 		}
 	}
 }
 
 .iconContainer__235ca .icon_da3997 path:first-child {
-	visibility: hidden;
+	visibility: hidden; 
 }
 
 *[aria-label='Threads'],
 *[aria-label='Thread'] {
 	.icon__9293f path:first-child {
-		visibility: hidden;
+		//visibility: hidden; TODO fix whatever this was meant to be
 	}
 }
 
