@@ -10,16 +10,31 @@
     display: none;
 }
 
-.visual-refresh .container_f369db { //main container that holds all threads in the forum
-    .contents__201d5 .sortDropdownInner_f369db * { //"Sort & View" container
+.container_f369db { //main container that holds all threads in the forum
+    .sortDropdown_f369db.button__201d5.lookFilled__201d5.sizeMin__201d5.grow__201d5 { //"Sort & View" container
+            background: $low;
+            &:hover {
+                background: $low-trans;
+            }
+    }
+    .sortDropdownInner_f369db * { //"Sort & View" text and icons
         color: $high !important;
     }
-    .pill_a2c9e8 { //tags list at top of forum
+    .pill_a2c9e8, //tags list at top of foru
+    .tagsButton_f369db { //All button for tag overflow at the top
         border-radius: 0px;
-    }
+        background: $low;
+        color: $high;
+            &.clickable_a2c9e8:not(.disabled_a2c9e8):hover {
+                background-color: $low-trans;
+            }
+        }
+        .contents__201d5.tagsButtonInner_f369db { //contents of all button at top
+            color: $high;
+        }
 }
 //container for thread in the main forum window
-.visual-refresh .mainCard_f369db {
+.mainCard_f369db {
     border: 1px solid $low;
     .tagPill__9a337 { //pills for tags in forums
         border-radius: 0px;
