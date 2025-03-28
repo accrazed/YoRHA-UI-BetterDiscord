@@ -108,6 +108,19 @@ body {
   z-index: 1501;
 }
 
+.buttonsInner__5126c.popover_f84418.popoverReactionHoverBar_f84418.wrapper_f7ecac {
+  background-color: var(--color-high);
+}
+
+.buttonContainer_c19a55 * {
+  border-radius: 0px;
+}
+
+.emoji__040f0 {
+  height: 25px;
+  width: 25px;
+}
+
 .visual-refresh .chatContent_f75fb0,
 .visual-refresh .chat_f75fb0,
 .chat_f75fb0,

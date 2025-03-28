@@ -1,0 +1,23 @@
+@use '../vars/vars' as *;
+
+//---------------------- THIS SECTION IS FOR MINOR POPUPS (such as hover tooltips) ---------------------//
+
+// right click on message popup
+
+// hover on message popup (with the emojis)
+.buttonsInner__5126c.popover_f84418.popoverReactionHoverBar_f84418.wrapper_f7ecac {
+    background-color: $high;
+}
+.buttonContainer_c19a55 * {
+    border-radius: 0px;
+}
+.emoji__040f0 {
+    height: 25px;
+    width: 25px;
+}
+
+// hover on guild icon in guild bar popup (some seem fine, but others are not, attempt to make it uniform
+
+// emoji/gif/sticker popup
+
+//
