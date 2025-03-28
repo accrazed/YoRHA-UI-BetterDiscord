@@ -4,7 +4,17 @@
 	--font-primary: var(--nier-font), 'vietnam-pro', 'Whitney', 'Helvetica Neue', Helvetica, Arial,
 		sans-serif !important;
 	--font-display: var(--nier-font), 'vietnam-pro', 'Whitney', 'Helvetica Neue', Helvetica, Arial,
-		sans-serif !important;
+	sans-serif !important;
+	
+	--text-primary: var(--color-low);
+	--text-secondary: var(--color-low);
+	--text-tertiary: var(--color-low);
+	--icon-secondary: var(--color-low);
+	--icon-tertiary: var(--color-low);
+	--text-default: var(--color-low);
+	
+	--background-surface-high: var(--color-high);
+	--background-base-lowest: var(--color-high);
 
 	--header-primary: var(--color-low);
 	--header-secondary: var(--color-low);
@@ -219,4 +229,9 @@ html {
 	// --brand-experiment-85a: hsl(var(--brand-500-hsl) / 0.85);
 	// --brand-experiment-90a: hsl(var(--brand-500-hsl) / 0.9);
 	// --brand-experiment-95a: hsl(var(--brand-500-hsl) / 0.95);
+}
+
+// voice-video background?
+.visual-refresh .root_bfe55a {
+	background: transparent;
 }

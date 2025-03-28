@@ -1,0 +1,90 @@
+@use '../vars/vars' as *;
+
+//transparencies
+.visual-refresh .container__7641b {
+	background: transparent;
+}
+
+// Message in chat that someone's opened a thread
+.typeThread__2ea32.wrapper__2ea32 {
+	margin-left: 0;
+}
+.hasThread_c19a55 {
+	// Elbow
+	&.cozy_c19a55:after {
+		border-left: 2px solid $low;
+		border-bottom: 2px solid $low;
+		border-bottom-left-radius: 0;
+	}
+	// Thread box,
+	.container__9271d {
+		@include boxify($high, $mid, 3px);
+	}
+}
+
+// Thread Sidebar
+.chat-3JZdy8:before {
+	visibility: hidden;
+}
+
+.iconWrapper__54b20 {
+	background-color: $low;
+	.icon__54b20 {
+		color: $high;
+		path:first-child {
+			visibility: hidden;
+		}
+	}
+}
+
+.iconContainer__235ca .icon_da3997 path:first-child {
+	visibility: hidden;
+}
+
+*[aria-label='Threads'],
+*[aria-label='Thread'] {
+	.icon__9293f path:first-child {
+		visibility: hidden;
+	}
+}
+
+.threadIcon_d9c882 path:first-child {
+	visibility: hidden;
+}
+
+.threadSidebar-1o3BTy {
+	@include boxify($high, $mid, 3px);
+}
+
+.container__5b40b .containerDefault_c69b6d {
+	left: 40px;
+}
+
+.spine__5b40b {
+	color: $low;
+}
+
+// Thread popout
+.browser_d98031 {
+	@include boxify($high, $mid, 3px);
+}
+
+//Mention badge and unread coloring for threads (wtf discord, why is this so hard)
+.typeThread__2ea32 {
+	.name__2ea32 {
+		position: absolute;
+		left: 1px;
+		max-width: 175px;
+		text-align: left;
+		&.overflow__82b15 {
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+	}
+	.mentionsBadge__933a1 {
+		position: absolute;
+		padding-left: 121px;
+		z-index: 1;
+	}
+}
