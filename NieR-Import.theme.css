@@ -973,9 +973,8 @@ button.button__67645 .lottieIcon__5eb9b {
   height: 48px;
 }
 
-.folderIconWrapper-1_bOZe,
-.wrapperSimple_cc5dd2 {
-  border-radius: 0;
+.closedFolderIconWrapper__48112 * {
+  border-radius: 0 !important;
 }
 
 .iconBadge__650eb.isCurrentUserConnected__650eb {
