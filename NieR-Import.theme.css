@@ -1,30 +1,3 @@
-.app__160d8,
-.appMount__51fd7,
-.visual-refresh .wrapper_ef3116,
-.visual-refresh .bg__960e4,
-body {
-  background: transparent;
-}
-
-#app-mount:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: 5px 5px;
-  background-image: linear-gradient(90deg, transparent, transparent 4px, rgba(0, 0, 0, 0.07) 5px), linear-gradient(transparent, transparent 4px, rgba(0, 0, 0, 0.07) 5px);
-  z-index: 1500;
-  opacity: 0.75;
-  user-select: none;
-  pointer-events: none;
-}
-
-.layerContainer_da8173:has(.layer_bc663c .focusLock__49fc1 .carouselModal__8a837) {
-  z-index: 1501;
-}
-
 @keyframes staticBackground {
   0% {
     background-color: var(--color-low);
@@ -82,6 +55,59 @@ body {
     transform: translate(-15%, -50%);
   }
 }
+.app__160d8,
+.appMount__51fd7,
+.visual-refresh .wrapper_ef3116,
+.visual-refresh .bg__960e4,
+body {
+  background: transparent;
+}
+
+.winButtonClose_c38106:hover {
+  transition: background-color 0.2s, color 0.2s ease;
+  color: var(--color-high);
+  background: var(--color-alert);
+}
+
+.winButtonMinMax_c38106:hover {
+  transition: background-color 0.2s, color 0.2s ease;
+  color: var(--color-high);
+  background: var(--color-low);
+}
+
+.bar_c38106 .title_c38106 {
+  display: none;
+}
+.bar_c38106:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 5;
+  left: 0;
+  width: 84%;
+  height: 15px;
+  background: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/extras/nier_border.svg") repeat-x;
+}
+
+#app-mount:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 5px 5px;
+  background-image: linear-gradient(90deg, transparent, transparent 4px, rgba(0, 0, 0, 0.07) 5px), linear-gradient(transparent, transparent 4px, rgba(0, 0, 0, 0.07) 5px);
+  z-index: 1500;
+  opacity: 0.75;
+  user-select: none;
+  pointer-events: none;
+}
+
+.layerContainer_da8173:has(.layer_bc663c .focusLock__49fc1 .carouselModal_d3a6f0) {
+  z-index: 1501;
+}
+
 .visual-refresh .chatContent_f75fb0,
 .visual-refresh .chat_f75fb0,
 .chat_f75fb0,
@@ -134,6 +160,45 @@ body {
 }
 .button_e6e74f:hover {
   box-shadow: 3px 3px 0 var(--color-mid);
+}
+
+.visual-refresh .container_f369db,
+.visual-refresh .mainCard_f369db {
+  background: transparent;
+}
+
+.theme-dark .children__9293f:after {
+  display: none;
+}
+
+.container_f369db .sortDropdown_f369db.button__201d5.lookFilled__201d5.sizeMin__201d5.grow__201d5 {
+  background: var(--color-low);
+}
+.container_f369db .sortDropdown_f369db.button__201d5.lookFilled__201d5.sizeMin__201d5.grow__201d5:hover {
+  background: var(--color-low-trans);
+}
+.container_f369db .sortDropdownInner_f369db * {
+  color: var(--color-high) !important;
+}
+.container_f369db .pill_a2c9e8,
+.container_f369db .tagsButton_f369db {
+  border-radius: 0px;
+  background: var(--color-low);
+  color: var(--color-high);
+}
+.container_f369db .pill_a2c9e8.clickable_a2c9e8:not(.disabled_a2c9e8):hover,
+.container_f369db .tagsButton_f369db.clickable_a2c9e8:not(.disabled_a2c9e8):hover {
+  background-color: var(--color-low-trans);
+}
+.container_f369db .contents__201d5.tagsButtonInner_f369db {
+  color: var(--color-high);
+}
+
+.mainCard_f369db {
+  border: 1px solid var(--color-low);
+}
+.mainCard_f369db .tagPill__9a337 {
+  border-radius: 0px;
 }
 
 .container_c8ffbb,
@@ -765,11 +830,6 @@ button.button__67645 .lottieIcon__5eb9b {
 }
 
 .iconContainer__235ca .icon_da3997 path:first-child {
-  visibility: hidden;
-}
-
-*[aria-label=Threads] .icon__9293f path:first-child,
-*[aria-label=Thread] .icon__9293f path:first-child {
   visibility: hidden;
 }
 
