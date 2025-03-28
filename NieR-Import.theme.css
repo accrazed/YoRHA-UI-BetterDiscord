@@ -825,10 +825,6 @@ button.button__67645 .lottieIcon__5eb9b {
 .iconWrapper__54b20 .icon__54b20 {
   color: var(--color-high);
 }
-.iconWrapper__54b20 .icon__54b20 path:first-child {
-  visibility: hidden;
-}
-
 .iconContainer__235ca .icon_da3997 path:first-child {
   visibility: hidden;
 }
