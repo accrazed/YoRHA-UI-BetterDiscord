@@ -75,18 +75,26 @@ body {
   background: var(--color-low);
 }
 
-.bar_c38106 .title_c38106 {
+.bar_c38106 {
+  height: 75px;
+}
+.bar_c38106 .title_c38106 .title__85643 .icon_f34534,
+.bar_c38106 .title_c38106 .title__85643 .defaultColor__4bd52 {
   display: none;
 }
-.bar_c38106:after {
+.bar_c38106 .title_c38106:after {
   content: "";
   display: block;
   position: absolute;
-  top: 5;
-  left: 0;
-  width: 89%;
+  top: 25px;
+  left: 65px;
+  width: 100%;
   height: 15px;
   background: var(--nier-border) repeat-x;
+  padding: 10px 0 0 0;
+}
+.bar_c38106 .trailing_c38106 {
+  top: -25px;
 }
 
 #app-mount:after {

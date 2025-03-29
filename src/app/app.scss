@@ -22,17 +22,28 @@ body {
 }
 
 .bar_c38106 { //title bar at the top
+	height: 75px;
 	.title_c38106 { //server name
-		display: none;
+		.title__85643 {
+			.icon_f34534,
+			.defaultColor__4bd52 {
+				display: none;
+			}
+		}
+		&:after {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 25px;
+			left: 65px;
+			width: 100%;
+			height: 15px;
+			background: var(--nier-border) repeat-x;
+			padding: 10px 0 0 0;
+		}
+		
 	}
-	&:after {
-		content: '';
-		display: block;
-		position: absolute;
-		top: 5;
-		left: 0;
-		width: 89%;
-		height: 15px;
-		background: var(--nier-border) repeat-x;
-	  }
+	.trailing_c38106 {
+		top: -25px;
+	}
 }
