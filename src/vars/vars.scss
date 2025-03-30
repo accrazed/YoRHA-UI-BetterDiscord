@@ -112,3 +112,15 @@ $nier-border: var(--nier-border);
 		transform: translate(-15%, -50%);
 	}
 }
+
+@keyframes y-spin {
+	0% {
+		transform: rotateY(0deg);
+	}
+	50% {
+		transform: rotateY(360deg);
+	}
+	100% {
+		transform: rotateY(360deg);
+	}
+}
