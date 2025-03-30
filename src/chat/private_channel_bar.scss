@@ -1,4 +1,222 @@
+// private_channel_bar.scss covers the left-hand sidebar animation when in home > DMing people or on home or whatever
+
+@use '../vars/vars.scss' as *;
+
 .visual-refresh .privateChannels__35e86,
 .visual-refresh .scroller__99e7c {
     background: transparent;
+}
+
+// Chonky Friends/Library/Nitro/Shop buttons
+:where(.visual-refresh) .channel__972a0:not(.dm__972a0) .link__972a0 {
+    padding: 0;
+}
+:where(.visual-refresh) .channel__972a0:not(.dm__972a0) svg {
+    padding-left: 10px;
+}
+.interactive_bf202d:focus-within, .interactive_bf202d:hover {
+    background: transparent;
+}
+
+
+.container_e45859 {
+    border-radius: 0;
+	padding: 0;
+	margin-left: 36px;
+
+	// Entire channels list container
+	// selector backdrop
+	&::before {
+		content: '';
+		position: absolute;
+		left: -16px;
+		width: 2px;
+		height: 100%;
+		bottom: 0px;
+		border-radius: 0;
+		padding: 4px 2.5px 4px 2.5px;
+		margin-left: -1px;
+		box-shadow: -3px 0 0 $mid, -15px 0 0 transparent, -14px 0 0 $mid, -18px 2px 0 transparent;
+	}
+}
+
+.interactive_bf202d {
+	padding: 0;
+	// -------------------- ICONS / TEXT ------------------------------
+	// channel name
+	.overflow__82b15,
+	.name__20a53,
+	.subText__20a53 {
+		transition: color 0.2s;
+	}
+
+	// Profile picture
+	.wrapper__44b0c foreignObject {
+        mask: none;
+	}
+	
+	// Close icon
+	.closeButton__972a0 {
+		position: absolute;
+		z-index: 3;
+		right: 0;
+		color: $alert;
+	}
+    
+	.linkButtonIcon__972a0,
+	.content__20a53,
+	.subtext__972a0 {
+		position: relative;
+	}
+
+	// ------------------------ STRUCTURE ----------------------------
+
+	// VERY IMPORTANT. Padding must be zero or we get subpixel errors
+	.link__972a0 {
+		margin: 4px 0px;
+		padding: 0;
+	}
+	.channel__972a0,
+	.interactive_bf202d,
+	.layout__20a53 {
+		height: 36px;
+	}
+
+	// ------------------- TEXT+VOICE CHANNELS ----------------------------
+
+	// Base block + border. hold the text
+	// LinkTop is the main body
+	.link__972a0 {
+		height: 36px;
+		padding: 0px 0px;
+		background-color: $high-mid;
+	}
+
+	// the main grower
+	.link__972a0::before {
+		position: absolute;
+		content: '';
+		width: 100%;
+		height: 36px;
+		animation: pulsingBackground 2.5s infinite;
+		z-index: 0;
+
+		box-shadow: 0 0 3px $low;
+
+		transition: transform 0.4s;
+		transform: scaleX(0);
+		transform-origin: left;
+	}
+	// grower border
+	.link__972a0::after {
+		position: absolute;
+		content: '';
+		width: 100%;
+		height: 44px;
+		pointer-events: none;
+
+		box-shadow: 0 1px $low, 0 -1px $low;
+
+		transition: transform 0.4s;
+		transform: scale(0, 85%);
+		transform-origin: left;
+	}
+
+	&.selected_bf202d,// When hovering and selecting
+	&:hover {
+		// grow border and body
+		.link__972a0::before,
+		.link__972a0::after {
+			transform: scale(100%, 100%);
+		}
+
+		// invert name and icons
+		.overflow__82b15,
+		.linkButtonIcon__972a0,
+		.name__20a53,
+		.subText__20a53 {
+			color: $high;
+		}
+	}
+
+	// When selected
+	&.selected_bf202d {
+		.link__972a0::before {
+			transform: scale(100%, 100%);
+			animation: none;
+			background-color: $low;
+			opacity: 0.65;
+			height: 36px;
+		}
+
+        // TODO: this doesn't work. for whatever reason, the borders don't retreat to the right, tehy just disappear 
+		.link__972a0::after {
+            transition: transform 0.75s;
+			transform: scale(0%, 100%);
+			transform-origin: right;
+		}
+	}
+
+	// Unread channels will override
+	.unread__2ea32.unreadImportant__2ea32 ~ div {
+		.icon__2ea32 {
+			color: $alert;
+			background-color: $alert;
+		}
+		.overflow__82b15,
+		.name__20a53,
+		.subText__20a53 {
+			color: $alert;
+		}
+	}
+
+	// SELECTOR CHANNEL ---------------------------------------------
+	&::before {
+		content: '';
+		position: absolute;
+		left: -30px;
+		top: 50%;
+		transform: translateY(-50%);
+		animation-fill-mode: forwards;
+		width: 24px; /* Adjust width as needed */
+		height: 22px; /* Adjust height as needed */
+		background-image: $selector-img; // overridded in light/dark/night files
+		background-size: cover;
+		background-repeat: no-repeat;
+
+		transition: opacity 0.175s ease-in-out;
+		opacity: 0;
+	}
+	&:not(.selected_bf202d):hover::before {
+		opacity: 1;
+	}
+	&.selected_bf202d::before {
+		content: '';
+		position: absolute;
+		left: -30px;
+		top: 50%;
+		transform-origin: top;
+		transform: translateY(-50%);
+		width: 24px; /* Adjust width as needed */
+		height: 22px; /* Adjust height as needed */
+		background-image: $selector-img-invert; // overridded in light/dark/night files
+		opacity: 1;
+
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	&.selected_bf202d::after {
+		content: '';
+		position: absolute;
+		left: -30px;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 24px; /* Adjust width as needed */
+		height: 22px; /* Adjust height as needed */
+		background-image: $selector-img; // overridded in light/dark/night files
+		animation: fade-out 0.25s;
+		animation-fill-mode: forwards;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
 }
