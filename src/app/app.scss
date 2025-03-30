@@ -22,17 +22,39 @@ body {
 }
 
 .bar_c38106 { //title bar at the top
+	height: 25px;
 	.title_c38106 { //server name
-		display: none;
+		.title__85643 {
+			position: relative;
+			gap: 0px;
+			top: -5px;
+			background-color: $low;
+			padding-right: 6px;
+			padding-bottom: 2px;
+			.icon_f34534 {
+				//display: none;
+				background-image: url("https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/icons/home_dark-theme.svg") !important;
+			}
+			.defaultColor__4bd52 {
+				text-transform: uppercase;
+				font-weight: 400;
+				color: $high;
+			}
+		}
+		&:after {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 23px;
+			left: 6px;
+			width: 100%;
+			height: 15px;
+			background: var(--nier-border) repeat-x;
+			padding: 10px 0 0 0;
+		}
+		
 	}
-	&:after {
-		content: '';
-		display: block;
-		position: absolute;
-		top: 5;
-		left: 0;
-		width: 89%;
-		height: 15px;
-		background: var(--nier-border) repeat-x;
-	  }
+	.trailing_c38106 { //contains the min/max/close buttons
+		top: -5px;
+	}
 }

@@ -11,13 +11,64 @@
 .buttonContainer_c19a55 * {
     border-radius: 0px;
 }
-.emoji__040f0 {
-    height: 25px;
-    width: 25px;
-}
 
 // hover on guild icon in guild bar popup (some seem fine, but others are not, attempt to make it uniform
 
 // emoji/gif/sticker popup
+.visual-refresh .contentWrapper__08434 {
+    background-color: $high;
+    border: none;
+    border-radius: 0px;
+}
+//------ Nav Bar Theming------//
+.nav__08434{
+    height: 32px;
+}
+.visual-refresh .navButton__08434 {
+    color: $low;
+    background-color: $mid-trans;
+    height: 24px;
+    &:hover{
+        color: $high;
+        background-color: $low;
+    }
+}
+.visual-refresh .navButtonActive__08434 { 
+    background-color: $low;
+    color: $high;
+    height: 32px;
+    
+}
+//-----------------------------//
+//sub container
+.wrapper_c0e32c {
+    border-radius: 0px;
+}
+// individual sub-containers (why does every container have its own background color set??)
+.visual-refresh {
+    .emojiPicker_c0e32c,
+    .header_c0e32c,
+    .wrapper__14245,
+    .wrapper__4e6ce,
+    .inspector_aeaaeb {
+        background-color: $high;
+    }
+    //search bar container
+    .container_a45028 {
+        border-radius: 0px;
+        border: 1px solid $alert;
+    }
+}
+//icons and text for sub-titles (frequently used, server name etc)
+.headerIcon__14245 > *,
+.headerLabel__14245,
+.headerCollapseIcon__14245,
+.soundmojiViewMore_c656ac {
+    color: $low;
+}
+.textWrapper_aeaaeb * {
+    color: $low;
+}
+
 
 //
