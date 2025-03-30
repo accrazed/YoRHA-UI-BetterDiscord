@@ -49,44 +49,20 @@ $guild-bar-width: 65px;
 	background-color: transparent;
 }
 
-// Home Icon
-.homeIcon__560eb {
-	width: 48px;
-	height: 56px;
-}
-// TODO: Is this necessary anymore? I can't tell
-.scroller_ef3116.none_d125d2.scrollerBase_d125d2 {
-	.tutorialContainer__1f388 .listItem__650eb {
-		height: 57px;
-		.pill__1f388,
-		.item__58105 {
-			height: 57px !important;
-		}
-		.wrapperSimple_cc5dd2 {
-			height: 57px;
-		}
-	}
-	div:has(.listItem__650eb .pill_ed9a5f) {
-		&:before {
-			content: '';
-			position: absolute;
-			bottom: -4px; /* Position the pseudo-element at the bottom */
-			left: 50%; /* Start at the center of the container */
-			width: 75%; /* 75% width from the center */
-			transform: translateX(-50%); /* Offset by 50% to keep it centered */
-			border-bottom: 2px solid $low-trans; /* Your border style */
-		}
-		height: 55px !important;
-		padding-bottom: 0px;
-		margin-bottom: 12px;
-	}
-	.listItem__650eb:has(.guildSeparator__252b6) {
-		display: none;
-	}
+// home icon / server list separator
+.listItem__650eb:has(.guildSeparator__252b6) {
+	display: none;
 }
 
-// Folders
+// Folders (god this shit is so fucking confusing)
 // # Folder Icon (custom colored)
+.visual-refresh .folder__48112 {
+	&:hover {
+		background: $mid;
+	}
+
+	@include boxify($high, $mid, 3px);
+}
 .folderIconWrapper__48112 {
 	border-radius: 0;
 
@@ -94,19 +70,27 @@ $guild-bar-width: 65px;
 		border-radius: 0;
 	}
 }
+.visual-refresh .svg_cc5dd2 {
+	left: -3px;
+}
+
 // # Folder Backdrop
-.expandedFolderBackground__48112 {
+.visual-refresh .expandedFolderBackground__48112 {
+	@include boxify($high, $mid, 3px);
+
 	border-radius: 0;
 	left: 9px;
-	&.collapsed__48112 {
-		position: absolute;
-		height: 48px;
-	}
 }
 
 // # square out servers in closed folders
-.closedFolderIconWrapper__48112 * {
+.visual-refresh .expandedFolderIconWrapper__48112 {
+	margin: 0;
+}
+.visual-refresh .expandedFolderIconWrapper__48112,
+.visual-refresh .closedFolderIconWrapper__48112 {
+	&, * {
 	border-radius: 0 !important;
+	}
 }
 
 // -------------------------- MISC ---------------------------------------------

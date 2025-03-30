@@ -2,18 +2,23 @@
 
 @use '../vars/vars.scss' as *;
 
-
-.tutorialContainer__1f388 .svg_cc5dd2 {
-    height: 60px;
-    top: 0;
-    
-    animation: y-spin 12s ease-in-out infinite;
-
-    mask {
-        display: none;
+.tutorialContainer__1f388  {
+    .listItem__650eb {
+        height: 60px;
     }
-
-    .childWrapper__6e9f8 {
-        display: none;
+    
+    .svg_cc5dd2 {
+        height: 60px;
+        top: 0;
+        
+        animation: y-spin 12s ease-in-out infinite;
+    
+        mask {
+            display: none;
+        }
+    
+        .childWrapper__6e9f8 {
+            display: none;
+        }
     }
 }
