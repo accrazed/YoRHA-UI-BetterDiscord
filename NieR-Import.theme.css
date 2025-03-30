@@ -139,6 +139,11 @@ body {
   box-shadow: 3px 3px 0 var(--color-mid);
 }
 
+.visual-refresh .stackedBars__74017,
+.visual-refresh .channelAttachmentArea_b77158 {
+  background-color: transparent;
+}
+
 .visual-refresh .channelTextArea_f75fb0 {
   background: var(--color-high);
 }
