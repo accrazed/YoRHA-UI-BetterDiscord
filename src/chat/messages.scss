@@ -43,6 +43,9 @@
 	}
 }
 // Date stamp
+.visual-refresh .content__908e2 {
+	background-color: $low;
+}
 .isUnread__908e2 .content__908e2,
 .unreadPill__908e2,
 .content__908e2 {
@@ -84,12 +87,7 @@
 		}
 	}
 }
-// .mentioned__5126c .messageContent_c19a55 a,
-// .wrapper_f61d60,
-// .roleMention__75297,
-// .mention {
-// 	color: rgb(218, 212, 187);
-// }
+
 // Replies
 .mouse-mode.full-motion .replying__5126c {
 	&,

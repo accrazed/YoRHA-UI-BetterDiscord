@@ -421,6 +421,10 @@ body {
   box-shadow: 3px 3px 0 var(--color-alert);
 }
 
+.visual-refresh .content__908e2 {
+  background-color: var(--color-low);
+}
+
 .isUnread__908e2 .content__908e2,
 .unreadPill__908e2,
 .content__908e2 {
