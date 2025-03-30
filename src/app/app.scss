@@ -22,20 +22,31 @@ body {
 }
 
 .bar_c38106 { //title bar at the top
-	height: 75px;
+	height: 25px;
 	.title_c38106 { //server name
 		.title__85643 {
-			.icon_f34534,
+			position: relative;
+			gap: 0px;
+			top: -5px;
+			background-color: $low;
+			padding-right: 6px;
+			padding-bottom: 2px;
+			.icon_f34534 {
+				//display: none;
+				background-image: url("https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/icons/home_dark-theme.svg") !important;
+			}
 			.defaultColor__4bd52 {
-				display: none;
+				text-transform: uppercase;
+				font-weight: 400;
+				color: $high;
 			}
 		}
 		&:after {
 			content: '';
 			display: block;
 			position: absolute;
-			top: 25px;
-			left: 65px;
+			top: 23px;
+			left: 6px;
 			width: 100%;
 			height: 15px;
 			background: var(--nier-border) repeat-x;
@@ -43,7 +54,7 @@ body {
 		}
 		
 	}
-	.trailing_c38106 {
-		top: -25px;
+	.trailing_c38106 { //contains the min/max/close buttons
+		top: -5px;
 	}
 }
