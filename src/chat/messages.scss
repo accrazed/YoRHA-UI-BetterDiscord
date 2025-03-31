@@ -196,3 +196,35 @@
 .button_e6e74f {
 	border-radius: 0px;
 }
+
+// Reacts
+.visual-refresh .reaction__23977 {
+	border-radius: 0;
+	background-color: transparent;
+	border: 1px solid $low;
+
+	.reactionCount__23977 {
+		color: $low;
+	}
+	&:hover {
+		border: 1px solid $low;
+
+		@include boxify($mid, $mid, 2px);
+		.reactionCount__23977 {
+			color: $high;
+		}
+	}
+
+	&.reactionMe__23977 {
+		border: 1px solid $low;
+		@include boxify($low, $mid, 2px);
+
+		.reactionCount__23977 {
+			color: $high;
+		}
+	}
+}
+// # add react 
+.reactionBtn__23977.forceShow__23977 {
+	border-radius: 0;
+}
