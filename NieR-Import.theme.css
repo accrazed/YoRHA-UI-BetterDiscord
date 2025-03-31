@@ -321,6 +321,17 @@ body {
   box-shadow: 3px 3px 0 var(--color-mid);
 }
 
+.newMosaicStyle__4d95d .footer__4d95d,
+.newMosaicStyle__4d95d .textContainer__4d95d,
+.textContainer__4d95d pre,
+.visual-refresh .hljs {
+  border-radius: 0;
+}
+
+.visual-refresh .textContainer__4d95d {
+  background-color: rgba(87, 84, 74, 0.3);
+}
+
 .visual-refresh .container_f369db,
 .visual-refresh .mainCard_f369db {
   background: transparent;
@@ -662,6 +673,10 @@ button.button__67645:hover, button.button__67645:active {
 }
 button.button__67645 .lottieIcon__5eb9b {
   --__lottieIconColor: currentColor !important;
+}
+
+:where(.visual-refresh) .iconContainer__2ea32 {
+  width: inherit;
 }
 
 .wrapper__2ea32 {
@@ -1367,6 +1382,9 @@ button.button__67645 .lottieIcon__5eb9b {
   border-color: transparent !important;
   background-color: var(--color-low) !important;
   color: var(--color-high) !important;
+}
+.lookFilled__201d5.colorPrimary__201d5 .contents__201d5 {
+  padding: 0px 8px;
 }
 
 .tutorialContainer__1f388 .listItem__650eb {

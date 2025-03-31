@@ -30,9 +30,14 @@
     padding-right: 7px;
     padding-left: 35px;
 }
+
 .lookFilled__201d5.colorPrimary__201d5 {
     border-radius: 0;
     padding: 0;
 
     @include buttonify($mid, $low, $low, $high);
+
+    .contents__201d5 {
+        padding: 0px 8px;
+    }
 }

@@ -52,6 +52,10 @@ button.button__67645 {
 	}
 }
 
+// fix the stupid hover/nonhover squishing
+:where(.visual-refresh) .iconContainer__2ea32 {
+	width: inherit;
+}
 // Channel hover/select animations
 .wrapper__2ea32 {
 	padding: 0;
