@@ -86,4 +86,26 @@
 }
 
 
-//
+// context menus / right click
+.menu_c1e9c4 {
+    background-color: $high;  
+    border-radius: 0px;
+    box-shadow: 3px 3px 0 $mid;
+}
+:where(.visual-refresh) .colorDefault_c1e9c4 {
+    .label_c1e9c4 {
+        color: $low;
+    }
+    &.focused_c1e9c4 {
+        color: $high;
+        background-color: $low;
+        border-radius: 0px;
+
+        .label_c1e9c4 {
+            color: $high;
+        }
+        .icon_c1e9c4 path {
+            fill: $high !important;
+        }
+    }
+}

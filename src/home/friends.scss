@@ -9,3 +9,20 @@
 .visual-refresh .container__9293f {
     border-bottom: none;
 }
+
+/* Friends list top buttons */
+
+.visual-refresh .topPill_b3f026 .themed_b3f026.selected_b3f026.item_b3f026 {
+    color: var(--color-high);
+    background-color: var(--color-low-trans);  
+}
+.visual-refresh .topPill_b3f026 .themed_b3f026.selected_b3f026.item_b3f026:hover {
+    background-color: var(--color-low);  
+}
+.visual-refresh .themed_b3f026.item_b3f026 {
+    color: var(--color-low);  
+}
+.visual-refresh .topPill_b3f026 .themed_b3f026.item_b3f026:hover:not(.disabled_b3f026) {
+    color: var(--color-high);
+    background-color: var(--color-low);  
+}

@@ -215,6 +215,27 @@ body {
   color: var(--color-low);
 }
 
+.menu_c1e9c4 {
+  background-color: var(--color-high);
+  border-radius: 0px;
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+
+:where(.visual-refresh) .colorDefault_c1e9c4 .label_c1e9c4 {
+  color: var(--color-low);
+}
+:where(.visual-refresh) .colorDefault_c1e9c4.focused_c1e9c4 {
+  color: var(--color-high);
+  background-color: var(--color-low);
+  border-radius: 0px;
+}
+:where(.visual-refresh) .colorDefault_c1e9c4.focused_c1e9c4 .label_c1e9c4 {
+  color: var(--color-high);
+}
+:where(.visual-refresh) .colorDefault_c1e9c4.focused_c1e9c4 .icon_c1e9c4 path {
+  fill: var(--color-high) !important;
+}
+
 .visual-refresh .quickswitcher_ac6cb0 {
   background: var(--color-high);
   border-radius: 0;
@@ -1396,6 +1417,25 @@ button.button__67645 .lottieIcon__5eb9b {
   border-bottom: none;
 }
 
+/* Friends list top buttons */
+.visual-refresh .topPill_b3f026 .themed_b3f026.selected_b3f026.item_b3f026 {
+  color: var(--color-high);
+  background-color: var(--color-low-trans);
+}
+
+.visual-refresh .topPill_b3f026 .themed_b3f026.selected_b3f026.item_b3f026:hover {
+  background-color: var(--color-low);
+}
+
+.visual-refresh .themed_b3f026.item_b3f026 {
+  color: var(--color-low);
+}
+
+.visual-refresh .topPill_b3f026 .themed_b3f026.item_b3f026:hover:not(.disabled_b3f026) {
+  color: var(--color-high);
+  background-color: var(--color-low);
+}
+
 .allPerksScroller_ca1a02,
 .mainPageScroller_ca1a02,
 .visual-refresh .shop__08415,
@@ -1462,6 +1502,8 @@ button.button__67645 .lottieIcon__5eb9b {
 
 .visual-refresh.theme-dark,
 .visual-refresh.theme-light,
+.visual-refresh.theme-darker,
+.visual-refresh .theme-darker,
 :root {
   --font-primary: var(--nier-font), "vietnam-pro", "Whitney", "Helvetica Neue", Helvetica, Arial,
   	sans-serif !important;
@@ -1474,6 +1516,7 @@ button.button__67645 .lottieIcon__5eb9b {
   --icon-secondary: var(--color-low);
   --icon-tertiary: var(--color-low);
   --text-default: var(--color-low);
+  --interactive-normal: var(--color-low);
   --background-surface-high: var(--color-high);
   --background-base-lowest: var(--color-high);
   --header-primary: var(--color-low);
