@@ -1,0 +1,52 @@
+// prompts.scss contains styling for any modal that lays over the screen / dims the sides
+
+@use '../vars/vars.scss' as *;
+
+// "Find or start a conversation" / "Where would you like to go?" / quick switcher prompt
+// TODO: this could in theory use selectors / fancy selection stuff
+.visual-refresh .quickswitcher_ac6cb0 {
+	@include boxify($high, $mid, 5px);
+    border: none;
+
+	.input_ac6cb0 {
+        &::placeholder {
+            font-weight: bold;
+            color: $low;
+            text-transform: initial;
+        }
+
+		background: $high;
+		color: $low;
+        
+        border: none;
+		border-radius: 0;
+        box-shadow: none;
+
+        text-transform: lowercase;
+        font-weight: bold;
+	}
+	.icon__71961 {
+		height: 13px;
+		width: 13px;
+		background-color: $low;
+	}
+	.result__71961[aria-selected='true'] {
+		background: $low;
+		border-radius: 0;
+
+		.note__71961 {
+            color: $mid
+        }
+		.misc__71961,
+		.contentUnread__71961,
+		.contentDefault__71961 {
+			color: $high;
+		}
+		.icon__71961 {
+			background-color: $high;
+			path {
+				fill: $high;
+			}
+		}
+	}
+}
