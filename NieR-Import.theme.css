@@ -332,6 +332,19 @@ body {
   background-color: rgba(87, 84, 74, 0.3);
 }
 
+.embed__623de {
+  border-radius: 0;
+}
+
+.visual-refresh .embedFull__623de {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+.visual-refresh .embedFull__623de:hover {
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+
 .visual-refresh .container_f369db,
 .visual-refresh .mainCard_f369db {
   background: transparent;
@@ -626,6 +639,43 @@ body {
 
 .button_e6e74f {
   border-radius: 0px;
+}
+
+.visual-refresh .reaction__23977 {
+  border-radius: 0;
+  background-color: transparent;
+  border: 1px solid var(--color-low);
+}
+.visual-refresh .reaction__23977 .reactionCount__23977 {
+  color: var(--color-low);
+}
+.visual-refresh .reaction__23977:hover {
+  border: 1px solid var(--color-low);
+  background: var(--color-mid);
+  border-radius: 0;
+  box-shadow: 2px 2px 0 var(--color-mid);
+}
+.visual-refresh .reaction__23977:hover:hover {
+  box-shadow: 2px 2px 0 var(--color-mid);
+}
+.visual-refresh .reaction__23977:hover .reactionCount__23977 {
+  color: var(--color-high);
+}
+.visual-refresh .reaction__23977.reactionMe__23977 {
+  border: 1px solid var(--color-low);
+  background: var(--color-low);
+  border-radius: 0;
+  box-shadow: 2px 2px 0 var(--color-mid);
+}
+.visual-refresh .reaction__23977.reactionMe__23977:hover {
+  box-shadow: 2px 2px 0 var(--color-mid);
+}
+.visual-refresh .reaction__23977.reactionMe__23977 .reactionCount__23977 {
+  color: var(--color-high);
+}
+
+.reactionBtn__23977.forceShow__23977 {
+  border-radius: 0;
 }
 
 .sidebar_c48ade,
@@ -1417,6 +1467,7 @@ button.button__67645 .lottieIcon__5eb9b {
   	sans-serif !important;
   --font-display: var(--nier-font), "vietnam-pro", "Whitney", "Helvetica Neue", Helvetica, Arial,
   sans-serif !important;
+  --embed-title: var(--color-low);
   --text-primary: var(--color-low);
   --text-secondary: var(--color-low);
   --text-tertiary: var(--color-low);

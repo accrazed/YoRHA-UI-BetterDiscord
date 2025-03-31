@@ -13,3 +13,11 @@
 .visual-refresh .textContainer__4d95d {
 	background-color: rgba(87, 84, 74, 0.3);
 }
+
+// rich presence
+.embed__623de {
+    border-radius: 0;
+}
+.visual-refresh .embedFull__623de {
+    @include boxify($high, $mid, 3px);
+}
