@@ -1,3 +1,7 @@
+// home.scss contains transparencies and miscellaneous modifications
+
+@use '../vars/vars.scss' as *;
+
 // transparencies
 // # store
 .allPerksScroller_ca1a02, 
@@ -10,4 +14,24 @@
 .visual-refresh .homeWrapper__0920e,
 .visual-refresh .container__133bf {
     background: transparent;
+}
+// sidebar header border
+.visual-refresh .searchBar__35e86 {
+    border-bottom: none;
+}
+// sidebar divider between DMs and upper sections
+.visual-refresh .sectionDivider__35e86 {
+    display: none;
+}
+
+// "Find or start a conversation" button above private message channels
+.searchBar__35e86 {
+    padding-right: 7px;
+    padding-left: 35px;
+}
+.lookFilled__201d5.colorPrimary__201d5 {
+    border-radius: 0;
+    padding: 0;
+
+    @include buttonify($mid, $low, $low, $high);
 }

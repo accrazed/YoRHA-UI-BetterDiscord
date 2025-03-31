@@ -18,6 +18,10 @@
     background: transparent;
 }
 
+// weird hidden divs that add stupid padding shit
+.content__99f8c[aria-label="Direct Messages"] > div:first-child {
+	height: 1px !important;
+}
 
 .container_e45859 {
     border-radius: 0;

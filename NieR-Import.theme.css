@@ -921,6 +921,10 @@ button.button__67645 .lottieIcon__5eb9b {
   background: transparent;
 }
 
+.content__99f8c[aria-label="Direct Messages"] > div:first-child {
+  height: 1px !important;
+}
+
 .container_e45859 {
   border-radius: 0;
   padding: 0;
@@ -1276,6 +1280,10 @@ button.button__67645 .lottieIcon__5eb9b {
   background: transparent;
 }
 
+.visual-refresh .container__9293f {
+  border-bottom: none;
+}
+
 .allPerksScroller_ca1a02,
 .mainPageScroller_ca1a02,
 .visual-refresh .shop__08415,
@@ -1284,6 +1292,34 @@ button.button__67645 .lottieIcon__5eb9b {
 .visual-refresh .homeWrapper__0920e,
 .visual-refresh .container__133bf {
   background: transparent;
+}
+
+.visual-refresh .searchBar__35e86 {
+  border-bottom: none;
+}
+
+.visual-refresh .sectionDivider__35e86 {
+  display: none;
+}
+
+.searchBar__35e86 {
+  padding-right: 7px;
+  padding-left: 35px;
+}
+
+.lookFilled__201d5.colorPrimary__201d5 {
+  border-radius: 0;
+  padding: 0;
+  border-radius: 0;
+  border-color: transparent;
+  background-color: var(--color-mid);
+  color: var(--color-low);
+  transition: all 0.1s;
+}
+.lookFilled__201d5.colorPrimary__201d5:hover, .lookFilled__201d5.colorPrimary__201d5:active {
+  border-color: transparent !important;
+  background-color: var(--color-low) !important;
+  color: var(--color-high) !important;
 }
 
 .tutorialContainer__1f388 .listItem__650eb {
