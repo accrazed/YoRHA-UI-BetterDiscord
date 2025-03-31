@@ -163,6 +163,24 @@ body {
 }
 
 .visual-refresh .contentWrapper__08434 {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+.visual-refresh .contentWrapper__08434:hover {
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+
+.autocomplete__6b0e0 {
+  border-radius: 0;
+  box-shadow: 4px 4px 0 var(--color-mid);
+}
+
+.autocomplete__13533 {
+  background-color: var(--color-high);
+}
+
+.visual-refresh .contentWrapper__08434 {
   background-color: var(--color-high);
   border: none;
   border-radius: 0px;

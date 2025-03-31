@@ -14,7 +14,7 @@
 
 // little random chat ciontainer
 .themedBackground__74017 {
-    background: transparent
+	background: transparent;
 }
 
 // Type box
@@ -41,5 +41,5 @@
 
 //# app button
 .button_e6e74f {
-	@include boxify($high, $mid, 3px)
+	@include boxify($high, $mid, 3px);
 }

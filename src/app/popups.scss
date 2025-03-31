@@ -6,10 +6,10 @@
 
 // hover on message popup (with the emojis)
 .buttonsInner__5126c.popover_f84418.popoverReactionHoverBar_f84418.wrapper_f7ecac {
-    background-color: $high;
+	background-color: $high;
 }
 .buttonContainer_c19a55 * {
-    border-radius: 0px;
+	border-radius: 0px;
 }
 
 // hover on guild icon in guild bar popup (some seem fine, but others are not, attempt to make it uniform
@@ -21,91 +21,101 @@
 .visual-refresh .header_fed6d3,   
 /* Expression Picker sticker header */
 .visual-refresh .header__8ef02 {
-    background: $high;  /* Expression Picker sticker header */
+	background: $high; /* Expression Picker sticker header */
 }
 .h5_b717a1 {
-    color: $low;  /* Expression Picker gifs subcategory header text */
+	color: $low; /* Expression Picker gifs subcategory header text */
 }
 .backButton_fed6d3:hover {
-    color: $mid;  /* Expression Picker gifs subcategory back button */
+	color: $mid; /* Expression Picker gifs subcategory back button */
+}
+.visual-refresh .contentWrapper__08434 {
+	@include boxify($high, $mid, 3px);
 }
 
-.visual-refresh .contentWrapper__08434 {
-    background-color: $high;
-    border: none;
-    border-radius: 0px;
+// autocomplete popup
+.autocomplete__6b0e0 {
+	border-radius: 0;
+	box-shadow: 4px 4px 0 var(--color-mid);
 }
+.autocomplete__13533 {
+	background-color: var(--color-high);
+}
+.visual-refresh .contentWrapper__08434 {
+	background-color: $high;
+	border: none;
+	border-radius: 0px;
+}
+
 //------ Nav Bar Theming------//
-.nav__08434{
-    height: 32px;
+.nav__08434 {
+	height: 32px;
 }
 .visual-refresh .navButton__08434 {
-    color: $low;
-    background-color: $mid-trans;
-    height: 24px;
-    &:hover{
-        color: $high;
-        background-color: $low;
-    }
+	color: $low;
+	background-color: $mid-trans;
+	height: 24px;
+	&:hover {
+		color: $high;
+		background-color: $low;
+	}
 }
-.visual-refresh .navButtonActive__08434 { 
-    background-color: $low;
-    color: $high;
-    height: 32px;
-    
+.visual-refresh .navButtonActive__08434 {
+	background-color: $low;
+	color: $high;
+	height: 32px;
 }
 //-----------------------------//
 //sub container
 .wrapper_c0e32c {
-    border-radius: 0px;
+	border-radius: 0px;
 }
 // individual sub-containers (why does every container have its own background color set??)
 .visual-refresh {
-    .emojiPicker_c0e32c,
-    .header_c0e32c,
-    .wrapper__14245,
-    .wrapper__4e6ce,
-    .inspector_aeaaeb {
-        background-color: $high;
-    }
-    //search bar container
-    .container_a45028 {
-        border-radius: 0px;
-        border: 1px solid $alert;
-    }
+	.emojiPicker_c0e32c,
+	.header_c0e32c,
+	.wrapper__14245,
+	.wrapper__4e6ce,
+	.inspector_aeaaeb {
+		background-color: $high;
+	}
+	//search bar container
+	.container_a45028 {
+		border-radius: 0px;
+		border: 1px solid $alert;
+	}
 }
 //icons and text for sub-titles (frequently used, server name etc)
 .headerIcon__14245 > *,
 .headerLabel__14245,
 .headerCollapseIcon__14245,
 .soundmojiViewMore_c656ac {
-    color: $low;
+	color: $low;
 }
 .textWrapper_aeaaeb * {
-    color: $low;
+	color: $low;
 }
-
 
 // context menus / right click
 .menu_c1e9c4 {
-    background-color: $high;  
-    border-radius: 0px;
-    box-shadow: 3px 3px 0 $mid;
+	background-color: $high;
+	border-radius: 0px;
+	box-shadow: 3px 3px 0 $mid;
 }
 :where(.visual-refresh) .colorDefault_c1e9c4 {
-    .label_c1e9c4 {
-        color: $low;
-    }
-    &.focused_c1e9c4 {
-        color: $high;
-        background-color: $low;
-        border-radius: 0px;
+	.label_c1e9c4 {
+		color: $low;
+	}
+	&.focused_c1e9c4 {
+		color: $high;
+		background-color: $low;
+		border-radius: 0px;
 
-        .label_c1e9c4 {
-            color: $high;
-        }
-        .icon_c1e9c4 path {
-            fill: $high !important;
-        }
-    }
+		.label_c1e9c4 {
+			color: $high;
+		}
+		.icon_c1e9c4 path {
+			fill: $high !important;
+		}
+	}
 }
