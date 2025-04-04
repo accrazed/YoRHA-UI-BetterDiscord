@@ -9,6 +9,10 @@
 .chat_f75fb0 {
 	background: transparent;
 }
+// header thin border
+.visual-refresh .chat_f75fb0[data-has-border='true'] {
+	border: none;
+}
 
 .mentioned__5126c:before {
 	width: 0;

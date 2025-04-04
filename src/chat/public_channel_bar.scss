@@ -27,6 +27,11 @@
 	}
 	@include boxify($alert, $mid, 3px);
 }
+// sidebar slight lines
+.visual-refresh .header_f37cb1,
+.visual-refresh .sidebarList_c48ade {
+	border: none;
+}
 
 // User info
 button.button__67645 {

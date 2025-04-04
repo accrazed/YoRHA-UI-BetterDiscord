@@ -1,8 +1,12 @@
 //transparencies
 
 // ## call container
-.visual-refresh .channelChatWrapper_cb9592, 
+.visual-refresh .channelChatWrapper_cb9592,
 .visual-refresh .wrapper_cb9592,
 .callContainer_cb9592 {
-    background: transparent;
+	background: transparent;
+}
+// slight border line
+.visual-refresh .callContainer_cb9592 {
+	border: none;
 }

@@ -430,6 +430,11 @@ body {
   background: transparent;
 }
 
+.visual-refresh .container_c8ffbb,
+.visual-refresh .container__7641b {
+  border: none;
+}
+
 .member_c8ffbb {
   margin: 4px 0;
 }
@@ -491,9 +496,8 @@ body {
   transform-origin: left;
 }
 
-.membersGroup_c8ffbb {
+.visual-refresh .membersGroup_c8ffbb {
   padding-left: 0;
-  text-align: right;
 }
 
 .chatContent_f75fb0,
@@ -501,6 +505,10 @@ body {
 .container_c8ffbb,
 .chat_f75fb0 {
   background: transparent;
+}
+
+.visual-refresh .chat_f75fb0[data-has-border=true] {
+  border: none;
 }
 
 .mentioned__5126c:before {
@@ -773,6 +781,11 @@ body {
 .bar__7aaec:hover,
 .bar__3b95d:hover {
   box-shadow: 3px 3px 0 var(--color-mid);
+}
+
+.visual-refresh .header_f37cb1,
+.visual-refresh .sidebarList_c48ade {
+  border: none;
 }
 
 button.button__67645 {
@@ -1357,6 +1370,10 @@ button.button__67645 .lottieIcon__5eb9b {
 .visual-refresh .wrapper_cb9592,
 .callContainer_cb9592 {
   background: transparent;
+}
+
+.visual-refresh .callContainer_cb9592 {
+  border: none;
 }
 
 .footer__214dc,
