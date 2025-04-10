@@ -1,0 +1,53 @@
+@use '../vars/vars.scss' as *;
+
+/* Transparencies */
+.shopScroll__6db1d,
+.visual-refresh .shop__08415,
+.visual-refresh .shop__6db1d {
+	background: transparent;
+	background-color: transparent;
+}
+
+/* Shop */
+.visual-refresh .headerBar__80679 {
+	background: $high-trans;
+}
+
+.visual-refresh .shopCard_c3d04b {
+	background-color: $low;
+	border-radius: 0px;
+	border: 1px $mid;
+
+	&:hover {
+		border: 1px $mid;
+		box-shadow: 4px 4px 0 $low;
+	}
+}
+
+.visual-refresh .darkCardBackground_c3d04b,
+.visual-refresh .lightCardBackground_c3d04b {
+	background-color: $mid;
+}
+
+.featuredBlock__08415 {
+	border-radius: 0px;
+
+	&:hover {
+		top: -4px;
+		filter: drop-shadow(4px 4px 0 $low);
+	}
+}
+
+.lookFilled__201d5.colorWhite__201d5 {
+	color: $low;
+	background-color: $high;
+
+	&:hover {
+		color: $high;
+		background-color: $low;
+	}
+}
+
+.discordLogo__80679 {
+	color: $low;
+}
