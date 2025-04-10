@@ -393,6 +393,16 @@ body {
   display: none;
 }
 
+/* forum post */
+.visual-refresh .container__9a337 {
+  background: var(--color-high);
+}
+
+/* Friends header */
+.defaultColor__4bd52 {
+  color: var(--color-low);
+}
+
 .container_f369db .sortDropdown_f369db.button__201d5.lookFilled__201d5.sizeMin__201d5.grow__201d5 {
   background: var(--color-low);
 }
