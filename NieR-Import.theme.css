@@ -983,8 +983,10 @@ button.button__67645 .lottieIcon__5eb9b {
   top: 50%;
   transform: translateY(-50%);
   animation-fill-mode: forwards;
-  width: 24px; /* Adjust width as needed */
-  height: 22px; /* Adjust height as needed */
+  width: 24px;
+  /* Adjust width as needed */
+  height: 22px;
+  /* Adjust height as needed */
   background-image: var(--selector-img);
   background-size: cover;
   background-repeat: no-repeat;
@@ -1001,8 +1003,10 @@ button.button__67645 .lottieIcon__5eb9b {
   top: 50%;
   transform-origin: top;
   transform: translateY(-50%);
-  width: 24px; /* Adjust width as needed */
-  height: 22px; /* Adjust height as needed */
+  width: 24px;
+  /* Adjust width as needed */
+  height: 22px;
+  /* Adjust height as needed */
   background-image: var(--selector-img-invert);
   opacity: 1;
   background-size: cover;
@@ -1014,8 +1018,10 @@ button.button__67645 .lottieIcon__5eb9b {
   left: -30px;
   top: 50%;
   transform: translateY(-50%);
-  width: 24px; /* Adjust width as needed */
-  height: 22px; /* Adjust height as needed */
+  width: 24px;
+  /* Adjust width as needed */
+  height: 22px;
+  /* Adjust height as needed */
   background-image: var(--selector-img);
   animation: fade-out 0.25s;
   animation-fill-mode: forwards;
@@ -1087,21 +1093,24 @@ button.button__67645 .lottieIcon__5eb9b {
   margin-left: 20px;
 }
 
-.wrapper__260e1 {
+.visual-refresh .wrapper__260e1 {
+  color: var(--color-high);
   border-radius: 0;
   border: 1px solid var(--color-mid);
   height: 18px;
 }
-.wrapper__260e1 .users__260e1 {
+.visual-refresh .wrapper__260e1 .users__260e1 {
+  background-color: var(--color-low);
   padding-left: 4px;
   z-index: 1;
 }
-.wrapper__260e1 .total__260e1 {
+.visual-refresh .wrapper__260e1 .total__260e1 {
+  padding: 0 3px 0 0;
   background-color: var(--color-alert);
   color: var(--color-high);
   z-index: 2;
 }
-.wrapper__260e1 .total__260e1::after {
+.visual-refresh .wrapper__260e1 .total__260e1::after {
   border-right-color: var(--color-alert);
 }
 

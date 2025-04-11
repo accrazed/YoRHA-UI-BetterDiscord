@@ -2,8 +2,8 @@
 
 // Transparencies
 // # main containers
-.sidebar_c48ade, 
-.theme-dark .container__2637a, 
+.sidebar_c48ade,
+.theme-dark .container__2637a,
 // # unread message blip
 .unread__2ea32,
 // # user profile
@@ -11,13 +11,16 @@
 .theme-dark .content__37e49 {
 	background: transparent;
 }
+
 // # weird scrollbar in bottom left corner under profile
 .visual-refresh .sidebar_c48ade:after {
 	display: none;
 }
+
 .header_f37cb1 {
 	box-shadow: none;
 }
+
 // Unread messages notification
 .bar__7aaec,
 // ... the other Unread messages notification (shows up when scrolled down and there's an unread channel above)
@@ -25,8 +28,10 @@
 	.barText__7aaec {
 		color: $high !important;
 	}
+
 	@include boxify($alert, $mid, 3px);
 }
+
 // sidebar slight lines
 .visual-refresh .header_f37cb1,
 .visual-refresh .sidebarList_c48ade {
@@ -49,6 +54,7 @@ button.button__67645 {
 
 		path {
 			fill: none;
+
 			&:first-child {
 				fill: $color-icon;
 				transform: translate(-26px, 1px) scale(200%);
@@ -61,6 +67,7 @@ button.button__67645 {
 :where(.visual-refresh) .iconContainer__2ea32 {
 	width: inherit;
 }
+
 // Channel hover/select animations
 .wrapper__2ea32 {
 	padding: 0;
@@ -71,11 +78,13 @@ button.button__67645 {
 	.name__2ea32 {
 		transition: color 0.2s;
 	}
+
 	// Square icon
 	.iconContainer__2ea32 {
 		display: flex;
 		align-items: center;
 		justify-content: center;
+
 		.icon__2ea32 {
 			transition: color 0.2s, background-color 0.2s;
 			height: 12px;
@@ -91,6 +100,7 @@ button.button__67645 {
 			color: $low;
 		}
 	}
+
 	// Private text channels only show lock
 	@include scaleChanIconAndColor($aria-label-text-limited, $high);
 	// nsfw channels show only warning
@@ -103,10 +113,12 @@ button.button__67645 {
 			color: $high;
 		}
 	}
+
 	// Channel icons on side
 	.actionIcon_c69b6d {
 		color: $high;
 	}
+
 	// ------------------------ STRUCTURE --------------------------------------
 
 	// VERY IMPORTANT. Padding must be zero or we get subpixel errors
@@ -147,6 +159,7 @@ button.button__67645 {
 		transform: scaleX(0);
 		transform-origin: left;
 	}
+
 	// grower border
 	.linkTop__2ea32::after {
 		position: absolute;
@@ -163,8 +176,10 @@ button.button__67645 {
 	}
 
 	&.modeConnected__2ea32,
-		&.modeSelected__2ea32,// When hovering and selecting
-		&:hover {
+	&.modeSelected__2ea32,
+	// When hovering and selecting
+	&:hover {
+
 		// grow border and body
 		.linkBottom__2ea32::before,
 		.linkTop__2ea32::before,
@@ -176,6 +191,7 @@ button.button__67645 {
 		.name__2ea32 {
 			color: $high;
 		}
+
 		.iconContainer__2ea32 {
 			.icon__2ea32 {
 				background-color: $high;
@@ -187,6 +203,7 @@ button.button__67645 {
 				color: $low;
 			}
 		}
+
 		// Private text channels only show lock
 		@include scaleChanIconAndColor($aria-label-text-limited, $low);
 		// nsfw channels show only warning
@@ -197,6 +214,7 @@ button.button__67645 {
 			opacity: 1;
 			fill: $high;
 		}
+
 		&.modeLocked__2ea32,
 		&.typeVoice__2ea32 {
 			.icon__2ea32 {
@@ -204,9 +222,11 @@ button.button__67645 {
 			}
 		}
 	}
+
 	// When selected
 	&.modeConnected__2ea32,
 	&.modeSelected__2ea32 {
+
 		.linkBottom__2ea32::before,
 		.linkTop__2ea32::before {
 			transform: scale(100%, 100%);
@@ -224,11 +244,12 @@ button.button__67645 {
 	}
 
 	// Unread channels will override
-	.unread__2ea32.unreadImportant__2ea32 ~ div {
+	.unread__2ea32.unreadImportant__2ea32~div {
 		.icon__2ea32 {
 			color: $alert;
 			background-color: $alert;
 		}
+
 		.name__2ea32 {
 			color: $alert;
 		}
@@ -248,8 +269,10 @@ button.button__67645 {
 		top: 50%;
 		transform: translateY(-50%);
 		animation-fill-mode: forwards;
-		width: 24px; /* Adjust width as needed */
-		height: 22px; /* Adjust height as needed */
+		width: 24px;
+		/* Adjust width as needed */
+		height: 22px;
+		/* Adjust height as needed */
 		background-image: $selector-img; // overridded in light/dark/night files
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -257,6 +280,7 @@ button.button__67645 {
 		transition: opacity 0.175s ease-in-out;
 		opacity: 0;
 	}
+
 	&:not(.modeSelected__2ea32):hover::before {
 		opacity: 1;
 	}
@@ -271,8 +295,10 @@ button.button__67645 {
 		top: 50%;
 		transform-origin: top;
 		transform: translateY(-50%);
-		width: 24px; /* Adjust width as needed */
-		height: 22px; /* Adjust height as needed */
+		width: 24px;
+		/* Adjust width as needed */
+		height: 22px;
+		/* Adjust height as needed */
 		background-image: $selector-img-invert; // overridded in light/dark/night files
 
 		opacity: 1;
@@ -288,8 +314,10 @@ button.button__67645 {
 		left: -30px;
 		top: 50%;
 		transform: translateY(-50%);
-		width: 24px; /* Adjust width as needed */
-		height: 22px; /* Adjust height as needed */
+		width: 24px;
+		/* Adjust width as needed */
+		height: 22px;
+		/* Adjust height as needed */
 		background-image: $selector-img; // overridded in light/dark/night files
 		animation: fade-out 0.25s;
 		animation-fill-mode: forwards;
@@ -297,6 +325,7 @@ button.button__67645 {
 		background-repeat: no-repeat;
 	}
 }
+
 .list_c3cd7d {
 	//Container that holds users in the VC
 	margin-top: 1.5px; //fix for some awkward bumping between the borders
@@ -304,6 +333,7 @@ button.button__67645 {
 
 // ------------------- SELECTOR BACKDROP ---------------------------------------
 .container__2637a {
+
 	// selector backdrop
 	.content__99f8c::before {
 		content: '';
@@ -336,6 +366,7 @@ button.button__67645 {
 .spineBorder__5b40b {
 	background: transparent;
 }
+
 .spine__5b40b {
 	z-index: 2;
 	left: 6px;
@@ -359,6 +390,7 @@ button.button__67645 {
 .typeThread__2ea32 .link__2ea32 {
 	margin-left: 0;
 }
+
 .typeThread__2ea32 .name__2ea32.overflow__82b15 {
 	left: 24px;
 }
@@ -371,6 +403,7 @@ button.button__67645 {
 }
 
 .scroller__629e4 {
+
 	//container that holds actual channels
 	.content__99f8c {
 		margin-left: 20px;
@@ -379,20 +412,25 @@ button.button__67645 {
 	}
 }
 
-// Voice channel limits
-.wrapper__260e1 {
+.visual-refresh .wrapper__260e1 {
+	color: $high;
 	border-radius: 0;
 	border: 1px solid $mid;
 	height: 18px;
+
 	.users__260e1 {
+		background-color: $low;
 		padding-left: 4px;
 		z-index: 1;
 	}
+
 	.total__260e1 {
+		padding: 0 3px 0 0;
 		background-color: $alert;
 		color: $high;
 		z-index: 2;
 	}
+
 	.total__260e1::after {
 		border-right-color: $alert;
 	}

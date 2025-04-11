@@ -9,14 +9,17 @@
 .modeSelected__2ea32:hover .link__2ea32 {
 	background: transparent;
 }
+
 .header_f37cb1 {
 	box-shadow: none;
 }
+
 // Unread messages notification
 .unread__3b95d {
 	color: $high;
 	@include boxify($alert, $mid, 3px);
 }
+
 // User info
 .button_e131a9 {
 	@include buttonify(transparent, $low, $low, $high);
@@ -24,22 +27,27 @@
 	.lottieIcon__5eb9b {
 		--__lottieIconColor: currentColor !important;
 	}
+
 	&:hover .lottieIcon__5eb9b :not(defs *)[fill][fill-opacity] {
 		fill: $high !important;
 	}
 }
+
 // Channel hover/select animations
 .wrapper__2ea32 {
 	padding: 0;
 	margin-left: 15px;
+
 	// -------------------- ICONS / TEXT ------------------------------
 	// channel name
 	.name__2ea32 {
 		transition: color 0.2s;
 	}
+
 	// Square icon
 	.iconContainer__2ea32 {
 		align-self: center;
+
 		.icon__2ea32 {
 			transition: color 0.2s, background-color 0.2s;
 			height: 12px;
@@ -49,6 +57,7 @@
 			color: $high;
 		}
 	}
+
 	&.modeMuted__2ea32 {
 		opacity: 50%;
 	}
@@ -60,10 +69,12 @@
 			color: $high;
 		}
 	}
+
 	// Channel icons on side
 	.actionIcon_c69b6d {
 		color: $high;
 	}
+
 	// ------------------------ STRUCTURE ----------------------------
 
 	// VERY IMPORTANT. Padding must be zero or we get subpixel errors
@@ -85,6 +96,7 @@
 		margin: 0;
 
 		.hoverable__5cda9 {
+
 			.pencilIcon__5cda9,
 			.statusText__5cda9 {
 				color: $low;
@@ -92,6 +104,7 @@
 		}
 
 		&:hover {
+
 			.pencilIcon__5cda9,
 			.statusText__5cda9 {
 				color: $mid;
@@ -105,103 +118,113 @@
 	//&.typeDefault__2ea32,
 	//&.typeThread__2ea32,
 	//&.typeVoice__2ea32 {
-		// LinkTop is the main body
-		.linkTop__2ea32 {
-			height: 24px;
-			padding: 0px 6px;
-			background-color: $high-mid;
-		}
+	// LinkTop is the main body
+	.linkTop__2ea32 {
+		height: 24px;
+		padding: 0px 6px;
+		background-color: $high-mid;
+	}
 
-		// the main grower
-		.linkTop__2ea32::before {
-			position: absolute;
-			content: '';
-			width: 100%;
-			height: 100%; // 28px
-			animation: pulsingBackground 2.5s infinite;
+	// the main grower
+	.linkTop__2ea32::before {
+		position: absolute;
+		content: '';
+		width: 100%;
+		height: 100%; // 28px
+		animation: pulsingBackground 2.5s infinite;
 
-			box-shadow: 0 0 3px $low;
+		box-shadow: 0 0 3px $low;
 
-			transition: transform 0.4s;
-			transform: scaleX(0);
-			transform-origin: left;
-		}
-		// grower border
+		transition: transform 0.4s;
+		transform: scaleX(0);
+		transform-origin: left;
+	}
+
+	// grower border
+	.linkTop__2ea32::after {
+		position: absolute;
+		content: '';
+		width: 100%;
+		height: 32px;
+		pointer-events: none;
+
+		box-shadow: 0 1px $low, 0 -1px $low;
+
+		transition: transform 0.4s;
+		transform: scale(0, 85%);
+		transform-origin: left;
+	}
+
+	&.modeConnected__2ea32,
+	&.modeSelected__2ea32,
+	// When hovering and selecting
+	&:hover {
+
+		// grow border and body
+		.linkBottom__2ea32::before,
+		.linkTop__2ea32::before,
 		.linkTop__2ea32::after {
-			position: absolute;
-			content: '';
-			width: 100%;
-			height: 32px;
-			pointer-events: none;
-
-			box-shadow: 0 1px $low, 0 -1px $low;
-
-			transition: transform 0.4s;
-			transform: scale(0, 85%);
-			transform-origin: left;
+			transform: scale(100%, 100%);
 		}
 
-		&.modeConnected__2ea32,
-		&.modeSelected__2ea32,// When hovering and selecting
-		&:hover {
-			// grow border and body
-			.linkBottom__2ea32::before,
-			.linkTop__2ea32::before,
-			.linkTop__2ea32::after {
-				transform: scale(100%, 100%);
-			}
+		// invert name and icons
+		.name__2ea32 {
+			color: $high;
+		}
 
-			// invert name and icons
-			.name__2ea32 {
+		.iconContainer__2ea32 {
+			.icon__2ea32 {
+				background-color: $high;
 				color: $high;
 			}
-			.iconContainer__2ea32 {
-				.icon__2ea32 {
-					background-color: $high;
-					color: $high;
-				}
-			}
-			.actionIcon_c69b6d path {
-				transition: opacity 0.5s;
-				opacity: 1;
-				fill: $high;
-			}
-			&.modeLocked__2ea32,
-			&.typeVoice__2ea32 {
-				.icon__2ea32 {
-					color: $low;
-				}
-			}
-		}
-		// When selected
-		&.modeConnected__2ea32,
-		&.modeSelected__2ea32 {
-			.linkBottom__2ea32::before,
-			.linkTop__2ea32::before {
-				transform: scale(100%, 100%);
-				transition: transform 0.4s, opacity 0.4s;
-				animation: none;
-				background-color: $low;
-				opacity: 0.65;
-			}
-
-			.linkTop__2ea32::after {
-				transition: transform 0.75s;
-				transform: scale(0%, 100%);
-				transform-origin: right;
-			}
 		}
 
-		// Unread channels will override
-		.unread__2ea32.unreadImportant__2ea32 ~ div {
+		.actionIcon_c69b6d path {
+			transition: opacity 0.5s;
+			opacity: 1;
+			fill: $high;
+		}
+
+		&.modeLocked__2ea32,
+		&.typeVoice__2ea32 {
 			.icon__2ea32 {
-				color: $alert;
-				background-color: $alert;
-			}
-			.name__2ea32 {
-				color: $alert;
+				color: $low;
 			}
 		}
+	}
+
+	// When selected
+	&.modeConnected__2ea32,
+	&.modeSelected__2ea32 {
+
+		.linkBottom__2ea32::before,
+		.linkTop__2ea32::before {
+			transform: scale(100%, 100%);
+			transition: transform 0.4s, opacity 0.4s;
+			animation: none;
+			background-color: $low;
+			opacity: 0.65;
+		}
+
+		.linkTop__2ea32::after {
+			transition: transform 0.75s;
+			transform: scale(0%, 100%);
+			transform-origin: right;
+		}
+	}
+
+	// Unread channels will override
+	.unread__2ea32.unreadImportant__2ea32~div {
+		.icon__2ea32 {
+			color: $alert;
+			background-color: $alert;
+		}
+
+		.name__2ea32 {
+			color: $alert;
+		}
+	}
+
 	//}
 
 	// SELECTOR CHANNEL ---------------------------------------------
@@ -212,8 +235,10 @@
 		top: 50%;
 		transform: translateY(-50%);
 		animation-fill-mode: forwards;
-		width: 24px; /* Adjust width as needed */
-		height: 22px; /* Adjust height as needed */
+		width: 24px;
+		/* Adjust width as needed */
+		height: 22px;
+		/* Adjust height as needed */
 		background-image: $selector-img; // overridded in light/dark/night files
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -221,9 +246,11 @@
 		transition: opacity 0.175s ease-in-out;
 		opacity: 0;
 	}
+
 	&:not(.modeSelected__2ea32):hover::before {
 		opacity: 1;
 	}
+
 	&.modeSelected__2ea32::before {
 		content: '';
 		position: absolute;
@@ -231,22 +258,27 @@
 		top: 50%;
 		transform-origin: top;
 		transform: translateY(-50%);
-		width: 24px; /* Adjust width as needed */
-		height: 22px; /* Adjust height as needed */
+		width: 24px;
+		/* Adjust width as needed */
+		height: 22px;
+		/* Adjust height as needed */
 		background-image: $selector-img-invert; // overridded in light/dark/night files
 		opacity: 1;
 
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
+
 	&.modeSelected__2ea32::after {
 		content: '';
 		position: absolute;
 		left: -30px;
 		top: 50%;
 		transform: translateY(-50%);
-		width: 24px; /* Adjust width as needed */
-		height: 22px; /* Adjust height as needed */
+		width: 24px;
+		/* Adjust width as needed */
+		height: 22px;
+		/* Adjust height as needed */
 		background-image: $selector-img; // overridded in light/dark/night files
 		animation: fade-out 0.25s;
 		animation-fill-mode: forwards;
@@ -254,6 +286,7 @@
 		background-repeat: no-repeat;
 	}
 }
+
 .list_c3cd7d {
 	//Container that holds users in the VC
 	margin-top: 1.5px; //fix for some awkward bumping between the borders
@@ -261,6 +294,7 @@
 
 // Entire channels list container
 .container__2637a {
+
 	// selector backdrop
 	.content__99f8c::before {
 		content: '';
@@ -295,6 +329,7 @@
 }
 
 .scroller__629e4 {
+
 	//container that holds actual channels
 	.content__99f8c {
 		margin-left: 20px;
@@ -304,30 +339,36 @@
 }
 
 // Voice channel limits
-.wrapper__260e1 {
+.visual-refresh .wrapper__260e1 {
 	border-radius: 0;
 	border: 1px solid $mid;
 	height: 18px;
+
 	.users__260e1 {
 		padding-left: 4px;
 		z-index: 1;
 	}
+
 	.total__260e1 {
 		background-color: $alert;
 		color: $high;
 		z-index: 2;
 	}
+
 	.total__260e1::after {
 		border-right-color: $alert;
 	}
 }
+
 .base_c48ade {
 	border-radius: 0;
 }
+
 // Thread splines
 .spineBorder__5b40b {
 	background: transparent;
 }
+
 .spine__5b40b {
 	z-index: 2;
 	left: 6px;
@@ -351,6 +392,7 @@
 .typeThread__2ea32 .link__2ea32 {
 	margin-left: 0;
 }
+
 .typeThread__2ea32 .name__2ea32.overflow__82b15 {
 	left: 24px;
 }
