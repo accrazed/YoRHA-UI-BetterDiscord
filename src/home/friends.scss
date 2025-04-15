@@ -1,28 +1,48 @@
+@use '../vars/vars' as *;
 // friends screen in home page
 
 // transparencies
 // # main body
+.nowPlayingColumn__133bf,
+.container__7d20c,
 .visual-refresh .tabBody__133bf {
-    background: transparent;
+  background: transparent;
 }
+
 // # header borders
 .visual-refresh .container__9293f {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 /* Friends list top buttons */
 
 .visual-refresh .topPill_b3f026 .themed_b3f026.selected_b3f026.item_b3f026 {
-    color: var(--color-high);
-    background-color: var(--color-low-trans);  
+  color: var(--color-high);
+  background-color: var(--color-low-trans);
 }
+
 .visual-refresh .topPill_b3f026 .themed_b3f026.selected_b3f026.item_b3f026:hover {
-    background-color: var(--color-low);  
+  background-color: var(--color-low);
 }
+
 .visual-refresh .themed_b3f026.item_b3f026 {
-    color: var(--color-low);  
+  color: var(--color-low);
 }
+
 .visual-refresh .topPill_b3f026 .themed_b3f026.item_b3f026:hover:not(.disabled_b3f026) {
-    color: var(--color-high);
-    background-color: var(--color-low);  
+  color: var(--color-high);
+  background-color: var(--color-low);
+}
+
+// Active now
+.itemCard__7e549 {
+  border: none;
+  @include boxify($high, $mid, 3px);
+
+}
+
+.visual-refresh .outer_bf1984.active_bf1984,
+.visual-refresh .outer_bf1984.interactive_bf1984:hover {
+
+  background-color: $mid;
 }

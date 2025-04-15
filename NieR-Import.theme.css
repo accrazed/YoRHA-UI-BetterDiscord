@@ -1706,6 +1706,8 @@ button.button__67645 .lottieIcon__5eb9b {
   width: 65px;
 }
 
+.nowPlayingColumn__133bf,
+.container__7d20c,
 .visual-refresh .tabBody__133bf {
   background: transparent;
 }
@@ -1731,6 +1733,21 @@ button.button__67645 .lottieIcon__5eb9b {
 .visual-refresh .topPill_b3f026 .themed_b3f026.item_b3f026:hover:not(.disabled_b3f026) {
   color: var(--color-high);
   background-color: var(--color-low);
+}
+
+.itemCard__7e549 {
+  border: none;
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+.itemCard__7e549:hover {
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+
+.visual-refresh .outer_bf1984.active_bf1984,
+.visual-refresh .outer_bf1984.interactive_bf1984:hover {
+  background-color: var(--color-mid);
 }
 
 .allPerksScroller_ca1a02,
