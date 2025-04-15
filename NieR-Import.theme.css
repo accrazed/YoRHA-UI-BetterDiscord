@@ -151,15 +151,18 @@ body {
 .content_fed6d3,
 .visual-refresh .header_fed6d3,
 .visual-refresh .header__8ef02 {
-  background: var(--color-high); /* Expression Picker sticker header */
+  background: var(--color-high);
+  /* Expression Picker sticker header */
 }
 
 .h5_b717a1 {
-  color: var(--color-low); /* Expression Picker gifs subcategory header text */
+  color: var(--color-low);
+  /* Expression Picker gifs subcategory header text */
 }
 
 .backButton_fed6d3:hover {
-  color: var(--color-mid); /* Expression Picker gifs subcategory back button */
+  color: var(--color-mid);
+  /* Expression Picker gifs subcategory back button */
 }
 
 .visual-refresh .contentWrapper__08434 {
@@ -220,6 +223,33 @@ body {
 .visual-refresh .container_a45028 {
   border-radius: 0px;
   border: 1px solid var(--color-alert);
+}
+
+.visual-refresh .container__55c99 {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+.visual-refresh .container__55c99:hover {
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+
+.visual-refresh .searchAnswer_bd8186, .visual-refresh .searchFilter_bd8186 {
+  background-color: var(--color-high);
+}
+
+.visual-refresh .searchResultsWrap_a9e706 {
+  background: transparent;
+  border: none;
+}
+
+.visual-refresh .searchResult__02a39 {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+.visual-refresh .searchResult__02a39:hover {
+  box-shadow: 3px 3px 0 var(--color-mid);
 }
 
 .headerIcon__14245 > *,
@@ -330,6 +360,18 @@ body {
 
 .themedBackground__74017 {
   background: transparent;
+}
+
+.visual-refresh .stackedBars__74017:not(:last-child) {
+  border: none;
+}
+
+.clipContainer__841c8 {
+  padding: 0;
+}
+
+.visual-refresh .actions__841c8 {
+  margin: 0;
 }
 
 .channelTextArea_f75fb0 {
@@ -1127,12 +1169,9 @@ button.button__67645 .lottieIcon__5eb9b {
   padding-left: 10px;
 }
 
-.interactive_bf202d:focus-within, .interactive_bf202d:hover {
+.interactive_bf202d:focus-within,
+.interactive_bf202d:hover {
   background: transparent;
-}
-
-.content__99f8c[aria-label="Direct Messages"] > div:first-child {
-  height: 1px !important;
 }
 
 .container_e45859 {
@@ -1254,8 +1293,10 @@ button.button__67645 .lottieIcon__5eb9b {
   top: 50%;
   transform: translateY(-50%);
   animation-fill-mode: forwards;
-  width: 24px; /* Adjust width as needed */
-  height: 22px; /* Adjust height as needed */
+  width: 24px;
+  /* Adjust width as needed */
+  height: 22px;
+  /* Adjust height as needed */
   background-image: var(--selector-img);
   background-size: cover;
   background-repeat: no-repeat;
@@ -1272,8 +1313,10 @@ button.button__67645 .lottieIcon__5eb9b {
   top: 50%;
   transform-origin: top;
   transform: translateY(-50%);
-  width: 24px; /* Adjust width as needed */
-  height: 22px; /* Adjust height as needed */
+  width: 24px;
+  /* Adjust width as needed */
+  height: 22px;
+  /* Adjust height as needed */
   background-image: var(--selector-img-invert);
   opacity: 1;
   background-size: cover;
@@ -1285,8 +1328,10 @@ button.button__67645 .lottieIcon__5eb9b {
   left: -30px;
   top: 50%;
   transform: translateY(-50%);
-  width: 24px; /* Adjust width as needed */
-  height: 22px; /* Adjust height as needed */
+  width: 24px;
+  /* Adjust width as needed */
+  height: 22px;
+  /* Adjust height as needed */
   background-image: var(--selector-img);
   animation: fade-out 0.25s;
   animation-fill-mode: forwards;
@@ -1628,6 +1673,22 @@ button.button__67645 .lottieIcon__5eb9b {
 .contentRegion__23e6b,
 .visual-refresh .contentRegionScroller__23e6b {
   background: transparent;
+}
+
+.visual-refresh .themed_b3f026.item_b3f026 {
+  border-radius: 0;
+  border-color: transparent;
+  background-color: transparent;
+  color: var(--color-low);
+  transition: all 0.1s;
+}
+.visual-refresh .themed_b3f026.item_b3f026:hover, .visual-refresh .themed_b3f026.item_b3f026:active {
+  border-color: transparent !important;
+  background-color: var(--color-low) !important;
+  color: var(--color-high) !important;
+}
+.visual-refresh .themed_b3f026.item_b3f026.selected_b3f026 {
+  color: var(--color-high);
 }
 
 .visual-refresh.theme-dark,
