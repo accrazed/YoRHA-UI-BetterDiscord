@@ -69,3 +69,25 @@
 
   }
 }
+
+// ================ the forum post that opens on the side //
+.visual-refresh .container__01ae2,
+.visual-refresh .resizeHandle__01ae2 {
+  background: transparent;
+  border: none;
+}
+
+.divider_ee23ac {
+  background: transparent;
+}
+
+// footer to main post (follow, link, reacts, etc)
+.visual-refresh .container__34c2c,
+.visual-refresh .header__34c2c {
+  margin: 0px 3px;
+  @include boxify($high, $mid, 3px);
+}
+
+.container__34c2c {
+  border: none;
+}

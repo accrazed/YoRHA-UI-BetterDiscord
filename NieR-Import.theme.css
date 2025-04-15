@@ -475,6 +475,32 @@ body {
   border-radius: 0px;
 }
 
+.visual-refresh .container__01ae2,
+.visual-refresh .resizeHandle__01ae2 {
+  background: transparent;
+  border: none;
+}
+
+.divider_ee23ac {
+  background: transparent;
+}
+
+.visual-refresh .container__34c2c,
+.visual-refresh .header__34c2c {
+  margin: 0px 3px;
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+.visual-refresh .container__34c2c:hover,
+.visual-refresh .header__34c2c:hover {
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+
+.container__34c2c {
+  border: none;
+}
+
 .container_c8ffbb,
 .members_c8ffbb,
 .member_c8ffbb,
