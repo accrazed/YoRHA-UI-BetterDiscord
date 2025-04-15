@@ -7,9 +7,20 @@
 // # unread message blip
 .unread__2ea32,
 // # user profile
+
 .panels_c48ade,
 .theme-dark .content__37e49 {
 	background: transparent;
+}
+
+
+// ummm... this changes a bunch of places to squares... which is pretty convenient...
+.wrapper__44b0c {
+	border-radius: 0;
+
+	foreignObject {
+		mask: none;
+	}
 }
 
 // # weird scrollbar in bottom left corner under profile

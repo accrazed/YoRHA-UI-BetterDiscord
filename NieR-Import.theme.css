@@ -331,6 +331,144 @@ body {
   fill: var(--color-high);
 }
 
+.outer_c0bea0 {
+  padding: 0 !important;
+}
+.outer_c0bea0:not(.custom-theme-background.custom-profile-theme) {
+  box-shadow: 3px 3px 0 var(--color-mid);
+  border-radius: 0;
+}
+.outer_c0bea0 .container_ab8609.biteSize_ab8609 {
+  top: calc(var(--custom-user-profile-banner-height) + 125px);
+  left: 60px;
+}
+.outer_c0bea0 .outer_ab8609:after,
+.outer_c0bea0 .outer_ab8609:before {
+  display: none;
+}
+.outer_c0bea0 :where(.avatar__75742) {
+  position: relative;
+}
+.outer_c0bea0 .clickable_f89da9,
+.outer_c0bea0 .clickable__75742 {
+  border: 2px solid var(--color-low);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-mid);
+  margin: 0.5em;
+  padding: 2em;
+  border-radius: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.outer_c0bea0 .avatar__75742.biteSize__75742 {
+  top: 0;
+  left: 0;
+}
+.outer_c0bea0 .body__5be3e {
+  border: 2px solid var(--color-low);
+  margin: 0 0.5em;
+  padding: 0.5em;
+  background: var(--color-high);
+}
+.outer_c0bea0 .body__5be3e .biteSize_c0bea0.activity__5be3e {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: var(--color-low);
+  border-radius: 0px;
+  background-color: transparent;
+}
+.outer_c0bea0 .root_fccfdf .role_dfa8b6 {
+  background-color: var(--color-mid-trans);
+}
+.outer_c0bea0 .footer_d5223c {
+  margin: 0;
+  padding: 0.5em;
+}
+.outer_c0bea0 .channelTextArea__74017 {
+  background: var(--color-high);
+  border-radius: 0;
+}
+.outer_c0bea0 .container_d1d9f3,
+.outer_c0bea0 .username__24502,
+.outer_c0bea0 .body_af7fb7 {
+  border: 2px solid var(--color-low);
+  margin: 0 0.5em;
+  padding: 0.5em;
+  background: var(--color-high);
+}
+.outer_c0bea0 .container_d1d9f3 .biteSize_c0bea0.card__39ec2,
+.outer_c0bea0 .username__24502 .biteSize_c0bea0.card__39ec2,
+.outer_c0bea0 .body_af7fb7 .biteSize_c0bea0.card__39ec2 {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: var(--color-low);
+  border-radius: 0px;
+  background-color: transparent;
+}
+.outer_c0bea0 .referenceContainer_ab8609.biteSize_ab8609 {
+  display: none;
+}
+.outer_c0bea0 .mask__68edb mask {
+  display: none;
+}
+
+:where(.button_fb7f94).banner_fb7f94,
+:where(.button_fb7f94).hover_fb7f94 {
+  border-radius: 0;
+  border-radius: 0;
+  border-color: transparent;
+  background-color: var(--color-high);
+  color: var(--color-low);
+  transition: all 0.1s;
+}
+:where(.button_fb7f94).banner_fb7f94:hover, :where(.button_fb7f94).banner_fb7f94:active,
+:where(.button_fb7f94).hover_fb7f94:hover,
+:where(.button_fb7f94).hover_fb7f94:active {
+  border-color: transparent !important;
+  background-color: var(--color-low) !important;
+  color: var(--color-high) !important;
+}
+
+.container_b1f01d {
+  background: transparent;
+  border-radius: 0;
+  padding: 0;
+}
+
+html:not(.visual-refresh-chat-input) .inputInner_b1f01d {
+  background-color: var(--color-high);
+  border-radius: 0;
+}
+
+.editor_b1f01d {
+  min-height: 0;
+}
+
+.card__39ec2 {
+  border-radius: 0;
+  border-color: transparent;
+  background-color: var(--color-high);
+  color: var(--color-low);
+  transition: all 0.1s;
+}
+.card__39ec2:hover, .card__39ec2:active {
+  border-color: transparent !important;
+  background-color: var(--color-mid) !important;
+  color: var(--color-high) !important;
+}
+
+.container_d1d9f3 {
+  margin-bottom: 0.5em !important;
+}
+
+.theme-dark .outer_ab8609 .inner_ab8609 {
+  background-color: var(--color-high);
+  color: var(--color-low);
+}
+
 .visual-refresh .chatContent_f75fb0,
 .visual-refresh .chat_f75fb0,
 .chat_f75fb0,
@@ -836,6 +974,13 @@ body {
 .panels_c48ade,
 .theme-dark .content__37e49 {
   background: transparent;
+}
+
+.wrapper__44b0c {
+  border-radius: 0;
+}
+.wrapper__44b0c foreignObject {
+  mask: none;
 }
 
 .visual-refresh .sidebar_c48ade:after {
@@ -1719,13 +1864,14 @@ button.button__67645 .lottieIcon__5eb9b {
 
 .visual-refresh.theme-dark,
 .visual-refresh.theme-light,
+.visual-refresh .theme-light,
 .visual-refresh.theme-darker,
 .visual-refresh .theme-darker,
 :root {
   --font-primary: var(--nier-font), "vietnam-pro", "Whitney", "Helvetica Neue", Helvetica, Arial,
   	sans-serif !important;
   --font-display: var(--nier-font), "vietnam-pro", "Whitney", "Helvetica Neue", Helvetica, Arial,
-  sans-serif !important;
+  	sans-serif !important;
   --embed-title: var(--color-low);
   --text-primary: var(--color-low);
   --text-secondary: var(--color-low);
