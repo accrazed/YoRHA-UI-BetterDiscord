@@ -9,10 +9,24 @@
 
 	/* padding: 0 !important; */
 
-	/* .container_ab8609.biteSize_ab8609 { */
-	/* top: calc(var(--custom-user-profile-banner-height) + 125px); */
-	/* left: 60px; */
-	/* } */
+
+	.container_ab8609.biteSize_ab8609 {
+		position: absolute;
+		top: calc(var(--custom-user-profile-banner-height) + 161px);
+		left: 8px;
+		width: 100%;
+			.outer_ab8609.biteSize_ab8609 {
+				border: 1px solid $low;
+				max-width: 100%;
+				width: 94.5%;
+				.inner_ab8609 {
+					margin: 0;
+					width: 94.5%;
+				}
+				
+			}
+	}
+
 
 	.outer_ab8609:after,
 	.outer_ab8609:before {
@@ -109,9 +123,7 @@
 		}
 	}
 
-	/* .referenceContainer_ab8609.biteSize_ab8609 { */
-	/* display: none; */
-	/* } */
+
 
 	/* .mask__68edb mask { */
 	/* display: none; */
