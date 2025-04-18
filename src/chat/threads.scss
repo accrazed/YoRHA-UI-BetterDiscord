@@ -9,13 +9,16 @@
 .typeThread__2ea32.wrapper__2ea32 {
 	margin-left: 0;
 }
+
 .hasThread_c19a55 {
+
 	// Elbow
 	&.cozy_c19a55:after {
 		border-left: 2px solid $low;
 		border-bottom: 2px solid $low;
 		border-bottom-left-radius: 0;
 	}
+
 	// Thread box,
 	.container__9271d {
 		@include boxify($high, $mid, 3px);
@@ -29,8 +32,10 @@
 
 .iconWrapper__54b20 {
 	background-color: $low;
+
 	.icon__54b20 {
 		color: $high;
+
 		path:first-child {
 			visibility: hidden;
 		}
@@ -38,7 +43,7 @@
 }
 
 .iconContainer__235ca .icon_da3997 path:first-child {
-	visibility: hidden; 
+	visibility: hidden;
 }
 
 *[aria-label='Threads'],
@@ -76,12 +81,14 @@
 		left: 1px;
 		max-width: 175px;
 		text-align: left;
+
 		&.overflow__82b15 {
 			white-space: nowrap;
 			overflow: hidden;
 			text-overflow: ellipsis;
 		}
 	}
+
 	.mentionsBadge__933a1 {
 		position: absolute;
 		padding-left: 121px;
