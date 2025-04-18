@@ -31,7 +31,7 @@
 		grid-template-columns: 2fr 1fr;
 		left: 24px;
 		gap: 5px;
-		padding: 0.5em 0em 0.5em 0em;
+		padding: 0.5em 1.5em 0.5em 0em;
 
 		// janky ass invisible container?
 		.invisibleContainer_af9888.fullSize_ab8609 {
@@ -137,6 +137,7 @@
 		> .headerButtons__24502 {
 			grid-column: 2;
 			grid-row: 2;
+			margin: 0;
 		}
 	}
 
