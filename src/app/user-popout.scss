@@ -10,8 +10,20 @@
 	padding: 0 !important;
 
 	.container_ab8609.biteSize_ab8609 {
-		top: calc(var(--custom-user-profile-banner-height) + 125px);
-		left: 60px;
+		position: absolute;
+		top: calc(var(--custom-user-profile-banner-height) + 161px);
+		left: 8px;
+		width: 100%;
+			.outer_ab8609.biteSize_ab8609 {
+				border: 1px solid $low;
+				max-width: 100%;
+				width: 94.5%;
+				.inner_ab8609 {
+					margin: 0;
+					width: 94.5%;
+				}
+				
+			}
 	}
 
 	.outer_ab8609:after,
@@ -107,10 +119,11 @@
 			}
 		}
 	}
-
-	.referenceContainer_ab8609.biteSize_ab8609 {
-		display: none;
-	}
+	
+	// invisible container that holds the space where the status would be in terms of heriarchy . Seems to necessary to keep visible in order to maintain the spacing in our current setup
+	// .referenceContainer_ab8609.biteSize_ab8609 { 
+	 	//display: none;
+	// }
 
 	.mask__68edb mask {
 		display: none;
