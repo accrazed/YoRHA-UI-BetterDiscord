@@ -7,8 +7,7 @@
 		border-radius: 0;
 	}
 
-	/* padding: 0 !important; */
-
+	padding: 0 !important;
 
 	.container_ab8609.biteSize_ab8609 {
 		position: absolute;
@@ -27,38 +26,37 @@
 			}
 	}
 
-
 	.outer_ab8609:after,
 	.outer_ab8609:before {
 		display: none;
 	}
 
-	/* :where(.avatar__75742) { */
-	/* position: relative; */
-	/* } */
+	:where(.avatar__75742) {
+		position: relative;
+	}
 
-	/* // the big rect with user profile inside */
-	/* .clickable_f89da9, */
-	/* .clickable__75742 { */
-	/* border: 2px solid $low; */
-	/* display: flex; */
-	/* align-items: center; */
-	/* justify-content: center; */
+	// the big rect with user profile inside
+	.clickable_f89da9,
+	.clickable__75742 {
+		border: 2px solid $low;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 
-	/* background-color: $mid; */
-	/* margin: 0.5em; */
-	/* padding: 2em; */
-	/* border-radius: 0; */
-	/* position: relative; */
-	/* top: 0; */
-	/* left: 0; */
-	/* } */
+		background-color: $mid;
+		margin: 0.5em;
+		padding: 2em;
+		border-radius: 0;
+		position: relative;
+		top: 0;
+		left: 0;
+	}
 
-	/* //container holding pfp and banner */
-	/* .avatar__75742.biteSize__75742 { */
-	/* top: 0; */
-	/* left: 0; */
-	/* } */
+	//container holding pfp and banner
+	.avatar__75742.biteSize__75742 {
+		top: 0;
+		left: 0;
+	}
 
 	// usernames, mutuals, roles
 	.body__5be3e {
@@ -79,26 +77,25 @@
 				background-color: transparent;
 			}
 		}
-
 	}
 
-	/* //Roles container */
-	/* .root_fccfdf { */
-	/* .role_dfa8b6 { */
-	/* background-color: $mid-trans; */
-	/* } */
-	/* } */
+	//Roles container
+	.root_fccfdf {
+		.role_dfa8b6 {
+			background-color: $mid-trans;
+		}
+	}
 
-	/* .footer_d5223c { */
-	/* margin: 0; */
-	/* padding: 0.5em; */
-	/* } */
+	.footer_d5223c {
+		margin: 0;
+		padding: 0.5em;
+	}
 
-	/* // message user */
-	/* .channelTextArea__74017 { */
-	/* background: $high; */
-	/* border-radius: 0; */
-	/* } */
+	// message user
+	.channelTextArea__74017 {
+		background: $high;
+		border-radius: 0;
+	}
 
 	//user popout bottom left
 	.container_d1d9f3,
@@ -122,12 +119,15 @@
 			}
 		}
 	}
+	
+	// invisible container that holds the space where the status would be in terms of heriarchy . Seems to necessary to keep visible in order to maintain the spacing in our current setup
+	// .referenceContainer_ab8609.biteSize_ab8609 { 
+	 	//display: none;
+	// }
 
-
-
-	/* .mask__68edb mask { */
-	/* display: none; */
-	/* } */
+	.mask__68edb mask {
+		display: none;
+	}
 }
 
 // banner buttons
