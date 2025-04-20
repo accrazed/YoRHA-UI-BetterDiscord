@@ -1,0 +1,93 @@
+// Default
+#app-mount,
+.title-3hptVQ,
+.modeDefault-2fEh7a,
+.container__9293f,
+[role='menu'], //idk why this needed to be specified, but there were deadzones in some menus
+.titleBar__421ed {
+	cursor: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/cursors/Hack_Normal_Select_v2.cur'),
+		default !important;
+}
+// Text
+.timestamp_c19a55,
+.searchBar-zdmu7v,
+.contents_c19a55,
+textarea,
+.textAreaSlate__74017 div div,
+.textAreaSlate__74017 div div,
+input {
+	cursor: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/cursors/Hack_Text_Select_v2.cur'),
+		default !important;
+}
+// Pointer
+a,
+button,
+.button,
+.link,
+.folder__48112, //Server Folders
+.item-3eFBNF,
+.css-gvi9bl-control,
+.css-rzbxvl-option,
+.css-1ba14n5-option,
+.css-ku6vh5-indicatorContainer,
+.avatar_c19a55,
+.fileInput-2wWHbw,
+.container__87bf1,
+.input-2XRLou,
+.profileBadge_b64375,
+.item-1OdjEX,
+.container__37e49 .avatar__37e49,
+.wrapper_cc5dd2,
+.result__71961,
+.labelClickable-eiZOrp,
+.buttonWrapper__24af7,
+.button_Jt-tIg, //Read all Notifications plugin
+.nameTag__37e49, //Nametag bottom left
+.hoverRoll__0263c, //Status below nametag, bottom left
+.friendsOnline_2JkivW, //Friend Notifications plugin
+.basicChannelRowLink__2ea32, //Tabs at the top of server channels, probably
+.header_f37cb1, //Server header
+.channelTabs-newTab, //Channel tabs Plugin
+.channelTabs-closeTab, //Channel Tabs Plugin
+.themed_b3f026, //I forgot what this one was
+.peopleListItem_cc6179, //Friends list
+.voiceSectionDetails__00943, //active now section in friends list
+.applicationStreamingHoverWrapper_cd82a7, //hovering over stream in active now section
+.button_f563df, //quick emote react on message right click
+[role='menuitem'],
+[role='menuitemcheckbox'],
+[role='menuitemradio'],
+[role='button'],
+[role='button'] header,
+[type='button'],
+[type='button'] header,
+[type='checkbox'],
+[role='img'], //this should fix hover issues with SVG icons
+label,
+.item-2idW98,
+.additionalActionsIcon-1FoUlE,
+.clickable__91a9d:hover .layout__91a9d,
+.clickable__91a9d:hover .layout__91a9d,
+.actionIcon_c69b6d,
+.clickable__2869d,
+.cursorPointer_f75fb0, //Why is this an entire class?
+.labelClickable_f525d3,
+.friendsTable-133bsv .friendsRow-2yicud {
+	cursor: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/cursors/Hack_Link_Select_v2.cur'),
+		default !important;
+}
+// Horizontal resize
+.grabber-2GQyvM {
+	cursor: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/cursors/Hack_Horizontal_Resize_v2.cur'),
+		default !important;
+}
+// Disabled
+.disabled,
+.innerDisabled__37f59,
+.disabled__2d021,
+.disabled-2qTmnp,
+.modeLocked__2ea32,
+.modeLocked__2ea32 .mainContent-20q_Hp {
+	cursor: url('https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/cursors/Hack_Unavailable_v2.cur'),
+		default !important;
+}
