@@ -717,8 +717,8 @@ html:not(.visual-refresh-chat-input) .inputInner_b1f01d {
   border-radius: 0;
 }
 
-.visual-refresh .textContainer__4d95d {
-  background-color: rgba(87, 84, 74, 0.3);
+.visual-refresh .hljs {
+  color: rgb(218, 212, 187);
 }
 
 .embed__623de {
@@ -2500,4 +2500,5 @@ html {
   --primary-830-hsl: var(--color-high);
   --primary-860-hsl: var(--color-high);
   --primary-900-hsl: var(--color-high);
+  --background-code: rgba(87, 84, 74, 0.6) !important;
 }
