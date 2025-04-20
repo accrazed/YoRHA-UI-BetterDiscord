@@ -45,8 +45,9 @@ jobs:
         with:
             ref: build
 
-      - name: Add and Commit changes to pr-pages branch
+      - name: Add and Commit changes to build branch
         run: |
+          git status
           git config --local user.email 'accrazed@proton.me'
           git config --local user.name 'accrazed'
           git add NieR-Import.theme.css DarkImport.theme.css LightImport.theme.css NightImport.theme.css 
