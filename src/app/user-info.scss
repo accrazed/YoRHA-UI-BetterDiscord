@@ -1,0 +1,204 @@
+@use '../vars/vars' as *;
+
+// whole container
+.fullSize_c0bea0 {
+	// @include boxify($low, $mid, 3px);
+	padding: 0 !important;
+
+	// weird box that sits over theme colors, under boxes
+	// seems to darken the color selection
+	.inner_c0bea0:before {
+		height: 100%;
+		width: 100%;
+	}
+	.userProfileInner_c69a7b {
+		gap: 0px;
+	}
+
+	.mask__68edb {
+		// pfp mask around banner
+		mask circle {
+			display: none;
+		}
+		:where(.banner__68edb) {
+			//Specificity to remove border radius on banner. I can't believe they did this.
+			border-radius: 0px;
+		}
+	}
+
+	.headerInner__24502 {
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+		left: 24px;
+		gap: 5px;
+		padding: 0.5em 1.5em 0.5em 0em;
+
+		// janky ass invisible container?
+		.invisibleContainer_af9888.fullSize_ab8609 {
+			display: none;
+		}
+
+		.invisibleContainer_af9888.fullSize_ab8609,
+		.visibleContainer_af9888.fullSize_ab8609 {
+			display: flex;
+			align-content: center;
+			justify-content: center;
+			//padding: 4em 0em 0em 0em;
+		}
+
+		//Add Status button
+		.addCustomStatusButtonBubble_af9888.fullSize_ab8609 {
+			top: 0px;
+			left: 0px;
+			height: auto;
+			.statusBubbleOuter_af9888 {
+				margin: 0px 0px 4px 0px;
+				border: none;
+				.statusBubble_af9888 {
+					background-color: $mid-trans;
+					border-radius: 0;
+					word-wrap: normal;
+					padding: 2px;
+					//width: fit-content;
+				}
+			}
+		}
+
+		//edit status buttons on user status hover
+		.popover_c97e55.visible_c97e55 {
+			.button_c97e55.left_c97e55,
+			.button_c97e55.right_c97e55 {
+				border-radius: 0;
+			}
+			.button_c97e55 svg path {
+				fill: $high;
+			}
+			.button_c97e55:hover svg path {
+				fill: $low;
+			}
+			border-radius: 0px;
+		}
+
+		//buttons
+		.headerButtons__24502 {
+			align-items: normal;
+			gap: 0px;
+			display: contents;
+			.multipleButtons_ea99c4 {
+				display: flex;
+				flex-direction: row;
+				gap: 4px;
+			}
+		}
+
+		// profile picture area
+		.avatar__75742.fullSize__75742 {
+			grid-row: 1/3;
+			
+			border-bottom: 2px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background-color: $mid;
+			padding: 0.5em 0em 0.5em 0em;
+			border-radius: 0;
+			position: relative;
+			top: 0;
+			// the actual pfp
+			.wrapper__44b0c {
+				border-radius: 0;
+				mask-image: none;
+			}
+		}
+
+		> .referenceContainer_ab8609 {
+			grid-column: 2;
+			grid-row: 1;
+			position: relative;
+		} 
+		> .container_ab8609 {
+			position: absolute;
+			grid-column: 2;
+			grid-row: 1;
+			top: 0px;
+			left: 0px;
+			width: 100%;
+			.outer_ab8609.fullSize_ab8609 {
+				border: 1px solid $low;
+				max-width: 100%;
+				width: 90%;
+				.inner_ab8609 {
+					margin: 0;
+					width: 94.5%;
+				}
+				
+			}
+		}
+		> .headerButtons__24502 {
+			grid-column: 2;
+			grid-row: 2;
+			margin: 0;
+		}
+	}
+
+	// usernames, mutuals, roles
+	.body__24502 {
+		//border: 2px solid $low;
+		margin: 0em 0.5em 0.5em 0.5em;
+		padding: 0.5em;
+		background: $high;
+
+		// .defaultColor__4bd52 {
+		//     color: $high;
+		// }
+			//container that holds everything the same as above
+			.container_d1d9f3 {
+				display: contents;
+			}
+
+			//tab selection bar
+			.tabBar_d1d9f3 {
+				margin: 3px;
+				height: 42px;
+				gap: 20px;
+				border-bottom: 2px solid;
+				border-color: $low;
+				:where(.visual-refresh) .top_b3f026 .item_b3f026.selected_b3f026:after {
+					display: none;
+				}
+				.themed_b3f026.item_b3f026.tabBarItem_d1d9f3 {
+					background-color: $mid-trans;
+					padding: 3px 32px 3px 6px;
+					.defaultColor__4bd52 {
+						color: $low;
+					}
+					&:hover {
+						border-bottom: 0px;
+						.defaultColor__4bd52 {
+							color: $high;
+						}
+					}
+					&.selected_b3f026 {
+						background-color: $low;
+						height: 100%;
+						//border-bottom: 0px;
+						.defaultColor__4bd52 {
+							color: $high;
+						}
+					}
+				}
+			}
+
+			//border fixes
+			.connectedAccountContainer_e6abe8, //border fix for connected accounts
+            .note_fcb628 {
+				//border fix for note section
+				border: 1px solid;
+				border-radius: 0px;
+				border-color: $low-trans;
+			}
+	}
+}
+:where(.visual-refresh) .top_b3f026 .item_b3f026.selected_b3f026:after {
+	display: none;
+}

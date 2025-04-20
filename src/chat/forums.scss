@@ -1,43 +1,93 @@
 @use '../vars/vars' as *;
 
 //Transparencies
-.visual-refresh .container_f369db, //main container that holds all threads in the forum
-.visual-refresh .mainCard_f369db { //container for thread in the main forum window
-    background: transparent;
+.visual-refresh .container_f369db,
+//main container that holds all threads in the forum
+.visual-refresh .mainCard_f369db {
+  //container for thread in the main forum window
+  background: transparent;
 }
 
-.theme-dark .children__9293f:after{ //weird colored line that showed up at the end of the title bar for forums
-    display: none;
+.theme-dark .children__9293f:after {
+  //weird colored line that showed up at the end of the title bar for forums
+  display: none;
 }
 
-.container_f369db { //main container that holds all threads in the forum
-    .sortDropdown_f369db.button__201d5.lookFilled__201d5.sizeMin__201d5.grow__201d5 { //"Sort & View" container
-            background: $low;
-            &:hover {
-                background: $low-trans;
-            }
-    }
-    .sortDropdownInner_f369db * { //"Sort & View" text and icons
-        color: $high !important;
-    }
-    .pill_a2c9e8, //tags list at top of foru
-    .tagsButton_f369db { //All button for tag overflow at the top
-        border-radius: 0px;
-        background: $low;
-        color: $high;
-            &.clickable_a2c9e8:not(.disabled_a2c9e8):hover {
-                background-color: $low-trans;
-            }
-        }
-        .contents__201d5.tagsButtonInner_f369db { //contents of all button at top
-            color: $high;
-        }
+/* forum post */
+.visual-refresh .container__9a337 {
+  background: $high;
 }
+
+/* Friends header */
+.defaultColor__4bd52 {
+  color: $low;
+}
+
+.container_f369db {
+
+  //main container that holds all threads in the forum
+  .sortDropdown_f369db.button__201d5.lookFilled__201d5.sizeMin__201d5.grow__201d5 {
+    //"Sort & View" container
+    background: $low;
+
+    &:hover {
+      background: $low-trans;
+    }
+  }
+
+  .sortDropdownInner_f369db * {
+    //"Sort & View" text and icons
+    color: $high !important;
+  }
+
+  .pill_a2c9e8,
+  //tags list at top of foru
+  .tagsButton_f369db {
+    //All button for tag overflow at the top
+    border-radius: 0px;
+    background: $low;
+    color: $high;
+
+    &.clickable_a2c9e8:not(.disabled_a2c9e8):hover {
+      background-color: $low-trans;
+    }
+  }
+
+  .contents__201d5.tagsButtonInner_f369db {
+    //contents of all button at top
+    color: $high;
+  }
+}
+
 //container for thread in the main forum window
 .mainCard_f369db {
-    border: 1px solid $low;
-    .tagPill__9a337 { //pills for tags in forums
-        border-radius: 0px;
+  border: 1px solid $low;
 
-    }
+  .tagPill__9a337 {
+    //pills for tags in forums
+    border-radius: 0px;
+
+  }
+}
+
+// ================ the forum post that opens on the side //
+.visual-refresh .container__01ae2,
+.visual-refresh .resizeHandle__01ae2 {
+  background: transparent;
+  border: none;
+}
+
+.divider_ee23ac {
+  background: transparent;
+}
+
+// footer to main post (follow, link, reacts, etc)
+.visual-refresh .container__34c2c,
+.visual-refresh .header__34c2c {
+  margin: 0px 3px;
+  @include boxify($high, $mid, 3px);
+}
+
+.container__34c2c {
+  border: none;
 }

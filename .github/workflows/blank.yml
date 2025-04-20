@@ -1,0 +1,61 @@
+# This is a basic workflow to help you get started with Actions
+
+name: SASS Build
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4
+
+      - name: Sass Build
+        uses: gha-utilities/sass-build@v0.6.0
+        with:
+          # Relative path(s) to SASS or SCSS file, eg. _scss/main.scss
+          source: |
+            src/NieR-Import.theme.scss
+            src/dark.scss
+            src/light.scss
+            src/night.scss
+          # Path(s) compiled CSS should be saved, eg. ~/workspace_sass/assets/css/main.css
+          destination: |
+            NieR-Import.theme.css
+            DarkImport.theme.css
+            LightImport.theme.css
+            NightImport.theme.css 
+          sourceComments: true
+        
+      - name: Checkout destination Git branch
+        uses: actions/checkout@v2
+        with:
+            ref: build
+
+      - name: Add and Commit changes to pr-pages branch
+        run: |
+          git config --local user.email 'accrazed@proton.me'
+          git config --local user.name 'accrazed'
+          git add NieR-Import.theme.css DarkImport.theme.css LightImport.theme.css NightImport.theme.css 
+          git commit -m 'build'
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: build
+
+      

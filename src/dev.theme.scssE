@@ -1,0 +1,56 @@
+/**
+ * @name NieR Dev
+ * @version auto
+ * @description Glory to Mankind. || 
+ * Thanks to JulioDRai for letting me use their cursors! 
+ * ~https://www.deviantart.com/juliodrai || 
+ * Thanks to GOmonkeymanGO for letting me use some of their code 
+ * ~https://github.com/ChaseIngebritson/YoRHa-Discord-Theme || 
+ * @website https://github.com/AccraZed/YoRHA-UI-BetterDiscord
+ * @author Accrazed#2710
+ * @invite X4nBPCa
+ * @patreon https://www.patreon.com/accrazed
+ * @authorId 153562159161278473
+ */
+/*
+ *  :::.       .,-:::::   .,-::::: :::::::..    :::.     :::::::::.,:::::::::::::-.  
+ *  ;;`;;    ,;;;'````' ,;;;'````' ;;;;``;;;;   ;;`;;    '`````;;;;;;;'''' ;;,   `';,
+ * ,[[ '[[,  [[[        [[[         [[[,/[[['  ,[[ '[[,      .n[[' [[cccc  `[[     [[
+ * c$$$cc$$$c $$$        $$$         $$$$$$c   c$$$cc$$$c   ,$$P"   $$""""   $$,    $$
+ * 888   888,`88bo,__,o,`88bo,__,o, 888b "88bo,888   888,,888bo,_  888oo,__ 888_,o8P'
+ * YMM   ""`   "YUMMMMMP" "YUMMMMMP"MMMM   "W" YMM   ""`  `""*UMM  """"YUMMMMMMMP"`  
+ */
+
+@import url('https://breadtheripper.github.io/Ronin-Font/stylesheet.css'); /* Font */
+
+/* GLOBAL VARIABLES */
+// :root {
+//     --color-low: rgb(87, 84, 74);
+//     --color-high: rgb(218, 212, 187);
+//     --color-mid: rgb(151, 147, 129);
+//     --color-alert: rgb(205, 102, 77);
+//     --color-low-trans: rgba(87, 84, 74, 0.5);
+//     --color-high-trans: rgba(218, 212, 187, 0.5);
+//     --color-alert-trans: rgba(205, 102, 77, 0.5);
+//     --nier-font: sce-ps3_rodin_latinregular;
+// }
+
+:root {
+	--nier-font: sce-ps3_rodin_latinregular;
+}
+
+$high: var(--color-high);
+$low: var(--color-low);
+$high-trans: var(--color-high-trans);
+$low-trans: var(--color-low-trans);
+$mid: var(--color-mid);
+$mid-trans: var(--color-mid-trans);
+$alert: var(--color-alert);
+$alert-trans: var(--color-alert-trans);
+$font: var(--nier-font);
+$selector-img: var(--selector-img);
+$high-mid: var(--color-high-mid);
+$selector-img-invert: var(--selector-img-invert);
+
+@import 'base'; // Main file
+@import 'night'; // color part

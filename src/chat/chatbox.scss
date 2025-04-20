@@ -14,7 +14,19 @@
 
 // little random chat ciontainer
 .themedBackground__74017 {
-    background: transparent
+	background: transparent;
+}
+
+.visual-refresh .stackedBars__74017:not(:last-child) {
+	border: none;
+}
+
+.clipContainer__841c8 {
+	padding: 0;
+}
+
+.visual-refresh .actions__841c8 {
+	margin: 0;
 }
 
 // Type box
@@ -23,6 +35,7 @@
 	margin-left: 21px;
 	box-shadow: -3px 0 0 $low, -9px 0 0 $high, -21px 0 0 $low, -18px 3px 0 $mid, 3px 3px 0 $mid;
 }
+
 .cooldownWrapper_b21699 {
 	color: $low !important;
 }
@@ -33,6 +46,7 @@
 		left: 10px;
 		right: 10px;
 	}
+
 	&:hover .attachButtonPlus__0923f {
 		transition: fill 0.1s ease-in-out;
 		fill: $mid;
@@ -41,5 +55,5 @@
 
 //# app button
 .button_e6e74f {
-	@include boxify($high, $mid, 3px)
+	@include boxify($high, $mid, 3px);
 }
