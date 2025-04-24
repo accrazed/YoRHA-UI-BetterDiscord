@@ -809,6 +809,10 @@ html:not(.visual-refresh-chat-input) .inputInner_b1f01d {
   color: rgb(218, 212, 187);
 }
 
+.modalContent__4d95d .hljs {
+  background-color: rgb(87, 84, 74);
+}
+
 .embed__623de {
   border-radius: 0;
 }
