@@ -53,4 +53,4 @@ $high-mid: var(--color-high-mid);
 $selector-img-invert: var(--selector-img-invert);
 
 @import 'base'; // Main file
-@import 'light'; // color part
+@import 'night'; // color part
