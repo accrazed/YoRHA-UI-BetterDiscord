@@ -595,6 +595,12 @@ label,
   display: none;
 }
 
+.custom-user-profile-theme.user-profile-popout :where(.avatar__75742),
+.user-profile-popout :where(.avatar__75742) {
+  top: 0;
+  left: 0;
+}
+
 .outer_c0bea0 {
   padding: 0 !important;
 }
@@ -757,6 +763,13 @@ html:not(.visual-refresh-chat-input) .inputInner_b1f01d {
 }
 .content__908e2:hover {
   box-shadow: 3px 3px 0 var(--color-mid);
+}
+
+.wrapper_fc8177,
+.wrapper_d852db,
+.visual-refresh .wrapper_fc8177,
+.visual-refresh .wrapper_d852db {
+  background: transparent;
 }
 
 .visual-refresh .stackedBars__74017,
