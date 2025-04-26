@@ -2,6 +2,16 @@
 
 //---------------------- THIS SECTION IS FOR MINOR POPUPS (such as hover tooltips) ---------------------//
 
+// User volume square
+.tooltipContent__382e7 {
+	@include boxify($high, $mid, 2px);
+	color: $low
+}
+
+.tooltip__382e7 {
+	box-shadow: none;
+}
+
 // right click on message popup
 
 // hover on message popup (with the emojis)

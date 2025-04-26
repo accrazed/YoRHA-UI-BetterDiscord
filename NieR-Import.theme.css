@@ -227,6 +227,20 @@ label,
   z-index: 1501;
 }
 
+.tooltipContent__382e7 {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 2px 2px 0 var(--color-mid);
+  color: var(--color-low);
+}
+.tooltipContent__382e7:hover {
+  box-shadow: 2px 2px 0 var(--color-mid);
+}
+
+.tooltip__382e7 {
+  box-shadow: none;
+}
+
 .buttonsInner__5126c.popover_f84418.popoverReactionHoverBar_f84418.wrapper_f7ecac {
   background-color: var(--color-high);
 }
