@@ -74,6 +74,10 @@ body {
   background: transparent;
 }
 
+.visual-refresh .app_a3002d {
+  color: transparent;
+}
+
 .winButtonClose_c38106:hover {
   transition: background-color 0.2s, color 0.2s ease;
   color: var(--color-high);
