@@ -23,6 +23,15 @@
 	border-radius: 0px;
 }
 
+// See where emoji is from
+.visual-refresh .popoutContainer__0f481 {
+	@include boxify($high, $mid, 3px);
+
+	.button__201d5 {
+		border-radius: 0;
+	}
+}
+
 // hover on guild icon in guild bar popup (some seem fine, but others are not, attempt to make it uniform
 
 // emoji/gif/sticker popup
