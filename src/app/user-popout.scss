@@ -15,11 +15,11 @@
 
 	padding: 0 !important;
 
-	.container_ab8609.user-profile-popout {
+	.container_ab8609 {
 		position: absolute;
 		top: calc(var(--custom-user-profile-banner-height) + 161px);
 		left: 8px;
-		width: 100%;
+		width: 285px;
 
 		.outer_ab8609.user-profile-popout {
 			border: 1px solid $low;
@@ -41,6 +41,8 @@
 
 	:where(.avatar__75742) {
 		position: relative;
+		left: 0px;
+		top: 0px;
 	}
 
 	// the big rect with user profile inside

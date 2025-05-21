@@ -29,9 +29,9 @@
 	.headerInner__24502 {
 		display: grid;
 		grid-template-columns: 2fr 1fr;
-		left: 24px;
+		left: 0px;
 		gap: 5px;
-		padding: 0.5em 1.5em 0.5em 0em;
+		padding: 0.5em 1.5em 0.5em 1.5em;
 
 		// janky ass invisible container?
 		.invisibleContainer_af9888.user-profile-modal {
@@ -63,7 +63,11 @@
 				}
 			}
 		}
-
+		
+		//status text
+		.content_ab8609 {
+			//overflow: visible;
+		}
 		//edit status buttons on user status hover
 		.popover_c97e55.visible_c97e55 {
 			.button_c97e55.left_c97e55,
@@ -92,7 +96,7 @@
 		}
 
 		// profile picture area
-		.avatar__75742.user-profile-modal {
+		.avatar__75742.withReactReply__75742 {
 			grid-row: 1/3;
 			
 			border-bottom: 2px;
@@ -115,6 +119,11 @@
 			grid-column: 2;
 			grid-row: 1;
 			position: relative;
+			margin-left: 50px;
+			margin-right: 4px;
+			margin-top: 0px;
+			> .outer_ab8609 {
+			}
 		} 
 		> .container_ab8609 {
 			position: absolute;
