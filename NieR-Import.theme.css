@@ -1138,6 +1138,20 @@ html:not(.visual-refresh-chat-input) .inputInner_b1f01d {
   border-radius: 0px;
 }
 
+.user-profile-sidebar :where(.avatar__75742) {
+  left: 0px;
+  top: 0px;
+}
+
+.user-profile-sidebar .container_ab8609 {
+  top: calc(var(--custom-user-profile-banner-height) + 160px);
+  left: 8px;
+}
+
+.container_ab8609 .outer_ab8609 {
+  max-width: 324px;
+}
+
 .sidebar_c48ade,
 .theme-dark .container__2637a,
 .unread__2ea32,
