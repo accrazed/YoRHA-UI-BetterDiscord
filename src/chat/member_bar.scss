@@ -113,3 +113,19 @@
 .visual-refresh .membersGroup_c8ffbb {
 	padding-left: 0;
 }
+
+//<--->//
+//User Profile Sidebar in DMs
+.user-profile-sidebar :where(.avatar__75742) {
+	left: 0px;
+	top: 0px;
+}
+.user-profile-sidebar .container_ab8609 {
+	top: calc(var(--custom-user-profile-banner-height) - -160px);
+	left: 8px;
+}
+.container_ab8609 {
+	.outer_ab8609 {
+		max-width: 324px;
+	}
+}
