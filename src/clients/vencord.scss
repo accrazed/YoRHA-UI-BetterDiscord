@@ -1,0 +1,33 @@
+@use '../vars/vars' as *;
+
+.visual-refresh .vc-addon-card {
+	background-color: $high;
+	border-radius: 0px;
+	box-shadow: 2px 2px 0 $mid;
+
+	&:hover {
+		background-color: $low-trans;
+		box-shadow: 2px 2px 0 $mid;
+	}
+}
+
+.input__0f084 {
+	border-radius: 0px;
+}
+
+.visual-refresh .cardPrimary__73069 {
+	background-color: $high;
+}
+
+.visual-refresh .vc-settings-quickActions-pill {
+	background: $mid;
+}
+
+.vc-settings-quickActions-pill {
+	border-radius: 0px;
+	color: $high;
+}
+
+.visual-refresh .vc-settings-quickActions-pill:hover {
+	background: $low;
+}

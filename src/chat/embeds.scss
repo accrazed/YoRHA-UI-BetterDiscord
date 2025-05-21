@@ -10,13 +10,20 @@
 .visual-refresh .hljs {
 	border-radius: 0;
 }
+
 .visual-refresh .hljs {
-    color: rgb(218, 212, 187);
+	color: rgb(218, 212, 187);
 }
+
+.modalContent__4d95d .hljs {
+	background-color: rgb(87, 84, 74)
+}
+
 // rich presence
 .embed__623de {
-    border-radius: 0;
+	border-radius: 0;
 }
+
 .visual-refresh .embedFull__623de {
-    @include boxify($high, $mid, 3px);
+	@include boxify($high, $mid, 3px);
 }

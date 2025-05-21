@@ -2,6 +2,16 @@
 
 //---------------------- THIS SECTION IS FOR MINOR POPUPS (such as hover tooltips) ---------------------//
 
+// User volume square
+.tooltipContent__382e7 {
+	@include boxify($high, $mid, 2px);
+	color: $low
+}
+
+.tooltip__382e7 {
+	box-shadow: none;
+}
+
 // right click on message popup
 
 // hover on message popup (with the emojis)
@@ -11,6 +21,15 @@
 
 .buttonContainer_c19a55 * {
 	border-radius: 0px;
+}
+
+// See where emoji is from
+.visual-refresh .popoutContainer__0f481 {
+	@include boxify($high, $mid, 3px);
+
+	.button__201d5 {
+		border-radius: 0;
+	}
 }
 
 // hover on guild icon in guild bar popup (some seem fine, but others are not, attempt to make it uniform

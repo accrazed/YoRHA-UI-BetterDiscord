@@ -1,6 +1,12 @@
 @use '../vars/vars' as *;
 
 // whole container
+.custom-user-profile-theme.user-profile-popout :where(.avatar__75742),
+.user-profile-popout :where(.avatar__75742) {
+	top: 0;
+	left: 0
+}
+
 .outer_c0bea0 {
 	&:not(.custom-theme-background.custom-profile-theme) {
 		box-shadow: 3px 3px 0 $mid;
@@ -9,21 +15,23 @@
 
 	padding: 0 !important;
 
-	.container_ab8609.biteSize_ab8609 {
+	.container_ab8609.user-profile-popout {
 		position: absolute;
 		top: calc(var(--custom-user-profile-banner-height) + 161px);
 		left: 8px;
 		width: 100%;
-			.outer_ab8609.biteSize_ab8609 {
-				border: 1px solid $low;
-				max-width: 100%;
+
+		.outer_ab8609.user-profile-popout {
+			border: 1px solid $low;
+			max-width: 100%;
+			width: 94.5%;
+
+			.inner_ab8609 {
+				margin: 0;
 				width: 94.5%;
-				.inner_ab8609 {
-					margin: 0;
-					width: 94.5%;
-				}
-				
 			}
+
+		}
 	}
 
 	.outer_ab8609:after,
@@ -53,7 +61,7 @@
 	}
 
 	//container holding pfp and banner
-	.avatar__75742.biteSize__75742 {
+	.avatar__75742.user-profile-popout {
 		top: 0;
 		left: 0;
 	}
@@ -65,7 +73,7 @@
 		padding: 0.5em;
 		background: $high;
 
-		.biteSize_c0bea0 {
+		.user-profile-popout {
 
 			//activities container
 			&.activity__5be3e {
@@ -100,13 +108,13 @@
 	//user popout bottom left
 	.container_d1d9f3,
 	.username__24502,
-	.body_af7fb7 {
+	.body_ce8328 {
 		border: 2px solid $low;
 		margin: 0 0.5em;
 		padding: 0.5em;
 		background: $high;
 
-		.biteSize_c0bea0 {
+		.user-profile-popout {
 
 			//activities container
 			&.card__39ec2 {
@@ -119,10 +127,10 @@
 			}
 		}
 	}
-	
+
 	// invisible container that holds the space where the status would be in terms of heriarchy . Seems to necessary to keep visible in order to maintain the spacing in our current setup
-	// .referenceContainer_ab8609.biteSize_ab8609 { 
-	 	//display: none;
+	// .referenceContainer_ab8609.user-profile-popout { 
+	//display: none;
 	// }
 
 	.mask__68edb mask {

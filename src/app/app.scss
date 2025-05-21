@@ -9,21 +9,31 @@ body {
 	background: transparent;
 }
 
+// KILL THE SEMICOLON
+.visual-refresh .app_a3002d {
+	color: transparent;
+}
+
 // Close/Minimize/Maximize buttons
 .winButtonClose_c38106:hover {
 	transition: background-color 0.2s, color 0.2s ease;
 	color: $high;
 	background: $alert;
 }
+
 .winButtonMinMax_c38106:hover {
 	transition: background-color 0.2s, color 0.2s ease;
 	color: $high;
 	background: $low;
 }
 
-.bar_c38106 { //title bar at the top
+.bar_c38106 {
+	//title bar at the top
 	height: 25px;
-	.title_c38106 { //server name
+
+	.title_c38106 {
+
+		//server name
 		.title__85643 {
 			position: relative;
 			gap: 0px;
@@ -31,16 +41,19 @@ body {
 			background-color: $low;
 			padding-right: 6px;
 			padding-bottom: 2px;
+
 			.icon_f34534 {
 				//display: none;
 				background-image: url("https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/icons/home_dark-theme.svg") !important;
 			}
+
 			.defaultColor__4bd52 {
 				text-transform: uppercase;
 				font-weight: 400;
 				color: $high;
 			}
 		}
+
 		&:after {
 			content: '';
 			display: block;
@@ -52,9 +65,11 @@ body {
 			background: var(--nier-border) repeat-x;
 			padding: 10px 0 0 0;
 		}
-		
+
 	}
-	.trailing_c38106 { //contains the min/max/close buttons
+
+	.trailing_c38106 {
+		//contains the min/max/close buttons
 		top: -5px;
 	}
 }

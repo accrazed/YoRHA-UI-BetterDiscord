@@ -17,7 +17,7 @@ $guild-bar-width: 65px;
 }
 
 // Square guild icons
-.wrapper_cc5dd2 > svg > mask {
+.wrapper_cc5dd2>svg>mask {
 	display: none;
 }
 
@@ -26,6 +26,7 @@ $guild-bar-width: 65px;
 .wrapper__58105 {
 	width: inherit;
 }
+
 // # Blip base
 .item__58105 {
 	width: 9px;
@@ -56,26 +57,28 @@ $guild-bar-width: 65px;
 
 // Folders (god this shit is so fucking confusing)
 // # Folder Icon (custom colored)
-.visual-refresh .folder__48112 {
+.visual-refresh .hiddenVisually__27f77 {
 	&:hover {
 		background: $mid;
 	}
 
 	@include boxify($high, $mid, 3px);
 }
-.folderIconWrapper__48112 {
+
+.folderPreviewWrapper__48112 {
 	border-radius: 0;
 
 	.iconInactive_f34534 {
 		border-radius: 0;
 	}
 }
+
 .visual-refresh .svg_cc5dd2 {
 	left: -3px;
 }
 
 // # Folder Backdrop
-.visual-refresh .expandedFolderBackground__48112 {
+.visual-refresh .folderGroupBackground__48112 {
 	@include boxify($high, $mid, 3px);
 
 	border-radius: 0;
@@ -86,10 +89,13 @@ $guild-bar-width: 65px;
 .visual-refresh .expandedFolderIconWrapper__48112 {
 	margin: 0;
 }
+
 .visual-refresh .expandedFolderIconWrapper__48112,
-.visual-refresh .closedFolderIconWrapper__48112 {
-	&, * {
-	border-radius: 0 !important;
+.visual-refresh .folderPreview__48112 {
+
+	&,
+	* {
+		border-radius: 0 !important;
 	}
 }
 
@@ -100,10 +106,12 @@ $guild-bar-width: 65px;
 		background-color: $alert;
 		color: $low;
 	}
+
 	&.participating-2Z81oO {
 		background-color: $alert;
 	}
 }
+
 // Unread mentions indicators
 .unreadMentionsIndicatorBottom_ef3116,
 .unreadMentionsIndicatorTop_ef3116 {
