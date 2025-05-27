@@ -2329,7 +2329,7 @@ button.button__67645 .lottieIcon__5eb9b {
   --scrollbar-auto-scrollbar-color-thumb: var(--color-low);
   --scrollbar-auto-scrollbar-color-track: transparent;
   --input-background: var(--color-high-trans);
-  --input-placeholder-text: var(--input-placeholder-text-dark);
+  --input-placeholder-text: var(--color-mid);
   --focus-primary: var(--blue-345);
   --control-brand-foreground: var(--color-alert);
   --control-brand-foreground-new: var(--color-alert);
@@ -2341,6 +2341,7 @@ button.button__67645 .lottieIcon__5eb9b {
   --background-message-highlight: var(--color-alert-trans);
   --background-message-highlight-hover: var(--color-alert-trans);
   --channels-default: var(--color-low);
+  --channel-text-area-placeholder: var(--color-mid);
   --activity-card-background: var(--color-high-trans);
   --textbox-markdown-syntax: var(--color-low);
   --spoiler-revealed-background: var(--color-high);
