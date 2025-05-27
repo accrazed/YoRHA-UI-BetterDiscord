@@ -782,6 +782,39 @@ html:not(.visual-refresh-chat-input) .inputInner_b1f01d {
   color: var(--color-low);
 }
 
+.visual-refresh .header__45690 {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+.visual-refresh .header__45690:hover {
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+
+.visual-refresh .messagesPopoutWrap__45690 {
+  background-color: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 3px;
+}
+
+.visual-refresh .messageGroupWrapper__45690 {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+.visual-refresh .messageGroupWrapper__45690:hover {
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+
+.emptyPlaceholder__45690 {
+  display: none;
+}
+
+.footer__45690 {
+  display: none;
+}
+
 .visual-refresh .chatContent_f75fb0,
 .visual-refresh .chat_f75fb0,
 .chat_f75fb0,
