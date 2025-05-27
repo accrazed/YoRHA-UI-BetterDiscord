@@ -1,0 +1,26 @@
+@use '../../vars/vars.scss' as *;
+
+
+.visual-refresh .header__45690 {
+	@include boxify($high, $mid, 3px);
+
+}
+
+.visual-refresh .messagesPopoutWrap__45690 {
+	background-color: transparent;
+	box-shadow: none;
+	border-radius: 0;
+	padding: 3px;
+}
+
+.visual-refresh .messageGroupWrapper__45690 {
+	@include boxify($high, $mid, 3px);
+}
+
+.emptyPlaceholder__45690 {
+	display: none;
+}
+
+.footer__45690 {
+	display: none;
+}

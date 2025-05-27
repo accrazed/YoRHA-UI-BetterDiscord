@@ -484,12 +484,24 @@ label,
 .user-profile-modal .mask__68edb :where(.banner__68edb) {
   border-radius: 0px;
 }
+.user-profile-modal :where(.avatar__75742) {
+  left: 0;
+  top: 0;
+  width: 100%;
+  grid-row-start: row-first;
+  grid-row-end: row-end;
+  justify-self: center;
+  border: 2px solid var(--color-low);
+  box-sizing: border-box;
+}
 .user-profile-modal .headerInner__24502 {
   display: grid;
-  grid-template-columns: 2fr 1fr;
   left: 0px;
-  gap: 5px;
-  padding: 0.5em 1.5em 0.5em 1.5em;
+  grid-template-columns: [first] 1fr [second] 1fr [end];
+  grid-template-rows: [row-first] 1fr [row-second] auto [row-end];
+  gap: 0.5em;
+  padding: 0.5em;
+  margin: 0 0.5em;
 }
 .user-profile-modal .headerInner__24502 .invisibleContainer_af9888.user-profile-modal {
   display: none;
@@ -558,17 +570,13 @@ label,
   grid-column: 2;
   grid-row: 1;
   position: relative;
-  margin-left: 50px;
-  margin-right: 4px;
-  margin-top: 0px;
+  margin: 0;
 }
 .user-profile-modal .headerInner__24502 > .container_ab8609 {
-  position: absolute;
   grid-column: 2;
   grid-row: 1;
   top: 0px;
   left: 0px;
-  width: 100%;
 }
 .user-profile-modal .headerInner__24502 > .container_ab8609 .outer_ab8609.user-profile-modal {
   border: 1px solid var(--color-low);
@@ -579,7 +587,7 @@ label,
   margin: 0;
   width: 94.5%;
 }
-.user-profile-modal .headerInner__24502 > .headerButtons__24502 {
+.user-profile-modal .headerInner__24502 > .headerButtons__24502 .container__9e42c {
   grid-column: 2;
   grid-row: 2;
   margin: 0;
@@ -633,6 +641,15 @@ label,
   display: none;
 }
 
+.theme-dark .outer_ab8609 {
+  border: none;
+  box-shadow: none;
+}
+
+.outer_c0bea0 .username__24502 {
+  margin: 0;
+}
+
 .custom-user-profile-theme.user-profile-popout :where(.avatar__75742),
 .user-profile-popout :where(.avatar__75742) {
   top: 0;
@@ -645,21 +662,6 @@ label,
 .outer_c0bea0:not(.custom-theme-background.custom-profile-theme) {
   box-shadow: 3px 3px 0 var(--color-mid);
   border-radius: 0;
-}
-.outer_c0bea0 .container_ab8609 {
-  position: absolute;
-  top: calc(var(--custom-user-profile-banner-height) + 161px);
-  left: 8px;
-  width: 285px;
-}
-.outer_c0bea0 .container_ab8609 .outer_ab8609.user-profile-popout {
-  border: 1px solid var(--color-low);
-  max-width: 100%;
-  width: 94.5%;
-}
-.outer_c0bea0 .container_ab8609 .outer_ab8609.user-profile-popout .inner_ab8609 {
-  margin: 0;
-  width: 94.5%;
 }
 .outer_c0bea0 .outer_ab8609:after,
 .outer_c0bea0 .outer_ab8609:before {
@@ -712,16 +714,15 @@ label,
   background: var(--color-high);
   border-radius: 0;
 }
-.outer_c0bea0 .container_d1d9f3,
 .outer_c0bea0 .username__24502,
+.outer_c0bea0 .container_d1d9f3,
 .outer_c0bea0 .body_ce8328 {
   border: 2px solid var(--color-low);
-  margin: 0 0.5em;
   padding: 0.5em;
   background: var(--color-high);
 }
-.outer_c0bea0 .container_d1d9f3 .user-profile-popout.card__39ec2,
 .outer_c0bea0 .username__24502 .user-profile-popout.card__39ec2,
+.outer_c0bea0 .container_d1d9f3 .user-profile-popout.card__39ec2,
 .outer_c0bea0 .body_ce8328 .user-profile-popout.card__39ec2 {
   border-top: 1px solid;
   border-bottom: 1px solid;
@@ -729,8 +730,25 @@ label,
   border-radius: 0px;
   background-color: transparent;
 }
+.outer_c0bea0 .body_ce8328 {
+  margin: 0 0.5em;
+}
 .outer_c0bea0 .mask__68edb mask {
   display: none;
+}
+
+.user-profile-popout .container_ab8609 {
+  top: 0;
+  left: 0;
+  position: relative;
+  justify-self: center;
+  margin: 0 0.5em;
+  border: 2px solid var(--color-low);
+}
+
+.user-profile-popout .referenceContainer_ab8609 {
+  position: absolute;
+  margin: 0;
 }
 
 :where(.button_fb7f94).banner_fb7f94,
@@ -785,6 +803,39 @@ html:not(.visual-refresh-chat-input) .inputInner_b1f01d {
 .theme-dark .outer_ab8609 .inner_ab8609 {
   background-color: var(--color-high);
   color: var(--color-low);
+}
+
+.visual-refresh .header__45690 {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+.visual-refresh .header__45690:hover {
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+
+.visual-refresh .messagesPopoutWrap__45690 {
+  background-color: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 3px;
+}
+
+.visual-refresh .messageGroupWrapper__45690 {
+  background: var(--color-high);
+  border-radius: 0;
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+.visual-refresh .messageGroupWrapper__45690:hover {
+  box-shadow: 3px 3px 0 var(--color-mid);
+}
+
+.emptyPlaceholder__45690 {
+  display: none;
+}
+
+.footer__45690 {
+  display: none;
 }
 
 .visual-refresh .chatContent_f75fb0,
@@ -1791,15 +1842,6 @@ button.button__67645 .lottieIcon__5eb9b {
   transform: scale(0%, 100%);
   transform-origin: right;
 }
-.interactive_bf202d .unread__2ea32.unreadImportant__2ea32 ~ div .icon__2ea32 {
-  color: var(--color-alert);
-  background-color: var(--color-alert);
-}
-.interactive_bf202d .unread__2ea32.unreadImportant__2ea32 ~ div .overflow__82b15,
-.interactive_bf202d .unread__2ea32.unreadImportant__2ea32 ~ div .name__20a53,
-.interactive_bf202d .unread__2ea32.unreadImportant__2ea32 ~ div .subText__20a53 {
-  color: var(--color-alert);
-}
 .interactive_bf202d::before {
   content: "";
   position: absolute;
@@ -1851,6 +1893,14 @@ button.button__67645 .lottieIcon__5eb9b {
   animation-fill-mode: forwards;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.unreadPill__972a0 {
+  top: 8px;
+  left: -6px;
+  height: 36px;
+  background-color: var(--color-alert);
+  border-radius: 0;
 }
 
 .visual-refresh .container__7641b {
@@ -2349,7 +2399,7 @@ button.button__67645 .lottieIcon__5eb9b {
   --scrollbar-auto-scrollbar-color-thumb: var(--color-low);
   --scrollbar-auto-scrollbar-color-track: transparent;
   --input-background: var(--color-high-trans);
-  --input-placeholder-text: var(--input-placeholder-text-dark);
+  --input-placeholder-text: var(--color-mid);
   --focus-primary: var(--blue-345);
   --control-brand-foreground: var(--color-alert);
   --control-brand-foreground-new: var(--color-alert);
@@ -2361,6 +2411,7 @@ button.button__67645 .lottieIcon__5eb9b {
   --background-message-highlight: var(--color-alert-trans);
   --background-message-highlight-hover: var(--color-alert-trans);
   --channels-default: var(--color-low);
+  --channel-text-area-placeholder: var(--color-mid);
   --activity-card-background: var(--color-high-trans);
   --textbox-markdown-syntax: var(--color-low);
   --spoiler-revealed-background: var(--color-high);

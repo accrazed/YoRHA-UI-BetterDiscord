@@ -56,6 +56,7 @@ $nier-border: var(--nier-border);
 		background-color: $low;
 		opacity: 1;
 	}
+
 	100% {
 		background-color: $low;
 		opacity: 0.75;
@@ -66,18 +67,22 @@ $nier-border: var(--nier-border);
 	0% {
 		background-color: $low;
 	}
+
 	20% {
 		background-color: $low;
 		opacity: 100%;
 	}
+
 	50% {
 		background-color: $low;
 		opacity: 65%;
 	}
+
 	80% {
 		background-color: $low;
 		opacity: 100%;
 	}
+
 	100% {
 		background-color: $low;
 	}
@@ -87,6 +92,7 @@ $nier-border: var(--nier-border);
 	0% {
 		opacity: 1;
 	}
+
 	100% {
 		opacity: 0;
 	}
@@ -96,6 +102,7 @@ $nier-border: var(--nier-border);
 	0% {
 		opacity: 0;
 	}
+
 	100% {
 		opacity: 1;
 	}
@@ -105,9 +112,11 @@ $nier-border: var(--nier-border);
 	0% {
 		transform: translate(-15%, -50%);
 	}
+
 	50% {
 		transform: translate(5%, -50%);
 	}
+
 	100% {
 		transform: translate(-15%, -50%);
 	}
@@ -117,9 +126,11 @@ $nier-border: var(--nier-border);
 	0% {
 		transform: rotateY(0deg);
 	}
+
 	50% {
 		transform: rotateY(360deg);
 	}
+
 	100% {
 		transform: rotateY(360deg);
 	}
