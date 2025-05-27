@@ -484,9 +484,17 @@ label,
 .user-profile-modal .mask__68edb :where(.banner__68edb) {
   border-radius: 0px;
 }
+.user-profile-modal :where(.avatar__75742) {
+  left: 0;
+  top: 0;
+  grid-row-start: row-first;
+  grid-row-end: row-end;
+  justify-self: center;
+}
 .user-profile-modal .headerInner__24502 {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: [first] 1fr [second] 1fr [end];
+  grid-template-rows: [row-first] 1fr [row-second] auto [row-end];
   left: 24px;
   gap: 5px;
   padding: 0.5em 1.5em 0.5em 0em;
@@ -565,7 +573,6 @@ label,
   grid-row: 1;
   top: 0px;
   left: 0px;
-  width: 100%;
 }
 .user-profile-modal .headerInner__24502 > .container_ab8609 .outer_ab8609.user-profile-modal {
   border: 1px solid var(--color-low);
@@ -576,7 +583,7 @@ label,
   margin: 0;
   width: 94.5%;
 }
-.user-profile-modal .headerInner__24502 > .headerButtons__24502 {
+.user-profile-modal .headerInner__24502 > .headerButtons__24502 .container__9e42c {
   grid-column: 2;
   grid-row: 2;
   margin: 0;
