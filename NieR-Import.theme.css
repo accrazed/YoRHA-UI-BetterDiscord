@@ -643,21 +643,6 @@ label,
   box-shadow: 3px 3px 0 var(--color-mid);
   border-radius: 0;
 }
-.outer_c0bea0 .container_ab8609.user-profile-popout {
-  position: absolute;
-  top: calc(var(--custom-user-profile-banner-height) + 161px);
-  left: 8px;
-  width: 100%;
-}
-.outer_c0bea0 .container_ab8609.user-profile-popout .outer_ab8609.user-profile-popout {
-  border: 1px solid var(--color-low);
-  max-width: 100%;
-  width: 94.5%;
-}
-.outer_c0bea0 .container_ab8609.user-profile-popout .outer_ab8609.user-profile-popout .inner_ab8609 {
-  margin: 0;
-  width: 94.5%;
-}
 .outer_c0bea0 .outer_ab8609:after,
 .outer_c0bea0 .outer_ab8609:before {
   display: none;
@@ -726,6 +711,20 @@ label,
 }
 .outer_c0bea0 .mask__68edb mask {
   display: none;
+}
+
+.user-profile-popout .container_ab8609 {
+  top: 0;
+  left: 0;
+  position: relative;
+  justify-self: center;
+  margin: 0 0.5em;
+  border: 2px solid var(--color-low);
+}
+
+.user-profile-popout .referenceContainer_ab8609 {
+  position: absolute;
+  margin: 0;
 }
 
 :where(.button_fb7f94).banner_fb7f94,

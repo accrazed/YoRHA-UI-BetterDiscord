@@ -15,24 +15,7 @@
 
 	padding: 0 !important;
 
-	.container_ab8609.user-profile-popout {
-		position: absolute;
-		top: calc(var(--custom-user-profile-banner-height) + 161px);
-		left: 8px;
-		width: 100%;
 
-		.outer_ab8609.user-profile-popout {
-			border: 1px solid $low;
-			max-width: 100%;
-			width: 94.5%;
-
-			.inner_ab8609 {
-				margin: 0;
-				width: 94.5%;
-			}
-
-		}
-	}
 
 	.outer_ab8609:after,
 	.outer_ab8609:before {
@@ -128,14 +111,26 @@
 		}
 	}
 
-	// invisible container that holds the space where the status would be in terms of heriarchy . Seems to necessary to keep visible in order to maintain the spacing in our current setup
-	// .referenceContainer_ab8609.user-profile-popout { 
-	//display: none;
-	// }
 
 	.mask__68edb mask {
 		display: none;
 	}
+}
+
+// fucking annoying ass tooltip / status text
+.user-profile-popout .container_ab8609 {
+	top: 0;
+	left: 0;
+
+	position: relative;
+	justify-self: center;
+	margin: 0 0.5em;
+	border: 2px solid $low;
+}
+
+.user-profile-popout .referenceContainer_ab8609 {
+	position: absolute;
+	margin: 0;
 }
 
 // banner buttons
