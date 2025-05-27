@@ -168,20 +168,6 @@
 		}
 	}
 
-	// Unread channels will override
-	.unread__2ea32.unreadImportant__2ea32~div {
-		.icon__2ea32 {
-			color: $alert;
-			background-color: $alert;
-		}
-
-		.overflow__82b15,
-		.name__20a53,
-		.subText__20a53 {
-			color: $alert;
-		}
-	}
-
 	// SELECTOR CHANNEL ---------------------------------------------
 	&::before {
 		content: '';
@@ -240,4 +226,14 @@
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
+}
+
+// Undread channels
+.unreadPill__972a0 {
+	top: 8px;
+	left: -6px;
+	height: 36px;
+
+	background-color: $alert;
+	border-radius: 0;
 }
