@@ -1318,15 +1318,6 @@ html:not(.visual-refresh-chat-input) .inputInner_b1f01d {
   background-color: var(--color-low);
 }
 
-.emptyChannelIcon__00de6 {
-  background-image: url("https://svgur.com/i/RGT.svg");
-  mask: url("https://svgur.com/i/RGT.svg");
-  background: var(--color-mid) !important;
-  margin: auto;
-  width: 403px !important;
-  height: 353px !important;
-}
-
 .theme-dark .mentioned__5126c .anchor_edefb8 {
   text-shadow: 1px 1px 2px var(--color-low), 0 0 25px var(--color-high), 0 0 5px var(--color-alert);
 }

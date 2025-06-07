@@ -9,6 +9,7 @@
 .chat_f75fb0 {
 	background: transparent;
 }
+
 // header thin border
 .visual-refresh .chat_f75fb0[data-has-border='true'] {
 	border: none;
@@ -75,14 +76,6 @@
 	background-color: $low;
 }
 
-.emptyChannelIcon__00de6 {
-	background-image: url('https://svgur.com/i/RGT.svg');
-	@include remask('https://svgur.com/i/RGT.svg', $mid);
-	margin: auto;
-	width: 403px !important;
-	height: 353px !important;
-}
-
 // Mentions
 .theme-dark {
 	.mentioned__5126c {
@@ -106,6 +99,7 @@
 
 // Replies
 .mouse-mode.full-motion .replying__5126c {
+
 	&,
 	&:hover {
 		background-color: $alert-trans;
@@ -173,7 +167,7 @@
 .theme-dark .operations_bab751 {
 	color: $low;
 
-	& > a {
+	&>a {
 		color: $alert;
 	}
 }
@@ -209,10 +203,12 @@
 	.reactionCount__23977 {
 		color: $low;
 	}
+
 	&:hover {
 		border: 1px solid $low;
 
 		@include boxify($mid, $mid, 2px);
+
 		.reactionCount__23977 {
 			color: $high;
 		}
@@ -227,6 +223,7 @@
 		}
 	}
 }
+
 // # add react
 .reactionBtn__23977.forceShow__23977 {
 	border-radius: 0;
@@ -238,6 +235,7 @@
 	border-radius: 0px;
 	box-shadow: 2px 2px 0 $mid;
 }
+
 .nonMediaMosaicItem__06ab4 {
 	outline: 0px;
 }
@@ -247,12 +245,15 @@
 .visualMediaItemContainer_f4758a {
 	border-radius: 0px;
 }
+
 .mosaicItemMediaMosaic__6c706 {
 	border-radius: 0px;
 }
+
 .imageWrapper_af017a {
 	border-radius: 0px;
 }
+
 .oneByOneGridSingle_f4758a {
 	border-radius: 0px;
 }
