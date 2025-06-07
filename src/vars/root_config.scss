@@ -20,8 +20,25 @@
 
 	--interactive-normal: var(--color-low);
 
+	--message-reacted-background: var(--color-low);
+	--message-reacted-text: var(--color-high);
+
+	--background-surface-higher: var(--color-high);
 	--background-surface-high: var(--color-high);
+	--background-base-low: var(--color-high);
 	--background-base-lowest: var(--color-high);
+	--bg-surface-overlay: var(--color-high);
+
+	--border-subtle: var(--color-mid);
+
+	--chat-text-muted: var(--color-mid);
+
+	--checkbox-background-checked: var(--color-alert);
+	--checkbox-border-checked: var(--color-alert);
+	--checkbox-background-default: var(--color-high);
+	--checkbox-border-default: var(--color-low);
+
+	--custom-app-top-bar-height: 52px;
 
 	--header-primary: var(--color-low);
 	--header-secondary: var(--color-low);
@@ -85,9 +102,12 @@
 	// --button-positive-background-hover: var(--green-500);
 	// --button-positive-background-active: var(--green-530);
 	--button-positive-background-disabled: var(--color-alert);
-	--button-secondary-background: var(--color-low-trans);
-	// --button-secondary-background-hover: var(--primary-430);
-	// --button-secondary-background-active: var(--primary-400);
+	--button-secondary-background: var(--color-high-mid);
+	--button-secondary-text: var(--color-low);
+	--button-secondary-background-hover: var(--color-mid);
+
+
+	--button-secondary-background-active: var(--color-low);
 	--button-secondary-background-disabled: var(--color-low-trans);
 	// --button-outline-danger-text: var(--white-500);
 	--button-outline-danger-border: var(--color-alert);
@@ -174,8 +194,6 @@
 	// --profile-gradient-overlay-synced-with-user-theme: hsl(var(--black-500-hsl) / 0.8);
 	// --profile-gradient-overlay: hsl(var(--black-500-hsl) / 0.6);
 	// --profile-gradient-section-box: hsl(var(--black-500-hsl) / 0.45);
-	--profile-gradient-button-color: var(--color-low) !important;
-	--profile-gradient-message-input-border: var(--color-mid);
 	// --profile-gradient-note-background: hsl(var(--black-500-hsl) / 0.3);
 	// --profile-gradient-profile-body-background-hover: hsl(var(--white-500-hsl) / 0.16);
 	--profile-gradient-role-pill-background: var(--color-high);
@@ -236,6 +254,10 @@ html {
 	// --brand-experiment-85a: hsl(var(--brand-500-hsl) / 0.85);
 	// --brand-experiment-90a: hsl(var(--brand-500-hsl) / 0.9);
 	// --brand-experiment-95a: hsl(var(--brand-500-hsl) / 0.95);
+}
+
+.custom-user-profile-theme {
+	--profile-gradient-button-color: var(--color-high-mid) !important;
 }
 
 // voice-video background?

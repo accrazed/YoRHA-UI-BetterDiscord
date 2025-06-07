@@ -16,6 +16,11 @@
   background: transparent;
 }
 
+// header border
+.visual-refresh .container__133bf {
+  border-top: none;
+}
+
 // sidebar header border
 .visual-refresh .searchBar__35e86 {
   border-bottom: none;
@@ -37,7 +42,7 @@
   border-radius: 0;
   padding: 0;
 
-  @include buttonify($mid, $low, $low, $high);
+  @include buttonify($high-mid, $low, $low, $high);
 
   .contents__201d5 {
     padding: 0px 8px;

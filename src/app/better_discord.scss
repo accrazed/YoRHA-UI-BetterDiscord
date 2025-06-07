@@ -1,6 +1,5 @@
 @use '../vars/vars' as *;
 
-
 .bd-modal-root {
 	@include boxify($high, $mid, 3px);
 }

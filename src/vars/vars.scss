@@ -38,9 +38,9 @@ $nier-border: var(--nier-border);
 
 	&:hover,
 	&:active {
-		border-color: transparent !important;
-		background-color: $hover-bg !important;
-		color: $hover-text !important;
+		border-color: transparent;
+		background-color: $hover-bg;
+		color: $hover-text ;
 	}
 }
 

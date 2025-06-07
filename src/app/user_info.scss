@@ -1,8 +1,8 @@
+// user_info handles the full screen modal that appears when you press on a user's account profile. Includes their profile picture, banner, bio, containers to message, activities, etc.
 @use '../vars/vars' as *;
 
 // whole container
 .user-profile-modal {
-	// @include boxify($low, $mid, 3px);
 	padding: 0 !important;
 
 	// weird box that sits over theme colors, under boxes
@@ -199,31 +199,23 @@
 			border-bottom: 2px solid;
 			border-color: $low;
 
-			:where(.visual-refresh) .top_b3f026 .item_b3f026.selected_b3f026:after {
-				display: none;
-			}
-
 			.themed_b3f026.item_b3f026.tabBarItem_d1d9f3 {
 				background-color: $mid-trans;
 				padding: 3px 32px 3px 6px;
 
-				.defaultColor__4bd52 {
-					color: $low;
-				}
-
 				&:hover {
-					border-bottom: 0px;
+					background-color: $mid;
 
 					.defaultColor__4bd52 {
-						color: $high;
+						color: $low;
 					}
+
 				}
 
 				&.selected_b3f026 {
 					background-color: $low;
 					height: 100%;
 
-					//border-bottom: 0px;
 					.defaultColor__4bd52 {
 						color: $high;
 					}
@@ -241,6 +233,15 @@
 			border-color: $low-trans;
 		}
 	}
+}
+
+:where(.visual-refresh) .top_b3f026 .item_b3f026.selected_b3f026:after,
+:where(.visual-refresh) .top_b3f026 .item_b3f026:hover:after {
+	display: none;
+}
+
+:where(.visual-refresh) .top_b3f026 .item_b3f026+.item_b3f026 {
+	margin-left: 0;
 }
 
 :where(.visual-refresh) .top_b3f026 .item_b3f026.selected_b3f026:after {

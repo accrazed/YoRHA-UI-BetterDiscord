@@ -4,5 +4,23 @@
 .visual-refresh .sidebarRegionScroller__23e6b,
 .contentRegion__23e6b,
 .visual-refresh .contentRegionScroller__23e6b {
-    background: transparent;
+  background: transparent;
+}
+
+// # My Account
+
+// ## Standing: card background
+.visual-refresh .cardPrimary__73069 {
+  background: transparent;
+}
+
+// ## Security
+
+// sec keys
+.credentialList__6c75d {
+  border-radius: 0;
+}
+
+.credentialItem__6c75d {
+  border-top: none;
 }

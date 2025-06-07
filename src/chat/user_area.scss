@@ -1,4 +1,27 @@
+// user_area concerns the bottom-right user profile panel and specific text available on pressing the panel
+@use '../vars/vars.scss' as *;
+
 // transparencies
 .visual-refresh .panels_c48ade {
-    background: transparent;
+	background: transparent;
+}
+
+// the container that holds the "edit profile / invisible, and "switch accounts" buttons
+:where(.overlay_c0bea0) {
+	background: transparent;
+}
+
+.menuOverlay_ce8328 {
+	padding: 0;
+}
+
+// the buttons mentioned above
+.custom-user-profile-theme .themeColor_fb7f94.primary_fb7f94,
+.menuItemInner_ce8328 {
+	@include buttonify($high-mid, $low, $low, $high);
+}
+
+// divider
+.menuDivider_ce8328 {
+	display: none;
 }

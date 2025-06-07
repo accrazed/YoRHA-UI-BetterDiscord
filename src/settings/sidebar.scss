@@ -1,9 +1,11 @@
 @use '../vars/vars' as *;
 
+.visual-refresh .topPill_b3f026 .themed_b3f026.item_b3f026,
 .visual-refresh .themed_b3f026.item_b3f026 {
-	@include buttonify(transparent, $low, $low, $high);
+	@include buttonify($high-mid, $low, $mid, $low);
 
 	&.selected_b3f026 {
+		background-color: $low ;
 		color: $high;
 	}
 }

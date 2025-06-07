@@ -10,6 +10,7 @@
 .clickable__91a9d:hover .childContainer__91a9d {
 	background: transparent;
 }
+
 // slight border lines
 .visual-refresh .container_c8ffbb,
 // # threads
@@ -20,6 +21,7 @@
 // member hover/select animations
 .member_c8ffbb {
 	margin: 4px 0;
+
 	// -------------------- STRUCTURE ---------------------------------------
 	// container that holds user pfp/name/etc
 	.memberInner__5d473 {
@@ -74,8 +76,10 @@
 		transform-origin: right;
 	}
 
-	&.selected__91a9d,// When hovering and selecting
+	&.selected__91a9d,
+	// When hovering and selecting
 	&:hover {
+
 		// grow border and body
 		.childContainer__91a9d::before,
 		.childContainer__91a9d::after {
@@ -91,6 +95,7 @@
 
 	// When selected
 	&.selected__91a9d {
+
 		// the main grower changes to lighter color
 		.childContainer__91a9d::before {
 			transform: scale(100%, 100%);
@@ -120,10 +125,12 @@
 	left: 0px;
 	top: 0px;
 }
+
 .user-profile-sidebar .container_ab8609 {
 	top: calc(var(--custom-user-profile-banner-height) - -160px);
 	left: 8px;
 }
+
 .container_ab8609 {
 	.outer_ab8609 {
 		max-width: 324px;
