@@ -179,7 +179,7 @@ body {
 .container__9293f,
 [role=menu],
 .titleBar__421ed {
-  cursor: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/cursors/Hack_Normal_Select_v2.cur"), default !important;
+  cursor: url("https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/cursors/Hack_Normal_Select_v2.cur"), default !important;
 }
 
 .timestamp_c19a55,
@@ -189,7 +189,7 @@ textarea,
 .textAreaSlate__74017 div div,
 .textAreaSlate__74017 div div,
 input {
-  cursor: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/cursors/Hack_Text_Select_v2.cur"), default !important;
+  cursor: url("https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/cursors/Hack_Text_Select_v2.cur"), default !important;
 }
 
 a,
@@ -245,11 +245,11 @@ label,
 .cursorPointer_f75fb0,
 .labelClickable_f525d3,
 .friendsTable-133bsv .friendsRow-2yicud {
-  cursor: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/cursors/Hack_Link_Select_v2.cur"), default !important;
+  cursor: url("https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/cursors/Hack_Link_Select_v2.cur"), default !important;
 }
 
 .grabber-2GQyvM {
-  cursor: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/cursors/Hack_Horizontal_Resize_v2.cur"), default !important;
+  cursor: url("https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/cursors/Hack_Horizontal_Resize_v2.cur"), default !important;
 }
 
 .disabled,
@@ -258,7 +258,7 @@ label,
 .disabled-2qTmnp,
 .modeLocked__2ea32,
 .modeLocked__2ea32 .mainContent-20q_Hp {
-  cursor: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/cursors/Hack_Unavailable_v2.cur"), default !important;
+  cursor: url("https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/cursors/Hack_Unavailable_v2.cur"), default !important;
 }
 
 #app-mount:after {

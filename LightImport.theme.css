@@ -33,9 +33,9 @@
   --color-mid-trans: rgb(151, 147, 129, 0.5);
   --color-alert-trans: rgba(205, 102, 77, 0.7);
   --nier-font: sce-ps3_rodin_latinregular;
-  --selector-img: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/extras/nier-selector_low.png");
-  --selector-img-invert: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/extras/nier-selector_high.png");
-  --nier-border: url("https://accrazed.github.io/YoRHA-UI-BetterDiscord/assets/extras/nier_border.svg");
+  --selector-img: url("https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/extras/nier-selector_low.png");
+  --selector-img-invert: url("https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/extras/nier-selector_high.png");
+  --nier-border: url("https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/extras/nier_border.svg");
 }
 
 ::selection {
