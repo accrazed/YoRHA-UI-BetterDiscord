@@ -30,10 +30,15 @@
 }
 
 // Type box
+.channelTextArea__74017:focus-within,
 .channelTextArea_f75fb0 {
 	border-radius: 0;
 	margin-left: 21px;
 	box-shadow: -3px 0 0 $low, -9px 0 0 $high, -21px 0 0 $low, -18px 3px 0 $mid, 3px 3px 0 $mid;
+}
+
+.channelTextArea__74017:focus-within {
+	border-color: transparent;
 }
 
 .cooldownWrapper_b21699 {
