@@ -41,3 +41,7 @@
   background-color: var(--color-alert);
   color: var(--color-low);
 }
+
+code.inline {
+  color: var(--color-low);
+}

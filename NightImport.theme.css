@@ -50,3 +50,7 @@
   --selector-img-invert: url("https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/extras/nier-selector_low.png");
   --nier-border: url("https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/extras/nier_border_night.svg");
 }
+
+code.inline {
+  color: var(--color-low);
+}

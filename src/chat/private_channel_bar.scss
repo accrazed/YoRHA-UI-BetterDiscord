@@ -7,6 +7,8 @@
 	background: transparent;
 }
 
+// right padding on user bar
+.iconsContainer__972a0,
 // Chonky Friends/Library/Nitro/Shop buttons
 :where(.visual-refresh) .channel__972a0:not(.dm__972a0) .link__972a0 {
 	padding: 0;
@@ -18,6 +20,11 @@
 
 .interactive_bf202d:focus-within,
 .interactive_bf202d:hover {
+	background: transparent;
+}
+
+.interactive__972a0:active,
+.interactiveSelected__972a0 {
 	background: transparent;
 }
 
