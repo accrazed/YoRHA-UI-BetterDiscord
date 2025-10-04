@@ -1785,7 +1785,7 @@ button.button__67645 .lottieIcon__5eb9b {
   margin-top: 1.5px;
 }
 
-.container__2637a .content__99f8c::before {
+.container__2637a .content_d125d2::before {
   content: "";
   position: absolute;
   left: 0px;
@@ -1841,7 +1841,7 @@ button.button__67645 .lottieIcon__5eb9b {
   z-index: 2;
 }
 
-.scroller__629e4 .content__99f8c {
+.scroller__629e4 .content_d125d2 {
   margin-left: 20px;
 }
 
@@ -2142,7 +2142,7 @@ button.button__67645 .lottieIcon__5eb9b {
 }
 
 .visual-refresh .panels_c48ade {
-  background: transparent;
+  background: var(--color-high-mid);
 }
 
 :where(.overlay_c0bea0) {
