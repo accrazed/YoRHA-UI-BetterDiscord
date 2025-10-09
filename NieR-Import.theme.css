@@ -2058,6 +2058,18 @@ button.button__67645 .lottieIcon__5eb9b {
   background: transparent;
 }
 
+.typeThread__2ea32.threadsInChannelListQoLExperiment__2ea32.wrapper__2ea32 {
+  margin-left: 0;
+}
+
+.typeThread__2ea32.threadsInChannelListQoLExperiment__2ea32 .link__2ea32 {
+  padding: 0;
+}
+
+.iconContainer__2ea32[aria-label="Thread icon"] {
+  visibility: hidden;
+}
+
 .typeThread__2ea32.wrapper__2ea32 {
   margin-left: 0;
 }

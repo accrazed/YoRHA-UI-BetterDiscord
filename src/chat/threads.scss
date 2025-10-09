@@ -5,6 +5,19 @@
 	background: transparent;
 }
 
+// thread container
+.typeThread__2ea32.threadsInChannelListQoLExperiment__2ea32.wrapper__2ea32 {
+	margin-left: 0;
+}
+
+.typeThread__2ea32.threadsInChannelListQoLExperiment__2ea32 .link__2ea32 {
+	padding: 0;
+}
+
+.iconContainer__2ea32[aria-label='#{$aria-label-thread}'] {
+	visibility: hidden;
+}
+
 // Message in chat that someone's opened a thread
 .typeThread__2ea32.wrapper__2ea32 {
 	margin-left: 0;
