@@ -527,10 +527,22 @@ label,
   left: 0;
   top: 0;
   margin: 0 20px;
+  margin-bottom: 20px;
   position: relative;
 }
 .user-profile-modal-v2 .profileBody__9c3be {
   border: 2px solid var(--color-low);
+}
+.user-profile-modal-v2 .referenceContainer_ab8609 {
+  display: none;
+}
+.user-profile-modal-v2 .outer_ab8609 {
+  overflow: visible;
+}
+.user-profile-modal-v2 .outer_ab8609 .inner_ab8609 .content_ab8609 {
+  overflow: visible;
+  max-height: none !important;
+  display: flex;
 }
 
 .user-profile-modal {
