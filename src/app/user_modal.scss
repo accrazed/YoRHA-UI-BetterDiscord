@@ -2,6 +2,38 @@
 @use '../vars/vars' as *;
 
 // whole container
+.user-profile-modal-v2 {
+
+	.profileBody__9c3be {
+		padding: 12px;
+		margin: 0px 20px;
+		background-color: $high;
+	}
+
+	.avatar__75742 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 2em;
+		background-color: $high-mid;
+		border: 2px solid $low;
+		margin: 20px;
+	}
+
+	.container_ab8609 {
+		left: 0;
+		top: 0;
+		margin: 0 20px;
+
+		position: relative;
+	}
+
+	.profileBody__9c3be {
+		border: 2px solid $low
+	}
+}
+
+// deprecated in favor of .user-profile-modal-v2
 .user-profile-modal {
 	padding: 0 !important;
 
@@ -131,7 +163,7 @@
 			justify-content: center;
 			background-color: $mid;
 			padding: 0.5em 0em 0.5em 0em;
-			border-radius: 0;
+			/* border-radius: 0; */
 			position: relative;
 			top: 0;
 
