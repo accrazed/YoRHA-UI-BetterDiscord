@@ -3,7 +3,9 @@
 @use '../vars/vars.scss' as *;
 
 // transparencies
-.visual-refresh .panels_c48ade {
+.visual-refresh .panels__5e434,
+.panel__5dec7,
+.sidebar__5e434:after {
 	background: $high-mid;
 }
 
@@ -14,6 +16,10 @@
 
 .menuOverlay_ce8328 {
 	padding: 0;
+}
+
+// container that contains user profile panel + activity
+.panels__5e434 {
 }
 
 // the buttons mentioned above
