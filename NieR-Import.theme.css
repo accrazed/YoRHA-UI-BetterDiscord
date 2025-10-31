@@ -1910,6 +1910,10 @@ button.button__67645 .lottieIcon__5eb9b {
   padding-left: 10px;
 }
 
+.channel__972a0:not(.dm__972a0) {
+  height: 40px;
+}
+
 .interactive_bf202d:focus-within,
 .interactive_bf202d:hover {
   background: transparent;
@@ -1918,6 +1922,10 @@ button.button__67645 .lottieIcon__5eb9b {
 .interactive__972a0:active,
 .interactiveSelected__972a0 {
   background: transparent;
+}
+
+.content_d125d2[aria-label="Direct Messages"] > div:first-child {
+  display: none;
 }
 
 .container_e45859 {
@@ -2397,8 +2405,8 @@ button.button__67645 .lottieIcon__5eb9b {
   border-bottom: none;
 }
 
-.visual-refresh .sectionDivider__35e86 {
-  display: none;
+.sectionDivider_e6b769 {
+  height: 0px;
 }
 
 .searchBar__35e86 {
