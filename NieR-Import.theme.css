@@ -2283,7 +2283,7 @@ button.button__67645 .lottieIcon__5eb9b {
   height: 48px !important;
   transform: none !important;
 }
-.item__58105[style="opacity: 1; height: 8px; transform: none;"] {
+.item__58105[style="opacity: 1; height: 8px; transform: translateX(0px) translateZ(0px);"] {
   background-color: var(--color-alert);
 }
 
