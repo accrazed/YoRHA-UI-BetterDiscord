@@ -1008,10 +1008,6 @@ html:not(.visual-refresh-chat-input) .inputInner_b1f01d {
   color: var(--color-low) !important;
 }
 
-.attachButton__0923f {
-  padding-left: 10px;
-  padding-right: 10px;
-}
 .attachButton__0923f:hover .attachButtonPlus__0923f {
   transition: fill 0.1s ease-in-out;
   fill: var(--color-mid);
