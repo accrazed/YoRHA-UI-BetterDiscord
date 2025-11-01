@@ -33,9 +33,11 @@ To turn off the home icon spin, you can add this to your override CSS on BetterD
 
 ## Previews
 
-![Image of Theme Preview](https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/Previews/preview3.png)
-![Image of Theme Preview](https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/Previews/preview1.png)
-![Image of Theme Preview](https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/Previews/preview2.png)
+Light Mode
+![Image of Theme Preview](https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/Previews/preview-light.png)
 
 Dark Mode
-![Image of Theme Preview](https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/Previews/dark-1.png)
+![Image of Theme Preview](https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/Previews/preview-dark.png)
+
+Night Mode
+![Image of Theme Preview](https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/Previews/preview-night.png)
