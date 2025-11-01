@@ -2,13 +2,13 @@
 
 // Transparencies
 // # main containers
-.sidebar_c48ade,
+.sidebar__5e434,
 .theme-dark .container__2637a,
 // # unread message blip
 .unread__2ea32,
 // # user profile
 
-.panels_c48ade,
+.panels__5e434,
 .theme-dark .content__37e49 {
 	background: transparent;
 }
@@ -24,7 +24,7 @@
 }
 
 // # weird scrollbar in bottom left corner under profile
-.visual-refresh .sidebar_c48ade:after {
+.visual-refresh .sidebar__5e434:after {
 	display: none;
 }
 
@@ -45,7 +45,7 @@
 
 // sidebar slight lines
 .visual-refresh .header_f37cb1,
-.visual-refresh .sidebarList_c48ade {
+.visual-refresh .sidebarList__5e434 {
 	border: none;
 }
 
@@ -402,7 +402,7 @@ button.button__67645 {
 	margin-left: 0;
 }
 
-.typeThread__2ea32 .name__2ea32.overflow__82b15 {
+.typeThread__2ea32 .name__2ea32.overflow_b0dfc2 {
 	left: 24px;
 }
 

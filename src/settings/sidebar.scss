@@ -1,10 +1,10 @@
 @use '../vars/vars' as *;
 
-.visual-refresh .topPill_b3f026 .themed_b3f026.item_b3f026,
-.visual-refresh .themed_b3f026.item_b3f026 {
+.visual-refresh .topPill_aa8da2 .themed_aa8da2.item_aa8da2,
+.visual-refresh .themed_aa8da2.item_aa8da2 {
 	@include buttonify($high-mid, $low, $mid, $low);
 
-	&.selected_b3f026 {
+	&.selected_aa8da2 {
 		background-color: $low ;
 		color: $high;
 	}

@@ -248,7 +248,7 @@
 			border-bottom: 2px solid;
 			border-color: $low;
 
-			.themed_b3f026.item_b3f026.tabBarItem_d1d9f3 {
+			.themed_aa8da2.item_aa8da2.tabBarItem__37bfc {
 				background-color: $mid-trans;
 				padding: 3px 32px 3px 6px;
 
@@ -261,7 +261,7 @@
 
 				}
 
-				&.selected_b3f026 {
+				&.selected_aa8da2 {
 					background-color: $low;
 					height: 100%;
 
@@ -284,16 +284,16 @@
 	}
 }
 
-:where(.visual-refresh) .top_b3f026 .item_b3f026.selected_b3f026:after,
-:where(.visual-refresh) .top_b3f026 .item_b3f026:hover:after {
+:where(.visual-refresh) .top_aa8da2 .item_aa8da2.selected_aa8da2:after,
+:where(.visual-refresh) .top_aa8da2 .item_aa8da2:hover:after {
 	display: none;
 }
 
-:where(.visual-refresh) .top_b3f026 .item_b3f026+.item_b3f026 {
+:where(.visual-refresh) .top_aa8da2 .item_aa8da2+.item_aa8da2 {
 	margin-left: 0;
 }
 
-:where(.visual-refresh) .top_b3f026 .item_b3f026.selected_b3f026:after {
+:where(.visual-refresh) .top_aa8da2 .item_aa8da2.selected_aa8da2:after {
 	display: none;
 }
 
