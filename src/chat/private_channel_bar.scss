@@ -27,36 +27,50 @@
 	background: transparent;
 }
 
-
-
-/* .container__23ba6 { */
-/* border-radius: 0; */
-/* padding: 0; */
-/* margin-left: 36px; */
-
-/* // Entire channels list container */
-/* // selector backdrop */
-/* .interactive_bf202d::before { */
-/* content: ''; */
-/* position: absolute; */
-/* left: -16px; */
-/* width: 2px; */
-/* height: 100%; */
-/* bottom: 0px; */
-/* border-radius: 0; */
-/* padding: 4px 2.5px 4px 2.5px; */
-/* margin-left: -1px; */
-/* box-shadow: -3px 0 0 $mid, -15px 0 0 transparent, -14px 0 0 $mid, -18px 2px 0 transparent; */
-/* } */
-/* } */
-
-// -------------------- ICONS / TEXT ------------------------------
-// channel name
-.overflow_b0dfc2,
-.name__20a53,
-.subText__20a53 {
-	transition: color 0.2s;
+._972a0d22c8afa7f0-interactive:active,
+._972a0d22c8afa7f0-interactiveSelected {
+	background: transparent;
 }
+
+// weird hidden divs that add stupid padding shit
+// JUST KIDDING, DON"T FUCK WITH THIS, THIS BREAKS SCROLLING DOWN IF YOU DISABLE IT LOL
+.d125d22cdfd32cfe-content[aria-label="Direct Messages"]>div:first-child {}
+
+.a244c3c87d2b1e13-container {
+	border-radius: 0
+}
+
+.container__23ba6 {
+	border-radius: 0;
+	padding: 0;
+	margin-left: 36px;
+
+	// Entire channels list container
+	// selector backdrop
+	&::before {
+		content: '';
+		position: absolute;
+		left: -16px;
+		width: 2px;
+		height: 100%;
+		bottom: 0px;
+		border-radius: 0;
+		padding: 4px 2.5px 4px 2.5px;
+		margin-left: -1px;
+		box-shadow: -3px 0 0 $mid, -15px 0 0 transparent, -14px 0 0 $mid, -18px 2px 0 transparent;
+	}
+}
+
+.bf202d63ad53e289-interactive {
+	padding: 0;
+
+	// -------------------- ICONS / TEXT ------------------------------
+	// channel name
+	.overflow_b0dfc2,
+	.name__20a53,
+	.subText__20a53 {
+		transition: color 0.2s;
+	}
 
 // Profile picture
 .wrapper__44b0c foreignObject {
@@ -143,14 +157,14 @@
 		transform: scale(100%, 100%);
 	}
 
-	// invert name and icons
-	.overflow_b0dfc2,
-	.linkButtonIcon__972a0,
-	.name__20a53,
-	.subText__20a53 {
-		color: $high;
+		// invert name and icons
+		.overflow_b0dfc2,
+		.linkButtonIcon__972a0,
+		.name__20a53,
+		.subText__20a53 {
+			color: $high;
+		}
 	}
-}
 
 // When selected
 .interactive_bf202d.selected_bf202d {

@@ -1,11 +1,23 @@
 // server-tag contain the popup that appears when clicking on a user's like, clan taggy server tag thing or some shit
 @use '../../vars/vars.scss' as *;
 
+<<<<<<< HEAD
+.d3846c099147bad3-container {
+||||||| parent of 97cffbd (chore: run far script)
+.container__86bf6 {
+=======
 .container_d3846c {
+>>>>>>> 97cffbd (chore: run far script)
 	@include boxify($high, $mid, 3px)
 }
 
+<<<<<<< HEAD
+.dca174a2baed7ac1-container {
+||||||| parent of 97cffbd (chore: run far script)
+.container__86ab2 {
+=======
 .container_dca174 {
+>>>>>>> 97cffbd (chore: run far script)
 	border-radius: 0;
 	border: none;
 }
