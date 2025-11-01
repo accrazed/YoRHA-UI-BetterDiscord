@@ -3,12 +3,15 @@
 //---------------------- THIS SECTION IS FOR MINOR POPUPS (such as hover tooltips) ---------------------//
 
 // User volume square
-.tooltipContent__382e7 {
+.tooltipContent_c36707 {
 	@include boxify($high, $mid, 2px);
 	color: $low
 }
 
-.tooltip__382e7 {
+.tooltipGrey_c36707 {
+	color: $high;
+}
+.tooltip_c36707 {
 	box-shadow: none;
 }
 

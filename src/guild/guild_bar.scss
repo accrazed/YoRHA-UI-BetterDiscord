@@ -39,7 +39,7 @@ $guild-bar-width: 65px;
 	transform: none !important;
 
 	// Unread Guild blip
-	&[style='opacity: 1; height: 8px; transform: none;'] {
+	&[style="opacity: 1; height: 8px; transform: translateX(0px) translateZ(0px);"] {
 		background-color: $alert;
 	}
 }

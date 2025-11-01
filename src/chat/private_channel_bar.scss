@@ -2,7 +2,7 @@
 
 @use '../vars/vars.scss' as *;
 
-.visual-refresh .privateChannels__35e86,
+.visual-refresh .privateChannels_e6b769,
 .visual-refresh .scroller__99e7c {
 	background: transparent;
 }
@@ -18,6 +18,10 @@
 	padding-left: 10px;
 }
 
+.channel__972a0:not(.dm__972a0) {
+	height: 40px;
+}
+
 .interactive_bf202d:focus-within,
 .interactive_bf202d:hover {
 	background: transparent;
@@ -30,7 +34,8 @@
 
 // weird hidden divs that add stupid padding shit
 // JUST KIDDING, DON"T FUCK WITH THIS, THIS BREAKS SCROLLING DOWN IF YOU DISABLE IT LOL
-.content_d125d2[aria-label="Direct Messages"]>div:first-child {}
+.content_d125d2[aria-label="Direct Messages"]>div:first-child {
+}
 
 .container_e45859 {
 	border-radius: 0;
