@@ -5,11 +5,13 @@
 .user-profile-modal-v2 {
 
 	._9c3bea41fd465666-profileBody {
+	._9c3bea41fd465666-profileBody {
 		padding: 12px;
 		margin: 0px 20px;
 		background-color: $high;
 	}
 
+	._75742e4cc9019aeb-avatar {
 	._75742e4cc9019aeb-avatar {
 		display: flex;
 		align-items: center;
@@ -21,6 +23,7 @@
 	}
 
 	.ab86098b36386ff7-container {
+	.ab86098b36386ff7-container {
 		left: 0;
 		top: 0;
 		margin: 0 20px;
@@ -29,17 +32,22 @@
 	}
 
 	._9c3bea41fd465666-profileBody {
+	._9c3bea41fd465666-profileBody {
 		border: 2px solid $low
 	}
 
+	.ab86098b36386ff7-referenceContainer {
 	.ab86098b36386ff7-referenceContainer {
 		display: none;
 	}
 
 	// status message
 	.ab86098b36386ff7-outer {
+	.ab86098b36386ff7-outer {
 		overflow: visible;
 
+		.ab86098b36386ff7-inner {
+			.ab86098b36386ff7-content {
 		.ab86098b36386ff7-inner {
 			.ab86098b36386ff7-content {
 				overflow: visible;
@@ -57,6 +65,7 @@
 	// weird box that sits over theme colors, under boxes
 	// seems to darken the color selection
 	.c0bea05627c5dc35-inner:before {
+	.c0bea05627c5dc35-inner:before {
 		height: 100%;
 		width: 100%;
 	}
@@ -66,6 +75,7 @@
 	}
 
 	._68edb95846a37624-mask {
+	._68edb95846a37624-mask {
 
 		// pfp mask around banner
 		mask circle {
@@ -73,12 +83,14 @@
 		}
 
 		:where(._68edb95846a37624-banner) {
+		:where(._68edb95846a37624-banner) {
 			//Specificity to remove border radius on banner. I can't believe they did this.
 			border-radius: 0px;
 		}
 	}
 
 	// position user profile inside things
+	:where(._75742e4cc9019aeb-avatar) {
 	:where(._75742e4cc9019aeb-avatar) {
 		left: 0;
 		top: 0;
@@ -90,6 +102,7 @@
 		box-sizing: border-box;
 	}
 
+	._24502a4069848acb-headerInner {
 	._24502a4069848acb-headerInner {
 		display: grid;
 		left: 0px;
@@ -135,21 +148,27 @@
 
 		//status text
 		.ab86098b36386ff7-content {
+		.ab86098b36386ff7-content {
 			//overflow: visible;
 		}
 
 		//edit status buttons on user status hover
 		.c97e55feac203869-popover.c97e55feac203869-visible {
+		.c97e55feac203869-popover.c97e55feac203869-visible {
 
+			.c97e55feac203869-button.c97e55feac203869-left,
+			.c97e55feac203869-button.c97e55feac203869-right {
 			.c97e55feac203869-button.c97e55feac203869-left,
 			.c97e55feac203869-button.c97e55feac203869-right {
 				border-radius: 0;
 			}
 
 			.c97e55feac203869-button svg path {
+			.c97e55feac203869-button svg path {
 				fill: $high;
 			}
 
+			.c97e55feac203869-button:hover svg path {
 			.c97e55feac203869-button:hover svg path {
 				fill: $low;
 			}
@@ -158,6 +177,7 @@
 		}
 
 		//buttons
+		._24502a4069848acb-headerButtons {
 		._24502a4069848acb-headerButtons {
 			align-items: normal;
 			gap: 0px;
@@ -171,6 +191,7 @@
 		}
 
 		// profile picture area
+		._75742e4cc9019aeb-avatar.withReactReply__75742 {
 		._75742e4cc9019aeb-avatar.withReactReply__75742 {
 			grid-row: 1/3;
 
@@ -186,11 +207,13 @@
 
 			// the actual pfp
 			._44b0c28be7879b7b-wrapper {
+			._44b0c28be7879b7b-wrapper {
 				border-radius: 0;
 				mask-image: none;
 			}
 		}
 
+		>.ab86098b36386ff7-referenceContainer {
 		>.ab86098b36386ff7-referenceContainer {
 			grid-column: 2;
 			grid-row: 1;
@@ -200,16 +223,19 @@
 		}
 
 		>.ab86098b36386ff7-container {
+		>.ab86098b36386ff7-container {
 			grid-column: 2;
 			grid-row: 1;
 			top: 0px;
 			left: 0px;
 
 			.ab86098b36386ff7-outer.user-profile-modal {
+			.ab86098b36386ff7-outer.user-profile-modal {
 				border: 1px solid $low;
 				max-width: 100%;
 				width: 90%;
 
+				.ab86098b36386ff7-inner {
 				.ab86098b36386ff7-inner {
 					margin: 0;
 					width: 94.5%;
@@ -219,6 +245,7 @@
 		}
 
 		>._24502a4069848acb-headerButtons .container__9e42c {
+		>._24502a4069848acb-headerButtons .container__9e42c {
 			grid-column: 2;
 			grid-row: 2;
 			margin: 0;
@@ -227,20 +254,24 @@
 
 	// usernames, mutuals, roles
 	._24502a4069848acb-body {
+	._24502a4069848acb-body {
 		//border: 2px solid $low;
 		margin: 0em 0.5em 0.5em 0.5em;
 		padding: 0.5em;
 		background: $high;
 
 		// ._4bd5201c86a2042b-defaultColor {
+		// ._4bd5201c86a2042b-defaultColor {
 		//     color: $high;
 		// }
 		//container that holds everything the same as above
+		.d1d9f3257b6b604c-container {
 		.d1d9f3257b6b604c-container {
 			display: contents;
 		}
 
 		//tab selection bar
+		.d1d9f3257b6b604c-tabBar {
 		.d1d9f3257b6b604c-tabBar {
 			margin: 3px;
 			height: 42px;
@@ -248,13 +279,7 @@
 			border-bottom: 2px solid;
 			border-color: $low;
 
-<<<<<<< HEAD
 			.aa8da23faa27393c-themed.aa8da23faa27393c-item._37bfcf3d457db7a9-tabBarItem {
-||||||| parent of 97cffbd (chore: run far script)
-			.themed_b3f026.item_b3f026.tabBarItem_d1d9f3 {
-=======
-			.themed_aa8da2.item_aa8da2.tabBarItem__37bfc {
->>>>>>> 97cffbd (chore: run far script)
 				background-color: $mid-trans;
 				padding: 3px 32px 3px 6px;
 
@@ -262,21 +287,17 @@
 					background-color: $mid;
 
 					._4bd5201c86a2042b-defaultColor {
+					._4bd5201c86a2042b-defaultColor {
 						color: $low;
 					}
 
 				}
 
-<<<<<<< HEAD
 				&.aa8da23faa27393c-selected {
-||||||| parent of 97cffbd (chore: run far script)
-				&.selected_b3f026 {
-=======
-				&.selected_aa8da2 {
->>>>>>> 97cffbd (chore: run far script)
 					background-color: $low;
 					height: 100%;
 
+					._4bd5201c86a2042b-defaultColor {
 					._4bd5201c86a2042b-defaultColor {
 						color: $high;
 					}
@@ -286,7 +307,9 @@
 
 		//border fixes
 		.e6abe833ac70fcae-connectedAccountContainer,
+		.e6abe833ac70fcae-connectedAccountContainer,
 		//border fix for connected accounts
+		.fcb62805acc5d0cc-note {
 		.fcb62805acc5d0cc-note {
 			//border fix for note section
 			border: 1px solid;
@@ -296,44 +319,26 @@
 	}
 }
 
-<<<<<<< HEAD
 :where(.visual-refresh) .aa8da23faa27393c-top .aa8da23faa27393c-item.aa8da23faa27393c-selected:after,
 :where(.visual-refresh) .aa8da23faa27393c-top .aa8da23faa27393c-item:hover:after {
-||||||| parent of 97cffbd (chore: run far script)
-:where(.visual-refresh) .top_b3f026 .item_b3f026.selected_b3f026:after,
-:where(.visual-refresh) .top_b3f026 .item_b3f026:hover:after {
-=======
-:where(.visual-refresh) .top_aa8da2 .item_aa8da2.selected_aa8da2:after,
-:where(.visual-refresh) .top_aa8da2 .item_aa8da2:hover:after {
->>>>>>> 97cffbd (chore: run far script)
 	display: none;
 }
 
-<<<<<<< HEAD
 :where(.visual-refresh) .aa8da23faa27393c-top .aa8da23faa27393c-item+.aa8da23faa27393c-item {
-||||||| parent of 97cffbd (chore: run far script)
-:where(.visual-refresh) .top_b3f026 .item_b3f026+.item_b3f026 {
-=======
-:where(.visual-refresh) .top_aa8da2 .item_aa8da2+.item_aa8da2 {
->>>>>>> 97cffbd (chore: run far script)
 	margin-left: 0;
 }
 
-<<<<<<< HEAD
 :where(.visual-refresh) .aa8da23faa27393c-top .aa8da23faa27393c-item.aa8da23faa27393c-selected:after {
-||||||| parent of 97cffbd (chore: run far script)
-:where(.visual-refresh) .top_b3f026 .item_b3f026.selected_b3f026:after {
-=======
-:where(.visual-refresh) .top_aa8da2 .item_aa8da2.selected_aa8da2:after {
->>>>>>> 97cffbd (chore: run far script)
 	display: none;
 }
 
+.theme-dark .ab86098b36386ff7-outer {
 .theme-dark .ab86098b36386ff7-outer {
 	border: none;
 	box-shadow: none;
 }
 
+.c0bea05627c5dc35-outer ._24502a4069848acb-username {
 .c0bea05627c5dc35-outer ._24502a4069848acb-username {
 	margin: 0;
 }

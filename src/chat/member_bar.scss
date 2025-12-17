@@ -3,9 +3,13 @@
 // Transparencies
 // # main container
 .c8ffbb79449f399c-container,
+.c8ffbb79449f399c-container,
 // # wrapper holding the list itself
 .c8ffbb79449f399c-members,
+.c8ffbb79449f399c-members,
 // # individual member
+.c8ffbb79449f399c-member,
+._91a9d7f7e5248a56-clickable:hover ._91a9d7f7e5248a56-childContainer {
 .c8ffbb79449f399c-member,
 ._91a9d7f7e5248a56-clickable:hover ._91a9d7f7e5248a56-childContainer {
 	background: transparent;
@@ -13,17 +17,21 @@
 
 // slight border lines
 .visual-refresh .c8ffbb79449f399c-container,
+.visual-refresh .c8ffbb79449f399c-container,
 // # threads
+.visual-refresh ._7641b507c6cdbb10-container {
 .visual-refresh ._7641b507c6cdbb10-container {
 	border: none;
 }
 
 // member hover/select animations
 .c8ffbb79449f399c-member {
+.c8ffbb79449f399c-member {
 	margin: 4px 0;
 
 	// -------------------- STRUCTURE ---------------------------------------
 	// container that holds user pfp/name/etc
+	._5d473ecff348c314-memberInner {
 	._5d473ecff348c314-memberInner {
 		padding-left: 5px;
 	}
@@ -31,12 +39,14 @@
 	// -------------------- ICONS / TEXT ---------------------------------------
 	// member name
 	._5d473ecff348c314-username {
+	._5d473ecff348c314-username {
 		transition: color 0.2s;
 	}
 
 	// ------------------- TEXT+VOICE CHANNELS ---------------------------------
 
 	// LinkTop is the main body
+	._91a9d7f7e5248a56-childContainer {
 	._91a9d7f7e5248a56-childContainer {
 		display: flex;
 		align-items: center;
@@ -47,6 +57,7 @@
 	}
 
 	// the main grower
+	._91a9d7f7e5248a56-childContainer::before {
 	._91a9d7f7e5248a56-childContainer::before {
 		position: absolute;
 		content: '';
@@ -63,6 +74,7 @@
 
 	// grower border
 	._91a9d7f7e5248a56-childContainer::after {
+	._91a9d7f7e5248a56-childContainer::after {
 		position: absolute;
 		content: '';
 		width: 100%;
@@ -77,34 +89,31 @@
 	}
 
 	&._91a9d7f7e5248a56-selected,
+	&._91a9d7f7e5248a56-selected,
 	// When hovering and selecting
 	&:hover {
 
 		// grow border and body
 		._91a9d7f7e5248a56-childContainer::before,
 		._91a9d7f7e5248a56-childContainer::after {
+		._91a9d7f7e5248a56-childContainer::before,
+		._91a9d7f7e5248a56-childContainer::after {
 			transform: scale(100%, 100%);
 		}
 
 		// invert name and icons
-<<<<<<< HEAD
 		.b0dfc2ed9c57037d-overflow,
 		._5d473ecff348c314-username {
-||||||| parent of 97cffbd (chore: run far script)
-		.overflow__82b15,
-		.name__5d473 {
-=======
-		.overflow_b0dfc2,
-		.name__5d473 {
->>>>>>> 97cffbd (chore: run far script)
 			color: $high;
 		}
 	}
 
 	// When selected
 	&._91a9d7f7e5248a56-selected {
+	&._91a9d7f7e5248a56-selected {
 
 		// the main grower changes to lighter color
+		._91a9d7f7e5248a56-childContainer::before {
 		._91a9d7f7e5248a56-childContainer::before {
 			transform: scale(100%, 100%);
 			transition: transform 0.4s, opacity 0.4s;
@@ -115,6 +124,7 @@
 
 		// grower border shrinks to right
 		._91a9d7f7e5248a56-childContainer::after {
+		._91a9d7f7e5248a56-childContainer::after {
 			transition: transform 0.75s;
 			transform: scale(0%, 100%);
 			transform-origin: left;
@@ -124,21 +134,26 @@
 
 // member group labels
 .visual-refresh .c8ffbb79449f399c-membersGroup {
+.visual-refresh .c8ffbb79449f399c-membersGroup {
 	padding-left: 0;
 }
 
 //<--->//
 //User Profile Sidebar in DMs
 .user-profile-sidebar :where(._75742e4cc9019aeb-avatar) {
+.user-profile-sidebar :where(._75742e4cc9019aeb-avatar) {
 	left: 0px;
 	top: 0px;
 }
 
 .user-profile-sidebar .ab86098b36386ff7-container {
+.user-profile-sidebar .ab86098b36386ff7-container {
 	top: calc(var(--custom-user-profile-banner-height) - -160px);
 	left: 8px;
 }
 
+.ab86098b36386ff7-container {
+	.ab86098b36386ff7-outer {
 .ab86098b36386ff7-container {
 	.ab86098b36386ff7-outer {
 		max-width: 324px;

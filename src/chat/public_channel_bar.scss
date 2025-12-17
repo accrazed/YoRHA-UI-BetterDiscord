@@ -2,13 +2,13 @@
 
 // Transparencies
 // # main containers
-.sidebar__5e434,
-.theme-dark .container__2637a,
+._5e434347c823b592-sidebar,
+.theme-dark ._2637a2609f343032-container,
 // # unread message blip
 .unread__2ea32,
 // # user profile
 
-.panels__5e434,
+._5e434347c823b592-panels,
 .theme-dark .content__37e49 {
 	background: transparent;
 }
@@ -24,7 +24,7 @@
 }
 
 // # weird scrollbar in bottom left corner under profile
-.visual-refresh .sidebar__5e434:after {
+.visual-refresh ._5e434347c823b592-sidebar:after {
 	display: none;
 }
 
@@ -44,8 +44,8 @@
 }
 
 // sidebar slight lines
-.visual-refresh .header_f37cb1,
-.visual-refresh .sidebarList__5e434 {
+.visual-refresh .f37cb1984c371ee5-header,
+.visual-refresh ._5e434347c823b592-sidebarList {
 	border: none;
 }
 
@@ -400,7 +400,7 @@ button.button__67645 {
 	margin-left: 0;
 }
 
-.typeThread__2ea32 .name__2ea32.overflow_b0dfc2 {
+._2ea32c412048f708-typeThread ._2ea32c412048f708-name.b0dfc2ed9c57037d-overflow {
 	left: 24px;
 }
 

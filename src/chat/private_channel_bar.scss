@@ -34,13 +34,13 @@
 
 // weird hidden divs that add stupid padding shit
 // JUST KIDDING, DON"T FUCK WITH THIS, THIS BREAKS SCROLLING DOWN IF YOU DISABLE IT LOL
-.content_d125d2[aria-label="Direct Messages"]>div:first-child {}
+.d125d22cdfd32cfe-content[aria-label="Direct Messages"]>div:first-child {}
 
-.container_e45859 {
+.container__23ba6 {
 	border-radius: 0
 }
 
-.container__23ba6 {
+.a244c3c87d2b1e13-container {
 	border-radius: 0;
 	padding: 0;
 	margin-left: 36px;
@@ -66,9 +66,9 @@
 
 	// -------------------- ICONS / TEXT ------------------------------
 	// channel name
-	.overflow_b0dfc2,
-	.name__20a53,
-	.subText__20a53 {
+	.b0dfc2ed9c57037d-overflow,
+	._20a53846fe2e8513-name,
+	._20a53846fe2e8513-subText {
 		transition: color 0.2s;
 	}
 
@@ -158,10 +158,10 @@
 	}
 
 		// invert name and icons
-		.overflow_b0dfc2,
-		.linkButtonIcon__972a0,
-		.name__20a53,
-		.subText__20a53 {
+		.b0dfc2ed9c57037d-overflow,
+		._972a0d22c8afa7f0-linkButtonIcon,
+		._20a53846fe2e8513-name,
+		._20a53846fe2e8513-subText {
 			color: $high;
 		}
 	}

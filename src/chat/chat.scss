@@ -4,13 +4,20 @@
 .visual-refresh .f75fb00fb7356cbe-chatContent,
 .visual-refresh .f75fb00fb7356cbe-chat,
 .f75fb00fb7356cbe-chat,
+.visual-refresh .f75fb00fb7356cbe-chatContent,
+.visual-refresh .f75fb00fb7356cbe-chat,
+.f75fb00fb7356cbe-chat,
 // main chat+members sidebar wrapper
+.f75fb00fb7356cbe-chatContent,
 .f75fb00fb7356cbe-chatContent,
 // weird gradient on bottom
 ._36d072eab2b2e737-chatGradient,
 ._36d072eab2b2e737-chatTypingGradientAtBottom,
+._36d072eab2b2e737-chatGradient,
+._36d072eab2b2e737-chatTypingGradientAtBottom,
 // just the chat container
 // #header bar
+.theme-dark ._9293f6b2fc12398a-themed {
 .theme-dark ._9293f6b2fc12398a-themed {
 	background: transparent;
 }
@@ -19,29 +26,19 @@
 // daily date markers
 // # dividers
 ._908e20001ad67812-divider {}
+._908e20001ad67812-divider {}
 
 // # date
+._908e20001ad67812-content {
 ._908e20001ad67812-content {
 	color: $low;
 	@include boxify($high, $mid, 3px);
 }
 
 // loading chat
-<<<<<<< HEAD
 .fc817765600a960a-wrapper,
 .cdf8a9a2bbd98bd3-wrapper,
 .visual-refresh .fc817765600a960a-wrapper,
 .visual-refresh .cdf8a9a2bbd98bd3-wrapper {
-||||||| parent of 97cffbd (chore: run far script)
-.wrapper_fc8177,
-.wrapper_d852db,
-.visual-refresh .wrapper_fc8177,
-.visual-refresh .wrapper_d852db {
-=======
-.wrapper_fc8177,
-.wrapper__6c798,
-.visual-refresh .wrapper_fc8177,
-.visual-refresh .wrapper__6c798 {
->>>>>>> 97cffbd (chore: run far script)
 	background: transparent;
 }

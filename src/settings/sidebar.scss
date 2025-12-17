@@ -1,24 +1,10 @@
 @use '../vars/vars' as *;
 
-<<<<<<< HEAD
 .visual-refresh .aa8da23faa27393c-topPill .aa8da23faa27393c-themed.aa8da23faa27393c-item,
 .visual-refresh .aa8da23faa27393c-themed.aa8da23faa27393c-item {
-||||||| parent of 97cffbd (chore: run far script)
-.visual-refresh .topPill_b3f026 .themed_b3f026.item_b3f026,
-.visual-refresh .themed_b3f026.item_b3f026 {
-=======
-.visual-refresh .topPill_aa8da2 .themed_aa8da2.item_aa8da2,
-.visual-refresh .themed_aa8da2.item_aa8da2 {
->>>>>>> 97cffbd (chore: run far script)
 	@include buttonify($high-mid, $low, $mid, $low);
 
-<<<<<<< HEAD
 	&.aa8da23faa27393c-selected {
-||||||| parent of 97cffbd (chore: run far script)
-	&.selected_b3f026 {
-=======
-	&.selected_aa8da2 {
->>>>>>> 97cffbd (chore: run far script)
 		background-color: $low ;
 		color: $high;
 	}
