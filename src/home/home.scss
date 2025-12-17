@@ -4,47 +4,47 @@
 
 // transparencies
 // # store
-.allPerksScroller_ca1a02,
-.mainPageScroller_ca1a02,
-.visual-refresh .shop__08415,
-.applicationStore_f07d62,
+.ca1a02dcad190ff8-allPerksScroller,
+.ca1a02dcad190ff8-mainPageScroller,
+.visual-refresh ._084152b107f71237-shop,
+.f07d62e29a48ceee-applicationStore,
 // # game scroller
-.scroller__4a84a,
+._4a84a2c88d373bef-scroller,
 // # main containers
-.visual-refresh .homeWrapper__0920e,
-.visual-refresh .container__133bf {
+.visual-refresh ._0920e02cc8fc7b7b-homeWrapper,
+.visual-refresh ._133bf5eea8e33a34-container {
   background: transparent;
 }
 
 // header border
-.visual-refresh .container__133bf {
+.visual-refresh ._133bf5eea8e33a34-container {
   border-top: none;
 }
 
 // sidebar header border
-.visual-refresh .searchBar_e6b769 {
+.visual-refresh .e6b7699ce8339e1c-searchBar {
   border-bottom: none;
 }
 
 // sidebar divider between DMs and upper sections
-.sectionDivider_e6b769 {
+.e6b7699ce8339e1c-sectionDivider {
   height: 0px;
 }
 
 // "Find or start a conversation" button above private message channels
 // You can find the styling for the prompt itself in app/prompts.scss
-.searchBar_e6b769 {
+.e6b7699ce8339e1c-searchBar {
   padding-right: 7px;
   padding-left: 35px;
 }
 
-.lookFilled__201d5.colorPrimary__201d5 {
+._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorPrimary {
   border-radius: 0;
   padding: 0;
 
   @include buttonify($high-mid, $low, $low, $high);
 
-  .contents__201d5 {
+  ._201d5e8a3c09670a-contents {
     padding: 0px 8px;
   }
 }

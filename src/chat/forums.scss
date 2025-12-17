@@ -2,32 +2,32 @@
 
 //Transparencies
 //main container that holds all threads in the forum
-.visual-refresh .container_f369db,
+.visual-refresh .f369dba7416c67f0-container,
 //container for thread in the main forum window
-.visual-refresh .mainCard_f369db {
+.visual-refresh .f369dba7416c67f0-mainCard {
 	background: transparent;
 }
 
 //weird colored line that showed up at the end of the title bar for forums
-.theme-dark .children__9293f:after {
+.theme-dark ._9293f6b2fc12398a-children:after {
 	display: none;
 }
 
 /* forum post */
-.visual-refresh .container__9a337 {
+.visual-refresh ._9a337c84ff86a914-container {
 	background: $high;
 }
 
 /* Friends header */
-.defaultColor__4bd52 {
+._4bd5201c86a2042b-defaultColor {
 	color: $low;
 }
 
 // ========== main container that holds all threads in the forum ============= 
-.container_f369db {
+.f369dba7416c67f0-container {
 
 	// "Sort & View" container
-	.sortDropdown_f369db.button__201d5.lookFilled__201d5.sizeMin__201d5.grow__201d5 {
+	.f369dba7416c67f0-sortDropdown._201d5e8a3c09670a-button._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-sizeMin._201d5e8a3c09670a-grow {
 		background: $low;
 
 		&:hover {
@@ -36,131 +36,131 @@
 	}
 
 	// "Sort & View" text and icons
-	.sortDropdownInner_f369db * {
+	.f369dba7416c67f0-sortDropdownInner * {
 		color: $high !important;
 	}
 
 	// tags list at top of forum
-	.pill_a2c9e8,
+	.a2c9e80f6531ccc2-pill,
 	//All button for tag overflow at the top
-	.tagsButton_f369db {
+	.f369dba7416c67f0-tagsButton {
 		border-radius: 0px;
 		background: transparent;
 		color: $low;
 
-		&.clickable_a2c9e8:not(.disabled_a2c9e8):hover {
+		&.a2c9e80f6531ccc2-clickable:not(.a2c9e80f6531ccc2-disabled):hover {
 			background-color: $mid;
 		}
 	}
 
 	// contents of "all" button at top
-	.contents__201d5.tagsButtonInner_f369db {
+	._201d5e8a3c09670a-contents.f369dba7416c67f0-tagsButtonInner {
 		color: $low;
 	}
 }
 
 // ============ forum posts that lay inside the container =====================
-.visual-refresh .mainCard_f369db {
+.visual-refresh .f369dba7416c67f0-mainCard {
 	border: none;
 
 	&:hover {
 		@include boxify($high-mid, $mid, 3px);
 	}
 
-	&.isOpen_faa96b {
+	&.faa96b2163f6a142-isOpen {
 		@include boxify($low, $mid, 3px);
 
-		.messageContent_faa96b,
-		.messageCountIcon_faa96b,
-		.pill_a2c9e8 {
+		.faa96b2163f6a142-messageContent,
+		.faa96b2163f6a142-messageCountIcon,
+		.a2c9e80f6531ccc2-pill {
 			color: $high;
 		}
 
-		.footer_faa96b div,
-		.defaultColor__5345c {
+		.faa96b2163f6a142-footer div,
+		._5345c24c6249bc5b-defaultColor {
 			color: $high !important;
 		}
 	}
 }
 
 // % "Get Started" panel for moderators
-.visual-refresh .container_a68543 {
+.visual-refresh .a685436e98c0d8fa-container {
 	@include boxify($high, $mid, 3px);
 	border: none;
 }
 
 // %% steps themselves for the panel
-.stepContainer_a68543 {
+.a685436e98c0d8fa-stepContainer {
 	background-color: $high-mid;
 
-	.stepName_a68543,
-	.stepDescription_a68543 {
+	.a685436e98c0d8fa-stepName,
+	.a685436e98c0d8fa-stepDescription {
 		opacity: 1;
 	}
 
 	&:hover {
 		background-color: $low;
 
-		.stepName_a68543,
-		.stepDescription_a68543 {
+		.a685436e98c0d8fa-stepName,
+		.a685436e98c0d8fa-stepDescription {
 			color: $high !important;
 		}
 
 	}
 }
 
-.stepStatus_a68543.completed_a68543 {
+.a685436e98c0d8fa-stepStatus.a685436e98c0d8fa-completed {
 	color: $mid;
 }
 
 // press "all" button, "Select tags"
 
-.visual-refresh .container__5808f {
+.visual-refresh ._5808f3d86030cee1-container {
 	@include boxify($high, $mid, 3px);
 	border: none;
 }
 
 // # said tags
-.pill_a2c9e8 {
+.a2c9e80f6531ccc2-pill {
 	border-radius: 0;
 }
 
-.theme-dark .pill_a2c9e8.selected_a2c9e8 {
+.theme-dark .a2c9e80f6531ccc2-pill.a2c9e80f6531ccc2-selected {
 	border-color: $low;
 }
 
-.visual-refresh .pill_a2c9e8.selected_a2c9e8:not(.disabled_a2c9e8):hover {
+.visual-refresh .a2c9e80f6531ccc2-pill.a2c9e80f6531ccc2-selected:not(.a2c9e80f6531ccc2-disabled):hover {
 	background-color: $mid ;
 }
 
 //container for thread in the main forum window
-.mainCard_f369db {
+.f369dba7416c67f0-mainCard {
 	border: 1px solid $low;
 
-	.tagPill__9a337 {
+	._9a337c84ff86a914-tagPill {
 		//pills for tags in forums
 		border-radius: 0px;
 	}
 }
 
 // ================ the forum post that opens on the side ====================
-.visual-refresh .container__01ae2,
-.visual-refresh .resizeHandle__01ae2 {
+.visual-refresh ._01ae244280823725-container,
+.visual-refresh ._01ae244280823725-resizeHandle {
 	background: transparent;
 	border: none;
 }
 
-.divider_ee23ac {
+.ee23ac2acd215184-divider {
 	background: transparent;
 }
 
 // footer to main post (follow, link, reacts, etc)
-.visual-refresh .container__34c2c,
-.visual-refresh .header__34c2c {
+.visual-refresh ._34c2c51cfce1632e-container,
+.visual-refresh ._34c2c51cfce1632e-header {
 	margin: 0px 3px;
 	@include boxify($high, $mid, 3px);
 }
 
-.container__34c2c {
+._34c2c51cfce1632e-container {
 	border: none;
 }

@@ -1,27 +1,27 @@
 @use '../vars/vars.scss' as *;
 
 // Transparencies for deep layers
-.app__160d8,
-.appMount__51fd7,
-.visual-refresh .wrapper_ef3116,
-.visual-refresh .bg__960e4,
+._160d8e55254637e5-app,
+._51fd70792ee2e563-appMount,
+.visual-refresh .ef3116c2da186559-wrapper,
+.visual-refresh ._960e4207cea8323e-bg,
 body {
 	background: transparent;
 }
 
 // KILL THE SEMICOLON
-.visual-refresh .app_a3002d {
+.visual-refresh .a3002d7de5be5280-app {
 	color: transparent;
 }
 
 // Close/Minimize/Maximize buttons
-.winButtonClose_c38106:hover {
+.c38106a3f0c3ca76-winButtonClose:hover {
 	transition: background-color 0.2s, color 0.2s ease;
 	color: $high;
 	background: $alert;
 }
 
-.winButtonMinMax_c38106:hover {
+.c38106a3f0c3ca76-winButtonMinMax:hover {
 	transition: background-color 0.2s, color 0.2s ease;
 	color: $high;
 	background: $low;
@@ -30,8 +30,8 @@ body {
 
 // ==== title bar at the top
 // see root/--custom-app-top-bar-height for header height
-.bar_c38106 {
-	.title_c38106 {
+.c38106a3f0c3ca76-bar {
+	.c38106a3f0c3ca76-title {
 		/* justify-content: left; */
 
 		.title__85643 {
@@ -44,7 +44,7 @@ body {
 			position: relative;
 			background-color: $low;
 
-			.icon_f34534 {
+			.f34534e8a5d3ca64-icon {
 				//display: none;
 				background-image: url("https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/icons/home_dark-theme.svg") !important;
 			}
@@ -54,7 +54,7 @@ body {
 				fill: $high !important;
 			}
 
-			.defaultColor__4bd52 {
+			._4bd5201c86a2042b-defaultColor {
 				text-transform: uppercase;
 				font-weight: 400;
 				color: $high;
@@ -91,7 +91,7 @@ body {
 		}
 	}
 
-	.trailing_c38106 {
+	.c38106a3f0c3ca76-trailing {
 		//contains the min/max/close buttons
 		top: -5px;
 	}

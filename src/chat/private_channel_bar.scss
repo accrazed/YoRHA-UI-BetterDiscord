@@ -2,45 +2,45 @@
 
 @use '../vars/vars.scss' as *;
 
-.visual-refresh .privateChannels_e6b769,
-.visual-refresh .scroller__99e7c {
+.visual-refresh .e6b7699ce8339e1c-privateChannels,
+.visual-refresh ._99e7cad8d4c55236-scroller {
 	background: transparent;
 }
 
 // right padding on user bar
-.iconsContainer__972a0,
+._972a0d22c8afa7f0-iconsContainer,
 // Chonky Friends/Library/Nitro/Shop buttons
-:where(.visual-refresh) .channel__972a0:not(.dm__972a0) .link__972a0 {
+:where(.visual-refresh) ._972a0d22c8afa7f0-channel:not(._972a0d22c8afa7f0-dm) ._972a0d22c8afa7f0-link {
 	padding: 0;
 }
 
-:where(.visual-refresh) .channel__972a0:not(.dm__972a0) svg {
+:where(.visual-refresh) ._972a0d22c8afa7f0-channel:not(._972a0d22c8afa7f0-dm) svg {
 	padding-left: 10px;
 }
 
-.channel__972a0:not(.dm__972a0) {
+._972a0d22c8afa7f0-channel:not(._972a0d22c8afa7f0-dm) {
 	height: 40px;
 }
 
-.interactive_bf202d:focus-within,
-.interactive_bf202d:hover {
+.bf202d63ad53e289-interactive:focus-within,
+.bf202d63ad53e289-interactive:hover {
 	background: transparent;
 }
 
-.interactive__972a0:active,
-.interactiveSelected__972a0 {
+._972a0d22c8afa7f0-interactive:active,
+._972a0d22c8afa7f0-interactiveSelected {
 	background: transparent;
 }
 
 // weird hidden divs that add stupid padding shit
 // JUST KIDDING, DON"T FUCK WITH THIS, THIS BREAKS SCROLLING DOWN IF YOU DISABLE IT LOL
-.content_d125d2[aria-label="Direct Messages"]>div:first-child {}
+.d125d22cdfd32cfe-content[aria-label="Direct Messages"]>div:first-child {}
 
-.container_e45859 {
+.container__23ba6 {
 	border-radius: 0
 }
 
-.container__23ba6 {
+.a244c3c87d2b1e13-container {
 	border-radius: 0;
 	padding: 0;
 	margin-left: 36px;
@@ -61,47 +61,47 @@
 	}
 }
 
-.interactive_bf202d {
+.bf202d63ad53e289-interactive {
 	padding: 0;
 
 	// -------------------- ICONS / TEXT ------------------------------
 	// channel name
-	.overflow_b0dfc2,
-	.name__20a53,
-	.subText__20a53 {
+	.b0dfc2ed9c57037d-overflow,
+	._20a53846fe2e8513-name,
+	._20a53846fe2e8513-subText {
 		transition: color 0.2s;
 	}
 
 	// Profile picture
-	.wrapper__44b0c foreignObject {
+	._44b0c28be7879b7b-wrapper foreignObject {
 		mask: none;
 	}
 
 	// Close icon
-	.closeButton__972a0 {
+	._972a0d22c8afa7f0-closeButton {
 		position: absolute;
 		z-index: 3;
 		right: 0;
 		color: $alert;
 	}
 
-	.linkButtonIcon__972a0,
-	.content__20a53,
-	.subtext__972a0 {
+	._972a0d22c8afa7f0-linkButtonIcon,
+	._20a53846fe2e8513-content,
+	._972a0d22c8afa7f0-subtext {
 		position: relative;
 	}
 
 	// ------------------------ STRUCTURE ----------------------------
 
 	// VERY IMPORTANT. Padding must be zero or we get subpixel errors
-	.link__972a0 {
+	._972a0d22c8afa7f0-link {
 		margin: 4px 0px;
 		padding: 0;
 	}
 
-	.channel__972a0,
-	.interactive_bf202d,
-	.layout__20a53 {
+	._972a0d22c8afa7f0-channel,
+	.bf202d63ad53e289-interactive,
+	._20a53846fe2e8513-layout {
 		height: 36px;
 	}
 
@@ -109,14 +109,14 @@
 
 	// Base block + border. hold the text
 	// LinkTop is the main body
-	.link__972a0 {
+	._972a0d22c8afa7f0-link {
 		height: 36px;
 		padding: 0px 0px;
 		background-color: $high-mid;
 	}
 
 	// the main grower
-	.link__972a0::before {
+	._972a0d22c8afa7f0-link::before {
 		position: absolute;
 		content: '';
 		width: 100%;
@@ -132,7 +132,7 @@
 	}
 
 	// grower border
-	.link__972a0::after {
+	._972a0d22c8afa7f0-link::after {
 		position: absolute;
 		content: '';
 		width: 100%;
@@ -146,28 +146,28 @@
 		transform-origin: left;
 	}
 
-	&.selected_bf202d,
+	&.bf202d63ad53e289-selected,
 	// When hovering and selecting
 	&:hover {
 
 		// grow border and body
-		.link__972a0::before,
-		.link__972a0::after {
+		._972a0d22c8afa7f0-link::before,
+		._972a0d22c8afa7f0-link::after {
 			transform: scale(100%, 100%);
 		}
 
 		// invert name and icons
-		.overflow_b0dfc2,
-		.linkButtonIcon__972a0,
-		.name__20a53,
-		.subText__20a53 {
+		.b0dfc2ed9c57037d-overflow,
+		._972a0d22c8afa7f0-linkButtonIcon,
+		._20a53846fe2e8513-name,
+		._20a53846fe2e8513-subText {
 			color: $high;
 		}
 	}
 
 	// When selected
-	&.selected_bf202d {
-		.link__972a0::before {
+	&.bf202d63ad53e289-selected {
+		._972a0d22c8afa7f0-link::before {
 			transform: scale(100%, 100%);
 			animation: none;
 			background-color: $low;
@@ -176,7 +176,7 @@
 		}
 
 		// TODO: this doesn't work. for whatever reason, the borders don't retreat to the right, tehy just disappear 
-		.link__972a0::after {
+		._972a0d22c8afa7f0-link::after {
 			transition: transform 0.75s;
 			transform: scale(0%, 100%);
 			transform-origin: right;
@@ -203,11 +203,11 @@
 		opacity: 0;
 	}
 
-	&:not(.selected_bf202d):hover::before {
+	&:not(.bf202d63ad53e289-selected):hover::before {
 		opacity: 1;
 	}
 
-	&.selected_bf202d::before {
+	&.bf202d63ad53e289-selected::before {
 		content: '';
 		position: absolute;
 		left: -30px;
@@ -225,7 +225,7 @@
 		background-repeat: no-repeat;
 	}
 
-	&.selected_bf202d::after {
+	&.bf202d63ad53e289-selected::after {
 		content: '';
 		position: absolute;
 		left: -30px;
@@ -244,7 +244,7 @@
 }
 
 // Undread channels
-.unreadPill__972a0 {
+._972a0d22c8afa7f0-unreadPill {
 	top: 8px;
 	left: -6px;
 	height: 36px;

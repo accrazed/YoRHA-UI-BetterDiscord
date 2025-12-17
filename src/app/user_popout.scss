@@ -1,13 +1,13 @@
 @use '../vars/vars' as *;
 
 // whole container
-.custom-user-profile-theme.user-profile-popout :where(.avatar__75742),
-.user-profile-popout :where(.avatar__75742) {
+.custom-user-profile-theme.user-profile-popout :where(._75742e4cc9019aeb-avatar),
+.user-profile-popout :where(._75742e4cc9019aeb-avatar) {
 	top: 0;
 	left: 0
 }
 
-.outer_c0bea0 {
+.c0bea05627c5dc35-outer {
 	&:not(.custom-theme-background.custom-profile-theme) {
 		box-shadow: 3px 3px 0 $mid;
 		border-radius: 0;
@@ -15,12 +15,12 @@
 
 	padding: 0 !important;
 
-	.outer_ab8609:after,
-	.outer_ab8609:before {
+	.ab86098b36386ff7-outer:after,
+	.ab86098b36386ff7-outer:before {
 		display: none;
 	}
 
-	:where(.avatar__75742) {
+	:where(._75742e4cc9019aeb-avatar) {
 		position: relative;
 		left: 0px;
 		top: 0px;
@@ -28,7 +28,7 @@
 
 	// the big rect with user profile inside
 	.clickable_f89da9,
-	.clickable__75742 {
+	._75742e4cc9019aeb-clickable {
 		border: 2px solid $low;
 		display: flex;
 		align-items: center;
@@ -44,13 +44,13 @@
 	}
 
 	//container holding pfp and banner
-	.avatar__75742.user-profile-popout {
+	._75742e4cc9019aeb-avatar.user-profile-popout {
 		top: 0;
 		left: 0;
 	}
 
 	// usernames, mutuals, roles
-	.body__5be3e {
+	._5be3ef42f92174b2-body {
 		border: 2px solid $low;
 		margin: 0 0.5em;
 		padding: 0.5em;
@@ -71,8 +71,8 @@
 	}
 
 	//Roles container
-	.root_fccfdf {
-		.role_dfa8b6 {
+	.fccfdf3cfff21921-root {
+		.dfa8b6b94cddb191-role {
 			background-color: $mid-trans;
 		}
 	}
@@ -83,15 +83,15 @@
 	}
 
 	// message user
-	.channelTextArea__74017 {
+	._740174f3d6a2c8fe-channelTextArea {
 		background: $high;
 		border-radius: 0;
 	}
 
 	//user popout bottom left
-	.username__24502,
-	.container_d1d9f3,
-	.body_ce8328 {
+	._24502a4069848acb-username,
+	.d1d9f3257b6b604c-container,
+	.ce832809562bf737-body {
 		border: 2px solid $low;
 		padding: 0.5em;
 		background: $high;
@@ -99,7 +99,7 @@
 		.user-profile-popout {
 
 			//activities container
-			&.card__39ec2 {
+			&._39ec2e3dfb4fd2f2-card {
 				//activites (takes on profile theme color and can cause conflict with colors)
 				border-top: 1px solid;
 				border-bottom: 1px solid;
@@ -110,18 +110,18 @@
 		}
 	}
 
-	.body_ce8328 {
+	.ce832809562bf737-body {
 		margin: 0 0.5em;
 	}
 
 
-	.mask__68edb mask {
+	._68edb95846a37624-mask mask {
 		display: none;
 	}
 }
 
 // fucking annoying ass tooltip / status text
-.user-profile-popout .container_ab8609 {
+.user-profile-popout .ab86098b36386ff7-container {
 	top: 0;
 	left: 0;
 
@@ -131,7 +131,7 @@
 	border: 2px solid $low;
 }
 
-.user-profile-popout .referenceContainer_ab8609 {
+.user-profile-popout .ab86098b36386ff7-referenceContainer {
 	position: absolute;
 	margin: 0;
 }
@@ -145,34 +145,34 @@
 
 // reply to status
 
-.container_b1f01d {
+.b1f01d03ecc7d736-container {
 	background: transparent;
 	border-radius: 0;
 	padding: 0;
 }
 
-html:not(.visual-refresh-chat-input) .inputInner_b1f01d {
+html:not(.visual-refresh-chat-input) .b1f01d03ecc7d736-inputInner {
 	background-color: $high;
 	border-radius: 0;
 }
 
-.editor_b1f01d {
+.b1f01d03ecc7d736-editor {
 	min-height: 0;
 }
 
 // activity thing
 
-.card__39ec2 {
+._39ec2e3dfb4fd2f2-card {
 	@include buttonify($high, $low, $mid, $high );
 }
 
 // full popout container
-.container_d1d9f3 {
+.d1d9f3257b6b604c-container {
 	margin-bottom: .5em !important;
 }
 
 // custom text status
-.theme-dark .outer_ab8609 .inner_ab8609 {
+.theme-dark .ab86098b36386ff7-outer .ab86098b36386ff7-inner {
 	background-color: $high;
 	color: $low
 }

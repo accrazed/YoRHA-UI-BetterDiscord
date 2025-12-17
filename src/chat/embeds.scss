@@ -4,9 +4,9 @@
 
 
 // code blocks
-.newMosaicStyle__4d95d .footer__4d95d,
-.newMosaicStyle__4d95d .textContainer__4d95d,
-.textContainer__4d95d pre,
+._4d95d73152192cf9-newMosaicStyle ._4d95d73152192cf9-footer,
+._4d95d73152192cf9-newMosaicStyle ._4d95d73152192cf9-textContainer,
+._4d95d73152192cf9-textContainer pre,
 .visual-refresh .hljs {
 	border-radius: 0;
 }
@@ -15,15 +15,15 @@
 	color: rgb(218, 212, 187);
 }
 
-.modalContent__4d95d .hljs {
+._4d95d73152192cf9-modalContent .hljs {
 	background-color: rgb(87, 84, 74)
 }
 
 // rich presence
-.embed__623de {
+._623de82e76ad7f82-embed {
 	border-radius: 0;
 }
 
-.visual-refresh .embedFull__623de {
+.visual-refresh ._623de82e76ad7f82-embedFull {
 	@include boxify($high, $mid, 3px);
 }

@@ -2,63 +2,63 @@
 
 // transparencies
 // # reply header
-.visual-refresh .stackedBars__74017,
+.visual-refresh ._740174f3d6a2c8fe-stackedBars,
 // # attachement background
-.visual-refresh .channelAttachmentArea_b77158 {
+.visual-refresh .b77158512e0ab116-channelAttachmentArea {
 	background-color: transparent;
 }
 
-.visual-refresh .channelTextArea_f75fb0 {
+.visual-refresh .f75fb00fb7356cbe-channelTextArea {
 	background: $high;
 }
 
-.form_f75fb0,
-.formWithLoadedChatInput_f75fb0 {
+.f75fb00fb7356cbe-form,
+.f75fb00fb7356cbe-formWithLoadedChatInput {
 	padding-left: 0;
 }
 
 // little random chat ciontainer
-.themedBackground__74017 {
+._740174f3d6a2c8fe-themedBackground {
 	background: transparent;
 }
 
-.visual-refresh .stackedBars__74017:not(:last-child) {
+.visual-refresh ._740174f3d6a2c8fe-stackedBars:not(:last-child) {
 	border: none;
 }
 
-.clipContainer__841c8 {
+._841c8f861f7b2704-clipContainer {
 	padding: 0;
 }
 
-.visual-refresh .actions__841c8 {
+.visual-refresh ._841c8f861f7b2704-actions {
 	margin: 0;
 }
 
 // Type box
-.channelTextArea__74017:focus-within,
-.channelTextArea_f75fb0 {
+._740174f3d6a2c8fe-channelTextArea:focus-within,
+.f75fb00fb7356cbe-channelTextArea {
 	border-radius: 0;
 	margin-left: 21px;
 	box-shadow: -3px 0 0 $low, -9px 0 0 $high, -21px 0 0 $low, -18px 3px 0 $mid, 3px 3px 0 $mid;
 }
 
-.channelTextArea__74017:focus-within {
+._740174f3d6a2c8fe-channelTextArea:focus-within {
 	border-color: transparent;
 }
 
-.cooldownWrapper_b21699 {
+.b216994de061a9e2-cooldownWrapper {
 	color: $low !important;
 }
 
 // Buttons
-.attachButton__0923f {
-	&:hover .attachButtonPlus__0923f {
+._0923f156a0410684-attachButton {
+	&:hover ._0923f156a0410684-attachButtonPlus {
 		transition: fill 0.1s ease-in-out;
 		fill: $mid;
 	}
 }
 
 //# app button
-.button_e6e74f {
+.e6e74fd4d1221f53-button {
 	@include boxify($high, $mid, 3px);
 }

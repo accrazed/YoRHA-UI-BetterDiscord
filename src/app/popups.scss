@@ -3,34 +3,34 @@
 //---------------------- THIS SECTION IS FOR MINOR POPUPS (such as hover tooltips) ---------------------//
 
 // User volume square
-.tooltipContent_c36707 {
+.c36707910f687430-tooltipContent {
 	@include boxify($high, $mid, 2px);
 	color: $low
 }
 
-.tooltipGrey_c36707 {
+.c36707910f687430-tooltipGrey {
 	color: $high;
 }
-.tooltip_c36707 {
+.c36707910f687430-tooltip {
 	box-shadow: none;
 }
 
 // right click on message popup
 
 // hover on message popup (with the emojis)
-.buttonsInner__5126c.popover_f84418.popoverReactionHoverBar_f84418.wrapper_f7ecac {
+._5126c0cd07f243a0-buttonsInner.f84418acfdbdfe54-popover.popoverReactionHoverBar_f84418.f7ecaca5c80dbf3a-wrapper {
 	background-color: $high;
 }
 
-.buttonContainer_c19a55 * {
+.c19a557985eb7793-buttonContainer * {
 	border-radius: 0px;
 }
 
 // See where emoji is from
-.visual-refresh .popoutContainer__0f481 {
+.visual-refresh ._0f481cbbd7530492-popoutContainer {
 	@include boxify($high, $mid, 3px);
 
-	.button__201d5 {
+	._201d5e8a3c09670a-button {
 		border-radius: 0;
 	}
 }
@@ -39,51 +39,51 @@
 
 // emoji/gif/sticker popup
 /* Expression Picker gifs background */
-.content_fed6d3,
+.fed6d32841cc2da2-content,
 /* Expression Picker gifs header */
-.visual-refresh .header_fed6d3,
+.visual-refresh .fed6d32841cc2da2-header,
 /* Expression Picker sticker header */
-.visual-refresh .header__8ef02 {
+.visual-refresh ._8ef02eea17068b73-header {
 	background: $high;
 	/* Expression Picker sticker header */
 }
 
-.h5_b717a1 {
+.b717a15017b82443-h5 {
 	color: $low;
 	/* Expression Picker gifs subcategory header text */
 }
 
-.backButton_fed6d3:hover {
+.fed6d32841cc2da2-backButton:hover {
 	color: $mid;
 	/* Expression Picker gifs subcategory back button */
 }
 
-.visual-refresh .contentWrapper__08434 {
+.visual-refresh ._084343c4f11eaaab-contentWrapper {
 	@include boxify($high, $mid, 3px);
 }
 
 // autocomplete popup
-.autocomplete__6b0e0 {
+._6b0e07cbaf13ec4e-autocomplete {
 	border-radius: 0;
 	box-shadow: 4px 4px 0 var(--color-mid);
 }
 
-.autocomplete__13533 {
+._13533e3c5791980f-autocomplete {
 	background-color: var(--color-high);
 }
 
-.visual-refresh .contentWrapper__08434 {
+.visual-refresh ._084343c4f11eaaab-contentWrapper {
 	background-color: $high;
 	border: none;
 	border-radius: 0px;
 }
 
 //------ Nav Bar Theming------//
-.nav__08434 {
+._084343c4f11eaaab-nav {
 	height: 32px;
 }
 
-.visual-refresh .navButton__08434 {
+.visual-refresh ._084343c4f11eaaab-navButton {
 	color: $low;
 	background-color: $mid-trans;
 	height: 24px;
@@ -94,7 +94,7 @@
 	}
 }
 
-.visual-refresh .navButtonActive__08434 {
+.visual-refresh ._084343c4f11eaaab-navButtonActive {
 	background-color: $low;
 	color: $high;
 	height: 32px;
@@ -102,18 +102,18 @@
 
 //-----------------------------//
 //sub container
-.wrapper_c0e32c {
+.c0e32c5cffed3d9f-wrapper {
 	border-radius: 0px;
 }
 
 // individual sub-containers (why does every container have its own background color set??)
 .visual-refresh {
 
-	.emojiPicker_c0e32c,
-	.header_c0e32c,
-	.wrapper__14245,
-	.wrapper__4106a,
-	.inspector_aeaaeb {
+	.c0e32c5cffed3d9f-emojiPicker,
+	.c0e32c5cffed3d9f-header,
+	._14245bb948377a25-wrapper,
+	._0d1eff984b8fd277-wrapper,
+	.aeaaeb2a573807f0-inspector {
 		background-color: $high;
 	}
 
@@ -125,66 +125,66 @@
 }
 
 // search options popup
-.visual-refresh .container__55c99 {
+.visual-refresh ._55c999adcf6db265-container {
 	@include boxify($high, $mid, 3px)
 }
 
 // search options in text box
-.visual-refresh .searchAnswer_bd8186, .visual-refresh .searchFilter_bd8186 {
+.visual-refresh .bd818628221af7aa-searchAnswer, .visual-refresh .bd818628221af7aa-searchFilter {
 	background-color: $high;
 }
 
 // search results container
-.visual-refresh .searchResultsWrap_a9e706 {
+.visual-refresh .a9e7064fdee8e9b0-searchResultsWrap {
 	background: transparent;
 	border: none;
 }
 
 // result itself
-.visual-refresh .searchResult__02a39 {
+.visual-refresh ._02a39cb2980ceaaf-searchResult {
 	@include boxify($high, $mid, 3px);
 }
 
 
 //icons and text for sub-titles (frequently used, server name etc)
-.headerIcon__14245>*,
-.headerLabel__14245,
-.headerCollapseIcon__14245,
-.soundmojiViewMore_c656ac {
+._14245bb948377a25-headerIcon>*,
+._14245bb948377a25-headerLabel,
+._14245bb948377a25-headerCollapseIcon,
+.c656aca9a3db31a9-soundmojiViewMore {
 	color: $low;
 }
 
-.textWrapper_aeaaeb * {
+.aeaaeb2a573807f0-textWrapper * {
 	color: $low;
 }
 
 // context menus / right click
-.menu_c1e9c4 {
+.c1e9c47c23f12ca3-menu {
 	background-color: $high;
 	border-radius: 0px;
 	box-shadow: 3px 3px 0 $mid;
 }
 
-.refresh-fast-follow-distinct-borders .menu_c1e9c4 {
+.refresh-fast-follow-distinct-borders .c1e9c47c23f12ca3-menu {
 	border: none;
 }
 
-:where(.visual-refresh) .colorDefault_c1e9c4 {
-	.label_c1e9c4 {
+:where(.visual-refresh) .c1e9c47c23f12ca3-colorDefault {
+	.c1e9c47c23f12ca3-label {
 		color: $low;
 	}
 
-	&.focused_c1e9c4 {
+	&.c1e9c47c23f12ca3-focused {
 		transition: all 0.1s;
 		color: $high;
 		background-color: $low;
 		border-radius: 0px;
 
-		.label_c1e9c4 {
+		.c1e9c47c23f12ca3-label {
 			color: $high;
 		}
 
-		.icon_c1e9c4 path {
+		.c1e9c47c23f12ca3-icon path {
 			fill: $high !important;
 		}
 	}

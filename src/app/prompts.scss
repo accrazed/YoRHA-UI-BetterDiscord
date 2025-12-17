@@ -4,11 +4,11 @@
 
 // "Find or start a conversation" / "Where would you like to go?" / quick switcher prompt
 // TODO: this could in theory use selectors / fancy selection stuff
-.visual-refresh .quickswitcher_ac6cb0 {
+.visual-refresh .ac6cb02cd15b4b3b-quickswitcher {
 	@include boxify($high, $mid, 5px);
 	border: none;
 
-	.input_ac6cb0 {
+	.ac6cb02cd15b4b3b-input {
 		&::placeholder {
 			font-weight: bold;
 			color: $low;
@@ -26,27 +26,27 @@
 		font-weight: bold;
 	}
 
-	.icon__71961 {
+	._71961da99d37ac57-icon {
 		height: 13px;
 		width: 13px;
 		background-color: $low;
 	}
 
-	.result__71961[aria-selected='true'] {
+	._71961da99d37ac57-result[aria-selected='true'] {
 		background: $low;
 		border-radius: 0;
 
-		.note__71961 {
+		._71961da99d37ac57-note {
 			color: $mid
 		}
 
-		.misc__71961,
-		.contentUnread__71961,
-		.contentDefault__71961 {
+		._71961da99d37ac57-misc,
+		._71961da99d37ac57-contentUnread,
+		._71961da99d37ac57-contentDefault {
 			color: $high;
 		}
 
-		.icon__71961 {
+		._71961da99d37ac57-icon {
 			background-color: $high;
 
 			path {

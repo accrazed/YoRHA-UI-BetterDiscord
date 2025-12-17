@@ -3,25 +3,25 @@
 
 // transparencies
 // # main body
-.nowPlayingColumn__133bf,
-.container__7d20c,
-.visual-refresh .tabBody__133bf {
+._133bf5eea8e33a34-nowPlayingColumn,
+._7d20cf18f8a2784c-container,
+.visual-refresh ._133bf5eea8e33a34-tabBody {
   background: transparent;
 }
 
 // # header borders
-.visual-refresh .container__9293f {
+.visual-refresh ._9293f6b2fc12398a-container {
   border-bottom: none;
 }
 
 // Active now
-.itemCard__7e549 {
+._7e549558f336cddb-itemCard {
   border: none;
   @include boxify($high, $mid, 3px);
 
 }
 
-.visual-refresh .outer_bf1984.active_bf1984,
-.visual-refresh .outer_bf1984.interactive_bf1984:hover {
+.visual-refresh .bf1984a18b3ec6f0-outer.bf1984a18b3ec6f0-interactive,
+.visual-refresh .bf1984a18b3ec6f0-outer.bf1984a18b3ec6f0-interactive:hover {
   background-color: $mid;
 }
