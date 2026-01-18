@@ -1376,9 +1376,6 @@ html:not(.visual-refresh-chat-input) .b1f01d03ecc7d736-inputInner {
   background-color: var(--color-low);
 }
 
-.theme-dark ._5126c0cd07f243a0-mentioned .edefb8e22d63c542-anchor {
-  text-shadow: 1px 1px 2px var(--color-low), 0 0 25px var(--color-high), 0 0 5px var(--color-alert);
-}
 .theme-dark ._4106ae7c1472c1de-wrapper.interactive {
   background: var(--color-alert-trans);
   border-radius: 0px;
