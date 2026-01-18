@@ -4,14 +4,23 @@
 .visual-refresh.theme-darker,
 .visual-refresh .theme-darker,
 :root {
+	// LINK COLOR *****
+	--color-link-low: rgb(66, 167, 156);
+	--color-link-high: rgb(148, 224, 215);
+
 	--font-primary: var(--nier-font), 'vietnam-pro', 'Whitney', 'Helvetica Neue', Helvetica, Arial,
 		sans-serif !important;
 	--font-display: var(--nier-font), 'vietnam-pro', 'Whitney', 'Helvetica Neue', Helvetica, Arial,
 		sans-serif !important;
 
+	// ********************* DISCORD THINGS
+
 	--embed-title: var(--color-low);
 
 	--text-primary: var(--color-low);
+
+	--text-strong: var(--color-low);
+	--text-subtle: var(--color-low-trans);
 	--text-secondary: var(--color-low);
 	--text-tertiary: var(--color-low);
 	--icon-secondary: var(--color-low);
@@ -19,6 +28,7 @@
 	--text-default: var(--color-low);
 
 	--interactive-normal: var(--color-low);
+	--interactive-text-default: var(--color-low-trans);
 
 	--message-reacted-background: var(--color-low);
 	--message-reacted-text: var(--color-high);
@@ -45,7 +55,7 @@
 	--header-secondary: var(--color-low);
 	--text-normal: var(--color-low);
 	--text-muted: var(--color-low-trans);
-	--text-link: var(--color-alert);
+	--text-link: var(--color-link-low);
 	--text-link-low-saturation: var(--color-alert);
 	--text-positive: var(--color-low);
 	--text-warning: var(--color-alert);
