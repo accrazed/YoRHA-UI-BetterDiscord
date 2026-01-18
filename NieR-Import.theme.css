@@ -413,17 +413,17 @@ label,
   background-color: var(--color-high);
 }
 
-.visual-refresh .a9e7064fdee8e9b0-searchResultsWrap {
+.visual-refresh .a98f3b020416ad54-searchResultsWrap {
   background: transparent;
   border: none;
 }
 
-.visual-refresh ._02a39cb2980ceaaf-searchResult {
+.visual-refresh ._80bf8435713f6adb-searchResult {
   background: var(--color-high);
   border-radius: 0;
   box-shadow: 3px 3px 0 var(--color-mid);
 }
-.visual-refresh ._02a39cb2980ceaaf-searchResult:hover {
+.visual-refresh ._80bf8435713f6adb-searchResult:hover {
   box-shadow: 3px 3px 0 var(--color-mid);
 }
 
@@ -1033,7 +1033,7 @@ html:not(.visual-refresh-chat-input) .b1f01d03ecc7d736-inputInner {
   color: rgb(218, 212, 187);
 }
 
-._4d95d73152192cf9-modalContent .hljs {
+._6c706db0523bd9a7-mosaicItemContent .hljs {
   background-color: rgb(87, 84, 74);
 }
 
@@ -2564,6 +2564,7 @@ button._67645e1530f1195d-button ._5eb9b3cc7c2b1ce8-lottieIcon {
   --icon-tertiary: var(--color-low);
   --text-default: var(--color-low);
   --interactive-normal: var(--color-low);
+  --interactive-text-active: var(--color-low);
   --interactive-text-default: var(--color-low-trans);
   --message-reacted-background: var(--color-low);
   --message-reacted-text: var(--color-high);
