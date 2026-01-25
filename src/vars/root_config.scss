@@ -32,6 +32,8 @@
 	--interactive-text-default: var(--color-low-trans);
 
 	--message-reacted-background: var(--color-low);
+	--message-reacted-background-default: var(--color-low);
+	--message-reacted-text-default: var(--color-high);
 	--message-reacted-text: var(--color-high);
 
 	--background-surface-higher: var(--color-high);
@@ -39,11 +41,13 @@
 	--background-base-low: var(--color-high);
 	--background-base-lower: var(--color-high);
 	--background-base-lowest: var(--color-high);
+	--background-mod-normal: var(--color-mid);
 	--bg-surface-overlay: var(--color-high);
 
 	--border-subtle: var(--color-mid);
 
 	--chat-text-muted: var(--color-mid);
+	--chat-background-default: var(--color-high);
 
 	--checkbox-background-checked: var(--color-alert);
 	--checkbox-border-checked: var(--color-alert);

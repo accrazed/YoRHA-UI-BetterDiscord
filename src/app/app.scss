@@ -15,84 +15,76 @@ body {
 }
 
 // Close/Minimize/Maximize buttons
-.winButtonClose_c38106:hover {
+.winButtons_c38106:hover {
 	transition: background-color 0.2s, color 0.2s ease;
-	color: $high;
-	background: $alert;
-}
-
-.winButtonMinMax_c38106:hover {
-	transition: background-color 0.2s, color 0.2s ease;
-	color: $high;
 	background: $low;
 }
 
 
 // ==== title bar at the top
 // see root/--custom-app-top-bar-height for header height
-.bar_c38106 {
-	.title_c38106 {
-		/* justify-content: left; */
 
-		.title__85643 {
-			/* left: 64px+20px+15px; */
-			// this line and the one above are for left aligning the title bar. still not married to either option.
+.title_c38106 {
+	/* justify-content: left; */
 
-			top: -8px;
-			padding: .2em;
+	.title__85643 {
+		/* left: 64px+20px+15px; */
+		// this line and the one above are for left aligning the title bar. still not married to either option.
 
-			position: relative;
-			background-color: $low;
+		top: -8px;
+		padding: .2em;
 
-			.icon_f34534 {
-				//display: none;
-				background-image: url("https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/icons/home_dark-theme.svg") !important;
-			}
+		position: relative;
+		background-color: $low;
 
-			// app icons
-			path {
-				fill: $high !important;
-			}
-
-			.defaultColor__4bd52 {
-				text-transform: uppercase;
-				font-weight: 400;
-				color: $high;
-			}
-
-
-			// the lil selector arrow next to it 
-			&::before {
-				content: '';
-				position: absolute;
-
-				left: -30px;
-
-				width: 24px;
-				height: 22px;
-
-				background-image: $selector-img-invert; // overridded in light/dark/night files
-				background-size: cover;
-				background-repeat: no-repeat;
-				z-index: 1;
-			}
+		.icon_f34534 {
+			//display: none;
+			background-image: url("https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/icons/home_dark-theme.svg") !important;
 		}
 
-		// trim
-		&:after {
+		// app icons
+		path {
+			fill: $high !important;
+		}
+
+		.defaultColor__4bd52 {
+			text-transform: uppercase;
+			font-weight: 400;
+			color: $high;
+		}
+
+
+		// the lil selector arrow next to it 
+		&::before {
 			content: '';
-			display: block;
 			position: absolute;
-			top: 36px;
-			width: 100%;
-			height: 15px;
-			background: var(--nier-border) repeat-x;
-			padding: 10px 0 0 0;
+
+			left: -30px;
+
+			width: 24px;
+			height: 22px;
+
+			background-image: $selector-img-invert; // overridded in light/dark/night files
+			background-size: cover;
+			background-repeat: no-repeat;
+			z-index: 1;
 		}
 	}
 
-	.trailing_c38106 {
-		//contains the min/max/close buttons
-		top: -5px;
+	// trim
+	&:after {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 36px;
+		width: 100%;
+		height: 15px;
+		background: var(--nier-border) repeat-x;
+		padding: 10px 0 0 0;
 	}
+}
+
+.trailing_c38106 {
+	//contains the min/max/close buttons
+	top: -5px;
 }

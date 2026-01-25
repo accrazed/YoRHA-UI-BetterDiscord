@@ -15,14 +15,8 @@
 	background: transparent;
 }
 
-// TODO: this can probably be made much cuter / novel
-// daily date markers
-// # dividers
-.divider__908e2 {}
-
 // # date
 .content__908e2 {
-	color: $low;
 	@include boxify($high, $mid, 3px);
 }
 

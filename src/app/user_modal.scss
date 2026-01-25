@@ -2,299 +2,50 @@
 @use '../vars/vars' as *;
 
 // whole container
-.user-profile-modal-v2 {
-
-	.profileBody__9c3be {
-		padding: 12px;
-		margin: 0px 20px;
-		background-color: $high;
-	}
-
-	.avatar__75742 {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		padding: 2em;
-		background-color: $high-mid;
-		border: 2px solid $low;
-		margin: 20px;
-	}
-
-	.container_ab8609 {
-		left: 0;
-		top: 0;
-		margin: 0 20px;
-		margin-bottom: 20px;
-		position: relative;
-	}
-
-	.profileBody__9c3be {
-		border: 2px solid $low
-	}
-
-	.referenceContainer_ab8609 {
-		display: none;
-	}
-
-	// status message
-	.outer_ab8609 {
-		overflow: visible;
-
-		.inner_ab8609 {
-			.content_ab8609 {
-				overflow: visible;
-				max-height: none !important;
-				display: flex;
-			}
-		}
-	}
+/* .user-profile-modal-v2 {} */
+.profileBody__9c3be {
+	padding: 12px;
+	margin: 0px 20px;
+	background-color: $high;
 }
 
-// deprecated in favor of .user-profile-modal-v2
-.user-profile-modal {
-	padding: 0 !important;
+.avatar__75742 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2em;
+	background-color: $high-mid;
+	border: 2px solid $low;
+	margin: 20px;
+}
 
-	// weird box that sits over theme colors, under boxes
-	// seems to darken the color selection
-	.inner_c0bea0:before {
-		height: 100%;
-		width: 100%;
-	}
+.container_ab8609 {
+	left: 0;
+	top: 0;
+	margin: 0 20px;
+	margin-bottom: 20px;
+	position: relative;
+}
 
-	.userProfileInner_c69a7b {
-		gap: 0px;
-	}
+.profileBody__9c3be {
+	border: 2px solid $low
+}
 
-	.mask__68edb {
+.referenceContainer_ab8609 {
+	display: none;
+}
 
-		// pfp mask around banner
-		mask circle {
-			display: none;
-		}
+// status message
+.outer_ab8609 {
+	overflow: visible;
 
-		:where(.banner__68edb) {
-			//Specificity to remove border radius on banner. I can't believe they did this.
-			border-radius: 0px;
-		}
-	}
-
-	// position user profile inside things
-	:where(.avatar__75742) {
-		left: 0;
-		top: 0;
-		width: 100%;
-		grid-row-start: row-first;
-		grid-row-end: row-end;
-		justify-self: center;
-		border: 2px solid $low;
-		box-sizing: border-box;
-	}
-
-	.headerInner__24502 {
-		display: grid;
-		left: 0px;
-		grid-template-columns: [first] 1fr [second] 1fr [end];
-		grid-template-rows: [row-first] 1fr [row-second] auto [row-end];
-
-		gap: 0.5em;
-		padding: 0.5em;
-		margin: 0 0.5em;
-
-		// janky ass invisible container?
-		.invisibleContainer_af9888.user-profile-modal {
-			display: none;
-		}
-
-		.invisibleContainer_af9888.user-profile-modal,
-		.visibleContainer_af9888.user-profile-modal {
-			display: flex;
-			align-content: center;
-			justify-content: center;
-			//padding: 4em 0em 0em 0em;
-		}
-
-		//Add Status button
-		.addCustomStatusButtonBubble_af9888.user-profile-modal {
-			top: 0px;
-			left: 0px;
-			height: auto;
-
-			.statusBubbleOuter_af9888 {
-				margin: 0px 0px 4px 0px;
-				border: none;
-
-				.statusBubble_af9888 {
-					background-color: $mid-trans;
-					border-radius: 0;
-					word-wrap: normal;
-					padding: 2px;
-					//width: fit-content;
-				}
-			}
-		}
-
-		//status text
+	.inner_ab8609 {
 		.content_ab8609 {
-			//overflow: visible;
-		}
-
-		//edit status buttons on user status hover
-		.popover_c97e55.visible_c97e55 {
-
-			.button_c97e55.left_c97e55,
-			.button_c97e55.right_c97e55 {
-				border-radius: 0;
-			}
-
-			.button_c97e55 svg path {
-				fill: $high;
-			}
-
-			.button_c97e55:hover svg path {
-				fill: $low;
-			}
-
-			border-radius: 0px;
-		}
-
-		//buttons
-		.headerButtons__24502 {
-			align-items: normal;
-			gap: 0px;
-			display: contents;
-
-			.multipleButtons_ea99c4 {
-				display: flex;
-				flex-direction: row;
-				gap: 4px;
-			}
-		}
-
-		// profile picture area
-		.avatar__75742.withReactReply__75742 {
-			grid-row: 1/3;
-
-			border-bottom: 2px;
+			overflow: visible;
+			max-height: none !important;
 			display: flex;
-			align-items: center;
-			justify-content: center;
-			background-color: $mid;
-			padding: 0.5em 0em 0.5em 0em;
-			/* border-radius: 0; */
-			position: relative;
-			top: 0;
-
-			// the actual pfp
-			.wrapper__44b0c {
-				border-radius: 0;
-				mask-image: none;
-			}
-		}
-
-		>.referenceContainer_ab8609 {
-			grid-column: 2;
-			grid-row: 1;
-			position: relative;
-
-			margin: 0;
-		}
-
-		>.container_ab8609 {
-			grid-column: 2;
-			grid-row: 1;
-			top: 0px;
-			left: 0px;
-
-			.outer_ab8609.user-profile-modal {
-				border: 1px solid $low;
-				max-width: 100%;
-				width: 90%;
-
-				.inner_ab8609 {
-					margin: 0;
-					width: 94.5%;
-				}
-
-			}
-		}
-
-		>.headerButtons__24502 .container__9e42c {
-			grid-column: 2;
-			grid-row: 2;
-			margin: 0;
 		}
 	}
-
-	// usernames, mutuals, roles
-	.body__24502 {
-		//border: 2px solid $low;
-		margin: 0em 0.5em 0.5em 0.5em;
-		padding: 0.5em;
-		background: $high;
-
-		// .defaultColor__4bd52 {
-		//     color: $high;
-		// }
-		//container that holds everything the same as above
-		.container_d1d9f3 {
-			display: contents;
-		}
-
-		//tab selection bar
-		.tabBar_d1d9f3 {
-			margin: 3px;
-			height: 42px;
-			gap: 20px;
-			border-bottom: 2px solid;
-			border-color: $low;
-
-			.themed_aa8da2.item_aa8da2.tabBarItem__37bfc {
-				background-color: $mid-trans;
-				padding: 3px 32px 3px 6px;
-
-				&:hover {
-					background-color: $mid;
-
-					.defaultColor__4bd52 {
-						color: $low;
-					}
-
-				}
-
-				&.selected_aa8da2 {
-					background-color: $low;
-					height: 100%;
-
-					.defaultColor__4bd52 {
-						color: $high;
-					}
-				}
-			}
-		}
-
-		//border fixes
-		.connectedAccountContainer_e6abe8,
-		//border fix for connected accounts
-		.note_fcb628 {
-			//border fix for note section
-			border: 1px solid;
-			border-radius: 0px;
-			border-color: $low-trans;
-		}
-	}
-}
-
-:where(.visual-refresh) .top_aa8da2 .item_aa8da2.selected_aa8da2:after,
-:where(.visual-refresh) .top_aa8da2 .item_aa8da2:hover:after {
-	display: none;
-}
-
-:where(.visual-refresh) .top_aa8da2 .item_aa8da2+.item_aa8da2 {
-	margin-left: 0;
-}
-
-:where(.visual-refresh) .top_aa8da2 .item_aa8da2.selected_aa8da2:after {
-	display: none;
 }
 
 .theme-dark .outer_ab8609 {

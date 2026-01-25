@@ -105,17 +105,13 @@ button.button__67645 {
 			color: $high;
 		}
 
-		// Text channels have no hashtag
-		&[aria-label='#{$aria-label-text-active-threads}'] .icon__2ea32,
-		&[aria-label='Text icon'] .icon__2ea32 {
-			color: $low;
-		}
 	}
 
-	// Private text channels only show lock
-	@include scaleChanIconAndColor($aria-label-text-limited, $high);
-	// nsfw channels show only warning
-	@include scaleChanIconAndColor($aria-label-text-age-restricted, $high);
+	// WARN: may cause lag
+	/* // Private text channels only show lock */
+	/* @include scaleChanIconAndColor($aria-label-text-limited, $high); */
+	/* // nsfw channels show only warning */
+	/* @include scaleChanIconAndColor($aria-label-text-age-restricted, $high); */
 
 	// Voice icon and lock icons should show
 	&.modeLocked__2ea32,
@@ -209,16 +205,18 @@ button.button__67645 {
 				color: $high;
 			}
 
-			&[aria-label='#{$aria-label-voice}'] .icon__2ea32,
-			&[aria-label='#{$aria-label-voice-limited}'] .icon__2ea32 {
-				color: $low;
-			}
+			// WARN: may cause lag
+			/* &[aria-label='#{$aria-label-voice}'] .icon__2ea32, */
+			/* &[aria-label='#{$aria-label-voice-limited}'] .icon__2ea32 { */
+			/* color: $low; */
+			/* } */
 		}
 
-		// Private text channels only show lock
-		@include scaleChanIconAndColor($aria-label-text-limited, $low);
-		// nsfw channels show only warning
-		@include scaleChanIconAndColor($aria-label-text-age-restricted, $low);
+		// WARN: may cause lag
+		/* // Private text channels only show lock */
+		/* @include scaleChanIconAndColor($aria-label-text-limited, $low); */
+		/* // nsfw channels show only warning */
+		/* @include scaleChanIconAndColor($aria-label-text-age-restricted, $low); */
 
 		.actionIcon_c69b6d path {
 			transition: opacity 0.5s;

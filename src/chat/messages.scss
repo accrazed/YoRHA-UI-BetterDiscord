@@ -154,11 +154,6 @@
 	}
 }
 
-// Edit Message
-.scrollableContainer__74017 {
-	@include boxify($high, $mid, 3px);
-}
-
 .theme-dark .operations_bab751 {
 	color: $low;
 
@@ -192,31 +187,7 @@
 // Reacts
 .visual-refresh .reaction__23977 {
 	border-radius: 0;
-	background-color: transparent;
 	border: 1px solid $low;
-
-	.reactionCount__23977 {
-		color: $low;
-	}
-
-	&:hover {
-		border: 1px solid $low;
-
-		@include boxify($mid, $mid, 2px);
-
-		.reactionCount__23977 {
-			color: $high;
-		}
-	}
-
-	&.reactionMe__23977 {
-		border: 1px solid $low;
-		@include boxify($low, $mid, 2px);
-
-		.reactionCount__23977 {
-			color: $high;
-		}
-	}
 }
 
 // # add react
