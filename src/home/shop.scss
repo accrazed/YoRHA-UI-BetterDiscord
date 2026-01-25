@@ -2,14 +2,14 @@
 
 /* Transparencies */
 .shopScroll__6db1d,
-.visual-refresh ._084152b107f71237-shop,
-.visual-refresh ._6db1d32c47b6ad72-shop {
+.visual-refresh .shop__08415,
+.visual-refresh .shop__6db1d {
 	background: transparent;
 	background-color: transparent;
 }
 
 /* Shop */
-.visual-refresh ._8067953d83f4b8a8-headerBar {
+.visual-refresh .headerBar__80679 {
 	background: $high-trans;
 }
 
@@ -29,7 +29,7 @@
 	background-color: $mid;
 }
 
-._084152b107f71237-featuredBlock {
+.featuredBlock__08415 {
 	border-radius: 0px;
 
 	&:hover {
@@ -38,7 +38,7 @@
 	}
 }
 
-._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorWhite {
+.lookFilled__201d5.colorWhite__201d5 {
 	color: $low;
 	background-color: $high;
 
@@ -48,6 +48,6 @@
 	}
 }
 
-._8067953d83f4b8a8-discordLogo {
+.discordLogo__80679 {
 	color: $low;
 }

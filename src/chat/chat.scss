@@ -1,35 +1,35 @@
 @use '../vars/vars.scss' as *;
 
 // transparencies
-.visual-refresh .f75fb00fb7356cbe-chatContent,
-.visual-refresh .f75fb00fb7356cbe-chat,
-.f75fb00fb7356cbe-chat,
+.visual-refresh .chatContent_f75fb0,
+.visual-refresh .chat_f75fb0,
+.chat_f75fb0,
 // main chat+members sidebar wrapper
-.f75fb00fb7356cbe-chatContent,
+.chatContent_f75fb0,
 // weird gradient on bottom
-._36d072eab2b2e737-chatGradient,
-._36d072eab2b2e737-chatTypingGradientAtBottom,
+.chatGradient__36d07,
+.chatTypingGradientAtBottom__36d07,
 // just the chat container
 // #header bar
-.theme-dark ._9293f6b2fc12398a-themed {
+.theme-dark .themed__9293f {
 	background: transparent;
 }
 
 // TODO: this can probably be made much cuter / novel
 // daily date markers
 // # dividers
-._908e20001ad67812-divider {}
+.divider__908e2 {}
 
 // # date
-._908e20001ad67812-content {
+.content__908e2 {
 	color: $low;
 	@include boxify($high, $mid, 3px);
 }
 
 // loading chat
-.fc817765600a960a-wrapper,
-.cdf8a9a2bbd98bd3-wrapper,
-.visual-refresh .fc817765600a960a-wrapper,
-.visual-refresh .cdf8a9a2bbd98bd3-wrapper {
+.wrapper_fc8177,
+.wrapper_cdf8a9,
+.visual-refresh .wrapper_fc8177,
+.visual-refresh .wrapper_cdf8a9 {
 	background: transparent;
 }

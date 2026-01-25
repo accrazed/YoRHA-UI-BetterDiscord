@@ -1,10 +1,10 @@
 @use '../vars/vars' as *;
 
-.visual-refresh .aa8da23faa27393c-topPill .aa8da23faa27393c-themed.aa8da23faa27393c-item,
-.visual-refresh .aa8da23faa27393c-themed.aa8da23faa27393c-item {
+.visual-refresh .topPill_aa8da2 .themed_aa8da2.item_aa8da2,
+.visual-refresh .themed_aa8da2.item_aa8da2 {
 	@include buttonify($high-mid, $low, $mid, $low);
 
-	&.aa8da23faa27393c-selected {
+	&.selected_aa8da2 {
 		background-color: $low ;
 		color: $high;
 	}

@@ -2,20 +2,20 @@
 
 // Transparencies
 // # main containers
-._5e434347c823b592-sidebar,
-.theme-dark ._2637a2609f343032-container,
+.sidebar__5e434,
+.theme-dark .container__2637a,
 // # unread message blip
-._2ea32c412048f708-unread,
+.unread__2ea32,
 // # user profile
 
-._5e434347c823b592-panels,
+.panels__5e434,
 .theme-dark .content__37e49 {
 	background: transparent;
 }
 
 
 // ummm... this changes a bunch of places to squares... which is pretty convenient...
-._44b0c28be7879b7b-wrapper {
+.wrapper__44b0c {
 	border-radius: 0;
 
 	foreignObject {
@@ -24,19 +24,19 @@
 }
 
 // # weird scrollbar in bottom left corner under profile
-.visual-refresh ._5e434347c823b592-sidebar:after {
+.visual-refresh .sidebar__5e434:after {
 	display: none;
 }
 
-.f37cb1984c371ee5-header {
+.header_f37cb1 {
 	box-shadow: none;
 }
 
 // Unread messages notification
-._7aaec78b97ff00f7-bar,
+.bar__7aaec,
 // ... the other Unread messages notification (shows up when scrolled down and there's an unread channel above)
-._3b95d7d910416e54-bar {
-	._7aaec78b97ff00f7-barText {
+.bar__3b95d {
+	.barText__7aaec {
 		color: $high !important;
 	}
 
@@ -44,23 +44,23 @@
 }
 
 // sidebar slight lines
-.visual-refresh .f37cb1984c371ee5-header,
-.visual-refresh ._5e434347c823b592-sidebarList {
+.visual-refresh .header_f37cb1,
+.visual-refresh .sidebarList__5e434 {
 	border: none;
 }
 
 // User info
-button._67645e1530f1195d-button {
+button.button__67645 {
 	@include buttonify(transparent, $low, $low, $high);
 
-	._5eb9b3cc7c2b1ce8-lottieIcon {
+	.lottieIcon__5eb9b {
 		--__lottieIconColor: currentColor !important;
 	}
 }
 
 // used to scale up lock / warning icons etc
 @mixin scaleChanIconAndColor($aria-label, $color-icon) {
-	._2ea32c412048f708-iconContainer[aria-label='#{$aria-label}'] ._2ea32c412048f708-icon {
+	.iconContainer__2ea32[aria-label='#{$aria-label}'] .icon__2ea32 {
 		color: transparent;
 
 		path {
@@ -75,28 +75,28 @@ button._67645e1530f1195d-button {
 }
 
 // fix the stupid hover/nonhover squishing
-:where(.visual-refresh) ._2ea32c412048f708-iconContainer {
+:where(.visual-refresh) .iconContainer__2ea32 {
 	width: inherit;
 }
 
 // Channel hover/select animations
-._2ea32c412048f708-wrapper {
+.wrapper__2ea32 {
 	padding: 0;
 	margin-left: 15px;
 
 	// -------------------- ICONS / TEXT ---------------------------------------
 	// Channel name
-	._2ea32c412048f708-name {
+	.name__2ea32 {
 		transition: color 0.2s;
 	}
 
 	// Square icon
-	._2ea32c412048f708-iconContainer {
+	.iconContainer__2ea32 {
 		display: flex;
 		align-items: center;
 		justify-content: center;
 
-		._2ea32c412048f708-icon {
+		.icon__2ea32 {
 			transition: color 0.2s, background-color 0.2s;
 			height: 12px;
 			width: 12px;
@@ -106,8 +106,8 @@ button._67645e1530f1195d-button {
 		}
 
 		// Text channels have no hashtag
-		&[aria-label='#{$aria-label-text-active-threads}'] ._2ea32c412048f708-icon,
-		&[aria-label='Text icon'] ._2ea32c412048f708-icon {
+		&[aria-label='#{$aria-label-text-active-threads}'] .icon__2ea32,
+		&[aria-label='Text icon'] .icon__2ea32 {
 			color: $low;
 		}
 	}
@@ -118,28 +118,28 @@ button._67645e1530f1195d-button {
 	@include scaleChanIconAndColor($aria-label-text-age-restricted, $high);
 
 	// Voice icon and lock icons should show
-	&._2ea32c412048f708-modeLocked,
+	&.modeLocked__2ea32,
 	&.typeVoice__2ea32 {
-		._2ea32c412048f708-icon {
+		.icon__2ea32 {
 			color: $high;
 		}
 	}
 
 	// Channel icons on side
-	.c69b6db0641110f6-actionIcon {
+	.actionIcon_c69b6d {
 		color: $high;
 	}
 
 	// ------------------------ STRUCTURE --------------------------------------
 
 	// VERY IMPORTANT. Padding must be zero or we get subpixel errors
-	._2ea32c412048f708-link {
+	.link__2ea32 {
 		margin: 9px 0px;
 		padding: 0;
 	}
 
 	// Not sure?
-	._658442d9ffa4221c-content {
+	.content__65844 {
 		height: 28px;
 		margin-left: 0;
 		border-radius: 0;
@@ -150,14 +150,14 @@ button._67645e1530f1195d-button {
 	// ------------------- TEXT+VOICE CHANNELS ---------------------------------
 
 	// LinkTop is the main body
-	._2ea32c412048f708-linkTop {
+	.linkTop__2ea32 {
 		height: 24px;
 		padding: 0px 6px;
 		background-color: $high-mid;
 	}
 
 	// the main grower
-	._2ea32c412048f708-linkTop::before {
+	.linkTop__2ea32::before {
 		position: absolute;
 		content: '';
 		width: 100%;
@@ -172,7 +172,7 @@ button._67645e1530f1195d-button {
 	}
 
 	// grower border
-	._2ea32c412048f708-linkTop::after {
+	.linkTop__2ea32::after {
 		position: absolute;
 		content: '';
 		width: 100%;
@@ -186,31 +186,31 @@ button._67645e1530f1195d-button {
 		transform-origin: left;
 	}
 
-	&._2ea32c412048f708-modeConnected,
-	&._2ea32c412048f708-modeSelected,
+	&.modeConnected__2ea32,
+	&.modeSelected__2ea32,
 	// When hovering and selecting
 	&:hover {
 
 		// grow border and body
-		._2ea32c412048f708-linkBottom::before,
-		._2ea32c412048f708-linkTop::before,
-		._2ea32c412048f708-linkTop::after {
+		.linkBottom__2ea32::before,
+		.linkTop__2ea32::before,
+		.linkTop__2ea32::after {
 			transform: scale(100%, 100%);
 		}
 
 		// invert name and icons
-		._2ea32c412048f708-name {
+		.name__2ea32 {
 			color: $high;
 		}
 
-		._2ea32c412048f708-iconContainer {
-			._2ea32c412048f708-icon {
+		.iconContainer__2ea32 {
+			.icon__2ea32 {
 				background-color: $high;
 				color: $high;
 			}
 
-			&[aria-label='#{$aria-label-voice}'] ._2ea32c412048f708-icon,
-			&[aria-label='#{$aria-label-voice-limited}'] ._2ea32c412048f708-icon {
+			&[aria-label='#{$aria-label-voice}'] .icon__2ea32,
+			&[aria-label='#{$aria-label-voice-limited}'] .icon__2ea32 {
 				color: $low;
 			}
 		}
@@ -220,26 +220,26 @@ button._67645e1530f1195d-button {
 		// nsfw channels show only warning
 		@include scaleChanIconAndColor($aria-label-text-age-restricted, $low);
 
-		.c69b6db0641110f6-actionIcon path {
+		.actionIcon_c69b6d path {
 			transition: opacity 0.5s;
 			opacity: 1;
 			fill: $high;
 		}
 
-		&._2ea32c412048f708-modeLocked,
+		&.modeLocked__2ea32,
 		&.typeVoice__2ea32 {
-			._2ea32c412048f708-icon {
+			.icon__2ea32 {
 				color: $low;
 			}
 		}
 	}
 
 	// When selected
-	&._2ea32c412048f708-modeConnected,
-	&._2ea32c412048f708-modeSelected {
+	&.modeConnected__2ea32,
+	&.modeSelected__2ea32 {
 
-		._2ea32c412048f708-linkBottom::before,
-		._2ea32c412048f708-linkTop::before {
+		.linkBottom__2ea32::before,
+		.linkTop__2ea32::before {
 			transform: scale(100%, 100%);
 			transition: transform 0.4s, opacity 0.4s;
 			animation: none;
@@ -247,7 +247,7 @@ button._67645e1530f1195d-button {
 			opacity: 0.65;
 		}
 
-		._2ea32c412048f708-linkTop::after {
+		.linkTop__2ea32::after {
 			transition: transform 0.75s;
 			transform: scale(0%, 100%);
 			transform-origin: right;
@@ -255,19 +255,19 @@ button._67645e1530f1195d-button {
 	}
 
 	// Unread channels will override
-	._2ea32c412048f708-unread._2ea32c412048f708-unreadImportant~div {
-		._2ea32c412048f708-icon {
+	.unread__2ea32.unreadImportant__2ea32~div {
+		.icon__2ea32 {
 			color: $alert;
 			background-color: $alert;
 		}
 
-		._2ea32c412048f708-name {
+		.name__2ea32 {
 			color: $alert;
 		}
 	}
 
 	// Muted channels
-	&._2ea32c412048f708-modeMuted {
+	&.modeMuted__2ea32 {
 		opacity: 50%;
 	}
 
@@ -292,14 +292,14 @@ button._67645e1530f1195d-button {
 		opacity: 0;
 	}
 
-	&:not(._2ea32c412048f708-modeSelected):hover::before {
+	&:not(.modeSelected__2ea32):hover::before {
 		opacity: 1;
 	}
 
 	// Selected Channel
 	// tbh this is kind of magic i forgot how it works
 	// # white arrow that fades in
-	&._2ea32c412048f708-modeSelected::before {
+	&.modeSelected__2ea32::before {
 		content: '';
 		position: absolute;
 		left: -30px;
@@ -319,7 +319,7 @@ button._67645e1530f1195d-button {
 	}
 
 	// # black arrow that fades out into white
-	&._2ea32c412048f708-modeSelected::after {
+	&.modeSelected__2ea32::after {
 		content: '';
 		position: absolute;
 		left: -30px;
@@ -337,16 +337,16 @@ button._67645e1530f1195d-button {
 	}
 }
 
-.c3cd7d38925bcd00-list {
+.list_c3cd7d {
 	//Container that holds users in the VC
 	margin-top: 1.5px; //fix for some awkward bumping between the borders
 }
 
 // ------------------- SELECTOR BACKDROP ---------------------------------------
-._2637a2609f343032-container {
+.container__2637a {
 
 	// selector backdrop
-	.d125d22cdfd32cfe-content::before {
+	.content_d125d2::before {
 		content: '';
 		position: absolute;
 		left: 0px;
@@ -360,7 +360,7 @@ button._67645e1530f1195d-button {
 	}
 
 	// selector backdrop for threads
-	._5b40bdd67543ba35-container::before {
+	.container__5b40b::before {
 		content: '';
 		position: absolute;
 		left: 25px;
@@ -374,11 +374,11 @@ button._67645e1530f1195d-button {
 }
 
 // ------------------- THREADS --------------------------------
-._5b40bdd67543ba35-spineBorder {
+.spineBorder__5b40b {
 	background: transparent;
 }
 
-._5b40bdd67543ba35-spine {
+.spine__5b40b {
 	z-index: 2;
 	left: 6px;
 	top: 6.5px;
@@ -391,58 +391,58 @@ button._67645e1530f1195d-button {
 		display: none;
 	}
 
-	&:has(~ ._2ea32c412048f708-typeThread:hover),
-	&:has(~ ._2ea32c412048f708-typeThread._2ea32c412048f708-modeSelected) {
+	&:has(~ .typeThread__2ea32:hover),
+	&:has(~ .typeThread__2ea32.modeSelected__2ea32) {
 		background-color: $high;
 		color: $high;
 	}
 }
 
-._2ea32c412048f708-typeThread ._2ea32c412048f708-link {
+.typeThread__2ea32 .link__2ea32 {
 	margin-left: 0;
 }
 
-._2ea32c412048f708-typeThread ._2ea32c412048f708-name.b0dfc2ed9c57037d-overflow {
+.typeThread__2ea32 .name__2ea32.overflow_b0dfc2 {
 	left: 24px;
 }
 
 // ---------------------- MISC ----------------------------------------
 
 // Banner at the top of server channel list
-.f37cb1984c371ee5-hasBanner.f37cb1984c371ee5-bannerVisible {
+.hasBanner_f37cb1.bannerVisible_f37cb1 {
 	z-index: 2;
 }
 
-._629e4c86564a4ee7-scroller {
+.scroller__629e4 {
 
 	//container that holds actual channels
-	.d125d22cdfd32cfe-content {
+	.content_d125d2 {
 		margin-left: 20px;
 		//padding-left: 15px;
 		//background-color: $mid-trans;
 	}
 }
 
-.visual-refresh ._260e1982cd52c5c3-wrapper {
+.visual-refresh .wrapper__260e1 {
 	color: $high;
 	border-radius: 0;
 	border: 1px solid $mid;
 	height: 18px;
 
-	._260e1982cd52c5c3-users {
+	.users__260e1 {
 		background-color: $low;
 		padding-left: 4px;
 		z-index: 1;
 	}
 
-	._260e1982cd52c5c3-total {
+	.total__260e1 {
 		padding: 0 3px 0 0;
 		background-color: $alert;
 		color: $high;
 		z-index: 2;
 	}
 
-	._260e1982cd52c5c3-total::after {
+	.total__260e1::after {
 		border-right-color: $alert;
 	}
 }

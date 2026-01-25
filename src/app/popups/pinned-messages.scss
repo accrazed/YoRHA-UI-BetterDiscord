@@ -1,26 +1,26 @@
 @use '../../vars/vars.scss' as *;
 
 
-.visual-refresh .e8b59c4b335dd2fc-header {
+.visual-refresh .header_e8b59c {
 	@include boxify($high, $mid, 3px);
 
 }
 
-.visual-refresh .e8b59c4b335dd2fc-messagesPopoutWrap {
+.visual-refresh .messagesPopoutWrap_e8b59c {
 	background-color: transparent;
 	box-shadow: none;
 	border-radius: 0;
 	padding: 3px;
 }
 
-.visual-refresh .e8b59c4b335dd2fc-messageGroupWrapper {
+.visual-refresh .messageGroupWrapper_e8b59c {
 	@include boxify($high, $mid, 3px);
 }
 
-.e8b59c4b335dd2fc-emptyPlaceholder {
+.emptyPlaceholder_e8b59c {
 	display: none;
 }
 
-.e8b59c4b335dd2fc-footer {
+.footer_e8b59c {
 	display: none;
 }

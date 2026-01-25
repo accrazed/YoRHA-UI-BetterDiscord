@@ -6,29 +6,29 @@ $guild-bar-width: 65px;
 // # discover backdrop
 .footer__214dc,
 // # main wrapper
-.ef3116c2da186559-wrapper {
+.wrapper_ef3116 {
 	background: transparent;
 }
 
 // ----------------- STRUCTURE -------------------------
 // Shrink guild bar
-.ef3116c2da186559-wrapper._5e434347c823b592-guilds {
+.wrapper_ef3116.guilds__5e434 {
 	width: $guild-bar-width;
 }
 
 // Square guild icons
-.cc5dd25190031396-wrapper>svg>mask {
+.wrapper_cc5dd2>svg>mask {
 	display: none;
 }
 
 // Selected / Unread Guild blip on left
 // # wrapper
-._581051df43c5ebb6-wrapper {
+.wrapper__58105 {
 	width: inherit;
 }
 
 // # Blip base
-._581051df43c5ebb6-item {
+.item__58105 {
 	width: 9px;
 	transition: background-color 0.2s;
 	border-radius: 0;
@@ -45,19 +45,19 @@ $guild-bar-width: 65px;
 }
 
 // Servers with no icons (just letters)
-._6e9f8dce4cc18de3-wrapper:hover ._6e9f8dce4cc18de3-childWrapper,
-._6e9f8dce4cc18de3-wrapper._6e9f8dce4cc18de3-selected ._6e9f8dce4cc18de3-childWrapper {
+.wrapper__6e9f8:hover .childWrapper__6e9f8,
+.wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8 {
 	background-color: transparent;
 }
 
 // home icon / server list separator
-._650eb104245d257b-listItem:has(._252b6afd49fda06f-guildSeparator) {
+.listItem__650eb:has(.guildSeparator__252b6) {
 	display: none;
 }
 
 // Folders (god this shit is so fucking confusing)
 // # Folder Icon (custom colored)
-.visual-refresh .b18fe29d6fe8dd82-hiddenVisually {
+.visual-refresh .hiddenVisually_b18fe2 {
 	&:hover {
 		background: $mid;
 	}
@@ -65,20 +65,20 @@ $guild-bar-width: 65px;
 	@include boxify($high, $mid, 3px);
 }
 
-._48112cbe77dc5022-folderPreviewWrapper {
+.folderPreviewWrapper__48112 {
 	border-radius: 0;
 
-	.f34534e8a5d3ca64-iconInactive {
+	.iconInactive_f34534 {
 		border-radius: 0;
 	}
 }
 
-.visual-refresh .cc5dd25190031396-svg {
+.visual-refresh .svg_cc5dd2 {
 	left: -3px;
 }
 
 // # Folder Backdrop
-.visual-refresh ._48112cbe77dc5022-folderGroupBackground {
+.visual-refresh .folderGroupBackground__48112 {
 	@include boxify($high, $mid, 3px);
 
 	border-radius: 0;
@@ -91,7 +91,7 @@ $guild-bar-width: 65px;
 }
 
 .visual-refresh .expandedFolderIconWrapper__48112,
-.visual-refresh ._48112cbe77dc5022-folderPreview {
+.visual-refresh .folderPreview__48112 {
 
 	&,
 	* {
@@ -101,8 +101,8 @@ $guild-bar-width: 65px;
 
 // -------------------------- MISC ---------------------------------------------
 // little badge on top-right of server icons that show ongoing streaming/vc
-._650eb104245d257b-iconBadge {
-	&._650eb104245d257b-isCurrentUserConnected {
+.iconBadge__650eb {
+	&.isCurrentUserConnected__650eb {
 		background-color: $alert;
 		color: $low;
 	}
@@ -113,7 +113,7 @@ $guild-bar-width: 65px;
 }
 
 // Unread mentions indicators
-.ef3116c2da186559-unreadMentionsIndicatorBottom,
-.ef3116c2da186559-unreadMentionsIndicatorTop {
+.unreadMentionsIndicatorBottom_ef3116,
+.unreadMentionsIndicatorTop_ef3116 {
 	width: $guild-bar-width;
 }

@@ -3,28 +3,28 @@
 @use '../vars/vars.scss' as *;
 
 // transparencies
-.visual-refresh ._5e434347c823b592-panels,
-._5dec784a68542d60-panel,
-._5e434347c823b592-sidebar:after {
+.visual-refresh .panels__5e434,
+.panel__5dec7,
+.sidebar__5e434:after {
 	background: $high-mid;
 }
 
 // the container that holds the "edit profile / invisible, and "switch accounts" buttons
-:where(.c0bea05627c5dc35-overlay) {
+:where(.overlay_c0bea0) {
 	background: transparent;
 }
 
-.ce832809562bf737-menuOverlay {
+.menuOverlay_ce8328 {
 	padding: 0;
 }
 
 // container that contains user profile panel + activity
-._5e434347c823b592-panels {
+.panels__5e434 {
 }
 
 // the buttons mentioned above
 .custom-user-profile-theme .themeColor_fb7f94.primary_fb7f94,
-.ce832809562bf737-menuItemInner {
+.menuItemInner_ce8328 {
 	@include buttonify($high-mid, $low, $low, $high);
 }
 

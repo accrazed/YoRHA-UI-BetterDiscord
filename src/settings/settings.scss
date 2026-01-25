@@ -1,26 +1,26 @@
 //transparencies
-._960e4207cea8323e-layer,
-.visual-refresh ._23e6b439306f125a-standardSidebarView,
-.visual-refresh ._23e6b439306f125a-sidebarRegionScroller,
-._23e6b439306f125a-contentRegion,
-.visual-refresh ._23e6b439306f125a-contentRegionScroller {
+.layer__960e4,
+.visual-refresh .standardSidebarView__23e6b,
+.visual-refresh .sidebarRegionScroller__23e6b,
+.contentRegion__23e6b,
+.visual-refresh .contentRegionScroller__23e6b {
   background: transparent;
 }
 
 // # My Account
 
 // ## Standing: card background
-.visual-refresh ._730694f5672c9601-cardPrimary {
+.visual-refresh .cardPrimary__73069 {
   background: transparent;
 }
 
 // ## Security
 
 // sec keys
-._6c75d92c128c46b0-credentialList {
+.credentialList__6c75d {
   border-radius: 0;
 }
 
-._6c75d92c128c46b0-credentialItem {
+.credentialItem__6c75d {
   border-top: none;
 }
