@@ -2341,6 +2341,9 @@ button.button__67645 .lottieIcon__5eb9b {
   --checkbox-background-default: var(--color-high);
   --checkbox-border-default: var(--color-low);
   --custom-app-top-bar-height: 52px;
+  --icon-muted: var(--color-mid);
+  --icon-strong: var(--color-low);
+  --channel-icon: var(--color-low);
   --header-primary: var(--color-low);
   --header-secondary: var(--color-low);
   --text-normal: var(--color-low);
