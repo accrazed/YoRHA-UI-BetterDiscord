@@ -1,6 +1,8 @@
 # YoRHa-UI-BetterDiscord
 Better Discord theme based around NieR: Automata's Menu UI
 
+# THIS THEME IS DEPRECATED. IT WILL RECEIVE RARE UPDATES, AND SOLELY FOR MAINTENANCE. I'D SUGGEST YOU GET OFF DISCORD AS A PLATFORM FOR ITS HORRENDOUS PRIVACY VIOLATIONS. 
+
 Available in light and dark mode!
 
 Theme also works in both compact and cozy mode! c:
