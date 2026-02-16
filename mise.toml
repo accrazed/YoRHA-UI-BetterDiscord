@@ -1,0 +1,5 @@
+[tools]
+"npm:sass-embedded" = "latest"
+
+[tasks.build]
+run = "sass --no-source-map src/NieR-Import.theme.scss:NieR-Import.theme.css src/dark.scss:DarkImport.theme.css src/light.scss:LightImport.theme.css src/night.scss:NightImport.theme.css src/dev.theme.scss:dev.theme.css"
