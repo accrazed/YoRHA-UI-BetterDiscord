@@ -2,6 +2,20 @@
 
 //---------------------- THIS SECTION IS FOR MINOR POPUPS (such as hover tooltips) ---------------------//
 
+// User volume square
+.tooltipContent_c36707 {
+	@include boxify($high, $mid, 2px);
+	color: $low
+}
+
+.tooltipGrey_c36707 {
+	color: $high;
+}
+
+.tooltip_c36707 {
+	box-shadow: none;
+}
+
 // right click on message popup
 
 // hover on message popup (with the emojis)
@@ -11,6 +25,15 @@
 
 .buttonContainer_c19a55 * {
 	border-radius: 0px;
+}
+
+// See where emoji is from
+.visual-refresh .popoutContainer__0f481 {
+	@include boxify($high, $mid, 3px);
+
+	.button__201d5 {
+		border-radius: 0;
+	}
 }
 
 // hover on guild icon in guild bar popup (some seem fine, but others are not, attempt to make it uniform
@@ -90,7 +113,7 @@
 	.emojiPicker_c0e32c,
 	.header_c0e32c,
 	.wrapper__14245,
-	.wrapper__4e6ce,
+	.wrapper_d852db,
 	.inspector_aeaaeb {
 		background-color: $high;
 	}
@@ -113,13 +136,13 @@
 }
 
 // search results container
-.visual-refresh .searchResultsWrap_a9e706 {
+.visual-refresh .searchResultsWrap_a98f3b {
 	background: transparent;
 	border: none;
 }
 
 // result itself
-.visual-refresh .searchResult__02a39 {
+.visual-refresh .searchResult__80bf8 {
 	@include boxify($high, $mid, 3px);
 }
 
@@ -143,12 +166,17 @@
 	box-shadow: 3px 3px 0 $mid;
 }
 
+.refresh-fast-follow-distinct-borders .menu_c1e9c4 {
+	border: none;
+}
+
 :where(.visual-refresh) .colorDefault_c1e9c4 {
 	.label_c1e9c4 {
 		color: $low;
 	}
 
 	&.focused_c1e9c4 {
+		transition: all 0.1s;
 		color: $high;
 		background-color: $low;
 		border-radius: 0px;

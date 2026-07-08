@@ -1,93 +1,166 @@
 @use '../vars/vars' as *;
 
 //Transparencies
-.visual-refresh .container_f369db,
 //main container that holds all threads in the forum
+.visual-refresh .container_f369db,
+//container for thread in the main forum window
 .visual-refresh .mainCard_f369db {
-  //container for thread in the main forum window
-  background: transparent;
+	background: transparent;
 }
 
+//weird colored line that showed up at the end of the title bar for forums
 .theme-dark .children__9293f:after {
-  //weird colored line that showed up at the end of the title bar for forums
-  display: none;
+	display: none;
 }
 
 /* forum post */
 .visual-refresh .container__9a337 {
-  background: $high;
+	background: $high;
 }
 
 /* Friends header */
 .defaultColor__4bd52 {
-  color: $low;
+	color: $low;
 }
 
+// ========== main container that holds all threads in the forum ============= 
 .container_f369db {
 
-  //main container that holds all threads in the forum
-  .sortDropdown_f369db.button__201d5.lookFilled__201d5.sizeMin__201d5.grow__201d5 {
-    //"Sort & View" container
-    background: $low;
+	// "Sort & View" container
+	.sortDropdown_f369db.button__201d5.lookFilled__201d5.sizeMin__201d5.grow__201d5 {
+		background: $low;
 
-    &:hover {
-      background: $low-trans;
-    }
-  }
+		&:hover {
+			background: $low-trans;
+		}
+	}
 
-  .sortDropdownInner_f369db * {
-    //"Sort & View" text and icons
-    color: $high !important;
-  }
+	// "Sort & View" text and icons
+	.sortDropdownInner_f369db * {
+		color: $high !important;
+	}
 
-  .pill_a2c9e8,
-  //tags list at top of foru
-  .tagsButton_f369db {
-    //All button for tag overflow at the top
-    border-radius: 0px;
-    background: $low;
-    color: $high;
+	// tags list at top of forum
+	.pill_a2c9e8,
+	//All button for tag overflow at the top
+	.tagsButton_f369db {
+		border-radius: 0px;
+		background: transparent;
+		color: $low;
 
-    &.clickable_a2c9e8:not(.disabled_a2c9e8):hover {
-      background-color: $low-trans;
-    }
-  }
+		&.clickable_a2c9e8:not(.disabled_a2c9e8):hover {
+			background-color: $mid;
+		}
+	}
 
-  .contents__201d5.tagsButtonInner_f369db {
-    //contents of all button at top
-    color: $high;
-  }
+	// contents of "all" button at top
+	.contents__201d5.tagsButtonInner_f369db {
+		color: $low;
+	}
+}
+
+// ============ forum posts that lay inside the container =====================
+.visual-refresh .mainCard_f369db {
+	border: none;
+
+	&:hover {
+		@include boxify($high-mid, $mid, 3px);
+	}
+
+	&.isOpen_faa96b {
+		@include boxify($low, $mid, 3px);
+
+		.messageContent_faa96b,
+		.messageCountIcon_faa96b,
+		.pill_a2c9e8 {
+			color: $high;
+		}
+
+		.footer_faa96b div,
+		.defaultColor__5345c {
+			color: $high !important;
+		}
+	}
+}
+
+// % "Get Started" panel for moderators
+.visual-refresh .container_a68543 {
+	@include boxify($high, $mid, 3px);
+	border: none;
+}
+
+// %% steps themselves for the panel
+.stepContainer_a68543 {
+	background-color: $high-mid;
+
+	.stepName_a68543,
+	.stepDescription_a68543 {
+		opacity: 1;
+	}
+
+	&:hover {
+		background-color: $low;
+
+		.stepName_a68543,
+		.stepDescription_a68543 {
+			color: $high !important;
+		}
+
+	}
+}
+
+.stepStatus_a68543.completed_a68543 {
+	color: $mid;
+}
+
+// press "all" button, "Select tags"
+
+.visual-refresh .container__5808f {
+	@include boxify($high, $mid, 3px);
+	border: none;
+}
+
+// # said tags
+.pill_a2c9e8 {
+	border-radius: 0;
+}
+
+.theme-dark .pill_a2c9e8.selected_a2c9e8 {
+	border-color: $low;
+}
+
+.visual-refresh .pill_a2c9e8.selected_a2c9e8:not(.disabled_a2c9e8):hover {
+	background-color: $mid ;
 }
 
 //container for thread in the main forum window
 .mainCard_f369db {
-  border: 1px solid $low;
+	border: 1px solid $low;
 
-  .tagPill__9a337 {
-    //pills for tags in forums
-    border-radius: 0px;
-
-  }
+	.tagPill__9a337 {
+		//pills for tags in forums
+		border-radius: 0px;
+	}
 }
 
-// ================ the forum post that opens on the side //
+// ================ the forum post that opens on the side ====================
 .visual-refresh .container__01ae2,
 .visual-refresh .resizeHandle__01ae2 {
-  background: transparent;
-  border: none;
+	background: transparent;
+	border: none;
 }
 
 .divider_ee23ac {
-  background: transparent;
+	background: transparent;
 }
 
 // footer to main post (follow, link, reacts, etc)
 .visual-refresh .container__34c2c,
 .visual-refresh .header__34c2c {
-  margin: 0px 3px;
-  @include boxify($high, $mid, 3px);
+	margin: 0px 3px;
+	@include boxify($high, $mid, 3px);
 }
 
 .container__34c2c {
-  border: none;
+	border: none;
 }

@@ -4,14 +4,23 @@
 .visual-refresh.theme-darker,
 .visual-refresh .theme-darker,
 :root {
+	// LINK COLOR *****
+	--color-link-low: rgb(66, 167, 156);
+	--color-link-high: rgb(148, 224, 215);
+
 	--font-primary: var(--nier-font), 'vietnam-pro', 'Whitney', 'Helvetica Neue', Helvetica, Arial,
 		sans-serif !important;
 	--font-display: var(--nier-font), 'vietnam-pro', 'Whitney', 'Helvetica Neue', Helvetica, Arial,
 		sans-serif !important;
 
+	// ********************* DISCORD THINGS
+
 	--embed-title: var(--color-low);
 
 	--text-primary: var(--color-low);
+
+	--text-strong: var(--color-low);
+	--text-subtle: var(--color-low-trans);
 	--text-secondary: var(--color-low);
 	--text-tertiary: var(--color-low);
 	--icon-secondary: var(--color-low);
@@ -19,15 +28,43 @@
 	--text-default: var(--color-low);
 
 	--interactive-normal: var(--color-low);
+	--interactive-text-active: var(--color-low);
+	--interactive-text-default: var(--color-low-trans);
 
+	--message-reacted-background: var(--color-low);
+	--message-reacted-background-default: var(--color-low);
+	--message-reacted-text-default: var(--color-high);
+	--message-reacted-text: var(--color-high);
+
+	--background-surface-higher: var(--color-high);
 	--background-surface-high: var(--color-high);
+	--background-base-low: var(--color-high);
+	--background-base-lower: var(--color-high);
 	--background-base-lowest: var(--color-high);
+	--background-mod-normal: var(--color-mid);
+	--bg-surface-overlay: var(--color-high);
+
+	--border-subtle: var(--color-mid);
+
+	--chat-text-muted: var(--color-mid);
+	--chat-background-default: var(--color-high);
+
+	--checkbox-background-checked: var(--color-alert);
+	--checkbox-border-checked: var(--color-alert);
+	--checkbox-background-default: var(--color-high);
+	--checkbox-border-default: var(--color-low);
+
+	--custom-app-top-bar-height: 52px;
+
+	--icon-muted: var(--color-mid);
+	--icon-strong: var(--color-low);
+	--channel-icon: var(--color-low);
 
 	--header-primary: var(--color-low);
 	--header-secondary: var(--color-low);
 	--text-normal: var(--color-low);
 	--text-muted: var(--color-low-trans);
-	--text-link: var(--color-alert);
+	--text-link: var(--color-link-low);
 	--text-link-low-saturation: var(--color-alert);
 	--text-positive: var(--color-low);
 	--text-warning: var(--color-alert);
@@ -85,9 +122,12 @@
 	// --button-positive-background-hover: var(--green-500);
 	// --button-positive-background-active: var(--green-530);
 	--button-positive-background-disabled: var(--color-alert);
-	--button-secondary-background: var(--color-low-trans);
-	// --button-secondary-background-hover: var(--primary-430);
-	// --button-secondary-background-active: var(--primary-400);
+	--button-secondary-background: var(--color-high-mid);
+	--button-secondary-text: var(--color-low);
+	--button-secondary-background-hover: var(--color-mid);
+
+
+	--button-secondary-background-active: var(--color-low);
 	--button-secondary-background-disabled: var(--color-low-trans);
 	// --button-outline-danger-text: var(--white-500);
 	--button-outline-danger-border: var(--color-alert);
@@ -134,7 +174,7 @@
 	--scrollbar-auto-scrollbar-color-thumb: var(--color-low);
 	--scrollbar-auto-scrollbar-color-track: transparent;
 	--input-background: var(--color-high-trans);
-	--input-placeholder-text: var(--input-placeholder-text-dark);
+	--input-placeholder-text: var(--color-mid);
 	// --logo-primary: var(--white-500);
 	--focus-primary: var(--blue-345);
 	--control-brand-foreground: var(--color-alert);
@@ -148,7 +188,7 @@
 	--background-message-highlight-hover: var(--color-alert-trans);
 	--channels-default: var(--color-low);
 	// --channel-icon: var(--primary-400);
-	// --channel-text-area-placeholder: var(--primary-430);
+	--channel-text-area-placeholder: var(--color-mid);
 	// --channeltextarea-background: var(--primary-560);
 	--activity-card-background: var(--color-high-trans);
 	--textbox-markdown-syntax: var(--color-low);
@@ -174,8 +214,6 @@
 	// --profile-gradient-overlay-synced-with-user-theme: hsl(var(--black-500-hsl) / 0.8);
 	// --profile-gradient-overlay: hsl(var(--black-500-hsl) / 0.6);
 	// --profile-gradient-section-box: hsl(var(--black-500-hsl) / 0.45);
-	--profile-gradient-button-color: var(--color-low) !important;
-	--profile-gradient-message-input-border: var(--color-mid);
 	// --profile-gradient-note-background: hsl(var(--black-500-hsl) / 0.3);
 	// --profile-gradient-profile-body-background-hover: hsl(var(--white-500-hsl) / 0.16);
 	--profile-gradient-role-pill-background: var(--color-high);
@@ -236,6 +274,10 @@ html {
 	// --brand-experiment-85a: hsl(var(--brand-500-hsl) / 0.85);
 	// --brand-experiment-90a: hsl(var(--brand-500-hsl) / 0.9);
 	// --brand-experiment-95a: hsl(var(--brand-500-hsl) / 0.95);
+}
+
+.custom-user-profile-theme {
+	--profile-gradient-button-color: var(--color-high-mid) !important;
 }
 
 // voice-video background?

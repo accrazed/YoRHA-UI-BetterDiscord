@@ -5,6 +5,19 @@
 	background: transparent;
 }
 
+// thread container
+.typeThread__2ea32.threadsInChannelListQoLExperiment__2ea32.wrapper__2ea32 {
+	margin-left: 0;
+}
+
+.typeThread__2ea32.threadsInChannelListQoLExperiment__2ea32 .link__2ea32 {
+	padding: 0;
+}
+
+.iconContainer__2ea32[aria-label='#{$aria-label-thread}'] {
+	visibility: hidden;
+}
+
 // Message in chat that someone's opened a thread
 .typeThread__2ea32.wrapper__2ea32 {
 	margin-left: 0;
@@ -46,12 +59,6 @@
 	visibility: hidden;
 }
 
-*[aria-label='Threads'],
-*[aria-label='Thread'] {
-	.icon__9293f path:first-child {
-		//visibility: hidden; TODO fix whatever this was meant to be
-	}
-}
 
 .threadIcon_d9c882 path:first-child {
 	visibility: hidden;
@@ -78,11 +85,11 @@
 .typeThread__2ea32 {
 	.name__2ea32 {
 		position: absolute;
-		left: 1px;
+		left: 25px;
 		max-width: 175px;
 		text-align: left;
 
-		&.overflow__82b15 {
+		&.overflow_b0dfc2 {
 			white-space: nowrap;
 			overflow: hidden;
 			text-overflow: ellipsis;

@@ -9,52 +9,82 @@ body {
 	background: transparent;
 }
 
-// Close/Minimize/Maximize buttons
-.winButtonClose_c38106:hover {
-	transition: background-color 0.2s, color 0.2s ease;
-	color: $high;
-	background: $alert;
+// KILL THE SEMICOLON
+.visual-refresh .app_a3002d {
+	color: transparent;
 }
-.winButtonMinMax_c38106:hover {
+
+// Close/Minimize/Maximize buttons
+.winButtons_c38106:hover {
 	transition: background-color 0.2s, color 0.2s ease;
-	color: $high;
 	background: $low;
 }
 
-.bar_c38106 { //title bar at the top
-	height: 25px;
-	.title_c38106 { //server name
-		.title__85643 {
-			position: relative;
-			gap: 0px;
-			top: -5px;
-			background-color: $low;
-			padding-right: 6px;
-			padding-bottom: 2px;
-			.icon_f34534 {
-				//display: none;
-				background-image: url("https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/icons/home_dark-theme.svg") !important;
-			}
-			.defaultColor__4bd52 {
-				text-transform: uppercase;
-				font-weight: 400;
-				color: $high;
-			}
+
+// ==== title bar at the top
+// see root/--custom-app-top-bar-height for header height
+
+.title_c38106 {
+	/* justify-content: left; */
+
+	.title__85643 {
+		/* left: 64px+20px+15px; */
+		// this line and the one above are for left aligning the title bar. still not married to either option.
+
+		top: -8px;
+		padding: .2em;
+
+		position: relative;
+		background-color: $low;
+
+		.icon_f34534 {
+			//display: none;
+			background-image: url("https://raw.githubusercontent.com/AccraZed/YoRHA-UI-BetterDiscord/master/assets/icons/home_dark-theme.svg") !important;
 		}
-		&:after {
+
+		// app icons
+		path {
+			fill: $high !important;
+		}
+
+		.defaultColor__4bd52 {
+			text-transform: uppercase;
+			font-weight: 400;
+			color: $high;
+		}
+
+
+		// the lil selector arrow next to it 
+		&::before {
 			content: '';
-			display: block;
 			position: absolute;
-			top: 23px;
-			left: 6px;
-			width: 100%;
-			height: 15px;
-			background: var(--nier-border) repeat-x;
-			padding: 10px 0 0 0;
+
+			left: -30px;
+
+			width: 24px;
+			height: 22px;
+
+			background-image: $selector-img-invert; // overridded in light/dark/night files
+			background-size: cover;
+			background-repeat: no-repeat;
+			z-index: 1;
 		}
-		
 	}
-	.trailing_c38106 { //contains the min/max/close buttons
-		top: -5px;
+
+	// trim
+	&:after {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 36px;
+		width: 100%;
+		height: 15px;
+		background: var(--nier-border) repeat-x;
+		padding: 10px 0 0 0;
 	}
+}
+
+.trailing_c38106 {
+	//contains the min/max/close buttons
+	top: -5px;
 }

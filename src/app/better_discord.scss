@@ -1,0 +1,17 @@
+@use '../vars/vars' as *;
+
+.bd-modal-root {
+	@include boxify($high, $mid, 3px);
+}
+
+// Text in Update modal
+.theme-dark .bd-changelog-modal .bd-modal-content ol,
+.theme-dark .bd-changelog-modal .bd-modal-content p,
+.theme-dark .bd-changelog-modal .bd-modal-content ul li {
+	color: $low
+}
+
+// bullet points
+.theme-dark .bd-changelog-modal .bd-modal-content ul li::before {
+	background-color: $low;
+}

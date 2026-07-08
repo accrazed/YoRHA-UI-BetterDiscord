@@ -1,0 +1,12 @@
+@use '../vars/vars' as *;
+
+// ==== all buttons
+:where(.visual-refresh) .button__201d5 {
+	border-radius: 0;
+}
+
+.lookOutlined__201d5.colorRed__201d5 {
+	@include buttonify($alert-trans, $high, $low, $high);
+
+	border: 1px solid $alert;
+}

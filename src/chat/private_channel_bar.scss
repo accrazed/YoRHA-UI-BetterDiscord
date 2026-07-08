@@ -2,11 +2,13 @@
 
 @use '../vars/vars.scss' as *;
 
-.visual-refresh .privateChannels__35e86,
+.visual-refresh .privateChannels_e6b769,
 .visual-refresh .scroller__99e7c {
 	background: transparent;
 }
 
+// right padding on user bar
+.iconsContainer__972a0,
 // Chonky Friends/Library/Nitro/Shop buttons
 :where(.visual-refresh) .channel__972a0:not(.dm__972a0) .link__972a0 {
 	padding: 0;
@@ -16,228 +18,224 @@
 	padding-left: 10px;
 }
 
+.channel__972a0:not(.dm__972a0) {
+	height: 40px;
+}
+
 .interactive_bf202d:focus-within,
 .interactive_bf202d:hover {
 	background: transparent;
 }
 
-// weird hidden divs that add stupid padding shit
-// JUST KIDDING, DON"T FUCK WITH THIS, THIS BREAKS SCROLLING DOWN IF YOU DISABLE IT LOL
-.content__99f8c[aria-label="Direct Messages"]>div:first-child {}
 
-.container_e45859 {
-	border-radius: 0;
+
+/* .container__23ba6 { */
+/* border-radius: 0; */
+/* padding: 0; */
+/* margin-left: 36px; */
+
+/* // Entire channels list container */
+/* // selector backdrop */
+/* .interactive_bf202d::before { */
+/* content: ''; */
+/* position: absolute; */
+/* left: -16px; */
+/* width: 2px; */
+/* height: 100%; */
+/* bottom: 0px; */
+/* border-radius: 0; */
+/* padding: 4px 2.5px 4px 2.5px; */
+/* margin-left: -1px; */
+/* box-shadow: -3px 0 0 $mid, -15px 0 0 transparent, -14px 0 0 $mid, -18px 2px 0 transparent; */
+/* } */
+/* } */
+
+// -------------------- ICONS / TEXT ------------------------------
+// channel name
+.overflow_b0dfc2,
+.name__20a53,
+.subText__20a53 {
+	transition: color 0.2s;
+}
+
+// Profile picture
+.wrapper__44b0c foreignObject {
+	mask: none;
+}
+
+// Close icon
+.closeButton__972a0 {
+	position: absolute;
+	z-index: 3;
+	right: 0;
+	color: $alert;
+}
+
+.linkButtonIcon__972a0,
+.content__20a53,
+.subtext__972a0 {
+	position: relative;
+}
+
+// ------------------------ STRUCTURE ----------------------------
+
+// VERY IMPORTANT. Padding must be zero or we get subpixel errors
+.link__972a0 {
+	margin: 4px 0px;
 	padding: 0;
-	margin-left: 36px;
+}
 
-	// Entire channels list container
-	// selector backdrop
-	&::before {
-		content: '';
-		position: absolute;
-		left: -16px;
-		width: 2px;
-		height: 100%;
-		bottom: 0px;
-		border-radius: 0;
-		padding: 4px 2.5px 4px 2.5px;
-		margin-left: -1px;
-		box-shadow: -3px 0 0 $mid, -15px 0 0 transparent, -14px 0 0 $mid, -18px 2px 0 transparent;
+.channel__972a0,
+.interactive_bf202d,
+.layout__20a53 {
+	border-radius: 0;
+	height: 42px;
+}
+
+// ------------------- TEXT+VOICE CHANNELS ----------------------------
+
+// Base block + border. hold the text
+// LinkTop is the main body
+.link__972a0 {
+	height: 36px;
+	padding: 0px 0px;
+	background-color: $high-mid;
+}
+
+// the main grower
+.link__972a0::before {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 36px;
+	animation: pulsingBackground 2.5s infinite;
+	z-index: 0;
+
+	box-shadow: 0 0 3px $low;
+
+	transition: transform 0.4s;
+	transform: scaleX(0);
+	transform-origin: left;
+}
+
+// grower border
+.link__972a0::after {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 44px;
+	pointer-events: none;
+
+	box-shadow: 0 1px $low, 0 -1px $low;
+
+	transition: transform 0.4s;
+	transform: scale(0, 85%);
+	transform-origin: left;
+}
+
+.selected_bf202d,
+// When hovering and selecting
+.interactive_bf202d:hover {
+
+	// grow border and body
+	.link__972a0::before,
+	.link__972a0::after {
+		transform: scale(100%, 100%);
+	}
+
+	// invert name and icons
+	.overflow_b0dfc2,
+	.linkButtonIcon__972a0,
+	.name__20a53,
+	.subText__20a53 {
+		color: $high;
 	}
 }
 
-.interactive_bf202d {
-	padding: 0;
-
-	// -------------------- ICONS / TEXT ------------------------------
-	// channel name
-	.overflow__82b15,
-	.name__20a53,
-	.subText__20a53 {
-		transition: color 0.2s;
-	}
-
-	// Profile picture
-	.wrapper__44b0c foreignObject {
-		mask: none;
-	}
-
-	// Close icon
-	.closeButton__972a0 {
-		position: absolute;
-		z-index: 3;
-		right: 0;
-		color: $alert;
-	}
-
-	.linkButtonIcon__972a0,
-	.content__20a53,
-	.subtext__972a0 {
-		position: relative;
-	}
-
-	// ------------------------ STRUCTURE ----------------------------
-
-	// VERY IMPORTANT. Padding must be zero or we get subpixel errors
-	.link__972a0 {
-		margin: 4px 0px;
-		padding: 0;
-	}
-
-	.channel__972a0,
-	.interactive_bf202d,
-	.layout__20a53 {
-		height: 36px;
-	}
-
-	// ------------------- TEXT+VOICE CHANNELS ----------------------------
-
-	// Base block + border. hold the text
-	// LinkTop is the main body
-	.link__972a0 {
-		height: 36px;
-		padding: 0px 0px;
-		background-color: $high-mid;
-	}
-
-	// the main grower
+// When selected
+.interactive_bf202d.selected_bf202d {
 	.link__972a0::before {
-		position: absolute;
-		content: '';
-		width: 100%;
+		transform: scale(100%, 100%);
+		animation: none;
+		background-color: $low;
+		opacity: 0.65;
 		height: 36px;
-		animation: pulsingBackground 2.5s infinite;
-		z-index: 0;
-
-		box-shadow: 0 0 3px $low;
-
-		transition: transform 0.4s;
-		transform: scaleX(0);
-		transform-origin: left;
 	}
 
-	// grower border
+	// TODO: this doesn't work. for whatever reason, the borders don't retreat to the right, tehy just disappear 
 	.link__972a0::after {
-		position: absolute;
-		content: '';
-		width: 100%;
-		height: 44px;
-		pointer-events: none;
-
-		box-shadow: 0 1px $low, 0 -1px $low;
-
-		transition: transform 0.4s;
-		transform: scale(0, 85%);
-		transform-origin: left;
+		transition: transform 0.75s;
+		transform: scale(0%, 100%);
+		transform-origin: right;
 	}
+}
 
-	&.selected_bf202d,
-	// When hovering and selecting
-	&:hover {
+// SELECTOR CHANNEL ---------------------------------------------
+// doesn't work right now, commenting out to help performance
+/* .interactive_bf202d::before { */
+/* content: ''; */
+/* position: absolute; */
+/* left: -30px; */
+/* top: 50%; */
+/* transform: translateY(-50%); */
+/* animation-fill-mode: forwards; */
+/* width: 24px; */
+/* Adjust width as needed */
+/* height: 22px; */
+/* Adjust height as needed */
+/* background-image: $selector-img; // overridded in light/dark/night files */
+/* background-size: cover; */
+/* background-repeat: no-repeat; */
 
-		// grow border and body
-		.link__972a0::before,
-		.link__972a0::after {
-			transform: scale(100%, 100%);
-		}
+/* transition: opacity 0.175s ease-in-out; */
+/* opacity: 0; */
+/* } */
 
-		// invert name and icons
-		.overflow__82b15,
-		.linkButtonIcon__972a0,
-		.name__20a53,
-		.subText__20a53 {
-			color: $high;
-		}
-	}
+/* .interactive_bf202d:not(.selected_bf202d):hover::before { */
+/* opacity: 1; */
+/* } */
 
-	// When selected
-	&.selected_bf202d {
-		.link__972a0::before {
-			transform: scale(100%, 100%);
-			animation: none;
-			background-color: $low;
-			opacity: 0.65;
-			height: 36px;
-		}
+/* .selected_bf202d::before { */
+/* content: ''; */
+/* position: absolute; */
+/* left: -30px; */
+/* top: 50%; */
+/* transform-origin: top; */
+/* transform: translateY(-50%); */
+/* width: 24px; */
+/* Adjust width as needed */
+/* height: 22px; */
+/* Adjust height as needed */
+/* background-image: $selector-img-invert; // overridded in light/dark/night files */
+/* opacity: 1; */
 
-		// TODO: this doesn't work. for whatever reason, the borders don't retreat to the right, tehy just disappear 
-		.link__972a0::after {
-			transition: transform 0.75s;
-			transform: scale(0%, 100%);
-			transform-origin: right;
-		}
-	}
+/* background-size: cover; */
+/* background-repeat: no-repeat; */
+/* } */
 
-	// Unread channels will override
-	.unread__2ea32.unreadImportant__2ea32~div {
-		.icon__2ea32 {
-			color: $alert;
-			background-color: $alert;
-		}
+/* .selected_bf202d::after { */
+/* content: ''; */
+/* position: absolute; */
+/* left: -30px; */
+/* top: 50%; */
+/* transform: translateY(-50%); */
+/* width: 24px; */
+/* Adjust width as needed */
+/* height: 22px; */
+/* Adjust height as needed */
+/* background-image: $selector-img; // overridded in light/dark/night files */
+/* animation: fade-out 0.25s; */
+/* animation-fill-mode: forwards; */
+/* background-size: cover; */
+/* background-repeat: no-repeat; */
+/* } */
 
-		.overflow__82b15,
-		.name__20a53,
-		.subText__20a53 {
-			color: $alert;
-		}
-	}
+// Undread channels
+.unreadPill__972a0 {
+	top: 8px;
+	left: -6px;
+	height: 36px;
 
-	// SELECTOR CHANNEL ---------------------------------------------
-	&::before {
-		content: '';
-		position: absolute;
-		left: -30px;
-		top: 50%;
-		transform: translateY(-50%);
-		animation-fill-mode: forwards;
-		width: 24px;
-		/* Adjust width as needed */
-		height: 22px;
-		/* Adjust height as needed */
-		background-image: $selector-img; // overridded in light/dark/night files
-		background-size: cover;
-		background-repeat: no-repeat;
-
-		transition: opacity 0.175s ease-in-out;
-		opacity: 0;
-	}
-
-	&:not(.selected_bf202d):hover::before {
-		opacity: 1;
-	}
-
-	&.selected_bf202d::before {
-		content: '';
-		position: absolute;
-		left: -30px;
-		top: 50%;
-		transform-origin: top;
-		transform: translateY(-50%);
-		width: 24px;
-		/* Adjust width as needed */
-		height: 22px;
-		/* Adjust height as needed */
-		background-image: $selector-img-invert; // overridded in light/dark/night files
-		opacity: 1;
-
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
-
-	&.selected_bf202d::after {
-		content: '';
-		position: absolute;
-		left: -30px;
-		top: 50%;
-		transform: translateY(-50%);
-		width: 24px;
-		/* Adjust width as needed */
-		height: 22px;
-		/* Adjust height as needed */
-		background-image: $selector-img; // overridded in light/dark/night files
-		animation: fade-out 0.25s;
-		animation-fill-mode: forwards;
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
+	background-color: $alert;
+	border-radius: 0;
 }

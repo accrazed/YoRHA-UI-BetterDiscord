@@ -4,8 +4,8 @@
 
 // transparencies
 // # store
-.allPerksScroller_ca1a02,
-.mainPageScroller_ca1a02,
+.allPerksScroller__80907,
+.mainPageScroller__80907,
 .visual-refresh .shop__08415,
 .applicationStore_f07d62,
 // # game scroller
@@ -16,19 +16,24 @@
   background: transparent;
 }
 
+// header border
+.visual-refresh .container__133bf {
+  border-top: none;
+}
+
 // sidebar header border
-.visual-refresh .searchBar__35e86 {
+.visual-refresh .searchBar_e6b769 {
   border-bottom: none;
 }
 
 // sidebar divider between DMs and upper sections
-.visual-refresh .sectionDivider__35e86 {
-  display: none;
+.sectionDivider_e6b769 {
+  height: 0px;
 }
 
 // "Find or start a conversation" button above private message channels
 // You can find the styling for the prompt itself in app/prompts.scss
-.searchBar__35e86 {
+.searchBar_e6b769 {
   padding-right: 7px;
   padding-left: 35px;
 }
@@ -37,7 +42,7 @@
   border-radius: 0;
   padding: 0;
 
-  @include buttonify($mid, $low, $low, $high);
+  @include buttonify($high-mid, $low, $low, $high);
 
   .contents__201d5 {
     padding: 0px 8px;

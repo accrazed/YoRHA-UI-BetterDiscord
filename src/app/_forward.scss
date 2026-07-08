@@ -1,6 +1,10 @@
 @forward 'app';
+@forward 'buttons';
+@forward 'better_discord';
+@forward 'cursor';
 @forward 'overlay';
 @forward 'popups';
 @forward 'prompts';
-@forward 'user-info';
-@forward 'user-popout';
+@forward 'user_modal';
+@forward 'user_popout';
+@forward 'popups/forward';
