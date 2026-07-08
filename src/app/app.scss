@@ -15,11 +15,14 @@ body {
 }
 
 // Close/Minimize/Maximize buttons
-.winButtons_c38106:hover {
+.winButtonMinMax_c38106:hover {
 	transition: background-color 0.2s, color 0.2s ease;
 	background: $low;
 }
-
+.winButton_c38106.winButtonMinMax_c38106,
+.winButtonClose_c38106.winButton_c38106 {
+	height: 30px;
+}
 
 // ==== title bar at the top
 // see root/--custom-app-top-bar-height for header height
