@@ -2,42 +2,42 @@
 
 // Transparencies
 // # main container
-.container_c8ffbb,
+.container_86es0b,
 // # wrapper holding the list itself
-.members_c8ffbb,
+.members_86es0b,
 // # individual member
-.member_c8ffbb,
-.clickable__91a9d:hover .childContainer__91a9d {
+.member_86es0b,
+.clickable_J1Adu_:hover .childContainer_J1Adu_ {
 	background: transparent;
 }
 
 // slight border lines
-.visual-refresh .container_c8ffbb,
+.visual-refresh .container_86es0b,
 // # threads
-.visual-refresh .container__7641b {
+.visual-refresh .container_UPjGEs {
 	border: none;
 }
 
 // member hover/select animations
-.member_c8ffbb {
+.member_86es0b {
 	margin: 4px 0;
 
 	// -------------------- STRUCTURE ---------------------------------------
 	// container that holds user pfp/name/etc
-	.memberInner__5d473 {
+	.memberInner_Iy0c7A {
 		padding-left: 5px;
 	}
 
 	// -------------------- ICONS / TEXT ---------------------------------------
 	// member name
-	.username__5d473 {
+	.username_Iy0c7A {
 		transition: color 0.2s;
 	}
 
 	// ------------------- TEXT+VOICE CHANNELS ---------------------------------
 
 	// LinkTop is the main body
-	.childContainer__91a9d {
+	.childContainer_J1Adu_ {
 		display: flex;
 		align-items: center;
 
@@ -47,7 +47,7 @@
 	}
 
 	// the main grower
-	.childContainer__91a9d::before {
+	.childContainer_J1Adu_::before {
 		position: absolute;
 		content: '';
 		width: 100%;
@@ -62,7 +62,7 @@
 	}
 
 	// grower border
-	.childContainer__91a9d::after {
+	.childContainer_J1Adu_::after {
 		position: absolute;
 		content: '';
 		width: 100%;
@@ -76,28 +76,28 @@
 		transform-origin: right;
 	}
 
-	&.selected__91a9d,
+	&.selected_J1Adu_,
 	// When hovering and selecting
 	&:hover {
 
 		// grow border and body
-		.childContainer__91a9d::before,
-		.childContainer__91a9d::after {
+		.childContainer_J1Adu_::before,
+		.childContainer_J1Adu_::after {
 			transform: scale(100%, 100%);
 		}
 
 		// invert name and icons
-		.overflow_b0dfc2,
-		.username__5d473 {
+		.overflow__WDjet,
+		.username_Iy0c7A {
 			color: $high;
 		}
 	}
 
 	// When selected
-	&.selected__91a9d {
+	&.selected_J1Adu_ {
 
 		// the main grower changes to lighter color
-		.childContainer__91a9d::before {
+		.childContainer_J1Adu_::before {
 			transform: scale(100%, 100%);
 			transition: transform 0.4s, opacity 0.4s;
 			animation: none;
@@ -106,7 +106,7 @@
 		}
 
 		// grower border shrinks to right
-		.childContainer__91a9d::after {
+		.childContainer_J1Adu_::after {
 			transition: transform 0.75s;
 			transform: scale(0%, 100%);
 			transform-origin: left;
@@ -115,24 +115,24 @@
 }
 
 // member group labels
-.visual-refresh .membersGroup_c8ffbb {
+.visual-refresh .membersGroup_86es0b {
 	padding-left: 0;
 }
 
 //<--->//
 //User Profile Sidebar in DMs
-.user-profile-sidebar :where(.avatar__75742) {
+.user-profile-sidebar :where(.avatar_WRLIGC) {
 	left: 0px;
 	top: 0px;
 }
 
-.user-profile-sidebar .container_ab8609 {
+.user-profile-sidebar .container_rmCN9_ {
 	top: calc(var(--custom-user-profile-banner-height) - -160px);
 	left: 8px;
 }
 
-.container_ab8609 {
-	.outer_ab8609 {
+.container_rmCN9_ {
+	.outer_rmCN9_ {
 		max-width: 324px;
 	}
 }
