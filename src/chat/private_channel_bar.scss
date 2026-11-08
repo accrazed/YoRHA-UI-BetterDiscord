@@ -2,23 +2,23 @@
 
 @use '../vars/vars.scss' as *;
 
-.visual-refresh .privateChannels_e6b769,
-.visual-refresh .scroller__99e7c {
+.visual-refresh .privateChannels_u88IQl,
+.visual-refresh .scroller_Bce46W {
 	background: transparent;
 }
 
 // right padding on user bar
-.iconsContainer__972a0,
+.iconsContainer_zln_tS,
 // Chonky Friends/Library/Nitro/Shop buttons
-:where(.visual-refresh) .channel__972a0:not(.dm__972a0) .link__972a0 {
+:where(.visual-refresh) .channel_zln_tS:not(.dm_zln_tS) .link_zln_tS {
 	padding: 0;
 }
 
-:where(.visual-refresh) .channel__972a0:not(.dm__972a0) svg {
+:where(.visual-refresh) .channel_zln_tS:not(.dm_zln_tS) svg {
 	padding-left: 10px;
 }
 
-.channel__972a0:not(.dm__972a0) {
+.channel_zln_tS:not(.dm_zln_tS) {
 	height: 40px;
 }
 
@@ -52,42 +52,42 @@
 
 // -------------------- ICONS / TEXT ------------------------------
 // channel name
-.overflow_b0dfc2,
-.name__20a53,
-.subText__20a53 {
+.overflow__WDjet,
+.name_TBNqol,
+.subText_TBNqol {
 	transition: color 0.2s;
 }
 
 // Profile picture
-.wrapper__44b0c foreignObject {
+.wrapper_XpIUHy foreignObject {
 	mask: none;
 }
 
 // Close icon
-.closeButton__972a0 {
+.closeButton_zln_tS {
 	position: absolute;
 	z-index: 3;
 	right: 0;
 	color: $alert;
 }
 
-.linkButtonIcon__972a0,
-.content__20a53,
-.subtext__972a0 {
+.linkButtonIcon_zln_tS,
+.content_TBNqol,
+.subtext_zln_tS {
 	position: relative;
 }
 
 // ------------------------ STRUCTURE ----------------------------
 
 // VERY IMPORTANT. Padding must be zero or we get subpixel errors
-.link__972a0 {
+.link_zln_tS {
 	margin: 4px 0px;
 	padding: 0;
 }
 
-.channel__972a0,
+.channel_zln_tS,
 .interactive_bf202d,
-.layout__20a53 {
+.layout_TBNqol {
 	border-radius: 0;
 	height: 42px;
 }
@@ -96,14 +96,14 @@
 
 // Base block + border. hold the text
 // LinkTop is the main body
-.link__972a0 {
+.link_zln_tS {
 	height: 36px;
 	padding: 0px 0px;
 	background-color: $high-mid;
 }
 
 // the main grower
-.link__972a0::before {
+.link_zln_tS::before {
 	position: absolute;
 	content: '';
 	width: 100%;
@@ -119,7 +119,7 @@
 }
 
 // grower border
-.link__972a0::after {
+.link_zln_tS::after {
 	position: absolute;
 	content: '';
 	width: 100%;
@@ -138,23 +138,23 @@
 .interactive_bf202d:hover {
 
 	// grow border and body
-	.link__972a0::before,
-	.link__972a0::after {
+	.link_zln_tS::before,
+	.link_zln_tS::after {
 		transform: scale(100%, 100%);
 	}
 
 	// invert name and icons
-	.overflow_b0dfc2,
-	.linkButtonIcon__972a0,
-	.name__20a53,
-	.subText__20a53 {
+	.overflow__WDjet,
+	.linkButtonIcon_zln_tS,
+	.name_TBNqol,
+	.subText_TBNqol {
 		color: $high;
 	}
 }
 
 // When selected
 .interactive_bf202d.selected_bf202d {
-	.link__972a0::before {
+	.link_zln_tS::before {
 		transform: scale(100%, 100%);
 		animation: none;
 		background-color: $low;
@@ -163,7 +163,7 @@
 	}
 
 	// TODO: this doesn't work. for whatever reason, the borders don't retreat to the right, tehy just disappear 
-	.link__972a0::after {
+	.link_zln_tS::after {
 		transition: transform 0.75s;
 		transform: scale(0%, 100%);
 		transform-origin: right;
@@ -231,7 +231,7 @@
 /* } */
 
 // Undread channels
-.unreadPill__972a0 {
+.unreadPill_zln_tS {
 	top: 8px;
 	left: -6px;
 	height: 36px;

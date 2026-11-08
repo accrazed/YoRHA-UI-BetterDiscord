@@ -1,29 +1,29 @@
 @use '../vars/vars.scss' as *;
 
 // transparencies
-.visual-refresh .chatContent_f75fb0,
-.visual-refresh .chat_f75fb0,
-.chat_f75fb0,
+.visual-refresh .chatContent_z_gUBg,
+.visual-refresh .chat_z_gUBg,
+.chat_z_gUBg,
 // main chat+members sidebar wrapper
-.chatContent_f75fb0,
+.chatContent_z_gUBg,
 // weird gradient on bottom
 .chatGradient__36d07,
 .chatTypingGradientAtBottom__36d07,
 // just the chat container
 // #header bar
-.theme-dark .themed__9293f {
+.theme-dark .themed_ybUK7Z {
 	background: transparent;
 }
 
 // # date
-.content__908e2 {
+.content_4TfzT5 {
 	@include boxify($high, $mid, 3px);
 }
 
 // loading chat
-.wrapper_fc8177,
+.wrapper_oITdBA,
 .wrapper_cdf8a9,
-.visual-refresh .wrapper_fc8177,
+.visual-refresh .wrapper_oITdBA,
 .visual-refresh .wrapper_cdf8a9 {
 	background: transparent;
 }

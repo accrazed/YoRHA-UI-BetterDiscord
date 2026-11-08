@@ -1,32 +1,32 @@
 @use '../vars/vars' as *;
 
 //transparencies
-.visual-refresh .container__7641b {
+.visual-refresh .container_UPjGEs {
 	background: transparent;
 }
 
 // thread container
-.typeThread__2ea32.threadsInChannelListQoLExperiment__2ea32.wrapper__2ea32 {
+.typeThread_TNyK-N.threadsInChannelListQoLExperiment__2ea32.wrapper_TNyK-N {
 	margin-left: 0;
 }
 
-.typeThread__2ea32.threadsInChannelListQoLExperiment__2ea32 .link__2ea32 {
+.typeThread_TNyK-N.threadsInChannelListQoLExperiment__2ea32 .link_TNyK-N {
 	padding: 0;
 }
 
-.iconContainer__2ea32[aria-label='#{$aria-label-thread}'] {
+.iconContainer_TNyK-N[aria-label='#{$aria-label-thread}'] {
 	visibility: hidden;
 }
 
 // Message in chat that someone's opened a thread
-.typeThread__2ea32.wrapper__2ea32 {
+.typeThread_TNyK-N.wrapper_TNyK-N {
 	margin-left: 0;
 }
 
-.hasThread_c19a55 {
+.hasThread_2i8Bfm {
 
 	// Elbow
-	&.cozy_c19a55:after {
+	&.cozy_2i8Bfm:after {
 		border-left: 2px solid $low;
 		border-bottom: 2px solid $low;
 		border-bottom-left-radius: 0;
@@ -60,7 +60,7 @@
 }
 
 
-.threadIcon_d9c882 path:first-child {
+.threadIcon_c0tu5x path:first-child {
 	visibility: hidden;
 }
 
@@ -68,35 +68,35 @@
 	@include boxify($high, $mid, 3px);
 }
 
-.container__5b40b .containerDefault_c69b6d {
+.container_reDhww .containerDefault_Wx6SnQ {
 	left: 40px;
 }
 
-.spine__5b40b {
+.spine_reDhww {
 	color: $low;
 }
 
 // Thread popout
-.browser_d98031 {
+.browser_l-3BKx {
 	@include boxify($high, $mid, 3px);
 }
 
 //Mention badge and unread coloring for threads (wtf discord, why is this so hard)
-.typeThread__2ea32 {
-	.name__2ea32 {
+.typeThread_TNyK-N {
+	.name_TNyK-N {
 		position: absolute;
 		left: 25px;
 		max-width: 175px;
 		text-align: left;
 
-		&.overflow_b0dfc2 {
+		&.overflow__WDjet {
 			white-space: nowrap;
 			overflow: hidden;
 			text-overflow: ellipsis;
 		}
 	}
 
-	.mentionsBadge__933a1 {
+	.mentionsBadge_iclnS3 {
 		position: absolute;
 		padding-left: 121px;
 		z-index: 1;

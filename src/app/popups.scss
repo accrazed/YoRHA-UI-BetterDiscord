@@ -3,35 +3,35 @@
 //---------------------- THIS SECTION IS FOR MINOR POPUPS (such as hover tooltips) ---------------------//
 
 // User volume square
-.tooltipContent_c36707 {
+.tooltipContent_3_v8qp {
 	@include boxify($high, $mid, 2px);
 	color: $low
 }
 
-.tooltipGrey_c36707 {
+.tooltipGrey_3_v8qp {
 	color: $high;
 }
 
-.tooltip_c36707 {
+.tooltip_3_v8qp {
 	box-shadow: none;
 }
 
 // right click on message popup
 
 // hover on message popup (with the emojis)
-.buttonsInner__5126c.popover_f84418.popoverReactionHoverBar_f84418.wrapper_f7ecac {
+.buttonsInner__5126c.popover_f84418.popoverReactionHoverBar_f84418.wrapper_Z0MHyc {
 	background-color: $high;
 }
 
-.buttonContainer_c19a55 * {
+.buttonContainer_2i8Bfm * {
 	border-radius: 0px;
 }
 
 // See where emoji is from
-.visual-refresh .popoutContainer__0f481 {
+.visual-refresh .popoutContainer_j9Vvzj {
 	@include boxify($high, $mid, 3px);
 
-	.button__201d5 {
+	.button_9OQtot {
 		border-radius: 0;
 	}
 }
@@ -40,9 +40,9 @@
 
 // emoji/gif/sticker popup
 /* Expression Picker gifs background */
-.content_fed6d3,
+.content_rfDq2B,
 /* Expression Picker gifs header */
-.visual-refresh .header_fed6d3,
+.visual-refresh .header_rfDq2B,
 /* Expression Picker sticker header */
 .visual-refresh .header__8ef02 {
 	background: $high;
@@ -54,37 +54,37 @@
 	/* Expression Picker gifs subcategory header text */
 }
 
-.backButton_fed6d3:hover {
+.backButton_rfDq2B:hover {
 	color: $mid;
 	/* Expression Picker gifs subcategory back button */
 }
 
-.visual-refresh .contentWrapper__08434 {
+.visual-refresh .contentWrapper_58b0l2 {
 	@include boxify($high, $mid, 3px);
 }
 
 // autocomplete popup
-.autocomplete__6b0e0 {
+.autocomplete_rg6La1 {
 	border-radius: 0;
 	box-shadow: 4px 4px 0 var(--color-mid);
 }
 
-.autocomplete__13533 {
+.autocomplete_CAMiwx {
 	background-color: var(--color-high);
 }
 
-.visual-refresh .contentWrapper__08434 {
+.visual-refresh .contentWrapper_58b0l2 {
 	background-color: $high;
 	border: none;
 	border-radius: 0px;
 }
 
 //------ Nav Bar Theming------//
-.nav__08434 {
+.nav_58b0l2 {
 	height: 32px;
 }
 
-.visual-refresh .navButton__08434 {
+.visual-refresh .navButton_58b0l2 {
 	color: $low;
 	background-color: $mid-trans;
 	height: 24px;
@@ -95,7 +95,7 @@
 	}
 }
 
-.visual-refresh .navButtonActive__08434 {
+.visual-refresh .navButtonActive_58b0l2 {
 	background-color: $low;
 	color: $high;
 	height: 32px;
@@ -103,18 +103,18 @@
 
 //-----------------------------//
 //sub container
-.wrapper_c0e32c {
+.wrapper_-sZhZn {
 	border-radius: 0px;
 }
 
 // individual sub-containers (why does every container have its own background color set??)
 .visual-refresh {
 
-	.emojiPicker_c0e32c,
-	.header_c0e32c,
-	.wrapper__14245,
+	.emojiPicker_-sZhZn,
+	.header_-sZhZn,
+	.wrapper_kSdzCr,
 	.wrapper_d852db,
-	.inspector_aeaaeb {
+	.inspector_1bDrGE {
 		background-color: $high;
 	}
 
@@ -131,7 +131,7 @@
 }
 
 // search options in text box
-.visual-refresh .searchAnswer_bd8186, .visual-refresh .searchFilter_bd8186 {
+.visual-refresh .searchAnswer_tknKcK, .visual-refresh .searchFilter_tknKcK {
 	background-color: $high;
 }
 
@@ -142,50 +142,50 @@
 }
 
 // result itself
-.visual-refresh .searchResult__80bf8 {
+.visual-refresh .searchResult_N3Anbl {
 	@include boxify($high, $mid, 3px);
 }
 
 
 //icons and text for sub-titles (frequently used, server name etc)
-.headerIcon__14245>*,
-.headerLabel__14245,
-.headerCollapseIcon__14245,
+.headerIcon_kSdzCr>*,
+.headerLabel_kSdzCr,
+.headerCollapseIcon_kSdzCr,
 .soundmojiViewMore_c656ac {
 	color: $low;
 }
 
-.textWrapper_aeaaeb * {
+.textWrapper_1bDrGE * {
 	color: $low;
 }
 
 // context menus / right click
-.menu_c1e9c4 {
+.menu_M3qk4j {
 	background-color: $high;
 	border-radius: 0px;
 	box-shadow: 3px 3px 0 $mid;
 }
 
-.refresh-fast-follow-distinct-borders .menu_c1e9c4 {
+.refresh-fast-follow-distinct-borders .menu_M3qk4j {
 	border: none;
 }
 
-:where(.visual-refresh) .colorDefault_c1e9c4 {
-	.label_c1e9c4 {
+:where(.visual-refresh) .colorDefault_M3qk4j {
+	.label_M3qk4j {
 		color: $low;
 	}
 
-	&.focused_c1e9c4 {
+	&.focused_M3qk4j {
 		transition: all 0.1s;
 		color: $high;
 		background-color: $low;
 		border-radius: 0px;
 
-		.label_c1e9c4 {
+		.label_M3qk4j {
 			color: $high;
 		}
 
-		.icon_c1e9c4 path {
+		.icon_M3qk4j path {
 			fill: $high !important;
 		}
 	}

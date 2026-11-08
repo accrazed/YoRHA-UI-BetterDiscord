@@ -2,44 +2,44 @@
 
 // transparencies
 // # reply header
-.visual-refresh .stackedBars__74017,
+.visual-refresh .stackedBars_2x8-Qn,
 // # attachement background
-.visual-refresh .channelAttachmentArea_b77158 {
+.visual-refresh .channelAttachmentArea_iH8bsl {
 	background-color: transparent;
 }
 
 
-.form_f75fb0,
-.formWithLoadedChatInput_f75fb0 {
+.form_z_gUBg,
+.formWithLoadedChatInput_z_gUBg {
 	padding-left: 0;
 }
 
 // little random chat ciontainer
-.themedBackground__74017 {
+.themedBackground_2x8-Qn {
 	background: transparent;
 }
 
-.visual-refresh .stackedBars__74017:not(:last-child) {
+.visual-refresh .stackedBars_2x8-Qn:not(:last-child) {
 	border: none;
 }
 
-.clipContainer__841c8 {
+.clipContainer_rE8-46 {
 	padding: 0;
 }
 
-.visual-refresh .actions__841c8 {
+.visual-refresh .actions_rE8-46 {
 	margin: 0;
 }
 
 // Type box
-.channelTextArea__74017:focus-within,
-.channelTextArea_f75fb0 {
+.channelTextArea_2x8-Qn:focus-within,
+.channelTextArea_z_gUBg {
 	border-radius: 0;
 	margin-left: 21px;
 	box-shadow: -3px 0 0 $low, -9px 0 0 $high, -21px 0 0 $low, -18px 3px 0 $mid, 3px 3px 0 $mid;
 }
 
-.channelTextArea__74017:focus-within {
+.channelTextArea_2x8-Qn:focus-within {
 	border-color: transparent;
 }
 
@@ -56,6 +56,6 @@
 }
 
 //# app button
-.button_e6e74f {
+.button_s8hOwn {
 	@include boxify($high, $mid, 3px);
 }
