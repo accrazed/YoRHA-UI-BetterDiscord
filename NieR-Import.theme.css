@@ -524,7 +524,7 @@ label,
   margin: 20px;
 }
 
-.container_rmCN9_ {
+.user-profile-modal-v2 .container_rmCN9_ {
   left: 0;
   top: 0;
   margin: 0 20px;
@@ -556,6 +556,16 @@ label,
 
 .outer_P1YEjQ .username__24502 {
   margin: 0;
+}
+
+.tabListScroller_y4ZEM5 {
+  padding: 1em;
+  background-color: var(--color-high);
+}
+
+.container_FNEkcu {
+  background-color: var(--color-high);
+  color: var(--color-low);
 }
 
 .custom-user-profile-theme.user-profile-popout :where(.avatar_WRLIGC),
