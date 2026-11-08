@@ -713,6 +713,10 @@ html:not(.visual-refresh-chat-input) .inputInner_-dEX_A {
   color: var(--color-low);
 }
 
+.fill_vNEdYY {
+  mask-image: none;
+}
+
 .container_klbANn {
   background: var(--color-high);
   border-radius: 0;
